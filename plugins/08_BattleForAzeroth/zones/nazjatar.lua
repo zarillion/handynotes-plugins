@@ -124,7 +124,6 @@ map.nodes[58605329] = Rare({
     quest = 56281,
     note = L['anemonar_note'],
     rewards = {
-        Achievement({id = 13691, criteria = 45522}), -- Kill
         Achievement({id = 13692, criteria = {46088, 46089}}), -- Ancient Reefwalker Bark, Reefwalker Bark
         Item({item = 170184, weekly = 57140}) -- Ancient Reefwalker Bark
     }
@@ -521,7 +520,6 @@ map.nodes[coord(0, 1)] = Rare({
     minimap = false,
     note = L['zone_spawn'] .. ' ' .. L['rockweed_note'],
     rewards = {
-        Achievement({id = 13691, criteria = 45542}), -- Kill
         Pet({id = 2707, item = 169374}) -- Budding Algan
     }
 }) -- Rockweed Shambler

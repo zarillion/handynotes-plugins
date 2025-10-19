@@ -3,8 +3,8 @@
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
 local L = ns.locale
-local Map = ns.Map
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
 local Section = ns.reward.Section
@@ -17,29 +17,36 @@ local POI = ns.poi.POI
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({id = 26, settings = true})
+local map = ns.Map({id = 26, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
+map.nodes[64808160] = Rare({
+    id = 8217,
+    rewards = {
+        Transmog({item = 17050, type = L['cloth']}) -- Chan's Imperial Robes
+    }
+}) -- Mith'rethis the Enchanter
+
 map.nodes[63602800] = ns.node.AnniversaryRare({
     id = 121821,
     quest = 47463,
     rewards = {
-        Transmog({item = 150399, slot = L['cloth']}), -- Black Bark Wristbands
-        Transmog({item = 150401, slot = L['leather']}), -- Deviate Growth Cap
-        Transmog({item = 150398, slot = L['leather']}), -- Dark Heart Pants
-        Transmog({item = 150400, slot = L['mail']}), -- Malignant Footguards
-        Transmog({item = 150402, slot = L['plate']}), -- Gauntlets of the Shining Light
+        Transmog({item = 150399, type = L['cloth']}), -- Black Bark Wristbands
+        Transmog({item = 150401, type = L['leather']}), -- Deviate Growth Cap
+        Transmog({item = 150398, type = L['leather']}), -- Dark Heart Pants
+        Transmog({item = 150400, type = L['mail']}), -- Malignant Footguards
+        Transmog({item = 150402, type = L['plate']}), -- Gauntlets of the Shining Light
         Spacer(), Section(L['shared_drops']), Spacer(),
-        Transmog({item = 150429, slot = L['dagger']}), -- Emerald Dragonfang
-        Transmog({item = 150412, slot = L['1h_mace']}), -- Hammer of Bestial Fury
-        Transmog({item = 150393, slot = L['1h_sword']}), -- Nightmare Blade
-        Transmog({item = 150403, slot = L['crossbow']}), -- Polished Ironwood Crossbow
-        Transmog({item = 150408, slot = L['staff']}), -- Staff of Rampant Growth
-        Transmog({item = 150411, slot = L['cloak']}), -- Green Dragonskin Cloak
-        Transmog({item = 150383, slot = L['staff']}) -- Amberseal Keeper
+        Transmog({item = 150429, type = L['dagger']}), -- Emerald Dragonfang
+        Transmog({item = 150412, type = L['1h_mace']}), -- Hammer of Bestial Fury
+        Transmog({item = 150393, type = L['1h_sword']}), -- Nightmare Blade
+        Transmog({item = 150403, type = L['crossbow']}), -- Polished Ironwood Crossbow
+        Transmog({item = 150408, type = L['staff']}), -- Staff of Rampant Growth
+        Transmog({item = 150411, type = L['cloak']}), -- Green Dragonskin Cloak
+        Transmog({item = 150383, type = L['staff']}) -- Amberseal Keeper
     }
 }) -- Lethon
 

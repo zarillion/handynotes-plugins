@@ -1,6 +1,20 @@
-**A [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) plugin for the Battle for Azeroth expansion. It will add the locations and rewards for rare mobs, battle pets, treasures and other miscellaneous points of interest to the map.**
+**The [HandyNotes](https://www.curseforge.com/wow/addons/handynotes) plugin for the Battle for Azeroth expansion. It will add the locations and rewards for rare mobs, battle pets, treasures and other miscellaneous points of interest to the map.**
 
-![](https://media.forgecdn.net/attachments/509/189/banner-battle-for-azeroth.png)
+![](https://media.forgecdn.net/attachments/949/48/banner-bfa.png)
+
+## Related Plugins
+
+* [HandyNotes: Kalimdor & Eastern Kingdoms](https://www.curseforge.com/wow/addons/handynotes-kalimdor-eastern-kingdoms)
+* [HandyNotes: The Burning Crusade](https://www.curseforge.com/wow/addons/handynotes-the-burning-crusade)
+* [HandyNotes: Wrath of the Lich King](https://www.curseforge.com/wow/addons/handynotes-wrath-of-the-lich-king)
+* [HandyNotes: Cataclysm](https://www.curseforge.com/wow/addons/handynotes-cataclysm)
+* [HandyNotes: Mists of Pandaria](https://www.curseforge.com/wow/addons/handynotes-mists-of-pandaria)
+* [HandyNotes: Warlords of Draenor](https://www.curseforge.com/wow/addons/handynotes-warlords-of-draenor)
+* [HandyNotes: Legion](https://www.curseforge.com/wow/addons/handynotes-legion)
+* **[HandyNotes: Battle for Azeroth](https://www.curseforge.com/wow/addons/handynotes-battle-for-azeroth)**
+* [HandyNotes: Shadowlands](https://www.curseforge.com/wow/addons/handynotes-shadowlands)
+* [HandyNotes: Dragonflight](https://www.curseforge.com/wow/addons/handynotes-dragonflight)
+* [HandyNotes: The War Within](https://www.curseforge.com/wow/addons/handynotes-the-war-within)
 
 ## Global Features
 

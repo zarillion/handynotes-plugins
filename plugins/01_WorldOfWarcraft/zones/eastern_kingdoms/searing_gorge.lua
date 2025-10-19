@@ -2,11 +2,12 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
-local Map = ns.Map
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
-local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -14,7 +15,58 @@ local POI = ns.poi.POI
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({id = 32, settings = true})
+local map = ns.Map({id = 32, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[57802440] = Rare({
+    id = 50846,
+    rewards = {
+        Transmog({item = 9924, type = L['leather']}), -- Tracker's Tunic
+        Transmog({item = 10185, type = L['cloak']}) -- Swashbuckler's Cape
+    }
+}) -- Slavermaw
+
+map.nodes[66004620] = Rare({
+    id = 50948,
+    rewards = {
+        Transmog({item = 9937, type = L['cloth']}), -- Abjurer's Bands
+        Transmog({item = 10091, type = L['plate']}) -- Gothic Plate Leggings
+    }
+}) -- Crystalback
+
+map.nodes[38204440] = Rare({
+    id = 8283,
+    rewards = {Transmog({item = 10060, type = L['cloak']})} -- Duskwoven Cape
+}) -- Slave Master Blackheart
+
+map.nodes[71201780] = Rare({
+    id = 50876,
+    rewards = {
+        Transmog({item = 10201, type = L['plate']}), -- Overlord's Greaves
+        Transmog({item = 9962, type = L['mail']}) -- Warmonger's Greaves
+    }
+}) -- Avis
+
+map.nodes[35005200] = Rare({
+    id = 51010,
+    location = L['in_small_cave'],
+    rewards = {
+        Transmog({item = 9962, type = L['mail']}), -- Warmonger's Greaves
+        Transmog({item = 9945, type = L['cloth']}) -- Abjurer's Sash
+    }
+}) -- Snips
+
+map.nodes[18403880] = Rare({
+    id = 51002,
+    location = L['in_cave'],
+    rewards = {
+        Transmog({item = 7523, type = L['cloth']}), -- Gossamer Shoulderpads
+        Transmog({item = 10069, type = L['leather']}) -- Righteous Bracers
+    }
+}) -- Scorpoxx
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
@@ -130,25 +182,3 @@ map.nodes[49405140] = Safari.MoltenHatchling({
         })
     }
 }) -- Molten Hatchling
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[10001000] = ns.node.Dragonrace({
-    label = '{quest:76357}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
-    rewards = {
-        Achievement({id = 18566, criteria = 3, oneline = true}), -- normal bronze
-        Achievement({id = 18567, criteria = 3, oneline = true}), -- normal silver
-        Achievement({id = 18568, criteria = 3, oneline = true}), -- normal gold
-        Achievement({id = 18569, criteria = 3, oneline = true}), -- advanced bronze
-        Achievement({id = 18570, criteria = 3, oneline = true}), -- advanced silver
-        Achievement({id = 18571, criteria = 3, oneline = true}), -- advanced gold
-        Achievement({id = 18572, criteria = 3, oneline = true}), -- reverse bronze
-        Achievement({id = 18573, criteria = 3, oneline = true}), -- reverse silver
-        Achievement({id = 18574, criteria = 3, oneline = true}) -- reverse gold
-    }
-}) -- Searing Slalom

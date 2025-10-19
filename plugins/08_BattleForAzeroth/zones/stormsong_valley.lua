@@ -610,20 +610,24 @@ local honeyback = Class('Honeyback', NPC, {
             local color = completed and ns.status.Green or ns.status.Gray
             return color(L['hourly'])
         end
+    },
+    rewards = {
+        Pet({id = 2793, item = 172492}), -- Sunsoaked Flitter
+        Pet({id = 2792, item = 172491}) -- Papi
     }
-})()
+})
 
-map.nodes[25667224] = honeyback
-map.nodes[33053243] = honeyback
-map.nodes[40936214] = honeyback
-map.nodes[43003300] = honeyback
-map.nodes[47453212] = honeyback
-map.nodes[57175125] = honeyback
-map.nodes[61893195] = honeyback
-map.nodes[63012131] = honeyback
-map.nodes[66307000] = honeyback
-map.nodes[69007000] = honeyback
-map.nodes[72105230] = honeyback
+map.nodes[25667224] = honeyback()
+map.nodes[33053243] = honeyback()
+map.nodes[40936214] = honeyback()
+map.nodes[43003300] = honeyback()
+map.nodes[47453212] = honeyback()
+map.nodes[57175125] = honeyback()
+map.nodes[61893195] = honeyback()
+map.nodes[63012131] = honeyback()
+map.nodes[66307000] = honeyback()
+map.nodes[69007000] = honeyback()
+map.nodes[72105230] = honeyback()
 
 -------------------------------------------------------------------------------
 --------------------------- LEGENDS OF THE TIDESAGES --------------------------

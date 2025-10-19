@@ -2,18 +2,83 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
-local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
+local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 48, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[54605410] = Rare({
+    id = 2476,
+    rewards = {
+        Transmog({item = 3563, type = L['cloth']}), -- Seafarer's Pantaloons
+        Transmog({item = 6197, type = L['leather']}) -- Loch Croc Hide Vest
+    }
+}) -- Gosh-Haldir
+
+map.nodes[25103013] = Rare({
+    id = 1425,
+    rewards = {
+        Transmog({item = 6195, type = L['mail']}), -- Wax-Polished Armor
+        Transmog({item = 2284, type = L['cloak']}) -- Rat Cloth Cloak
+    }
+}) -- Kubb
+
+map.nodes[70356420] = Rare({
+    id = 1398,
+    rewards = {
+        Transmog({item = 1215, type = L['leather']}), -- Support Girdle
+        Transmog({item = 1938, type = L['1h_mace']}) -- Block Mallet
+    },
+    pois = {
+        Path({
+            68006598, 68766602, 69226666, 69526732, 70266755, 70696702,
+            70756629, 70696558, 70476494, 70356420, 70366353, 70316283,
+            70186209, 70146141, 70126060, 69815997, 68935975
+        })
+    }
+}) -- Boss Galgosh
+
+map.nodes[30677544] = Rare({
+    id = 1399,
+    rewards = {
+        Transmog({item = 2241, type = L['cloak']}), -- Desperado Cape
+        Transmog({item = 3571, type = L['2h_mace']}) -- Trogg Beater
+    }
+}) -- Magosh
+
+map.nodes[43604840] = Rare({
+    id = 45401,
+    rewards = {
+        Transmog({item = 9747, type = L['cloth']}), -- Simple Britches
+        Transmog({item = 9763, type = L['mail']}), -- Cadet Leggings
+        Transmog({item = 9756, type = L['leather']}) -- Nomad Trousers
+    },
+    pois = {Path({45403740, 43004360, 43604840, 44805260, 49605700})}
+}) -- Whitefin
+
+map.nodes[35801577] = Rare({
+    id = 45398,
+    rewards = {
+        Transmog({item = 9756, type = L['leather']}), -- Nomad Trousers
+        Transmog({item = 9747, type = L['cloth']}), -- Simple Britches
+        Transmog({item = 9763, type = L['mail']}) -- Cadet Leggings
+    }
+}) -- Grizlak
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
@@ -97,25 +162,3 @@ map.nodes[32201640] = Safari.Squirrel({
         })
     }
 }) -- Squirrel
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[10001000] = ns.node.Dragonrace({
-    label = '{quest:76339}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
-    rewards = {
-        Achievement({id = 18566, criteria = 2, oneline = true}), -- normal bronze
-        Achievement({id = 18567, criteria = 2, oneline = true}), -- normal silver
-        Achievement({id = 18568, criteria = 2, oneline = true}), -- normal gold
-        Achievement({id = 18569, criteria = 2, oneline = true}), -- advanced bronze
-        Achievement({id = 18570, criteria = 2, oneline = true}), -- advanced silver
-        Achievement({id = 18571, criteria = 2, oneline = true}), -- advanced gold
-        Achievement({id = 18572, criteria = 2, oneline = true}), -- reverse bronze
-        Achievement({id = 18573, criteria = 2, oneline = true}), -- reverse silver
-        Achievement({id = 18574, criteria = 2, oneline = true}) -- reverse gold
-    }
-}) -- Loch Modan Loop

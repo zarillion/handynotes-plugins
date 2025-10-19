@@ -86,7 +86,6 @@ L['options_icons_signal_transmitter'] = '龙洞发生器信号发射机'
 L['options_icons_signal_transmitter_desc'] = '显示 {item:198156} 的 {object:关闭的信号发射机} 的位置。'
 
 L['rare_14h'] = '此稀有与其他稀有构成14小时的循环，每30分钟出现一个稀有。\n\n下次出现：{note:%s}'
-L['now'] = '现在'
 L['spawns_at_night'] = '{note:只可能在夜间出现。（服务器时间18:30之后）}'
 
 L['elemental_storm'] = '元素风暴'
@@ -161,6 +160,8 @@ L['shadowflame_leatherworking_table_label'] = '暗影烈焰制皮桌'
 L['shadowflame_leatherworking_table_note'] = '制作如下配方时需要:\n{spell:406275}'
 L['shadowflame_incantation_table_label'] = '暗影烈焰法咒桌'
 L['shadowflame_incantation_table_note'] = '制作如下配方时需要:\n{spell:405076}'
+L['altar_of_decay_label'] = '腐朽祭坛'
+L['altar_of_decay_note'] = '制作如下配方时需要:\n{spell:110423}: \n腐朽图样\n腐朽注能材料\n\n{spell:264211}: \n毒素药水\n毒素瓶剂\n{spell:405879}'
 L['azure_loom_label'] = '碧蓝织布机'
 L['azure_loom_note'] = '制作如下配方时需要:\n{spell:376556}'
 L['temporal_loom_label'] = '时光织布机'
@@ -187,13 +188,17 @@ L['options_icons_rich_soil'] = '肥沃的土壤'
 L['options_icons_rich_soil_desc'] = '显示 {object:肥沃的土壤} 的位置。'
 
 L['information_stuffed_clue'] = '满载信息的线索'
-L['clued_in_note'] = '{npc:210079} 于事件 {note:盛大发掘}，以及3个世界任务 {wq:研究：……} 期间刷新。'
+L['clued_in_note'] = '{npc:210079} 于事件 {note:盛大发掘}，以及世界任务 {wq:研究：……} 期间刷新。'
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = '显示成就 {achievement:19787} 中 {npc:210079} 的位置。'
 
 L['goggle_wobble_note'] = '在引导任务线或世界任务 {wq:科技占卜：……} 期间，穿戴 {item:202247} 的同时与 {npc:207763} {emote:/跳舞}({emote:/dance})。'
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = '显示成就 {achievement:19791} 中 {npc:207763} 的位置。'
+
+L['just_one_more_thing_note'] = '需要完成任一世界任务 {wq:研究：……} 3次。'
+L['options_icons_just_one_more_thing'] = '{achievement:19792}'
+L['options_icons_just_one_more_thing_desc'] = '显示 {achievement:19792} 的成就子项进度。'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -405,11 +410,11 @@ L['neltharions_toolkit_note'] = [[1. 从 {location:兹斯克拉宝库} 中收集
 
 2. 前往{location:觉醒海岸} 的 {location:焖燃栖地}。
 
-3. 在 {npc:193310} 旁边的洞穴中找到 {object:损坏的界门}。
+3. 在 {npc:193310} 旁边的洞穴中找到 {object:坏掉的界门}。
 
-4. 修复 {object:损坏的界门}。{note:这可能需要点击几下。}
+4. 修复 {object:坏掉的界门}。{note:这可能需要点击几下。}
 
-5. 传送到 {location:兹斯克拉宝库} 内的隐藏房间。击杀 {npc:200375} 和 {npc:203639} 然后打开 {object:黑曜石大宝箱} 领取战利品！]]
+5. 传送到 {location:兹斯克拉宝库} 内的隐藏房间。击杀 {npc:200375} 和 {npc:203639} 然后打开 {object:辉煌的黑曜石宝箱} 领取战利品！]]
 
 L['recipe_rat_note_1'] = '与 {location:兹斯克拉宝库} 中的 {npc:202982} 交谈，{item:202252} 会进入包内。'
 L['recipe_rat_note_2'] = '与 {item:202252} 互动以收到 {item:204340}。{note:（5分钟冷却时间）}'
@@ -459,6 +464,12 @@ L['untranslated_tome'] = '未翻译的魔典'
 L['untranslated_tome_note'] = '在建筑里，入口位于桥下。'
 L['mysterious_boot'] = '神秘的靴子'
 L['mysterious_boot_note'] = '在上层。'
+L['decaying_fishing_bucket'] = '腐烂鱼桶'
+L['decaying_fishing_bucket_note'] = '在塔的最顶层。'
+L['forgotten_fishing_pole'] = '被遗忘的鱼竿'
+L['forgotten_fishing_pole_note'] = '在最底层。'
+L['overgrown_fishing_bench'] = '长满杂草的钓鱼椅'
+L['overgrown_fishing_bench_note'] = '覆满青苔的岩石，不大显眼。'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -537,6 +548,7 @@ L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = '显示 {achievement:16574} 成就中梦境防御者的位置。'
 
 L['khadin_note'] = '将 {item:191784} 换成专业知识。'
+L['khadin_prof_note'] = '还需投入 %d 点 {currency:%d} 才能点满 {spell:%d} 专业树。'
 L['the_great_swog_note'] = '将 {item:199338}、{item:199339} 和 {item:199340} 换成 {item:202102}。'
 L['hunt_instructor_basku_note'] = '用 {item:200093} 换取 {faction:2503} 声望。'
 L['elder_yusa_note'] = '目标为 {npc:192818} 并 {emote:/饿}，{emote:/hungry} 获得烹饪配方。'
@@ -570,7 +582,7 @@ L['prismatic_leaper_school_label'] = '棱光跃鲑鱼群'
 L['prismatic_leaper_school_note'] = '与 {location:伊斯卡拉} 的 {npc:195935} 交谈以进行升级。\n\n从整个 {location:欧恩哈拉平原} 的 {object:棱光跃鲑鱼群} 中钓取以下物品：\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
 
 L['aylaag_spear'] = '艾拉格长矛'
-L['dedication_plaquard'] = '奉献壁橱'
+L['dedication_plaquard'] = '专心标牌'
 
 -------------------------------------------------------------------------------
 --------------------------------- THALDRASZUS ---------------------------------
@@ -668,13 +680,13 @@ L['naszuro_thaldraszus_peak'] = '第二高的山峰上。'
 L['naszuro_temporal_conflux'] = '在龙雕像的头上。'
 
 L['revival_catalyst_label'] = '复苏化生'
-L['revival_catalyst_note'] = '将非套装装备转换为同等物品等级和装备槽套装装备。'
+L['revival_catalyst_note'] = '将非套装装备转换为同等物品等级和装备槽套装装备。\n\n{currency:2912}: %d/%d'
 
 L['provisioner_aristta_note'] = '用 {currency:2657} 兑换幻化和坐骑。'
 
 L['investigators_pocketwatch_note_a'] = '1. 从 {location:纪元边界} 的 {location:万时旅店} 楼上的 {npc:204990} ({dot:Green}) 借用 {item:208449}。\n\n{note:必须之前已完成她的任务链。}'
 L['investigators_pocketwatch_note_b'] = '2. 在 {location:纪元边界} 的 {location:万时旅店} 楼下的 {npc:203769} ({dot:Blue}) 附近使用 {item:208449} 并从 {npc:207463} 购买 {item:208448}。\n\n{note:{item:208448} 的持续时间为30秒。快点！}'
-L['investigators_pocketwatch_note_c'] = '3. 快速到达瀑布并喝 {item:208448}。与新可见的 {object:时间浸透的钟} 交互以出现 {npc:201664}。'
+L['investigators_pocketwatch_note_c'] = '3. 快速到达瀑布并喝 {item:208448}。与新可见的 {object:时润时钟} 交互以出现 {npc:201664}。'
 
 L['ominous_portal_label'] = '{npc:214985}'
 L['ominous_portal_note'] = '每30分钟就会出现一个 {npc:214985}。\n\n5分钟后 {npc:214984} 将出现多个首领。击败 {npc:215141}、{npc:215147} 和 {npc:215146}，就有机会获得奖励。\n\n{note:没有每日拾取锁定。}'
@@ -825,7 +837,7 @@ L['phoenix_wishwing_talisman'] = [[
 
 这是位于 {location:阿兰卡峰林} 的 {npc:88045} {dot:Gold} 出售。如果 {npc:88045} 不在，完成任务 {quest:35010} 就能见到他。
 需要以下物品才能购买：]]
-L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\n从 {location:火焰之地时光漫游} 的 {npc:52530} 掉落'
+L['phoenix_wishwing_phoenix_ember'] = '%s {item:199099}\n从 {location:火焰之地时光漫游} 的 {npc:52530} 掉落。'
 L['phoenix_wishwing_sacred_ash'] = '%s {item:199097}\n可以在 {object:烹锅} 中找到，位于 {location:阿兰卡峰林} 附近。'
 L['phoenix_wishwing_inert_ash'] = '%s {item:199092}\n位于 {location:安戈洛环形山} {dot:Gray} 中心的 {npc:6520} 和 {npc:6521} 少量掉落。'
 L['phoenix_wishwing_smoldering_ash'] = [[
@@ -850,9 +862,14 @@ L['naszuro_ruby_lifeshrine'] = '龙雕像爪子的下面。'
 L['naszuro_dragonheart_outpost'] = '在树的树枝上。'
 
 L['box_of_rocks_label'] = '一箱岩石'
-L['box_of_rocks_note'] = '{object:一箱岩石} 可以在 {location:觉醒海岸} 周围的 {location:兹斯克拉宝库} 内找到，或者从拍卖行购买。'
+L['box_of_rocks_note'] = '{object:一箱岩石} 可以在 {location:觉醒海岸} 整个地区，或者{location:禁忌离岛} 的 {location:兹斯克拉宝库} 内找到，也可以从拍卖行购买。'
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = '显示 {achievement:18559} 成就中 {object:一箱岩石} 可能的位置。'
+
+L['drakonid_painting'] = '龙人绘画'
+L['emptied_hourglass'] = '空荡荡的沙漏'
+L['rusted_signal_horn'] = '生锈的传信号角'
+L['rusted_signal_horn_note'] = '在顶层。'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
@@ -885,7 +902,7 @@ L['nal_kskol_reliquary_label'] = '纳·克斯寇圣物匣'
 L['nal_kskol_reliquary_note'] = '使用 {object:圣物匣开启控制台} 并解开拼图以打开 {object:纳·克斯寇圣物匣}。'
 
 L['busted_wyrmhole_generator_note'] = '从 {object:坏掉的龙洞发生器} 一起拾取的 {item:205954}。\n使用后为 {item:198156} 解锁 {location:查拉雷克洞窟} 的虫洞选项。'
-L['molten_scoutbot_note'] = '打开 {object:熔火斥候机器人} 并拾取 {item:204855}.'
+L['molten_scoutbot_note'] = '打开 {object:熔火斥候机器人} 并拾取 {item:204855}。'
 L['bolts_and_brass_note'] = '打开 {object:螺栓和黄铜} 并拾取 {item:204850}。'
 
 L['sniffen_sage_suffix'] = '找到特殊物品'
@@ -927,6 +944,11 @@ L['djaradin_scroll'] = '贾拉丁卷轴'
 L['forgotten_incense'] = '被遗忘的熏香'
 L['forgotten_incense_note'] = '{note:由于任务边界的问题难以到达。}'
 L['historied_heirloom'] = '历史传家宝'
+L['rusted_dirt_pale'] = '灰色锈尘'
+L['rusted_dirt_pale_note'] = '{note:在点击本区域的其他 {object:满载信息的线索} 后会消失。}'
+L['niffen_pickaxe'] = '鼹鼠人矿锄'
+L['chipped_grub_pot'] = '有缺口的虫锅'
+L['chipped_grub_pot_note'] = '在塔顶。'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
@@ -1021,6 +1043,7 @@ L['mbc_vial_k'] = '卡利姆多'
 L['mbc_vial_n'] = '诺森德'
 L['mbc_vial_o'] = '外域'
 
+L['mbc_vial_b_location'] = '萨斯塔拉盆地'
 L['mbc_vial_d_location'] = '星落哨站'
 L['mbc_vial_e_location'] = '黎明森林'
 L['mbc_vial_k_location'] = '怒风兽穴'
@@ -1042,7 +1065,7 @@ L['slumbering_somnowl_note_e'] = '将 {item:210566} 和 {item:194864} 组成 {it
 
 L['thaelishar_vendor_note'] = '用金币来购买德鲁伊印记。'
 L['silent_mark_label'] = '繁梦峭壁'
-L['silent_mark_note'] = '对目标动物引导，使印记与其形态协调，直至获得 {spell:426910}。{note:需要协调10多只动物。}\n\n用 {item:210764} 引导 {npc:210892}。\n\n用 {item:210767} 引导 {npc:211347}、{npc:211283} 或 {npc:210894}。\n\n用 {item:210755} 引导 {npc:210594}。\n\n用 {item:210766} 引导 {npc:209494}。'
+L['silent_mark_note'] = '对目标动物引导，使印记与其形态协调，直至获得 {spell:426910}。{note:需要协调10多只动物。}\n\n用 {item:210764} 引导 {npc:210892}。\n\n用 {item:210767} 引导 {npc:211347}、{npc:211283} 或 {npc:210894}。\n\n用 {item:210755} 引导 {npc:210594}。\n\n用 {item:210766} 引导 {npc:209494}，{npc:212028}，或 {npc:212024}。'
 
 L['amirdrassil'] = '阿梅达希尔，梦境之愿'
 L['prismatic_location'] = '在团队副本 {location:阿梅达希尔，梦境之愿} 内。'
@@ -1229,7 +1252,7 @@ L['soa_13_great_place_c_note'] = '在一座小建筑里，两个 {npc:197035} �
 L['soa_13_great_place_d_label'] = '研究员的笔记'
 L['soa_13_great_place_d_note'] = '在一栋小建筑内，一些书旁边。'
 L['soa_13_great_place_e_label'] = '字迹潦草的字条'
-L['soa_13_great_place_e_note'] = '在 {ocation:匠人集市} 的供应商摊位后面。'
+L['soa_13_great_place_e_note'] = '在 {location:匠人集市} 的供应商摊位后面。'
 L['soa_13_great_place_f_label'] = '给克里沙的便条'
 L['soa_13_great_place_f_note'] = '在 {location:巨龙宝藏} 内的一个箱子上。\n\n需要对 {location:脆烤山羊旅店} 中的 {npc:189827} 进行表情 {emote:/鞠躬}，{emote:/bow} 才能进入秘密酒吧。'
 

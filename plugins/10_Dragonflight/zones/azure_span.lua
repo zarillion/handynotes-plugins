@@ -59,6 +59,8 @@ local DC = ns.DRAGON_CUSTOMIZATIONS
 
 local map = Map({id = 2024, settings = true})
 local tra = Map({id = 2262, settings = false}) -- Traitor's Rest
+local bhh = Map({id = 2096, settings = false}) -- Brackenhide Hollow
+local bhd = Map({id = 2106, settings = false}) -- Brackenhide Hollow - Den of Decay
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -224,7 +226,7 @@ map.nodes[27214490] = Rare({
     }
 }) -- Dragonhunter Gorund
 
-map.nodes[50043631] = Rare({
+map.nodes[49283861] = Rare({
     id = 193691,
     vignette = 5475,
     quest = 72254,
@@ -1233,13 +1235,13 @@ local TuskarrChest = Class('TuskarrChest', ns.node.Node, {
     group = ns.groups.TUSKARR_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Transmog({item = 201372, slot = L['cosmetic']}), -- Imbu Tuskarr Axe
-        Transmog({item = 201373, slot = L['cosmetic']}), -- Imbu Net Cutter
-        Transmog({item = 201374, slot = L['cosmetic']}), -- Tuskarr Fishing Pike
-        Transmog({item = 201376, slot = L['cosmetic']}), -- Imbu Tuskarr Mace
-        Transmog({item = 201377, slot = L['cosmetic']}), -- Imbu Warrior's Club
-        Transmog({item = 201377, slot = L['cosmetic']}), -- Tuskarr Elder's Staff
-        Transmog({item = 201378, slot = L['cosmetic']}), -- Tuskarr Angler's Crossbow
+        Transmog({item = 201372, slot = L['1h_axe']}), -- Imbu Tuskarr Axe
+        Transmog({item = 201373, slot = L['dagger']}), -- Imbu Net Cutter
+        Transmog({item = 201374, slot = L['polearm']}), -- Tuskarr Fishing Pike
+        Transmog({item = 201375, slot = L['2h_mace']}), -- Imbu Warrior's Club
+        Transmog({item = 201376, slot = L['1h_mace']}), -- Imbu Tuskarr Mace
+        Transmog({item = 201377, slot = L['staff']}), -- Tuskarr Elder's Staff
+        Transmog({item = 201378, slot = L['crossbow']}), -- Tuskarr Angler's Crossbow
         Item({item = 192055}), -- Dragon Isles Artifact
         Item({item = 200071}), -- Sacred Tuskarr Totem
         Currency({id = 2003}) -- Dragon Isles Supplies
@@ -1261,6 +1263,7 @@ map.nodes[58925475] = TuskarrChest({note = L['in_water']})
 map.nodes[59006670] = TuskarrChest()
 map.nodes[59235652] = TuskarrChest()
 map.nodes[60505900] = TuskarrChest()
+map.nodes[45815613] = TuskarrChest()
 
 -------------------------------------------------------------------------------
 ----------------------------- DECAY COVERED CHEST -----------------------------
@@ -1272,12 +1275,12 @@ local DecayCoveredChest = Class('DecayCoveredChest', ns.node.Node, {
     group = ns.groups.DECAY_COVERED_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Transmog({item = 201365, slot = L['cosmetic']}), -- Brackenhide Gnoll Guard
-        Transmog({item = 201370, slot = L['cosmetic']}), -- Brackenhide Skullcracker
-        Transmog({item = 201369, slot = L['cosmetic']}), -- Hollow Greatwood Pestilence
-        Transmog({item = 201368, slot = L['cosmetic']}), -- Brackenhide Hollow Barbslinger
-        Transmog({item = 201363, slot = L['cosmetic']}), -- Brackenhide Hollow Maul
-        Transmog({item = 201367, slot = L['cosmetic']}), -- Hollow Hunter's Sticker
+        Transmog({item = 201365, slot = L['shield']}), -- Brackenhide Gnoll Guard
+        Transmog({item = 201370, slot = L['1h_mace']}), -- Brackenhide Skullcracker
+        Transmog({item = 201369, slot = L['2h_mace']}), -- Hollow Greatwood Pestilence
+        Transmog({item = 201368, slot = L['crossbow']}), -- Brackenhide Hollow Barbslinger
+        Transmog({item = 201363, slot = L['2h_mace']}), -- Brackenhide Hollow Maul
+        Transmog({item = 201367, slot = L['polearm']}), -- Hollow Hunter's Sticker
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
         Item({item = 199066, quest = 70535}), -- Letter of Caution
         Recipe({item = 194312, profession = 165}), -- Pattern: Gnoll Tent
@@ -1324,6 +1327,7 @@ map.nodes[35603410] = DecayCoveredChest()
 map.nodes[35904660] = DecayCoveredChest()
 map.nodes[58204140] = DecayCoveredChest()
 map.nodes[58504270] = DecayCoveredChest()
+map.nodes[57514132] = DecayCoveredChest()
 
 -------------------------------------------------------------------------------
 ---------------------------------- REED CHEST ---------------------------------
@@ -1729,12 +1733,6 @@ map.nodes[38453474] = GrandHunt({
 ------------------------------- COMMUNITY FEAST -------------------------------
 -------------------------------------------------------------------------------
 
-local COMMUNITY_FEAST_AREA_POIS = {
-    [7218] = 'Before Feast',
-    [7219] = 'During Feast',
-    [7220] = 'After Feast'
-}
-
 local COMMUNITY_FEAST_REWARDS = {
     Achievement({id = 16444}), -- Leftovers Revenge
     Achievement({
@@ -1744,10 +1742,16 @@ local COMMUNITY_FEAST_REWARDS = {
     Recipe({item = 198131, profession = 185}), -- Recipe: Gral's Devotion
     Recipe({item = 198129, profession = 185}), -- Recipe: Gral's Reverence
     Recipe({item = 198130, profession = 185}), -- Recipe: Gral's Veneration
-    Transmog({item = 200882, slot = L['cosmetic']}), -- Big Kinook's Spare Ladle
+    Transmog({item = 200882, slot = L['staff']}), -- Big Kinook's Spare Ladle
     ns.reward.Spacer(), Item({item = 200652}), -- Alchemical Flavor Pocket
     Item({item = 192055}), -- Dragon Isles Artifact
     Item({item = 200071}) -- Sacred Tuskarr Totem
+}
+
+local COMMUNITY_FEAST_AREA_POIS = {
+    [7218] = COMMUNITY_FEAST_REWARDS, -- Before Feast
+    [7219] = COMMUNITY_FEAST_REWARDS, -- During Feast
+    [7220] = COMMUNITY_FEAST_REWARDS -- After Feast
 }
 
 map.nodes[13524860] = Collectible({
@@ -1772,25 +1776,7 @@ map.nodes[13524860] = Collectible({
     end
 }) -- Community Feast
 
-hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
-    if self and self.areaPoiID then
-        local mapID = self:GetMap().mapID
-        local group = ns.groups.COMMUNITY_FEAST
-        if COMMUNITY_FEAST_AREA_POIS[self.areaPoiID] then
-            if group:GetDisplay(mapID) then
-                if ns:GetOpt('show_loot') then
-                    GameTooltip:AddLine(' ')
-                    for i, reward in ipairs(COMMUNITY_FEAST_REWARDS) do
-                        if reward:IsEnabled() then
-                            reward:Render(GameTooltip)
-                        end
-                    end
-                end
-                GameTooltip:Show()
-            end
-        end
-    end
-end)
+ns.hooks.areapoievent.Add(ns.groups.COMMUNITY_FEAST, COMMUNITY_FEAST_AREA_POIS)
 
 -------------------------------------------------------------------------------
 ---------------------- ANCIENT STONES OF THE AZURE SPAN -----------------------
@@ -1835,8 +1821,6 @@ map.nodes[44035954] = RichSoil()
 -------------------------------------------------------------------------------
 ----------------------------- THE VEGETARIAN DIET -----------------------------
 -------------------------------------------------------------------------------
-
-local bhh = ns.maps[2096] or Map({id = 2096, settings = false})
 
 local MeatStorage = Class('MeatStorage', Collectible, {
     label = L['meat_storage_label'],
@@ -2085,15 +2069,17 @@ local Kazzi = Class('Kazzi', Vendor, {
             }
         }), -- Winterpelt Conversationalist
         Spacer(), Section(L['rep_honored']),
-        Transmog({item = 204354, slot = L['cosmetic'], count = '500'}), -- Hollowed Furbolg Food Pack
+        Transmog({item = 202282, slot = L['1h_mace'], count = '150'}), -- Winterpelt Mending Totem
+        Transmog({item = 203995, slot = L['cloak'], count = '75'}), -- Winter Pelt Cloak
+        Transmog({item = 204354, slot = L['cloak'], count = '500'}), -- Hollowed Furbolg Food Pack
         -- NOT IN DC
         Item({item = 202273, quest = 73054, count = '50'}), -- Renewed Proto-Drake: Stubby Snout
         Item({item = 197583, quest = 69787, count = '50'}), -- Windborne Velocidrake: Exposed Finned Back
         Item({item = 197129, quest = 69330, count = '50'}), -- Highland Drake: Sleek Horns
         Item({item = 197006, quest = 69206, count = '50'}), -- Cliffside Wylderdrake: Plated Nose
-        Spacer(), Section(L['rep_revered']),
-        Item({item = 202287, count = '100'}), -- Paw-Made Winterpelt Reagent Bag
-        Transmog({item = 204355, slot = L['cosmetic'], count = '500'}), -- Hollowed Winterpelt Food Pack
+        Spacer(), --
+        Section(L['rep_revered']), --
+        Transmog({item = 204355, slot = L['cloak'], count = '500'}), -- Hollowed Winterpelt Food Pack
         Toy({item = 203734, count = '200'}), -- Snow Blanket
         Recipe({item = 204678, profession = 197, count = '200'}), -- Pattern: Paw-Made Winterpelt Reagent Bag
         Recipe({item = 202289, profession = 185, count = '750'}), -- Recipe: Firewater Sorbet
@@ -2102,7 +2088,8 @@ local Kazzi = Class('Kazzi', Vendor, {
         Item({item = 197629, quest = 69835, count = '100'}), -- Windborne Velocidrake: Spiked Neck
         Item({item = 197102, quest = 69303, count = '100'}), -- Highland Drake: Horned Chin
         Item({item = 196995, quest = 69195, count = '100'}), -- Cliffside Wylderdrake: Spiked Horns
-        Spacer(), Section(L['rep_exalted']),
+        Spacer(), --
+        Section(L['rep_exalted']),
         Pet({item = 202255, id = 3427, count = '150'}) -- Driftling
     },
     pois = {
@@ -2165,27 +2152,25 @@ map.nodes[58512618] = Collectible({
 
 ------------------------------- CRAFTING TABLES -------------------------------
 
--- 2096	Brackenhide Hollow - Brackenhide Hollow
--- 2106	Brackenhide Hollow - Den of Decay
--- local denofdecay = Map({id = 2106, settings = false}) -- Den of Decay
--- denofdecay.nodes[63703852] = ns.node.Node({
---     -- dungeonLevel = 2,
---     -- type = "table",
---     label = L["altar_of_decay_label"],
---     icon = 4554436,
---     note = L['altar_of_decay_note'],
---     IsEnabled = function(self) -- Leatherworking, Alchemy
---         if ns.PlayerHasProfession(165) or ns.PlayerHasProfession(171) then return true
---         else return false end
---         return ns.node.Item.IsEnabled(self)
---     end
--- }) -- The Altar of Decay
+local AlterOfDecay = Class('AlterOfDecay', Node, {
+    label = L['altar_of_decay_label'],
+    icon = 4554436,
+    note = L['altar_of_decay_note'],
+    IsEnabled = function(self) -- Leatherworking, Alchemy
+        local lw = ns.PlayerHasProfession(165)
+        local al = ns.PlayerHasProfession(171)
+        if not lw and not al then return false end
+        return ns.node.Item.IsEnabled(self)
+    end
+}) -- The Altar of Decay
+
+bhh.nodes[80224812] = AlterOfDecay()
+bhd.nodes[63703852] = AlterOfDecay()
 
 map.nodes[38376074] = Node({
     label = L['azure_loom_label'],
     icon = 4549303,
     note = L['azure_loom_note'],
-    requires = FyrakkAssault,
     IsEnabled = function(self) -- Tailoring
         if not ns.PlayerHasProfession(197) then return false end
         return ns.node.Item.IsEnabled(self)
@@ -2247,7 +2232,7 @@ map.nodes[32663964] = ns.node.RenewedMagmammoth()
 
 -------------------------------- TUSKARR PEPE ---------------------------------
 
-map.nodes[12904860] = Collectible({
+map.nodes[12994859] = Collectible({
     label = L['tuskarr_pepe_label'],
     note = L['tuskarr_pepe_note'],
     icon = 1044996,
@@ -2278,13 +2263,13 @@ local Eadweard = Class('Eadweard', Collectible, {
             }
         }), -- The Archives Called, You Answered
         Mount({item = 212645, id = 2038}), -- Clayscale Hornstrider
-        Transmog({item = 212692, slot = L['cosmetic']}), -- Excavator's Dusky Fedora
-        Transmog({item = 212638, slot = L['cosmetic']}), -- Excavator's Work Shirt
-        Transmog({item = 212793, slot = L['cosmetic']}), -- Excavator's Pack of Findings
-        Transmog({item = 212640, slot = L['cosmetic']}), -- Excavator's Trusty Satchel
-        Transmog({item = 212641, slot = L['cosmetic']}), -- Excavator's Rugged Pants
-        Transmog({item = 212639, slot = L['cosmetic']}), -- Excavator's Glovelettes
-        Transmog({item = 212642, slot = L['cosmetic']}) -- Excavator's Boots
+        Transmog({item = 212692}), -- Excavator's Dusky Fedora
+        Transmog({item = 212638}), -- Excavator's Work Shirt
+        Transmog({item = 212793, slot = L['cloak']}), -- Excavator's Pack of Findings
+        Transmog({item = 212640}), -- Excavator's Trusty Satchel
+        Transmog({item = 212641}), -- Excavator's Rugged Pants
+        Transmog({item = 212639}), -- Excavator's Glovelettes
+        Transmog({item = 212642}) -- Excavator's Boots
     }
 }) -- Eadweard Dalyngrigge
 

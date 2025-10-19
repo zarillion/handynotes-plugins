@@ -18,7 +18,7 @@
 		the copyright holders.
 ]]
 
-local lib = LibStub:NewLibrary('Krowi_WorldMapButtons-1.4', 6);
+local lib, oldminor = LibStub:NewLibrary('Krowi_WorldMapButtons-1.4', 7);
 
 if not lib then
 	return;
@@ -36,17 +36,6 @@ lib.IsMainline = lib.IsDragonflight or lib.IsTheWarWithin;
 
 local AddButton;
 
-local function Fix1_4_3Buttons()
-	if lib.HasNoOverlay then
-		for _, button in next, lib.Buttons do
-			button:SetParent(WorldMapFrame.ScrollContainer);
-			button:SetFrameStrata("TOOLTIP");
-		end
-	end
-
-	Fix1_4_3Buttons = function() end;
-end
-
 lib.XOffset, lib.YOffset = 4, -2;
 function lib:SetOffsets(xOffset, yOffset)
 	self.XOffset = xOffset or self.XOffset;
@@ -54,8 +43,6 @@ function lib:SetOffsets(xOffset, yOffset)
 end
 
 function lib.SetPoints()
-	Fix1_4_3Buttons();
-
 	local xOffset = lib.XOffset;
 	for _, button in next, lib.Buttons do
 		if button:IsShown() then
@@ -72,19 +59,19 @@ local function HookDefaultButtons()
 	end
 
 	for _, f in next, WorldMapFrame.overlayFrames do
-        if WorldMapTrackingOptionsButtonMixin and f.OnLoad == WorldMapTrackingOptionsButtonMixin.OnLoad then
+		if WorldMapTrackingOptionsButtonMixin and f.OnLoad == WorldMapTrackingOptionsButtonMixin.OnLoad then
 			f.KrowiWorldMapButtonsIndex = #lib.Buttons;
 			tinsert(lib.Buttons, f);
-        end
-        if WorldMapTrackingPinButtonMixin and f.OnLoad == WorldMapTrackingPinButtonMixin.OnLoad then
+		end
+		if WorldMapTrackingPinButtonMixin and f.OnLoad == WorldMapTrackingPinButtonMixin.OnLoad then
 			f.KrowiWorldMapButtonsIndex = #lib.Buttons;
 			tinsert(lib.Buttons, f);
-        end
+		end
 		if WorldMapShowLegendButtonMixin and f.OnLoad == WorldMapShowLegendButtonMixin.OnLoad then
 			f.KrowiWorldMapButtonsIndex = #lib.Buttons;
 			tinsert(lib.Buttons, f);
 		end
-    end
+	end
 
 	lib.HookedDefaultButtons = true;
 end
@@ -99,7 +86,7 @@ local function PatchWrathClassic()
 end
 
 function AddButton(button)
-	local xOffset = 4 + lib.NumButtons * 32;
+	local xOffset = 4 + #lib.Buttons * 32;
 	button:SetPoint("TOPRIGHT", WorldMapFrame:GetCanvasContainer(), "TOPRIGHT", -xOffset, -2);
 	button.relativeFrame = WorldMapFrame:GetCanvasContainer();
 	hooksecurefunc(WorldMapFrame, lib.HasNoOverlay and "OnMapChanged" or "RefreshOverlayFrames", function()
@@ -114,11 +101,7 @@ end
 
 function lib:Add(templateName, templateType)
 	if self.Buttons == nil then
-		self.Buttons = self.buttons or {}; -- 'Krowi_WorldMapButtons-1.4', 1 compatibility
-		if NumKrowi_WorldMapButtons then
-			NumKrowi_WorldMapButtons = NumKrowi_WorldMapButtons - 1; -- 'Krowi_WorldMapButtons-1.4', 1 compatibility
-		end
-		self.NumButtons = NumKrowi_WorldMapButtons or 0; -- 'Krowi_WorldMapButtons-1.4', 1 compatibility
+		self.Buttons = {};
 	end
 
 	if not self.HookedDefaultButtons then
@@ -127,12 +110,38 @@ function lib:Add(templateName, templateType)
 
 	PatchWrathClassic();
 
-	self.NumButtons = self.NumButtons + 1;
-	local button = CreateFrame(templateType, "Krowi_WorldMapButtons" .. self.NumButtons, lib.HasNoOverlay and WorldMapFrame.ScrollContainer or WorldMapFrame, templateName);
+	local button = CreateFrame(templateType, "Krowi_WorldMapButtons" .. (#self.Buttons + 1), lib.HasNoOverlay and WorldMapFrame.ScrollContainer or WorldMapFrame, templateName);
 
 	if lib.HasNoOverlay then
 		button:SetFrameStrata("TOOLTIP");
 	end
 
 	return AddButton(button);
+end
+
+-- handle upgrades
+
+if oldminor and oldminor == 1 then
+	lib.Buttons = lib.buttons;
+end
+
+if oldminor and oldminor == 3 then
+	if lib.HasNoOverlay then
+		for _, button in next, lib.Buttons do
+			button:SetParent(WorldMapFrame.ScrollContainer);
+			button:SetFrameStrata("TOOLTIP");
+		end
+	end
+end
+
+if oldminor and oldminor < 7 then
+	if lib.HookedDefaultButtons and WorldMapFrame.overlayFrames and WorldMapShowLegendButtonMixin then
+		-- Add the Legend button to the hooked set
+		for _, f in next, WorldMapFrame.overlayFrames do
+			if f.OnLoad == WorldMapShowLegendButtonMixin.OnLoad then
+				f.KrowiWorldMapButtonsIndex = #lib.Buttons;
+				tinsert(lib.Buttons, f);
+			end
+		end
+	end
 end

@@ -3,9 +3,14 @@
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
 local Map = ns.Map
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
+local Transmog = ns.reward.Transmog
+
+local Path = ns.poi.Path
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -15,6 +20,33 @@ local POI = ns.poi.POI
 local map = Map({id = 57, settings = true})
 local darnassus = Map({id = 89, settings = true})
 local shadowglen = Map({id = 460, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[53004460] = Rare({
+    id = 14432,
+    rewards = {
+        Transmog({item = 18610, type = L['1h_sword']}) -- Keen Machete
+    }
+}) -- Threggil
+
+map.nodes[38803420] = Rare({
+    id = 14431,
+    rewards = {
+        Transmog({item = 18612, type = L['mail']}) -- Bloody Chain Boots
+    },
+    pois = {Path({37003040, 38203340, 39403540, 39403540, 39603740})}
+}) -- Fury Shelda
+
+map.nodes[65605180] = Rare({
+    id = 14428,
+    rewards = {
+        Transmog({item = 18611, type = L['leather']}) -- Gnarlpine Leggings
+    }
+}) -- Uruson
+
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
 -------------------------------------------------------------------------------

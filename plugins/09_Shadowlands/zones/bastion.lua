@@ -327,7 +327,7 @@ local SWELLING_TEAR = Rare({
     quest = {61001, 61046, 61047},
     questCount = true,
     note = L['swelling_tear_note'],
-    focusable = true,
+    fgroup = 'swelling_tear',
     rewards = {
         Achievement({
             id = 14307,
@@ -486,7 +486,7 @@ map.nodes[40601890] = Treasure({
     note = L['gift_of_thenios'],
     rewards = {
         Achievement({id = 14311, criteria = 50061}),
-        Transmog({item = 181290, slot = L['cosmetic'], covenant = KYRIAN}) -- Harmonious Sigil of the Archon
+        Transmog({item = 181290, slot = L['cloak'], covenant = KYRIAN}) -- Harmonious Sigil of the Archon
     },
     pois = {
         POI({41662331, 39551900}) -- Transport platform

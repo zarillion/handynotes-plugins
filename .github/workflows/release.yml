@@ -31,5 +31,6 @@ jobs:
         run: |
           python scripts/release.py ${GITHUB_REF:10} \
             --curse-token ${{ secrets.CURSEFORGE_API_TOKEN }} \
+            --wago-token ${{ secrets.WAGO_API_TOKEN }} \
             --wowi-token ${{ secrets.WOWINTERFACE_API_TOKEN }} \
             --github-token ${{ secrets.GITHUB_TOKEN }}

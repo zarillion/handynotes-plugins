@@ -5,6 +5,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
 local Mount = ns.reward.Mount
@@ -12,6 +13,7 @@ local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
+local Path = ns.poi.Path
 local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
@@ -21,6 +23,35 @@ local map = Map({id = 71, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[38605300] = Rare({
+    id = 8201,
+    rewards = {
+        Transmog({item = 17055, type = L['1h_mace']}) -- Changuk Smasher
+    },
+    pois = {
+        Path({
+            40605840, 38405780, 38005600, 38605300, 39605060, 41204980,
+            42605280, 43205540
+        })
+    }
+}) -- Omgorn the Lost
+
+map.nodes[64601980] = Rare({
+    id = 44722,
+    rewards = {
+        Transmog({item = 9915, type = L['cloth']}) -- Royal Headband
+    }
+}) -- Twisted Reflection of Narain
+
+map.nodes[40802920] = Rare({
+    id = 8199,
+    rewards = {
+        Transmog({item = 9951, type = L['cloak']}) -- Chieftain's Cloak
+    }
+}) -- Warleader Krazzilak
+
 -------------------------------------------------------------------------------
 
 map.nodes[64405070] = ns.node.AnniversaryRare({
@@ -229,3 +260,23 @@ map.nodes[49803080] = Safari.StripeTailedScorpid({
         })
     }
 }) -- Stripe-Tailed Scorpid
+
+map.nodes[48408580] = ns.node.ScavengerPool(3876)
+map.nodes[50609140] = ns.node.ScavengerPool(3876)
+map.nodes[53303330] = ns.node.ScavengerPool(3876)
+map.nodes[53603920] = ns.node.ScavengerPool(3876)
+map.nodes[53609550] = ns.node.ScavengerPool(3876)
+map.nodes[54002660] = ns.node.ScavengerPool(3876)
+map.nodes[55304360] = ns.node.ScavengerPool(3876)
+map.nodes[56609200] = ns.node.ScavengerPool(3876)
+map.nodes[58504400] = ns.node.ScavengerPool(3876)
+map.nodes[59408640] = ns.node.ScavengerPool(3876)
+map.nodes[59907980] = ns.node.ScavengerPool(3876)
+map.nodes[62604290] = ns.node.ScavengerPool(3876)
+map.nodes[63606210] = ns.node.ScavengerPool(3876)
+map.nodes[64705920] = ns.node.ScavengerPool(3876)
+map.nodes[67405660] = ns.node.ScavengerPool(3876)
+map.nodes[67704050] = ns.node.ScavengerPool(3876)
+map.nodes[71205330] = ns.node.ScavengerPool(3876)
+map.nodes[72004330] = ns.node.ScavengerPool(3876)
+map.nodes[73004850] = ns.node.ScavengerPool(3876)

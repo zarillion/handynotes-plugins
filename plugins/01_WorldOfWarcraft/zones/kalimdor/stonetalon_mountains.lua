@@ -2,10 +2,12 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
-local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -14,6 +16,92 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 65, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[60006340] = Rare({
+    id = 50343,
+    rewards = {
+        Transmog({item = 9811, type = L['mail']}) -- Fortified Bracers
+    }
+}) -- Quall
+
+map.nodes[55604480] = Rare({
+    id = 4015,
+    rewards = {
+        Transmog({item = 5751, type = L['cloak']}), -- Webwing Cloak
+        Transmog({item = 5752, type = L['dagger']}) -- Wyvern Tailspike
+    }
+}) -- Pridewing Patriarch
+
+map.nodes[44494946] = Rare({
+    id = 50874,
+    location = L['in_small_cave'],
+    rewards = {
+        Transmog({item = 6612, type = L['cloth']}) -- Sage's Boots
+    }
+}) -- Tenok
+
+map.nodes[50204120] = Rare({
+    id = 5928,
+    rewards = {
+        Transmog({item = 9809, type = L['leather']}) -- Superior Tunic
+    }
+}) -- Sorrow Wing
+
+map.nodes[41207085] = Rare({
+    id = 5930,
+    rewards = {
+        Transmog({item = 6607, type = L['leather']}), -- Dervish Leggings
+        Transmog({item = 9820, type = L['cloth']}) -- Durable Boots
+    }
+}) -- Sister Riven
+
+map.nodes[74607320] = Rare({
+    id = 51062,
+    rewards = {
+        Transmog({item = 10404, type = L['cloth']}) -- Durable Belt
+    }
+}) -- Khep-Re
+
+map.nodes[44805580] = Rare({
+    id = 50884,
+    rewards = {
+        Transmog({item = 6615, type = L['cloth']}) -- Sage's Gloves
+    }
+}) -- Dustflight the Cowardly
+
+map.nodes[76009120] = Rare({
+    id = 50825,
+    rewards = {
+        Transmog({item = 9818, type = L['mail']}), -- Fortified Chain
+        Transmog({item = 9799, type = L['cloth']}) -- Ivycloth Sash
+    }
+}) -- Feras
+
+map.nodes[54607480] = Rare({
+    id = 50759,
+    rewards = {
+        Transmog({item = 6600, type = L['leather']}), -- Dervish Belt
+        Transmog({item = 9817, type = L['mail']}) -- Fortified Spaulders
+    }
+}) -- Iriss the Widow
+
+map.nodes[49206590] = Rare({
+    id = 50812,
+    rewards = {
+        Transmog({item = 6612, type = L['cloth']}) -- Sage's Boots
+    }
+}) -- Arae
+
+map.nodes[64484572] = Rare({
+    id = 5932,
+    rewards = {
+        Transmog({item = 6590, type = L['mail']}) -- Battleforge Boots
+    }
+}) -- Taskmaster Whipfang
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
@@ -102,25 +190,3 @@ map.nodes[56607460] = Safari.VenomspitterHatchling({
         })
     }
 }) -- Venomspitter Hatchling
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[66778681] = ns.node.Dragonrace({
-    label = '{quest:75394}',
-    normal = {2319, 85, 80},
-    advanced = {2349, 75, 70},
-    reverse = {2379, 75, 70},
-    rewards = {
-        Achievement({id = 17712, criteria = 8, oneline = true}), -- normal bronze
-        Achievement({id = 17713, criteria = 8, oneline = true}), -- normal silver
-        Achievement({id = 17714, criteria = 8, oneline = true}), -- normal gold
-        Achievement({id = 17715, criteria = 8, oneline = true}), -- advanced bronze
-        Achievement({id = 17716, criteria = 8, oneline = true}), -- advanced silver
-        Achievement({id = 17717, criteria = 8, oneline = true}), -- advanced gold
-        Achievement({id = 17718, criteria = 8, oneline = true}), -- reverse bronze
-        Achievement({id = 17719, criteria = 8, oneline = true}), -- reverse silver
-        Achievement({id = 17720, criteria = 8, oneline = true}) -- reverse gold
-    }
-}) -- Webwinder Weave

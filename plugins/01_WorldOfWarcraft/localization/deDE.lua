@@ -1,5 +1,5 @@
 local ADDON_NAME, ns = ...
-local L = ns.NewLocale('enUS')
+local L = ns.NewLocale('deDE')
 if not L then return end
 -- German translation by Dathwada EU-Eredar
 -------------------------------------------------------------------------------
@@ -15,6 +15,12 @@ L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für d
 L['options_icons_crazyforcats'] = '{achievement:8397}'
 L['options_icons_crazyforcats_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:8397} an.'
 L['cfc_blacktabby'] = '{item:8491} kann von verschiedensten Gegnern im {location:Vorgebirge des Hügellands} geplündert werden.\n\nEmpfohlen sind {dot:Red}{npc:49116} (nur Horde), {dot:Green}{npc:48017} oder {dot:Blue}{npc:2248}.\n\n(Dropchance unter 0,1%)'
+
+L['in_crypt'] = 'In der Krypta.'
+L['shovelphlange_location'] = 'Im Ausgrabungszentrum vor dem Uldaman Eingang.'
+L['lower_floor'] = 'In der unteren Etage.'
+L['bl_rare_note'] = 'Alle seltenen Gegner in {location:Verwüstete Lande} können entweder {item:8244} oder {item:10593} fallen lassen welche du bei {npc:7363} gegen Items eintauschen kannst.'
+L['takk_note'] = 'Springt Buchstäblich von Punkt zu Punkt (gegen den Uhrzeigersinn).'
 
 -------------------------------------------------------------------------------
 ----------------------------- ZUL'GURUB (10.0.7) ------------------------------

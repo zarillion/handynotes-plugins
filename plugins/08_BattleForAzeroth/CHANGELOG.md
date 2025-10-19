@@ -1,3 +1,19 @@
+# v119
+
+* Add new map IDs for Visions of N'Zoth revisit.
+
+# v112
+
+* Remove [I Thought You Said They'd Be Rare?](https://www.wowhead.com/achievement=13691/i-thought-you-said-theyd-be-rare) achievement from some rares in Nazjatar
+
+# v98
+
+* Localization updates: esES
+
+# v69
+
+* If you enjoyed our BfA plugin, grab our [War Within](https://www.curseforge.com/wow/addons/handynotes-the-war-within) plugin!
+
 # v18
 
 * Added tooltip rendering enhancements.

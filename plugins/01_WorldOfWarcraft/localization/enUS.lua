@@ -10,11 +10,17 @@ L['anniversary_note'] = '{note:Only available during the yearly anniversary even
 
 L['summer_only'] = 'Spawns only in the Summer. (From June 21 until September 22)'
 L['options_icons_safari'] = 'Kalimdor / Eastern Kingdoms Safari'
-L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievement:6585} and {achievement:6586} achievement.'
+L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievement:6585} and {achievement:6586} achievements.'
 
 L['options_icons_crazyforcats'] = '{achievement:8397}'
 L['options_icons_crazyforcats_desc'] = 'Display battle pet locations for the {achievement:8397} achievement.'
 L['cfc_blacktabby'] = '{item:8491} can be looted from various enemys in {location:Hillsbrad Foothills}.\n\nReccomended enemys are {npc:49116} (Horde only), {npc:48017} or {npc:2248}.\n\n{note:Drop chance under 0.1%.}'
+
+L['in_crypt'] = 'In the Crypt.'
+L['shovelphlange_location'] = 'In the entrance/cave area to Uldaman.'
+L['lower_floor'] = 'On the lower floor.'
+L['bl_rare_note'] = 'All rares in {location:Blasted Lands} can drop either {item:8244} or {item:10593} which you can exchange for items at {npc:7363}.'
+L['takk_note'] = 'Literally Leaps from Spot to Spot (Counterclockwise)'
 
 -------------------------------------------------------------------------------
 ----------------------------- ZUL'GURUB (10.0.7) ------------------------------

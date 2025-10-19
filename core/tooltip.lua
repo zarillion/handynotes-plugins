@@ -4,7 +4,7 @@
 local _, ns = ...
 
 -------------------------------------------------------------------------------
------------------------------------ TOOLTIP -----------------------------------
+--------------------------- TOOLTIP TEXT SHORTCUTS ----------------------------
 -------------------------------------------------------------------------------
 
 local function ItemStatus(itemID, numNeed, note, spacer)
@@ -18,6 +18,17 @@ local function ItemStatus(itemID, numNeed, note, spacer)
     end
     if note then txt = txt .. ' ' .. note end
     if spacer == nil or spacer == true then txt = '\n\n' .. txt end
+    return txt
+end
+
+local function PetStatus(petID, identifier, note)
+    local txt = ''
+    if select(1, C_PetJournal.GetNumCollectedInfo(petID)) > 0 then
+        txt = txt .. ns.status.Green(identifier)
+    else
+        txt = txt .. ns.status.Red(identifier)
+    end
+    if note then txt = txt .. ' ' .. note end
     return txt
 end
 
@@ -35,12 +46,42 @@ end
 
 local function ReputationGain(value, factionID)
     local factionName = ns.api.GetFactionInfoByID(factionID)
-
     return ns.status.LightBlue('+' .. value .. ' ' .. factionName)
+end
+
+-------------------------------------------------------------------------------
+--------------------------------- PIN TOOLTIP ---------------------------------
+-------------------------------------------------------------------------------
+
+local function RenderPinTooltip(pin)
+    local x, _ = pin:GetCenter()
+    local parentX, _ = pin:GetParent():GetCenter()
+    if (x and parentX and x > parentX) then
+        GameTooltip:SetOwner(pin, 'ANCHOR_LEFT')
+    else
+        GameTooltip:SetOwner(pin, 'ANCHOR_RIGHT')
+    end
+
+    ns.PrepareLinks(pin.label)
+    ns.PrepareLinks(pin.note)
+
+    C_Timer.After(0, function()
+        -- label
+        GameTooltip:SetText(ns.RenderLinks(pin.label, true))
+
+        -- note
+        if pin.note and ns:GetOpt('show_notes') then
+            GameTooltip:AddLine(ns.RenderLinks(pin.note), 1, 1, 1, true)
+        end
+
+        GameTooltip:Show()
+    end)
 end
 
 ns.tooltip = {
     ItemStatus = ItemStatus,
+    PetStatus = PetStatus,
     QuestStatus = QuestStatus,
-    ReputationGain = ReputationGain
+    ReputationGain = ReputationGain,
+    RenderPinTooltip = RenderPinTooltip
 }

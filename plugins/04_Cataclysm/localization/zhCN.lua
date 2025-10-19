@@ -6,8 +6,6 @@ if not L then return end
 ----------------------------------- COMMON ------------------------------------
 -------------------------------------------------------------------------------
 
-L['change_map'] = '更改地图'
-
 L['options_icons_safari'] = '{achievement:6585} / {achievement:6586}'
 L['options_icons_safari_desc'] = '显示 {achievement:6585} 和 {achievement:6586} 成就中战斗宠物的位置。'
 

@@ -268,7 +268,7 @@ ns.node.Squirrel = Class('Squirrel', Collectible, {
 -------------------------------------------------------------------------------
 -- Adds Rewards to World Boss tooltips.
 
-local WORLD_BOSS_REWARDS = {
+local WORLD_BOSS_ENCOUNTER_IDS = {
     [1291] = {
         Achievement({id = 9423, criteria = 24768}), -- Goliaths of Gorgrond
         Achievement({id = 9838, criteria = 27652}) -- What A Strange, Interdimensional Trip It's Been
@@ -295,25 +295,17 @@ local WORLD_BOSS_REWARDS = {
     } -- Rukhmar
 }
 
+ns.hooks.encounter.Add(nil, WORLD_BOSS_ENCOUNTER_IDS)
+
+---------------- SHOW / HIDE POI DOT AT RUKHMAR SPAWN LOCATION ----------------
+
 hooksecurefunc(EncounterJournalPinMixin, 'OnMouseEnter', function(self)
-    if self and self.encounterID then
-        if WORLD_BOSS_REWARDS[self.encounterID] then
-            GameTooltip:AddLine(' ')
-            for i, reward in ipairs(WORLD_BOSS_REWARDS[self.encounterID]) do
-                if reward:IsEnabled() then
-                    reward:Render(GameTooltip)
-                end
-            end
-        end
-        if self.encounterID == 1262 then -- Render POI dot at Rukhmar spawn location
-            ns.poi.POI({37183845}):Render(self:GetMap(),
-                ADDON_NAME .. 'WorldMapPinTemplate')
-        end
-        -- GameTooltip:AddLine(self.encounterID) -- Debug to show the encounterID
+    if self and self.encounterID and self.encounterID == 1262 then
+        local template = format('%sWorldMapPinTemplate', ADDON_NAME)
+        ns.poi.POI({37183845}):Render(self:GetMap(), template)
     end
     GameTooltip:Show()
 end)
 
--- this is only needed to hide the poi after hovering the boss icon
 hooksecurefunc(EncounterJournalPinMixin, 'OnMouseLeave',
     function(self) ns.WorldMapDataProvider:RefreshAllData() end)

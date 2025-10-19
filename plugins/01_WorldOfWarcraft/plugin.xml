@@ -48,4 +48,6 @@
   <Script file="zones\kalimdor\thousand_needles.lua"/>
   <Script file="zones\kalimdor\ungoro_crater.lua"/>
   <Script file="zones\kalimdor\winterspring.lua"/>
+  <!-- -->
+  <Script file="zones\skyriding_races.lua"/>
 </Ui>

@@ -2,8 +2,12 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
+
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -12,6 +16,44 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 56, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[48007460] = Rare({
+    id = 2090,
+    rewards = {
+        Transmog({item = 5750, type = L['mail']}), -- Warchief's Girdle
+        Transmog({item = 5749, type = L['2h_axe']}) -- Scythe Axe
+    }
+}) -- Ma'ruk Wyrmscale <Dragonmaw Warlord>
+
+map.nodes[69802920] = Rare({
+    id = 1140,
+    location = L['in_cave'],
+    rewards = {
+        Transmog({item = 6198, type = L['leather']}), -- Jurassic Wristguards
+        Transmog({item = 4463, type = L['cloth']}), -- Beaded Raptor Collar
+        ns.reward.Pet({item = 48124, id = 238}) -- Razormaw Hatchling
+    },
+    pois = {POI({69503560})}
+}) -- Razormaw Matriarch
+
+map.nodes[46806360] = Rare({
+    id = 1112,
+    location = L['in_cave'],
+    rewards = {Transmog({item = 4444, type = L['shield']})}, -- Black Husk Shield
+    pois = {POI({52596282})}
+}) -- Leech Widow
+
+map.nodes[38434603] = Rare({
+    id = 2108,
+    rewards = {
+        Transmog({item = 6200, type = L['mail']}), -- Garneg's War Belt
+        Transmog({item = 3392, type = L['leather']}) -- Ringed Helm
+    }
+}) -- Garneg Charskull
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
@@ -80,3 +122,58 @@ map.nodes[51603580] = Safari.WaterSnake({
         })
     }
 }) -- Water Snake
+
+-------------------------------------------------------------------------------
+-------------------------- THE SCAVENGER ACHIEVEMENT --------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[05906210] = ns.node.ScavengerPool(3874)
+map.nodes[07205590] = ns.node.ScavengerPool(3874)
+map.nodes[08005920] = ns.node.ScavengerPool(3874)
+map.nodes[08605280] = ns.node.ScavengerPool(3874)
+map.nodes[09906250] = ns.node.ScavengerPool(3874)
+map.nodes[12305330] = ns.node.ScavengerPool(3874)
+map.nodes[12603740] = ns.node.ScavengerPool(3874)
+map.nodes[13203120] = ns.node.ScavengerPool(3874)
+map.nodes[13305820] = ns.node.ScavengerPool(3874)
+map.nodes[13705350] = ns.node.ScavengerPool(3874)
+map.nodes[15402580] = ns.node.ScavengerPool(3874)
+map.nodes[15606230] = ns.node.ScavengerPool(3874)
+map.nodes[16003470] = ns.node.ScavengerPool(3874)
+map.nodes[18305120] = ns.node.ScavengerPool(3874)
+map.nodes[18306090] = ns.node.ScavengerPool(3874)
+map.nodes[18602090] = ns.node.ScavengerPool(3874)
+map.nodes[18604620] = ns.node.ScavengerPool(3874)
+map.nodes[18904130] = ns.node.ScavengerPool(3874)
+map.nodes[20205450] = ns.node.ScavengerPool(3874)
+map.nodes[21105800] = ns.node.ScavengerPool(3874)
+map.nodes[21703570] = ns.node.ScavengerPool(3874)
+map.nodes[24002600] = ns.node.ScavengerPool(3874)
+map.nodes[24401920] = ns.node.ScavengerPool(3874)
+map.nodes[27003220] = ns.node.ScavengerPool(3874)
+map.nodes[28601650] = ns.node.ScavengerPool(3874)
+map.nodes[30902190] = ns.node.ScavengerPool(3874)
+map.nodes[30903450] = ns.node.ScavengerPool(3874)
+map.nodes[31801390] = ns.node.ScavengerPool(3874)
+map.nodes[33802850] = ns.node.ScavengerPool(3874)
+map.nodes[34402600] = ns.node.ScavengerPool(3874)
+map.nodes[39602750] = ns.node.ScavengerPool(3874)
+map.nodes[43603570] = ns.node.ScavengerPool(3874)
+map.nodes[44803020] = ns.node.ScavengerPool(3874)
+map.nodes[47503280] = ns.node.ScavengerPool(3874)
+map.nodes[49003680] = ns.node.ScavengerPool(3874)
+map.nodes[50703240] = ns.node.ScavengerPool(3874)
+map.nodes[52903610] = ns.node.ScavengerPool(3874)
+map.nodes[53404030] = ns.node.ScavengerPool(3874)
+map.nodes[54704500] = ns.node.ScavengerPool(3874)
+map.nodes[58606030] = ns.node.ScavengerPool(3874)
+map.nodes[58906850] = ns.node.ScavengerPool(3874)
+map.nodes[59104870] = ns.node.ScavengerPool(3874)
+map.nodes[59805280] = ns.node.ScavengerPool(3874)
+map.nodes[60605650] = ns.node.ScavengerPool(3874)
+map.nodes[61107260] = ns.node.ScavengerPool(3874)
+map.nodes[63405800] = ns.node.ScavengerPool(3874)
+map.nodes[65006460] = ns.node.ScavengerPool(3874)
+map.nodes[65106110] = ns.node.ScavengerPool(3874)
+map.nodes[65606830] = ns.node.ScavengerPool(3874)
+map.nodes[66307280] = ns.node.ScavengerPool(3874)

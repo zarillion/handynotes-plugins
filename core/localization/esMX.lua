@@ -12,6 +12,7 @@ L['leather'] = 'Cuero'
 L['mail'] = 'Malla'
 L['plate'] = 'Placas'
 L['cosmetic'] = nil
+L['tabard'] = nil
 
 L['1h_mace'] = '1m Maza'
 L['1h_sword'] = '1m Espada'
@@ -47,6 +48,9 @@ L['shared_drops'] = nil
 L['zone_drops_label'] = nil
 L['zone_drops_note'] = nil
 
+L['poi_entrance_label'] = nil
+L['change_map'] = nil
+
 L['requires'] = nil
 L['ranked_research'] = nil
 
@@ -58,6 +62,8 @@ L['hard'] = 'Difícil'
 
 L['completed'] = 'Terminado'
 L['incomplete'] = 'Incompleto'
+L['claimed'] = nil
+L['unclaimed'] = nil
 L['known'] = 'Conocido'
 L['missing'] = 'Desconocido'
 L['unobtainable'] = 'No se puede obtener'
@@ -78,6 +84,7 @@ L['in_water'] = 'Bajo el agua.'
 L['in_building'] = nil
 
 ------------------------------------ TIME -------------------------------------
+L['now'] = 'Ahora'
 L['hourly'] = nil
 L['daily'] = nil
 L['weekly'] = 'Semanal'
@@ -96,6 +103,9 @@ L['title'] = nil
 L['toy'] = 'Juguete'
 L['currency'] = nil
 L['rep'] = nil
+L['buff'] = nil
+L['transmog'] = nil
+L['hunter_pet'] = nil
 
 ---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = nil
@@ -108,23 +118,23 @@ L['rep_revered'] = nil
 L['rep_exalted'] = nil
 
 -------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
+------------------------------- SKYRIDING RACES -------------------------------
 -------------------------------------------------------------------------------
 
-L['dr_your_best_time'] = nil
-L['dr_your_target_time'] = nil
-L['dr_best_time'] = nil
-L['dr_target_time'] = nil
-L['dr_normal'] = nil
-L['dr_advanced'] = nil
-L['dr_reverse'] = nil
-L['dr_challenge'] = nil
-L['dr_reverse_challenge'] = nil
-L['dr_storm_race'] = nil
-L['dr_bronze'] = nil
-L['dr_vendor_note'] = nil
-L['options_icons_dragonrace'] = nil
-L['options_icons_dragonrace_desc'] = nil
+L['sr_your_best_time'] = nil
+L['sr_your_target_time'] = nil
+L['sr_best_time'] = nil
+L['sr_target_time'] = nil
+L['sr_normal'] = nil
+L['sr_advanced'] = nil
+L['sr_reverse'] = nil
+L['sr_challenge'] = nil
+L['sr_reverse_challenge'] = nil
+L['sr_storm_race'] = nil
+L['sr_bronze'] = nil
+L['sr_vendor_note'] = nil
+L['options_icons_skyriding_race'] = nil
+L['options_icons_skyriding_race_desc'] = nil
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
@@ -186,7 +196,13 @@ L['options_toggle_per_map_settings_desc'] = nil
 L['options_restore_hidden_nodes'] = nil
 L['options_restore_hidden_nodes_desc'] = nil
 
+L['ignore_class_restrictions'] = nil
+L['ignore_class_restrictions_desc'] = nil
+L['ignore_faction_restrictions'] = nil
+L['ignore_faction_restrictions_desc'] = nil
+
 L['options_rewards_settings'] = nil
+L['options_reward_behaviors_settings'] = nil
 L['options_reward_types'] = nil
 L['options_manuscript_rewards'] = nil
 L['options_manuscript_rewards_desc'] = nil
@@ -202,6 +218,10 @@ L['options_transmog_rewards'] = nil
 L['options_transmog_rewards_desc'] = nil
 L['options_all_transmog_rewards'] = nil
 L['options_all_transmog_rewards_desc'] = nil
+L['options_rep_rewards'] = nil
+L['options_rep_rewards_desc'] = nil
+L['options_claimed_rep_rewards'] = nil
+L['options_claimed_rep_rewards_desc'] = nil
 
 L['options_icons_misc_desc'] = nil
 L['options_icons_misc'] = 'Miscelánea'
@@ -233,6 +253,8 @@ L['options_toggle_show_notes'] = 'Mostrar las Notas'
 L['options_toggle_show_notes_desc'] = 'Agregar las notas útiles al tooltip cuando esté disponible'
 L['options_toggle_use_standard_time'] = nil
 L['options_toggle_use_standard_time_desc'] = nil
+L['options_toggle_show_npc_id'] = nil
+L['options_toggle_show_npc_id_desc'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

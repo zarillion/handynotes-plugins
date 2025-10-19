@@ -96,7 +96,7 @@ map.nodes[71803760] = Rare({
     }
 }) -- Karr the Darkener
 
-map.nodes[72802220] = Rare({
+map.nodes[72972205] = Rare({
     id = 50356,
     rewards = {
         Achievement({id = 7439, criteria = 21081}), -- Glorious!

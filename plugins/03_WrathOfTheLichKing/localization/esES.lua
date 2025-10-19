@@ -4,7 +4,7 @@ if not L then return end
 -- Spanish Translation by (EU) Krovikan-Minahonda
 L['area_spawn'] = 'Aparece en los alrededores.'
 
-L['squirrels_note'] = 'Tienes que seleccionar una alimaña que no sea mascota de combate y teclear la emoción {emote:/amar}.'
+L['squirrels_note'] = 'Tienes que seleccionar una alimaña que no sea mascota de combate y teclear {emote:/amar}.'
 L['options_icons_squirrels'] = '{achievement:2557}'
 L['options_icons_squirrels_desc'] = 'Muesta dónde están las alimañas para el logro {achievement:2557}.'
 
@@ -22,3 +22,5 @@ L['higher_learning_6'] = 'Encima de una caja de la esquina.'
 L['higher_learning_7'] = 'En la estantería del piso superior.'
 L['higher_learning_8'] = 'En la estantería del piso inferior.'
 L['higher_learning_vargoth'] = 'Tras leer los 8 libros, recibirás {item:43824} por correo al teleportarte a los {location:Aposentos del Archimago Vargoth}.\nHabla con el {npc:90430} para conseguir la mascota.'
+
+L['coinmaster_note'] = 'Pesca todas las monedas de la fuente de Dalaran.'

@@ -1,174 +1,682 @@
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('ruRU')
 if not L then return end
--- Russian translation by ZamestoTV, Сстра (Ирина), Артем
 
 -------------------------------------------------------------------------------
 --------------------------------- KHAZ ALGAR ----------------------------------
 -------------------------------------------------------------------------------
 
-L['skyriding_glyph'] = nil
-L['options_icons_skyriding_glyph'] = nil
-L['options_icons_skyriding_glyph_desc'] = nil
+L['options_icons_delve_rewards'] = 'Награды в Вылазках'
+L['options_icons_delve_rewards_desc'] = 'Отображать награды в подсказках {location:Вылазки}.'
 
-L['options_icons_khaz_algar_lore_hunter'] = nil
-L['options_icons_khaz_algar_lore_hunter_desc'] = nil
+L['skyriding_glyph'] = 'Символы высшего пилотажа'
+L['options_icons_skyriding_glyph'] = 'Символы высшего пилотажа'
+L['options_icons_skyriding_glyph_desc'] = 'Отображение местоположения всех символов высшего пилотажа.'
+
+L['options_icons_profession_treasures'] = 'Сокровища профессии'
+L['options_icons_profession_treasures_desc'] = 'Показать местоположение сокровищ, дающих знания к профессиям.'
+
+L['options_icons_khaz_algar_lore_hunter'] = '{achievement:40762}'
+L['options_icons_khaz_algar_lore_hunter_desc'] = 'Отображение местоположений предметов для достижения {achievement:40762}.'
+
+L['options_icons_flight_master'] = '{achievement:40430}'
+L['options_icons_flight_master_desc'] = 'Показать местоположения {npc:Распорядителей Полета} для {achievement:40430}.'
+
+L['options_icons_worldsoul_memories'] = 'Воспоминание души мира'
+L['options_icons_worldsoul_memories_desc'] = 'Показать награды за {object:Воспоминание души мира}.'
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
 
-L['alunira_note'] = nil
-L['violet_hold_prisoner'] = nil
+L['alunira_note'] = 'Соберите 10x {item:224025} с монстров на {location:Острове Дорн} и объедините их в {item:224026}, чтобы убрать ее {spell:451570}.'
+L['violet_hold_prisoner'] = 'Пленник Аметистовой крепости'
 
-L['elemental_geode_label'] = nil
-L['magical_treasure_chest_note'] = nil
-L['mosswool_flower_note'] = nil
-L['mushroom_cap_note'] = nil
-L['mysterious_orb_note'] = nil
-L['thaks_treasure_note'] = nil
-L['trees_treasure_note'] = nil
-L['turtles_thanks_1_note'] = nil
-L['turtles_thanks_2_note'] = nil
-L['turtles_thanks_3_note'] = nil
+L['elemental_geode_label'] = 'Стихийная жеода'
+L['magical_treasure_chest_note'] = 'Толкните {npc:223104} обратно в воду, затем соберите 5x {npc:223159} поблизости.'
+L['mosswool_flower_note'] = 'Нажмите на {npc:222956} и следуйте за ним.'
+L['mushroom_cap_note'] = 'Соберите {object:Корнеплодник} в ближайшем лесу и принесите его {npc:222894}.'
+L['mysterious_orb_note'] = 'Верните {object:Жемчужина стихии} обратно {npc:222847}.'
+L['thaks_treasure_note'] = 'Поговорите с {npc:223227} и следуйте за ним.'
+L['trees_treasure_note'] = 'Поговорите с {npc:222940}, чтобы получить {item:224185}. Приведите 6x {npc:224548} ({dot:Green}) на {location:Острове Дорн} обратно к {npc:222940}. Когда вы отведете всех крабов обратно, вернитесь в пещеру к {npc:222940} и поговорите с ней.'
+L['trees_treasure_crab_1_note'] = 'Под деревом.'
+L['trees_treasure_crab_2_note'] = 'На ветке дерева.'
+L['trees_treasure_crab_3_note'] = 'Под деревом.'
+L['trees_treasure_crab_4_note'] = 'Под корнем дерева.'
+L['trees_treasure_crab_5_note'] = 'На выступе.'
+L['trees_treasure_crab_6_note'] = 'На корне дерева.'
+L['turtles_thanks_1_note'] = 'Сдайте 5x {item:220143} (можно выловить в {object:Тихой рябе} или купить на аукционе). {note:Покиньте это место и немедленно вернитесь, чтобы сдать следующую рыбу.}'
+L['turtles_thanks_2_note'] = 'Сдайте 1 предмет {item:222533} (можно выловить в {object:Мерцающем омуте}, {object:Пагубном омуте гнили}, {object:Пятне насыщенного гноя} или купить на аукционе).'
+L['turtles_thanks_3_note'] = 'Встретьтесь с {npc:223338} в {location:Дорногале} и поговорите с ней, чтобы узнать о сокровище.'
+L['web_wrapped_axe_note'] = 'На первом этаже.\n\n{note:Время появления 1-2 часа.}'
+L['faithful_dog_note'] = [[
+1. Найдите {npc:59533} в {location:Плодородных землях} на {map:376} в {map:424} и выполните {quest:30526}.
+2. Постройте {object:Травяной сад} в вашем {area:7490} на {map:572}.
+3. Найдите {item:147420} на {map:619} {map:627}, затем поговорите с {npc:87553} в вашем {area:7490} {object:Травяном саду}.
+{npc:87553} теперь будет в {location:Волшебный зверинец} на {map:627}
+4. Взаимодействуйте с {object:Полузакопанной собачьей миской} на {map:2248}, затем погладьте {npc:87553}, чтобы получить питомца.
+]]
 
-L['options_icons_flat_earthen'] = nil
-L['options_icons_flat_earthen_desc'] = nil
+L['cendvin_note'] = 'Соберите 900x {item:225557} в {location:Пепловольде} с элитных монстров, чтобы купить средство передвижения {item:223153} у {npc:226205}.'
+
+L['options_icons_flat_earthen'] = '{achievement:40606}'
+L['options_icons_flat_earthen_desc'] = 'Отображение местоположения для достижения {achievement:40606}.'
+
+L['tome_of_polymorph_mosswool'] = 'Войдите в туннель и продолжайте движение {location:The Kindling Parlor}.\n\nПримите {quest:84438} от {npc:229128}, чтобы получить {item:227710}.'
+
+L['aradan_note_start'] = '{npc:213428} можно найти в подземелье {location:Гнездовье} в {location:Дорногале} на {location:Острове Дорн}.\n\n{note:{npc:213428} можно приручить в режиме Подземелья с соратниками.}'
+L['aradan_note_step_1'] = '1. Соберите {item:220770} из глубин вод за пределами {location:Острова Дорн.}'
+L['aradan_note_step_2'] = '2. ({dot:Blue}) Войдите в {location:Гнездовье} и победите {npc:209230}.'
+L['aradan_note_step_3'] = '3. ({dot:Red}) Спрыгните в шахту, затем бегите вверх по лестнице, откуда появляется {npc:215967}.'
+L['aradan_note_step_4'] = '4. ({dot:Green}) Подбегите к краю обрыва и используйте {item:220770}, взяв в цель {npc:213428}.'
+L['aradan_note_step_5'] = '5. {npc:213428} узнает молот и полетит вниз, позволяя вам приручить его.'
+L['aradan_note_end'] = '{note:{item:220770} не расходуется при использовании, так что вы можете приручить все 5 вариаций модели или помочь товарищу-охотнику.}'
 
 -------------------------------------------------------------------------------
 -------------------------------- RINGING DEEPS --------------------------------
 -------------------------------------------------------------------------------
 
-L['forgotten_treasure_note'] = nil
-L['kaja_cola_machine_note'] = nil
+L['forgotten_treasure_note'] = 'Откройте {object:Зарытое сокровище} поблизости, чтобы получить {item:217960}.'
+L['kaja_cola_machine_note'] = 'Приобретайте напитки в следующем порядке: {item:223741} > {item:223743} > {item:223744} > {item:223742}.'
 
-L['options_icons_not_so_quick_fix'] = nil
-L['options_icons_not_so_quick_fix_desc'] = nil
+L['options_icons_i_only_need_one_trip'] = '{achievement:40623}'
+L['options_icons_i_only_need_one_trip_desc'] = 'Отображение местоположения для достижения {achievement:40623}.'
+L['i_only_need_one_trip_note'] = 'Внесите 10 руды одновременно в локальном задании {wq:Миссия по доставке: поиски руды}.'
 
-L['not_so_quick_fix_note'] = nil
-L['water_console_location'] = nil
-L['abyssal_console_location'] = nil
-L['taelloch_console_location'] = nil
-L['obsidian_console_location'] = nil
-L['lost_console_location'] = nil
-L['earthen_console_location'] = nil
+L['options_icons_not_so_quick_fix'] = '{achievement:40473}'
+L['options_icons_not_so_quick_fix_desc'] = 'Отображение расположения консолей для достижения {achievement:40473}.'
 
-L['options_icons_notable_machines'] = nil
-L['options_icons_notable_machines_desc'] = nil
+L['not_so_quick_fix_note'] = 'Ремонт сломанной земляной консоли.'
+L['water_console_location'] = 'Рядом с лестницей.'
+L['abyssal_console_location'] = 'В нише.'
+L['taelloch_console_location'] = 'На мосту между бочками.'
+L['lost_console_location'] = 'В нише.'
 
-L['notable_machines_note'] = nil
-L['fragment_I_location'] = nil
-L['fragment_II_location'] = nil
-L['fragment_III_location'] = nil
-L['fragment_IV_location'] = nil
-L['fragment_V_location'] = nil
-L['fragment_VI_location'] = nil
+L['options_icons_notable_machines'] = '{achievement:40628}'
+L['options_icons_notable_machines_desc'] = 'Показать расположение заметок для достижения {achievement:40628}.'
 
-L['options_icons_rocked_to_sleep'] = nil
-L['options_icons_rocked_to_sleep_desc'] = nil
+L['notable_machines_note'] = 'Прочитать заметку.'
+L['fragment_I_location'] = 'На земле.'
+L['fragment_II_location'] = 'На выступе.'
+L['fragment_III_location'] = 'На крыше здания.'
+L['fragment_IV_location'] = 'Высоко на деревянной башне (для этого рекомендуется использовать Спокойный Полет).'
+L['fragment_V_location'] = 'На арке наверху лестницы.'
+L['fragment_VI_location'] = 'На земле, рядом с уличным фонарем.'
 
-L['rocked_to_sleep_note'] = nil
-L['attwogaz_location'] = nil
-L['halthaz_location'] = nil
-L['krattdaz_location'] = nil
-L['uisgaz_location'] = nil
-L['venedaz_location'] = nil
-L['merunth_location'] = nil
-L['varerko_location'] = nil
-L['alfritha_location'] = nil
-L['gundrig_location'] = nil
-L['sathilga_location'] = nil
+L['options_icons_rocked_to_sleep'] = '{achievement:40504}'
+L['options_icons_rocked_to_sleep_desc'] = 'Показать расположение табличек для достижения {achievement:40504}.'
 
-L['gnawbles_ruby_vendor_note'] = nil
-L['options_icons_disturbed_dirt'] = nil
-L['options_icons_disturbed_dirt_desc'] = nil
+L['rocked_to_sleep_note'] = 'Прочитайте табличку неподвижного земельника.'
+L['attwogaz_location'] = 'На выступе.'
+L['halthaz_location'] = 'На выступе у основания столба.'
+L['krattdaz_location'] = 'На уступе между двумя водопадами.'
+L['uisgaz_location'] = 'На выступе.'
+L['venedaz_location'] = 'На платформе рядом с трубой.'
+L['merunth_location'] = 'На трубе над лестницей.'
+L['varerko_location'] = 'На выступе.'
+L['alfritha_location'] = 'Сидит на краю обрыва.'
+L['gundrig_location'] = 'Сидит на вершине уступа.'
+L['sathilga_location'] = 'На уступе возле горнодобывающей машины земельников.'
+
+L['trungal_note'] = 'Убейте {npc:220615}, которые появляются вокруг входа и внизу пещеры, чтобы появился редкий монстр.'
+L['disturbed_earthgorger_note'] = 'Используйте заклинание дополнительного действия, чтобы {spell:437003} коснуться земли 3 раза, чтобы появиться редкий монстр.'
+L['deepflayer_broodmother_note'] = 'Летает высоко-высоко.'
+L['lurker_note'] = '{note:Для появления требуется 5 игроков}\n\nАктивировать 5 {dot:Red}{object:Неприметных рычагов} в пределах 10 секунд, чтобы появился редкий монстр.\nПри успешном срабатывании вы увидите сообщение для всей зоны.'
+
+L['gnawbles_ruby_vendor_note'] = [[Соберите {item:212493} из {object:Потревоженной земли} и отнесите его {npc:225166}.
+
+После того, как вы сделаете 10 взносов или внесете в общей сложности 50x {item:212493}, вы получите 1x {item:224642}.
+
+Каждый предмет стоит 1x {item:224642}.]]
+L['options_icons_disturbed_earth'] = 'Потревоженная земля'
+L['options_icons_disturbed_earth_desc'] = 'Показать местоположения {object:Потревоженной земли}.'
+
+L['options_icons_gobblin_with_glublurp'] = '{achievement:40614}'
+L['options_icons_gobblin_with_glublurp_desc'] = 'Показать местоположения для достижения {achievement:40614}.'
+L['gobblin_with_glublurp_note'] = 'Нажмите на {dot:Red}{object:Сияющий кристалл} чтобы получить {spell:456739}. Поймайте {npc:227138}, летящего в ' .. ns.color.Orange('Оранжевом круге') .. ' и довести его до {npc:227132}.\n\n(Для этого рекомендуется использовать Спокойные Полеты).'
+
+L['critter_love_note'] = 'Вы должны использовать эмоцию {emote:/любовь} на зверьках, а не на боевых питомцах.'
+L['options_icons_critter_love'] = '{achievement:40475}'
+L['options_icons_critter_love_desc'] = 'Показать местоположение существ для достижения {achievement:40475}.'
+
+L['for_the_collective_note'] = 'Требуется {wq:Миссия по доставке: поиски руды}\n\nВносите до 20x {npc:224281} в каждый {npc:228056}.\n\n{note:Прогресс вклада распространяется на всю область и сбрасывается через 2 часа.}'
+L['for_the_collective_suffix'] = 'внесенная руда'
+L['for_the_collective_location'] = 'На крыше здания. Используйте близлежащую {object:Деревянную доску}, чтобы построить пандус.'
+L['options_icons_for_the_collective'] = '{achievement:40630}'
+L['options_icons_for_the_collective_desc'] = 'Показать {npc:228056} в места для {achievement:40630}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- HALLOWFALL ----------------------------------
 -------------------------------------------------------------------------------
 
-L['arathi_loremaster_note'] = nil
-L['caesper_note'] = nil
-L['dark_ritual_note'] = nil
-L['illuminated_footlocker_note'] = nil
-L['illusive_kobyss_lure_note'] = nil
-L['sunless_lure_location'] = nil
-L['murkfin_lure_location'] = nil
-L['hungering_shimmerfin_location'] = nil
-L['ragefin_necrostaff_location'] = nil
-L['jewel_of_the_cliffs_location'] = nil
-L['lost_necklace_note'] = nil
-L['priory_satchel_location'] = nil
-L['smugglers_treasure_note'] = nil
-L['smugglers_treasure_location'] = nil
-L['coral_fused_clam'] = nil
-L['coral_fused_clam_note'] = nil
+L['arathi_loremaster_note'] = 'Поговорите с {npc:221630} в {location:Мерельдаре} и ответьте правильно на несколько вопросов, чтобы получить {item:225659}.\n\nОтветы можно найти в книгах, расположенных по всему {location:Тайносводью}.'
+L['caesper_note'] = 'Купите {item:225238} у ({dot:Blue}) {npc:217645} в {location:Милости Данель}, что в {location:Тайносводье}.\n\nСкормите его {npc:225948} и следуйте за ним к сокровищу.'
+L['dark_ritual_note'] = 'Взаимодействуйте с {object:Темным ритуалом} и победите всех {npc:226059}, {npc:226052} и {npc:226062}, чтобы получить {object:Затененную сущность}.'
+L['illuminated_footlocker_note'] = 'Поймайте 5 падающих {spell:442389} из {npc:220703}, чтобы получить {spell:442529} и открыть {object:Сияющий сундук}.'
+L['illusive_kobyss_lure_note'] = 'Объедините все 4 предмета, чтобы создать {item:225641}:'
+L['sunless_lure_location'] = 'Падает с {npc:215653} на {location:Бессолнечном берегу}. Они замаскированы и используют {npc:215623} в качестве приманки.'
+L['sky_captains_sunken_cache_note'] = [[
+Поговорите с четырьмя разными Небесными Капитанами на их воздушных кораблях, чтобы узнать, где находится сокровище.
 
-L['options_icons_biblio_archivist'] = nil
-L['options_icons_biblio_archivist_desc'] = nil
+{npc:222333} ({dot:Green}) летит против часовой стрелки.
+{npc:222311} ({dot:Yellow}) летит против часовой стрелки.
+{npc:222323} ({dot:Red}) летит по часовой стрелке.
+{npc:222337} ({dot:Orange}) летит против часовой стрелки.
+]]
+L['murkfin_lure_location'] = 'Падает с {npc:213622} в {location:уделе Велхана}. Они замаскированы и используют {npc:215623} в качестве приманки.'
+L['hungering_shimmerfin_location'] = 'Падает из {npc:215243} в {location:Алчущем омуте}. Они замаскированы и используют {npc:219210} в качестве приманки.'
+L['ragefin_necrostaff_location'] = 'Падает с {npc:213406} в {location:Землях Преклонения}.'
+L['jewel_of_the_cliffs_location'] = 'Очень высоко в каменной стене.'
+L['lost_necklace_note'] = 'Найдите {object:Потерянный памятный предмет} на краю святилища.'
+L['priory_satchel_location'] = 'Возьмите {object:Обветренный мешочек}, висящий на углу собора {location:Приорат Священного Пламени}.'
+L['smugglers_treasure_note'] = 'Возьмите нужный {item:225335} из ({dot:Blue}) {npc:226025} под скалой.'
+L['smugglers_treasure_location'] = 'Высоко на скале между несколькими скалами.'
+L['coral_fused_clam'] = 'Покрытый кораллами моллюск'
+L['coral_fused_clam_note'] = 'Возьмите {item:218354} из {object:Набора собирателя моллюсков}, чтобы открыть моллюска.'
 
-L['biblio_book_01_location'] = nil
-L['biblio_book_02_location'] = nil
-L['biblio_book_03_location'] = nil
-L['biblio_book_04_location'] = nil
-L['biblio_book_05_location'] = nil
-L['biblio_book_06_location'] = nil
-L['biblio_book_07_location'] = nil
-L['biblio_book_08_location'] = nil
-L['biblio_book_09_location'] = nil
-L['biblio_book_10_location'] = nil
+L['options_icons_biblo_archivist'] = '{achievement:40622}'
+L['options_icons_biblo_archivist_desc'] = 'Показать расположение книг для достижения {achievement:40622}.'
 
-L['options_icons_lost_and_found'] = nil
-L['options_icons_lost_and_found_desc'] = nil
+L['biblo_book_01_location'] = 'Внутри здания на столе позади {npc:222811}.'
+L['biblo_book_02_location'] = 'Внутри здания на столе у ​​двери.'
+L['biblo_book_03_location'] = 'В конюшне со всеми {npc:217606}.'
+L['biblo_book_04_location'] = 'В центре моста.'
+L['biblo_book_05_location'] = 'На пляже под дирижаблем.'
+L['biblo_book_06_location'] = 'Внутри здания на книжной полке на задней стене.'
+L['biblo_book_07_location'] = 'Внутри здания на столе позади {npc:206096}.'
+L['biblo_book_08_location'] = 'Внутри руин.'
+L['biblo_book_09_location'] = 'Внутри большой палатки на столе.'
+L['biblo_book_10_location'] = 'В каюте капитана на борту {location:Сияющего Рассвета}.'
+L['biblo_book_11_location'] = 'Внутри здания на столе.'
 
-L['lost_and_found_note'] = nil
-L['broken_bracelet_location'] = nil
-L['stuffed_lynx_toy_location'] = nil
-L['tarnished_compass_location'] = nil
-L['sturdy_locket_location'] = nil
-L['wooden_figure_location'] = nil
-L['calcified_journal_location'] = nil
-L['ivory_tinderbox_location'] = nil
-L['dented_spear_location'] = nil
-L['filigreed_cleric_location'] = nil
+L['options_icons_lost_and_found'] = '{achievement:40618}'
+L['options_icons_lost_and_found_desc'] = 'Показать расположение памятных вещей для достижения {achievement:40618}.'
 
-L['options_icons_missing_lynx'] = nil
-L['options_icons_missing_lynx_desc'] = nil
+L['lost_and_found_note'] = 'Продвигайтесь по сюжетной линии Воспоминания о небе, начав с задания {quest:80673} от ({dot:Red}) {npc:220718}. {note:Задания открываются еженедельно.}.\n\nКаждую неделю можно получить 3 сувенира, пока не завершите задание {quest:82813}.'
+L['broken_bracelet_location'] = 'Отнесите предмет {item:219810} к {npc:215527}.'
+L['stuffed_lynx_toy_location'] = 'Отнесите предмет {item:219809} к {npc:218486}.'
+L['tarnished_compass_location'] = 'Отнесите предмет {item:219524} к {object:Месту подношения}.'
+L['sturdy_locket_location'] = 'Отнесите предмет {item:224274} к {npc:220859}.'
+L['wooden_figure_location'] = 'Отнесите предмет {item:224273} к {npc:217609}.'
+L['calcified_journal_location'] = 'Отнесите предмет {item:224272} к {npc:222813}.'
+L['ivory_tinderbox_location'] = 'Отнесите предмет {item:224266} к {npc:226051}.'
+L['dented_spear_location'] = 'Отнесите предмет {item:224267} к {npc:213145}.'
+L['filigreed_cleric_location'] = 'Отнесите предмет {item:224268} к {npc:217813}.'
 
-L['missing_lynx_note'] = nil
-L['magpie_location'] = nil
-L['evan_location'] = nil
-L['emery_location'] = nil
-L['jinx_location'] = nil
-L['moog_location'] = nil
-L['iggy_location'] = nil
-L['nightclaw_location'] = nil
-L['purrlock_location'] = nil
-L['shadowpouncer_location'] = nil
-L['miral_murder_mittens_location'] = nil
-L['fuzzy_location'] = nil
-L['furball_location'] = nil
-L['dander_location'] = nil
-L['gobbo_location'] = nil
+L['options_icons_missing_lynx'] = '{achievement:40625}'
+L['options_icons_missing_lynx_desc'] = 'Показать местоположение рысей для достижения {achievement:40625}.'
 
-L['croakit_note'] = nil
-L['deathtide_note'] = nil
+L['missing_lynx_note'] = 'Погладьте свирепого боевого кота.'
+L['magpie_location'] = 'На земле рядом с баннером.'
+L['nightclaw_location'] = 'Зажгите {object:Малый ключевой огонь} поблизости.'
+L['purrlock_location'] = 'Зажгите {object:Ключевой огонь из Цветка Света} поблизости.'
+L['shadowpouncer_location'] = 'Зажгите {object:Ключевой огонь из Цветка Света} поблизости.'
+L['miral_murder_mittens_location'] = 'Снаружи.'
+L['fuzzy_location'] = 'На земле возле {object:Малого ключевого огоня}.'
+L['furball_location'] = 'Внутри разрушенного здания.'
+L['dander_location'] = 'Снаружи.'
+L['gobbo_location'] = 'Внутри здания на кровати.'
+
+L['beledars_spawn_note'] = 'Этот редкий монстр появляется в одном из нескольких мест с фиксированным интервалом.\n\nСледующее появление в:\n{note:%s (%s)}'
+L['croakit_note'] = 'Выловите 10 штук {item:211474} из близлежащей {object:Косяк окуня темной слепоты} (или купите их в аукционном доме) и бросьте их ему, чтобы сделать редкого монстра активным.'
+L['deathtide_note'] = 'Соберите {item:220122} {dot:Red} и {item:220124} {dot:Green}. Объедините их в {item:220123}, чтобы призвать редкого монстра на {object:Зловещем алтаре}.'
+L['murkshade_note'] = 'Взаимодействуйте с {npc:218455}.'
+L['spreading_the_light_rares_note'] = 'Редкий монстр появляется после того, как горящий {object:Ключевой огонь} в текущем местоположении погаснет.'
+
+L['options_icons_mereldar_menace'] = '{achievement:40151}'
+L['options_icons_mereldar_menace_desc'] = 'Показать местоположения для достижения {achievement:40151}.'
+
+L['mereldar_menace_note'] = 'Взаимодействуйте с {object:Метательным каменем} и бросайте его в цели.'
+L['light_and_flame_location'] = 'Направляйтесь к {npc:218472} к востоку от {object:Метательного каменя}.'
+L['lamplighter_doorway_location'] = 'Цельтесь в дверной проем здания на востоке.'
+L['barracks_doorway_location'] = 'Цельтесь в дверь красно-золотой палатки на западе.'
+
+L['options_icons_beacon_of_hope'] = '{achievement:40308}'
+L['options_icons_beacon_of_hope_desc'] = 'Отображение малых ключевых огней для достижения {achievement:40308}.'
+
+L['beacon_of_hope_note'] = 'Внесите вклад {item:206350}, чтобы зажечь малые ключевые огни и выполнить следующие задания.'
+
+L['parasidious_note'] = 'Купите 1x {item:206670} у {npc:206533} (зажгите {object:Малый ключевой огонь}, чтобы вызвать его), затем идите на {location:подъем Сумерек} и тяните {npc:206870}, пока не появится редкий монстр. {note: Появляется только если {npc:206978} находится в этом месте}.'
+
+L['options_icons_flamegards_hope'] = '{achievement:20594}'
+L['options_icons_flamegards_hope_desc'] = 'Отображение местоположения для достижения {achievement:20594}.'
+L['flamegards_hope_note'] = 'Помогайте {npc:213319} в течении 20 дней исцелять {npc:220225}.\n\nВы также можете использовать {spell:372009} или {item:211878}, если ваш класс не может лечить.'
+
+L['hallowfall_sparkfly_label'] = 'Искромуха Тайносводья'
+L['hallowfall_sparkfly_note'] = 'Используйте 3x {item:206350} на {object:Малом ключевом огоне} в {location:пруду Тихих камней}, чтобы призвать {npc:215956}.\n\nКупите {item:218107} за 2x {item:206350} и используйте его, чтобы обнаружить {npc:222308} поблизости, пока не появится {object:Искромуха Тайносводья}.'
+
+L['nightfarm_growthling_note'] = 'Используйте 3x {item:206350} на {object:Малом ключевом огоне} в {location:Жужжащем поле}, чтобы призвать {npc:208186}.\n\nКупите {item:219148} за 2x {item:206350} и используйте его, чтобы открыть {item:221546}.'
+
+L['thunder_lynx_note'] =
+    '1. Используйте 3x {item:206350} на {object:Малом ключевом огоне} в {location:шахтах Факельных огней}, чтобы призвать {npc:212419}.\n\n2. Поговорите с {npc:212419} и следуйте всем дополнительным диалоговым подсказкам, чтобы открыть задание {quest:82007}.\n\n3. Найдите каждого детеныша рыси: {npc:222373} ({dot:Blue}), {npc:222372} ({dot:Green}), {npc:222375} ({dot:Orange}), и {npc:222374} ({dot:Red}).\n\n{note:Обязательно начните задание {quest:76169} в то же время, чтобы получить {item:219198} или используйте аналогичный предмет, например {item:219148}. Вам понадобится свет, чтобы обнаружить {npc:222373} в {location:пещере Хладной Тени}.}\n\n4. Спасите каждого рысенка и верните их к {npc:212419}.'
+
+L['options_icons_fighter'] = '{achievement:41999}'
+L['options_icons_fighter_desc'] = 'Показать элиту в локации {object:Сумерки} для {achievement:41999}'
+L['suspicious_document_label'] = 'Подозрительный документ'
+L['suspicious_document_note'] = 'Открыть {object:Подозрительный документ} для призыва элиты в {object:Сумерках}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- AZJ-KAHET ----------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_itsy_bitsy_spider'] = nil
-L['options_icons_itsy_bitsy_spider_desc'] = nil
+L['options_icons_itsy_bitsy_spider'] = '{achievement:40624}'
+L['options_icons_itsy_bitsy_spider_desc'] = 'Показать местоположение плетенышей для достижения {achievement:40624}.'
 
-L['itsy_bitsy_spider_note'] = nil
-L['webster_location'] = nil
-L['spindle_location'] = nil
-L['swift_location'] = nil
-L['rumurh_location'] = nil
-L['thimble_location'] = nil
-L['scampering_weave_rat_location'] = nil
-L['generals_scouting_shadecaster_location'] = nil
+L['itsy_bitsy_spider_note'] = '{emote:/помахать} {npc:плетенышам}.'
 
-L['concealed_contraband'] = 'Скрытая контрабанда'
-L['trapped_trove_note'] = nil
+L['options_icons_bookworm'] = '{achievement:40629}'
+L['options_icons_bookworm_desc'] = 'Показать расположение книг для достижения {achievement:40629}.'
+
+L['nerubian_potion_note'] = 'Купите {item:225784} ({note:бафф длится 10 минут}) у {npc:218192} за 33x {currency:3056}.'
+L['bookworm_note'] = '{note:Вы также можете выполнить достижение {achievement:40542} с помощью {item:225784}.}'
+L['bookworm_1_location'] = 'У входа в маленькую пещеру.'
+
+L['options_icons_smelling_history'] = '{achievement:40542}'
+L['options_icons_smelling_history_desc'] = 'Показать расположение книг для достижения {achievement:40542}.'
+
+L['smelling_history_note'] = '{note:Вы также можете выполнить достижение {achievement:40629} с помощью {item:225784}.}'
+L['smelling_history_1_location'] = 'Внутри здания на прилавке.'
+L['smelling_history_2_location'] = 'Свиток находится на сундуке.'
+L['smelling_history_3_location'] = 'Свиток лежит на столе.'
+L['smelling_history_4_location'] = 'Внутри здания на столе.'
+L['smelling_history_5_location'] = 'Внутри здания на столе.'
+L['smelling_history_6_location'] = 'На кровати на южной стороне комнаты.'
+L['smelling_history_7_location'] = 'На вершине стопки книг.'
+L['smelling_history_8_location'] = 'На столе рядом с кроватью в северной части комнаты.'
+L['smelling_history_9_location'] = 'За столом, прислонившись к нему, прямо рядом с {npc:226024}.'
+L['smelling_history_10_location'] = 'На скамейке.'
+L['smelling_history_11_location'] = 'Книга на столике возле кровати. Вход над фонтаном.'
+L['smelling_history_12_location'] = 'Внутри здания на столе.'
+
+L['options_icons_skittershaw_spin'] = '{achievement:40727}'
+L['options_icons_skittershaw_spin_desc'] = 'Показать расположение маршрутов быстрохода для достижения {achievement:40727}.'
+L['skittershaw_spin_note'] = 'Прокатитесь на {npc:224973} по всему району.\n\n{npc:224973} остановится в точках {dot:Red} вдоль маршрута.'
+
+L['options_icons_no_harm_from_reading'] = '{achievement:40632}'
+L['options_icons_no_harm_from_reading_desc'] = 'Показать {npc:227421} для достижения {achievement:40632}.'
+L['no_harm_from_reading_note'] = [[
+Войдите в ({dot:Yellow}) пещеру, направляйтесь в ({dot:Red}) и поднимитесь по стене, где находятся 3 паука, и войдите в отверстие позади паука наверху.
+
+После того, как вы провалитесь, взаимодействуйте с ближайшим {object:Гримуаром плоти}, чтобы вызвать 4 {npc:227421}.
+
+Затем {npc:227421} исчезнут и снова появится на карте.
+
+Выследите каждого {npc:227421} и взаимодействуйте с ними, чтобы вернуть их обратно в {object:Гримуар плоти}.
+
+Как только вы найдете все 4 {npc:227421}, возвращайтесь к {object:Гримуару плоти} и поговорите с {npc:227421}.
+
+{note:Требуется пройти через точку полета, чтобы появился {npc:227421}.}
+]]
+L['another_you_4_note'] = 'Патрули по обозначенному маршруту.'
+
+L['concealed_contraband_note'] = 'Удалите {object:Кокон из паутины} из Сокровища, чтобы увидеть его.'
+L['memory_cache_note'] = 'Получите {spell:420847} из ближайшего ({dot:Red}) {object:Хранилища экстрактора}. После убейте {npc:223908}, чтобы получить {item:223870} и открыть {object:Хранилище памяти}.'
+L['niffen_stash_note'] = 'Расположен под мостом.'
+L['trapped_trove_note'] = 'В здании, которое висит под потолком. Избегайте паутины на полу..'
+L['weaving_supplies_note'] = 'Соберите лоскуты шелка с близлежащей платформы, чтобы открыть сокровище.\n\n{item:223901} ({dot:Purple})\n{item:223903} ({dot:Yellow})\n{item:223902} ({dot:Red})'
+
+L['tkaktath_note'] = 'Начинает цепочку заданий, чтобы получить средство передвижения {item:224150}.'
+
+L['options_icons_the_unseeming'] = '{achievement:40633}'
+L['options_icons_the_unseeming_desc'] = 'Отображение местоположения для достижения {achievement:40633}.'
+L['the_unseeming_note'] = 'Стойте в бассейне, пока не наберете 100x стаков {spell:420847}.'
+
+L['options_icons_you_cant_hang_with_us'] = '{achievement:40634}'
+L['options_icons_you_cant_hang_with_us_desc'] = 'Показать места для достижения {achievement:40634}.'
+L['you_cant_hang_with_us_note'] = 'Найдите {npc:211816} с баффом {spell:434734} и атакуйте его, чтобы получить дебафф {spell:443190} (1 минута). {npc:225408} ({note:Не убивайте его!}) вмешается и наложит на вас дебафф {spell:454666}. При накоплении 10 стаков вы будете принудительно выкинуты из города.'
+
+L['kej_pet_vendor_note'] = 'Количество питомцев ограничено, и его стоимость составляет 2250x {currency:3056}.\n\n{note:Расчетное время возрождения составляет 3-4 часа для каждого предмета для питомца у любого торговца.}'
+
+L['options_icons_back_to_the_wall'] = '{achievement:40620}'
+L['options_icons_back_to_the_wall_desc'] = 'Показать {npc:222119} места для {achievement:40620}.'
+L['arathi_prisoner_suffix'] = 'Спасены пленные Арати'
+L['arathi_prisoner_note'] = 'Освободить обернутого паутиной {npc:222119} во время {wq:Особое поручение: профилактика лучше лечения}.'
+
+-------------------------------------------------------------------------------
+----------------------------------- DELVES ------------------------------------
+-------------------------------------------------------------------------------
+
+L['sturdy_chest'] = 'Прочный сундук'
+L['sturdy_chest_suffix'] = 'Найден прочный сундук'
+
+L['ecm_chest_3_location'] = 'На кране. Прыжок с верхнего уровня.'
+L['fol_chest_1_location'] = 'На камне под грибами в кустах.'
+L['fol_chest_3_location'] = 'У подножия водопада.'
+L['fol_use_mushrooms'] = 'Прыгай по грибам вдоль тропинки.'
+L['kvr_chest_2_location'] = 'На вершине деревянных лесов.'
+L['nfs_chest_2_location'] = 'On the plant.'
+L['nfs_chest_3_location'] = 'Внутри здания.'
+L['nfs_chest_4_location'] = 'Спрыгни с небесного корабля.'
+L['ski_chest_3_location'] = 'На выступе.'
+L['tra_chest_2_location'] = 'На вершине коралла.'
+L['tsw_chest_2_location'] = 'Высоко на балке.'
+L['tsw_chest_2_note'] = '{note:Доступно только в варианте истории "От Прядильщицы с любовью".}'
+L['tsw_chest_3_location'] = 'Высоко на колонне возле спуска в сокровищницу.'
+L['tsw_chest_4_location'] = 'Высоко на балке. Спрыгни со столба около другого сундука.'
+L['tuk_chest_1_note'] = 'За статуей.'
+L['tuk_chest_2_note'] = '{note:Доступно только в вариантах сюжета "Ошеломительная эволюция" и "Жертвы пыток".}'
+L['tuk_chest_3_note'] = '{note:Доступно только в вариантах сюжета "Ошеломительная эволюция" и "Спасение Прядильщицы".}'
+L['sss_chest_2_location'] = 'По металлической балке.'
+
+-------------------------------------------------------------------------------
+--------------------------------- SIREN ISLE ----------------------------------
+-------------------------------------------------------------------------------
+
+L['the_drowned_lair_note'] = 'Внесите {currency:3090} на раскопки {location:Затопленной берлоги} используя {object:Стратегическую карту острова Сирен}, чтобы открыть эту пещеру и призвать редкого монстра.'
+L['the_drain_note'] = 'Внесите {currency:3090} на раскопки {location:Стоков} используя {object:Стратегическую карту острова Сирен}, чтобы открыть эту пещеру и призвать редкого монстра.'
+L['shuddering_hollow_note'] = 'Внесите {currency:3090} на раскопки {location:Трясучей лощины} используя {object:Стратегическую карту острова Сирен}, чтобы открыть эту пещеру и призвать редкого монстра.'
+
+L['vrykul_sublabel'] = '{note:Доступно только с вторжением {npc:врайкулов} на остров.}'
+L['naga_sublabel'] = '{note:Доступно только с вторжением {npc:наг} на остров.}'
+L['pirate_sublabel'] = '{note:Доступно только с вторжением {npc:пиратов} на остров.}'
+
+L['storm_required'] = 'Требуется активная буря %s на {location:Острове Сирен}.' -- %s becomes "(icon) [Seafury Tempest]"
+L['slaughtershell_location'] = 'Бродит по всему {location:Острову Сирен}.'
+
+L['within_the_forgotten_vault'] = 'Воспользуйтесь {object:Поющей табличкой} в {location: Священной пещере}, чтобы войти в хранилище.\n\nВ хранилище находятся сокровища, игрушка, средство передвижение и {npc:231368}.'
+
+L['options_icons_runed_storm_chest'] = '{achievement:41131}'
+L['options_icons_runed_storm_chest_desc'] = 'Показать местоположения {object:Рунных сундуков бурь} для {achievement:41131}.'
+
+L['runed_storm_chest_label'] = 'Рунный сундук бурь'
+L['runed_storm_chest_suffix'] = 'сундук открылся'
+L['runed_storm_chest_note'] = 'Следуйте за ветром к скрытому {object:Рунному сундуку бурь} и откройте его с помощью {spell:472051}.'
+
+L['flame_blessed_iron_item'] = 'Верните этот предмет и получите {currency:3090}.'
+
+L['barnacle_encrusted_chest'] = 'Покрытый ракушками сундук'
+L['pilfered_earthen_chest'] = 'Украденный сундук земельников'
+
+L['soweezi_note'] = 'Обменяйте {currency:3090} на средства передвижения, игрушку, питомца или трансмогрификации.'
+
+L['thrayir_note_start'] = 'Соберите 5 ключей из рунного камня по всему {location:Острову Сирен} и завершите ритуал в {location:Забытом хранилище}, чтобы получить {item:232639}:'
+
+L['whirling_runekey_note'] = 'Выпадает из {npc:231368} в {location:Забытом хранилище} во время {spell:458069}.'
+L['torrential_runekey_note'] = 'Требуется 7x {item:234328}, падают из {note:любого} монстра (обычного, элитного или редкого) на {location:Острове Сирен} во время {spell:458069}.'
+L['thunderous_runekey_note'] = 'Требуется 5x {item:232605}, найденных в {note:любом} сундуке на {location:Острове Сирен}. {note:Не требует {spell:458069}}.'
+L['cyclonic_runekey_note'] = 'Выпадает из {npc:231357} в {location:Топи Мертвого Плавника} на {location:Острове Сирен} во время {spell:458069}. Или добудьте его с помощью рыбной ловли неподалеку.'
+L['turbulent_runekey_note'] = 'Требуется 3x {item:234327}, найденных разбросанными вокруг {location:Острова Сирен} во время {spell:458069}.'
+
+L['turbulent_fragment_a'] = 'Спрятан в {object:Куче земли} за гостиницей {location:Соль и соул} рядом с копающим призраком {npc:Култирасца}.'
+L['turbulent_fragment_b'] = 'Заберите {object:Рунический фрагмент} у призрака {npc:Култирасца} внутри пещеры {location:Гнилая дыра}.'
+L['turbulent_fragment_c'] = 'Заберите {object:Рунический фрагмент} у призрака {npc:Култирасца} внутри пещеры {location:раненого духа}.'
+
+L['prismatic_snapdragon_note_start'] = 'В течение 10 дней помогите спасти {npc:235216} на {location:Отмели Обломков}, чтобы получить {item:233489}.\n\n{note:Вы можете пропустить день, но нет механизма наверстывания упущенного}.'
+L['prismatic_day'] = 'День %d' -- "Day 1" or "Day 4" or "Day 7"
+
+L['pris_quest_1'] = 'Спасение диких животных'
+L['pris_quest_2'] = 'Как приручить варана'
+L['pris_quest_3'] = 'Бурный нрав'
+L['pris_quest_4'] = 'Верный друг'
+
+L['unsolved_amethyst_runelock'] = 'Неразгаданный Аметистовый рунический замок'
+L['bilge_rat_supply_chest'] = 'Сундук с припасами братства Трюмных Крыс'
+L['bilge_rat_supply_chest_note'] = 'Заберите {item:228621} у {npc:228582}, чтобы открыть сундук.'
+
+L['stone_carvers_scamseax_note'] = 'Соберите {object:Сияющий цитрин} ({dot:Yellow}), чтобы получить бафф {spell:1216785} на 2 минуты, позволяющий вам добыть {item:233834}.'
+
+L['marmaduke_note'] = '1. Заберите {item:233027} с верхнего этажа таверны {location:Соль и соул} и принесите его {npc:234365}.\n\n{note:{npc:234365} бегает между скалой и {location:Отмелью Обломков}.}\n\n2. Дав ему игрушку, вернитесь на {location:Отмель Обломков} и завершите задание {quest:86261} и получите {item:233056}.'
+
+-------------------------------------------------------------------------------
+----------------------------- SECRETS OF AZEROTH ------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_secrets_of_azeroth'] = 'Тайны Азерота'
+L['options_icons_secrets_of_azeroth_desc'] = 'Показать расположение подсказок для {location:Тайн Азерота}.'
+
+L['alyx_kickoff_note'] = 'Поговорите с {npc:226683}, чтобы активировать новые головоломки Тайн Азерота.'
+
+-- L['celebration_crates_label'] = 'Ящики с праздника'
+L['celebration_crates_note'] = 'Найдите и верните все {object:Ящики с праздника}, спрятанные по всему {location:Азероту}.'
+
+L['1_soggy_celebration_crate_note'] = 'Купите {item:225996} у {npc:143029} ({dot:Blue}) в {location:Бухте-Барахте} и отдайте его {npc:189119}, чтобы открыть {item:226200}.'
+L['2_hazy_celebration_crate_note'] = 'Пока вы живы, ищите область со светящимся зеленым светом. {note:Однако, чтобы раскрыть тайну, вы должны быть мертвы {item:232263}.}'
+L['3_dirt_caked_celebration_crate_note'] = '{note:Вам не нужно забирать {item:228321} с доски объявлений рядом с {npc:226683} для этого ящика.}\n\n1. Войдите в {location:Забытый Склеп} позади {location:Каражана}.\n\n2. Спуститесь по лестнице, пройдите через {location:Колодец Забытых}, вниз по пандусу {location:Пути Бедняка}, и на следующий уровень {location:Забытого Склепа}.\n\n3. Поверните направо и следуйте через туннель {location:Пути Бедняка}.\n\n4. Пересеките большую комнату по диагонали в направлении {location:Подвешенных грешников}.\n\n5. Пройдите через воду в {location:Трясину Отчаяния} чтобы забрать {item:228322}.'
+L['4_sandy_celebration_crate'] = '1. Соберите {item:228768} из {location:Затопленных раскопок} в {location:Тысячи Игл}, что в {location:Калимдоре}.\n\n2. Найдите {npc:91079}, бродящего по восточной дороге в {location:Азсуне}.\n\n3. Купите {item:228767} за %s.'
+L['5_battered_celebration_crate'] = 'Напротив скал пещеры около {npc:24026}.'
+L['6_waterlogged_celebration_crate'] = 'Под водой на втором этаже здания Гномов.\n\n{note:Не трогайте лифт. В настоящее время он выкидывает вас из игры.}'
+L['7_charred_celebration_crate'] = 'Спрятан у основания батута в {location:роще Трелей}.'
+L['8_mildewed_celebration_crate'] = '1. Найдите и выпейте {object:Зелье правды} позади {npc:34295} на вершине {location:Громовой вершины} в {location:Ясеневом лесу}.\n\n2. Найдите {object:Заплесневевший ящик с праздника} в {location:Забытом Городе} в {location:Фералас}.\n\n{note:{Spell:463368} длится всего 30 минут. Вам необходимо вручную лететь в {location:Фералас}. Смена континентов, использование порталов или использование вашего {item:6948} снимет бафф.}'
+L['9_crystalized_celebration_crate'] = 'Внутри {location:Ошу\'гуна} в {location:Награнде}.'
+L['10_surprisingly_pristine_celebration_crate'] = '1. Соберите {item:228772} из пещеры в {location:Ан\'Киража} в {location:Калимдоре}.\n\n2. Поместите {item:228772} в {object:Безымянную могилу} в {location:Штормхейме} на {location:Расколотых островах}.'
+L['11_ghostly_celebration_crate'] = 'На вершине {location:Престола Примаса} справа от портала.'
+
+L['water_resistant_receipt_note'] = '1. Войдите в туннель, заполненный {npc:47390}, поверните направо и заберите {item:228768} из {object:Водонепроницаемого товарного чека} за трубой.\n\n2. Найдите {npc:91079} в {location:Азсуне} на {location:Расколотых островах}.'
+L['mysterious_bones_note'] = 'Соберите {item:228772}, спрятанный за {npc:71533} в пещере.\n\nИспользуйте боевого питомца-собаку, например, {item:136925} или {item:49912}, чтобы выкопать кости.'
+
+L['crates_found'] = 'найдены ящики'
+
+-------------------------------------------------------------------------------
+------------------------------- RATT'S REVENGE --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_ratts_revenge'] = '{achievement:40967}'
+L['options_icons_ratts_revenge_desc'] = 'Показать секретные локации для {achievement:40967}.'
+
+-- INERT PECULIAR KEY
+L['inert_peculiar_key_note'] = 'Спрятанный в стволе большого полого дерева за ящиком.\n\n{note:Следующее местоположение:}\nЕсли у вас {bug:нет} есть {item:228938}, отправляйтесь в {location:Дорногал} в {location:Каз Алгар}.\n\nЕсли у вас |cFF00FF00есть|r {item:228938}, отправляйтесь на {location:Перевал Мертвого Ветра} в {location:Восточных королевствах}.'
+
+-- PECULIAR GEM
+L['carefully_penned_note'] = 'Поговорите с {npc:230042}, использовав титул {title:Детектив}, чтобы получить {quest:84684}.\n\n{note:Следующее местоположение:} {location:Аз-Кахет}'
+L['unfinished_note'] = 'В небольшой пещере в {location:перевала Глубинных Скитальцев}, окруженной кольцом {npc:229596}.\n\n{note:Следующее местоположение:} {location:Город Нитей}'
+L['hastily_scrawled_note'] = 'Высоко на уступе с видом на {location:Город Нитей}.\n\n{note:Следующее местоположение:} {location:Тайносводье}'
+L['water_resistant_note'] = 'В центре скрытого озера высоко в скале между {location:Аз-Кахетом} и {location:Тайносводьем}.\n\n{note:Следующее местоположение:} {location:Передовая Ферин} в {location:Аз-Кахете}'
+L['peculiar_gem_note'] = 'Пройдите через скрытый вход в пещеру вниз к {location:Столп-гнездо Вос}.\n\n{note:Дыра спрятана у стены и требует ловких прыжков..}\n\nПодойдите к {npc:233550}, и она убежит, уронив {item:228938}.\n\n{note:Следующее местоположение:}\nЕсли у вас {bug:нет} {item:228941} отправляйтесь в {location:Кратер Ун\'Горо} в {location:Калимдоре}.\n\nЕсли у вас |cFF00FF00есть|r {item:228941}, отправляйтесь на {location:Перевал Мертвого Ветра} в {location:Восточных королевствах}.'
+
+-- KARAZHAN CATACOMBS
+L['karazhan_catacombs_label'] = 'Катакомбы Каражана'
+L['karazhan_catacombs_entrance_note'] = 'Соберите {item:228941}, начиная с {location:Кратера Ун\'Горо} в {location:Калимдоре}\n\nСоберите {item:228938}, начиная с {location:Дорногала} в {location:Каз Алгаре}\n\nОбъедините камень и ключ, чтобы сформировать {item:44124}.\n\nС {item:44124} в сумке и активным {item:208092} подойдите к воротам, чтобы открыть красный вход в сценарий.'
+
+-- ORB 1
+L['orb_1_label'] = 'Шар 1'
+L['orb_1_note'] = 'Используйте {item:208092} в каждой локации, где есть {npc:228249}, и получите 1 из 3 стаков {spell:153715}.'
+L['orb_1_locations'] = '1. {location:Северные степи} в {location:Калимдоре}\n2. {location:Награнд} в {location:Дреноре}\n3. {location:Малдраксус} в {location:Темных Землях}'
+L['humble_monument'] = 'Скромный памятник'
+L['olgra_location'] = '{note:Местоположение меняется в зависимости от завершения {quest:35170}.}'
+
+-- ORB 2
+L['orb_2_label'] = 'Шар 2'
+L['orb_2_note'] = 'Встаньте рядом с {npc:153297}, используя один из следующих даров {npc:147393}:\n\n{item:168123}\n{item:175140}\n{item:168004}\n\nВызовите {item:49912} и используйте один из следующих костюмов:\n\n{item:229413}\n{item:116812}\n\nПропишите {emote:/молиться} и ждите получения {item:53156}.\n\n{note:Другие игроки вокруг, выполнив вышеуказанные шаги, также могут получить {item:53156}.}\n\nВернитесь в {location:Катакомбы Каражана} и используйте ключ, чтобы открыть обе двери в комнате с фонтаном.'
+
+-- ORB 3
+L['orb_3_label'] = 'Шар 3'
+
+L['astral_soup_label'] = 'Астральный суп'
+L['astral_chest_label'] = 'Астральный сундук'
+L['astral_rewards_note'] = 'С помощью рыбной ловли в {object:Астральном супе}, нужно выловить {item:228965}.\n\nИспользуйте {item:228965}, чтобы открыть {object:Астральный сундук} и получить {item:228966}.\n\nТеперь вы можете собирать {item:228967} из машин в {location:Катакомбах Каражана}.'
+
+L['decryption_machine_label'] = 'Машина для расшифровки'
+L['decryption_console_label'] = 'Панель для расшифровки'
+L['rubensteins_console'] = 'Панель Рубенштейна'
+
+L['code_machine_note_1'] = 'Введите код и откройте {object:Собственность старейшины Ко\'нани} чтобы получить {item:228967}.\n\n{object:Код}: 88224646'
+L['code_machine_note_2'] = 'Введите код и откройте {object:Зашифрованный сундук} чтобы получить {item:228967}.\n\n{object:Код}: 10638'
+L['code_machine_note_3'] = 'Введите код и откройте {object:Зашифрованный сундук} чтобы получить {item:228967}.\n\n{object:Код}: 5661'
+L['code_machine_note_4'] = 'Введите код и откройте {object:Сейф Рубенштейна} чтобы получить {item:228967}.\n\n{object:Код}: 52233'
+L['code_machine_note_5'] = 'Введите код и откройте {object:Зашифрованный сундук} чтобы получить {item:228967}.\n\n{object:Код}: 51567'
+L['code_machine_note_6'] = 'Введите код и откройте {object:Зашифрованный сундук} чтобы получить {item:228967}.\n\n{object:Код}: 115'
+L['code_machine_note_7'] = 'Введите код и откройте {object:Зашифрованную шкатулку с секретом} чтобы получить {item:228967}.\n\n{object:Код}: 17112317'
+L['code_machine_note_8'] = 'Введите код и откройте {object:Зашифрованный сундук} чтобы получить {item:228967}.\n\n{object:Код}: 19019'
+
+L['slot_machine_label'] = 'Игровой автомат "Хотите испытать удачу?"'
+L['slot_machine_note_a'] = 'Соберите пять счастливых предметов и введите код:\n\n'
+L['slot_machine_note_b'] = '{npc:2795} в {location:Штормграде}:\n'
+L['slot_machine_note_c'] = '{npc:219197} в {location:Дорногале}:\n'
+L['slot_machine_note_d'] = '{npc:186650} на {location:Равнинах Он\'ары}\n'
+L['slot_machine_note_e'] = '{object:Код}: 777, 77777 или 7777777'
+L['slot_machine_vendor_note'] = 'Купите эти товары для {object:Игрового автомата "Хотите испытать удачу?"}.'
+
+-- ORB 4
+L['orb_4_label'] = 'Шар 4'
+L['vashti_note'] = 'Купите {item:228987} у {npc:91079} за %s.'
+L['uthers_tomb_label'] = 'Могила Утера'
+L['uthers_tomb_note'] = 'Призовите {npc:231482} на {location:Могиле Утера} в {location:Западных Чумных землях}.\n\nИспользуйте {item:228987}, который можно купить у {npc:91079} в {location:Азсуне}, или попросите чернокнижника использовать {spell:342601}.\n\nКогда умрешь и воскреснешь, прочитай скрытые граффити.\n\n{note:Граффити останется до тех пор, пока {npc:231482} жив, так что не убивайте его!}'
+
+-- ORB 5
+L['orb_5_label'] = 'Шар 5'
+L['jeremy_feasel_note'] = '{npc:232048} спрятан в {location:Пещере Заблудших Духов} на {location:Вневременном острове}.\n\nПобедите {npc:232048} в битве питомцев, используя только боевых питомцев из прошлых секретов.%s\n\nКак только вы победите, выполните {quest:84781}, чтобы получить {item:228995}.\n\nТеперь вы можете посетить {npc:230310} в {location:Пиратской Бухте}.'
+L['zarhym_note'] = 'Поговорите с {npc:71876} в пещере, чтобы войти в царство духов.'
+L['pointless_treasure_salesman_location'] = 'Спрятанный внутри статуи гоблина на {location:острове Жанейро}.'
+L['pointless_treasure_salesman_note'] = 'Купите {item:228996}:'
+
+-- ORB 6
+L['orb_6_label'] = 'Шар 6'
+L['blood_altar_label'] = 'Алтарь крови'
+L['corrupt_altar_label'] = 'Алтарь порчи'
+L['lust_altar_label'] = 'Алтарь похоти'
+L['sin_altar_label'] = 'Алтарь греха'
+L['void_altar_label'] = 'Алтарь бездны'
+
+L['altar_note'] = 'Используйте {item:208092}, чтобы вызвать духа. Снаряжайте определенные средства передвижения, питомцев, игрушки или трансмогрификации, чтобы умилостивить его:'
+L['blood_altar_note'] = '{object:%s}: Любое средство передвижение со словом «Кровь» в названии.\n\n{object:%s}: Любой питомец, в имени которого есть слово «Кровь».\n\n{object:%s}: {item:127709}'
+L['corrupt_altar_note'] = '{object:%s}:  Любое средство передвижение со словом «Порча» в названии.\n\n{object:%s}: Любой питомец, в имени которого есть слово «Порча».\n\n{object:%s}: {item:116067}\n\n{object:%s}: Любой плащ с таким же внешним видом, как {item:86316}'
+L['lust_altar_note'] = '{object:%s}: {pet:1628}\n\n{object:%s}: {item:129211}\n\n{object:%s}: Полностью голый или находящийся под воздействием {item:119092}'
+L['sin_altar_note'] = '{object:%s}: {pet:2966}\n\n{object:%s}: {item:183986}\n\n{object:%s}: Трансмогрификация с использованием Вентирской тематики'
+L['void_altar_note'] = '{object:%s}: {pet:1234}, {pet:2434}, или {pet:4543}\n\n{object:%s}: {item:119003} или {item:174830}\n\n{object:%s}: Любой плащ с таким же внешним видом, как {item:24252}'
+
+L['chest_of_acquisitions_label'] = 'Сундук приобретения'
+L['chest_of_acquisitions_note'] = '1. Умилостивить всех духов у алтарей в {location:Зул\'Гурубе} в {location:Северной Тернистой долине}.\n\n2. Экипируйте {item:228966} и откройте {object:Сундук приобретения}, чтобы получить {item:229007}.'
+
+-- Orb 7
+L['orb_7_label'] = 'Шар 7'
+L['orb_7_summary'] = '1. Отправляйтесь на {location:остров Стражей} в {location:Азсуне}.\n\n2. Расширьте возможности своего {pet:1716} с помощью различных статуи {object:Сов дозорных} вокруг острова.\n\n3. Войдите в {location:Казематы Стражей} и победите боссов, чтобы раскрыть секрет {item:229046}.\n\n4. Используйте {item:229046}, чтобы начать сложную логическую головоломку и в конечном итоге обнаружить сундук, содержащий {item:229054}.'
+
+L['marin_bladewing_note'] = 'Купите {pet:1716} у {npc:107379} за %s после достижения %s с {faction:1894} или на {location:Аукционе}.'
+L['owl_of_the_watchers_label'] = 'Сова дозорных'
+L['owl_of_the_watchers_note'] = '{note:Одновременно активны только 3 статуи.}\n\nВстаньте возле активной статуи с призванным {pet:1716}, чтобы собрать все 4 усиления:\n\n{spell:225049} {dot:Red}\n{spell:225038} {dot:Purple}\n{spell:223160} {dot:Green}\n{spell:225059} {dot:Blue}\n\nКак только ваш {pet:1716} получит новые возможности,\n\n{note:{pet:1716} сопровождается белым дымом}\n\nВойдите в подземелье {location:Казематы Стражей}.'
+
+L['sentry_statue_note'] = '1. Победите {npc:95885}, чтобы открыть секретную комнату в {location:Чертогах Ночи}.\n\n2. Победите оставшихся боссов, включая {npc:95888}.\n\n3. Принесите {spell:204481} обратно в секретную комнату вместе с вашим {pet:1716}, чтобы вызвать {item:229046}.\n\n4. Принесите {item:229046} в комнату {npc:95887}.'
+L['sentry_note'] = '1. Поместите {item:229046}, у входа, чтобы вызвать {npc:109300}.\n\n2. Взаимодействуйте с {npc:109300}, чтобы начать головоломку. Цель — опустить все {npc:98082} под пол.\n\n3. После завершения откройте {object:Сокровище Стражей}, чтобы получить {item:229054}.'
+
+-- Orb 8
+L['orb_8_label'] = 'Шар 8'
+
+L['enigma_machine_label'] = 'Загадочная машина'
+L['enigma_machine_note'] = '1. Вставьте {item:229007} и {item:229054} в {object:Загадочную машину}.\n\n2. Нажмите «Начать», а затем нажмите «Ввести». Теперь вам нужно разблокировать 3 скрытых замка.\n\n3. Разблокируйте замок, подсчитав количество {npc:230596} в сценарии, перетащив нужное количество статуй на нужную платформу и снова нажав «Ввести».\n\n{note:Рекомендуется убивать, но не подсчитывать, каждую {npc:230599}, чтобы они не стояли на платформах.}'
+
+L['lock_statue_note'] = 'Перетащите эту статую на платформу.'
+L['lock_platform_note'] = 'Перетащите статуи на эту платформу.'
+
+L['platform_1_label'] = 'Платформа 1'
+L['platform_2_label'] = 'Платформа 2'
+L['platform_3_label'] = 'Платформа 3'
+L['platform_4_label'] = 'Платформа 4'
+L['platform_5_label'] = 'Платформа 5'
+L['platform_6_label'] = 'Платформа 6'
+L['platform_7_label'] = 'Платформа 7'
+
+L['rats_label'] = 'Крысы'
+L['lock_label'] = 'Замок %d'
+L['code_label'] = '%d на %s'
+
+-- Orb 9
+L['orb_9_label'] = 'Шар 9'
+
+L['ak_decryption_console_note'] = 'Возвращаемся в скрытую пещеру, вход которой расположен в {location:Столп-гнездо Вос} в {location:Аз-Кахете}.\n\nЭкипируем {item:228966}, чтобы обнаружить скрытую платформу.\n\nВозьмите в цель {npc:230383} и используйте {item:228996}, чтобы достичь платформы. Введите код и откройте {object:Зашифрованный сундук}, чтобы получить {item:229348}.\n\n{object:Код}: 84847078'
+
+-------------------------------------------------------------------------------
+---------------------------------- UNDERMINE ----------------------------------
+-------------------------------------------------------------------------------
+
+L['requires_ally'] = '{note:Должен быть связан с |cFFFFFF00{faction:%d}|r.}'
+L['complete_event'] = 'Поговорите с {npc:%d} и завершите событие для призыва.'
+L['in_sewer'] = 'В канализации. Используйте близлежащую {object:Канализационную решетку}, чтобы войти.'
+L['and_slimesby'] = 'и {npc:230947}'
+
+L['inert_plunger_label'] = 'Неподвижный поршень'
+L['exploded_plunger_label'] = 'Взорвавшийся поршень'
+
+L['unexploded_fireworks_location'] = 'На крыше {location:Заднего Парка}.'
+L['suspicious_book_note'] = '1. {dot:Red} Спрятан на книжном шкафу на первом этаже. Попытайтесь его подобрать, и он полетит на новый книжный шкаф наверху.\n\n2. {dot:Green} Спрятан за книжным шкафом на втором этаже. Попытайтесь его подобрать, и он полетит на стол наверху.\n\n3. На столе на третьем этаже. Наконец, заберите книгу!'
+L['fireworks_hat_note'] = 'Попытайтесь схватить шляпу, заставив ее улететь с крыши и приземлиться здесь.'
+L['blackened_dice_note'] = 'Поверните ближайший {object:Запорный вентиль}, чтобы высвободить кости.'
+L['lonely_tub_note'] = 'Возьмите ближайший {object:Тушитель огня} ({dot:Blue}), чтобы потушить пламя на {object:Одинокой лохане}.'
+L['impotent_potable_location'] = 'Под доком рядом с {location:Радостью разбойника}'
+L['abandoned_toolbox_location'] = 'Высоко на крыше {location:Хламовская}.\n\nСледуйте по лестнице наверх.'
+L['trick_deck_of_cards_location'] = 'На столе рядом с {npc:231045} внутри {location:гостиницы Неконтинентальной}.'
+
+L['breakneck_customization'] = 'Стремглав G-99'
+
+L['ditty_fuzeboy_note'] = 'Обмен {item:234741} на питомцев.'
+L['skedgit_cinderbangs_note'] = 'Обменяйте {item:234741} на средства передвижения.\n\n{note:Средства передвижения можно покупать и продавать на аукционе.}'
+L['angelo_rustbin_note'] = 'Обменяйте {currency:3218} на игрушку и кастомизацию к {object:Стремглаву G-99}. Обменяйте {item:233557} на шанс получить питомца и средство передвижения.\n\nОбменяйте {currency:3220} на питомцев.\n\n{note:Сбор {currency:3218} можно осуществить в любое время, но сбор {item:229810} требует 14 уровня известности с {faction:2653}.}'
+L['blair_bass_note'] = 'Обменяйте {item:227673} на игрушки.\n\n{item:227673} можно выловить из {object:Сточной воды Хитрой Шестеренки}.'
+L['greexit_coarsebub_note'] = 'Обмен золота на трансмогрификации картеля гоблинов.\n\n{note:Для покупки доступны только предметы, связанные с вашим текущим картелем.}'
+
+L['quartermaster'] = '%s Интендант'
+L['quartermaster_note'] = 'Обменяйте {currency:2815} на различные предметы коллекционирования.'
+
+L['rocco_razzboom_location'] = 'Нижний этаж в {location:Хламовской}.'
+L['lab_assistant_laszly_location'] = 'Глубоко внутри {location:лабораторий Хитрой Шестеренки}.'
+L['boatswain_hardee_location'] = 'Первый этаж {location:конторы начальника порта}.'
+L['shrez_the_scrapper_location'] = 'Первый этаж {location:площади Торговой компании}.'
+
+L['options_icons_nine_tenths'] = '{achievement:40948}'
+L['options_icons_nine_tenths_desc'] = 'Показать все местоположения {object:Автозапирателей Недотепы} для {achievement:40948}.'
+L['muffs_auto_locker_label'] = 'Автозапиратель Недотепы'
+L['muffs_auto_locker_note'] = 'Соберите все 5 частей Гориллиона и выполните {quest:87406}, чтобы получить {item:232843}.'
+L['muffs_auto_locker_suffix'] = 'Автозапиратель Недотепы открыт'
+
+L['options_icons_between_the_lines'] = '{achievement:41588}'
+L['options_icons_between_the_lines_desc'] = 'Показать расположение книг для {achievement:41588}.'
+L['a_threatening_letter_location'] = 'На нижнем этаже {location:Лаборатории Хитрой Шестеренки} под лестницей.'
+L['gallywixs_notes_location'] = 'На столе в задней части {location:Большого скопа}.'
+
+L['options_icons_can_do_attitude'] = '{achievement:41589}'
+L['options_icons_can_do_attitude_desc'] = 'Показать {npc:237103} местоположения для {achievement:41589}.'
+L['discarded_can_label'] = '{npc:237103}'
+L['discarded_can_note'] = 'Пните {npc:237103} несколько раз.'
+L['discarded_can_suffix'] = 'банок пнули'
+
+L['options_icons_scrap_rewards'] = 'Горы ХЛАМа'
+L['options_icons_scrap_rewards_desc'] = 'Показать награды за {object:Горы ХЛАМа}.'
+L['scrap_heap_suffix'] = 'Горы ХЛАМа завершены'
+
+L['options_icons_youre_my_friend_now'] = '{achievement:41708}'
+L['options_icons_youre_my_friend_now_desc'] = 'Показать {npc:239248} места для {achievement:41708}.'
+L['rat_in_building_rail'] = 'Внутри здания на рельсах.'
+L['rat_2nd_floor_trash_can'] = 'Внутри здания на втором этаже на мусорном баке.'
+
+L['sewer_cheese_label'] = 'Сточный сыр'
+L['undermine_undershirt_note'] = '1. Заберите {object:Сточный сыр} из канализации ниже {location:Котельной}, чтобы получить бафф {spell:1221472}.\n\n2. Взаимодействуйте с ближайшим {npc:238661}, чтобы обменять свой сыр на {item:237129}.\n\n3. Принесите {item:237129} {npc:237412} на втором этаже в здании {location:конторы начальника порта} в {location:Гавани Черноводья} и обменяйте его на {item:237130}.'
+
+L['undermine_clam_chowder_label'] = 'Кулинарная книга традиционных блюд Нижней Шахты'
+L['undermine_clam_chowder_location'] = 'На полке позади {npc:226728} в переулке в {location:Котельной}.'
+L['undermine_clam_chowder_note'] = '1. Чтобы получить этот рецепт, вы должны сначала выучить {item:16767}, который можно купить у двух продавцов {object:Classic} за %s.\n\n{npc:54232} в {location:Пиратской Бухте} на {location:Мысе Тернистой долины}\n\n{npc:48060} в {location:Фюзель} в {location:Бесплодных землях}\n\n2. Как только вы изучите старый рецепт, откройте {object:Кулинарная книга традиционных блюд Нижней Шахты} и прочитайте до последней страницы. Выучите рецепт, чтобы получить {item:235800}.'
+
+L['breakneck_race_note'] = 'Следующие улучшения {object:Стремглава G-99} рекомендуются для того, чтобы немного облегчить получения |cFFFFD700Золота|r:\n\n%s\n\n%s\n\n%s'
+L['upgrade_the_pozzik_standard'] = '{item:232982} (Двигатель): Заработайте |cFFCD7F32Бронзу|r во всех обычных и обратных гонках {object:Стремглава}.'
+L['upgrade_22h_slicks'] = '{item:232985} (Колеса): Изготавливаются инженерами и продаются на аукционе.'
+L['upgrade_turbo_handcrank'] = '{item:232984} (Ускорение): Объедините все 5 предметов, собранных из редких монстров или на аукционе.'
+
+L['blazefeather_peacock_note'] = 'После завершения сюжетной линии {quest:83421} поговорите с {npc:226555}, чтобы заплатить %s за призыв {npc:226561}.'
+L['radioactive_subject_note'] = 'Используйте ближайшие трубы и комбинацию {item:237276}, {item:109076}, {item:231099} или любые другие трюки с прыжками, чтобы добраться до крыши здания {location:Лаборатории Хитрой Шестеренки} в {location:Котельной}.'
+L['george_the_big_pinch_note'] = 'Быстро щелкните по всем 5 {npc:238189}, чтобы получить {spell:1219679} и приручить {npc:233938}.'
+
+-------------------------------------------------------------------------------
+----------------------------------- K'ARESH -----------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_karesh_lore_hunter'] = '{achievement:60890}'
+L['options_icons_karesh_lore_hunter_desc'] = 'Отображение местоположений предметов для достижения {achievement:60890}.'
+
+L['options_icons_phase_lost_and_found'] = '{achievement:61017}'
+L['options_icons_phase_lost_and_found_desc'] = 'Отобразить местоположения сфер при фазовых переходах для достижения {achievement:61017}.'
+L['phaseorb_label'] = 'Сфера при фазовом переходе'
+L['phaseorb_note'] = 'Пройдите через сферу при фазовом переходе, чтобы получить шанс получить один из обликов.'
+
+L['options_icons_purrkins'] = '{achievement:42729}'
+L['options_icons_purrkins_desc'] = 'Показать мурмявов для {achievement:42729}.'
+L['purrkins_note'] = '{emote:/гладить} мурмявов.'
+L['kareshire_sublabel'] = 'Появляется и исчезает.'
+L['in_a_tree'] = 'На дереве.'
+L['little_ms_phaser_sublabel'] = 'Появляется и исчезает.'
+
+L['mailroom_distribution_note'] = 'Взаимодействуйте с тележкой снаружи, затем откройте дверь почтового отделения. Встаньте на круги и нажмите кнопку дополнительного действия. Сокровище появится рядом с дверью.'
+L['gift_of_the_brothers_note'] = 'Взаимодействуйте с {object:Мерцающим фонарем} и поговорите с {npc:233881}, затем найдите {npc:234112} ({dot:Red}), {npc:234113} ({dot:Yellow}) и {npc:234075} ({dot:Green}), затем вернитесь к {npc:233881} у {object:Мерцающего фонаря}.'
+L['ancient_coffer_note'] = 'Соберите {item:233794}({dot:Red}) и {item:233799}({dot:Yellow}), затем вернитесь к {object:Древнему ларцу}, чтобы получить {item:245269}.'
+
+L['sthaarbs_note'] = 'Используйте телепорт возле {object:Фазового проводника}, чтобы добраться до {npc:234845}.'
+L['heka_tamos_note'] = 'Получите баффы от следующих объектов {object:Конденсатор росы}, {object:Призрачный фонарь}, {object:Землистый суккулент} и {object:Ловец ветра}, которые появляются поблизости, а затем взаимодействуйте с {object:Жаровней гармонии стихий}, чтобы призвать редкого монстра.'
+
+L['translocated_gorger_note'] = 'Собирайте по 1 {item:246240} на босса в неделю на отряд с редкого монстра во время {object:Нападение пожирателей} и объединяйте их, чтобы создать средство передвижения.'

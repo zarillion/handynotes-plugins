@@ -1,5 +1,6 @@
 from pathlib import Path
 
+from requests import HTTPError
 import requests
 
 from ..git import ReleaseTag
@@ -8,7 +9,7 @@ GITHUB_API = "https://api.github.com/repos/zarillion/handynotes-plugins"
 GITHUB_UAPI = "https://uploads.github.com/repos/zarillion/handynotes-plugins"
 
 
-def upload_as_github_release(tag: ReleaseTag, zips: set[Path], token: str):
+def upload_as_github_release(tag: ReleaseTag, zips: set[Path], token: str) -> bool:
     print("Uploading as GitHub release ...")
     auth = ("zarillion", token)
 
@@ -28,7 +29,7 @@ def upload_as_github_release(tag: ReleaseTag, zips: set[Path], token: str):
 
     for zip in zips:
         with open(zip, "rb") as f:
-            requests.post(
+            response = requests.post(
                 f"{GITHUB_UAPI}/releases/{release_id}/assets",
                 auth=auth,
                 headers={
@@ -37,4 +38,12 @@ def upload_as_github_release(tag: ReleaseTag, zips: set[Path], token: str):
                 },
                 data=f,
                 params={"name": zip.name},
-            ).raise_for_status()
+            )
+
+            try:
+                response.raise_for_status()
+            except HTTPError as err:
+                print(f"Failed to upload: {err}")
+                return False
+
+    return True

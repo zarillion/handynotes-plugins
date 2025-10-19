@@ -215,8 +215,8 @@ map.nodes[28515115] = Rare({
         Toy({item = 205419}), -- Jrumm's Drum
         Transmog({item = 205304, slot = L['leather']}), -- Snareguard Sash
         Transmog({item = 205299, slot = L['cloth']}), -- Rudiment Cuffs
-        DC.WindingSlitherdrake.Ears, --
-        Currency({id = 2245}) -- Flightstones
+        DC.WindingSlitherdrake.Ears --
+        -- Currency({id = 2245}) -- Flightstones
     }
 }) -- Jrumm
 
@@ -232,8 +232,8 @@ map.nodes[42226524] = Rare({
         Transmog({item = 205298, slot = L['cloth']}), -- Belt of Floating Stone
         Transmog({item = 205292, slot = L['cloak']}), -- Kairoktra's Mane
         DC.WindingSlitherdrake.SmallFinnedTail, --
-        Pet({item = 205147, id = 3541}), -- Ridged Shalewing
-        Currency({id = 2245}) -- Flightstones
+        Pet({item = 205147, id = 3541}) -- Ridged Shalewing
+        -- Currency({id = 2245}) -- Flightstones
     }
 }) -- Karokta
 
@@ -294,8 +294,8 @@ map.nodes[40753817] = Rare({
         Transmog({item = 205311, slot = L['mail']}), -- Magmascale Pauldrons
         Transmog({item = 205300, slot = L['leather']}), -- Magma Waders
         DC.WindingSlitherdrake.ImpalerHorns, --
-        Item({item = 192055}), -- Dragon Isle Artifact
-        Currency({id = 2245}) -- Flightstones
+        Item({item = 192055}) -- Dragon Isle Artifact
+        -- Currency({id = 2245}) -- Flightstones
     }
 }) -- Magmanesha
 
@@ -325,8 +325,8 @@ map.nodes[36205300] = Rare({
         Achievement({id = 18100, criteria = 59507}), -- Cavern Clawbbering
         Transmog({item = 205294, slot = L['cloth']}), -- Sandals of Molten Scorn
         Transmog({item = 205301, slot = L['leather']}), -- Hardened Lava Handwraps
-        DC.WindingSlitherdrake.CurledCheekHorn, --
-        Currency({id = 2245}) -- Flightstones
+        DC.WindingSlitherdrake.CurledCheekHorn --
+        -- Currency({id = 2245}) -- Flightstones
     }
 }) -- Skornak
 
@@ -440,7 +440,7 @@ map.nodes[56040305] = Treasure({
     note = L['chest_of_the_flights_treasure_note'],
     rewards = {
         Achievement({id = 17786, criteria = 59224}), -- Treasures of Zaralek Cavern
-        Currency({id = 2245}), -- Flightstones
+        -- Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     }
 }) -- Chest of the Flights
@@ -451,7 +451,7 @@ map.nodes[36397425] = Treasure({
     rewards = {
         Achievement({id = 17786, criteria = 59228}), -- Treasures of Zaralek Cavern
         Item({item = 204985}), -- Barter Brick
-        Currency({id = 2245}), -- Flightstones
+        -- Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     },
     pois = {
@@ -492,7 +492,7 @@ map.nodes[32333935] = Treasure({
     quest = 73410,
     note = L['seething_cache_treasure_note'],
     rewards = {
-        Achievement({id = 17786, criteria = 59221}), -- Treasures of Zaralek Cavern
+        Achievement({id = 17786, criteria = 59220}), -- Treasures of Zaralek Cavern
         Mount({item = 192779, id = 1623}) -- Seething Slug
     },
     pois = {
@@ -524,7 +524,7 @@ map.nodes[48411636] = Treasure({
     quest = 75515,
     location = L['in_small_cave'],
     rewards = {
-        Transmog({item = 205981, slot = L['cosmetic']}) -- Molten Primal Fang
+        Transmog({item = 205981, slot = L['1h_sword']}) -- Molten Primal Fang
     },
     pois = {POI({48411819})}
 }) -- Molten Hoard
@@ -534,7 +534,7 @@ map.nodes[48451083] = Treasure({
     quest = 75514,
     note = L['fealtys_reward_note'],
     rewards = {
-        Currency({id = 2245}), -- Flightstones
+        -- Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     },
     pois = {POI({43642300})} -- Dragon statue
@@ -551,7 +551,7 @@ map.nodes[56734868] = Treasure({
     quest = 75320,
     note = L['moth_pilfered_pouch_note'],
     rewards = {
-        Currency({id = 2245}), -- Flightstones
+        -- Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     },
     pois = {POI({56664934})} -- Struggling Mothling
@@ -563,8 +563,8 @@ map.nodes[62055534] = Treasure({
     location = L['in_water'],
     rewards = {
         Item({item = 199906}), -- Titan Relic
-        Item({item = 204985}), -- Barter Brick
-        Currency({id = 2245}) -- Flightstones
+        Item({item = 204985}) -- Barter Brick
+        -- Currency({id = 2245}) -- Flightstones
     },
     pois = {
         POI({62485528}), -- Water Entrance
@@ -579,7 +579,7 @@ map.nodes[64197495] = Treasure({
     note = L['nal_kskol_reliquary_note'],
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Currency({id = 2245}), -- Flightstones
+        -- Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     },
     pois = {POI({62577334})}
@@ -591,7 +591,7 @@ map.nodes[60664622] = Treasure({
     label = L['stolen_stash_label'],
     quest = 75302,
     rewards = {
-        Currency({id = 2245}), -- Flightstones
+        -- Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     }
 }) -- Stolen Stash
@@ -601,7 +601,7 @@ deepflayerNest.nodes[63698291] = Treasure({
     quest = 75303,
     location = L['in_deepflayer_nest'],
     rewards = {
-        Currency({id = 2245}), -- Flightstones
+        -- Currency({id = 2245}), -- Flightstones
         Currency({id = 2003}) -- Dragon Isles Supplies
     },
     parent = {id = map.id, pois = {POI({61463864})}}
@@ -614,7 +614,7 @@ local RitualOffering = Class('RitualOffering', Treasure, {
     rewards = {
         Item({item = 199906}), -- Titan Relic
         Item({item = 204985}), -- Barter Brick
-        Currency({id = 2245}), -- Flightstones
+        -- Currency({id = 2245}), -- Flightstones
         DC.RenewedProtoDrake.PlatedJaw
     }
 }) -- Ritual Offering
@@ -632,6 +632,7 @@ map.nodes[32355045] = RitualOffering({fgroup = 'ritual52', quest = 73552})
 map.nodes[32614416] = RitualOffering({fgroup = 'ritual51', quest = 73551})
 map.nodes[33103990] = RitualOffering({fgroup = 'ritual51', quest = 73551})
 map.nodes[35145225] = RitualOffering({fgroup = 'ritual52', quest = 73552})
+map.nodes[35304181] = RitualOffering({fgroup = 'ritual51', quest = 73551})
 map.nodes[36034454] = RitualOffering({fgroup = 'ritual51', quest = 73551})
 map.nodes[36395236] = RitualOffering({fgroup = 'ritual52', quest = 73552})
 map.nodes[38174991] = RitualOffering({fgroup = 'ritual48', quest = 73548})
@@ -647,7 +648,7 @@ local SmellyTrashPile = Class('SmellyTrashPile', ns.node.Node, {
     requires = ns.requirement.Reputation(2564, 2, true), -- Loamm Niffen (maybe also quest 72974)
     rewards = {
         DC.WindingSlitherdrake.SpikedChin, --
-        Currency({id = 2245}), -- Flightstones
+        -- Currency({id = 2245}), -- Flightstones
         Item({item = 192055}), -- Dragon Isles Artifact
         Currency({id = 2003}) -- Dragon Isles Supplies
     }
@@ -1156,6 +1157,24 @@ map.nodes[41844525] = ns.node.CluedIn({
     quest = 76734
 })
 
+map.nodes[45935148] = ns.node.CluedIn({
+    label = L['rusted_dirt_pale'],
+    quest = 76739, -- Research: Niffen of Zaralek Cavern
+    location = L['rusted_dirt_pale_note']
+})
+
+map.nodes[49084529] = ns.node.CluedIn({
+    label = L['niffen_pickaxe'],
+    quest = 76739,
+    location = L['forgotten_incense_note']
+})
+
+map.nodes[47684926] = ns.node.CluedIn({
+    label = L['chipped_grub_pot'],
+    quest = 76739,
+    location = L['chipped_grub_pot_note'] .. '\n' .. L['rusted_dirt_pale_note']
+})
+
 -------------------------------------------------------------------------------
 -------------------------------- GOGGLE WOBBLE --------------------------------
 -------------------------------------------------------------------------------
@@ -1163,6 +1182,20 @@ map.nodes[41844525] = ns.node.CluedIn({
 map.nodes[38134985] = ns.node.GoggleWobble({
     rewards = {Achievement({id = 19791, criteria = 65404})}
 })
+
+-------------------------------------------------------------------------------
+----------------------------- JUST ONE MORE THING -----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[40185717] = ns.node.JustOneMoreThing({
+    quest = {79604, 79603, 79602},
+    rewards = {Achievement({id = 19792, criteria = 65410})} -- Igira's Watch
+}) -- Research: Djaradin of Zaralek Cavern -- 76734
+
+map.nodes[49004900] = ns.node.JustOneMoreThing({
+    quest = {79607, 79606, 79605},
+    rewards = {Achievement({id = 19792, criteria = 65411})} -- Gaze of Neltharion
+}) -- Research: Niffen of Zaralek Cavern -- 76739
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

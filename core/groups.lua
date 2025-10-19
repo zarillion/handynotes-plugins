@@ -51,8 +51,19 @@ end
 
 -- Override to hide this group in the UI under certain circumstances
 function Group:IsEnabled()
-    if self.class and self.class ~= ns.class then return false end
-    if self.faction and self.faction ~= ns.faction then return false end
+
+    -- Check faction
+    if self.faction then
+        if ns:GetOpt('ignore_faction_restrictions') then return true end
+        if self.faction ~= ns.faction then return false end
+    end
+
+    -- Check class
+    if self.class then
+        if ns:GetOpt('ignore_class_restrictions') then return true end
+        if self.class ~= ns.class then return false end
+    end
+
     return true
 end
 
@@ -130,5 +141,10 @@ ns.groups = {
     QUEST = Group('quests', 'quest_ay',
         {type = ns.group_types.STANDARD, order = 4}),
     VENDOR = Group('vendors', 'bag', {type = ns.group_types.STANDARD, order = 5}),
-    MISC = Group('misc', 454046, {type = ns.group_types.STANDARD, order = 6})
+    MISC = Group('misc', 454046, {type = ns.group_types.STANDARD, order = 6}),
+    ---------------------------------------------------------------------------
+    SKYRIDING_RACE = Group('skyriding_race', 1100022, {
+        defaults = ns.GROUP_HIDDEN,
+        type = ns.group_types.EXPANSION
+    })
 }

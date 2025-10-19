@@ -5,4 +5,6 @@
   <Script file="zones\twilight_highlands.lua"/>
   <Script file="zones\uldum.lua"/>
   <Script file="zones\vashjir.lua"/>
+  <!-- -->
+  <Script file="zones\skyriding_races.lua"/>
 </Ui>

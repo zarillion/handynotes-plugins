@@ -71,6 +71,14 @@ local NilgCompleted = function(self)
     return Collectible.IsCompleted(self)
 end
 
+map.nodes[85502900] = ns.node.Node({
+    clabel = L['change_map'],
+    icon = 'peg_yw',
+    scale = 2,
+    label = C_Map.GetMapInfo(1911).name,
+    OnClick = function() WorldMapFrame:SetMapID(1911) end
+}) -- Torghast map
+
 -------------------------------------------------------------------------------
 ------------------------------------ INTRO ------------------------------------
 -------------------------------------------------------------------------------
@@ -488,12 +496,12 @@ map.nodes[69214521] = Treasure({
     quest = 64256,
     rlabel = ns.status.LightBlue(L['plus_research']),
     rewards = {
-        Achievement({id = 15099, criteria = 52243}), --[[
-        Transmog({item=187014, slot=L['cosmetic']}), -- Shackler's Spiked Shoulders
-        Transmog({item=187018, slot=L['cosmetic']}), -- Ritualist's Shoulder Scythes
-        Transmog({item=187019, slot=L['cosmetic']}), -- Infiltrator's Shoulderguards
-        ]] Transmog({item = 187026, slot = L['cosmetic']}), -- Field Warden's Torture Kit
-        Transmog({item = 187240, slot = L['cosmetic']}) -- Field Warden's Watchful Eye
+        Achievement({id = 15099, criteria = 52243}),
+        -- Transmog({item = 187014}), -- Shackler's Spiked Shoulders
+        -- Transmog({item = 187018}), -- Ritualist's Shoulder Scythes
+        -- Transmog({item = 187019}), -- Infiltrator's Shoulderguards
+        Transmog({item = 187026, slot = L['cloak']}), -- Field Warden's Torture Kit
+        Transmog({item = 187240, slot = L['cloak']}) -- Field Warden's Watchful Eye
     }
 }) -- Helsworn Chest
 
@@ -719,10 +727,13 @@ map.nodes[55626318] = BonusBoss({
 pitu.nodes[41767921] = BonusBoss({
     id = 172524,
     quest = 62211,
-    note = L['nexus_cave_anguish_upper'],
+    note = L['in_cave'] .. ' ' .. L['nexus_cave_anguish_upper'],
     rewards = {
         Achievement({id = 14660, criteria = 49491}),
         Transmog({item = 186240, slot = L['cloak']}) -- Broodmotherhide Cloak
+    },
+    pois = {
+        POI({54407920}) -- Cave entrance
     },
     parent = map.id
 }) -- Skittering Broodmother
@@ -1130,7 +1141,7 @@ local RiftCache = Class('RiftCache', Treasure, {
     assault = NIGHTFAE,
     rewards = {
         Achievement({id = 15001, criteria = {id = 1, qty = true}}),
-        Transmog({item = 187251, slot = L['cosmetic']}) -- Shaded Skull Shoulderguards
+        Transmog({item = 187251}) -- Shaded Skull Shoulderguards
     }
 })
 
@@ -1352,7 +1363,7 @@ local Vault = Class('ZovaalVault', NPC, {
     note = L['zovault_note'],
     rift = 1,
     rewards = {
-        Transmog({item = 187251, slot = L['cosmetic']}), -- Shaded Skull Shoulderguards
+        Transmog({item = 187251}), -- Shaded Skull Shoulderguards
         Toy({item = 187113}), -- Personal Ball and Chain
         Toy({item = 187416}) -- Jailer's Cage
     }
@@ -1534,26 +1545,7 @@ local ASSAULTS = {
     [KYRIAN.assault] = KYRIAN_ASSAULT_REWARDS
 }
 
-local assaultHandled = false
-
-hooksecurefunc(GameTooltip, 'Show', function(self)
-    if assaultHandled then return end
-    local owner = self:GetOwner()
-    if owner and owner.questID then
-        local rewards = ASSAULTS[owner.questID]
-        if rewards and #rewards > 0 then
-            for i, reward in ipairs(rewards) do
-                if reward:IsEnabled() then reward:Render(self) end
-            end
-            assaultHandled = true
-            self:AddLine(' ') -- add blank line after rewards
-            self:Show()
-        end
-    end
-end)
-
-hooksecurefunc(GameTooltip, 'ClearLines',
-    function(self) assaultHandled = false end)
+ns.hooks.legend.Add(nil, ASSAULTS)
 
 -------------------------------------------------------------------------------
 
@@ -1818,9 +1810,9 @@ map.nodes[85375524] = Class('Tormentor', ns.node.Node, {
         Transmog({item = 186233, slot = L['plate'], note = '{npc:177981}'}), -- Spaulders of the Skyborn Damned
         Pet({item = 186449, id = 3117, note = '{npc:177979}'}), -- Amaranthine Stinger
         Spacer(), ns.reward.Section('{item:185972}'), -- Tormentor's Cache
-        Transmog({item = 186977, slot = L['cosmetic'], indent = true}), -- Beastcaller's Skull Crescent
-        Transmog({item = 186978, slot = L['cosmetic'], indent = true}), -- Borrowed Eye Crescent
-        Transmog({item = 186562, slot = L['cosmetic'], indent = true}), -- Tormentor's Manacled Backplate
+        Transmog({item = 186977, slot = L['cloak'], indent = true}), -- Beastcaller's Skull Crescent
+        Transmog({item = 186978, slot = L['cloak'], indent = true}), -- Borrowed Eye Crescent
+        Transmog({item = 186562, slot = L['cloak'], indent = true}), -- Tormentor's Manacled Backplate
         Mount({item = 185973, id = 1475, indent = true}) -- Chain of Bahmethra
     },
     getters = {
@@ -1910,13 +1902,13 @@ map.nodes[46914169] = NPC({
         Item({item = 184588, quest = 63091, note = L['Ambivalent']}), -- Soul-Stabilizing Talisman
         Item({item = 184870, note = L['Appreciative']}), -- Stygia Dowser
         Spacer(), Section(L['torghast']), Spacer(),
-        Item({item = 184620, quest = 63202, note = L['Apprehensive']}), -- Vessel of Unforunate Spirits
-        Item({item = 184615, quest = 63183, note = L['Apprehensive']}), -- Extradimensional Pockets
-        Item({item = 184901, quest = 63523, note = L['Apprehensive']}), -- Broker Traversal Enhancer
-        Item({item = 184617, quest = 63193, note = L['Tentative']}), -- Bangle of Seniority
-        Item({item = 184621, quest = 63204, note = L['Ambivalent']}), -- Ritual Prism of Fortune
-        Item({item = 184618, quest = 63200, note = L['Cordial']}), -- Rank Insignia: Acquisitionist
-        Item({item = 184619, quest = 63201, note = L['Cordial']}), -- Loupe of Unusual Charm
-        Item({item = 180952, quest = 61144, note = L['Appreciative']}) -- Possibility Matrix
+        Item({item = 184620, quest_account = 63202, note = L['Apprehensive']}), -- Vessel of Unforunate Spirits
+        Item({item = 184615, quest_account = 63183, note = L['Apprehensive']}), -- Extradimensional Pockets
+        Item({item = 184901, quest_account = 63523, note = L['Apprehensive']}), -- Broker Traversal Enhancer
+        Item({item = 184617, quest_account = 63193, note = L['Tentative']}), -- Bangle of Seniority
+        Item({item = 184621, quest_account = 63204, note = L['Ambivalent']}), -- Ritual Prism of Fortune
+        Item({item = 184618, quest_account = 63200, note = L['Cordial']}), -- Rank Insignia: Acquisitionist
+        Item({item = 184619, quest_account = 63201, note = L['Cordial']}), -- Loupe of Unusual Charm
+        Item({item = 180952, quest_account = 61144, note = L['Appreciative']}) -- Possibility Matrix
     }
 }) -- Ve'nari

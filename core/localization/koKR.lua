@@ -12,6 +12,7 @@ L['leather'] = '가죽'
 L['mail'] = '사슬'
 L['plate'] = '판금'
 L['cosmetic'] = '장식'
+L['tabard'] = '겉옷'
 
 L['1h_mace'] = '한손 둔기'
 L['1h_sword'] = '한손 도검'
@@ -47,6 +48,9 @@ L['shared_drops'] = nil
 L['zone_drops_label'] = nil
 L['zone_drops_note'] = nil
 
+L['poi_entrance_label'] = nil
+L['change_map'] = nil
+
 L['requires'] = '요구사항'
 L['ranked_research'] = '%s (연구단계 %d/%d)'
 
@@ -58,6 +62,8 @@ L['hard'] = '어려움'
 
 L['completed'] = '완료'
 L['incomplete'] = '미완료'
+L['claimed'] = nil
+L['unclaimed'] = nil
 L['known'] = '확인'
 L['missing'] = '미확인'
 L['unobtainable'] = '획득불가'
@@ -78,6 +84,7 @@ L['in_water'] = '물 속에 있음.'
 L['in_building'] = nil
 
 ------------------------------------ TIME -------------------------------------
+L['now'] = nil
 L['hourly'] = '한시간단위'
 L['daily'] = '일간'
 L['weekly'] = '주간'
@@ -96,6 +103,9 @@ L['title'] = '칭호'
 L['toy'] = '장난감'
 L['currency'] = nil
 L['rep'] = '평판'
+L['buff'] = nil
+L['transmog'] = nil
+L['hunter_pet'] = nil
 
 ---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = '추종자'
@@ -108,23 +118,23 @@ L['rep_revered'] = nil
 L['rep_exalted'] = nil
 
 -------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
+------------------------------- SKYRIDING RACES -------------------------------
 -------------------------------------------------------------------------------
 
-L['dr_your_best_time'] = nil
-L['dr_your_target_time'] = nil
-L['dr_best_time'] = ' - %s: %.3fs'
-L['dr_target_time'] = ' - %s: %ss / %ss'
-L['dr_normal'] = nil
-L['dr_advanced'] = nil
-L['dr_reverse'] = nil
-L['dr_challenge'] = nil
-L['dr_reverse_challenge'] = nil
-L['dr_storm_race'] = nil
-L['dr_bronze'] = '경주를 완주하고 ' .. ns.color.Bronze('동메달') .. '을 획득하세요.'
-L['dr_vendor_note'] = nil
-L['options_icons_dragonrace'] = '용 조련술 경주'
-L['options_icons_dragonrace_desc'] = '용 조련술 경주 위치를 표시합니다.'
+L['sr_your_best_time'] = nil
+L['sr_your_target_time'] = nil
+L['sr_best_time'] = ' - %s: %.3fs'
+L['sr_target_time'] = ' - %s: %ss / %ss'
+L['sr_normal'] = nil
+L['sr_advanced'] = nil
+L['sr_reverse'] = nil
+L['sr_challenge'] = nil
+L['sr_reverse_challenge'] = nil
+L['sr_storm_race'] = nil
+L['sr_bronze'] = '경주를 완주하고 ' .. ns.color.Bronze('동메달') .. '을 획득하세요.'
+L['sr_vendor_note'] = nil
+L['options_icons_skyriding_race'] = '용 조련술 경주'
+L['options_icons_skyriding_race_desc'] = '용 조련술 경주 위치를 표시합니다.'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
@@ -186,7 +196,13 @@ L['options_toggle_per_map_settings_desc'] = '개별 지역별로 토글, 크기,
 L['options_restore_hidden_nodes'] = '숨긴 지점 복구'
 L['options_restore_hidden_nodes_desc'] = '우클릭 메뉴에서 숨긴 지점 복구 기능을 켭니다.'
 
+L['ignore_class_restrictions'] = nil
+L['ignore_class_restrictions_desc'] = nil
+L['ignore_faction_restrictions'] = nil
+L['ignore_faction_restrictions_desc'] = nil
+
 L['options_rewards_settings'] = '보상'
+L['options_reward_behaviors_settings'] = nil
 L['options_reward_types'] = '보상 종류 표시'
 L['options_manuscript_rewards'] = nil
 L['options_manuscript_rewards_desc'] = nil
@@ -202,6 +218,10 @@ L['options_transmog_rewards'] = '형상변환 보상 표시'
 L['options_transmog_rewards_desc'] = '형상변환 보상을 툴팁에 표시하고 수집 진행상황을 추적합니다'
 L['options_all_transmog_rewards'] = '획득 불가 형상변환 보상 표시'
 L['options_all_transmog_rewards_desc'] = '타직업으로만 수집가능한 형상변환 보상을 표시합니다'
+L['options_rep_rewards'] = nil
+L['options_rep_rewards_desc'] = nil
+L['options_claimed_rep_rewards'] = nil
+L['options_claimed_rep_rewards_desc'] = nil
 
 L['options_icons_misc_desc'] = '기타 위치 정보 표시'
 L['options_icons_misc'] = '기타'
@@ -233,6 +253,8 @@ L['options_toggle_show_notes'] = '가이드 표시'
 L['options_toggle_show_notes_desc'] = '가이드가 있으면 툴팁에 표시합니다'
 L['options_toggle_use_standard_time'] = nil
 L['options_toggle_use_standard_time_desc'] = nil
+L['options_toggle_show_npc_id'] = nil
+L['options_toggle_show_npc_id_desc'] = nil
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

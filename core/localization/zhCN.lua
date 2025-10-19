@@ -12,6 +12,7 @@ L['leather'] = '皮甲'
 L['mail'] = '锁甲'
 L['plate'] = '板甲'
 L['cosmetic'] = '装饰品'
+L['tabard'] = '战袍'
 
 L['1h_mace'] = '单手锤'
 L['1h_sword'] = '单手剑'
@@ -47,6 +48,9 @@ L['shared_drops'] = '共享掉落'
 L['zone_drops_label'] = '区域掉落'
 L['zone_drops_note'] = '下面列出的物品可以由该区域中的多个怪物掉落。'
 
+L['poi_entrance_label'] = '入口'
+L['change_map'] = '更改地图'
+
 L['requires'] = '需要'
 L['ranked_research'] = '%s（等级 %d/%d）'
 
@@ -58,8 +62,10 @@ L['hard'] = '困难'
 
 L['completed'] = '已完成'
 L['incomplete'] = '未完成'
-L['known'] = '已获得'
-L['missing'] = '未获得'
+L['claimed'] = '已获得'
+L['unclaimed'] = '未获得'
+L['known'] = '已知'
+L['missing'] = '缺少'
 L['unobtainable'] = '无法获得'
 L['unlearnable'] = '无法解锁'
 L['defeated'] = '已击杀'
@@ -78,6 +84,7 @@ L['in_water'] = '在水中。'
 L['in_building'] = '在建筑里面。'
 
 ------------------------------------ TIME -------------------------------------
+L['now'] = '现在'
 L['hourly'] = '每小时'
 L['daily'] = '每日'
 L['weekly'] = '每周'
@@ -96,6 +103,9 @@ L['title'] = '头衔'
 L['toy'] = '玩具'
 L['currency'] = '货币'
 L['rep'] = '声望'
+L['buff'] = '增益'
+L['transmog'] = '幻化'
+L['hunter_pet'] = '猎人宠物'
 
 ---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = '追随者'
@@ -108,23 +118,23 @@ L['rep_revered'] = '崇敬'
 L['rep_exalted'] = '崇拜'
 
 -------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
+------------------------------- SKYRIDING RACES -------------------------------
 -------------------------------------------------------------------------------
 
-L['dr_your_best_time'] = '最快时间：'
-L['dr_your_target_time'] = '目标时间：'
-L['dr_best_time'] = ' - %s：%.3f秒'
-L['dr_target_time'] = ' - %s：%s秒 / %s秒'
-L['dr_normal'] = '普通'
-L['dr_advanced'] = '进阶'
-L['dr_reverse'] = '反向'
-L['dr_challenge'] = '挑战'
-L['dr_reverse_challenge'] = '反向挑战'
-L['dr_storm_race'] = '风雷之速'
-L['dr_bronze'] = '完成竞速获得 ' .. ns.color.Bronze('青铜') .. '。'
-L['dr_vendor_note'] = '用 {currency:2588} 兑换观龙者手稿和幻化。'
-L['options_icons_dragonrace'] = '驭龙竞速'
-L['options_icons_dragonrace_desc'] = '显示区域内全部驭龙竞速的位置。'
+L['sr_your_best_time'] = '最快时间：'
+L['sr_your_target_time'] = '目标时间：'
+L['sr_best_time'] = ' - %s：%.3f秒'
+L['sr_target_time'] = ' - %s：%s秒 / %s秒'
+L['sr_normal'] = '普通'
+L['sr_advanced'] = '进阶'
+L['sr_reverse'] = '反向'
+L['sr_challenge'] = '挑战'
+L['sr_reverse_challenge'] = '反向挑战'
+L['sr_storm_race'] = '风雷之速'
+L['sr_bronze'] = '完成竞速获得 ' .. ns.color.Bronze('青铜') .. '。'
+L['sr_vendor_note'] = '用 {currency:2588} 兑换观龙者手稿和幻化。'
+L['options_icons_skyriding_race'] = '驭空术竞速'
+L['options_icons_skyriding_race_desc'] = '显示区域内全部驭空术竞速的位置。'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
@@ -186,7 +196,13 @@ L['options_toggle_per_map_settings_desc'] = '应用切换，缩放和透明度�
 L['options_restore_hidden_nodes'] = '恢复隐藏项'
 L['options_restore_hidden_nodes_desc'] = '使用右击菜单恢复全部隐藏项。'
 
+L['ignore_class_restrictions'] = '忽略职业限制'
+L['ignore_class_restrictions_desc'] = '显示需要与当前角色不同职业的组、项和奖励。'
+L['ignore_faction_restrictions'] = '忽略阵营限制'
+L['ignore_faction_restrictions_desc'] = '显示需要对立阵营的组、项和奖励。'
+
 L['options_rewards_settings'] = '奖励'
+L['options_reward_behaviors_settings'] = '奖励行为'
 L['options_reward_types'] = '显示奖励类型'
 L['options_manuscript_rewards'] = '显示观龙者手稿奖励'
 L['options_manuscript_rewards_desc'] = '在提示中显示龙观察者手稿奖励并跟踪其收集状态。'
@@ -202,6 +218,10 @@ L['options_transmog_rewards'] = '显示幻化奖励'
 L['options_transmog_rewards_desc'] = '在提示中显示幻化奖励并跟踪其收集状态。'
 L['options_all_transmog_rewards'] = '显示无法获取的幻化奖励'
 L['options_all_transmog_rewards_desc'] = '显示其它职业可以获取的幻化奖励。'
+L['options_rep_rewards'] = '显示声望奖励'
+L['options_rep_rewards_desc'] = '在提示中显示声望奖励并跟踪其收集状态。'
+L['options_claimed_rep_rewards'] = '显示以已获得声望奖励'
+L['options_claimed_rep_rewards_desc'] = '在提示中显示获得战团已获得声望奖励。'
 
 L['options_icons_misc_desc'] = '显示其它未分类项的位置。'
 L['options_icons_misc'] = '杂项'
@@ -233,6 +253,8 @@ L['options_toggle_show_notes'] = '显示注释'
 L['options_toggle_show_notes_desc'] = '在提示中添加注释'
 L['options_toggle_use_standard_time'] = '使用12小时时钟'
 L['options_toggle_use_standard_time_desc'] = '在提示中使用12小时时钟（如：8:00 PM）而不是24小时时钟（如：20:00）。'
+L['options_toggle_show_npc_id'] = '显示 NPC ID'
+L['options_toggle_show_npc_id_desc'] = '显示 NPC ID 以供稀有扫描插件使用。'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

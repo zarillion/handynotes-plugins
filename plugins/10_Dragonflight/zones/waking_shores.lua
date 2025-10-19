@@ -390,7 +390,7 @@ map.nodes[56004592] = Rare({
         Achievement({id = 16676, criteria = 56034}),
         Transmog({item = 200165, slot = L['shield']}), -- Aegis of Scales
         Transmog({item = 200256, slot = L['offhand']}), -- Darkmaul Soul Horn
-        Transmog({item = 200310, note = L['cloak']}), -- Stole of the Iron Phantom
+        Transmog({item = 200310, slot = L['cloak']}), -- Stole of the Iron Phantom
         DC.RenewedProtoDrake.ClubTail, DC.RenewedProtoDrake.WhiteHorns,
         DC.CliffsideWylderdrake.HeavyHorns, DC.CliffsideWylderdrake.HornedJaw
     }
@@ -870,11 +870,11 @@ map.nodes[69314658] = Treasure({
     quest = 70346,
     note = L['dead_mans_chestplate_note'],
     rewards = {
-        Achievement({id = 16297, criteria = 54702}),
-        Transmog({item = 202190, slot = L['cosmetic']}), -- Dead Man's Chains
-        Transmog({item = 202191, slot = L['cosmetic']}), -- Dead Man's Breastplate
-        Transmog({item = 202192, slot = L['cosmetic']}), -- Dead Man's Leathers
-        Transmog({item = 202193, slot = L['cosmetic']}) -- Dead Man's Tunic
+        Achievement({id = 16297, criteria = 54702}), --
+        Transmog({item = 202190}), -- Dead Man's Chains
+        Transmog({item = 202191}), -- Dead Man's Breastplate
+        Transmog({item = 202192}), -- Dead Man's Leathers
+        Transmog({item = 202193}) -- Dead Man's Tunic
     }
 }) -- Dead Man's Chestplate
 
@@ -1458,20 +1458,20 @@ local DjaradinCache = Class('DjaradinCache', ns.node.Node, {
     group = ns.groups.DJARADIN_CACHE,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Transmog({item = 201035, slot = L['cosmetic']}), -- Citadel Crushers Pauldrons
-        Transmog({item = 201036, slot = L['cosmetic']}), -- Citadel Crushers Chestplate
-        Transmog({item = 201037, slot = L['cosmetic']}), -- Citadel Crushers Legguards
-        Transmog({item = 201038, slot = L['cosmetic']}), -- Citadel Crushers Footwraps
-        Transmog({item = 201039, slot = L['cosmetic']}), -- Citadel Crushers Helm
-        Transmog({item = 201041, slot = L['cosmetic']}), -- Citadel Crushers Cloak
-        Transmog({item = 201042, slot = L['cosmetic']}), -- Obsidian Crushers Bracers
-        Transmog({item = 201043, slot = L['cosmetic']}), -- Obsidian Crushers Belt
-        Transmog({item = 201429, slot = L['cosmetic']}), -- Obsidian Fist
-        Transmog({item = 201430, slot = L['cosmetic']}), -- Burning Mallet
-        Transmog({item = 201431, slot = L['cosmetic']}), -- Obsidian Tyrants Mace
-        Transmog({item = 201432, slot = L['cosmetic']}), -- Obsidian Dragontooth
-        Transmog({item = 201433, slot = L['cosmetic']}), -- Citadel Wardens Mace
-        Transmog({item = 201434, slot = L['cosmetic']}), -- Obsidian Barrier
+        Transmog({item = 201035, slot = L['plate']}), -- Citadel Crushers Pauldrons
+        Transmog({item = 201036, slot = L['plate']}), -- Citadel Crushers Chestplate
+        Transmog({item = 201037, slot = L['plate']}), -- Citadel Crushers Legguards
+        Transmog({item = 201038, slot = L['plate']}), -- Citadel Crushers Footwraps
+        Transmog({item = 201039, slot = L['plate']}), -- Citadel Crushers Helm
+        Transmog({item = 201041, slot = L['cloak']}), -- Citadel Crushers Cloak
+        Transmog({item = 201042, slot = L['plate']}), -- Obsidian Crushers Bracers
+        Transmog({item = 201043, slot = L['plate']}), -- Obsidian Crushers Belt
+        Transmog({item = 201429, slot = L['fist']}), -- Obsidian Fist
+        Transmog({item = 201430, slot = L['1h_mace']}), -- Burning Mallet
+        Transmog({item = 201431, slot = L['1h_mace']}), -- Obsidian Tyrants Mace
+        Transmog({item = 201432, slot = L['1h_sword']}), -- Obsidian Dragontooth
+        Transmog({item = 201433, slot = L['2h_mace']}), -- Citadel Wardens Mace
+        Transmog({item = 201434, slot = L['shield']}), -- Obsidian Barrier
         Item({item = 199230}), -- Schematic: Projectile Propulsion Pinion
         Item({item = 194540, quest = 67046}), -- Nokhud Armorer's Notes
         Item({item = 199066, quest = 70535}), -- Letter of Caution
@@ -2235,16 +2235,16 @@ map.nodes[42788061] = GrandHunt({
 -------------------------- SIEGE ON DRAGONBANE KEEP ---------------------------
 -------------------------------------------------------------------------------
 
-local SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS = {
-    [7267] = 'Before Siege',
-    [7104] = 'During Siege',
-    [7413] = 'After Siege'
-}
-
 local SIEGE_ON_DRAGONBANE_KEEP_REWARDS = {
     Achievement({id = 16411}), -- Siege on Dragonbane Keep: Home Sweet Home
     Toy({item = 200116}), -- Everlasting Horn of Lavaswimming
-    ns.reward.Spacer(), Item({item = 192055}) -- Dragon Isles Artifact
+    Item({item = 192055}) -- Dragon Isles Artifact
+}
+
+local SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS = {
+    [7267] = SIEGE_ON_DRAGONBANE_KEEP_REWARDS, -- Before Siege'
+    [7104] = SIEGE_ON_DRAGONBANE_KEEP_REWARDS, -- During Siege'
+    [7413] = SIEGE_ON_DRAGONBANE_KEEP_REWARDS -- After Siege
 }
 
 map.nodes[30287005] = Collectible({
@@ -2256,7 +2256,7 @@ map.nodes[30287005] = Collectible({
     requires = ns.requirement.Reputation(2510, 5, true), -- Valdrakken Accord
     rewards = SIEGE_ON_DRAGONBANE_KEEP_REWARDS,
     IsEnabled = function(self)
-        local activePOIs = C_AreaPoiInfo.GetAreaPOIForMap(self.mapID)
+        local activePOIs = C_AreaPoiInfo.GetEventsForMap(self.mapID)
         local possiblePOIs = self.areaPOIs
         for a = 1, #activePOIs do
             for p = 1, #possiblePOIs do
@@ -2269,25 +2269,8 @@ map.nodes[30287005] = Collectible({
     end
 }) -- Siege on Dragonbane Keep
 
-hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
-    if self and self.areaPoiID then
-        local mapID = self:GetMap().mapID
-        local group = ns.groups.DRAGONBANE_SIEGE
-        if SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS[self.areaPoiID] then
-            if group:GetDisplay(mapID) then
-                if ns:GetOpt('show_loot') then
-                    GameTooltip:AddLine(' ')
-                    for i, reward in ipairs(SIEGE_ON_DRAGONBANE_KEEP_REWARDS) do
-                        if reward:IsEnabled() then
-                            reward:Render(GameTooltip)
-                        end
-                    end
-                end
-                GameTooltip:Show()
-            end
-        end
-    end
-end)
+ns.hooks.areapoievent.Add(ns.groups.DRAGONBANE_SIEGE,
+    SIEGE_ON_DRAGONBANE_KEEP_AREA_POIS)
 
 -------------------------------------------------------------------------------
 --------------------- ANCIENT STONES OF THE WAKING SHORE ----------------------
@@ -2352,6 +2335,25 @@ map.nodes[54606584] = RichSoil()
 map.nodes[55875764] = RichSoil()
 map.nodes[59456104] = RichSoil()
 map.nodes[60645668] = RichSoil()
+-------------------------------------------------------------------------------
+---------------------------------- CLUED IN -----------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[56434294] = ns.node.CluedIn({
+    label = L['drakonid_painting'],
+    quest = 76911 -- Research: Drakonid of Waking Shores
+})
+
+map.nodes[56814222] = ns.node.CluedIn({
+    label = L['emptied_hourglass'],
+    quest = 76911
+})
+
+map.nodes[57014632] = ns.node.CluedIn({
+    label = L['rusted_signal_horn'],
+    quest = 76911,
+    location = L['rusted_signal_horn_note']
+})
 
 -------------------------------------------------------------------------------
 -------------------------------- GOGGLE WOBBLE --------------------------------
@@ -2360,6 +2362,15 @@ map.nodes[60645668] = RichSoil()
 map.nodes[56374394] = ns.node.GoggleWobble({
     rewards = {Achievement({id = 19791, criteria = 65406})}
 })
+
+-------------------------------------------------------------------------------
+----------------------------- JUST ONE MORE THING -----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[57004400] = ns.node.JustOneMoreThing({
+    quest = {79610, 79609, 79608},
+    rewards = {Achievement({id = 19792, criteria = 65412})} -- Concord Observatory
+}) -- Research: Drakonid of Waking Shores -- 76911
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
@@ -2522,6 +2533,7 @@ map.nodes[37104453] = TameMagmammoth() -- Smoldering Perch
 local wishwing = Class('wishwing', Collectible, {
     label = '{item:193373}',
     icon = 4007139,
+    quest = 72804,
     rewards = {
         Pet({item = 193373, id = 3292}) -- Phoenix Wishwing
     },
@@ -2697,5 +2709,12 @@ map.nodes[47308270] = Collectible({
         Item({item = 213202, quest = 79550}) -- A Tiny Explorer's Hat
     }
 }) -- Explorer Pepe
+
+------------------------------------------------------------------------------
+--------------------------------- DREAMSURGE ---------------------------------
+------------------------------------------------------------------------------
+
+map.nodes[58446784] = ns.node.Celestine()
+map.nodes[41197748] = ns.node.RenewedMagmammoth()
 
 -- STOP: DO NOT ADD NEW NODES HERE UNLESS THEY BELONG IN MISCELLANEOUS

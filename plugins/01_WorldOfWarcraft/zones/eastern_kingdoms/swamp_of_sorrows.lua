@@ -2,6 +2,7 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
 local Safari = ns.node.Safari
 
@@ -12,6 +13,15 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 51, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[49804140] = ns.node.Rare({
+    id = 14448,
+    rewards = {ns.reward.Transmog({item = 5608, type = L['cloth']})} -- Living Cowl
+}) -- Molt Thorn
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
@@ -129,3 +139,33 @@ map.nodes[74603560] = Safari.WaterSnake({
         })
     }
 }) -- Water Snake
+
+-------------------------------------------------------------------------------
+-------------------------- THE SCAVENGER ACHIEVEMENT --------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[63604770] = ns.node.ScavengerPool(3876)
+map.nodes[63605880] = ns.node.ScavengerPool(3876)
+map.nodes[68206290] = ns.node.ScavengerPool(3876)
+map.nodes[72704230] = ns.node.ScavengerPool(3876)
+map.nodes[74006190] = ns.node.ScavengerPool(3876)
+map.nodes[74200810] = ns.node.ScavengerPool(3876)
+map.nodes[77501000] = ns.node.ScavengerPool(3876)
+map.nodes[77904420] = ns.node.ScavengerPool(3876)
+map.nodes[79600770] = ns.node.ScavengerPool(3876)
+map.nodes[80001350] = ns.node.ScavengerPool(3876)
+map.nodes[80109100] = ns.node.ScavengerPool(3876)
+map.nodes[81801610] = ns.node.ScavengerPool(3876)
+map.nodes[83508810] = ns.node.ScavengerPool(3876)
+map.nodes[84001880] = ns.node.ScavengerPool(3876)
+map.nodes[84808290] = ns.node.ScavengerPool(3876)
+map.nodes[85604600] = ns.node.ScavengerPool(3876)
+map.nodes[85802190] = ns.node.ScavengerPool(3876)
+map.nodes[86207760] = ns.node.ScavengerPool(3876)
+map.nodes[87302600] = ns.node.ScavengerPool(3876)
+map.nodes[88807120] = ns.node.ScavengerPool(3876)
+map.nodes[89303180] = ns.node.ScavengerPool(3876)
+map.nodes[89505840] = ns.node.ScavengerPool(3876)
+map.nodes[90004340] = ns.node.ScavengerPool(3876)
+map.nodes[90403720] = ns.node.ScavengerPool(3876)
+map.nodes[90806520] = ns.node.ScavengerPool(3876)

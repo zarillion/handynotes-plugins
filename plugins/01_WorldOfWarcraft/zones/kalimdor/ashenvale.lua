@@ -5,9 +5,9 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
-local Achievement = ns.reward.Achievement
 local Section = ns.reward.Section
 local Spacer = ns.reward.Spacer
 local Transmog = ns.reward.Transmog
@@ -22,6 +22,75 @@ local map = Map({id = 63, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[72607100] = Rare({
+    id = 3736,
+    faction = 'Alliance',
+    rewards = {
+        Transmog({item = 9781, type = L['leather']}) -- Bandit Pants
+    }
+}) -- Darkslayer Mordenthal
+
+map.nodes[53083751] = Rare({
+    id = 3792,
+    rewards = {
+        Transmog({item = 5753, type = L['leather']}), -- Ruffled Chaplet
+        Transmog({item = 9809, type = L['leather']}), -- Superior Tunic
+        Transmog({item = 14177, type = L['cloth']}) -- Watcher's Cuffs
+    },
+    pois = {POI({75207100, 75207100})}
+}) -- Terrowulf Packlord
+
+map.nodes[25202680] = Rare({
+    id = 10644,
+    rewards = {
+        Transmog({item = 6575, type = L['cloak']}), -- Defender Cloak
+        Transmog({item = 6587, type = L['leather']}) -- Scouting Trousers
+    },
+    pois = {POI({26201540})}
+}) -- Mist Howler
+
+map.nodes[12602980] = Rare({
+    id = 10559,
+    rewards = {
+        Transmog({item = 6576, type = L['mail']}), -- Defender Girdle
+        Transmog({item = 9781, type = L['leather']}), -- Bandit Pants
+        Transmog({item = 9812, type = L['cloak']}) -- Fortified Cloak
+    },
+    pois = {POI({15002420, 12001500})}
+}) -- Lady Vespia
+
+map.nodes[25146023] = Rare({
+    id = 3773,
+    rewards = {
+        Transmog({item = 6569, type = L['cloth']}) -- Shimmering Robe
+    }
+}) -- Akkrilus
+
+map.nodes[66605680] = Rare({
+    id = 10647,
+    rewards = {
+        Transmog({item = 6562, type = L['cloth']}) -- Shimmering Boots
+    },
+    pois = {POI({78604520, 81004920})}
+}) -- Prince Raze
+
+map.nodes[31452235] = Rare({
+    id = 3735,
+    faction = 'Alliance',
+    rewards = {
+        Transmog({item = 9811, type = L['mail']}) -- Fortified Bracers
+    }
+}) -- Apothecary Falthis
+
+map.nodes[3720390] = Rare({
+    id = 10639,
+    rewards = {
+        Transmog({item = 9817, type = L['mail']}) -- Fortified Spaulders
+    }
+}) -- Rorgish Jowl
+
 -------------------------------------------------------------------------------
 
 map.nodes[93604000] = ns.node.AnniversaryRare({
@@ -192,23 +261,37 @@ map.nodes[73805200] = Safari.Toad({
 }) -- Toad
 
 -------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
+-------------------------- THE SCAVENGER ACHIEVEMENT --------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[37043058] = ns.node.Dragonrace({
-    label = '{quest:75378}',
-    normal = {2317, 69, 64},
-    advanced = {2347, 64, 59},
-    reverse = {2377, 64, 59},
-    rewards = {
-        Achievement({id = 17712, criteria = 6, oneline = true}), -- normal bronze
-        Achievement({id = 17713, criteria = 6, oneline = true}), -- normal silver
-        Achievement({id = 17714, criteria = 6, oneline = true}), -- normal gold
-        Achievement({id = 17715, criteria = 6, oneline = true}), -- advanced bronze
-        Achievement({id = 17716, criteria = 6, oneline = true}), -- advanced silver
-        Achievement({id = 17717, criteria = 6, oneline = true}), -- advanced gold
-        Achievement({id = 17718, criteria = 6, oneline = true}), -- reverse bronze
-        Achievement({id = 17719, criteria = 6, oneline = true}), -- reverse silver
-        Achievement({id = 17720, criteria = 6, oneline = true}) -- reverse gold
-    }
-}) -- Ashenvale Ambit
+map.nodes[08401350] = ns.node.ScavengerPool(3874)
+map.nodes[10401680] = ns.node.ScavengerPool(3874)
+map.nodes[10602830] = ns.node.ScavengerPool(3874)
+map.nodes[12801840] = ns.node.ScavengerPool(3874)
+map.nodes[13002420] = ns.node.ScavengerPool(3874)
+map.nodes[13302690] = ns.node.ScavengerPool(3874)
+map.nodes[13902150] = ns.node.ScavengerPool(3874)
+map.nodes[33004990] = ns.node.ScavengerPool(3874)
+map.nodes[35705200] = ns.node.ScavengerPool(3874)
+map.nodes[37004660] = ns.node.ScavengerPool(3874)
+map.nodes[38405020] = ns.node.ScavengerPool(3874)
+map.nodes[45006990] = ns.node.ScavengerPool(3874)
+map.nodes[47407280] = ns.node.ScavengerPool(3874)
+map.nodes[49006790] = ns.node.ScavengerPool(3874)
+map.nodes[51607260] = ns.node.ScavengerPool(3874)
+map.nodes[52506950] = ns.node.ScavengerPool(3874)
+map.nodes[59007920] = ns.node.ScavengerPool(3874)
+map.nodes[61207570] = ns.node.ScavengerPool(3874)
+map.nodes[63307160] = ns.node.ScavengerPool(3874)
+map.nodes[64606690] = ns.node.ScavengerPool(3874)
+map.nodes[68306330] = ns.node.ScavengerPool(3874)
+map.nodes[69905780] = ns.node.ScavengerPool(3874)
+map.nodes[72405330] = ns.node.ScavengerPool(3874)
+map.nodes[74005040] = ns.node.ScavengerPool(3874)
+map.nodes[76204520] = ns.node.ScavengerPool(3874)
+map.nodes[78105060] = ns.node.ScavengerPool(3874)
+map.nodes[78805820] = ns.node.ScavengerPool(3874)
+map.nodes[78806420] = ns.node.ScavengerPool(3874)
+map.nodes[79107060] = ns.node.ScavengerPool(3874)
+map.nodes[82506360] = ns.node.ScavengerPool(3874)
+map.nodes[85406790] = ns.node.ScavengerPool(3874)

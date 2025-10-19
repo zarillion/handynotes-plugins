@@ -106,10 +106,13 @@ Return the "collected" status of this node. A node is collected if all
 associated rewards have been obtained (achievements, toys, pets, mounts).
 --]]
 
-function Node:IsCollected()
+function Node:IsCollected(type)
     for reward in self:IterateRewards() do
-        if reward:IsEnabled() and reward:IsObtainable() and
-            not reward:IsObtained() then return false end
+        if (not type or ns.IsInstance(reward, type)) and reward:IsEnabled() then
+            if reward:IsObtainable() and not reward:IsObtained() then
+                return false
+            end
+        end
     end
     return true
 end
@@ -170,7 +173,17 @@ function Node:IsEnabled()
         end
     end
 
-    if self.class and self.class ~= ns.class then return false end
+    -- Check faction
+    if self.faction then
+        if ns:GetOpt('ignore_faction_restrictions') then return true end
+        if self.faction ~= ns.faction then return false end
+    end
+
+    -- Check class
+    if self.class then
+        if ns:GetOpt('ignore_class_restrictions') then return true end
+        if self.class ~= ns.class then return false end
+    end
 
     return true
 end
@@ -525,10 +538,105 @@ end
 
 local Rare = Class('Rare', NPC, {scale = 1.2, group = ns.groups.RARE})
 
-function Rare.getters:icon() return
-    self:IsCollected() and 'skull_w' or 'skull_b' end
+function Rare.getters:icon()
+    if self:IsCollected() then
+        return 'skull_w'
+    elseif not self:IsCollected(ns.reward.Reputation) then
+        return 'skull_p'
+    else
+        return 'skull_b'
+    end
+end
+
+function Rare.getters:label()
+    local label = NPC.getters.label(self)
+    if ns:GetOpt('show_npc_id') then
+        label = label .. ' (' .. ns.color.White(self.id) .. ')'
+    end
+    return label
+end
 
 
+
+-------------------------------------------------------------------------------
+------------------------------- SKYRIDING RACE --------------------------------
+-------------------------------------------------------------------------------
+
+local SkyridingRace = Class('SkyridingRace', Collectible,
+    {icon = 1100022, group = ns.groups.SKYRIDING_RACE})
+
+local SKYRIDING_RACE_TYPES = {
+    [1] = {type = 'normal', label = L['sr_normal']},
+    [2] = {type = 'advanced', label = L['sr_advanced']},
+    [3] = {type = 'reverse', label = L['sr_reverse']},
+    [4] = {type = 'challenge', label = L['sr_challenge']},
+    [5] = {type = 'reverseChallenge', label = L['sr_reverse_challenge']},
+    [6] = {type = 'stormRace', label = L['sr_storm_race']}
+}
+
+-- DRAGONFLIGHT ONLY: Storm Races were unlocked once a player had the
+-- Algarian Stormrider mount from [Heroic Edition: Algarian Stormrider]
+function SkyridingRace.CanAddRace(raceType)
+    if raceType == 'stormRace' then
+        local unlocked = select(4, GetAchievementInfo(19027))
+        return unlocked and true or false
+    end
+    return true
+end
+
+function SkyridingRace.getters:sublabel()
+    local hasRaceType = false
+    local note = L['sr_best_time']
+    local txt = L['sr_your_best_time']
+    for _, race in ipairs(SKYRIDING_RACE_TYPES) do
+        if self[race.type] then
+            local currencyID = self[race.type][1]
+            local label = race.label
+            local time = currencyID and
+                             C_CurrencyInfo.GetCurrencyInfo(currencyID).quantity or
+                             0
+
+            txt = txt .. '\n' .. format(note, label, time / 1000)
+            hasRaceType = true
+        end
+    end
+    return hasRaceType and txt or nil
+end
+
+function SkyridingRace.getters:note()
+    local hasRaceType = false
+    local Silver = ns.color.Silver
+    local Gold = ns.color.Gold
+    local note = L['sr_target_time']
+    local txt = L['sr_your_target_time']
+    for _, race in ipairs(SKYRIDING_RACE_TYPES) do
+        if self[race.type] then
+            local label = race.label
+            -- SILVER
+            local hasSilverTime = false
+            local sTime = self[race.type][2]
+            if sTime ~= nil and sTime ~= 0 then
+                sTime = Silver(sTime)
+                hasSilverTime = true
+            end
+            -- GOLD
+            local hasGoldTime = false
+            local gTime = self[race.type][3]
+            if gTime ~= nil and gTime ~= 0 then
+                gTime = Gold(gTime)
+                hasGoldTime = true
+            end
+            if hasSilverTime and hasGoldTime then
+                if self.CanAddRace(race.type) then
+                    txt = txt .. '\n' .. format(note, label, sTime, gTime)
+                    hasRaceType = true
+                end
+            end
+        end
+    end
+    txt = txt .. '\n\n' .. L['sr_bronze']
+    return hasRaceType and txt or nil
+end
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURE -----------------------------------
@@ -548,6 +656,13 @@ function Treasure.getters:label()
         end
     end
     return UNKNOWN
+end
+
+function Treasure:IsEnabled()
+    if ns:GetOpt('hide_done_treasures') and self:IsCollected() then
+        return false
+    end
+    return Node.IsEnabled(self)
 end
 
 -------------------------------------------------------------------------------
@@ -570,7 +685,7 @@ function Interval:Initialize(attrs)
         [1] = self.initial.us,
         [2] = self.initial.kr or self.initial.tw,
         [3] = self.initial.eu,
-        [5] = self.initial.cn
+        [4] = self.initial.cn
     } -- https://warcraft.wiki.gg/wiki/API_GetCurrentRegion
 
     if self.id then
@@ -619,6 +734,7 @@ end
 
 ns.node = {
     Collectible = Collectible,
+    SkyridingRace = SkyridingRace,
     Intro = Intro,
     Item = Item,
     Node = Node,

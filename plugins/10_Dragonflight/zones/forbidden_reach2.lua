@@ -166,6 +166,7 @@ map.nodes[59695883] = Rare({
     rewards = {
         Achievement({id = 17525, criteria = 58466}), -- Champion of the Forbidden Reach
         Mount({item = 192772, id = 1619}), -- Ancient Salamanther
+        DC.WindborneVelocidrake.PlatedNeck, --
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
@@ -709,6 +710,7 @@ local ForbiddenHoard = Class('ForbiddenHoard', Collectible, {
     label = L['forbidden_hoard_label'],
     icon = 'chest_pp',
     scale = 1.3,
+    vignette = {5463, 5614},
     group = ns.groups.FORBIDDEN_HOARD,
     rewards = {
         Achievement({id = 17526, criteria = 58487}), -- Treasures of the Forbidden Reach
@@ -758,32 +760,47 @@ map.nodes[67756834] = ForbiddenHoard()
 
 local FSV_PS = {
     ['all'] = {
-        Achievement({id = 17540, criteria = {58567, 58568, 58569, 58570}}), -- Under the Weather
-        Item({item = 199749, quest = 70753}), -- Primal Air Core
-        Item({item = 199691, quest = 70723}), -- Primal Earth Core
-        Item({item = 199750, quest = 70754}), -- Primal Fire Core
-        Item({item = 199748, quest = 70752}), -- Primal Water Core
-        Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        note = L['gooey_snailemental_note'],
+        rewards = {
+            Achievement({id = 17540, criteria = {58567, 58568, 58569, 58570}}), -- Under the Weather
+            Item({item = 199749, quest = 70753}), -- Primal Air Core
+            Item({item = 199691, quest = 70723}), -- Primal Earth Core
+            Item({item = 199750, quest = 70754}), -- Primal Fire Core
+            Item({item = 199748, quest = 70752}), -- Primal Water Core
+            Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        }
     },
     [7408] = {
-        Achievement({id = 17540, criteria = 58567}), -- Under the Weather
-        Spacer(), Item({item = 199749, quest = 70753}), -- Primal Air Core
-        Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        note = L['gooey_snailemental_note'],
+        rewards = {
+            Achievement({id = 17540, criteria = 58567}), -- Under the Weather
+            Spacer(), Item({item = 199749, quest = 70753}), -- Primal Air Core
+            Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        }
     }, -- Air
     [7409] = {
-        Achievement({id = 17540, criteria = 58568}), -- Under the Weather
-        Spacer(), Item({item = 199691, quest = 70723}), -- Primal Earth Core
-        Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        note = L['gooey_snailemental_note'],
+        rewards = {
+            Achievement({id = 17540, criteria = 58568}), -- Under the Weather
+            Spacer(), Item({item = 199691, quest = 70723}), -- Primal Earth Core
+            Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        }
     }, -- Earth
     [7410] = {
-        Achievement({id = 17540, criteria = 58569}), -- Under the Weather
-        Spacer(), Item({item = 199750, quest = 70754}), -- Primal Fire Core
-        Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        note = L['gooey_snailemental_note'],
+        rewards = {
+            Achievement({id = 17540, criteria = 58569}), -- Under the Weather
+            Spacer(), Item({item = 199750, quest = 70754}), -- Primal Fire Core
+            Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        }
     }, -- Fire
     [7411] = {
-        Achievement({id = 17540, criteria = 58570}), -- Under the Weather
-        Spacer(), Item({item = 199748, quest = 70752}), -- Primal Water Core
-        Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        note = L['gooey_snailemental_note'],
+        rewards = {
+            Achievement({id = 17540, criteria = 58570}), -- Under the Weather
+            Spacer(), Item({item = 199748, quest = 70752}), -- Primal Water Core
+            Mount({item = 192785, id = 1627}) -- Gooey Snailemental
+        }
     } -- Water
 }
 
@@ -812,28 +829,7 @@ local FroststoneVaultPrimalStorm = Class('FroststoneVaultPrimalStorm',
 
 map.nodes[60103875] = FroststoneVaultPrimalStorm()
 
-hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
-    if self and self.areaPoiID then
-        local mapID = self:GetMap().mapID
-        local group = ns.groups.FROSTSTONE_VAULT_STORM
-        if FSV_PS[self.areaPoiID] and group:GetDisplay(mapID) then
-            local rewards = FSV_PS[self.areaPoiID]
-            ns.PrepareLinks(L['gooey_snailemental_note'])
-            if ns:GetOpt('show_notes') then
-                local note = ns.RenderLinks(L['gooey_snailemental_note'])
-                GameTooltip:AddLine(' ')
-                GameTooltip:AddLine(note)
-            end
-            GameTooltip:AddLine(' ')
-            for i, reward in ipairs(rewards) do
-                if reward:IsEnabled() then
-                    reward:Render(GameTooltip)
-                end
-            end
-            GameTooltip:Show()
-        end
-    end
-end)
+ns.hooks.areapoi.Add(ns.groups.FROSTSTONE_VAULT_STORM, FSV_PS)
 
 -------------------------------------------------------------------------------
 ------------------------------- SMALL TREASURES -------------------------------
@@ -1027,22 +1023,7 @@ map.nodes[29265268] = Collectible({
     }
 }) -- Zskera Vaults
 
-hooksecurefunc(AreaPOIPinMixin, 'TryShowTooltip', function(self)
-    if self and self.areaPoiID then
-        local mapID = self:GetMap().mapID
-        local group = ns.groups.ZSKERA_VAULTS
-        if self.areaPoiID == 7414 and group:GetDisplay(mapID) then
-            local rewards = ZSKERA_VAULTS_REWARDS
-            GameTooltip:AddLine(' ')
-            for i, reward in ipairs(rewards) do
-                if reward:IsEnabled() then
-                    reward:Render(GameTooltip)
-                end
-            end
-            GameTooltip:Show()
-        end
-    end
-end)
+ns.hooks.areapoi.Add(ns.groups.ZSKERA_VAULTS, {[7414] = ZSKERA_VAULTS_REWARDS})
 
 ------------------------ RENEWED PROTO-DRAKE: ANTLERS -------------------------
 
@@ -1155,7 +1136,7 @@ map.nodes[30268000] = Collectible({
     label = '{achievement:18559}',
     location = L['in_zskera_vaults'],
     icon = 132762,
-    note = L['tiny_box_of_tiny_rocks_note'], -- TODO: can also be less often found in the waking shores
+    note = L['box_of_rocks_note'],
     fgroup = 'zskera_vaults',
     group = ns.groups.ZSKERA_VAULTS,
     rewards = {
@@ -1359,6 +1340,24 @@ map.nodes[56383872] = ns.node.CluedIn({
     location = L['mysterious_boot_note']
 })
 
+map.nodes[19621537] = ns.node.CluedIn({
+    label = L['decaying_fishing_bucket'],
+    quest = 77362,
+    location = L['decaying_fishing_bucket_note']
+})
+
+map.nodes[18241313] = ns.node.CluedIn({
+    label = L['forgotten_fishing_pole'],
+    quest = 77362,
+    location = L['forgotten_fishing_pole_note']
+})
+
+map.nodes[10591156] = ns.node.CluedIn({
+    label = L['overgrown_fishing_bench'],
+    quest = 77362,
+    location = L['overgrown_fishing_bench_note']
+})
+
 -------------------------------------------------------------------------------
 -------------------------------- GOGGLE WOBBLE --------------------------------
 -------------------------------------------------------------------------------
@@ -1366,6 +1365,20 @@ map.nodes[56383872] = ns.node.CluedIn({
 map.nodes[77143837] = ns.node.GoggleWobble({
     rewards = {Achievement({id = 19791, criteria = 65405})}
 })
+
+-------------------------------------------------------------------------------
+----------------------------- JUST ONE MORE THING -----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[53004700] = ns.node.JustOneMoreThing({
+    quest = {79601, 79600, 79599},
+    rewards = {Achievement({id = 19792, criteria = 65408})} -- Lost Atheneum
+}) -- Research: Dracthyr of Forbidden Reach -- 77424
+
+map.nodes[17001600] = ns.node.JustOneMoreThing({
+    quest = {79613, 79612, 79611},
+    rewards = {Achievement({id = 19792, criteria = 65413})} -- Winglord's Perch
+}) -- Research: Drakonid of Forbidden Reach -- 77362
 
 -------------------------------------------------------------------------------
 ----------------------------------- VENDORS -----------------------------------

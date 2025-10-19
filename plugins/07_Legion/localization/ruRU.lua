@@ -248,5 +248,3 @@ L['general_pet_tamer_note'] = nil
 
 L['options_icons_safari'] = nil
 L['options_icons_safari_desc'] = nil
-
-L['change_map'] = nil

@@ -2,8 +2,13 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
+
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -12,6 +17,127 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 52, settings = true})
+local deadmines = ns.Map({id = 55, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[42402960] = Rare({
+    id = 572,
+    rewards = {
+        Transmog({item = 1314, type = L['leather']}), -- Ghoul Fingers
+        Transmog({item = 1387, type = L['2h_sword']}) -- Ghoulfang
+    }
+}) -- Leprithus
+
+local Vultros = Class('vultros', Rare, {
+    id = 462,
+    fgroup = 'vultros',
+    rewards = {
+        Transmog({item = 115348, type = L['cloak']}), -- Feathered Cape
+        Transmog({item = 115349, type = L['dagger']}), -- Talon of Vultros
+        Transmog({item = 68743, type = L['cloak']}) -- Imbued Infantry Cloak
+    }
+}) -- Vultros
+
+map.nodes[57601940] = Vultros()
+map.nodes[54602460] = Vultros()
+map.nodes[49602780] = Vultros()
+map.nodes[49003520] = Vultros()
+map.nodes[56403520] = Vultros()
+
+local Marisa = Class('marisa', Rare, {
+    id = 599,
+    fgroup = 'marisa',
+    rewards = {
+        Transmog({item = 4660, type = L['cloth']}), -- Walking Boots
+        Transmog({item = 3019, type = L['cloth']}) -- Noble's Robe
+    }
+}) -- Marisa du'Paige
+
+deadmines.nodes[52805460] = Marisa({parent = map.id})
+deadmines.nodes[37605640] = Marisa()
+deadmines.nodes[56047070] = Marisa() -- confirmed
+
+map.nodes[42607660] = Rare({
+    id = 596,
+    note = 'in deadmines',
+    rewards = {
+        Transmog({item = 3902, type = L['staff']}), -- Staff of Nobles
+        Transmog({item = 1933, type = L['staff']}) -- Staff of Conjuring
+    }
+}) -- Brainwashed Noble
+
+map.nodes[54531045] = Rare({
+    id = 519,
+    rewards = {
+        Transmog({item = 3188, type = L['2h_sword']}), -- Coral Claymore
+        Transmog({item = 120952, type = L['mail']}), -- Slarkhide
+        Transmog({item = 6180, type = L['mail']}) -- Slarkskin
+    },
+    pois = {
+        ns.poi.Path({
+            56011040, 55381084, 55061147, 54751207, 54021173, 53601121,
+            53111076, 52431063, 51701085, 51131125, 50621170, 50061209,
+            49351185, 48991127, 48901051, 49330994, 49991015, 50701026,
+            51351002, 51950974, 52670948, 53390968, 53921017, 54531045,
+            55231023, 55740967, 56250917, 56230988, 56011040
+        })
+    }
+}) -- Slark
+
+ns.Map({id = 54, settings = true}).nodes[63972217] = Rare({
+    id = 1424,
+    parent = {id = map.id, pois = {POI({44562502})}, location = L['in_cave']},
+    rewards = {
+        Transmog({item = 6206, type = L['2h_axe']}), -- Rock Chipper
+        Transmog({item = 6205, type = L['2h_mace']}) -- Burrowing Shovel
+    }
+}) -- Master Digger
+
+map.nodes[63557313] = Rare({
+    id = 506,
+    rewards = {
+        Transmog({item = 2204, type = L['2h_sword']}), -- Brashclaw's Skewer
+        Transmog({item = 2203, type = L['2h_axe']}) -- Brashclaw's Chopper
+    }
+}) -- Sergeant Brashclaw
+
+local Reaper = Class('Reaper', Rare, {
+    id = 573,
+    fgroup = 'reaper',
+    rewards = {
+        Transmog({item = 4434, type = L['cloth']}), -- Scarecrow Trousers
+        Transmog({item = 6267, type = L['cloth']}), -- Disciple's Pants
+        Transmog({item = 6269, type = L['leather']}), -- Pioneer Trousers
+        Transmog({item = 6337, type = L['mail']}) -- Infantry Leggings
+    }
+}) -- Foe Reaper 4000
+
+map.nodes[38805160] = Reaper()
+map.nodes[44403520] = Reaper()
+map.nodes[55003180] = Reaper()
+map.nodes[63206040] = Reaper()
+
+map.nodes[28877465] = Rare({
+    id = 520,
+    rewards = {
+        Transmog({item = 6179, type = L['cloak']}), -- Privateer's Cape
+        Transmog({item = 2235, type = L['dagger']}), -- Brackclaw
+        Transmog({item = 9786, type = L['cloak']}), -- Raider's Cloak
+        Transmog({item = 9763, type = L['mail']}), -- Cadet Leggings
+        Transmog({item = 9756, type = L['leather']}) -- Nomad Trousers
+    },
+    pois = {
+        ns.poi.Path({
+            34608492, 34228405, 33778327, 33198284, 32378275, 31588249,
+            31038198, 30468133, 30088064, 29767987, 29547903, 29337818,
+            29117734, 28977646, 28897556, 28877465, 28887375, 28897285,
+            28757197, 28507115, 28167040, 27906959, 27916870
+        })
+    }
+}) -- Brack
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

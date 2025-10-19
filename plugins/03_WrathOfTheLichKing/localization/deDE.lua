@@ -22,3 +22,5 @@ L['higher_learning_6'] = 'Auf der Kiste im Eck.'
 L['higher_learning_7'] = 'Im Obergeschoss im Bücherregal.'
 L['higher_learning_8'] = 'Im Erdgeschoss im Bücherregal.'
 L['higher_learning_vargoth'] = 'Nachdem du alle 8 Bücher gelesen hast, erhältst du {item:43824} per Post womit du dich in {location:Erzmagier Vargoths Rückzugsort} teleportieren kannst.\nSprich mit {npc:90430}, um das Haustier zu erhalten.'
+
+L['coinmaster_note'] = 'Angle alle Münzen aus dem Springbrunnen von Dalaran.'

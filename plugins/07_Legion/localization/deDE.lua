@@ -266,5 +266,3 @@ L['general_pet_tamer_note'] = '{note:Erscheint nur, wenn die entsprechende Weltq
 
 L['options_icons_safari'] = '{achievement:11233}'
 L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:11233} an.'
-
-L['change_map'] = 'Karte wechseln'

@@ -208,7 +208,6 @@ map.nodes[66701800] = Rare({
     note = L['mother_rosula_note'],
     rewards = {
         Achievement({id = 12078, criteria = 37665}),
-        Mount({item = 152903, id = 981}), -- Biletooth Gnasher
         Pet({item = 153252, id = 2135}) -- Rebellious Imp
     },
     pois = {POI({65602640})}
@@ -460,6 +459,17 @@ map.nodes[55103930] = LWS9
 map.nodes[58204030] = LWS9
 map.nodes[59903580] = LWS9
 map.nodes[58503120] = LWS9
+
+-------------------------------------------------------------------------------
+-------------------------- ANOMALOUS ANIMALS OF ARGUS -------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[51604160] = ns.node.AnomalousAnimal(128019, 13) -- Watcher
+map.nodes[56605420] = ns.node.AnomalousAnimal(128020, 14) -- Bloat
+map.nodes[56002860] = ns.node.AnomalousAnimal(128021, 15) -- Earseeker
+map.nodes[64006580] = ns.node.AnomalousAnimal(128022, 16) -- Pilfer
+map.nodes[76807380] = ns.node.AnomalousAnimal(128023, 17) -- Minixis
+map.nodes[59804000] = ns.node.AnomalousAnimal(128024, 18) -- One-of-Many
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
-local _, ns = ...
+local ADDON_NAME, ns = ...
 local L = ns.locale
 
 -------------------------------------------------------------------------------
@@ -30,19 +30,26 @@ ns.optionDefaults = {
         show_completed_nodes = false,
         use_char_achieves = false,
         per_map_settings = false,
+        display_class_locked_nodes = false,
 
         -- tooltip
         show_loot = true,
         show_notes = true,
+        show_npc_id = false,
 
         -- rewards
-        show_manuscript_rewards = true,
+        show_rep_rewards = true,
         show_mount_rewards = true,
         show_pet_rewards = true,
         show_recipe_rewards = true,
         show_toy_rewards = true,
         show_transmog_rewards = true,
+        show_manuscript_rewards = true, -- dragonflight only
+        show_class_locked_rewards = false,
+
+        -- reward options
         show_all_transmog_rewards = false,
+        show_claimed_rep_rewards = true,
 
         -- development
         development = false,
@@ -144,11 +151,11 @@ ns.options = {
                     name = L['options_rewards_settings'],
                     order = 10
                 },
-                show_manuscript_rewards = {
+                show_rep_rewards = {
                     type = 'toggle',
-                    arg = 'show_manuscript_rewards',
-                    name = L['options_manuscript_rewards'],
-                    desc = L['options_manuscript_rewards_desc'],
+                    arg = 'show_rep_rewards',
+                    name = L['options_rep_rewards'],
+                    desc = L['options_rep_rewards_desc'],
                     order = 11,
                     width = 'full'
                 },
@@ -157,7 +164,7 @@ ns.options = {
                     arg = 'show_mount_rewards',
                     name = L['options_mount_rewards'],
                     desc = L['options_mount_rewards_desc'],
-                    order = 11,
+                    order = 12,
                     width = 'full'
                 },
                 show_pet_rewards = {
@@ -165,7 +172,7 @@ ns.options = {
                     arg = 'show_pet_rewards',
                     name = L['options_pet_rewards'],
                     desc = L['options_pet_rewards_desc'],
-                    order = 11,
+                    order = 13,
                     width = 'full'
                 },
                 show_recipe_rewards = {
@@ -173,7 +180,7 @@ ns.options = {
                     arg = 'show_recipe_rewards',
                     name = L['options_recipe_rewards'],
                     desc = L['options_recipe_rewards_desc'],
-                    order = 11,
+                    order = 14,
                     width = 'full'
                 },
                 show_toy_rewards = {
@@ -181,7 +188,7 @@ ns.options = {
                     arg = 'show_toy_rewards',
                     name = L['options_toy_rewards'],
                     desc = L['options_toy_rewards_desc'],
-                    order = 11,
+                    order = 15,
                     width = 'full'
                 },
                 show_transmog_rewards = {
@@ -189,28 +196,68 @@ ns.options = {
                     arg = 'show_transmog_rewards',
                     name = L['options_transmog_rewards'],
                     desc = L['options_transmog_rewards_desc'],
-                    order = 11,
+                    order = 16,
                     width = 'full'
+                },
+                show_manuscript_rewards = {
+                    type = 'toggle',
+                    arg = 'show_manuscript_rewards',
+                    name = L['options_manuscript_rewards'],
+                    desc = L['options_manuscript_rewards_desc'],
+                    order = 17,
+                    width = 'full',
+                    hidden = function()
+                        return ADDON_NAME ~= 'HandyNotes_Dragonflight'
+                    end
+                },
+                RewardBehaviorHeader = {
+                    type = 'header',
+                    name = L['options_reward_behaviors_settings'],
+                    order = 20
                 },
                 show_all_transmog_rewards = {
                     type = 'toggle',
                     arg = 'show_all_transmog_rewards',
                     name = L['options_all_transmog_rewards'],
                     desc = L['options_all_transmog_rewards_desc'],
-                    order = 12,
+                    order = 21,
+                    width = 'full'
+                },
+                show_claimed_rep = {
+                    type = 'toggle',
+                    arg = 'show_claimed_rep_rewards',
+                    name = L['options_claimed_rep_rewards'],
+                    desc = L['options_claimed_rep_rewards_desc'],
+                    order = 22,
                     width = 'full'
                 },
                 VisibilityHeader = {
                     type = 'header',
                     name = L['options_visibility_settings'],
-                    order = 20
+                    order = 30
+                },
+                show_completed_nodes = {
+                    type = 'toggle',
+                    arg = 'show_completed_nodes',
+                    name = L['options_show_completed_nodes'],
+                    desc = L['options_show_completed_nodes_desc'],
+                    order = 21,
+                    width = 'full'
+                },
+                hide_done_rare = {
+                    type = 'toggle',
+                    arg = 'hide_done_rares',
+                    name = L['options_toggle_hide_done_rare'],
+                    desc = L['options_toggle_hide_done_rare_desc'],
+                    order = 22,
+                    width = 'full'
                 },
                 hide_minimap = {
                     type = 'toggle',
                     arg = 'hide_minimap',
                     name = L['options_toggle_hide_minimap'],
                     desc = L['options_toggle_hide_minimap_desc'],
-                    order = 23,
+                    order = 34,
                     width = 'full'
                 },
                 use_char_achieves = {
@@ -218,14 +265,31 @@ ns.options = {
                     arg = 'use_char_achieves',
                     name = L['options_toggle_use_char_achieves'],
                     desc = L['options_toggle_use_char_achieves_desc'],
-                    order = 24,
+                    order = 35,
+                    width = 'full'
+                },
+                IgnoreHeader = {type = 'header', name = '', order = 36},
+                ignore_class_restrictions = {
+                    type = 'toggle',
+                    arg = 'ignore_class_restrictions',
+                    name = L['ignore_class_restrictions'],
+                    desc = L['ignore_class_restrictions_desc'],
+                    order = 37,
+                    width = 'full'
+                },
+                ignore_faction_restrictions = {
+                    type = 'toggle',
+                    arg = 'ignore_faction_restrictions',
+                    name = L['ignore_faction_restrictions'],
+                    desc = L['ignore_faction_restrictions_desc'],
+                    order = 38,
                     width = 'full'
                 },
                 restore_all_nodes = {
                     type = 'execute',
                     name = L['options_restore_hidden_nodes'],
                     desc = L['options_restore_hidden_nodes_desc'],
-                    order = 25,
+                    order = 39,
                     width = 'full',
                     func = function()
                         wipe(ns.addon.db.char)
@@ -235,7 +299,7 @@ ns.options = {
                 FocusHeader = {
                     type = 'header',
                     name = L['options_focus_settings'],
-                    order = 30
+                    order = 40
                 },
                 POI_scale = {
                     type = 'range',
@@ -246,7 +310,7 @@ ns.options = {
                     step = 0.01,
                     arg = 'poi_scale',
                     width = 'full',
-                    order = 31
+                    order = 41
                 },
                 POI_color = {
                     type = 'color',
@@ -259,7 +323,7 @@ ns.options = {
                     get = function()
                         return ns:GetColorOpt('poi_color')
                     end,
-                    order = 32
+                    order = 42
                 },
                 PATH_color = {
                     type = 'color',
@@ -272,13 +336,13 @@ ns.options = {
                     get = function()
                         return ns:GetColorOpt('path_color')
                     end,
-                    order = 33
+                    order = 43
                 },
                 restore_poi_colors = {
                     type = 'execute',
                     name = L['options_reset_poi_colors'],
                     desc = L['options_reset_poi_colors_desc'],
-                    order = 34,
+                    order = 44,
                     width = 'full',
                     func = function()
                         local df = ns.optionDefaults.profile
@@ -291,28 +355,35 @@ ns.options = {
                 TooltipsHeader = {
                     type = 'header',
                     name = L['options_tooltip_settings'],
-                    order = 40
+                    order = 50
                 },
                 show_loot = {
                     type = 'toggle',
                     arg = 'show_loot',
                     name = L['options_toggle_show_loot'],
                     desc = L['options_toggle_show_loot_desc'],
-                    order = 41
+                    order = 51
                 },
                 show_notes = {
                     type = 'toggle',
                     arg = 'show_notes',
                     name = L['options_toggle_show_notes'],
                     desc = L['options_toggle_show_notes_desc'],
-                    order = 42
+                    order = 52
                 },
                 use_standard_time = {
                     type = 'toggle',
                     arg = 'use_standard_time',
                     name = L['options_toggle_use_standard_time'],
                     desc = L['options_toggle_use_standard_time_desc'],
-                    order = 43
+                    order = 53
+                },
+                show_npc_id = {
+                    type = 'toggle',
+                    arg = 'show_npc_id',
+                    name = L['options_toggle_show_npc_id'],
+                    desc = L['options_toggle_show_npc_id_desc'],
+                    order = 54
                 }
             }
         },

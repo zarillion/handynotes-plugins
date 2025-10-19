@@ -122,6 +122,19 @@ end
 function Item:IsMet() return ns.PlayerHasItem(self.id, self.count) end
 
 -------------------------------------------------------------------------------
+------------------------------------- PET -------------------------------------
+-------------------------------------------------------------------------------
+
+local Pet = Class('Pet', Requirement, {type = L['pet']})
+
+function Pet:Initialize(id)
+    self.id = id
+    self.text = select(1, C_PetJournal.GetPetInfoBySpeciesID(self.id))
+end
+
+function Pet:IsMet() return C_PetJournal.GetNumCollectedInfo(self.id) > 0 end
+
+-------------------------------------------------------------------------------
 --------------------------------- PROFESSION ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -164,13 +177,18 @@ function Quest:IsMet() return C_QuestLog.IsQuestFlaggedCompleted(self.id) end
 local Reputation = Class('Reputation', Requirement)
 
 -- @todo will cause problems when requiring lower / negative reputations. Maybe add comparison as optional parameter with default value '>='.
-function Reputation:Initialize(id, level, isRenown)
-    self.id, self.level, self.isRenown = id, level, isRenown
+function Reputation:Initialize(id, level, isRenown, isAmount)
+    self.id = id
+    self.level = level
+    self.isRenown = isRenown
+    self.isAmount = isAmount
 end
 
 function Reputation:GetText()
     local level = self.level
-    if self.isRenown then
+    if self.isAmount then
+        level = ns.FormatReputation(self.level)
+    elseif self.isRenown then
         level = _G['COVENANT_SANCTUM_LEVEL']:format(level)
     else
         level = GetText('FACTION_STANDING_LABEL' .. level)
@@ -179,10 +197,13 @@ function Reputation:GetText()
 end
 
 function Reputation:IsMet()
-    local standingID = self.isRenown and
-                           C_MajorFactions.GetCurrentRenownLevel(self.id) or
-                           select(3, ns.api.GetFactionInfoByID(self.id))
-    return standingID >= self.level
+    if self.isAmount then
+        return select(6, ns.api.GetFactionInfoByID(self.id)) >= self.level
+    elseif self.isRenown then
+        return C_MajorFactions.GetCurrentRenownLevel(self.id) >= self.level
+    else
+        return select(3, ns.api.GetFactionInfoByID(self.id)) >= self.level
+    end
 end
 
 -------------------------------------------------------------------------------
@@ -196,13 +217,23 @@ function Spell:Initialize(id)
     self.text = string.format('{spell:%d}', self.id)
 end
 
-function Spell:IsMet()
-    for i = 1, 255 do
-        local buff = select(10, UnitAura('player', i, 'HELPFUL'))
-        local debuff = select(10, UnitAura('player', i, 'HARMFUL'))
-        if buff == self.id or debuff == self.id then return true end
-    end
-    return false
+function Spell:IsMet() return C_UnitAuras.GetPlayerAuraBySpellID(self.id) ~= nil end
+
+-------------------------------------------------------------------------------
+------------------------------- Specialization --------------------------------
+-------------------------------------------------------------------------------
+
+local Specialization = Class('Specialization', Requirement,
+    {type = _G['SPECIALIZATION']})
+
+function Specialization:Initialize(id)
+    self.id = id
+    self.text = select(2, GetSpecializationInfoByID(self.id))
+end
+
+function Specialization:IsMet()
+    local specID = GetSpecializationInfo(GetSpecialization())
+    return specID == self.id
 end
 
 -------------------------------------------------------------------------------
@@ -232,10 +263,12 @@ ns.requirement = {
     GarrisonTalent = GarrisonTalent,
     GarrisonTalentRank = GarrisonTalentRank,
     Item = Item,
+    Pet = Pet,
     Profession = Profession,
     Quest = Quest,
     Reputation = Reputation,
     Requirement = Requirement,
+    Specialization = Specialization,
     Spell = Spell,
     Toy = Toy,
     WarMode = WarMode

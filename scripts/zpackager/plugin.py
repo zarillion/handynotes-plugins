@@ -10,6 +10,7 @@ class Plugin(BaseModel):
     dir: str
     name: str
     curse: int | None
+    wago: str | None
     wowi: int | None
     enabled: bool
 
@@ -25,13 +26,20 @@ class Plugin(BaseModel):
         already exist in the source tree when the tag is created!! If no section for
         this tag is found, a default message is used.
         """
-        changelog = Path(self.path, "CHANGELOG.md")
-        if changelog.exists():
-            with open(Path(self.path, "CHANGELOG.md")) as f:
-                if match := re.match(rf"^# {tag}\s+(.+?)# v\d+", f.read(), re.M | re.S):
-                    return match.group(1).strip() + "\n"
+        entries = ""
 
-        return "No changelog entries for this release.\n"
+        for changelog in (
+            Path("core", "CHANGELOG.md"),
+            Path(self.path, "CHANGELOG.md"),
+        ):
+            if changelog.exists():
+                with open(changelog) as f:
+                    if match := re.match(
+                        rf"^# {tag}\s+(.+?)# v\d+", f.read(), re.M | re.S
+                    ):
+                        entries += match.group(1).strip() + "\n"
+
+        return entries or "No changelog entries for this release.\n"
 
     def wow_version(self) -> str:
         """

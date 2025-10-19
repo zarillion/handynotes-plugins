@@ -2,8 +2,12 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
+
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -12,6 +16,56 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 62, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[48604160] = Rare({
+    id = 7016,
+    rewards = {
+        Transmog({item = 68756, type = L['cloak']}), -- Imbued Simple Cape
+        Transmog({item = 6333, type = L['dagger']}) -- Spikelash Dagger
+    }
+}) -- Lady Vespira
+
+map.nodes[40804860] = Rare({
+    id = 2172,
+    rewards = {
+        Transmog({item = 9756, type = L['leather']}) -- Nomad Trousers
+    }
+}) -- Strider Clutchmother
+
+map.nodes[44815679] = Rare({
+    id = 2184,
+    rewards = {
+        Transmog({item = 6550, type = L['mail']}) -- Soldier's Wristguards
+    }
+}) -- Lady Moongazer
+
+map.nodes[44408300] = Rare({
+    id = 2186,
+    rewards = {
+        Transmog({item = 6536, type = L['cloth']}), -- Willow Vest
+        Transmog({item = 6575, type = L['cloak']}) -- Defender Cloak
+    }
+}) -- Carnivous the Breaker
+
+map.nodes[40078307] = Rare({
+    id = 2192,
+    rewards = {
+        Transmog({item = 6552, type = L['leather']}), -- Bard's Tunic
+        Transmog({item = 9784, type = L['mail']}) -- Raider's Boots
+    }
+}) -- Firecaller Radison
+
+map.nodes[34078360] = Rare({
+    id = 7017,
+    rewards = {
+        Transmog({item = 9788, type = L['mail']}), -- Raider's Belt
+        Transmog({item = 6585, type = L['cloak']}) -- Scouting Cloak
+    }
+}) -- Lord Sinslayer
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

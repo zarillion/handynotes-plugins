@@ -1,4 +1,4 @@
-## Interface: 110000
+## Interface: 110205
 ## Title: HandyNotes: The War Within
 ## Version: 0
 ## Notes: The War Within Notes
@@ -6,7 +6,7 @@
 ## RequiredDeps: HandyNotes
 ## X-Embeds: Ace3
 ## SavedVariables: HandyNotes_TheWarWithinDB
-## IconTexture: 4640486
+## IconTexture: 5770811
 
 embeds.xml
 core\core.xml

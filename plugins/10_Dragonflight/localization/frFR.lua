@@ -87,7 +87,6 @@ L['options_icons_signal_transmitter'] = 'Transmetteurs de signaux du Générateu
 L['options_icons_signal_transmitter_desc'] = 'Afficher les emplacements des {object:Transmetteurs de signaux désactivés} pour le {item:198156}.'
 
 L['rare_14h'] = 'Ce rare fait partie d\'une rotation de 14 heures avec les autres rares, avec un rare apparaissant toutes les 30 minutes.\n\nProchaine apparition: {note:%s}'
-L['now'] = 'Maintenant'
 L['spawns_at_night'] = '{note:Apparaît uniquement la nuit. (Après 18:30, heure du serveur)}'
 
 L['elemental_storm'] = 'Tempête élémentaire'
@@ -162,6 +161,8 @@ L['shadowflame_leatherworking_table_label'] = 'Table de travail du cuir d’ombr
 L['shadowflame_leatherworking_table_note'] = 'Requis pour la fabrication de la recette :\n{spell:406275}'
 L['shadowflame_incantation_table_label'] = 'Table d’incantation d’ombreflamme'
 L['shadowflame_incantation_table_note'] = 'Requis pour la fabrication de la recette :\n{spell:405076}'
+L['altar_of_decay_label'] = 'Autel de la putréfaction'
+L['altar_of_decay_note'] = 'Requis lors de la fabrication de ces recettes :\n{spell:110423} : \nPatrons putréfiés\nComposants imprégnés de putréfaction\n\n{spell:264211} : \nPotions toxiques\nFlasques toxiques\n{spell:405879}'
 L['azure_loom_label'] = 'Métier à tisser d’azur'
 L['azure_loom_note'] = 'Requis pour la fabrication de la recette :\n{spell:376556}'
 L['temporal_loom_label'] = 'Métier à tisser temporel'
@@ -188,13 +189,17 @@ L['options_icons_rich_soil'] = 'Sol riche'
 L['options_icons_rich_soil_desc'] = 'Afficher les emplacements des {object:Sols riches}.'
 
 L['information_stuffed_clue'] = 'Indice riche en informations'
-L['clued_in_note'] = 'Les {npc:210079} apparaissent lors de l\'événement {note:La grande fouille} et lors des 3 expéditions {wq:Recherche : ...}.'
+L['clued_in_note'] = 'Les {npc:210079} apparaissent lors de l\'événement {note:La grande fouille} et lors des expéditions {wq:Recherche : ...}.'
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = 'Afficher les emplacements des {npc:210079} pour le haut-fait {achievement:19787}.'
 
-L['goggle_wobble_note'] = '{emote:/danser} avec {npc:207763} pendant la suite de quêtes d\'introduction ou lors des 3 expéditions {wq:Bidulodivination : ...} en portant les {item:202247}.'
+L['goggle_wobble_note'] = '{emote:/danser} avec {npc:207763} pendant la suite de quêtes d\'introduction ou lors des expéditions {wq:Bidulodivination : ...} en portant les {item:202247}.'
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = 'Afficher les emplacements de {npc:207763} pour le haut-fait {achievement:19791}.'
+
+L['just_one_more_thing_note'] = 'Vous devez terminer trois fois n\'importe quelle expédition {wq:Recherche : ...}.'
+L['options_icons_just_one_more_thing'] = '{achievement:19792}'
+L['options_icons_just_one_more_thing_desc'] = 'Afficher la progression pour chaque critère du faut-fait {achievement:19792}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -460,6 +465,12 @@ L['untranslated_tome'] = 'Tome non traduit'
 L['untranslated_tome_note'] = 'Dans le bâtiment dont l\'entrée se trouve sous le pont.'
 L['mysterious_boot'] = 'Botte mystérieuse'
 L['mysterious_boot_note'] = 'A l\'étage supérieur.'
+L['decaying_fishing_bucket'] = 'Seau de poisson en putréfaction'
+L['decaying_fishing_bucket_note'] = 'Au dernier étage de la tour.'
+L['forgotten_fishing_pole'] = 'Canne à pêche oubliée'
+L['forgotten_fishing_pole_note'] = 'Au rez-de-chaussée.'
+L['overgrown_fishing_bench'] = 'Banc de pêche recouvert de végétation'
+L['overgrown_fishing_bench_note'] = 'Sur un rocher envahi par la végétation, difficile à voir.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -538,6 +549,7 @@ L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Afficher les emplacements des Gardes-rêves pour {achievement:16574}'
 
 L['khadin_note'] = 'Échangez les {item:191784} contre de la connaissance de métiers.'
+L['khadin_prof_note'] = 'Gagnez %d {currency:%d} supplémentaires pour maximiser l\'arbre du métier {spell:%d}.'
 L['the_great_swog_note'] = 'Échangez des {item:199338}, {item:199339} et {item:199340} contre des {item:202102}.'
 L['hunt_instructor_basku_note'] = 'Échangez vos {item:200093} pour obtenir de la réputation avec les {faction:2503}.'
 L['elder_yusa_note'] = 'Ciblez l\'{npc:192818} et utilisez l\'emote {emote:/faim} pour obtenir la recette de cuisine.'
@@ -669,7 +681,7 @@ L['naszuro_thaldraszus_peak'] = 'Sur un pic intermédiaire de la montagne.'
 L['naszuro_temporal_conflux'] = 'Sur la tête de la statue du dragon.'
 
 L['revival_catalyst_label'] = 'Catalyseur de Renouveau'
-L['revival_catalyst_note'] = 'Transforme des pièces d\'armures ne faisant pas partie d\'un ensemble en une nouvelle pièce d’ensemble du même niveau.'
+L['revival_catalyst_note'] = 'Transforme des pièces d\'armures ne faisant pas partie d\'un ensemble en une nouvelle pièce d’ensemble du même niveau.\n\n{currency:2912}: %d/%d'
 
 L['provisioner_aristta_note'] = 'Échangez vos {currency:2657} contre des objets de transmogrification et une monture.'
 
@@ -852,6 +864,11 @@ L['box_of_rocks_note'] = 'Les {object:Boîtes de pierres} peuvent être trouvée
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = 'Afficher les emplacements possibles des {object:Boîtes de pierres} pour le haut-fait {achievement:18559}.'
 
+L['drakonid_painting'] = 'Tableau drakônide'
+L['emptied_hourglass'] = 'Sablier vide'
+L['rusted_signal_horn'] = 'Cor d’alarme rouillé'
+L['rusted_signal_horn_note'] = 'Au dernier étage.'
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
@@ -925,6 +942,11 @@ L['djaradin_scroll'] = 'Parchemin djaradin'
 L['forgotten_incense'] = 'Encens oublié'
 L['forgotten_incense_note'] = '{note:Difficile à atteindre en raison des bordures de la quête.}'
 L['historied_heirloom'] = 'Objet à l\'histoire riche'
+L['rusted_dirt_pale'] = 'Seau de terre rouillé'
+L['rusted_dirt_pale_note'] = '{note:Disparaît après que vous ayez cliqué sur les autres {object:Indices riches en informations} dans cette zone de quête.}'
+L['niffen_pickaxe'] = 'Pioche flairane'
+L['chipped_grub_pot'] = 'Marmite à boustiff ébéchée'
+L['chipped_grub_pot_note'] = 'Au sommet de la tour.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
@@ -1019,6 +1041,7 @@ L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'N'
 L['mbc_vial_o'] = 'O'
 
+L['mbc_vial_b_location'] = 'Bassin de Thas’talah'
 L['mbc_vial_d_location'] = 'Avant-poste de Pluie-d’Étoiles'
 L['mbc_vial_e_location'] = 'Bosquet crépusculaire'
 L['mbc_vial_k_location'] = 'Refuge des saisons de Malfurion'

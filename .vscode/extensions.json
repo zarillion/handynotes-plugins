@@ -1,5 +1,6 @@
 {
     "recommendations": [
+        "yzhang.markdown-all-in-one",
         "github.vscode-github-actions",
         "Koihik.vscode-lua-format",
         "trixnz.vscode-lua"

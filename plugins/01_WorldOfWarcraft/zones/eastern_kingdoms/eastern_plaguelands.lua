@@ -2,8 +2,12 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
+
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -12,6 +16,68 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 23, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[33604680] = Rare({
+    id = 10826,
+    rewards = {Transmog({item = 16039, type = L['2h_sword']})}, -- Ta'Kierthan Songblade
+    pois = {
+        ns.poi.Path({
+            33204782, 33454847, 33994885, 34574922, 35244888, 35724838,
+            36154788, 36474717, 36914657, 37404611, 37424536, 37284470,
+            36924412, 36334364, 35654363, 35164408, 34994474, 34894541,
+            34424596, 33914642, 33394685, 33254750, 33234817, 33724863
+        })
+    }
+}) -- Lord Darkscythe
+
+map.nodes[36026203] = Rare({
+    id = 10817,
+    rewards = {Transmog({item = 7479, type = L['leather']})} -- Ranger Helm
+}) -- Duggan Wildhammer
+
+map.nodes[35652135] = Rare({
+    id = 10819,
+    rewards = {Transmog({item = 9970, type = L['plate']})} -- Embossed Plate Leggings
+}) -- Baron Bloodbane
+
+map.nodes[47392128] = Rare({
+    id = 10824,
+    rewards = {
+        Transmog({item = 7544, type = L['cloak']}), -- Champion's Cape
+        Transmog({item = 7531, type = L['leather']}), -- Cabalist Boots
+        Transmog({item = 7469, type = L['cloth']}) -- Regal Leggings
+    }
+}) -- Death-Hunter Hawkspear
+
+map.nodes[23497857] = Rare({
+    id = 51053,
+    note = L['in_crypt'],
+    rewards = {Transmog({item = 7468, type = L['cloth']})} -- Regal Robe
+}) -- Quirix
+
+map.nodes[39405560] = Rare({
+    id = 50779,
+    rewards = {Transmog({item = 9919, type = L['cloak']})} -- Tracker's Cloak
+}) -- Sporeggon
+
+map.nodes[64141211] = Rare({
+    id = 10823,
+    rewards = {Transmog({item = 10089, type = L['plate']})} -- Gothic Sabatons
+}) -- Zul'Brin Warpbranch
+
+map.nodes[79003900] = Rare({
+    id = 10821,
+    rewards = {Transmog({item = 9928, type = L['mail']})} -- Brigade Breastplate
+}) -- Hed'mush the Rotting
+
+map.nodes[55206860] = Rare({
+    id = 1843,
+    rewards = {Transmog({item = 7544, type = L['cloak']})} -- Champion's Cape
+}) -- Foreman Jerris
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
@@ -185,3 +251,34 @@ map.nodes[25206300] = Safari.InfectedSquirrel({
         })
     }
 }) -- Infected Squirrel
+
+-------------------------------------------------------------------------------
+-------------------------- THE SCAVENGER ACHIEVEMENT --------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[22501660] = ns.node.ScavengerPool(3876)
+map.nodes[26101550] = ns.node.ScavengerPool(3876)
+map.nodes[29601650] = ns.node.ScavengerPool(3876)
+map.nodes[30901330] = ns.node.ScavengerPool(3876)
+map.nodes[31701610] = ns.node.ScavengerPool(3876)
+map.nodes[45304190] = ns.node.ScavengerPool(3876)
+map.nodes[45906150] = ns.node.ScavengerPool(3876)
+map.nodes[46506480] = ns.node.ScavengerPool(3876)
+map.nodes[47004560] = ns.node.ScavengerPool(3876)
+map.nodes[48804130] = ns.node.ScavengerPool(3876)
+map.nodes[50506460] = ns.node.ScavengerPool(3876)
+map.nodes[52405880] = ns.node.ScavengerPool(3876)
+map.nodes[54207200] = ns.node.ScavengerPool(3876)
+map.nodes[54404480] = ns.node.ScavengerPool(3876)
+map.nodes[55407680] = ns.node.ScavengerPool(3876)
+map.nodes[56907100] = ns.node.ScavengerPool(3876)
+map.nodes[60207330] = ns.node.ScavengerPool(3876)
+map.nodes[60304750] = ns.node.ScavengerPool(3876)
+map.nodes[64204710] = ns.node.ScavengerPool(3876)
+map.nodes[65802950] = ns.node.ScavengerPool(3876)
+map.nodes[67405490] = ns.node.ScavengerPool(3876)
+map.nodes[67605980] = ns.node.ScavengerPool(3876)
+map.nodes[67704580] = ns.node.ScavengerPool(3876)
+map.nodes[69005140] = ns.node.ScavengerPool(3876)
+map.nodes[71505300] = ns.node.ScavengerPool(3876)
+map.nodes[71505740] = ns.node.ScavengerPool(3876)

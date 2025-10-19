@@ -12,6 +12,7 @@ L['leather'] = 'Кожа'
 L['mail'] = 'Кольчуга'
 L['plate'] = 'Латы'
 L['cosmetic'] = 'Косметический'
+L['tabard'] = 'Гербовая накидка'
 
 L['1h_mace'] = 'Одноручное Дробящее'
 L['1h_sword'] = 'Одноручный Меч'
@@ -47,6 +48,9 @@ L['shared_drops'] = 'Общий дроп'
 L['zone_drops_label'] = 'Добыча в локации'
 L['zone_drops_note'] = 'Перечисленные ниже предметы могут быть получены от нескольких монстров в этой локации.'
 
+L['poi_entrance_label'] = 'Вход'
+L['change_map'] = 'Изменить карту'
+
 L['requires'] = 'Требуется'
 L['ranked_research'] = '%s (Ранг %d/%d)'
 
@@ -56,8 +60,10 @@ L['retrieving'] = 'Получение ссылки на предмет ...'
 L['normal'] = 'Обычный'
 L['hard'] = 'Сложный'
 
-L['completed'] = 'Получено'
+L['completed'] = 'Завершено'
 L['incomplete'] = 'Незавершенно'
+L['claimed'] = 'Получено'
+L['unclaimed'] = 'Не получено'
 L['known'] = 'Известно'
 L['missing'] = 'Отсутствует'
 L['unobtainable'] = 'Недоступно'
@@ -78,6 +84,7 @@ L['in_water'] = 'В воде.'
 L['in_building'] = 'В здании.'
 
 ------------------------------------ TIME -------------------------------------
+L['now'] = 'Сейчас'
 L['hourly'] = 'Ежечасно'
 L['daily'] = 'Ежедневно'
 L['weekly'] = 'Раз в неделю'
@@ -96,6 +103,9 @@ L['title'] = 'Звание'
 L['toy'] = 'Игрушка'
 L['currency'] = 'Валюта'
 L['rep'] = 'Реп.'
+L['buff'] = 'Бафф'
+L['transmog'] = 'Трансмог'
+L['hunter_pet'] = 'Питомцы охотников'
 
 ---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = 'Последователь'
@@ -108,23 +118,23 @@ L['rep_revered'] = 'Почтение'
 L['rep_exalted'] = 'Превознесение'
 
 -------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
+------------------------------- SKYRIDING RACES -------------------------------
 -------------------------------------------------------------------------------
 
-L['dr_your_best_time'] = 'Ваше лучшее время:'
-L['dr_your_target_time'] = 'Отведенное время:'
-L['dr_best_time'] = ' - %s: %.3fs'
-L['dr_target_time'] = ' - %s: %ss / %ss'
-L['dr_normal'] = 'Обычный'
-L['dr_advanced'] = 'Сложный'
-L['dr_reverse'] = 'Обратный маршрут'
-L['dr_challenge'] = 'Испытание'
-L['dr_reverse_challenge'] = 'Испытание наоборот'
-L['dr_storm_race'] = 'Гонки Бурь'
-L['dr_bronze'] = 'Завершите гонку, чтобы получить ' .. ns.color.Bronze('Бронзу') .. '.'
-L['dr_vendor_note'] = 'Обмен {currency:2588} на манускрипты и трансмогрификацию.'
-L['options_icons_dragonrace'] = 'Гонка на драконах'
-L['options_icons_dragonrace_desc'] = 'Отображение местоположения гонок на драконах.'
+L['sr_your_best_time'] = 'Ваше лучшее время:'
+L['sr_your_target_time'] = 'Отведенное время:'
+L['sr_best_time'] = ' - %s: %.3fs'
+L['sr_target_time'] = ' - %s: %ss / %ss'
+L['sr_normal'] = 'Обычный'
+L['sr_advanced'] = 'Сложный'
+L['sr_reverse'] = 'Обратный маршрут'
+L['sr_challenge'] = 'Испытание'
+L['sr_reverse_challenge'] = 'Испытание наоборот'
+L['sr_storm_race'] = 'Гонки Бурь'
+L['sr_bronze'] = 'Завершите гонку, чтобы получить ' .. ns.color.Bronze('Бронзу') .. '.'
+L['sr_vendor_note'] = 'Обмен {currency:2588} на манускрипты и трансмогрификацию.'
+L['options_icons_skyriding_race'] = 'Гонки на драконах'
+L['options_icons_skyriding_race_desc'] = 'Отображение местоположения гонок на драконах.'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
@@ -186,10 +196,16 @@ L['options_toggle_per_map_settings_desc'] = 'Применяйте настрой
 L['options_restore_hidden_nodes'] = 'Восстановить скрытые места'
 L['options_restore_hidden_nodes_desc'] = 'Восстановите все скрытые места, используя контекстное меню, вызываемое правой кнопкой мыши.'
 
+L['ignore_class_restrictions'] = 'Игнорировать ограничения класса'
+L['ignore_class_restrictions_desc'] = 'Показывать награды, для которых требуется класс, отличный от класса активного персонажа.'
+L['ignore_faction_restrictions'] = 'Игнорировать ограничения фракции'
+L['ignore_faction_restrictions_desc'] = 'Показать награды, требующие противоположной фракции.'
+
 L['options_rewards_settings'] = 'Награды'
+L['options_reward_behaviors_settings'] = 'Поощрительное поведение'
 L['options_reward_types'] = 'Показать типы наград'
-L['options_manuscript_rewards'] = nil
-L['options_manuscript_rewards_desc'] = nil
+L['options_manuscript_rewards'] = 'Отображать манускрипты наблюдения за драконами'
+L['options_manuscript_rewards_desc'] = 'Отображать манускрипты наблюдения за драконами во всплывающих подсказках и отслеживать их собранный статус.'
 L['options_mount_rewards'] = 'Показать маунтов'
 L['options_mount_rewards_desc'] = 'Отображать маунтов во всплывающих подсказках и отслеживать их собранный статус.'
 L['options_pet_rewards'] = 'Показать питомцев'
@@ -202,6 +218,10 @@ L['options_transmog_rewards'] = 'Показать трансмогрификац
 L['options_transmog_rewards_desc'] = 'Отображать трансмогрификацию во всплывающих подсказках и отслеживать их статус.'
 L['options_all_transmog_rewards'] = 'Показать недоступные награды за трансмогрификацию'
 L['options_all_transmog_rewards_desc'] = 'Показать награды за трансмогрификацию, доступные другим классам.'
+L['options_rep_rewards'] = 'Показать награды за репутацию'
+L['options_rep_rewards_desc'] = 'Отображение наград за репутацию во всплывающих подсказках и отслеживать их статус.'
+L['options_claimed_rep_rewards'] = 'Показать полученные награды за репутацию'
+L['options_claimed_rep_rewards_desc'] = 'Показывать награды за репутацию, которые уже были получены вашим отрядом.'
 
 L['options_icons_misc_desc'] = 'Отображение местоположения других разных точек.'
 L['options_icons_misc'] = 'Разное'
@@ -233,6 +253,8 @@ L['options_toggle_show_notes'] = 'Показать заметки'
 L['options_toggle_show_notes_desc'] = 'Добавьте полезные заметки в подсказку, где это возможно'
 L['options_toggle_use_standard_time'] = 'Использовать 12-часовой формат'
 L['options_toggle_use_standard_time_desc'] = 'Используйте 12-часовой формат времени (например, 08:00 вечера) вместо 24-часового формата (например, 20:00) во всплывающих подсказках.'
+L['options_toggle_show_npc_id'] = 'Показать ID NPC'
+L['options_toggle_show_npc_id_desc'] = 'Показывать NPC ID для использования в аддонах для сканирования монстров.'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

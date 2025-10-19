@@ -2,10 +2,12 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
-local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -14,6 +16,24 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 64, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[70008540] = Rare({
+    id = 4132,
+    rewards = {
+        Transmog({item = 8224, type = L['1h_sword']}) -- Silithid Ripper
+    }
+}) -- Krkk'kx
+
+map.nodes[61206760] = Rare({
+    id = 5935,
+    rewards = {
+        Transmog({item = 8223, type = L['1h_sword']}) -- Blade of the Basilisk
+    }
+}) -- Ironeye the Invincible
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
@@ -61,23 +81,12 @@ map.nodes[55806160] = Safari.TwilightIguana({
 }) -- Twilight Iguana
 
 -------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
+-------------------------- THE SCAVENGER ACHIEVEMENT --------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[09731735] = ns.node.Dragonrace({
-    label = '{quest:75463}',
-    normal = {2323, 88, 83},
-    advanced = {2353, 1000, 999},
-    reverse = {2383, 1000, 999},
-    rewards = {
-        Achievement({id = 17712, criteria = 12, oneline = true}), -- normal bronze
-        Achievement({id = 17713, criteria = 12, oneline = true}), -- normal silver
-        Achievement({id = 17714, criteria = 12, oneline = true}), -- normal gold
-        Achievement({id = 17715, criteria = 12, oneline = true}), -- advanced bronze
-        Achievement({id = 17716, criteria = 12, oneline = true}), -- advanced silver
-        Achievement({id = 17717, criteria = 12, oneline = true}), -- advanced gold
-        Achievement({id = 17718, criteria = 12, oneline = true}), -- reverse bronze
-        Achievement({id = 17719, criteria = 12, oneline = true}), -- reverse silver
-        Achievement({id = 17720, criteria = 12, oneline = true}) -- reverse gold
-    }
-}) -- Thousand Needles Thread
+map.nodes[76807530] = ns.node.ScavengerPool(3876)
+map.nodes[79207040] = ns.node.ScavengerPool(3876)
+map.nodes[80407330] = ns.node.ScavengerPool(3876)
+map.nodes[89607720] = ns.node.ScavengerPool(3876)
+map.nodes[90007350] = ns.node.ScavengerPool(3876)
+map.nodes[92707120] = ns.node.ScavengerPool(3876)

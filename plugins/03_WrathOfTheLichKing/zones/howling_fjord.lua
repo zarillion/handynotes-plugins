@@ -39,23 +39,35 @@ map.nodes[72805140] = Rare({
     note = L['area_spawn']
 }) -- Vigdis the War Maiden
 
-map.nodes[60602000] = Rare({
+local Perobas = Rare({
     id = 32377,
+    fgroup = 'perobas',
     rewards = {
         Achievement({id = 2257, criteria = 7}), -- Frostbitten
         Transmog({item = 44669, slot = L['mail']}) -- Worgen-Scored Shackles
-    },
-    pois = {POI({53601240, 50800400, 68801700, 71601360})}
+    }
 }) -- Perobas the Bloodthirster
 
-map.nodes[31205680] = Rare({
+map.nodes[60602000] = Perobas
+map.nodes[53601240] = Perobas
+map.nodes[50240493] = Perobas -- position confirmed
+map.nodes[68801700] = Perobas
+map.nodes[71601360] = Perobas
+
+local KingPing = Rare({
     id = 32398,
+    fgroup = 'kingping',
     rewards = {
         Achievement({id = 2257, criteria = 9}), -- Frostbitten
         Transmog({item = 44668, slot = L['cloth']}) -- Egg-Warming Blanket
-    },
-    pois = {POI({26006400, 30807120, 32207540, 33208020})}
+    }
 }) -- King Ping
+
+map.nodes[31205680] = KingPing
+map.nodes[26006400] = KingPing
+map.nodes[30807120] = KingPing
+map.nodes[32207540] = KingPing
+map.nodes[33208020] = KingPing
 
 -------------------------------------------------------------------------------
 ------------------- TO ALL THE SQUIRRELS WHO SHARED MY LIFE -------------------

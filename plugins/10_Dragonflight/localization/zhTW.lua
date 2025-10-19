@@ -86,7 +86,6 @@ L['options_icons_signal_transmitter'] = '龍洞產生器信號發送器'
 L['options_icons_signal_transmitter_desc'] = '顯示 {item:198156} 所需的 {object:關閉的信號發送器} 位置.'
 
 L['rare_14h'] = '此稀有和其他稀有們共用一個14小時的循環, 每30分鐘會重生一隻稀有.\n\n下個可能的重生時間是: {note:%s}'
-L['now'] = '現在'
 L['spawns_at_night'] = '{note:僅在晚上重生 (伺服器時間 18:30 之後)}'
 
 L['elemental_storm'] = '元素風暴'
@@ -161,6 +160,8 @@ L['shadowflame_leatherworking_table_label'] = '暗焰製皮工作臺'
 L['shadowflame_leatherworking_table_note'] = '當製造以下圖樣時需要:\n{spell:406275}'
 L['shadowflame_incantation_table_label'] = '暗焰附魔桌'
 L['shadowflame_incantation_table_note'] = '當製造以下圖樣時需要:\n{spell:405076}'
+L['altar_of_decay_label'] = nil
+L['altar_of_decay_note'] = nil
 L['azure_loom_label'] = '蒼藍織布機'
 L['azure_loom_note'] = '當製造以下圖樣時需要:\n{spell:376556}'
 L['temporal_loom_label'] = '時光織布機'
@@ -194,6 +195,10 @@ L['options_icons_clued_in_desc'] = '顯示成就 {achievement:19787} 所需的 {
 L['goggle_wobble_note'] = '在引導任務線或是3個世界任務 {wq:高科技占測...} 時戴著 {item:202247} 和 {npc:207763} {emote:/dance}.'
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = '顯示成就 {achievement:19791} 所需的 {npc:207763} 位置.'
+
+L['just_one_more_thing_note'] = nil
+L['options_icons_just_one_more_thing'] = nil
+L['options_icons_just_one_more_thing_desc'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -458,7 +463,14 @@ L['sun_bleached_vase'] = nil
 L['untranslated_tome'] = nil
 L['untranslated_tome_note'] = '在入口在橋下的建築內.'
 L['mysterious_boot'] = nil
+
 L['mysterious_boot_note'] = '上層.'
+L['decaying_fishing_bucket'] = nil
+L['decaying_fishing_bucket_note'] = nil
+L['forgotten_fishing_pole'] = nil
+L['forgotten_fishing_pole_note'] = nil
+L['overgrown_fishing_bench'] = nil
+L['overgrown_fishing_bench_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -537,6 +549,7 @@ L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = '顯示 {achievement:16574} 成就所需的夢境守衛位置.'
 
 L['khadin_note'] = '使用 {item:191784} 交換專業知識.'
+L['khadin_prof_note'] = '還需投入 %d 點 {currency:%d} 才能點滿 {spell:%d} 專業樹.'
 L['the_great_swog_note'] = '使用 {item:199338}, {item:199339} 和 {item:199340} 來交換 {item:202102}.'
 L['hunt_instructor_basku_note'] = '用 {item:200093} 交換 {faction:2503} 聲望'
 L['elder_yusa_note'] = '選取 {npc:192818} 並使用 {emote:/hungry} 來取得烹飪食譜.'
@@ -668,7 +681,7 @@ L['naszuro_thaldraszus_peak'] = '在山的第二高峰上.'
 L['naszuro_temporal_conflux'] = '在龍雕像的頭上.'
 
 L['revival_catalyst_label'] = '重生育籃控制臺'
-L['revival_catalyst_note'] = '將非套裝裝備轉換為對應裝等語部位的套裝部件.'
+L['revival_catalyst_note'] = '將非套裝裝備轉換為對應裝等語部位的套裝部件.\n\n{currency:2912}: %d/%d'
 
 L['provisioner_aristta_note'] = '用 {currency:2657} 交換塑型和一隻座騎.'
 
@@ -850,9 +863,14 @@ L['naszuro_ruby_lifeshrine'] = '在龍雕像爪子之下.'
 L['naszuro_dragonheart_outpost'] = '在樹的枝幹間.'
 
 L['box_of_rocks_label'] = '一盒石頭'
-L['box_of_rocks_note'] = '{object:一盒石頭} 可以在 {location:甦醒海岸} 附近, {location:扎拉萊克洞穴} 裡面或是從拍賣場購買.'
+L['box_of_rocks_note'] = '{object:一盒石頭} 可以在 {location:甦醒海岸} 全境, 或是 {location:禁忌之境} 的 {location:澤斯克拉密庫} 裡面找到, 也可以從拍賣場購買.'
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = '顯示成就 {achievement:18559} 所需的 {object:一盒石頭} 可能的位置.'
+
+L['drakonid_painting'] = nil
+L['emptied_hourglass'] = nil
+L['rusted_signal_horn'] = nil
+L['rusted_signal_horn_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
@@ -927,6 +945,11 @@ L['djaradin_scroll'] = '加拉登卷軸'
 L['forgotten_incense'] = '被遺忘的薰香'
 L['forgotten_incense_note'] = '{note:因為任務邊界的關係很難到達.}'
 L['historied_heirloom'] = '歷史悠久的傳家寶'
+L['rusted_dirt_pale'] = nil
+L['rusted_dirt_pale_note'] = nil
+L['niffen_pickaxe'] = nil
+L['chipped_grub_pot'] = nil
+L['chipped_grub_pot_note'] = nil
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
@@ -1021,6 +1044,7 @@ L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'N'
 L['mbc_vial_o'] = 'O'
 
+L['mbc_vial_b_location'] = '薩斯塔拉盆地'
 L['mbc_vial_d_location'] = '墜星哨站'
 L['mbc_vial_e_location'] = '暮光森林'
 L['mbc_vial_k_location'] = '怒風獸穴'
@@ -1084,8 +1108,8 @@ L['thornbeast_disclaimer'] = '{note:提醒, 每種野獸類型有獨特的 {item
 L['thorn_laden_heart_note_1'] = '從 {location:翡翠夢境} 裡的任意 {npc:雄鹿}, {npc:夢刃豹} 或 {npc:熊} 拾取一個 {item:209860}.'
 L['thorn_laden_heart_note_2'] = '當你有一個 {item:209860} 後, 到 {location:庫爾提拉斯} 的 {location:佐司瓦} 找一隻母鹿 {npc:140044}.'
 
-L['athainne_note_1'] = '{note:{npc:140044} 晚上時會和 {npc:129771} 一起移動, 白天時會在 {locatuon:烏爾法洞穴} 內休息.}\n\n要求 {npc:140044} 使用 {item:209860} 製造 {item:209863}.'
-L['athainne_note_2'] = '當你和 {npc:140044} 說話並取得 {item:209863} 後, 到 {locatuon:烏爾法洞穴} 找 {npc:141159} 求助.'
+L['athainne_note_1'] = '{note:{npc:140044} 晚上時會和 {npc:129771} 一起移動, 白天時會在 {location:烏爾法洞穴} 內休息.}\n\n要求 {npc:140044} 使用 {item:209860} 製造 {item:209863}.'
+L['athainne_note_2'] = '當你和 {npc:140044} 說話並取得 {item:209863} 後, 到 {location:烏爾法洞穴} 找 {npc:141159} 求助.'
 
 L['ulfar_note_1'] = '要求 {npc:149386} 使用 {item:209863} 製造 {item:209866}.'
 L['ulfar_note_2'] = '當你有了 {item:209866}, 回到 {location:翡翠夢境} 找到一個適合轉化儀式的目標.'

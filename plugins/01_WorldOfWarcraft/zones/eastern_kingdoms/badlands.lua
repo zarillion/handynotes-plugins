@@ -2,10 +2,13 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
-local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -14,6 +17,28 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 15, settings = true})
+local uldaman = ns.Map({id = 16, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+local Shovelphlange = Class('shovelphlange', Rare, {
+    id = 7057,
+    location = L['shovelphlange_location'],
+    rewards = {
+        Transmog({item = 9378, type = L['1h_axe']}), -- Shovelphlange's Mining Axe
+        Transmog({item = 9375, type = L['leather']}), -- Expert Goldminer's Helmet
+        Transmog({item = 9382, type = L['leather']}) -- Tromping Miner's Boots
+    },
+    parent = map.id,
+    pois = {POI({41681161})}
+}) -- Digmaster Shovelphlange
+
+uldaman.nodes[63605380] = Shovelphlange()
+uldaman.nodes[53206980] = Shovelphlange()
+uldaman.nodes[32606180] = Shovelphlange()
+uldaman.nodes[34408240] = Shovelphlange()
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
@@ -108,25 +133,3 @@ map.nodes[34406140] = Safari.StripeTailedScorpid({
         })
     }
 }) -- Stripe-Tailed Scorpid
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[10001000] = ns.node.Dragonrace({
-    label = '{quest:76523}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
-    rewards = {
-        Achievement({id = 18566, criteria = 12, oneline = true}), -- normal bronze
-        Achievement({id = 18567, criteria = 12, oneline = true}), -- normal silver
-        Achievement({id = 18568, criteria = 12, oneline = true}), -- normal gold
-        Achievement({id = 18569, criteria = 12, oneline = true}), -- advanced bronze
-        Achievement({id = 18570, criteria = 12, oneline = true}), -- advanced silver
-        Achievement({id = 18571, criteria = 12, oneline = true}), -- advanced gold
-        Achievement({id = 18572, criteria = 12, oneline = true}), -- reverse bronze
-        Achievement({id = 18573, criteria = 12, oneline = true}), -- reverse silver
-        Achievement({id = 18574, criteria = 12, oneline = true}) -- reverse gold
-    }
-}) -- Fuselight Night Flight

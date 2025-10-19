@@ -2,9 +2,10 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local L = ns.locale
-local Map = ns.Map
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
 local Section = ns.reward.Section
@@ -17,29 +18,106 @@ local POI = ns.poi.POI
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({id = 47, settings = true})
+local map = ns.Map({id = 47, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
+local Lupos = Class('lupos', Rare, {
+    id = 521,
+    fgroup = 'lupos',
+    rewards = {
+        Transmog({item = 3018, type = L['cloak']}), -- Hide of Lupos
+        Transmog({item = 3227, type = L['staff']}) -- Nightbane Staff
+    }
+}) -- Lupos
+
+map.nodes[66202080] = Lupos()
+map.nodes[59592049] = Lupos()
+map.nodes[71602300] = Lupos()
+
+map.nodes[07923371] = Rare({
+    id = 45811,
+    rewards = {Transmog({item = 920, type = L['1h_mace']})} -- Wicked Spiked Mace
+}) -- Marina DeSirrus <Thief of the Dead>
+
+map.nodes[86334757] = Rare({
+    id = 574,
+    location = L['in_small_cave'],
+    rewards = {
+        Transmog({item = 4449, type = L['dagger']}), -- Naraxis' Fang
+        Transmog({item = 4448, type = L['mail']}) -- Husk of Naraxis
+    }
+}) -- Naraxis
+
+map.nodes[20904406] = Rare({
+    id = 771,
+    rewards = {
+        Transmog({item = 4464, type = L['mail']}), -- Trouncing Boots
+        Transmog({item = 4465, type = L['mail']}) -- Felstrom's Gauntlets
+    },
+    pois = {
+        ns.poi.Path({
+            19214417, 19934516, 20904406, 22174469, 23344435, 23794300,
+            23974165, 23034078, 22244013, 22643876, 24103867, 25063778,
+            24823633, 24603499, 24293347, 22973326, 21713390, 22073531,
+            22633663, 22543820, 22173961, 21714105, 20954223, 20014332, 19214417
+        })
+    }
+}) -- Commander Felstrom
+
+map.nodes[60724050] = Rare({
+    id = 507,
+    rewards = {
+        Transmog({item = 4474, type = L['bow']}), -- Ravenwood Bow
+        Transmog({item = 6204, type = L['leather']}) -- Tribal Worg Helm
+    },
+    pois = {
+        ns.poi.Path({
+            57903020, 57992982, 58292921, 59493008, 60133092, 60673232,
+            61183379, 61623527, 61593664, 61403810, 60914024
+        }), POI({63805160, 57903020})
+    }
+}) -- Fenros
+
+local Lord_Malathrom = Class('lord_malathrom', Rare, {
+    id = 503,
+    location = L['in_crypt'],
+    fgroup = 'malathrom',
+    rewards = {Transmog({item = 4462, type = L['cloak']})}, -- Cloak of Rot
+    pois = {POI({23573520})}
+}) -- Lord Malathrom
+
+map.nodes[24203440] = Lord_Malathrom()
+map.nodes[20402700] = Lord_Malathrom()
+
+map.nodes[74207800] = Rare({
+    id = 534,
+    location = L['in_small_cave'],
+    rewards = {
+        Transmog({item = 4477, type = L['shield']}), -- Nefarious Buckler
+        Transmog({item = 4476, type = L['cloth']}) -- Beastwalker Robe
+    }
+}) -- Nefaru <The Den Mother>
+
 map.nodes[46304000] = ns.node.AnniversaryRare({
     id = 121913,
     quest = 47463,
     rewards = {
-        Transmog({item = 150416, slot = L['cloth']}), -- Gloves of Delusional Power
-        Transmog({item = 150405, slot = L['leather']}), -- Circlet of Restless Dreams
-        Transmog({item = 150415, slot = L['leather']}), -- Dragonspur Wraps
-        Transmog({item = 150406, slot = L['mail']}), -- Boots of the Endless Moor
-        Transmog({item = 150410, slot = L['plate']}), -- Acid Inscribed Greaves
+        Transmog({item = 150416, type = L['cloth']}), -- Gloves of Delusional Power
+        Transmog({item = 150405, type = L['leather']}), -- Circlet of Restless Dreams
+        Transmog({item = 150415, type = L['leather']}), -- Dragonspur Wraps
+        Transmog({item = 150406, type = L['mail']}), -- Boots of the Endless Moor
+        Transmog({item = 150410, type = L['plate']}), -- Acid Inscribed Greaves
         Spacer(), Section(L['shared_drops']), Spacer(),
-        Transmog({item = 150429, slot = L['dagger']}), -- Emerald Dragonfang
-        Transmog({item = 150412, slot = L['1h_mace']}), -- Hammer of Bestial Fury
-        Transmog({item = 150393, slot = L['1h_sword']}), -- Nightmare Blade
-        Transmog({item = 150403, slot = L['crossbow']}), -- Polished Ironwood Crossbow
-        Transmog({item = 150408, slot = L['staff']}), -- Staff of Rampant Growth
-        Transmog({item = 150411, slot = L['cloak']}), -- Green Dragonskin Cloak
-        Transmog({item = 150383, slot = L['staff']}) -- Amberseal Keeper
+        Transmog({item = 150429, type = L['dagger']}), -- Emerald Dragonfang
+        Transmog({item = 150412, type = L['1h_mace']}), -- Hammer of Bestial Fury
+        Transmog({item = 150393, type = L['1h_sword']}), -- Nightmare Blade
+        Transmog({item = 150403, type = L['crossbow']}), -- Polished Ironwood Crossbow
+        Transmog({item = 150408, type = L['staff']}), -- Staff of Rampant Growth
+        Transmog({item = 150411, type = L['cloak']}), -- Green Dragonskin Cloak
+        Transmog({item = 150383, type = L['staff']}) -- Amberseal Keeper
     }
 }) -- Emeriss
 

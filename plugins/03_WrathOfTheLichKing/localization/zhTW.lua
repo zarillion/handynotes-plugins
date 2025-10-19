@@ -22,3 +22,5 @@ L['higher_learning_6'] = nil
 L['higher_learning_7'] = nil
 L['higher_learning_8'] = nil
 L['higher_learning_vargoth'] = nil
+
+L['coinmaster_note'] = nil

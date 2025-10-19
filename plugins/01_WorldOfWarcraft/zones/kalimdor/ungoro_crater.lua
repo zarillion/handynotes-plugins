@@ -2,10 +2,12 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
-local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -14,6 +16,24 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 78, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[32007860] = Rare({
+    id = 6583,
+    rewards = {
+        Transmog({item = 45052, type = L['leather']}) -- Gruffscale Leggings
+    }
+}) -- Gruff
+
+map.nodes[63001860] = Rare({
+    id = 6585,
+    rewards = {
+        Transmog({item = 10122, type = L['mail']}) -- Ornate Girdle
+    }
+}) -- Uhk'loc
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
@@ -178,25 +198,3 @@ map.nodes[58605320] = Safari.TreePython({
         })
     }
 }) -- Tree Python
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[53379308] = ns.node.Dragonrace({
-    label = '{quest:75485}',
-    normal = {2327, 105, 100},
-    advanced = {2357, 92, 87},
-    reverse = {2387, 96, 91},
-    rewards = {
-        Achievement({id = 17712, criteria = 16, oneline = true}), -- normal bronze
-        Achievement({id = 17713, criteria = 16, oneline = true}), -- normal silver
-        Achievement({id = 17714, criteria = 16, oneline = true}), -- normal gold
-        Achievement({id = 17715, criteria = 16, oneline = true}), -- advanced bronze
-        Achievement({id = 17716, criteria = 16, oneline = true}), -- advanced silver
-        Achievement({id = 17717, criteria = 16, oneline = true}), -- advanced gold
-        Achievement({id = 17718, criteria = 16, oneline = true}), -- reverse bronze
-        Achievement({id = 17719, criteria = 16, oneline = true}), -- reverse silver
-        Achievement({id = 17720, criteria = 16, oneline = true}) -- reverse gold
-    }
-}) -- Un'Goro Crater Circuit

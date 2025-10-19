@@ -165,6 +165,10 @@ local function BootstrapDevelopmentEnvironment()
     IQFrame:SetScript('OnKeyDown', function(_, key)
         if (key == 'LCTRL' or key == 'LALT') and IsLeftControlKeyDown() and
             IsLeftAltKeyDown() then
+            if InCombatLockdown() then
+                print('Can\'t force display nodes in combat')
+                return
+            end
             IQFrame:SetPropagateKeyboardInput(false)
             for i, _ns in ipairs(_G[plugins]) do
                 if not _ns.dev_force then
@@ -178,6 +182,7 @@ local function BootstrapDevelopmentEnvironment()
     end)
     IQFrame:SetScript('OnKeyUp', function(_, key)
         if key == 'LCTRL' or key == 'LALT' then
+            if InCombatLockdown() then return end
             IQFrame:SetPropagateKeyboardInput(true)
             for i, _ns in ipairs(_G[plugins]) do
                 if _ns.dev_force then

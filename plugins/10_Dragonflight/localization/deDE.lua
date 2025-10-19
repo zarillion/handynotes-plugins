@@ -86,7 +86,6 @@ L['options_icons_signal_transmitter'] = 'Wyrmlochgenerator Signaltransmitters'
 L['options_icons_signal_transmitter_desc'] = 'Zeigt die Positionen der {object:Deaktivierten Signaltransmitter} für {item:198156} an.'
 
 L['rare_14h'] = 'Dieser Gegner befindet sich in einem 14 Stunden Interval mit anderen Gegnern, wobei alle 30 Minuten einer dieser Gegner erscheinen kann.\n\nNächstes mögliches erscheinen: {note:%s}'
-L['now'] = 'Jetzt'
 L['spawns_at_night'] = '{note:Erscheint nur nachts. (Ab 18:30 Server Zeit)}'
 
 L['elemental_storm'] = 'Elementarsturm'
@@ -161,6 +160,8 @@ L['shadowflame_leatherworking_table_label'] = 'Schattenflammenlederverarbeitungs
 L['shadowflame_leatherworking_table_note'] = 'Erforderlich für die Herstellung des Rezepts:\n{spell:406275}'
 L['shadowflame_incantation_table_label'] = 'Schattenflammenzauberformeltisch'
 L['shadowflame_incantation_table_note'] = 'Erforderlich für die Herstellung des Rezepts:\n{spell:405076}'
+L['altar_of_decay_label'] = 'Altar des Verfalls'
+L['altar_of_decay_note'] = 'Erforderlich für die Herstellung der Rezepte:\n{spell:110423}:\nVerfallene Muster\nVerfall-angereicherte Reagenzien\n\n{spell:264211}:\nToxische Tränke\nToxische Phiolen\n{spell:405879}'
 L['azure_loom_label'] = 'Azurblauer Webrahmen'
 L['azure_loom_note'] = 'Erforderlich für die Herstellung des Rezepts:\n{spell:376556}'
 L['temporal_loom_label'] = 'Temporalwebrahmen'
@@ -194,6 +195,10 @@ L['options_icons_clued_in_desc'] = 'Zeigt die Positionen für {npc:210079} für 
 L['goggle_wobble_note'] = 'Tanze {emote:/tanzen} mit {npc:207763} während der Einführungsquestreihe oder den {wq:Technosehen: ...} Weltquests während du den {item:202247} trägst.'
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = 'Zeigt die Positionen von {npc:207763} für den Erfolg {achievement:19791} an.'
+
+L['just_one_more_thing_note'] = 'Du musst eine beliebige {wq:Forschung: ...} Weltquest dreimal abschließen.'
+L['options_icons_just_one_more_thing'] = '{achievement:19792}'
+L['options_icons_just_one_more_thing_desc'] = 'Zeigt die Positionen der Weltquests für den Erfolg {achievement:19792} an.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -459,6 +464,12 @@ L['untranslated_tome'] = 'Unübersetzter Foliant'
 L['untranslated_tome_note'] = 'In dem Gebäude mit dem Eingang unterhalb der Brücke.'
 L['mysterious_boot'] = 'Mysteriöser Stiefel'
 L['mysterious_boot_note'] = 'Im oberen Stockwerk.'
+L['decaying_fishing_bucket'] = 'Vergessener Fischeimer'
+L['decaying_fishing_bucket_note'] = 'Auf der obersten Ebene des Turms.'
+L['forgotten_fishing_pole'] = 'Vergessene Angelrute'
+L['forgotten_fishing_pole_note'] = 'Auf der untersten Ebene.'
+L['overgrown_fishing_bench'] = 'Überwucherte Fischbank'
+L['overgrown_fishing_bench_note'] = 'Ein zugewachsener Felsen, schwer zu erkennen.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -537,6 +548,7 @@ L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Zeigt die Positionen der Traumwächterinnen für den Erfolg {achievement:16574} an.'
 
 L['khadin_note'] = 'Tausche {item:191784} gegen Berufswissen ein.'
+L['khadin_prof_note'] = 'Verdiene weitere %d {currency:%d}, um den Berufstalentbaum für {spell:%d} zu vervollständigen.'
 L['the_great_swog_note'] = 'Tausche {item:199338}, {item:199339} oder {item:199340} gegen die jeweiligen Flunkschatzbeutel ein.'
 L['hunt_instructor_basku_note'] = 'Tausche {item:200093} gegen Ruf bei den {faction:2503} ein.'
 L['elder_yusa_note'] = 'Visiere {npc:192818} an und benutze den Chatbefehl {emote:/hunger}, um das Rezept zu erhalten.'
@@ -567,7 +579,7 @@ L['naszuro_windsong_rise'] = 'Oben auf der Steinsäule.'
 L['naszuro_emerald_gardens'] = 'Im Gras neben dem Wasserfall.'
 
 L['prismatic_leaper_school_label'] = 'Prismatischer Springerschwarm'
-L['prismatic_leaper_school_note'] = 'Sprich mit {npc:195935} in {location:Iskaara}, um Verbesserungen freizuschalten.\n\nAngle die folgenden Gegenstände aus {object:Prismatischer Springerschwarm} in {location:Ohn\'ahran Plains}:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
+L['prismatic_leaper_school_note'] = 'Sprich mit {npc:195935} in {location:Iskaara}, um Verbesserungen freizuschalten.\n\nAngle die folgenden Gegenstände aus {object:Prismatischer Springerschwarm} in den {location:Ebenen von Ohn\'ahra}:\n\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}\n{item:%d}'
 
 L['aylaag_spear'] = 'Speer der Aylaag'
 L['dedication_plaquard'] = 'Widmungsplakette'
@@ -670,7 +682,7 @@ L['naszuro_thaldraszus_peak'] = 'Auf einem Nebengipfel des Berges.'
 L['naszuro_temporal_conflux'] = 'Auf dem Kopf der Drachenstatue.'
 
 L['revival_catalyst_label'] = 'Belebungskatalysator'
-L['revival_catalyst_note'] = 'Verwandelt einen Gegenstand in einen Setgegenstand.'
+L['revival_catalyst_note'] = 'Verwandelt einen Gegenstand in einen Setgegenstand.\n\n{currency:2912}: %d/%d'
 
 L['provisioner_aristta_note'] = 'Tausche {currency:2657} gegen ein Reittier und Ausrüstungsvorlagen ein.'
 
@@ -855,6 +867,11 @@ L['box_of_rocks_note'] = '{object:Kasten mit Steinen} kann in {location:Die Küs
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = 'Zeigt die möglichen Positionen von {object:Kasten mit Steinen} für den Erfolg {achievement:18559} an.'
 
+L['drakonid_painting'] = 'Drakonidengemälde'
+L['emptied_hourglass'] = 'Geleertes Stundenglas'
+L['rusted_signal_horn'] = 'Rostiges Signalhorn'
+L['rusted_signal_horn_note'] = 'Auf der obersten Ebene.'
+
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
 -------------------------------------------------------------------------------
@@ -928,6 +945,11 @@ L['djaradin_scroll'] = 'Schriftrolle der Djaradin'
 L['forgotten_incense'] = 'Vergessenes Räucherwerk'
 L['forgotten_incense_note'] = '{note:Aufgrund der Questgrenzen schwer zu erreichen.}'
 L['historied_heirloom'] = 'Historisches Erbstück'
+L['rusted_dirt_pale'] = 'Rostiger dreckiger Pfahl'
+L['rusted_dirt_pale_note'] = nil -- review
+L['niffen_pickaxe'] = 'Niffenspitzhacke'
+L['chipped_grub_pot'] = 'Gesprungener Essenstopf'
+L['chipped_grub_pot_note'] = 'Oben auf dem Turm.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
@@ -1022,6 +1044,7 @@ L['mbc_vial_k'] = 'K'
 L['mbc_vial_n'] = 'N'
 L['mbc_vial_o'] = 'O' -- review not yet translated
 
+L['mbc_vial_b_location'] = 'Das Becken von Thas\'talah'
 L['mbc_vial_d_location'] = 'Außenposten Sternenfall'
 L['mbc_vial_e_location'] = 'Zwielichtshain'
 L['mbc_vial_k_location'] = 'Sturmgrimms Grabhügel'

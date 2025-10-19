@@ -105,7 +105,7 @@ L['options_icons_faerie_tales'] = '{achievement:14788}'
 L['options_icons_faerie_tales_desc'] = 'Display lost books locations for the {achievement:14788} achievement.'
 
 L['options_icons_wild_hunting'] = '{achievement:14779}'
-L['options_icons_wild_hunting_desc'] = 'Ardenweald beasts locations for {achievement:14779}.'
+L['options_icons_wild_hunting_desc'] = 'Ardenweald beasts locations for {achievement:14779} achievement.'
 
 L['options_icons_wildseed_spirits'] = 'Wildseed Spirits'
 L['options_icons_wildseed_spirits_desc'] = 'Rewards from wildseed spirits'
@@ -333,7 +333,7 @@ L['korthian_shrine_note'] = 'Click on the shrine to gain {spell:352367} to see t
 L['num_research'] = '%d Research'
 L['plus_research'] = '+Research'
 L['options_icons_relic'] = '{achievement:15066}'
-L['options_icons_relic_desc'] = 'Display the locations of all 20 relics for {achievement:15066}.'
+L['options_icons_relic_desc'] = 'Display the locations of all 20 relics for {achievement:15066} achievement.'
 
 L['rift_portal_note'] = [[
 Enter {location:The Rift}, an alternate phase of {location:Korthia} and {location:The Maw} with additional rares, relics and caches.
@@ -490,7 +490,7 @@ L['ritualists_mantle_label'] = '{item:183399}'
 L['ritualists_mantle_note'] = 'Complete {quest:62308} given by {npc:172813}. Requires 3 people to summon {npc:174127}.'
 
 L['options_icons_crypt_couture'] = '{achievement:14763}'
-L['options_icons_crypt_couture_desc'] = 'Necrotic Acolyte disguise customization locations for {achievement:14763}'
+L['options_icons_crypt_couture_desc'] = 'Necrotic Acolyte disguise customization locations for {achievement:14763} achievement.'
 
 L['soulshape_saurid_note'] = 'In a small cave. Target the {npc:182105} and {emote:/bow}'
 
@@ -806,7 +806,7 @@ The {item:185972} can be looted once a week and contains 50x {currency:1906}.
 ]]
 
 L['options_icons_mawsworn_blackguard'] = '{achievement:14742}'
-L['options_icons_mawsworn_blackguard_desc'] = '{npc:183173s} locations for {achievement:14742}'
+L['options_icons_mawsworn_blackguard_desc'] = '{npc:183173s} locations for {achievement:14742} achievement.'
 
 L['mawsworn_blackguard'] = 'Mawsworn Blackguard'
 L['mawsworn_blackguard_note'] = 'Easily target a stealthed {npc:183173}:'
@@ -864,14 +864,14 @@ L['torghast_layer8'] = 'Complete Layer 8'
 
 L['phantasma_note'] = 'Phantasma'
 L['bloating_fodder_note'] = 'Bloating Fodder burst'
-L['flawless_master_note'] = 'Complete |cffffff00[{achievement:15322}]|r' -- |cffffff00 coloring obsolete or on purpose?
-L['tower_ranger_note'] = 'Complete |cffffff00[{achievement:15324}]|r'
+L['flawless_master_note'] = 'Complete |cffffff00[{achievement:15322}]|r achievement.' -- |cffffff00 coloring obsolete or on purpose?
+L['tower_ranger_note'] = 'Complete |cffffff00[{achievement:15324}]|r achievement.'
 
-L['the_jailers_gauntlet_note'] = '{note:Bosses do not count towards} |cffffff00{achievement:14498}|r'
+L['the_jailers_gauntlet_note'] = '{note:Bosses do not count towards} |cffffff00{achievement:14498}|r achievement.'
 
 L['the_box_of_many_things'] = 'The Box of Many Things'
 L['the_box_of_many_things_note'] = 'Unlock additional powers with {currency:1904}'
-L['many_many_things_section'] = 'Complete |cffffff00[{achievement:15079}]|r'
+L['many_many_things_section'] = 'Complete |cffffff00[{achievement:15079}]|r achievement.'
 
 L['the_runecarver'] = '{npc:164937}'
 L['clearing_the_fog_suffix'] = 'Memories unlocked'

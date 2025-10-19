@@ -38,14 +38,30 @@ map.nodes[35277688] = tlpd
 map.nodes[51217119] = tlpd
 map.nodes[52303492] = tlpd
 
-map.nodes[41403900] = Rare({
+local Dirkee = Rare({
     id = 32500,
+    fgroup = 'dirkee',
     rewards = {
         Achievement({id = 2257, criteria = 8121}), -- Frostbitten
         Transmog({item = 44708, slot = L['2h_mace']}) -- Dirkee's Superstructure
-    },
-    pois = {POI({41604060, 41005160, 37805860, 68204760, 41604290, 64904100})}
+    }
 }) -- Dirkee
+
+map.nodes[68204760] = Dirkee -- confirmed
+map.nodes[64904100] = Dirkee
+map.nodes[41604060] = Dirkee
+map.nodes[41005160] = Dirkee
+map.nodes[37805860] = Dirkee
+
+local Skoll = Rare({
+    id = 35189,
+    fgroup = 'skoll',
+    rewards = {Transmog({item = 49227, type = L['dagger']})} -- Skoll's Fang
+}) -- Skoll
+
+map.nodes[27805080] = Skoll
+map.nodes[30206460] = Skoll
+map.nodes[46206480] = Skoll
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

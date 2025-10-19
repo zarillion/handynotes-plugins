@@ -2,10 +2,12 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
-local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -17,6 +19,61 @@ local map = ns.Map({id = 27, settings = true})
 local ironforge = ns.Map({id = 87, settings = true})
 local new_tinkertown = ns.Map({id = 469, settings = true})
 local coldridge_valley = ns.Map({id = 427, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[67805880] = Rare({
+    id = 1130,
+    rewards = {Transmog({item = 2069, type = L['leather']})} -- Black Bear Hide Vest
+}) -- Bjarn
+
+new_tinkertown.nodes[40804520] = Rare({
+    id = 8503,
+    parent = map.id,
+    rewards = {
+        Transmog({item = 10554, type = L['cloth']}), -- Foreman Pants
+        Transmog({item = 10553, type = L['cloth']}) -- Foreman Vest
+    }
+}) -- Gibblewilt
+
+new_tinkertown.nodes[67603580] = Rare({
+    id = 1132,
+    parent = map.id,
+    rewards = {
+        Transmog({item = 3224, type = L['cloth']}), -- Silver-Lined Bracers
+        Transmog({item = 1965, type = L['leather']}) -- White Wolf Gloves
+    }
+}) -- Timber
+
+new_tinkertown.nodes[29806660] = Rare({
+    id = 1260,
+    location = L['in_cave'],
+    parent = map.id,
+    rewards = {
+        Transmog({item = 2546, type = L['mail']}), -- Royal Frostmane Girdle
+        Transmog({item = 3223, type = L['1h_mace']}) -- Frostmane Scepter
+    }
+}) -- Great Father Arctikus
+
+ns.Map({id = 29}).nodes[32245270] = Rare({
+    id = 1137,
+    rewards = {
+        Transmog({item = 3008, type = L['cloak']}), -- Wendigo Fur Cloak
+        Transmog({item = 3225, type = L['dagger']}) -- Bloodstained Knife
+    },
+    parent = {id = map.id, location = L['in_cave'], pois = {POI({49335208})}}
+}) -- Edan the Howler
+
+ns.Map({id = 31}).nodes[54924013] = Rare({
+    id = 1119,
+    rewards = {
+        Transmog({item = 763, type = L['leather']}), -- Ice-Covered Bracers
+        Transmog({item = 2254, type = L['2h_mace']}) -- Icepane Warhammer
+    },
+    parent = {id = map.id, location = L['in_cave'], pois = {POI({77875490})}}
+}) -- Hammerspine
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
@@ -150,25 +207,3 @@ new_tinkertown.nodes[45605280] = ns.node.CrazyForCats({
         })
     }
 }) -- Fluxfire Feline
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[10001000] = ns.node.Dragonrace({
-    label = '{quest:76445}',
-    normal = {2316, 1000, 999},
-    advanced = {2346, 1000, 999},
-    reverse = {2376, 1000, 999},
-    rewards = {
-        Achievement({id = 18566, criteria = 8, oneline = true}), -- normal bronze
-        Achievement({id = 18567, criteria = 8, oneline = true}), -- normal silver
-        Achievement({id = 18568, criteria = 8, oneline = true}), -- normal gold
-        Achievement({id = 18569, criteria = 8, oneline = true}), -- advanced bronze
-        Achievement({id = 18570, criteria = 8, oneline = true}), -- advanced silver
-        Achievement({id = 18571, criteria = 8, oneline = true}), -- advanced gold
-        Achievement({id = 18572, criteria = 8, oneline = true}), -- reverse bronze
-        Achievement({id = 18573, criteria = 8, oneline = true}), -- reverse silver
-        Achievement({id = 18574, criteria = 8, oneline = true}) -- reverse gold
-    }
-}) -- Ironforge Interceptor

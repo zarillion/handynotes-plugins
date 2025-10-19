@@ -12,6 +12,7 @@ L['leather'] = 'Leather'
 L['mail'] = 'Mail'
 L['plate'] = 'Plate'
 L['cosmetic'] = 'Cosmetic'
+L['tabard'] = 'Tabard'
 
 L['1h_mace'] = '1h Mace'
 L['1h_sword'] = '1h Sword'
@@ -47,6 +48,9 @@ L['shared_drops'] = 'Shared Drops'
 L['zone_drops_label'] = 'Zone Drops'
 L['zone_drops_note'] = 'The items listed below can be dropped by several mobs in this zone.'
 
+L['poi_entrance_label'] = 'Entrance'
+L['change_map'] = 'Change map'
+
 L['requires'] = 'Requires'
 L['ranked_research'] = '%s (Rank %d/%d)'
 
@@ -58,6 +62,8 @@ L['hard'] = 'Hard'
 
 L['completed'] = 'Completed'
 L['incomplete'] = 'Incomplete'
+L['claimed'] = 'Claimed'
+L['unclaimed'] = 'Unclaimed'
 L['known'] = 'Known'
 L['missing'] = 'Missing'
 L['unobtainable'] = 'Unobtainable'
@@ -78,6 +84,7 @@ L['in_water'] = 'In the water.'
 L['in_building'] = 'In the building.'
 
 ------------------------------------ TIME -------------------------------------
+L['now'] = 'Now'
 L['hourly'] = 'Hourly'
 L['daily'] = 'Daily'
 L['weekly'] = 'Weekly'
@@ -96,6 +103,9 @@ L['title'] = 'Title'
 L['toy'] = 'Toy'
 L['currency'] = 'Currency'
 L['rep'] = 'Rep'
+L['buff'] = 'Buff'
+L['transmog'] = 'Transmog'
+L['hunter_pet'] = 'Hunter Pet'
 
 ---------------------------------- FOLLOWERS ----------------------------------
 L['follower_type_follower'] = 'Follower'
@@ -108,23 +118,23 @@ L['rep_revered'] = 'Revered'
 L['rep_exalted'] = 'Exalted'
 
 -------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
+------------------------------- SKYRIDING RACES -------------------------------
 -------------------------------------------------------------------------------
 
-L['dr_your_best_time'] = 'Your best time:'
-L['dr_your_target_time'] = 'Target time:'
-L['dr_best_time'] = ' - %s: %.3fs'
-L['dr_target_time'] = ' - %s: %ss / %ss'
-L['dr_normal'] = 'Normal'
-L['dr_advanced'] = 'Advanced'
-L['dr_reverse'] = 'Reverse'
-L['dr_challenge'] = 'Challenge'
-L['dr_reverse_challenge'] = 'Reverse Challenge'
-L['dr_storm_race'] = 'Storm Race'
-L['dr_bronze'] = 'Finish the race to get ' .. ns.color.Bronze('Bronze') .. '.'
-L['dr_vendor_note'] = 'Exchange {currency:2588} for drakewatcher manuscripts and transmog.'
-L['options_icons_dragonrace'] = 'Dragonriding Races'
-L['options_icons_dragonrace_desc'] = 'Display all race locations for the zone.'
+L['sr_your_best_time'] = 'Your best time:'
+L['sr_your_target_time'] = 'Target time:'
+L['sr_best_time'] = ' - %s: %.3fs'
+L['sr_target_time'] = ' - %s: %ss / %ss'
+L['sr_normal'] = 'Normal'
+L['sr_advanced'] = 'Advanced'
+L['sr_reverse'] = 'Reverse'
+L['sr_challenge'] = 'Challenge'
+L['sr_reverse_challenge'] = 'Reverse Challenge'
+L['sr_storm_race'] = 'Storm Race'
+L['sr_bronze'] = 'Finish the race to get ' .. ns.color.Bronze('Bronze') .. '.'
+L['sr_vendor_note'] = 'Exchange {currency:2588} for drakewatcher manuscripts and transmog.'
+L['options_icons_skyriding_race'] = 'Skyriding Races'
+L['options_icons_skyriding_race_desc'] = 'Display all race locations for the zone.'
 
 -------------------------------------------------------------------------------
 --------------------------------- CONTEXT MENU --------------------------------
@@ -186,8 +196,14 @@ L['options_toggle_per_map_settings_desc'] = 'Apply toggle, scale and opacity set
 L['options_restore_hidden_nodes'] = 'Restore hidden nodes'
 L['options_restore_hidden_nodes_desc'] = 'Restore all nodes hidden using the right-click context menu.'
 
+L['ignore_class_restrictions'] = 'Ignore class restrictions'
+L['ignore_class_restrictions_desc'] = 'Show groups, nodes and rewards that require a different class than the active character.'
+L['ignore_faction_restrictions'] = 'Ignore faction restrictions'
+L['ignore_faction_restrictions_desc'] = 'Show groups, nodes and rewards that require the opposite faction.'
+
 L['options_rewards_settings'] = 'Rewards'
-L['options_reward_types'] = 'Filter reward types'
+L['options_reward_behaviors_settings'] = 'Reward Behaviors'
+L['options_reward_types'] = 'Show reward types'
 L['options_manuscript_rewards'] = 'Show drakewatcher manuscript rewards'
 L['options_manuscript_rewards_desc'] = 'Display drakewatcher manuscript rewards in tooltips and track their collected status.'
 L['options_mount_rewards'] = 'Show mount rewards'
@@ -202,6 +218,10 @@ L['options_transmog_rewards'] = 'Show transmog rewards'
 L['options_transmog_rewards_desc'] = 'Display transmog rewards in tooltips and track their collected status.'
 L['options_all_transmog_rewards'] = 'Show unobtainable transmog rewards'
 L['options_all_transmog_rewards_desc'] = 'Display transmog rewards obtainable by other classes.'
+L['options_rep_rewards'] = 'Show reputation rewards'
+L['options_rep_rewards_desc'] = 'Display reputation rewards in tooltips and track their collected status.'
+L['options_claimed_rep_rewards'] = 'Show claimed reputation rewards'
+L['options_claimed_rep_rewards_desc'] = 'Show reputation rewards which have already been claimed by your warband.'
 
 L['options_icons_misc_desc'] = 'Display locations of other miscellaneous nodes.'
 L['options_icons_misc'] = 'Miscellaneous'
@@ -233,6 +253,8 @@ L['options_toggle_show_notes'] = 'Show Notes'
 L['options_toggle_show_notes_desc'] = 'Add helpful notes to the tooltip where available'
 L['options_toggle_use_standard_time'] = 'Use 12-Hour Clock'
 L['options_toggle_use_standard_time_desc'] = 'Use 12-hour clock (ex: 8:00 PM) instead of 24-hour clock (ex: 20:00) in tooltips.'
+L['options_toggle_show_npc_id'] = 'Show NPC ID'
+L['options_toggle_show_npc_id_desc'] = 'Show the NPC\'s ID for use in rare-scanning addons.'
 
 --------------------------------- DEVELOPMENT ---------------------------------
 

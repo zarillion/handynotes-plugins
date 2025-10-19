@@ -2,10 +2,13 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
 
-local Achievement = ns.reward.Achievement
+local Pet = ns.reward.Pet
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -14,6 +17,41 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 49, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[68603580] = Rare({
+    id = 947,
+    rewards = {
+        Transmog({item = 4447, type = L['cloak']}), -- Cloak of Night
+        Transmog({item = 4446, type = L['dagger']}) -- Blackvenom Blade
+    }
+}) -- Rohh the Silent
+
+map.nodes[63406590] = Rare({
+    id = 52146,
+    rewards = {Transmog({item = 3229, type = L['cloth']})} -- Tarantula Silk Sash
+}) -- Chitter
+
+map.nodes[38003420] = Rare({
+    id = 616,
+    rewards = {Transmog({item = 3229, type = L['cloth']})} -- Tarantula Silk Sash
+}) -- Chatter
+
+map.nodes[25006940] = Rare({
+    id = 147222,
+    rewards = {Pet({item = 165722, id = 2525})} -- Redridge Tarantula Egg
+}) -- Gnollfeaster
+
+map.nodes[34201200] = Rare({
+    id = 584,
+    rewards = {
+        Transmog({item = 3231, type = L['mail']}), -- Cutthroat Pauldrons
+        Transmog({item = 2058, type = L['2h_mace']}) -- Kazon's Maul
+    }
+}) -- Kazon
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
@@ -92,25 +130,3 @@ map.nodes[30206220] = Safari.RedridgeRat({
 map.nodes[47403620] = Safari.Roach({
     pois = {POI({15805540, 26802720, 47403620, 47603860, 60403620, 68004340})}
 }) -- Roach
-
--------------------------------------------------------------------------------
---------------------------------- DRAGONRACES ---------------------------------
--------------------------------------------------------------------------------
-
-map.nodes[10001000] = ns.node.Dragonrace({
-    label = '{quest:76536}',
-    -- normal = {nil, nil, nil},
-    -- advanced = {nil, nil, nil},
-    -- reverse = {nil, nil, nil},
-    rewards = {
-        Achievement({id = 18566, criteria = 14, oneline = true}), -- normal bronze
-        Achievement({id = 18567, criteria = 14, oneline = true}), -- normal silver
-        Achievement({id = 18568, criteria = 14, oneline = true}), -- normal gold
-        Achievement({id = 18569, criteria = 14, oneline = true}), -- advanced bronze
-        Achievement({id = 18570, criteria = 14, oneline = true}), -- advanced silver
-        Achievement({id = 18571, criteria = 14, oneline = true}), -- advanced gold
-        Achievement({id = 18572, criteria = 14, oneline = true}), -- reverse bronze
-        Achievement({id = 18573, criteria = 14, oneline = true}), -- reverse silver
-        Achievement({id = 18574, criteria = 14, oneline = true}) -- reverse gold
-    }
-}) -- Redridge Rally

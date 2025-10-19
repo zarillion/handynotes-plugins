@@ -2,8 +2,12 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
+
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -12,6 +16,19 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 106, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[14805460] = Rare({
+    id = 22060,
+    rewards = {
+        Transmog({item = 31264, type = L['cloth']}), -- Silvermoon Robes
+        Transmog({item = 31263, type = L['leather']}), -- Silvermoon Tunic
+        Transmog({item = 31256, type = L['mail']}) -- Silvermoon Armor
+    }
+}) -- Fenissa the Assassin
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

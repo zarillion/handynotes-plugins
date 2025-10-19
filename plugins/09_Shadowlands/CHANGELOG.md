@@ -1,3 +1,19 @@
+# v118
+
+* Venari rewards are now tracked as account-bound.
+
+# v97
+
+* Localization updates: esES
+
+# v86
+
+* Added cave POI for Skittering Broodmother.
+
+# v69
+
+* If you enjoyed our Shadowlands plugin, grab our [War Within](https://www.curseforge.com/wow/addons/handynotes-the-war-within) plugin!
+
 # v58
 
 * Added tooltip rendering enhancements.

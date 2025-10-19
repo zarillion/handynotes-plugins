@@ -2,8 +2,12 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
+
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -14,6 +18,36 @@ local POI = ns.poi.POI
 local map = ns.Map({id = 18, settings = true})
 -- local deathknell = ns.Map({id = 465, settings = true})
 local undercity = ns.Map({id = 90, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[56124239] = Rare({
+    id = 1944,
+    rewards = {
+        Transmog({item = 5975, type = L['leather']}), -- Ruffian Belt
+        Transmog({item = 4439, type = L['1h_mace']}) -- Bruiser Club
+    }
+}) -- Rot Hide Bruiser
+
+map.nodes[34075212] = Rare({
+    id = 1936,
+    rewards = {
+        Transmog({item = 4261, type = L['cloth']}), -- Solliden's Trousers
+        Transmog({item = 3334, type = L['2h_mace']}) -- Farmer's Shovel
+    }
+}) -- Farmer Solliden
+
+map.nodes[72742587] = Rare({
+    id = 1911,
+    rewards = {Transmog({item = 4303, type = L['1h_mace']})} -- Cranial Thumper
+}) -- Deeb
+
+map.nodes[35804300] = Rare({
+    id = 1910,
+    rewards = {Transmog({item = 4302, type = L['dagger']})} -- Small Green Dagger
+}) -- Muad
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

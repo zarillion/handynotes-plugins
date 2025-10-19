@@ -275,7 +275,6 @@ local Quackers = Class('Quackers', Rare, {
     id = 192557,
     vignette = 5144,
     quest = 73972,
-    note = L['river_camp_note'],
     rewards = {
         Achievement({id = 16677, criteria = 56091}),
         Achievement({id = 16446, criteria = 55396, note = L['pretty_neat_note']})
@@ -284,7 +283,7 @@ local Quackers = Class('Quackers', Rare, {
 })
 
 function Quackers.getters:note()
-    local note = L['quackers_duck_trap_kit']
+    local note = L['river_camp_note'] .. '\n\n' .. L['quackers_duck_trap_kit']
     note = note .. ItemStatus(201402, 1, '{item:201402}') -- Large Sturdy Femur
     note = note .. ItemStatus(193053, 3, '{item:193053}') -- Contoured Fowlfeather
     note = note .. ItemStatus(201404, 2, '{item:201404}') -- Tallstrider Sinew
@@ -869,20 +868,20 @@ local ClanChest = Class('ClanChest', ns.node.Node, {
     group = ns.groups.CLAN_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Transmog({item = 201024, slot = L['cosmetic']}), -- Nokhudon Mantle
-        Transmog({item = 201025, slot = L['cosmetic']}), -- Nokhudon Harness
-        Transmog({item = 201027, slot = L['cosmetic']}), -- Nokhudon Breeches
-        Transmog({item = 201028, slot = L['cosmetic']}), -- Nokhudon Boots
-        Transmog({item = 201029, slot = L['cosmetic']}), -- Nokhudon Hood
-        Transmog({item = 201030, slot = L['cosmetic']}), -- Nokhudon Grips
-        Transmog({item = 201031, slot = L['cosmetic']}), -- Nokhudon Cloak
-        Transmog({item = 201032, slot = L['cosmetic']}), -- Nokhudon Wraps
-        Transmog({item = 201034, slot = L['cosmetic']}), -- Nokhudon Girdle
-        Transmog({item = 201380, slot = L['cosmetic']}), -- Nokhud Hunter's Bow
-        Transmog({item = 201382, slot = L['cosmetic']}), -- Centaur Warglaives
-        Transmog({item = 201383, slot = L['cosmetic']}), -- Nokhud Stalker's Spear
-        Transmog({item = 201384, slot = L['cosmetic']}), -- Centaur Tracker's Javelin
-        Transmog({item = 201385, slot = L['cosmetic']}), -- Nokhud Centaur Warstaff
+        Transmog({item = 201024, slot = L['mail']}), -- Nokhudon Mantle
+        Transmog({item = 201025, slot = L['mail']}), -- Nokhudon Harness
+        Transmog({item = 201027, slot = L['mail']}), -- Nokhudon Breeches
+        Transmog({item = 201028, slot = L['mail']}), -- Nokhudon Boots
+        Transmog({item = 201029, slot = L['mail']}), -- Nokhudon Hood
+        Transmog({item = 201030, slot = L['mail']}), -- Nokhudon Grips
+        Transmog({item = 201031, slot = L['cloak']}), -- Nokhudon Cloak
+        Transmog({item = 201032, slot = L['mail']}), -- Nokhudon Wraps
+        Transmog({item = 201034, slot = L['mail']}), -- Nokhudon Girdle
+        Transmog({item = 201380, slot = L['bow']}), -- Nokhud Hunter's Bow
+        Transmog({item = 201382, slot = L['warglaive']}), -- Centaur Warglaives
+        Transmog({item = 201383, slot = L['polearm']}), -- Nokhud Stalker's Spear
+        Transmog({item = 201384, slot = L['polearm']}), -- Centaur Tracker's Javelin
+        Transmog({item = 201385, slot = L['staff']}), -- Nokhud Centaur Warstaff
         Item({item = 192055}), -- Dragon Isles Artifact
         Item({item = 200093}), -- Centaur Hunting Trophy
         Currency({id = 2003}) -- Dragon Isles Supplies
@@ -931,8 +930,8 @@ local LightningBoundChest = Class('LightningBoundChest', ns.node.Node, {
     group = ns.groups.LIGHTNING_BOUND_CHEST,
     rewards = {
         Item({item = 191784}), -- Dragon Shard of Knowledge
-        Transmog({item = 201447, slot = L['cosmetic']}), -- Primal Revenant's Breezeblade
-        Transmog({item = 201448, slot = L['cosmetic']}), -- Primal Revenant's Windwall
+        Transmog({item = 201447, slot = L['1h_sword']}), -- Primal Revenant's Breezeblade
+        Transmog({item = 201448, slot = L['shield']}), -- Primal Revenant's Windwall
         Item({item = 199065, quest = 70534}), -- Sorrowful Letter
         Item({item = 199066, quest = 70535}), -- Letter of Caution
         Item({item = 192055}), -- Dragon Isles Artifact
@@ -1897,7 +1896,7 @@ map.nodes[24005600] = ElusiveCreature({
 
 map.nodes[81891730] = GrandHunt({
     mapID = map.id,
-    areaPOI = 7098,
+    areaPOI = 7053,
     criteria = 55677
 }) -- Northern Ohn'ahran Plains Hunt
 
@@ -1975,12 +1974,21 @@ map.nodes[69944089] = ns.node.CluedIn({
 })
 
 -------------------------------------------------------------------------------
+----------------------------- JUST ONE MORE THING -----------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[67004400] = ns.node.JustOneMoreThing({
+    quest = {79596, 79597, 79598},
+    rewards = {Achievement({id = 19792, criteria = 65409})} -- The Riverbed
+}) -- Research: Centaur of Ohn'ahran Plains -- 76587
+
+-------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
 -------------------------- SPIRIT BEAST: BLOODGULLET --------------------------
 
-map.nodes[66564391] = Collectible({
+map.nodes[66564391] = NPC({
     id = 193254,
     icon = 236165,
     class = 'HUNTER',
@@ -2098,8 +2106,48 @@ map.nodes[82327320] = NPC({
     note = L['the_great_swog_note']
 }) -- The Great Swog
 
-map.nodes[51803300] =
-    NPC({id = 193110, icon = 4643982, note = L['khadin_note']}) -- Khadin
+local Khadin = Class('Khadin', NPC, {id = 193110, icon = 4643982}) -- Khadin
+
+function Khadin.getters:note()
+    local n = C_Item.GetItemCount(191784, true, nil, true)
+    local note = L['khadin_note'] .. '\n' ..
+                     format(_G.PROFESSIONS_SPECIALIZATION_CURRENCY_TOTAL, n)
+    local DFprof = {
+        [171] = {variant = 2823, spell = 2259, max = 510, currency = 2024}, -- Alchemy
+        [164] = {variant = 2822, spell = 2018, max = 800, currency = 2023}, -- Blacksmithing
+        [333] = {variant = 2825, spell = 7411, max = 565, currency = 2030}, -- Enchanting
+        [202] = {variant = 2827, spell = 4036, max = 525, currency = 2027}, -- Engineering
+        [182] = {variant = 2832, spell = 2366, max = 520, currency = 2034}, -- Herbalism
+        [773] = {variant = 2828, spell = 45357, max = 680, currency = 2028}, -- Inscription
+        [755] = {variant = 2829, spell = 25229, max = 630, currency = 2029}, -- Jewelcrafting
+        [165] = {variant = 2830, spell = 2108, max = 750, currency = 2025}, -- Leatherworking
+        [186] = {variant = 2833, spell = 2575, max = 455, currency = 2035}, -- Mining
+        [393] = {variant = 2834, spell = 8613, max = 400, currency = 2033}, -- Skinning
+        [197] = {variant = 2831, spell = 3908, max = 630, currency = 2026} -- Tailoring
+    }
+    local KPneed = function(prof)
+        local cfg = C_ProfSpecs.GetConfigIDForSkillLine(DFprof[prof].variant)
+        if cfg == 0 then return end
+        local spec = C_ProfSpecs.GetSpecTabIDsForSkillLine(DFprof[prof].variant)
+        local tree = C_Traits.GetTreeCurrencyInfo(cfg, spec[1], true)
+        local spent = tree[1].spent
+        local quantity = tree[1].quantity
+        local need = DFprof[prof].max - spent - quantity
+        local c = DFprof[prof].currency
+        local s = DFprof[prof].spell
+        if need > 0 then
+            note = note .. '\n\n' .. format(L['khadin_prof_note'], need, c, s)
+        end
+    end
+    local prof1, prof2 = GetProfessions()
+    prof1 = prof1 and select(7, GetProfessionInfo(prof1))
+    prof2 = prof2 and select(7, GetProfessionInfo(prof2))
+    if prof1 then KPneed(prof1) end
+    if prof2 then KPneed(prof2) end
+    return note
+end
+
+map.nodes[51803300] = Khadin()
 
 map.nodes[64014104] = NPC({
     id = 195454,
@@ -2240,6 +2288,10 @@ map.nodes[62456000] = RichSoil()
 map.nodes[62805850] = RichSoil()
 map.nodes[65665315] = RichSoil()
 map.nodes[32925312] = RichSoil()
+map.nodes[42546868] = RichSoil()
+map.nodes[23126400] = RichSoil()
+map.nodes[79344177] = RichSoil()
+map.nodes[79103430] = RichSoil()
 
 -------------------------------------------------------------------------------
 

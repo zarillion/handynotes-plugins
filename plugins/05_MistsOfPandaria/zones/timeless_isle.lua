@@ -50,23 +50,19 @@ map.nodes[34403250] = Rare({
     id = 73666,
     quest = {33288, 33312},
     note = L['archiereus_note'],
-    rewards = {Achievement({id = 8714, criteria = 31})},
-    pois = {
-        POI({42805480}) -- Mistweaver Ku
-    }
+    rewards = {Achievement({id = 8714, criteria = 31})}, -- Timeless Champion
+    pois = {POI({42805480})} -- Mistweaver Ku
 }) -- Archiereus of Flame
 
 map.nodes[62097715] = Rare({
     id = 72775,
     quest = {33276, 33301},
     rewards = {
-        Achievement({id = 8714, criteria = 23986}),
+        Achievement({id = 8714, criteria = 23986}), -- Timeless Champion
         Achievement({id = 8728, criteria = 24034}), -- Gulp Froglet
         Pet({id = 1338, item = 104169}) -- Gulp Froglet
     },
-    pois = {
-        POI({62097715, 63607260, 64807460, 65606980, 66806660}) -- Spawns
-    }
+    pois = {POI({62097715, 63607260, 64807460, 65606980, 66806660})} -- Spawns
 }) -- Bufo
 
 map.nodes[25063598] = Rare({
@@ -74,7 +70,7 @@ map.nodes[25063598] = Rare({
     quest = {33318, 32966},
     note = L['chelon_note'],
     rewards = {
-        Achievement({id = 8714, criteria = 23974}),
+        Achievement({id = 8714, criteria = 23974}), -- Timeless Champion
         Achievement({id = 8728, criteria = 24072}), -- Hardened Shell
         Toy({item = 86584}) -- Hardened Shell
     }
@@ -84,7 +80,7 @@ map.nodes[62384384] = Rare({
     id = 73171,
     quest = {33274, 33299},
     rewards = {
-        Achievement({id = 8714, criteria = 23996}),
+        Achievement({id = 8714, criteria = 23996}), -- Timeless Champion
         Achievement({id = 8728, criteria = {24055, 24074}}), -- Blackflame Daggers, Big Bag of Herbs
         Toy({item = 104302}), -- Blackflame Daggers
         Item({item = 106130}) -- Big Bag of Herbs
@@ -101,7 +97,7 @@ map.nodes[54165289] = Rare({
     id = 73175,
     quest = {33286, 33310},
     rewards = {
-        Achievement({id = 8714, criteria = 23981}),
+        Achievement({id = 8714, criteria = 23981}), -- Timeless Champion
         Achievement({id = 8728, criteria = {24054, 24038}}), -- Falling Flame, Glowing Blue Ash
         Item({item = 104299}), -- Falling Flame
         Item({item = 104261}) -- Glowing Blue Ash
@@ -113,13 +109,11 @@ map.nodes[43896989] = Rare({
     quest = {33319, 32967},
     note = L['cranegnasher_note'],
     rewards = {
-        Achievement({id = 8714, criteria = 23976}),
+        Achievement({id = 8714, criteria = 23976}), -- Timeless Champion
         Achievement({id = 8728, criteria = 24041}), -- Pristine Stalker Hide
         Item({item = 104268}) -- Pristine Stalker Hide
     },
-    pois = {
-        POI({45238400}) -- Fishgorged Cranes
-    }
+    pois = {POI({45238400})} -- Fishgorged Cranes
 }) -- Cranegnasher
 
 map.nodes[26082283] = Rare({
@@ -128,13 +122,11 @@ map.nodes[26082283] = Rare({
     requires = ns.requirement.Item(104115),
     note = L['dread_ship_note'],
     rewards = {
-        Achievement({id = 8714, criteria = 23987}),
+        Achievement({id = 8714, criteria = 23987}), -- Timeless Champion
         Achievement({id = 8728, criteria = 24050}), -- Rime of the Time-Lost Mariner
         Toy({item = 104294}) -- Rime of the Time-Lost Mariner
     },
-    pois = {
-        POI({26322792}) -- Cursed Gravestone
-    }
+    pois = {POI({26322792})} -- Cursed Gravestone
 }) -- Dread Ship Vazuvius
 
 map.nodes[30535067] = Rare({
@@ -157,7 +149,8 @@ map.nodes[14215240] = Rare({
     quest = {33289, 33313},
     note = L['evermaw_note'],
     rewards = {
-        Achievement({id = 8714, criteria = 23990}), Item({item = 104115}) -- Mist-Filled Spirit Lantern
+        Achievement({id = 8714, criteria = 23990}), -- Timeless Champion
+        Item({item = 104115}) -- Mist-Filled Spirit Lantern
     },
     pois = {
         Path({
@@ -191,12 +184,14 @@ map.nodes[44003400] = Rare({
 
 map.nodes[64002700] = Rare({
     id = 73282,
+    note = L['garnia_note'] .. '\n\n' .. L['albatros_note'],
     quest = {33275, 33300},
     rewards = {
         Achievement({id = 8714, criteria = 23982}),
         Achievement({id = 8728, criteria = 24027}), -- Ruby Droplet
         Pet({id = 1328, item = 104159}) -- Ruby Droplet
-    }
+    },
+    pois = {POI({34305520})} -- Highwind Albatross
 }) -- Garnia
 
 map.nodes[62086372] = Rare({
@@ -255,6 +250,14 @@ map.nodes[65875660] = Rare({
         Achievement({id = 8714, criteria = 23984}),
         Achievement({id = 8728, criteria = 24081}), -- Reins of the Thundering Onyx Cloud Serpent
         Mount({item = 104269, id = 561}) -- Thundering Onyx Cloud Serpent
+    },
+    pois = {
+        Path({
+            66595967, 67895864, 69515799, 71195827, 72745706, 73195463,
+            73165267, 73625120, 74474980, 75304861, 75264705, 75054547,
+            74264424, 73814261, 73404081, 72093982, 70623894, 69323823,
+            67983779, 66533830, 65313914, 63603966, 62514052, 61364126
+        })
     }
 }) -- Huolon
 
@@ -464,11 +467,11 @@ map.nodes[37797773] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-local MossCoveredChest = Class('MossCoveredChest', Treasure)
-
-MossCoveredChest.label = L['moss_covered_chest']
-MossCoveredChest.icon = 'chest_gn'
-MossCoveredChest.rewards = {Achievement({id = 8729, criteria = 1})}
+local MossCoveredChest = Class('MossCoveredChest', Treasure, {
+    label = L['moss_covered_chest'],
+    icon = 'chest_gn',
+    rewards = {Achievement({id = 8729, criteria = 1})}
+})
 
 map.nodes[36703410] = MossCoveredChest({quest = 33170})
 map.nodes[25502720] = MossCoveredChest({quest = 33171})
@@ -517,39 +520,26 @@ map.nodes[47602760] = Treasure({
     quest = 33210,
     label = L['blazing_chest'],
     icon = 'chest_rd',
-    rewards = {Achievement({id = 8729, criteria = 24118})}
+    rewards = {Achievement({id = 8729, criteria = 24118})},
+    pois = {
+        Path({
+            47062684, 45452644, 43752583, 42002554, 40792611, 40792780,
+            41302937, 41883088, 42523233, 43373348, 44943468, 46533578,
+            48183671, 49913713, 51603783
+        })
+    }
 }) -- Blazing Chest
 
-map.nodes[28203520] = Treasure({
-    quest = 33204,
-    label = L['sturdy_chest'],
-    note = L['sturdy_chest_note'],
+local SturdyChest = Class('SturdyChest', Treasure {
     icon = 'chest_bn',
+    label = L['sturdy_chest'],
     rewards = {Achievement({id = 8729, criteria = 4})}
-}) -- Sturdy Chest
+})
 
-map.nodes[26806490] = Treasure({
-    quest = 33205,
-    label = L['sturdy_chest'],
-    note = L['sturdy_chest_note'],
-    icon = 'chest_bn',
-    rewards = {Achievement({id = 8729, criteria = 4})}
-}) -- Sturdy Chest
-
-map.nodes[64607040] = Treasure({
-    quest = 33206,
-    label = L['sturdy_chest'],
-    icon = 'chest_bn',
-    rewards = {Achievement({id = 8729, criteria = 4})}
-}) -- Sturdy Chest
-
-map.nodes[59204950] = Treasure({
-    quest = 33207,
-    label = L['sturdy_chest'],
-    note = L['spelurk_cave'],
-    icon = 'chest_bn',
-    rewards = {Achievement({id = 8729, criteria = 4})}
-}) -- Sturdy Chest
+map.nodes[28203520] = SturdyChest({quest = 33204, note = L['albatros_note']}) -- Sturdy Chest
+map.nodes[26806490] = SturdyChest({quest = 33205, note = L['albatros_note']}) -- Sturdy Chest
+map.nodes[64607040] = SturdyChest({quest = 33206}) -- Sturdy Chest
+map.nodes[59204950] = SturdyChest({quest = 33207, note = L['spelurk_cave']}) -- Sturdy Chest
 
 map.nodes[69503290] = Treasure({
     quest = 33208,
@@ -564,6 +554,13 @@ map.nodes[54007820] = Treasure({
     icon = 'chest_yw',
     rewards = {Achievement({id = 8729, criteria = 5})}
 }) -- Smoldering Chest
+
+map.nodes[59164040] = Treasure({
+    label = L['timeless_chest'],
+    note = L['timeless_chest_note'],
+    requires = ns.requirement.Item(101538),
+    rewards = {Pet({item = 104202, id = 1343})} -- Bonkers
+})
 
 -------------------------------------------------------------------------------
 --------------------------- EXTREME TREASURE HUNTER ---------------------------
@@ -633,6 +630,169 @@ map.nodes[40409300] = Treasure({
         Toy({item = 134024}) -- Cursed Swabby Helmet
     }
 }) -- Sunken Treasure
+
+-------------------------------------------------------------------------------
+----------------------------- TIMELESS LEGENDS --------------------------------
+-------------------------------------------------------------------------------
+
+local TimelessLegends = Class('TimelessLegends', ns.node.Collectible, {
+    icon = 839611,
+    note = L['multiple_spawns'],
+    rewards = {
+        Achievement({id = 8784, criteria = {24006, 24140, 24141, 24142}})
+    }
+})
+
+map.nodes[47308080] = TimelessLegends()
+map.nodes[55305030] = TimelessLegends()
+map.nodes[63104530] = TimelessLegends()
+map.nodes[55605930] = TimelessLegends()
+map.nodes[50407170] = TimelessLegends()
+map.nodes[68406040] = TimelessLegends()
+map.nodes[42805540] = TimelessLegends()
+map.nodes[48005120] = TimelessLegends()
+map.nodes[25007190] = TimelessLegends()
+map.nodes[64507230] = TimelessLegends()
+map.nodes[55107290] = TimelessLegends()
+map.nodes[33805450] = TimelessLegends()
+map.nodes[37704110] = TimelessLegends()
+map.nodes[39607780] = TimelessLegends()
+map.nodes[65405170] = TimelessLegends()
+map.nodes[52206260] = TimelessLegends()
+map.nodes[32006150] = TimelessLegends()
+map.nodes[32603280] = TimelessLegends()
+map.nodes[22403870] = TimelessLegends()
+
+-------------------------------------------------------------------------------
+-------------------------------- ROLO'S RIDDLE --------------------------------
+-------------------------------------------------------------------------------
+
+local GlintingSand = Class('GlintingSand', ns.node.Collectible, {
+    icon = 'peg_gn',
+    label = L['glinting_sand'],
+    note = L['glinting_sand_note'],
+    quest = 32974,
+    IsCompleted = function(self)
+        return C_QuestLog.IsOnQuest(32974) or
+                   C_QuestLog.IsQuestFlaggedCompleted(32974)
+    end,
+    reward = Achievement({id = 8730}) --
+})
+
+map.nodes[25596013] = GlintingSand()
+map.nodes[25255519] = GlintingSand()
+map.nodes[22835512] = GlintingSand()
+map.nodes[23625024] = GlintingSand()
+map.nodes[26635162] = GlintingSand()
+map.nodes[23414613] = GlintingSand()
+map.nodes[21044496] = GlintingSand()
+map.nodes[21234083] = GlintingSand()
+map.nodes[23523786] = GlintingSand()
+map.nodes[23203319] = GlintingSand()
+map.nodes[23342926] = GlintingSand()
+map.nodes[26662835] = GlintingSand()
+map.nodes[29732903] = GlintingSand()
+map.nodes[28503075] = GlintingSand()
+map.nodes[22926169] = GlintingSand()
+map.nodes[24336777] = GlintingSand()
+map.nodes[22646933] = GlintingSand()
+map.nodes[25907046] = GlintingSand()
+
+map.nodes[49376940] = ns.node.Collectible({
+    label = '{quest:32974}',
+    icon = 'peg_gn',
+    quest = 32974,
+    IsEnabled = function(self) return C_QuestLog.IsOnQuest(32974) end,
+    reward = Achievement({id = 8730}) -- Rolo's Riddle
+})
+
+map.nodes[34602670] = ns.node.Collectible({
+    label = '{quest:32975}',
+    icon = 'peg_gn',
+    quest = 32975,
+    IsEnabled = function(self) return C_QuestLog.IsOnQuest(32975) end,
+    reward = Achievement({id = 8730}) -- Rolo's Riddle
+})
+
+map.nodes[65902330] = ns.node.Collectible({
+    icon = 'peg_gn',
+    id = 72755,
+    note = L['albatros_note'],
+    quest = 32976,
+    IsEnabled = function(self) return C_QuestLog.IsOnQuest(32976) end,
+    pois = {POI({34305520})}, -- Highwind Albatross
+    reward = Achievement({id = 8730}) -- Rolo's Riddle
+})
+
+-------------------------------------------------------------------------------
+----------------------------- TIMELESS NUTRIMENTS -----------------------------
+-------------------------------------------------------------------------------
+
+local TimelessNutriment = Class('TimelessNutriment', ns.node.Collectible,
+    {icon = 608949})
+
+map.nodes[29404970] = TimelessNutriment({
+    rewards = {Achievement({id = 8722, criteria = 24000})}
+}) -- Ripe Crispfruit
+
+map.nodes[24405220] = TimelessNutriment({
+    rewards = {Achievement({id = 8722, criteria = 24001})}
+}) -- Sand-Covered Egg
+
+map.nodes[59506310] = TimelessNutriment({
+    rewards = {Achievement({id = 8722, criteria = 24002})}
+}) -- Charged Crystal
+
+map.nodes[54107600] = TimelessNutriment({
+    rewards = {Achievement({id = 8722, criteria = 24003})}
+}) -- Huge Yak Roast
+
+map.nodes[70205590] = TimelessNutriment({
+    rewards = {Achievement({id = 8722, criteria = 24005})}
+}) -- Roasted Seed
+
+map.nodes[48403600] = TimelessNutriment({
+    rewards = {Achievement({id = 8722, criteria = 24004})}
+}) -- Fire Poppy
+
+map.nodes[66387396] = TimelessNutriment({
+    rewards = {Achievement({id = 8722, criteria = 24129})}
+}) -- Southsea Firebrew
+
+-------------------------------------------------------------------------------
+------------------------------ EYES ON THE GROUND -----------------------------
+-------------------------------------------------------------------------------
+
+local EyesOnTheGround = Class('EyesOnTheGround', ns.node.Collectible,
+    {icon = 608949})
+
+map.nodes[18505380] = EyesOnTheGround({
+    rewards = {Achievement({id = 8725, criteria = 24011})}
+}) -- Giant Clam
+
+map.nodes[25505520] = EyesOnTheGround({
+    rewards = {Achievement({id = 8725, criteria = 24012})}
+}) -- Glinting Sand
+
+map.nodes[31505020] = EyesOnTheGround({
+    rewards = {Achievement({id = 8725, criteria = 24013})}
+}) -- Crane Nest
+
+map.nodes[43103900] = EyesOnTheGround({
+    rewards = {Achievement({id = 8725, criteria = 24014})}
+}) -- Eeerie Crystal
+
+map.nodes[56607850] = EyesOnTheGround({
+    rewards = {Achievement({id = 8725, criteria = 24015})}
+}) -- Ordon Supplies
+
+map.nodes[72805600] = EyesOnTheGround({
+    rewards = {Achievement({id = 8725, criteria = 24016})}
+}) -- Firestorm Egg
+
+map.nodes[51003150] = EyesOnTheGround({
+    rewards = {Achievement({id = 8725, criteria = 24017})}
+}) -- Fiery Altar of Ordos
 
 -------------------------------------------------------------------------------
 -------------------------------- MISCELLANEOUS --------------------------------

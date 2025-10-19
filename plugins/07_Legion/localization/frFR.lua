@@ -260,5 +260,3 @@ L['general_pet_tamer_note'] = '{note:Apparaît uniquement lorsque l\'expédition
 
 L['options_icons_safari'] = '{achievement:11233}'
 L['options_icons_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:11233}.'
-
-L['change_map'] = 'Changer la carte'

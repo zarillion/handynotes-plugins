@@ -2,8 +2,13 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
+local L = ns.locale
 
+local Rare = ns.node.Rare
 local Safari = ns.node.Safari
+
+local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
 
@@ -12,6 +17,25 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 95, settings = true})
+
+-------------------------------------------------------------------------------
+------------------------------------ RARES ------------------------------------
+-------------------------------------------------------------------------------
+
+local Whitherlimb = Class('whitherlimb', Rare, {
+    id = 22062,
+    fgroup = 'whitherlimb',
+    rewards = {
+        Transmog({item = 31270, type = L['wand']}), -- Banshee Rod
+        Transmog({item = 31269, type = L['1h_mace']}), -- Ghoul Hammer
+        Transmog({item = 31268, type = L['1h_axe']}) -- Abomination Cleaver
+    }
+}) -- Dr. Whitherlimb
+
+map.nodes[34314754] = Whitherlimb()
+map.nodes[40344988] = Whitherlimb()
+map.nodes[29268891] = Whitherlimb()
+map.nodes[35788914] = Whitherlimb()
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------
