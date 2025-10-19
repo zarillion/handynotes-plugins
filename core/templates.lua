@@ -31,6 +31,11 @@ local function Custom_CreateSlider(info, parent)
         end)
 end
 
+local function Custom_TextElement(text, parent)
+    parent:CreateTemplate(ADDON_NAME .. 'TextMenuOptionTemplate')
+        :AddInitializer(function(frame) frame.Text:SetText(text) end)
+end
+
 -------------------------------------------------------------------------------
 ---------------------------- WORLD MAP BUTTON MIXIN ---------------------------
 -------------------------------------------------------------------------------
@@ -47,13 +52,13 @@ end
 local function GetOpt(option) return ns:GetOpt(option) end
 local function SetOpt(option) ns:SetOpt(option, not ns:GetOpt(option)) end
 
-local function GetGroupText(group, isAchievement) -- to assemble the Menu button text
+local function GetGroupText(group) -- to assemble the Menu button text
     local iconLink = type(group.icon) == 'number' and
                          ns.GetIconLink(group.icon, 12, 1, 0) .. ' ' or
                          ns.GetIconLink(group.icon, 16)
     local status = ''
 
-    if isAchievement then
+    if group.type == ns.group_types.ACHIEVEMENT then
         local _, _, _, completed, _, _, _, _, _, _, _, _, earnedByMe =
             GetAchievementInfo(group.achievement)
         status = ' ' .. (earnedByMe and ns.GetIconLink('check_gn') or
@@ -69,8 +74,7 @@ function WorldMapOptionsButtonMixin:OnLoad()
         if not map then return end
 
         local current_group_type = nil
-        local ach_menu = nil
-        local achievements_menu_added = false
+        local achievements_menu = nil
 
         for _, group in ipairs(map.groups) do
             -- Add a separator each time the group type changes
@@ -81,16 +85,13 @@ function WorldMapOptionsButtonMixin:OnLoad()
 
             if group:IsEnabled() and group:HasEnabledNodes(map) then
                 if group.type == ns.group_types.ACHIEVEMENT then
-                    if not achievements_menu_added then
-                        ach_menu = root:CreateButton(
-                            ns.GetIconLink(236671, 12, 1, 0) .. '  ' ..
-                                ACHIEVEMENTS)
-                        achievements_menu_added = true
-                    end
-
-                    if ach_menu ~= nil then
+                    if not achievements_menu then
+                        achievements_menu =
+                            root:CreateButton(ns.GetIconLink(236671, 12, 1, 0) ..
+                                                  '  ' .. ACHIEVEMENTS)
+                    else
                         local ach_menu_button =
-                            ach_menu:CreateCheckbox(GetGroupText(group, true),
+                            achievements_menu:CreateCheckbox(GetGroupText(group),
                                 IsGroupChecked, SetGroupChecked, {
                                     mapid = map.id,
                                     group = group
@@ -120,12 +121,10 @@ function WorldMapOptionsButtonMixin:OnLoad()
                 'show_' .. type .. '_rewards')
         end
 
-        root:CreateCheckbox(L['options_show_completed_nodes'], GetOpt, SetOpt,
-            'show_completed_nodes')
-        root:CreateCheckbox(L['options_toggle_hide_done_rare'], GetOpt, SetOpt,
-            'hide_done_rares')
         root:CreateCheckbox(L['options_toggle_use_char_achieves'], GetOpt,
             SetOpt, 'use_char_achieves')
+
+        root:CreateDivider()
 
         root:CreateButton(L['options_open_settings_panel'], function()
             HideUIPanel(WorldMapFrame)
@@ -165,12 +164,33 @@ end
 function WorldMapOptionsButtonMixin:AddGroupOptions(group, parent)
     local map = ns.maps[self:GetParent():GetMapID()]
 
-    parent:CreateTemplate(ADDON_NAME .. 'TextMenuOptionTemplate')
-        :AddInitializer(function(frame)
-            frame.Text:SetText(ns.RenderLinks(group.desc))
-        end)
+    Custom_TextElement(ns.RenderLinks(group.desc), parent)
 
     parent:CreateDivider()
+
+    -- Add show completed checkbox for this group
+    local show_comp_opt = 'show_completed_' .. group.name
+    local show_completed_button = parent:CreateCheckbox(
+        L['options_show_completed_nodes'],
+        function() return ns:GetOpt(show_comp_opt) end,
+        function() ns:SetOpt(show_comp_opt, not ns:GetOpt(show_comp_opt)) end)
+
+    -- Add tooltip text for show completed
+    show_completed_button:SetTooltip(function(tooltip)
+        tooltip:AddLine(L['options_show_completed_nodes_desc'], 0.8, 0.8, 0.8);
+    end)
+
+    -- Add hide done checkbox for this group
+    local hide_done_opt = 'hide_done_' .. group.name
+    local hide_done_button = parent:CreateCheckbox(
+        L['options_hide_done_nodes'],
+        function() return ns:GetOpt(hide_done_opt) end,
+        function() ns:SetOpt(hide_done_opt, not ns:GetOpt(hide_done_opt)) end)
+
+    -- Add tooltip text for hide done
+    hide_done_button:SetTooltip(function(tooltip)
+        tooltip:AddLine(L['options_hide_done_nodes_desc'], 0.8, 0.8, 0.8);
+    end)
 
     Custom_CreateSlider({
         text = L['options_opacity'],

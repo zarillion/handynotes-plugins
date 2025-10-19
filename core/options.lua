@@ -13,7 +13,18 @@ ns.optionDefaults = {
         show_worldmap_button = true,
 
         -- visibility
-        hide_done_rares = false,
+        hide_done_rares = true,
+        hide_done_treasures = true,
+        hide_done_pet_battles = true,
+        hide_done_quests = true,
+        hide_done_vendors = true,
+        hide_done_misc = true,
+        show_completed_rares = false,
+        show_completed_treasures = false,
+        show_completed_pet_battles = false,
+        show_completed_quests = false,
+        show_completed_vendors = false,
+        show_completed_misc = false,
         hide_minimap = false,
         maximized_enlarged = true,
         show_completed_nodes = false,
@@ -193,22 +204,6 @@ ns.options = {
                     type = 'header',
                     name = L['options_visibility_settings'],
                     order = 20
-                },
-                show_completed_nodes = {
-                    type = 'toggle',
-                    arg = 'show_completed_nodes',
-                    name = L['options_show_completed_nodes'],
-                    desc = L['options_show_completed_nodes_desc'],
-                    order = 21,
-                    width = 'full'
-                },
-                hide_done_rare = {
-                    type = 'toggle',
-                    arg = 'hide_done_rares',
-                    name = L['options_toggle_hide_done_rare'],
-                    desc = L['options_toggle_hide_done_rare_desc'],
-                    order = 22,
-                    width = 'full'
                 },
                 hide_minimap = {
                     type = 'toggle',

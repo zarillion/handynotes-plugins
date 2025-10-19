@@ -153,9 +153,21 @@ function Node:IsEnabled()
     -- Check prerequisites
     if not self:PrerequisiteCompleted() then return false end
 
-    -- Check completed state
-    if self.group == ns.groups.QUEST or not ns:GetOpt('show_completed_nodes') then
-        if self:IsCompleted() then return false end
+    -- Check completed state per group
+    for _, group in pairs(self.group) do
+        local show_completed_option = 'show_completed_' .. group.name
+        local show_completed = ns:GetOpt(show_completed_option)
+
+        -- For QUEST group, always check completed state regardless of setting
+        if group == ns.groups.QUEST or not show_completed then
+            if self:IsCompleted() then return false end
+        end
+
+        -- Check hide done for this group
+        local hide_option = 'hide_done_' .. group.name
+        if ns:GetOpt(hide_option) and self:IsCollected() then
+            return false
+        end
     end
 
     if self.class and self.class ~= ns.class then return false end
@@ -516,10 +528,7 @@ local Rare = Class('Rare', NPC, {scale = 1.2, group = ns.groups.RARE})
 function Rare.getters:icon() return
     self:IsCollected() and 'skull_w' or 'skull_b' end
 
-function Rare:IsEnabled()
-    if ns:GetOpt('hide_done_rares') and self:IsCollected() then return false end
-    return NPC.IsEnabled(self)
-end
+
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURE -----------------------------------
