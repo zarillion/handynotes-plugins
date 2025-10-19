@@ -198,9 +198,9 @@ L['options_toggle_per_map_settings_desc'] = 'Die Einstellungen zum Anzeigen/Ausb
 L['options_restore_hidden_nodes'] = 'Versteckte Punkte wiederherstellen'
 L['options_restore_hidden_nodes_desc'] = 'Stellt alle Punkte wieder her, die über das Kontextmenü versteckt wurden.'
 
-L['ignore_class_restrictions'] = 'Zeige Klassenspezifisches'
+L['ignore_class_restrictions'] = 'Ignoriere Klassenbeschränkungen'
 L['ignore_class_restrictions_desc'] = 'Zeigt Gruppen, Punkte und Belohnungen an, die eine andere Klasse als die des derzeitigen Charakters benötigen.'
-L['ignore_faction_restrictions'] = 'Zeige Fraktionsspezifisches'
+L['ignore_faction_restrictions'] = 'Ignoriere Fraktionsbeschränkungen'
 L['ignore_faction_restrictions_desc'] = 'Zeigt Gruppen, Punkte und Belohnungen an, die eine andere Fraktion als die des derzeitigen Charakters benötigen.'
 
 L['options_rewards_settings'] = 'Belohnungen'
