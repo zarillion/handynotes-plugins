@@ -1172,37 +1172,17 @@ map.nodes[44685177] = MereldarMenace({
 -------------------------------- DISTURBED DIRT -------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[25155531] = DisturbedEarth()
-map.nodes[30336036] = DisturbedEarth()
-map.nodes[35304999] = DisturbedEarth()
-map.nodes[37645636] = DisturbedEarth()
-map.nodes[37825901] = DisturbedEarth()
-map.nodes[38295761] = DisturbedEarth()
-map.nodes[39785362] = DisturbedEarth()
-map.nodes[41486045] = DisturbedEarth()
-map.nodes[45365843] = DisturbedEarth()
-map.nodes[46775590] = DisturbedEarth()
-map.nodes[47646194] = DisturbedEarth()
-map.nodes[48943269] = DisturbedEarth()
-map.nodes[49043768] = DisturbedEarth()
-map.nodes[49631997] = DisturbedEarth()
-map.nodes[50023537] = DisturbedEarth()
-map.nodes[50803190] = DisturbedEarth()
-map.nodes[51083410] = DisturbedEarth()
-map.nodes[52345653] = DisturbedEarth()
-map.nodes[58085003] = DisturbedEarth()
-map.nodes[60755455] = DisturbedEarth()
-map.nodes[61894422] = DisturbedEarth()
-map.nodes[63135518] = DisturbedEarth()
-map.nodes[63614485] = DisturbedEarth()
-map.nodes[65112334] = DisturbedEarth()
-map.nodes[65652720] = DisturbedEarth()
-map.nodes[66212719] = DisturbedEarth()
-map.nodes[66252500] = DisturbedEarth()
-map.nodes[66344187] = DisturbedEarth()
-map.nodes[44147539] = DisturbedEarth()
-map.nodes[44537632] = DisturbedEarth()
-map.nodes[44947610] = DisturbedEarth()
+local DisturbedEarth_coords = {
+    25155531, 30336036, 35304999, 37645636, 37825901, 38295761, 39785362,
+    41486045, 45365843, 46775590, 47646194, 48943269, 49043768, 49631997,
+    50023537, 50803190, 51083410, 52345653, 58085003, 60755455, 61894422,
+    63135518, 63614485, 65112334, 65652720, 66212719, 66252500, 66344187,
+    44147539, 44537632, 44947610
+}
+
+for _, coord in ipairs(DisturbedEarth_coords) do
+    map.nodes[coord] = DisturbedEarth()
+end
 
 -------------------------------------------------------------------------------
 ------------------------- ACHIEVEMENT: BEACON OF HOPE -------------------------

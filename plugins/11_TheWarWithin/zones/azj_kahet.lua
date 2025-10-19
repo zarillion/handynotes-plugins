@@ -699,9 +699,26 @@ local ItsyBitsySpider = Class('ItsyBitsySpider', Collectible, {
     note = L['itsy_bitsy_spider_note']
 })
 
-map.nodes[55022662] = ItsyBitsySpider({
-    rewards = {Achievement({id = 40624, criteria = 68976})}
-}) -- Ru'murh
+local Rumurh = Class('rumurh', ItsyBitsySpider, {
+    rewards = {Achievement({id = 40624, criteria = 68976})},
+    fgroup = 'spider_rumurh',
+    location = L['multiple_spawns']
+})
+
+map.nodes[55022662] = Rumurh()
+
+map.nodes[77404280] = Rumurh()
+map.nodes[64207520] = Rumurh()
+cot.nodes[73405040] = Rumurh({parent = map.id})
+cot.nodes[55002660] = Rumurh({parent = map.id})
+cot.nodes[41602240] = Rumurh({parent = map.id})
+cot.nodes[54803460] = Rumurh({parent = map.id})
+cot.nodes[79605660] = Rumurh({parent = map.id})
+cot.nodes[78005360] = Rumurh({parent = map.id})
+cot.nodes[70203180] = Rumurh({parent = map.id})
+cot.nodes[68605080] = Rumurh({parent = map.id})
+cotl.nodes[55804760] = Rumurh({parent = {map.id, cot.id}})
+cotl.nodes[45605100] = Rumurh({parent = {map.id, cot.id}})
 
 cot.nodes[50311591] = ItsyBitsySpider({
     rewards = {Achievement({id = 40624, criteria = 68978})},
@@ -734,24 +751,27 @@ map.nodes[55644395] = ItsyBitsySpider({
     }
 }) -- Spindle
 
-map.nodes[55106876] = ItsyBitsySpider({
+local Thimble = Class('thimble', ItsyBitsySpider, {
     rewards = {Achievement({id = 40624, criteria = 68977})},
-    pois = {
-        POI({31604740, 55607100, 60601760}), -- review - just copied from wowhead
-        POI({
-            points = {
-                55106876, 65938810, 68705578, 43752660, 53395340, 28824288,
-                57548187
-            },
-            color = 'Red'
-        }) -- confirmed
-    }
-}) -- Thimble
--- npc:224887 npc:224889 npc:224893 npc:224895 npc:220568 npc:224892(226225114-cot) npc:224891(69898267 cot)
+    fgroup = 'spider_thimble',
+    location = L['multiple_spawns']
+})
 
-cot.nodes[39386540] = ItsyBitsySpider({
-    rewards = {Achievement({id = 40624, criteria = 68972})},
-    parent = map.id
+akl.nodes[65808800] = Thimble({parent = map.id})
+cot.nodes[26205120] = Thimble({parent = map.id})
+cot.nodes[56003260] = Thimble({parent = map.id})
+cot.nodes[69808260] = Thimble({parent = map.id})
+cot.nodes[75204860] = Thimble({parent = map.id})
+map.nodes[29004280] = Thimble()
+map.nodes[43802660] = Thimble()
+map.nodes[53405340] = Thimble()
+map.nodes[55006880] = Thimble()
+map.nodes[60601060] = Thimble()
+map.nodes[68705577] = Thimble() -- confirmed
+map.nodes[73883917] = Thimble() -- confirmed
+
+map.nodes[57064175] = ItsyBitsySpider({
+    rewards = {Achievement({id = 40624, criteria = 68972})}
 }) -- Webster
 
 map.nodes[56344316] = ItsyBitsySpider({
@@ -1044,37 +1064,16 @@ cot.nodes[53622079] = Collectible({
 -------------------------------- DISTURBED DIRT -------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[49572863] = DisturbedEarth()
-map.nodes[57202906] = DisturbedEarth()
-map.nodes[60404091] = DisturbedEarth()
-map.nodes[63143918] = DisturbedEarth()
-map.nodes[64733653] = DisturbedEarth()
-map.nodes[76594443] = DisturbedEarth()
-map.nodes[77983656] = DisturbedEarth()
-map.nodes[75473638] = DisturbedEarth()
-map.nodes[71426732] = DisturbedEarth()
-map.nodes[77167049] = DisturbedEarth()
-map.nodes[75317142] = DisturbedEarth()
-map.nodes[75487737] = DisturbedEarth()
-map.nodes[70127943] = DisturbedEarth()
-akl.nodes[65388188] = DisturbedEarth({parent = map.id})
-map.nodes[59846504] = DisturbedEarth()
-map.nodes[41826537] = DisturbedEarth()
-map.nodes[40636088] = DisturbedEarth()
-map.nodes[36845786] = DisturbedEarth()
-map.nodes[36065877] = DisturbedEarth()
-map.nodes[38085589] = DisturbedEarth()
-map.nodes[38375464] = DisturbedEarth()
-map.nodes[39835394] = DisturbedEarth()
-map.nodes[38764920] = DisturbedEarth()
-map.nodes[39834688] = DisturbedEarth()
+local DisturbedEarth_coords = {
+    49572863, 57202906, 60404091, 63143918, 64733653, 76594443, 77983656,
+    75473638, 71426732, 77167049, 75317142, 75487737, 70127943, 65388188,
+    59846504, 41826537, 40636088, 36845786, 36065877, 38085589, 38375464,
+    39835394, 38764920, 39834688
+}
 
--- Rumor Broker
--- CoT 47840965 - NPC 224188 Ghos'opp - triggers quest 82640
--- CoT 55012661 - 224193 Ru'murh - 82581
--- LCoT 55704782 - 224197 Ru'murh - 82644
--- CoT 54833455 - 224198 Ru'murh - No Quest
--- CoT 77845369 - 224196 Ru'murh - No Quest
+for _, coord in ipairs(DisturbedEarth_coords) do
+    map.nodes[coord] = DisturbedEarth()
+end
 
 -------------------------------------------------------------------------------
 -------------------- ACHIEVEMENT: KHAZ ALGAR FLIGHT MASTER --------------------

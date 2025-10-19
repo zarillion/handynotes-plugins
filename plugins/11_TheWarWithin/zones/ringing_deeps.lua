@@ -756,49 +756,19 @@ map.nodes[43503529] = Vendor({
     }
 }) -- Gnawbles
 
-map.nodes[42553076] = DisturbedEarth()
-map.nodes[43293785] = DisturbedEarth()
-map.nodes[45201113] = DisturbedEarth()
-map.nodes[47661194] = DisturbedEarth()
-map.nodes[48553193] = DisturbedEarth()
-map.nodes[48831720] = DisturbedEarth()
-map.nodes[49451070] = DisturbedEarth()
-map.nodes[50663031] = DisturbedEarth()
-map.nodes[51412820] = DisturbedEarth()
-map.nodes[51513637] = DisturbedEarth()
-map.nodes[51603100] = DisturbedEarth()
-map.nodes[51733943] = DisturbedEarth()
-map.nodes[51736839] = DisturbedEarth()
-map.nodes[52416361] = DisturbedEarth()
-map.nodes[52544160] = DisturbedEarth()
-map.nodes[52592418] = DisturbedEarth()
-map.nodes[52896517] = DisturbedEarth()
-map.nodes[52896845] = DisturbedEarth()
-map.nodes[52982299] = DisturbedEarth()
-map.nodes[53103511] = DisturbedEarth()
-map.nodes[53337726] = DisturbedEarth()
-map.nodes[53354834] = DisturbedEarth()
-map.nodes[53503957] = DisturbedEarth()
-map.nodes[53754262] = DisturbedEarth()
-map.nodes[53876805] = DisturbedEarth()
-map.nodes[54686629] = DisturbedEarth()
-map.nodes[55047742] = DisturbedEarth()
-map.nodes[55067892] = DisturbedEarth()
-map.nodes[55075361] = DisturbedEarth()
-map.nodes[55452851] = DisturbedEarth()
-map.nodes[55879242] = DisturbedEarth()
-map.nodes[56062998] = DisturbedEarth()
-map.nodes[57095312] = DisturbedEarth()
-map.nodes[58403191] = DisturbedEarth()
-map.nodes[58943270] = DisturbedEarth()
-map.nodes[59596316] = DisturbedEarth()
-map.nodes[59906137] = DisturbedEarth()
-map.nodes[60496659] = DisturbedEarth()
-map.nodes[61233974] = DisturbedEarth()
-map.nodes[62573837] = DisturbedEarth()
-map.nodes[63593931] = DisturbedEarth()
-map.nodes[63634830] = DisturbedEarth()
-map.nodes[71464339] = DisturbedEarth() -- ?
+local DisturbedEarth_coords = {
+    42553076, 43293785, 45201113, 47661194, 48553193, 48831720, 49451070,
+    50663031, 51412820, 51513637, 51603100, 51733943, 51736839, 52416361,
+    52544160, 52592418, 52896517, 52896845, 52982299, 53103511, 53337726,
+    53354834, 53503957, 53754262, 53876805, 54686629, 55047742, 55067892,
+    55075361, 55452851, 55879242, 56062998, 57095312, 58403191, 58943270,
+    59596316, 59906137, 60496659, 61233974, 62573837, 63593931, 63634830,
+    71464339 -- ?
+}
+
+for _, coord in ipairs(DisturbedEarth_coords) do
+    map.nodes[coord] = DisturbedEarth()
+end
 
 -------------------------------------------------------------------------------
 -------------------- ACHIEVEMENT: KHAZ ALGAR FLIGHT MASTER --------------------
