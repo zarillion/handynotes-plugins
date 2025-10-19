@@ -124,6 +124,18 @@ function WorldMapOptionsButtonMixin:OnLoad()
         root:CreateCheckbox(L['options_toggle_use_char_achieves'], GetOpt,
             SetOpt, 'use_char_achieves')
 
+        local ignore_class_button = root:CreateCheckbox(L['ignore_class_restrictions'], GetOpt,
+            SetOpt, 'ignore_class_restrictions')
+        ignore_class_button:SetTooltip(function(tooltip)
+            tooltip:AddLine(L['ignore_class_restrictions_desc'], 0.8, 0.8, 0.8);
+        end)
+
+        local ignore_faction_button = root:CreateCheckbox(L['ignore_faction_restrictions'], GetOpt,
+            SetOpt, 'ignore_faction_restrictions')
+        ignore_faction_button:SetTooltip(function(tooltip)
+            tooltip:AddLine(L['ignore_faction_restrictions_desc'], 0.8, 0.8, 0.8);
+        end)
+
         root:CreateDivider()
 
         root:CreateButton(L['options_open_settings_panel'], function()
