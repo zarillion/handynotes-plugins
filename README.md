@@ -36,9 +36,9 @@ positional arguments:
   Path\To\Interface\AddOns
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -c, --clean           clean targets before install
-  -u, --uninstall       uninstall and exit
+  -h, --help show this help message and exit
+  -c, --clean clean targets before install
+  -u, --uninstall uninstall and exit
 ```
 
 The `-c/--clean` argument will delete the corresponding HandyNotes plugin directories before installing the symlinks (useful if our file/folder structure changes). The `-u/--uninstall` argument will remove the plugin directories and then exit.
