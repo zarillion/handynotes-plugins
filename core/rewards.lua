@@ -769,6 +769,13 @@ function Reputation:IsObtainable()
 end
 
 function Reputation:IsObtained()
+    local renownLevels = C_MajorFactions.GetRenownLevels(self.id)
+    local currentRenownLevel = C_MajorFactions.GetCurrentRenownLevel(self.id)
+
+    if renownLevels and #renownLevels > 1 and currentRenownLevel > 0 then
+        return currentRenownLevel >= #renownLevels
+    end
+
     if self.quest and self:IsObtainable() then return false end
     return true
 end
