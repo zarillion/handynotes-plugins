@@ -71,7 +71,8 @@ end
 local Vignette = Class('Vignette', Hook, {
     type = 'vignette',
     rewardsSpaceBefore = false,
-    rewardsSpaceAfter = true
+    rewardsSpaceAfter = true,
+    group = ns.groups.MISC
 })
 
 function Vignette:Initialize(attrs)
@@ -286,9 +287,9 @@ local function HookAllPOIS()
         local vignetteGUID = self.vignetteGUID
         local pos = C_VignetteInfo.GetVignettePosition(vignetteGUID, mapID)
         local coordinates = HandyNotes:getCoord(pos.x, pos.y)
-        local node = ns.maps[mapID].nodes[coordinates]
-        hookInfo.note = node.note
-        hookInfo.rewards = node.rewards
+        local node = ns.maps[mapID] and ns.maps[mapID].nodes[coordinates]
+        if node and node.note then hookInfo.note = node.note end
+        if node and node.rewards then hookInfo.rewards = node.rewards end
         renderTooltip(self, hookInfo)
     end)
 end
