@@ -1,3 +1,7 @@
+# V127
+
+* Added [Mawtouched Geomental](https://www.wowhead.com/npc=183230/mawtouched-geomental) to [Invasive Mawshroom](https://www.wowhead.com/object=369331/invasive-mawshroom).
+
 # v118
 
 * Venari rewards are now tracked as account-bound.

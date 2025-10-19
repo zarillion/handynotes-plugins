@@ -1,3 +1,7 @@
+# V127
+
+* Added more Nodes for [Itsy Bitsy Spider](https://www.wowhead.com/achievement=40624/itsy-bitsy-spider) locations.
+
 # v126
 
 * Localization updates: ruRU
