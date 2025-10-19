@@ -741,7 +741,8 @@ local Mawshroom = Class('Mawshroom', Treasure, {
     rlabel = ns.status.LightBlue(L['plus_research']),
     rewards = {
         Item({item = 185963, quest = 63892}), -- Diviner's Rune Chit
-        Mount({item = 186646, id = 1507}) -- Darkmaul
+        Mount({item = 186646, id = 1507}), -- Darkmaul
+        Pet({id = 3215}) -- Mawtouched Geomental
     }
 })
 
