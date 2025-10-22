@@ -867,13 +867,12 @@ L['clearing_the_fog_suffix'] = 'Erinnerungen zurückgebracht'
 -------------------------------------------------------------------------------
 
 local HIDDEN_ALCOVE = function(alcove, location)
-    local text = string.format("Um die {location:%s Alkoven} zu betreten:\n", alcove)
-    text = text .. "1. Schließe Kapitel 6 der Zereth Mortis Kampagne ab."
-    text = text .. "\n"
-    text = text .. string.format("2. Finde {location:Anordnung des %s Alkovens} %s.\n", alcove, location)
-    text = text .. "3. Töte im Gebiet {location:Hallende Gipfel}, die Gegner, die {spell:362651} haben oder stell dich in die weißen Flächen, um 60 {npc:183569} zu bekommen.\n"
-    text = text .. "4. Benutze die {npc:184329} im Inneren der Trächtigen Rast, um zur Inneren Kammer zu gelangen. (Benötigt 30 {npc:183569})\n"
-    text = text .. string.format("5. Benutze {npc:184485}, um zur %s Alkoven zu gelangen. (Benötigt 30 {npc:183569})", alcove)
+    local text = string.format('Um die {location:%s Alkoven} zu betreten:\n', alcove)
+    text = text .. '1. Schließe Kapitel 6 der Zereth Mortis Kampagne ab.\n'
+    text = text .. string.format('2. Finde {location:Anordnung des %s Alkovens} %s.\n', alcove, location)
+    text = text .. '3. Töte im Gebiet {location:Hallende Gipfel}, die Gegner, die {spell:362651} haben oder stell dich in die weißen Flächen, um 60 {npc:183569} zu bekommen.\n'
+    text = text .. '4. Benutze die {npc:184329} im Inneren der Trächtigen Rast, um zur Inneren Kammer zu gelangen. (Benötigt 30 {npc:183569})\n'
+    text = text .. string.format('5. Benutze {npc:184485}, um zur %s Alkoven zu gelangen. (Benötigt 30 {npc:183569})', alcove)
     return text
 end
 L['camber_alcove_note'] = HIDDEN_ALCOVE('Gewölbten', 'hinter dem Gebäude am {location:Ultimus Locus}')
