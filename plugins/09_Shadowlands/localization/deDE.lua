@@ -29,36 +29,36 @@ L['faeflayer_note'] = 'In einer kleinen Höhle, versteckt hinter einem Wasserfal
 L['gormbore_note'] = 'Töte die {npc:165420n} über dem aufbrechenden Boden, um den seltenen Gegner erscheinen zu lassen.'
 L['gormtamer_tizo_note'] = 'Töte Borstenzapfen Kobolde im Nebelschleierdickicht, bis {npc:164110} erscheint.'
 L['humongozz_note'] = 'Pflanze einen {item:175247} in den feuchten Lehm, um einen {npc:164122} erscheinen zu lassen. Der Pilz wird von mehreren Gegnern in diesem Gebiet fallen gelassen.'
-L['lehgo_note'] = 'Zerstöre Zitternde Gormeier und töte |CFFFFFF00Wütende Eipfleger|r bis {npc:167851} erscheint. In einer Höhle. (Eingang nach Südosten (58.5, 31.9)).' -- {npc:171827}
+L['lehgo_note'] = 'Zerstöre Zitternde Gormeier und töte {npc:171827}, bis {npc:167851} erscheint. In einer Höhle. (Eingang nach Südosten (58.5, 31.9)).'
 L['macabre_note'] = [[
-Erscheint an verschiedenen Positionen. Zum Beschwören, stelle dich mit 2 anderen Spielern in den Mysteriösen Pilzring und tanzt miteinander.
+Erscheint an verschiedenen Positionen. Zum Beschwören stelle dich mit 2 anderen Spielern in den Mysteriösen Pilzring und tanzt miteinander.
 
 • Spieler 1 tanzt mit Spieler 2
 • Spieler 2 tanzt mit Spieler 3
 • Spieler 3 tanzt mit Spieler 1
 ]]
-L['mymaen_note'] = 'Töte Fauldorn Kobolde in dem Gebiet, bis {npc:165053} schreit und erscheint.'
+L['mymaen_note'] = 'Töte Fauldorn-Kobolde in dem Gebiet, bis {npc:165053} schreit und erscheint.'
 L['rainbowhorn_note'] = [[
-Finde und klicke das |cffffff00Große Horn des Runenhirsches|r an, um den Hirsch zu beschwören. Das Horn kann an mehreren Orten im Ardenwald erscheinen.
+Finde und klicke das {object:Große Horn des Runenhirsches} an, um den Hirsch zu beschwören. Das Horn kann an mehreren Orten im Ardenwald erscheinen.
 
-Er wird immer nördlich von Tirna Vaal erscheinen, also setze deinen {item:6948} dorthin und halte ausschau nach einem Zonenemote.
+Er wird immer nördlich von Tirna Vaal erscheinen, also setze deinen {item:6948} dorthin und halte Ausschau nach einem Zonenemote.
 
 |cffff4200S|r|cffff8500C|r|cffffc700H|r|cfff3ff00M|r|cffb1ff00E|r|cff6eff00C|r|cff2cff00K|r |cff00ff58D|r|cff00ff9bE|r|cff00ffddN|r |cff009bffR|r|cff0058ffE|r|cff0016ffG|r|cff2c00ffE|r|cff6e00ffN|r|cffb100ffB|r|cfff300ffO|r|cffff00c7G|r|cffff0085E|r|cffff0042N|r|cffff0000!|r
 ]]
-L['rootwrithe_note'] = 'Pike die |CFFFFFF00Inaktiven Blüten|r an, bis {npc:167726} erscheint.' -- {npc:167928}
+L['rootwrithe_note'] = 'Pike die {npc:167928n} an, bis {npc:167726} erscheint.'
 L['rotbriar_note'] = 'Sprich mit {npc:171684} in der Nähe, um {npc:167724} nach einem Dialog zu beschwören.'
 L['slumbering_note'] = 'In den Nebel zu laufen wird dich betäuben und wieder herausteleportieren. Verwende ein Leuchtfeuer oder Begleiter mit Flächenschaden, um ihn aus dem Nebel zu stoßen.'
-L['skuld_vit_note'] = 'In einer Höhle, blockiert von einer Barriere. Ein Paktmitglied der Nachtfae muss {spell:310143} benutzen, um die Höhle betreten zu können. Sobald {npc:164415} gepullt wird verschwindet die Barriere.'
+L['skuld_vit_note'] = 'In einer Höhle, blockiert von einer Barriere. Ein Paktmitglied der Nachtfae muss {spell:310143} benutzen, um die Höhle betreten zu können. Sobald {npc:164415} gepullt wird, verschwindet die Barriere.'
 L['valfir_note'] = 'Klicke den Funkelnden Animasamen auf dem halben Weg nach unten an und verwende {spell:338045}, um seinen Stärkungszauber {spell:338038} zu entfernen.'
 L['wrigglemortis_note'] = 'Ziehe die {npc:164179} heraus, um {npc:164147} erscheinen zu lassen.'
 
 L['night_mare_note'] = [[
 Reise nach Tirna Scithe und folge dem Wurzelpfad an der nordwestlichen Klippe zu einem kaputten Karren. Dort kannst du auf dem Boden ein {item:181243} plündern.
 
-Bring diesen Gegenstand zu {npc:165704} im Schimmerkaskaden Becken.
-Sie wird dir ein {item:181242} im Austausch gegen 10 {item:173204} geben. |cFFFF8C00Wenn sie nicht da ist, musst du die Questreihen |cFFFFFD00Ärger am Gormlingpferch|r und |cFFFFFD00Listige Spriggans|r zuerst abschließen.|r
+Bringe diesen Gegenstand zu {npc:165704} im Schimmerkaskadenbecken.
+Sie wird dir einen {item:181242} im Austausch gegen 10 {item:173204} geben. {note:Wenn sie nicht da ist, musst du die Questreihen {quest:Ärger am Gormlingpferch} und {quest:Listige Spriggans} zuerst abschließen.}
 
-Danach sprich mit {npc:160262} im Herz des Waldes, um {item:181242} gegen einen {item:178675} auszutauschen. Sprich mit den Wachen, damit sie nach draußen kommt, wenn du nicht den Nachtfae angehörst. Verwende diesen Gegenstand, um den Stärkungszauber {spell:327083} zu erhalten, der es dir erlaubt {npc:168135} zu sehen.
+Danach sprich mit {npc:160262} im Herz des Waldes, um {item:181242} gegen einen {item:178675} auszutauschen. Sprich mit den Wachen, damit sie nach draußen kommt, wenn du nicht den Nachtfae angehörst. Verwende diesen Gegenstand, um den Stärkungszauber {spell:327083} zu erhalten, der es dir erlaubt, {npc:168135} zu sehen.
 ]]
 
 L['star_lake'] = 'Sternseeamphitheater'
@@ -68,34 +68,34 @@ Sprich mit {npc:171743}, um eine der besonderen Begegnungen zu beginnen. Die Beg
 Nimm an allen sieben Begegnungen teil, um die {item:180748} von {npc:163714} freizuschalten.
 ]]
 
-L['cache_of_the_moon'] = 'Sammel {npc:171360s} fünf verlorene Werkzeuge im Garten der Nacht und kombiniere diese zu {item:180753}. Bring dieses zu ihr zurück und sie wird dir die {spell:334353} gewähren, um die Truhe sehen zu können.'
-L['cache_of_the_night'] = 'Sammel {item:180656}, {item:180654} und {item:180655} aus der ganzen Zone und kombiniere diese zu einem {item:180652}.'
+L['cache_of_the_moon'] = 'Sammle {npc:171360s} fünf verlorene Werkzeuge im Garten der Nacht und kombiniere diese zu {item:180753}. Bringe dieses zu ihr zurück und sie wird dir die {spell:334353} gewähren, um die Truhe sehen zu können.'
+L['cache_of_the_night'] = 'Sammle {item:180656}, {item:180654} und {item:180655} aus der ganzen Zone und kombiniere diese zu einem {item:180652}.'
 L['darkreach_supplies'] = 'Verwende den {npc:169995}, um nach Südwesten in den ausgehöhlten Turm zu gleiten.'
-L['desiccated_moth'] = 'Verwende den {npc:169997}, nordwestlich des Baumes, um in die Baumkrone zu gleiten. Verbrenne {item:180784} im Räuchergefäß um den Schatz zu sammeln.' -- (31.7, 32,5)
+L['desiccated_moth'] = 'Verwende den {npc:169997} nordwestlich des Baumes, um in die Baumkrone zu gleiten. Verbrenne die {item:180784} im Räuchergefäß, um den Schatz zu sammeln.' -- (31.7, 32.5)
 L['dreamsong_heart'] = 'Verwende den {npc:169997} an der Seite des Baumes, um auf den Baum geschleudert zu werden.'
-L['elusive_faerie_cache'] = 'Hebe die {spell:333923} in Abendhein (46.5, 70.1) auf und verwende diese dazu die Truhe zu plündern.'
-L['enchanted_dreamcatcher'] = 'Hängt oben von den Wurzeln herunter. \nAm einfachsten hochzuklettern ist es auf der westlichen Seite.'
+L['elusive_faerie_cache'] = 'Hebe die {spell:333923} in Abendhain (46.5, 70.1) auf und verwende diese, um die Truhe zu plündern.'
+L['enchanted_dreamcatcher'] = 'Hängt oben von den Wurzeln herunter.\nAm einfachsten hochzuklettern ist es auf der westlichen Seite.'
 L['faerie_trove'] = 'Befindet sich unter der Plattform.'
 L['harmonic_chest'] = 'Benötigt zwei Spieler. Einer spielt die Harfe und der andere die Trommel, um die Truhe freizuschalten.'
 L['hearty_dragon_plume'] = 'Verwende die {spell:333554} an der Spitze der nahe gelegenen Wasserfälle (die Feder liegt bei (48.9, 41.0)), um auf den Ast zu gleiten.'
-L['old_ardeite_note'] = 'Töte |CFFFFFF00Ritualisten von Schimmergeäst|r oder |CFFFFFF00Besessene Verteidiger|r in dem Gebiet Schimmergeäst im Südosten, um eine {item:174042} zu erhalten. Verwende diese dazu, um zu {npc:164391} hoch zu fliegen.' -- {npc:160747} {npc:160748}
-L['swollen_anima_seed'] = 'Ein großer Samen der in einem Baumstamm liegt.'
+L['old_ardeite_note'] = 'Töte {npc:Ritualisten von Schimmergeäst} oder {npc:Besessene Verteidiger} in dem Gebiet Schimmergeäst im Südosten, um eine {item:174042} zu erhalten. Verwende diese, um zu {npc:164391} hochzufliegen.' -- {npc:160747} {npc:160748}
+L['swollen_anima_seed'] = 'Ein großer Samen, der in einem Baumstamm liegt.'
 
 L['playful_vulpin_note'] = [[
-Finde und verwende fünf mal die richtigen Emotes für {npc:171206}, um das Haustier zu erhalten.
+Finde und verwende fünfmal die richtigen Emotes für {npc:171206}, um das Haustier zu erhalten.
 
-• beginnt neugierig zu graben = |cFFFF8C00/neugierig|r
-• hoppelt umher und kann nicht stillsitzen = |cFFFF8C00/sitzen|r
-• singt ganz alleine = |cFFFF8C00/singen|r
-• tanzt vor Freude = |cFFFF8C00/tanzen|r
-• setzt sich einsam und traurig = |cFFFF8C00/streicheln|r
+• beginnt neugierig zu graben = {emote:/neugierig}
+• hoppelt umher und kann nicht stillsitzen = {emote:/sitzen}
+• singt ganz alleine = {emote:/singen}
+• tanzt vor Freude = {emote:/tanzen}
+• setzt sich einsam und traurig = {emote:/streicheln}
 ]]
 
 L['tame_gladerunner'] = 'Schimmernebelläufer'
 L['tame_gladerunner_note'] = [[
-Lies die "Legende des Dickichts" am Baum (bei 32.5, 53.0) und folge den blauen Lampen durch den Pfad bis du zu {npc:171767} gelangst. Töte ihn und plündere den {npc:171699}.
+Lies die "Legende des Dickichts" am Baum (bei 32.5, 53.0) und folge den blauen Lampen durch den Pfad, bis du zu {npc:171767} gelangst. Töte ihn und plündere den {npc:171699}.
 
-Wenn du den falschen Pfad nimmst und {npc:171699} verschwindet, wenn du das Ende erreichst, gehe zurück und lies die "Legende des Dickichts" erneut, um von vorne zu beginnen. Wenn {npc:171767} nicht da ist, warte auf ihn bis er Wiedererscheint.
+Wenn du den falschen Pfad nimmst und {npc:171699} verschwindet, wenn du das Ende erreichst, gehe zurück und lies die "Legende des Dickichts" erneut, um von vorne zu beginnen. Wenn {npc:171767} nicht da ist, warte, bis er wiedererscheint.
 ]]
 
 L['faryl_note'] = 'Lasst die Kreaturen des Himmels die Verteidigung des Ardenwalds anführen.'
@@ -127,27 +127,27 @@ L['2x_wildseed_root_grain'] = '2x oder 3x {item:176832}'
 L['4x_wildseed_root_grain'] = '4x {item:176832}'
 
 L['soulshape_cat_note'] = [[
-Visiere die {npc:181694} an und /besänftigen
+Visiere die {npc:181694} an und {emote:/besänftigen}.
 
-Kann auf 6 Großen Bäume im |cFFFFFF00Ardenwald|r erscheinen:
+Kann auf 6 großen Bäumen im {location:Ardenwald} erscheinen:
 
-• |cFFFFFF00Traumsang Fenn|r
-• |cFFFFFF00Schimmerkaskadenbecken|r
-• |cFFFFFF00Tirna Vaal|r
-• |cFFFFFF00Winterschlafbecken|r
-• |cFFFFFF00Herzholzhain|r
-• |cFFFFFF00Klauenkamm|r
+• {location:Traumsang Fenn}
+• {location:Schimmerkaskadenbecken}
+• {location:Tirna Vaal}
+• {location:Winterschlafbecken}
+• {location:Herzholzhain}
+• {location:Klauenkamm}
 ]]
 L['soulshape_corgi_note'] = [[
-Visiere {npc:174608} an und /streicheln
+Visiere {npc:174608} an und {emote:/streicheln}.
 
 Die Corgiseele wird sofort verfügbar sein, wenn du mit {npc:181582} sprichst.
 ]]
 L['soulshape_well_fed_cat_note'] = [[
-1. Sammel {item:187811} in |cffffff00Dunkelhafen|r
-2. Visiere {npc:182093} an und /meow
-3. |cFFFF8C00Ma'oh meows at you hungrily.|r
-4. Target {npc:182093} und benutze {item:187811}
+1. Sammle {item:187811} in {location:Dunkelhafen}.
+2. Visiere {npc:182093} an und verwende {emote:/miau}.
+3. {npc:182093} miaut dich hungrig an.
+4. Visiere {npc:182093} an und benutze {item:187811}.
 
 Die Katzenseele (Gut genährt) wird sofort verfügbar sein, wenn du mit {npc:181582} sprichst.
 ]] -- review
@@ -157,10 +157,10 @@ Die Katzenseele (Gut genährt) wird sofort verfügbar sein, wenn du mit {npc:181
 -------------------------------------------------------------------------------
 
 L['aegeon_note'] = 'Töte Gegner in der Umgebung, bis Aegeon als Verstärkung erscheint.'
-L['ascended_council_note'] = 'Läute gleichzeitig mit vier anderen Spielern die fünf Tempelvesperglocken, um den {npc:170899} beim Prüfstein des Aspiranten zu beschworen.'
+L['ascended_council_note'] = 'Läute gleichzeitig mit vier anderen Spielern die fünf Tempelvesperglocken, um den {npc:170899} beim Prüfstein des Aspiranten zu beschwören.'
 L['aspirant_eolis_note'] = 'Plündere {item:180613} in der Nähe und lese es ihm vor. Es erscheint eine Truhe.'
-L['baedos_note'] = 'Trage zum Aktivieren, Fässchen mit fermentierenden Purianfrüchten aus der Umgebung zu {npc:161536}.'
-L['basilofos_note'] = 'Bewege dich auf den Felsen umher, bis eine lila Markierung über deinem Kopf erscheint, stehe dann still und warte vier Emotes ab bis {npc:170659} erscheint.'
+L['baedos_note'] = 'Trage zum Aktivieren Fässchen mit fermentierenden Purianfrüchten aus der Umgebung zu {npc:161536}.'
+L['basilofos_note'] = 'Bewege dich auf den Felsen umher, bis eine lila Markierung über deinem Kopf erscheint, stehe dann still und warte vier Emotes ab, bis {npc:170659} erscheint.'
 L['beasts_of_bastion'] = 'Bestien der Bastion'
 L['beasts_of_bastion_note'] = 'Sprich mit {npc:161441}, um eine der vier Bestien zu beschwören.'
 L['bookkeeper_mnemis_note'] = 'Hat die Chance anstelle von {npc:166867} in diesem Gebiet zu erscheinen.'
@@ -168,14 +168,14 @@ L['cloudfeather_patriarch_note'] = 'Töte {npc:158110n} in diesem Gebiet, bis de
 L['collector_astor_note'] = 'Lies alle sechs Kapitel von Mercias Vermächtnis, die im Raum verstreut sind und sprich dann mit dem {npc:157979}, um {spell:333779} zu erhalten. Finde das versteckte {item:180569} in der Umgebung und bringe es zurück, um {npc:171014} zu beschwören.'
 L['corrupted_clawguard_note'] = 'Plündere {item:180651} in dem Raum oder im Schmiedefeueraußenposten (54.9, 41.0) und verwende es, um die {npc:171300} zu reparieren.'
 L['dark_watcher_note'] = 'Kann nur während des Todes gesehen werden. Sprich mit ihr und sie wird {spell:332830} auf dich wirken, bevor sie angreift.'
-L['demi_hoarder_note'] = 'Startet mit 99 Stapeln von {spell:333874} (Reduzierung des erlittenen Schadens). Stapel werden langsam durch Schaden entfernt. {npc:171011} folgt einem Pfad und verschwindet wenn sie das Ende erreicht.'
+L['demi_hoarder_note'] = 'Startet mit 99 Stapeln von {spell:333874} (Reduzierung des erlittenen Schadens). Stapel werden langsam durch Schaden entfernt. {npc:171011} folgt einem Pfad und verschwindet, wenn sie das Ende erreicht.'
 L['dionae_note'] = '\nWenn sie immun wird, klicke auf die vier {npc:163747e}, um ihr Schild zu brechen.'
 L['herculon_note'] = [[
-Sammel {item:172451} und verwende dieses, um {npc:158659} Stapel von {spell:343531} zu gewähren. Bei 10 Stapeln wird er aktiv.
+Sammle {item:172451} und verwende dieses, um {npc:158659} Stapel von {spell:343531} zu gewähren. Bei 10 Stapeln wird er aktiv.
 
 Partikel können aus entleerten Animakanistern in der Nähe gesammelt werden, die sich in diesem Raum oder direkt außerhalb befinden.
 
-|cFFFF8C00Kann nicht während der Weltquest {wq:Angriff auf die Vorhallen} besiegt werden.
+{note:Kann nicht während der Weltquest {wq:Angriff auf die Vorhallen} besiegt werden.}
 ]]
 L['reekmonger_note'] = 'Töte beim Tempel des Mutes solange Gegner, bis im Chat von {npc:171327} ein Emote erscheint und er landet.'
 L['repair_note'] = 'Klicke zum Beschwören mit zwei anderen Spielern das Uralte Räucherwerk an.'
@@ -185,22 +185,22 @@ L['swelling_tear_note'] = 'Klicke den {npc:171012} an, um einen von drei Seltene
 L['unstable_memory_note'] = 'Kann beschworen werden, wenn {npc:171018} anwesend ist. Ziehe dieses in andere, um ihm 10 Stapel von {spell:333558} zu gewähren, der es zu {npc:171008} heranwachsen lässt.'
 L['wingflayer_note'] = 'Klicke zum Beschwören das Horn des Mutes auf dem Tisch in der Nähe an. (41.6, 54.5)'
 
-L['broken_flute'] = 'Töte |CFFFFFF00Beunruhigte Ätherwyrme|r in diesem Gebiet, bis diese {item:180536} fallen lassen, dann verwende die Werkzeuge, um die Flöte zu reparieren.' -- {npc:170009}
+L['broken_flute'] = 'Töte {npc:Beunruhigte Ätherwyrme} in diesem Gebiet, bis diese {item:180536} fallen lassen, dann verwende die Werkzeuge, um die Flöte zu reparieren.' -- {npc:170009}
 L['cloudwalkers_coffer'] = 'Truhe des Wolkenwanderers'
 L['cloudwalkers_coffer_note'] = 'Verwende die großen lila Blüten dazu, um auf die Plattform zu gelangen.'
 L['experimental_construct_part'] = 'Plündere ein {item:180534} in der Nähe und verwende es, um den Gegenstand zu reparieren. Das {item:180534} erscheint an verschiedenen Stellen.'
 L['larion_harness'] = 'Befindet sich in der Halle der Bestien.'
-L['memorial_offering'] = 'Finde {npc:171526}, an einer seiner Postionen in Bastion und kaufe einen {item:180788}. Stelle es auf das Getränketablett in der Nähe der Truhe, um den {item:180797} zum öffnen der Truhe zu erhalten.'
+L['memorial_offering'] = 'Finde {npc:171526} an einer seiner Positionen in Bastion und kaufe einen {item:180788}. Stelle es auf das Getränketablett in der Nähe der Truhe, um den {item:180797} zum Öffnen der Truhe zu erhalten.'
 L['scroll_of_aeons'] = 'Plündere 2x {item:173973} im mittleren Bereich und platziere diese auf den Tributplatten in der Nähe, um den Schatz zu enthüllen.'
 L['vesper_of_silver_wind'] = 'Vesperglocke des Silberwinds'
 L['vesper_of_silver_wind_note'] = 'Schließe den Erfolg {achievement:14339} ab und sprich dann mit {npc:171732} nahe dem Eingang zu den Spitzen des Aufstieges, um einen {item:180858} zu schmieden.'
 
-L['gift_of_agthia'] = 'Klicke auf die brennende Fackel in der Nähe der kaputten Brücke im Nordwesten (bei 39.1, 54.5) und trage {spell:333320} von Fackel zu Fackel bis du die Truhe erreichst. Wenn du die letzte Fackel anzündest wird dir der {spell:333063} gewährt, um die Truhe öffnen zu können.'
-L['gift_of_chyrus'] = 'Knie vor er Truhe, um den {spell:333045} zu erhalten. \nVerwende die Transportplattform (bei 69.4, 40.3), um nach oben zu gelangen.'
+L['gift_of_agthia'] = 'Klicke auf die brennende Fackel in der Nähe der kaputten Brücke im Nordwesten (bei 39.1, 54.5) und trage {spell:333320} von Fackel zu Fackel, bis du die Truhe erreichst. Wenn du die letzte Fackel anzündest, wird dir der {spell:333063} gewährt, um die Truhe öffnen zu können.'
+L['gift_of_chyrus'] = 'Knie vor der Truhe, um den {spell:333045} zu erhalten.\nVerwende die Transportplattform (bei 69.4, 40.3), um nach oben zu gelangen.'
 L['gift_of_devos'] = [[
-Südwestlich der Truhe ist eine Fackel von der du die {spell:333912} erhältst. Aufsitzen, Kampfbeitritt oder der erhalt von Schaden lassen die Flamme fallen. Du musst dir deinen Weg zurück zur Truhe bahnen und die Flamme in die Kohlenpfanne der Hingabe platzieren, um {spell:333070} zu erhalten.
+Südwestlich der Truhe ist eine Fackel, von der du die {spell:333912} erhältst. Aufsitzen, Kampfbeitritt oder das Erleiden von Schaden lassen die Flamme fallen. Du musst dir deinen Weg zurück zur Truhe bahnen und die Flamme in die Kohlenpfanne der Hingabe platzieren, um {spell:333070} zu erhalten.
 
-Bevor du die Flamme aufsammelst, töte alle Gegner vor der Truhe. Während du läufst klicke mehrere {npc:156571n} entlang des Weges an, um {spell:335012} zu erhalten, der deine Bewegungsgeschwindigkeit erhöht.
+Bevor du die Flamme aufsammelst, töte alle Gegner vor der Truhe. Während du läufst, klicke mehrere {npc:156571n} entlang des Weges an, um {spell:335012} zu erhalten, der deine Bewegungsgeschwindigkeit erhöht.
 ]]
 L['gift_of_thenios'] = [[
 Hinter der Truhe ist eine Transportplattform mit dem Namen "Pfad der Weisheit", diese führt zu einer Folge von Plattformen mit unterschiedlichen Räuchergefäßen mit denen gesprochen werden kann:
@@ -210,7 +210,7 @@ Hinter der Truhe ist eine Transportplattform mit dem Namen "Pfad der Weisheit", 
 • Räucherwerk der Einsicht
 • Räucherwerk des Richturteils
 
-Sprich mit ihnen in der Reihenfolge |cFFFF0000Geduld => Wissen => Einsicht|r. Auf der Richturteil Plattform wird eine Kugel mit dem Namen "Weg der einsichtigen Weisheit" erscheinen.
+Sprich mit ihnen in der Reihenfolge Geduld => Wissen => Einsicht. Auf der Richturteil Plattform wird eine Kugel mit dem Namen "Weg der einsichtigen Weisheit" erscheinen.
 
 Die Kugel wird dich zu dem wahren Räucherwerk des Richturteils bringen. Sprich dort mit ihm und die letzte Transportplattform wird dir den {spell:333068} gewähren, um die Truhe öffnen zu können.
 ]]
@@ -225,7 +225,7 @@ L['vesper_of_humility'] = 'Vesperglocke der Demut'
 L['vesper_of_loyalty'] = 'Vesperglocke der Loyalität'
 L['vesper_of_purity'] = 'Vesperglocke der Reinheit'
 L['vesper_of_wisdom'] = 'Vesperglocke der Weisheit'
-L['vespers_ascended_note'] = 'Läute diese Vesperglocke gleichzeitig mit den anderen vier Glocken, um den {npc:170899} beim Prüfstein des Aspiranten zu beschworen.'
+L['vespers_ascended_note'] = 'Läute diese Vesperglocke gleichzeitig mit den anderen vier Glocken, um den {npc:170899} beim Prüfstein des Aspiranten zu beschwören.'
 L['options_icons_vespers'] = '{achievement:14734}'
 L['options_icons_vespers_desc'] = 'Zeigt die Vesperglocken für den Erfolg {achievement:14734} an.'
 
@@ -288,11 +288,11 @@ L['hymn_note'] = 'Suche bei jedem Tempel nach den Hymnen, um den Stärkungszaube
 L['options_icons_hymns'] = '{achievement:14768}'
 L['options_icons_hymns_desc'] = 'Zeigt die Hymnen für den Erfolg {achievement:14768} an.'
 
-L['stratios_note'] = 'Auch die kleinst Schlacht sollte mit Bedacht und Ehre geschlagen werden. Präsentiert Euer Team, wenn Ihr bereit seid.'
+L['stratios_note'] = 'Auch die kleinste Schlacht sollte mit Bedacht und Ehre geschlagen werden. Präsentiert Euer Team, wenn Ihr bereit seid.'
 L['thenia_note'] = 'Welch prachtvolle weite Ebene. Einfach wunderbar für einen Kampf. Seid ihr bereit?'
 L['zolla_note'] = 'Wir nehmen unsere Verteidigung sehr ernst. Ob groß oder klein, wir investieren viel in die Ausbildung und Instandhaltung der Ressourcen, die die Bastion stark machen.'
 
-L['soulshape_otter_soul'] = 'Visiere {npc:181682} an und /umarmen.'
+L['soulshape_otter_soul'] = 'Visiere {npc:181682} an und verwende {emote:/umarmen}.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- KORTHIA -----------------------------------
@@ -305,26 +305,26 @@ Wird keine Beute fallen lassen, bis er 40x {npc:179758} verzehrt hat, um sich in
 
 Lässt zusätzliche Gegenstände für {currency:1931} fallen, wenn er *erneut* 40x {npc:179758} verzehrt hat, um sich in seine grünschattierte Form zu verwandeln (Selten Elite).
 
-|cFFFF0000Lässt keine {npc:179758} zum verzehren erscheinen, wenn er im Kampf ist.|r
+{note:Lässt keine {npc:179758} zum Verzehren erscheinen, wenn er sich im Kampf befindet.}
 ]]
-L['darkmaul_note'] = 'Sammel {item:187153} von einem Invasivem Schlundpilz und füttere 10x {npc:180063} damit, um das Reittier zu erhalten.'
-L['dislodged_nest_note'] = 'Klicke in der Nähe eine Giftige Motte an, um den Stärkungszauber {spell:355181} zu erhalten. Benutze den Extrabutton von {spell:355131} auf einen {npc:178547}, um die Kontrolle über ihn zu erlangen und dann reite mit ihm gegen den Baum, in dem der Schatz liegt.'
+L['darkmaul_note'] = 'Sammle {item:187153} von einem invasiven Schlundpilz und füttere 10x {npc:180063} damit, um das Reittier zu erhalten.'
+L['dislodged_nest_note'] = 'Klicke in der Nähe eine Giftige Motte an, um den Stärkungszauber {spell:355181} zu erhalten. Benutze den Extrabutton von {spell:355131}, um einen {npc:178547} zu kontrollieren, und reite dann mit ihm gegen den Baum, in dem der Schatz liegt.'
 L['escaped_wilderling_note'] = 'Klicke den {npc:180014} an, um das Zähmungsevent zu starten.'
 L['flayedwing_transporter_note'] = 'Klicke den {npc:178633} an, um zum oder vom Archiv der Geheimnisse zu fliegen.'
 L['fleshwing_note'] = 'Sprich mit {npc:180079}, um das Sammelevent zu starten.'
 L['forgotten_feather_note'] = 'Auf einer kleinen schwebenden Insel, die man durch einen Absprung von der Zuflucht des Hüters aus erreicht.'
-L['konthrogz_note'] = 'Erscheint bei dem Event \'Verschlingender Spalt\', dass an mehreren Orten in Korthia erscheinen kann.'
-L['sl_limited_rare'] = '|cFFFF8C00Dieser seltene Gegner ist an manchen Tagen nicht verfügbar.|r'
-L['krelva_note'] = 'Wechselt bei 80% Leben zu einer anderen Plattform und wechselt erneut bei 60% zum Festland. \n|cFFFF8C00Damit die Tötung angerechnet wird, muss nach 60% auch angegriffen worden sein!|r'
+L['konthrogz_note'] = 'Erscheint bei dem Event "Verschlingender Spalt", das an mehreren Orten in Korthia erscheinen kann.'
+L['sl_limited_rare'] = '{note:Dieser seltene Gegner ist an manchen Tagen nicht verfügbar.}'
+L['krelva_note'] = 'Wechselt bei 80% Leben zu einer anderen Plattform und wechselt erneut bei 60% zum Festland.\n{note:Damit die Tötung angerechnet wird, muss er nach 60% Leben auch angegriffen worden sein!}'
 L['kroke_note'] = 'Töte {npc:179029} in dem Gebiet, bis er erscheint. Kann nicht an Tagen erscheinen, an denen {npc:179029} nicht aufzufinden sind.'
-L['maelie_wanderer'] = 'Erscheint für den Tag an einem festgeleten Ort. Wenn du an 6 verschiedenen Tagen {spell:355862} verwendet hast, kehre zu {npc:179930} zurück, um das Reittier zu erhalten.'
-L['malbog_note'] = 'Sprich mit {npc:179729}, um den Stärkungszauber {spell:355078} zu erhalten und dann folge den Fußspuren, bis du die fleischigen Überreste findest.'
+L['maelie_wanderer'] = 'Erscheint für den Tag an einem festgelegten Ort. Wenn du an 6 verschiedenen Tagen {spell:355862} verwendet hast, kehre zu {npc:179930} zurück, um das Reittier zu erhalten.'
+L['malbog_note'] = 'Sprich mit {npc:179729}, um den Stärkungszauber {spell:355078} zu erhalten, und folge dann den Fußspuren, bis du die fleischigen Überreste findest.'
 L['offering_box_note'] = 'Der {item:187033} befindet sich oben auf der westlichen Wand der nahe gelegenen Ruine.'
 L['pop_quiz_note'] = 'Wird zufällig auf der Map erscheinen. Klicke den zurückgelassenen Schleierstab an und antworte auf die Fragen von {npc:180162}.'
 L['razorwing_note'] = [[
-|cFFFF0000Es können täglich 2 Eier erbeutet werden.|r
+{note:Es können täglich 2 Eier erbeutet werden.}
 
-Gib 10x {item:187054} ab, dass von den Verschlingern wie {npc:177245} geplündert werden kann.
+Gib 10x {item:187054} ab, die von den Verschlingern wie {npc:177245} geplündert werden können.
 ]]
 L['reliwik_note'] = 'Klicke das Unverderbte Klingenschwingenei an.'
 L['spectral_bound_chest'] = 'Spektralgebundene Truhe'
@@ -341,29 +341,29 @@ L['options_icons_relic'] = '{achievement:15066}'
 L['options_icons_relic_desc'] = 'Zeigt die 20 Relikte für den Erfolg {achievement:15066} an.'
 
 L['rift_portal_note'] = [[
-Betritt den |cFFFFFF00Riss|r, eine alterative Phase von Korthia und des Schlunds mit zusätzlichen seltenen Gegnern, Relikten und Truhen.
+Betritt den {location:Riss}, eine alternative Phase von {location:Korthia} und des {location:Schlunds} mit zusätzlichen seltenen Gegnern, Relikten und Truhen.
 
 Benötigt einen {item:186731}, den man bei {npc:178257} kaufen kann, wenn Stufe 4 bei {faction:2472} erreicht wurde. Die Schlüssel haben auch eine geringe Chance von seltenen Gegnern und Truhen in der Zone geplündert zu werden.
 
-|cFFFF8C00Nicht alle Rissportale sind gleichzeitig aktiv.|r
+{note:Nicht alle Rissportale sind gleichzeitig aktiv.}
 ]]
-L['rift_rare_only_note'] = 'Dieser seltene Gegner kann nur gesehen und getötet werden, während man sich im |cFFFFFF00Riss|r befindet.'
+L['rift_rare_only_note'] = 'Dieser seltene Gegner kann nur gesehen und getötet werden, während man sich im {location:Riss} befindet.'
 L['rift_rare_exit_note'] = [[
-Dieser seltene Gegner wird den |cFFFFFF00Riss|r verlassen, wenn mit ihm im |cFFFFFF00Riss|r interagiert wurde.
+Dieser seltene Gegner wird den {location:Riss} verlassen, wenn mit ihm im {location:Riss} interagiert wurde.
 
-Die drei seltenen Gegner im |cFFFFFF00Riss|r erscheinen üblicherweise in einer festgelegten Reihenfolge in einem Intervall von etwa 20 Minuten:
+Die drei seltenen Gegner im {location:Riss} erscheinen üblicherweise in einer festgelegten Reihenfolge in einem Intervall von etwa 20 Minuten:
 
   1. {npc:179913}
   2. {npc:179608}
   3. {npc:179911}
 ]]
 L['options_icons_rift_portal'] = '{npc:179595}'
-L['options_icons_rift_portal_desc'] = 'Zeigt die Positionen von {npc:179595en} an, um den |cFFFFFF00Riss|r zu betreten.'
+L['options_icons_rift_portal_desc'] = 'Zeigt die Positionen von {npc:179595en} an, um den {location:Riss} zu betreten.'
 
 L['riftbound_cache'] = 'Rissgebundene Truhe'
-L['riftbound_cache_note'] = 'Es gibt 4 einzigartige Truhen, die jeweils an festgelegten Orten im |cFFFFFF00Riss|r erscheinen können.'
+L['riftbound_cache_note'] = 'Es gibt 4 einzigartige Truhen, die jeweils an festgelegten Orten im {location:Riss} erscheinen können.'
 L['options_icons_riftbound_cache'] = 'Rissgebundene Truhen'
-L['options_icons_riftbound_cache_desc'] = 'Zeigt die Positionen von Truhen innerhalb des |cFFFFFF00Riss|r an.'
+L['options_icons_riftbound_cache_desc'] = 'Zeigt die Positionen von Truhen innerhalb des {location:Riss} an.'
 
 L['invasive_mawshroom'] = 'Invasiver Schlundpilz'
 L['invasive_mawshroom_note'] = 'Es gibt 5 einzigartige Pilze, die jeweils an festgelegten Orten erscheinen können.'
@@ -378,7 +378,7 @@ L['unusual_nest_note'] = 'Jedes der 5 Nester kann täglich geplündert werden.'
 
 L['options_icons_invasive_mawshroom_desc'] = 'Zeigt die Positionen von Invasiven Schlundpilzen an.'
 L['options_icons_invasive_mawshroom'] = 'Invasiver Schlundpilz (tägliche)'
-L['options_icons_korthia_dailies_desc'] = 'Zeigt die Positionen von unmakierten Relikttruhen an.'
+L['options_icons_korthia_dailies_desc'] = 'Zeigt die Positionen von unmarkierten Relikttruhen an.'
 L['options_icons_korthia_dailies'] = 'Relikttruhen'
 L['options_icons_mawsworn_cache_desc'] = 'Zeigt die Positionen von Schlundgebundenen Truhen an.'
 L['options_icons_mawsworn_cache'] = 'Schlundgebundene Truhe (tägliche)'
@@ -400,21 +400,21 @@ L['ravenomous_note'] = 'Zerquetsche {npc:159901} in der Gegend, bis der seltene 
 L['sabriel_note'] = 'Kann als einer der Champions im Theater der Schmerzen auftreten.'
 L['schmitd_note'] = 'Benutze nahegelegene {spell:313451}, um sein Schild zu brechen.'
 L['tahonta_note'] = 'Das Reittier kann nur geplündert werden, wenn {npc:159239} dir folgt!'
-L['taskmaster_xox_note'] = 'Teilt sich einen spawn mit {npc:160204}, {npc:160230} und {npc:160226}.'
-L['theater_of_pain_note'] = 'Bei der ersten Tötung am Tag, besteht die Chance, dass das Reittier fallen gelassen wird.'
+L['taskmaster_xox_note'] = 'Teilt sich einen Spawn mit {npc:160204}, {npc:160230} und {npc:160226}.'
+L['theater_of_pain_note'] = 'Bei der ersten Tötung des Tages besteht die Chance, dass das Reittier fallen gelassen wird.'
 L['zargox_the_reborn_note'] = [[
-Verwende die {item:175841} auf der {npc:157124}. Die {item:175841} erhältst du, wenn du die Quest {quest:57245} von {npc:157076} abschließen und nochmal mit ihm sprichst.
+Verwende die {item:175841} auf der {npc:157124}. Die {item:175841} erhältst du, wenn du die Quest {quest:57245} von {npc:157076} abgeschlossen hast und noch einmal mit ihm sprichst.
 
-Wenn die {npc:157124} nicht da ist, belebe {npc:157132} in dem Gebiet, bis diese erscheint.
+Wenn die {npc:157124} nicht da ist, belebe {npc:157132} im Gebiet, bis sie erscheint.
 ]]
 L['mixed_pool_note'] = [[
 Sammle Materialien von umliegenden Gegnern und wirf diese in den Teich. Sobald 30 Materialien hinzugefügt wurden, erscheint je nach verwendeter Kombination einer von sieben seltenen Gegnern.
 
-• Sammel {spell:306713} von {npc:167923} und {npc:167948} aus dem Norden.
+• Sammle {spell:306713} von {npc:167923} und {npc:167948} aus dem Norden.
 
-• Sammel {spell:306719} von {npc:165015} und {npc:171142} aus dem Süden.
+• Sammle {spell:306719} von {npc:165015} und {npc:171142} aus dem Süden.
 
-• Sammel {spell:306722} von {npc:165027} und {npc:166438} aus dem Süden.
+• Sammle {spell:306722} von {npc:165027} und {npc:166438} aus dem Süden.
 
 Töte jeden der seltenen Gegner einmal, um das Spielzeug {item:183903} zu erhalten.
 ]]
@@ -430,15 +430,15 @@ L['kyrian_keepsake_note'] = 'Untersuche die {npc:169664}, um den Schatz zu plün
 L['misplaced_supplies'] = 'Oben auf dem Riesenpilz'
 L['necro_tome_note'] = 'Um Zugang zu dem Turm zu erhalten, musst du bei {npc:166657} erst eine kleine Questreihe beginnen. In einem Bücherregal in der obersten Etage.'
 L['plaguefallen_chest_note'] = [[
-Stelle dich in grünen Schleim |cffff0000(benötigt Heilung!)|r, sammel 10 Stapel von {spell:330069} an, um in ein {spell:330092} verwandelt zu werden.
+Stelle dich in grünen Schleim {note:(benötigt Heilung!)}, sammle 10 Stapel von {spell:330069} an, um in ein {spell:330092} verwandelt zu werden.
 
 Wenn du verwandelt bist, besuche die Höhle unterhalb von {npc:158406es} Plattform (Eingang auf der östlichen Seite) und klicke auf das Rohr, um zur Truhe zu gelangen.
 ]]
 L['ritualists_cache_note'] = 'Hebe die {item:181558} vom Boden auf und vervollständige damit das Buch der Bindungsrituale.'
-L['runespeakers_trove_note'] = 'Finde {npc:170563} im Osten (37.9, 70.1) und töte ihm, um den {item:181777} zu erhalten.'
+L['runespeakers_trove_note'] = 'Finde {npc:170563} im Osten (37.9, 70.1) und töte ihn, um den {item:181777} zu erhalten.'
 L['stolen_jar_note'] = 'Erscheint in mehreren verschiedenen Höhlen.'
 L['strange_growth_note'] = 'Ziehe {npc:165037} heraus, um den Schatz zu enthüllen.'
-L['vat_of_slime_note'] = 'Klicken auf dem Tisch die Flasche an und danach auf den Schleimbehälter.'
+L['vat_of_slime_note'] = 'Klicke die Flasche auf dem Tisch an und danach den Schleimbehälter.'
 
 L['giant_cache_of_epic_treasure'] = 'Epischer Riesenschatz'
 L['spinebug_note'] = [[
@@ -484,10 +484,10 @@ L['discarded_grimoire_label'] = '{item:183394}'
 L['discarded_grimoire_note'] = 'Schließe die Quest {quest:62297} von {npc:174020} ab.'
 
 L['sorcerers_blade_label'] = '{item:183397}'
-L['sorcerers_blade_note'] = 'Schließe die Quest {quest:62317} von |cFFFFFF00Notiz des Zauberers|r innerhalb des |cFFFFFF00Verlies der Seelen|r ab. Die Treppe hinunter und links am Bücherregal.'
+L['sorcerers_blade_note'] = 'Schließe die Quest {quest:62317} von {object:Notiz des Zauberers} innerhalb des {location:Verlies der Seelen} ab. Die Treppe hinunter und links am Bücherregal.'
 
 L['mucosal_pigment_label'] = '{item:183691}'
-L['mucosal_pigment_note'] = 'Wird von jedem Schleim, Tropfen, Schlamm, Riesen oder seltenen Gegner in der Nähe des |cFFFFFF00Haus der Seuchen|r oder dem Gebiet um {npc:162727} herum fallen gelassen.'
+L['mucosal_pigment_note'] = 'Wird von jedem Schleim, Tropfen, Schlamm, Riesen oder seltenen Gegner in der Nähe des {location:Haus der Seuchen} oder dem Gebiet um {npc:162727} herum fallen gelassen.'
 
 L['amethystine_dye_label'] = '{item:183401}'
 L['amethystine_dye_note'] = 'Schließe die Quest {quest:62320} von {npc:174120} ab.'
@@ -498,7 +498,7 @@ L['ritualists_mantle_note'] = 'Schließe die Quest {quest:62308} von {npc:172813
 L['options_icons_crypt_couture'] = '{achievement:14763}'
 L['options_icons_crypt_couture_desc'] = 'Zeigt die Positionen der Verkleidung des nekrotischen Akolythen für den Erfolg {achievement:14763} an.'
 
-L['soulshape_saurid_note'] = 'In einer kleinen Höhle. Visiere {npc:182105} an und verbeuge dich vor ihm (/verbeugen).'
+L['soulshape_saurid_note'] = 'In einer kleinen Höhle. Visiere {npc:182105} an und verbeuge dich vor ihm ({emote:/verbeugen}).'
 
 -------------------------------------------------------------------------------
 --------------------------------- REVENDRETH ----------------------------------
@@ -512,9 +512,9 @@ L['endlurker_note'] = 'Klicke den Animapflock neben {npc:165229s} Leiche (65.4, 
 L['executioner_aatron_note'] = 'Töte die drei {npc:166715} in der Nähe, um die {spell:324872} zu entfernen.'
 L['executioner_adrastia_note'] = 'Befreie {npc:161299} in der Umgebung und eskortiere diese, bis sie verschwinden. {npc:161310} wird irgendwann erscheinen, um den Aufstand zu zerschlagen. '
 L['famu_note'] = 'Sprich mit {npc:166483}, um das Event auszulösen.'
-L['grand_arcanist_dimitri_note'] = 'Töte die vier |CFFFFFF00Verhüllten Ritualisten|r, um {npc:167464} freizulassen.' -- {npc:167467}
+L['grand_arcanist_dimitri_note'] = 'Töte die vier {npc:Verhüllten Ritualisten}, um {npc:167464} freizulassen.' -- {npc:167467}
 L['harika_note'] = 'Plündere den {item:176397} in Schauerkuppe, dann gib {npc:165327} den Bolzen und sage ihm, er soll {npc:165290} vom Himmel holen.'
-L['innervus_note'] = 'Töte |CFFFFFF00Wilde Ritualisten|r in der Gegend, um einen {item:177223} zu erhalten, um die Krypta aufzuschließen.' -- {npc:160375}
+L['innervus_note'] = 'Töte {npc:Wilde Ritualisten} in der Gegend, um einen {item:177223} zu erhalten, um die Krypta aufzuschließen.' -- {npc:160375}
 L['leeched_soul_note'] = 'In der nahe gelegenen Krypta. Gehe in die Nähe von {npc:165151}, um das Event zu starten.'
 L['lord_mortegore_note'] = 'Töte Gegner in der Nähe, um eine {item:174378} zu erhalten und verwende diese, um ein {npc:161870} zu ermächtigen. {npc:161891} wird erscheinen, wenn alle vier Siegel ermächtigt wurden.'
 L['madalav_note'] = 'Klick Madalavs Hammer auf dem Amboss in der Nähe an, um ihn zu beschwören.'
@@ -531,20 +531,20 @@ Hat eine Chance die {item:180583} fallen zu lassen, welche eine 7-tägige Questr
 ]]
 
 L['dredglaive_note'] = 'Unter der Brücke in der {npc:173671} Leiche.'
-L['forbidden_chamber_note'] = 'Plündere den Weggeworfenen Animakanister vor der verschlossenen Tür auf der Bank, um {spell:340701} zu erlernen. Verwende es, um fünf in der Nähe befindlichen |CFFFFFF00Stillen Beobachtern|r ihr Anima zu entziehen, dann verwende {spell:340866} vor dem {npc:173786}.' -- {npc:173838}
+L['forbidden_chamber_note'] = 'Plündere den Weggeworfenen Animakanister vor der verschlossenen Tür auf der Bank, um {spell:340701} zu erlernen. Verwende es, um fünf in der Nähe befindlichen {npc:Stillen Beobachtern} ihr Anima zu entziehen, dann verwende {spell:340866} vor dem {npc:173786}.' -- {npc:173838}
 L['gilded_plum_chest_note'] = 'Töte die {npc:166680}, die die Straße hoch und runter läuft.'
 L['lost_quill_note'] = 'Plündere die {item:182475} von der Flasche auf dem Tisch in der Verbotenen Bibliothek und gib sie dem {npc:173449}, der sich auf dem Dach der Verbotenen Bibliothek versteckt.'
 L['rapier_fearless_note'] = 'Klicke das Rapier auf dem Boden an und besiege {npc:173603}.'
 L['remlates_cache_note'] = 'Hinter der Außenmauer der Krypta in Dunkelhafen.'
 L['smuggled_cache_note'] = ns.color.Red('BEVOR DU DIE TRUHE PLÜNDERST: ') .. 'Geh sicher, dass du die Nebenquest {quest:60480} abgeschlossen hast oder du wirst 40x {currency:1820} von der Schatztruhe und Quest versäumen.'
 L['taskmaster_trove_note'] = 'Lies die Eintritts- und Austrittsriten und gehe behutsam zur Truhe.'
-L['the_count_note'] = 'Sammle 99x {currency:1820} in dem Gebiet Endmorast und dann bringen sie zu {npc:173488}.'
+L['the_count_note'] = 'Sammle 99x {currency:1820} in dem Gebiet {location:Endmorast} und bringe sie zu {npc:173488}.'
 
 L['forgotten_anglers_rod'] = 'Vergessene Angelrute'
 
 L['loyal_gorger_note'] = 'Besuch den Endmorast und schließe 7-mal eine tägliche Quest ab, die dir von deinem {npc:173498} angeboten wird, um ihn als Reittier zu erhalten.'
 
-L['sinrunner_note'] = 'Bring Essen und Vorräte für sechs Tage zu {npc:173468}, um ihre Zügel zu erhalten. Sie erscheint jeweils nur für einige Minuten.'
+L['sinrunner_note'] = 'Bringe Essen und Vorräte für sechs Tage zu {npc:173468}, um ihre Zügel zu erhalten. Sie erscheint jeweils nur für einige Minuten.'
 L['sinrunner_note_day1'] = 'Verfüttere an Graumähne 8x {item:182581}, kann im umliegenden Gebiet der Farmen in Westfall gefunden werden.'
 L['sinrunner_note_day2'] = 'Erhalte eine {item:182585} von {npc:173570} in Dunkelhafen und benutze es, um Graumähne zu säubern.'
 L['sinrunner_note_day3'] = 'Rüste Graumähne mit 4x {item:182595} aus, kann auf den umliegenden Straßen von Dunkelhafen gefunden werden.'
@@ -575,17 +575,17 @@ L['inquisitor_note'] = 'Gib 100 {currency:1816} bei {npc:160248} ab, um eine Cha
 L['options_icons_inquisitors'] = '{achievement:14276}'
 L['options_icons_inquisitors_desc'] = 'Zeigt die Inquisitoren für den Erfolg {achievement:14276} an.'
 
-L['bell_of_shame_note'] = 'Alle 30 Minuten wird ein zufälliger Geist neben {npc:176006} erscheinen.\n\nRepariert die {npc:176056} für 30 {currency:1820} und läutet dann die Glocke, um einen Stärkungszauber von dem aktiven Geist zu erhalten.\n\n{npc:176043} gewährt die {spell:346708}, die eine erhöhte Chance gewährt zusätzliche {item:172957} im Gebiet |cFFFFFD00Hallen der Sühne|r zu finden.'
+L['bell_of_shame_note'] = 'Alle 30 Minuten wird ein zufälliger Geist neben {npc:176006} erscheinen.\n\nRepariert die {npc:176056} für 30 {currency:1820} und läutet dann die Glocke, um einen Stärkungszauber von dem aktiven Geist zu erhalten.\n\n{npc:176043} gewährt die {spell:346708}, die eine erhöhte Chance gewährt zusätzliche {item:172957} im Gebiet {location:Hallen der Sühne} zu finden.'
 L['atonement_crypt_label'] = 'Sühnengruft'
-L['atonement_crypt_note'] = 'Öffne eine |cFFFFFD00Sühnengruft|r mit dem {item:172957}.'
+L['atonement_crypt_note'] = 'Öffne eine {object:Sühnengruft} mit dem {item:172957}.'
 L['atonement_crypts_opened'] = 'Sühnengruften geöffnet'
 L['atonement_crypt_key_label'] = '{item:172957}'
-L['atonement_crypt_key_note'] = '{item:172957} kann von den meisten Gegnern in dem Gebiet |cFFFFFD00Hallen der Sühne|r erbeutet werden.\n\n{npc:158902}\n{npc:176109}\n{npc:158894}\n{npc:156911}\n{npc:158910}\n{npc:176121}\n{npc:176114}\n{npc:156909}\n{npc:156256}\n{npc:176124}\n{npc:156260}\n{npc:159027}\n{npc:158897}\n{npc:176116}\n{npc:158908}\n{npc:176122}\n\nDie höchste Droprate hat {npc:158892}.'
+L['atonement_crypt_key_note'] = '{item:172957} kann von den meisten Gegnern in dem Gebiet {location:Hallen der Sühne} erbeutet werden.\n\n{npc:158902}\n{npc:176109}\n{npc:158894}\n{npc:156911}\n{npc:158910}\n{npc:176121}\n{npc:176114}\n{npc:156909}\n{npc:156256}\n{npc:176124}\n{npc:156260}\n{npc:159027}\n{npc:158897}\n{npc:176116}\n{npc:158908}\n{npc:176122}\n\nDie höchste Droprate hat {npc:158892}.'
 L['options_icons_crypt_kicker'] = '{achievement:14273}'
 L['options_icons_crypt_kicker_desc'] = 'Zeigt die Positionen für den Erfolg {achievement:14273} an.'
 
 L['broken_mirror'] = 'Zerbrochener Spiegel'
-L['broken_mirror_note'] = 'Täglich wird eine Gruppe von drei zerbrochenen Spiegeln aktiv sein. Benutze ein {item:181363}, um die Spiegel zu reparieren und die |cFFFFFD00Vergessene Truhe|r auf der anderen Seite des Spiegels zu plündern.'
+L['broken_mirror_note'] = 'Täglich wird eine Gruppe von drei zerbrochenen Spiegeln aktiv sein. Benutze ein {item:181363}, um die Spiegel zu reparieren und die {object:Vergessene Truhe} auf der anderen Seite des Spiegels zu plündern.'
 L['broken_mirror_crypt'] = 'In einer Gruft.'
 L['broken_mirror_elite'] = 'In einem kleinen Raum mit Elite Gegnern.'
 L['broken_mirror_group'] = 'Gruppe'
@@ -597,18 +597,18 @@ L['options_icons_broken_mirror'] = 'Zerbrochene Spiegel'
 L['options_icons_broken_mirror_desc'] = 'Zeigt die Position der Zerbrochenen Spiegel an.'
 
 L['soulshape_chicken_note'] = [[
-1. Sammel {item:187811} in |cffffff00Dunkelhafen|r
-2. Visiere die {npc:181660} an und /huhn
-3. |cFFFF8C00Verlorene Seele gackert Euch hungrig an.|r
-4. Visiere die {npc:181660} an und benutze {item:187811}
+1. Sammle {item:187811} in {location:Dunkelhafen}.
+2. Visiere die {npc:181660} an und {emote:/huhn}.
+3. {emote:Verlorene Seele gackert Euch hungrig an.}
+4. Visiere die {npc:181660} an und benutze {item:187811}.
 ]]
 L['spectral_feed_label'] = '{item:187811}'
 L['spectral_feed_note'] = [[
-{item:187811} wird benutzt um die {npc:181660} in |cffffff00Revendreth|r zu füttern für die {item:187813}.
+{item:187811} wird benutzt, um die {npc:181660} in {location:Revendreth} zu füttern für die {item:187813}.
 
-{item:187811} wird benutzt um {npc:182093} im |cFFFFFF00Ardenwald|r zu füttern für die |cFF00FF00[Gut genährte Katzenseele]|r
+{item:187811} wird benutzt, um {npc:182093} im {location:Ardenwald} zu füttern für die {object:[Gut genährte Katzenseele]}.
 
-|cFFFF8C00{item:187811} bleibt für 10 Minuten und erscheint nach 60 Minuten erneut.|r
+{item:187811} bleibt für 10 Minuten und erscheint nach 60 Minuten erneut.
 ]] -- review
 
 -------------------------------------------------------------------------------
@@ -623,7 +623,7 @@ L['dekaris_note'] = 'Auf einem großen hervorstehenden Felsen.'
 L['deomen_note'] = 'Betritt die Kammer (bei 63.3 43.7) und aktiviere die beiden Schlosssteuerungen, um ihn zu befreien.'
 L['drifting_sorrow_note'] = 'Töte {npc:175246} in der Nähe der schwebenden Kugel, um den Boss zu aktivieren.'
 L['ekphoras_note'] = 'Stelle dich mit drei anderen Spielern in die Ecken der Plattform und wirkt {spell:330650}, um {npc:169827} zu beschwören.'
-L['etherwyrm_note'] = 'Es muss ein Angriff der Nachfae aktiv sein. Töte einen {npc:179030} während du im |cFFFFFF00Riss|r bist, um einen {item:186190} zu erhalten. Benutze den Schlüssel für den Ätherwyrmkäfig (außerhalb des |cFFFFFF00Riss|r) in der Desolate Höhle (wo sich {npc:175821} befindet, wenn der Angriff nicht aktiv ist).'
+L['etherwyrm_note'] = 'Es muss ein Angriff der Nachfae aktiv sein. Töte einen {npc:179030} während du im {location:Riss} bist, um einen {item:186190} zu erhalten. Benutze den Schlüssel für den Ätherwyrmkäfig (außerhalb des {location:Riss}) in der Desolate Höhle (wo sich {npc:175821} befindet, wenn der Angriff nicht aktiv ist).'
 L['fallen_charger_note'] = 'Nach einem Zonenweiten Schrei, wird es einen der beiden Pfade entlang reiten, bis es Korthia erreicht und wieder verschwindet.'
 L['ikras_note'] = 'Fliegt um die Verdammnisfestung herum. Das ist ein guter Platz ihn anzugreifen.'
 L['lilabom_note'] = [[
@@ -657,7 +657,7 @@ L['chaotic_riftstone_note'] = 'Bei Aktivierung reist du mit einem {spell:344157}
 L['venari_note'] = [[
 Verwende {currency:1767} dazu, um dauerhafte Aufwertungen für den Schlund und Torghast freizuschalten.
 
-|cFFFF8C00Accountweite Aufwertungen für Torghast werden bei Twinks als unvollständig angezeigt!|r
+{note:Accountweite Aufwertungen für Torghast werden bei Twinks als unvollständig angezeigt!}
 ]]
 L['venari_upgrade'] = 'eine Aufwertung von {npc:162804}'
 L['torghast'] = 'Torghast'
@@ -668,11 +668,11 @@ L['Cordial'] = 'Herzlich'
 L['Tentative'] = 'Unverbindlich'
 
 L['stygian_cache'] = 'Stygische Truhe'
-L['stygian_cache_note'] = 'Nur einen Spieler kann die Truhe plündern, wenn sie erscheint!'
+L['stygian_cache_note'] = 'Nur ein Spieler kann die Truhe plündern, wenn sie erscheint!'
 
 L['box_of_torments_note'] = 'Öffne die {npc:173837} unter dem Tremaculum.'
 L['tormentors_notes_note'] = 'Plündere die Leiche von {npc:173811}.'
-L['words_of_warden_note'] = 'Untersuche die |cffffff00Papierfetzen|r auf einem Stein hinter einigen Töpfen.'
+L['words_of_warden_note'] = 'Untersuche die {object:Papierfetzen} auf einem Stein hinter einigen Töpfen.'
 
 -- Locations given relative to a map area name
 L['nexus_area_calcis_branch'] = 'Oben auf einem Kristallzweig in Calcis (benutze das Greifhakenziel).'
@@ -720,13 +720,13 @@ L['nexus_npc_thanassos'] = 'Hinter {npc:170731s} Plattform.'
 L['nexus_npc_willbreaker'] = 'In der Ecke hinter einem {npc:168233}.'
 -- Locations given relative to the main path/road nearby
 L['nexus_road_below'] = 'Auf dem Boden unterhalb des Hauptwegs.'
-L['nexus_road_cave'] = 'In einer kleinen Höhle underhalb des Wegs.'
+L['nexus_road_cave'] = 'In einer kleinen Höhle unterhalb des Wegs.'
 L['nexus_road_mawrats'] = 'In einem Rudel Schlundratten etwas abseits des Wegs.'
 L['nexus_road_next'] = 'Neben dem Hauptweg.'
 L['nexus_room_ramparts'] = 'In einem kleinen Raum unter den Mauern.'
 -- Random locations described as best as possible
 L['nexus_misc_crystal_ledge'] = 'An einer Felskante, bei einigen türkisen Kristallen.'
-L['nexus_misc_floating_cage'] = 'Auf einem schwebendem Käfig (benutze die Greifhakenziele).'
+L['nexus_misc_floating_cage'] = 'Auf einem schwebenden Käfig (benutze die Greifhakenziele).'
 L['nexus_misc_below_ramparts'] = 'An der Unterseite der Mauer entlang.'
 L['nexus_misc_grapple_ramparts'] = 'Auf den Mauern (benutze das Greifhakenziel).'
 L['nexus_misc_grapple_rock'] = 'Bei einem Greifhakenziel auf dem Felsen.'
@@ -736,11 +736,11 @@ L['nexus_misc_three_chains'] = 'Auf dem Boden bei drei Ketten.'
 L['stolen_anima_vessel'] = 'Gestohlenes Animagefäß'
 L['hidden_anima_cache'] = 'Versteckter Animabehälter'
 L['options_icons_anima_vessel'] = 'Gestohlene Animagefäße'
-L['options_icons_anima_vessel_desc'] = 'Zeigt die Positionen von Animagefäßen während der Paktangriffe und innerhalb des |cFFFFFF00Riss|r an.'
+L['options_icons_anima_vessel_desc'] = 'Zeigt die Positionen von Animagefäßen während der Paktangriffe und innerhalb des {location:Riss} an.'
 
 L['rift_hidden_cache'] = 'Versteckte Risstruhe'
 L['options_icons_rift_hidden_cache'] = 'Versteckte Risstruhen'
-L['options_icons_rift_hidden_cache_desc'] = 'Zeigt die Positionen von versteckten Risstruhen innerhalb des |cFFFFFF00Riss|r an.'
+L['options_icons_rift_hidden_cache_desc'] = 'Zeigt die Positionen von versteckten Risstruhen innerhalb des {location:Riss} an.'
 
 L['options_icons_bonus_boss'] = 'Bonus Elitegegner'
 L['options_icons_bonus_boss_desc'] = 'Zeigt die Positionen von Bonus Elitegegnern.'
@@ -775,7 +775,7 @@ L['nilg_stone_ring_note2'] = 'Schließe die Quest {quest:63545} ab, dann plünde
 L['nilg_stone_ring_note3'] = 'Erbeutet vom {npc:179601} im mittleren Bereich der Verdammnisfestung.'
 L['nilg_stone_ring_note4'] = 'Kann auf dem Boden in der Verdammnisfestung in der Nähe von {npc:170634} gefunden werden. Dein {npc:180598} kann helfen ihn zu finden.'
 L['nilg_gold_band_note'] = 'Benutze das Greifhakenziel und folge dem Weg nach oben zum Gipfel.'
-L['nilganihmaht_note'] = 'Es müssen fünf Ringe gesammelt und diese zur {npc:179572} im |cFFFFFF00Riss|r gebracht werden.'
+L['nilganihmaht_note'] = 'Es müssen fünf Ringe gesammelt und diese zur {npc:179572} im {location:Riss} gebracht werden.'
 L['calcis'] = 'Calcis'
 L['desmotaeron'] = 'Desmotaeron'
 
@@ -824,10 +824,10 @@ L['kyrian_assault_quantity_note2'] = 'in der Nähe einer Schmiede getanzt'
 -------------------------------------------------------------------------------
 
 L['torghast_the_tower_of_the_damned'] = 'Torghast, Turm der Verdammten'
-L['torghast_reward_sublabel'] = '|cFFFF8C00Belohnungen werden zwischen den meisten Abschitten geteilt.|r'
-L['torghast_boss_note'] = 'Wird von verschiedenen Bossen in |cffffff00Torghast, Turm der Verdammten|r fallen gelassen.'
+L['torghast_reward_sublabel'] = '{note:Belohnungen werden zwischen den meisten Abschitten geteilt.}'
+L['torghast_boss_note'] = 'Wird von verschiedenen Bossen in {location:Torghast, Turm der Verdammten} fallen gelassen.'
 L['torghast_vendor_note'] = 'Wird verkauft von den Händlern {npc:152594} und {npc:170257} für 300 {currency:1728} oder 1.000 {currency:1728}.'
-L['torghast_reward_note'] = 'Erhalten in ganz |cffffff00Torghast, Turm der Verdammten|r.'
+L['torghast_reward_note'] = 'Erhalten in ganz {location:Torghast, Turm der Verdammten}.'
 L['torghast_soulshape_note'] = 'Ebene 12+'
 L['colossal_umbrahide_mawrat_note'] = 'Ebene 13+'
 
@@ -850,14 +850,14 @@ L['torghast_layer8'] = 'Schließe Ebene 8 ab'
 
 L['phantasma_note'] = 'Phantasma gesammelt'
 L['bloating_fodder_note'] = 'Schlundratten explodieren lassen'
-L['flawless_master_note'] = 'Schließe |cffffff00[{achievement:15322}]|r ab'
-L['tower_ranger_note'] = 'Schließe |cffffff00[{achievement:15324}]|r ab'
+L['flawless_master_note'] = 'Schließe den Erfolg {achievement:15322} ab.'
+L['tower_ranger_note'] = 'Schließe den Erfolg {achievement:15324} ab.'
 
-L['the_jailers_gauntlet_note'] = '|cFFFF8C00Die Bosse zählen nicht für den Erfolg|r {achievement:14498}.'
+L['the_jailers_gauntlet_note'] = '{note:Die Bosse zählen nicht für den Erfolg} {achievement:14498}.'
 
 L['the_box_of_many_things'] = 'Kiste der Zahllosen Dinge'
 L['the_box_of_many_things_note'] = 'Schalte mit {currency:1904} zusätzliche Kräfte frei.'
-L['many_many_things_section'] = 'Schließe |cffffff00[{achievement:15079}]|r ab'
+L['many_many_things_section'] = 'Schließe den Erfolg {achievement:15079} ab.'
 
 L['the_runecarver'] = '{npc:164937}'
 L['clearing_the_fog_suffix'] = 'Erinnerungen zurückgebracht'
@@ -866,72 +866,72 @@ L['clearing_the_fog_suffix'] = 'Erinnerungen zurückgebracht'
 -------------------------------- ZERETH MORTIS --------------------------------
 -------------------------------------------------------------------------------
 
-local HIDDEN_ALCOVE = [[
-Um die |cFFFFFD00%s Alcove|r zu betreten:
-
-1. Schließe Kapitel 6 der Zereth Mortis Kampagne ab.
-2. Finde das |cFFFFFD00%s Alcove Arrangement|r %s.
-3. Töte im Gebiet |cFFFFFD00Hallende Gipfel|r, die Gegner, die {spell:362651} haben oder stell dich in die weißen Flächen, um 60 {npc:183569} zu bekommen.
-4. Benutze die {npc:184329} im Inneren der Trächtigen Rast, um zur Inneren Kammer zu gelangen. (Benötigt 30 {npc:183569})
-5. Benutze {npc:184485}, um zur %s Alcove zu gelangen. (Benötigt 30 {npc:183569})
-]]
-
-L['camber_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Camber', 'Camber', 'hinter dem Gebäude an der |cFFFFFD00Ultimus Locus|r', 'Camber')
-L['dormant_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Dormant', 'Dormant', 'im Gebiet |cFFFFFD00Hallende Gipfel|r', 'Dormant')
-L['fulgor_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Fulgor', 'Fulgor', 'im Gebiet |cFFFFFD00Hallende Gipfel|r', 'Fulgor')
-L['rondure_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Rondure', 'Rondure', 'auf der |cFFFFFD00Tertius Locus|r Plattform', 'Rondure')
-L['repertory_alcove_note'] = string.format(HIDDEN_ALCOVE, 'Repertory', 'Repertory', 'im Inneren der |cFFFFFD00Terrestrisches Versteck|r Höhle', 'Repertory')
+local HIDDEN_ALCOVE = function(alcove, location)
+    local text = string.format("Um die {location:%s Alkoven} zu betreten:\n", alcove)
+    text = text .. "1. Schließe Kapitel 6 der Zereth Mortis Kampagne ab."
+    text = text .. "\n"
+    text = text .. string.format("2. Finde {location:Anordnung des %s Alkovens} %s.\n", alcove, location)
+    text = text .. "3. Töte im Gebiet {location:Hallende Gipfel}, die Gegner, die {spell:362651} haben oder stell dich in die weißen Flächen, um 60 {npc:183569} zu bekommen.\n"
+    text = text .. "4. Benutze die {npc:184329} im Inneren der Trächtigen Rast, um zur Inneren Kammer zu gelangen. (Benötigt 30 {npc:183569})\n"
+    text = text .. string.format("5. Benutze {npc:184485}, um zur %s Alkoven zu gelangen. (Benötigt 30 {npc:183569})", alcove)
+    return text
+end
+L['camber_alcove_note'] = HIDDEN_ALCOVE('Gewölbten', 'hinter dem Gebäude am {location:Ultimus Locus}')
+L['dormant_alcove_note'] = HIDDEN_ALCOVE('Inaktiven', 'im Gebiet {location:Hallende Gipfel}')
+L['fulgor_alcove_note'] = HIDDEN_ALCOVE('Prächtigen', 'im Gebiet {location:Hallende Gipfel}')
+L['rondure_alcove_note'] = HIDDEN_ALCOVE('Runden', 'auf der {location:Tertius Locus} Plattform')
+L['repertory_alcove_note'] = HIDDEN_ALCOVE('Bereichernden', 'im Inneren der {location:Terrestrisches Versteck} Höhle')
 
 L['corrupted_architect_note'] = 'Greife {npc:183958} und {npc:183961} an, um den seltenen Gegner zu aktivieren.'
 L['dune_dominance_note'] = 'Alle drei seltenen Elite für den {achievement:15392} Erfolg erscheinen an dieser Position.'
 L['feasting_note'] = 'Umrundet manchmal das Gebiet, bevor er zu dieser Stelle zurückkehrt.'
-L['furidian_note'] = 'Aktiviere drei |cFFFFFD00Ermächtigter Schlüssel|r in dem Bereich, und entriegel dann den |cFFFFFD00Verdächtig wütender Tresor|r.'
-L['garudeon_note'] = 'Sammel {npc:183562} aus der Umgebung und verwende {spell:362655}, um {npc:183554} zu füttern. Sobald alle drei gefüttert sind, wird {npc:180924} aktiv.'
+L['furidian_note'] = 'Aktiviere drei {object:Ermächtigter Schlüssel} in dem Bereich, und entriegel dann den {object:Verdächtig wütender Tresor}.'
+L['garudeon_note'] = 'Sammle {npc:183562} aus der Umgebung und verwende {spell:362655}, um {npc:183554} zu füttern. Sobald alle drei gefüttert sind, wird {npc:180924} aktiv.'
 L['gluttonous_overgrowth_note'] = 'Zerbrich alle in der Nähe befindlichen {npc:184048n}, um den den selten Gegner zu aktivieren.'
 L['helmix_note'] = [[
 Töte {npc:179005} in dem Gebiet, bis das untere Emote erscheint.
 
-|cFFFF8C00Der Boden erzittert... Etwas gräbt sich unter der Oberfläche durch die Erde!|r
+{emote:Der Boden erzittert... Etwas gräbt sich unter der Oberfläche durch die Erde!}
 ]]
 L['hirukon_note'] = [[
 Um {npc:180978} an die Oberfläche zu locken, muss ein {item:187923} hergestellt werden.
 
 1. Fische einen {item:187662} aus den nahen Gewässern.
 
-2. Fische einen {item:187915} aus dem |cFFFFFD00Stinkender Blobfischschwarm|r im Der Echsenkessel in den Zangarmarschen.
+2. Fische einen {item:187915} aus dem {object:Stinkender Blobfischschwarm} im Der Echsenkessel in den Zangarmarschen.
 
-3. Fische einen {item:187922} aus |cFFFFFD00Ein Schwarm Flossenfische|r in der Nähe des Flugplatzes Kelyas Grab in Nazjatar (72.8 24.3).
+3. Fische einen {item:187922} aus {object:Ein Schwarm Flossenfische} in der Nähe des Flugplatzes Kelyas Grab in Nazjatar (72.8 24.3).
 
 4. Plündere ein (sehr gut verstecktes) {item:187916} auf einem Balkon in der zweiten Ebene der Terrasse von Nar'shola in der Schimmernde Weiten in Vashj'ir (34.7, 75.0).
 
 5. Finde {npc:182194} am Teich südlich des Sitzes des Primus in Maldraxxus (57.6 92.0). Bitte Sie, den fertigen {item:187923} herzustellen.
 
-6. Benutze den {item:187923}, der es ermöglicht, den |cFFFFFD00Aurelidenschwarm|r in der Nähe von {npc:180978} für 15min zu sehen. Fische darin, um {npc:180978} an die Oberfläche zu locken.
+6. Benutze den {item:187923}, der es ermöglicht, den {object:Aurelidenschwarm} in der Nähe von {npc:180978} für 15min zu sehen. Fische darin, um {npc:180978} an die Oberfläche zu locken.
 ]]
-L['orixal_note'] = 'Teilt sich einen spawn mit dem {npc:185487}, der das Gebiet patrouilliert.'
+L['orixal_note'] = 'Teilt sich einen Spawn mit dem {npc:185487}, der das Gebiet patrouilliert.'
 L['protector_first_ones_note'] = 'Benötigt zwei Spieler. Bringt die passenden Siegel (in der Umgebung zu finden) zu jeder Konsole, um die Barriere zu öffnen.'
 L['the_engulfer_note'] = 'Verteidige {npc:183505} bis {npc:183516} aus dem Riss springt.'
 L['zatojin_note'] = 'Greife die in der Nähe befindlichen {npc:183721} an und lass dir 20 Stapel von {spell:362976} verpassen, bis du {spell:362983} bist. Du musst über den {npc:183774} Leichen stehen, wenn du gelähmt bist, damit {npc:183764} dich bemerkt.'
 
 L['architects_reserve_note'] = 'Schließe die {quest:64829} Questreihe von {npc:180630} in der Huld des Pilgers ab, um den Schatz freizuschalten.'
-L['bushel_of_produce_note'] = 'Töte einen {npc:182368} im Norden während er den Stärkungszauber {spell:360945} hat, um diesen selbst zu erhalten. Töte weitere {npc:182368s} (diese brauchen den Stärkungszauber nicht), bis du 5 Stapel hast, dann brich die Tür zum Schatz auf.'
-L['crushed_crate_note'] = 'Plündere das {item:189767}, das auf der umgestürzten Säule über dem Schatz liegt. Gib dieses {npc:185151} im Austausch für den {item:189768} der die heruntergefallenen Felsen zerbrechen kann.'
-L['domination_cache_note'] = 'Der {item:189704} hat eine geringe Chance von {npc:181403} und {npc:182426} in der Gegend fallen gelassen zu werden.'
+L['bushel_of_produce_note'] = 'Töte einen {npc:182368} im Norden, während er den Stärkungszauber {spell:360945} hat, um diesen selbst zu erhalten. Töte weitere {npc:182368s} (diese brauchen den Stärkungszauber nicht), bis du 5 Stapel hast, dann brich die Tür zum Schatz auf.'
+L['crushed_crate_note'] = 'Plündere das {item:189767}, das auf der umgestürzten Säule über dem Schatz liegt. Gib dieses {npc:185151} im Austausch für den {item:189768}, der die heruntergefallenen Felsen zerbrechen kann.'
+L['domination_cache_note'] = 'Der {item:189704} hat eine geringe Chance, von {npc:181403} und {npc:182426} in der Gegend fallen gelassen zu werden.'
 L['drowned_broker_supplies_note'] = 'Sage {npc:181059}, er soll die Kontrolle über einen nahe gelegenen {npc:185282} übernehmen.'
 L['forgotten_protovault_note'] = 'Nur während der {wq:Verfroscht} Weltquest verfügbar.'
-L['grateful_boon_note'] = 'Ohne Fliegen schwer zu erreichen; Benutze das {spell:300728} oder ein {spell:111771}, um den Berg zu besteigen. Besänftige alle 12 Kreaturen in dem Gebiet und {npc:185293} lässt den Schatz erscheinen.'
+L['grateful_boon_note'] = 'Ohne Fliegen schwer zu erreichen; Benutze das {spell:300728} oder ein {spell:111771}, um den Berg zu besteigen. Besänftige alle 12 Kreaturen in dem Gebiet, und {npc:185293} lässt den Schatz erscheinen.'
 L['library_vault_note'] = 'Klicke die Tafeln in der Grotte der Lexik an, bis du den richtigen {spell:362062} Stärkungszauber findest, um damit das Bibliotheksarchiv zu öffnen.'
-L['mistaken_ovoid_note'] = 'In der Höhle der Dimensionenfälle. Sammle 5x {item:190239} und bring diese zu {npc:185280}.'
+L['mistaken_ovoid_note'] = 'In der {location:Höhle der Dimensionenfälle}. Sammle 5x {item:190239} und bringe diese zu {npc:185280}.'
 L['ripened_protopear_note'] = 'Beginne die {quest:64641} Questreihe, um Zugang zur Blühenden Gießerei zu erhalten. Sammle dort drinnen nacheinander 5 mal eine {spell:367180} (grüne Wolken) und bestäube damit die {npc:185416}.'
 L['sphere_treasure_note'] = 'Springe vorsichtig die Kugeln hoch, bis du den Schatz erreichst.'
-L['submerged_chest_note'] = 'Nimm die |cFFFFFD00Gefährliche Kugel der Macht|r im Süden auf und interagiere dann mit der |cFFFFFD00Vergessene Pumpe|r nahe des Schatzes.'
+L['submerged_chest_note'] = 'Nimm die {object:Gefährliche Kugel der Macht} im Süden auf und interagiere dann mit der {object:Vergessene Pumpe} nahe des Schatzes.'
 L['symphonic_vault_note'] = 'Untersuche {npc:183998}, um eine Folge von vier Tönen zu hören. Jede {npc:183950} in dem Raum spielt einen einzigen Ton. Interagiere mit ihnen in der richtigen Reihenfolge, um den Schatz freizuschalten.'
-L['syntactic_vault_note'] = 'Sammle 6 Stapel der {spell:367499} durch Interagieren mit |cFFFFFD00Runensilbe|r im Gebiet Mausoleum der Ersten, um den Schatz freizuschalten.'
+L['syntactic_vault_note'] = 'Sammle 6 Stapel der {spell:367499} durch Interagieren mit {object:Runensilbe} im Gebiet Mausoleum der Ersten, um den Schatz freizuschalten.'
 L['template_archive_note'] = 'Stoße die {npc:183339} im Raum in die {npc:183337}, die den Weg zum Schatz versperrt.'
 L['undulating_foliage_note'] = [[
 Drücke die vier {npc:185390n}, um den Teleporter im mittleren Raum der Katalysatorstationen zu aktivieren.
 
-• Draußen hinter dem |cFFFFFD00Schloss der Katalysatorstationen|r
+• Draußen hinter dem {location:Schloss der Katalysatorstationen}
 • Im südwestlichen Raum der Stationen
 • Im südlichen Raum mit {npc:181652}
 • Im südöstlichen Raum der Stationen
@@ -962,7 +962,7 @@ L['sandworn_chest'] = 'Sandgeschliffene Truhe'
 L['sandworn_chest_note'] = 'Plündere 5x {item:190198} von Gegnern in dem Gebiet, um einen {item:190197} zu bauen.'
 L['sand_piles'] = 'Sandhaufen'
 L['sand_piles_note'] = [[
-Alle Sandhaufen befinden sich in der versteckten |cFFFFFD00Dormant Alcove|r Kammer. Für jeden Haufen wird ein {item:189863} benötigt, die in anderen Schätzen in dieser Zone enthalten sind:
+Alle Sandhaufen befinden sich in der versteckten {location:Inaktiven Alkoven} Kammer. Für jeden Haufen wird ein {item:189863} benötigt, die in anderen Schätzen in dieser Zone enthalten sind:
 
 • Herrschaftstruhe
 • Gefallenes Gewölbe
@@ -973,7 +973,7 @@ Alle Sandhaufen befinden sich in der versteckten |cFFFFFD00Dormant Alcove|r Kamm
 • Wogendes Blattwerk
 ]]
 L['torn_ethereal_drape'] = 'Zerfleddertes Astraltuch'
-L['torn_ethereal_drape_note'] = 'Zu finden im Inneren der |cFFFFFD00Fulgor Alcove|r. Aktiviere die |cFFFFFD00Automakonsolen|r, dann reiten die {npc:Progenitorkugeln}, um die Decke zu erreichen.'
+L['torn_ethereal_drape_note'] = 'Zu finden im Inneren der {location:Prächtigen Alkoven}. Aktiviere die {object:Automakonsolen}, dann reiten die {npc:Progenitorkugeln}, um die Decke zu erreichen.'
 
 L['cache_avian_nest'] = 'Ornidennest'
 L['cache_cypher_bound'] = 'Chiffrengebundene Truhe'
@@ -985,7 +985,7 @@ L['cache_shrouded_cypher'] = 'Verhüllte Chiffrentruhe'
 L['cache_shrouded_cypher_note'] = [[
 Diese Truhen können nur gesehen werden, wenn du den {spell:361917} Stärkungszauber hast und eine geeignete Chiffrenausrüstung trägst:
 
-|cFF00FF00Verbessert Pocopocs Wahrnehmungsfähigkeiten, sodass er zusätzliche versteckte Truhen finden kann.|r
+{note:Verbessert Pocopocs Wahrnehmungsfähigkeiten, sodass er zusätzliche versteckte Truhen finden kann.}
 ]]
 
 L['cache_cantaric'] = 'Kantarische Truhe'
@@ -994,15 +994,15 @@ L['cache_glissandian'] = 'Glissandische Truhe'
 L['cache_mezzonic'] = 'Mezzonische Truhe'
 L['cache_toccatian'] = 'Toccatianische Truhe'
 
-L['schematic_treasure_note'] = '|cFFFF8C00Dieser Schatz wird den Protoform Bauplan nicht enthalten, wenn der Synthesizer noch nicht freigeschaltet wurde. Wenn du den Schatz bereits geplündert hast, findest du den Bauplan in der Nähe auf dem Boden.|r'
-L['schematic_treasure_mount_note'] = '|cFFFF8C00Dieser Bauplan befindet sich in einem nahegelegenen, einmal zu erhaltendem Schatz. Wenn der Schatz geöffnet wird, bevor der Reittier-Synthesizer freigeschaltet wurde, kann der Bauplan hier gefunden werden.|r'
-L['schematic_treasure_pet_note'] = '|cFFFF8C00Dieser Bauplan befindet sich in einem nahegelegenen, einmal zu erhaltendem Schatz. Wenn der Schatz geöffnet wird, bevor der Haustier-Synthesizer freigeschaltet wurde, kann der Bauplan hier gefunden werden.|r'
+L['schematic_treasure_note'] = '{note:Dieser Schatz wird den Protoform Bauplan nicht enthalten, wenn der Synthesizer noch nicht freigeschaltet wurde. Wenn du den Schatz bereits geplündert hast, findest du den Bauplan in der Nähe auf dem Boden.}'
+L['schematic_treasure_mount_note'] = '{note:Dieser Bauplan befindet sich in einem nahegelegenen, einmal zu erhaltendem Schatz. Wenn der Schatz geöffnet wird, bevor der Reittier-Synthesizer freigeschaltet wurde, kann der Bauplan hier gefunden werden.}'
+L['schematic_treasure_pet_note'] = '{note:Dieser Bauplan befindet sich in einem nahegelegenen, einmal zu erhaltendem Schatz. Wenn der Schatz geöffnet wird, bevor der Haustier-Synthesizer freigeschaltet wurde, kann der Bauplan hier gefunden werden.}'
 L['schematic_bronze_helicid_note'] = 'Hat eine Chance in der {item:190610} von der wöchentlichen Quest {quest:65324} enthalten zu sein.'
 L['schematic_ambystan_darter_note'] = 'Versteckt im Wasser neben dem {npc:185312}.'
 L['schematic_bronzewing_vespoid_note'] = 'Zu finden in der Trächtigen Rast.'
 L['schematic_buzz_note'] = 'Hat eine Chance in einem {npc:185265} enthalten zu sein.'
-L['schematic_curious_crystalsniffer_note'] = 'Für kurze Zeit verfügbar, nachdem {npc:184915} innerhalb des Schlachtzuges |cFFFFFD00Mausoleum der Ersten|r besiegt wurde.'
-L['schematic_darkened_vombata_note'] = 'Befindet sich in einem schwebendem Käfig.'
+L['schematic_curious_crystalsniffer_note'] = 'Für kurze Zeit verfügbar, nachdem {npc:184915} innerhalb des Schlachtzuges {location:Mausoleum der Ersten} besiegt wurde.'
+L['schematic_darkened_vombata_note'] = 'Befindet sich in einem schwebenden Käfig.'
 L['schematic_deathrunner_note'] = 'Gibt es zur Belohnung als Teil der {spell:366367} Questreihe.'
 L['schematic_desertwing_hunter_note'] = 'Befindet sich oben auf der Säule.'
 L['schematic_fierce_scarabid_note'] = 'Versteckt unter der Plattform, auf der der {npc:181870} steht.'
@@ -1010,21 +1010,21 @@ L['schematic_forged_spiteflyer_note'] = 'Ragt aus einem Vespiden Bienenstock her
 L['schematic_genesis_crawler_note'] = 'Befindet sich über dem Eingang zur Genesisalkoven.'
 L['schematic_goldplate_bufonid_note'] = 'Geringe Chance von {npc:178803} fallen gelassen zu werden.'
 L['schematic_heartbond_lupine_note'] = 'Geringe Chance von {npc:179939} fallen gelassen zu werden.'
-L['schematic_ineffable_skitterer_note'] = 'Bring dich um! Nein, wirklich ... du kannst den {npc:185092} in der |cFFFFFD00Höhle des Verbannten|r nur sehen, wenn du ein Geist bist.'
+L['schematic_ineffable_skitterer_note'] = 'Bring dich um! Nein, wirklich ... du kannst den {npc:185092} in der {location:Höhle des Verbannten} nur sehen, wenn du ein Geist bist.'
 L['schematic_leaping_leporid_note'] = 'Zu finden auf einem schwebendem Baum.'
-L['schematic_mawdapted_raptora_note'] = 'Geringe Chance, von {npc:181412} im Gebiet |cFFFFFD00Endlose Sande|r fallen gelassen zu werden.'
-L['schematic_microlicid_note'] = 'Auf dem untersten Ast des schwebendem Baumes, unter dem Blätterwerk.'
-L['schematic_omnipotential_core_note'] = 'Zu finden in der |cFFFFFD00Rondure Alcove|r. Der Schaltplan ist hinter der oberen Kante des Torbogens an der Südwestseite des Raums versteckt.'
+L['schematic_mawdapted_raptora_note'] = 'Geringe Chance, von {npc:181412} im Gebiet {location:Endlose Sande} fallen gelassen zu werden.'
+L['schematic_microlicid_note'] = 'Auf dem untersten Ast des schwebenden Baumes, unter dem Blätterwerk.'
+L['schematic_omnipotential_core_note'] = 'Zu finden in der {location:Runden Alkoven}. Der Schaltplan ist hinter der oberen Kante des Torbogens an der Südwestseite des Raums versteckt.'
 L['schematic_prototickles_note'] = 'An einer schwebenden Kette im Inneren der Ranken über dem seltenen Gegner {npc:180978}.'
-L['schematic_prototype_fleetpod_note'] = 'Zu finden in der |cFFFFFD00Camber Alcove|r. Interagiere mit dem {npc:184900}, um ein Minispiel zu starten. Führe die Schnecke durch 5 Ringe, ohne {npc:185455s} zu berühren, um den Schaltplan zu gewinnen.'
+L['schematic_prototype_fleetpod_note'] = 'Zu finden in der {location:Gewölbten Alkoven}. Interagiere mit dem {npc:184900}, um ein Minispiel zu starten. Führe die Schnecke durch 5 Ringe, ohne {npc:185455s} zu berühren, um den Schaltplan zu gewinnen.'
 L['schematic_raptora_swooper_note'] = 'Zu finden in der Kammer der Gestaltung'
 L['schematic_resonant_echo_note'] = 'Hat eine Chance in {item:189172} enthalten zu sein.'
 L['schematic_russet_bufonid_note'] = 'Hat eine Chance in der {item:187780} (Paragontruhe) enthalten zu sein.'
 L['schematic_scarlet_helicid_note'] = 'Zu finden auf der Spitze des Bogens.'
-L['schematic_serenade_note'] = 'An einer Kette unter einer schwebenden Plattform im Gebiet |cFFFFFD00Unvergängliche Rast|r des Schlachtzuges.'
+L['schematic_serenade_note'] = 'An einer Kette unter einer schwebenden Plattform im Gebiet {location:Unvergängliche Rast} des Schlachtzuges.'
 L['schematic_shelly_note'] = 'Befindet sich auf der Rückseite eines Regals in der Grotte der Lexik. Erfordert eine Teleport Fähigkeit, um das Regal zu erklimmen.'
-L['schematic_stabilized_geomental_note'] = 'Hat eine Chance von {npc:182169} im Schlachtzug |cFFFFFD00Mausoleum der Ersten|r fallen gelassen zu werden.'
-L['schematic_tarachnid_creeper_note'] = 'In einem kleinen Gebäude im Gebiet |cFFFFFD00Endlose Sande|r. Erfordert Kapitel 5 Kampagnenfortschritt, um die Felsbrocken zu beseitigen.'
+L['schematic_stabilized_geomental_note'] = 'Hat eine Chance von {npc:182169} im Schlachtzug {location:Mausoleum der Ersten} fallen gelassen zu werden.'
+L['schematic_tarachnid_creeper_note'] = 'In einem kleinen Gebäude im Gebiet {location:Endlose Sande}. Erfordert Kapitel 5 Kampagnenfortschritt, um die Felsbrocken zu beseitigen.'
 L['schematic_terror_jelly_note'] = 'Oben auf dem quadratischen Pylon neben der Rampe.'
 L['schematic_tunneling_vombata_note'] = 'Neben einigen Trümmern in einem versperrten Tunnel im Lokrische Esper Komplex.'
 L['schematic_vespoid_flutterer_note'] = 'Ragt aus einem Sandhaufen auf der Primus-Locus-Ebene der Hallenden Gipfel heraus.'
@@ -1033,9 +1033,9 @@ L['schematic_violent_poultrid_note'] = 'Hat eine Chance von der täglichen Quest
 L['concordance_excitable'] = 'Erregbare Konkordanz'
 L['concordance_mercurial'] = 'Wechselhafte Konkordanz'
 L['concordance_tranquil'] = 'Stille Konkordanz'
-L['concordance_note'] = 'Lese jede Konkordanz, um Einträge in der |cFFFFFD00Wissenskonsole|r freizuschalten, die sich in der |cFFFFFD00Höhle des Verbannten|r befindet.'
+L['concordance_note'] = 'Lese jede Konkordanz, um Einträge in der {object:Wissenskonsole} freizuschalten, die sich in der {location:Höhle des Verbannten} befindet.'
 
-L['echoed_jiro_note'] = 'Gebe {npc:181059}energie aus, um temporäre Verstärkungszauber zu erhalten. Benötigt die |cFFFFFD00Createsisch|r Forschung an der {npc:181397}.'
+L['echoed_jiro_note'] = 'Gebe {npc:181059} Energie aus, um temporäre Verstärkungszauber zu erhalten. Benötigt die {object:Createsisch} Forschung an der {npc:181397}.'
 
 L['bygone_elemental_note'] = 'Ein {npc:181221} kann anstelle eines {npc:179007} in dem Gebiet erscheinen.'
 L['dominated_irregular_note'] = 'Ein {npc:184819} kann anstelle eines {npc:183184} in dem Gebiet erscheinen.'
@@ -1044,23 +1044,23 @@ L['misaligned_enforcer_note'] = 'Erscheint hier und patrouilliert dann das Gebie
 L['overcharged_vespoid_note'] = 'Kann als Teil eines Schwarmes in der Gegend erscheinen.'
 L['runethief_xylora_note'] = 'Erscheint getarnt im Gebiet von Huld des Pilgers.'
 
-local proto_area = 'Kann in Schmieden rund um das Gebiet |cFFFFFD00%s|r gefunden werden.'
+local proto_area = 'Kann in Schmieden rund um das Gebiet {location:%s} gefunden werden.'
 L['proto_material_zone_chance'] = 'Kann in bestimmten Schmieden dieser Zone gefunden werden.'
-L['anima_charged_yolk_note'] = 'Sammel 15x {item:187728} aus einer beliebigen Schmiede und kombinieren diese zu einer {item:187787}, die eine Chance hat, ein {item:187890} zu enthalten.'
+L['anima_charged_yolk_note'] = 'Sammle 15x {item:187728} aus einer beliebigen Schmiede und kombiniere diese zu einer {item:187787}, die eine Chance hat, ein {item:187890} zu enthalten.'
 L['energized_firmament_note'] = string.format(proto_area, 'Hallende Gipfel')
 L['honeycombed_lattice_note'] = string.format(proto_area, 'Surrende Anhöhe')
 L['incorporeal_sand_note'] = 'Kann in Schmieden in den Wüstengebieten dieser Zone gefunden werden.'
 L['pollinated_extraction_note'] = string.format(proto_area, 'Ungezähmtes Grün')
-L['serene_pigment_note'] = 'In einer Schmiede über dem Eingang zur |cFFFFFD00Höhle des Verbannten|r. Benötigt möglicherweise mehrere Versuche.'
+L['serene_pigment_note'] = 'In einer Schmiede über dem Eingang zur {location:Höhle des Verbannten}. Benötigt möglicherweise mehrere Versuche.'
 L['volatile_precursor_note'] = 'Zu finden in kleineren Schmieden. Benötigt möglicherweise mehrere Versuche.'
-L['wayward_essence_note'] = 'Ohne Fliegen schwer zu erreichen. In einer schwebenden Schmiede hinter der |cFFFFFD00Höhle des Verbannten|r. Stelle dich in die Vertiefung, um die Schmiede anzuzapfen.'
+L['wayward_essence_note'] = 'Ohne Fliegen schwer zu erreichen. In einer schwebenden Schmiede hinter der {location:Höhle des Verbannten}. Stelle dich in die Vertiefung, um die Schmiede anzuzapfen.'
 
 L['patient_bufonid_note'] = 'Schreite in der Geschichte von Zereth Mortis voran, bis {npc:180950} die Quest {quest:65727} anbietet. Erfülle diese täglich, um {npc:185798} aus dem Teich zu locken.'
-L['patient_bufonid_note_day1'] = 'Sammel 15x {item:190852} von Vespiden aus dieser Zone.'
+L['patient_bufonid_note_day1'] = 'Sammle 15x {item:190852} von Vespiden aus dieser Zone.'
 L['patient_bufonid_note_day2'] = 'Kaufe 30x {item:172053} aus dem Auktionshaus.'
 L['patient_bufonid_note_day3'] = 'Kaufe 200x {item:173202} aus dem Auktionshaus.'
 L['patient_bufonid_note_day4'] = 'Kaufe 10x {item:173037} aus dem Auktionshaus.'
-L['patient_bufonid_note_day5'] = 'Sammel 5x {item:187704} von Gegner aus dieser Zone.'
+L['patient_bufonid_note_day5'] = 'Sammle 5x {item:187704} von Gegnern aus dieser Zone.'
 L['patient_bufonid_note_day6'] = 'Kaufe 5x {item:190880} von {npc:185748} (58.5 49.8) in der Nähe von Huld des Pilgers.'
 L['patient_bufonid_note_day7'] = 'Kaufe 1x {item:187171} von dem {npc:180114} aus dem Tazavesh Dungeon.'
 
@@ -1068,16 +1068,16 @@ L['lost_comb'] = 'Verlorene Wabe'
 L['soulshape_penguin_note'] = 'Befindet sich auf der schwebenden Schmiede.'
 
 L['coreless_automa'] = 'Wildtierautomas'
-L['coreless_automa_note'] = 'Ein Gegenstand mit {spell:364480} auszurüsten verleiht |cFFFFFD00Pocopoc|r die Fähigkeit Kreaturen zu übernehmen ohne Energie zu verbrauchen und ermöglicht es diesen Erfolg schneller zu erhalten.'
-L['coreless_automa_warning'] = '|cFFFF8C00Warte bis der Automat tatsächlich anfängt dir zu folgen, bevor du Pocopoc wegschickst, um einen Fehler zu vermeiden, der dich dazu zwingt, neu einzuloggen.|r'
+L['coreless_automa_note'] = 'Ein Gegenstand mit {spell:364480} auszurüsten verleiht {npc:185477} die Fähigkeit, Kreaturen zu übernehmen, ohne Energie zu verbrauchen und ermöglicht es, diesen Erfolg schneller zu erhalten.'
+L['coreless_automa_warning'] = '{note:Warte, bis der Automat tatsächlich anfängt dir zu folgen, bevor du Pocopoc wegschickst, um einen Fehler zu vermeiden, der dich dazu zwingt, dich neu einzuloggen.}'
 
 L['olea_manu'] = 'Verkauft Sammlerstücke und Rezepte im Tausch gegen {currency:1979}.'
 
-L['venaris_fate_sublabel'] = 'Positioniert beim |cFFFFFF00Schöpfungskatalysator|r'
+L['venaris_fate_sublabel'] = 'Positioniert beim {location:Schöpfungskatalysator}'
 L['venaris_fate_note'] = [[
-1. Sprich mit {npc:162804s} Echo in |cFFFFFF00Ve'naris Zuflucht|r im |cFFFFFF00Schlund|r.
-2. Wenn sie nicht als Echo da ist, wir zusätzlicher 9.2 Kampagnenfortschitt benötigt.
-3. Interagiere mit der Leiche von {npc:162804} vor dem |cFFFFFF00Schöpfungskatalysator|r in |cFFFFFF00Zereth Mortis|r.
+1. Sprich mit {npc:162804s} Echo in {location:Ve'naris Zuflucht} im {location:Schlund}.
+2. Wenn sie nicht als Echo da ist, wird zusätzlicher 9.2 Kampagnenfortschritt benötigt.
+3. Interagiere mit der Leiche von {npc:162804} vor dem {location:Schöpfungskatalysator} in {location:Zereth Mortis}.
 4. 5 Tage später erhältst du per Post von {npc:162804} einen Brief mit dem {item:192485}.
 ]]
 
@@ -1086,7 +1086,7 @@ L['options_icons_code_creature_desc'] = 'Zeigt die Positionen der Kreaturen für
 L['options_icons_concordances'] = 'Wissens Konkordanzen'
 L['options_icons_concordances_desc'] = 'Zeigt die Positionen von Konkordanzen an.'
 L['options_icons_echoed_jiros'] = 'Echo von Jiro'
-L['options_icons_echoed_jiros_desc'] = 'Zeigt die Positionen für die Gaben-Stärkungszauber der |cFFFFFD00Echo von Jiro|r an.'
+L['options_icons_echoed_jiros_desc'] = 'Zeigt die Positionen für die Gaben-Stärkungszauber der {object:Echo von Jiro} an.'
 L['options_icons_exile_tales'] = '{achievement:15509}'
 L['options_icons_exile_tales_desc'] = 'Zeigt die Positionen der Geschichten für den Erfolg {achievement:15509} an.'
 L['options_icons_proto_materials'] = '{achievement:15229}'
@@ -1104,5 +1104,10 @@ L['options_icons_mawsworn_supply_cache_desc'] = 'Zeigt die möglichen Positionen
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Zeigt die Positionen der Wildtierautomas (kernlose Automas) für den Erfolg {achievement:15542} an.'
 
-L['ponderers_portal_label'] = nil
-L['ponderers_portal_note'] = nil
+L['ponderers_portal_label'] = 'Portal des Grüblers'
+L['ponderers_portal_note'] = [[Der {item:190196} kann mit Hilfe der {item:190177} gefunden werden, welche aus der {item:187780}, der Paragon cache für Ruf bei {faction:Die Erleuchteten}, geplündert werden kann.
+
+{note:Das Portal kann von jedem Spieler geplündert werden, sobald das gebietsweite Emote erscheint, nicht nur von denen, die das Portal geöffnet haben.}
+
+Um das Portal zu öffnen, müssen sechs Spieler sich auf die sechseckigen Säulen rund um das Wasserbecken unter der {location:Schmiede der Nachleben} im Zentrum von {location:Zereth Mortis} setzen und den {item:190177} benutzen. Es muss jeweils ein Spieler auf jeder Säule sitzen.
+]] -- review

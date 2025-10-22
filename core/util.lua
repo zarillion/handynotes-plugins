@@ -181,6 +181,10 @@ local function RenderLinks(str, nameOnly)
                 local icon = ns.GetIconLink('world_quest', 16, 0, -1)
                 return icon .. ns.color.Yellow('[' .. text .. ']')
             end
+            if type == 'quest' then
+                local icon = ns.GetIconLink('quest_ay', 16, 0, -1)
+                return icon .. ns.color.Yellow('[' .. text .. ']')
+            end
             if type == 'dot' then
                 local r, g, b = ns.getARGB(text, 255)
                 local texStr = '|T%s:0::::16:16::16::16:%d:%d:%d|t'

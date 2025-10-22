@@ -30,7 +30,7 @@ L['options_icons_worldsoul_memories_desc'] = 'Zeigt die Positionen der {object:W
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
 
-L['alunira_note'] = 'Sammle 10x {item:224025} von Gegnern auf der {location:Insel fon Dorn} und kombiniere diese zu einem {item:224026}, um den Schwächungszauber {spell:451570} zu entfernen.'
+L['alunira_note'] = 'Sammle 10x {item:224025} von Gegnern auf der {location:Insel von Dorn} und kombiniere diese zu einem {item:224026}, um den Schwächungszauber {spell:451570} zu entfernen.'
 L['violet_hold_prisoner'] = 'Gefangener der Violetten Festung'
 
 L['elemental_geode_label'] = 'Elementargeode'
@@ -48,15 +48,15 @@ L['trees_treasure_crab_5_note'] = 'Auf einem Felsvorsprung.'
 L['trees_treasure_crab_6_note'] = 'Auf einer Wurzel des Baumes.'
 L['turtles_thanks_1_note'] = 'Biete 5x {item:220143} an (kann in dem Schwarm {object:Ruhige Oberflächenwellen} geangelt oder im Auktionshaus gekauft werden). {note:Verlasse das Gebiet und kehre sofort zurück, um den nächsten Fisch anzubieten.}'
 L['turtles_thanks_2_note'] = 'Biete 1x {item:222533} an (kann in den Schwärmen {object:Glimmerbecken}, {object:Schwärender Fäulnisteich}, {object:Energieerfüllter Sekretfleck} geangelt oder im Auktionshaus gekauft werden).'
-L['turtles_thanks_3_note'] = 'Treffe dich mit der {npc:223338} in {location:Dornogal} und spreche mit ihr, um den Schatz zu enthüllen.'
+L['turtles_thanks_3_note'] = 'Triff dich mit der {npc:223338} in {location:Dornogal} und sprich mit ihr, um den Schatz zu enthüllen.'
 L['web_wrapped_axe_note'] = 'In der ersten Etage.\n\n{note:Erscheint erst wieder nach 1 bis 2 Stunden.}'
 L['faithful_dog_note'] = [[
 1. Schließe die Quest {quest:30526} von {npc:59533} in {location:Das Kernland} ({map:424}, {map:376}) ab.
 2. Baue den {object:Kräutergarten} in deiner {area:7490} in {map:572}.
-3. Find ein {item:147420} auf den Straßen in {map:627} ({map:619}).
+3. Finde ein {item:147420} auf den Straßen in {map:627} ({map:619}).
 4. Spreche mit dem {npc:87553} im {object:Kräutergarten} deiner {area:7490}.
-Der {npc:87553} erscheit jetzt in {location:Die Magische Menagerie} ({map:619}, {map:627})
-4. Interagiere mit {object:Halb vergrabener Hundenapf} am Strand der {map:2248} und streichel den {npc:87553}, um dein Haustier zu erhalten.
+Der {npc:87553} erscheint jetzt in {location:Die Magische Menagerie} ({map:619}, {map:627})
+4. Interagiere mit {object:Halb vergrabener Hundenapf} am Strand der {map:2248} und streichle den {npc:87553}, um dein Haustier zu erhalten.
 ]]
 
 L['cendvin_note'] = 'Plündere 900x {item:225557} in {location:Aschenholtz} von Elitegegnern, um das Reittier {item:223153} von {npc:226205} kaufen zu können.'
@@ -64,12 +64,12 @@ L['cendvin_note'] = 'Plündere 900x {item:225557} in {location:Aschenholtz} von 
 L['options_icons_flat_earthen'] = '{achievement:40606}'
 L['options_icons_flat_earthen_desc'] = 'Zeigt die Position für den Erfolg {achievement:40606} an.'
 
-L['tome_of_polymorph_mosswool'] = 'Betrette den Tunnel und gehe zum {location:Der Zundersalon}.\n\nNimm die Quest {quest:84438} von {npc:229128} an, um den {item:227710} zu erhalten.'
+L['tome_of_polymorph_mosswool'] = 'Betrete den Tunnel und gehe zum {location:Der Zundersalon}.\n\nNimm die Quest {quest:84438} von {npc:229128} an, um den {item:227710} zu erhalten.'
 
 L['aradan_note_start'] = '{npc:213428} befindet sich auf der {location:Insel von Dorn} in {location:Dornogal} im Dungeon {location:Die Brutstätte}.\n\n{note:{npc:213428} kann auch in einem Anhängerdungeon gezähmt werden.}'
 L['aradan_note_step_1'] = '1. Sammle den {item:220770} aus den tiefen Gewässern außerhalb der {location:Insel von Dorn}.'
 L['aradan_note_step_2'] = '2. Betrete den Dungeon {location:Die Brutstätte} und besiege {npc:209230} ({dot:Blue}).'
-L['aradan_note_step_3'] = '3. Springe den Schacht runter ({dot:Red}) und laufen die Treppe hoch, von der {npc:215967} erscheint.'
+L['aradan_note_step_3'] = '3. Springe den Schacht runter ({dot:Red}) und laufe die Treppe hoch, von der {npc:215967} erscheint.'
 L['aradan_note_step_4'] = '4. Laufe zur Klippe und benutze den {item:220770} während du {npc:213428} anvisierst.'
 L['aradan_note_step_5'] = '5. {npc:213428} wird den Hammer erkennen und fliegt herunter, so dass du ihn zähmen kannst.'
 L['aradan_note_end'] = '{note:{item:220770} wird bei Benutzung nicht verbraucht, so dass du alle 5 Varianten zähmen oder einem anderen Jäger helfen kannst.}'
@@ -97,7 +97,7 @@ L['lost_console_location'] = 'Im Eingang der eingestürzten Mine.'
 L['options_icons_notable_machines'] = '{achievement:40628}'
 L['options_icons_notable_machines_desc'] = 'Zeigt die Positionen der Notizen für den Erfolg {achievement:40628} an.'
 
-L['notable_machines_note'] = 'Lese die Notiz.'
+L['notable_machines_note'] = 'Lies die Notiz.'
 L['fragment_I_location'] = 'An der Kante des Stützpfeilers.'
 L['fragment_II_location'] = 'Auf einem Felsvorsprung.'
 L['fragment_III_location'] = 'Auf dem Dach des Gebäudes.'
@@ -108,7 +108,7 @@ L['fragment_VI_location'] = 'Auf dem Boden, neben der Straßenlaterne.'
 L['options_icons_rocked_to_sleep'] = '{achievement:40504}'
 L['options_icons_rocked_to_sleep_desc'] = 'Zeigt die Positionen der Plaketten für den Erfolg {achievement:40504} an.'
 
-L['rocked_to_sleep_note'] = 'Lese die Plakette des inaktiven Irdenen.'
+L['rocked_to_sleep_note'] = 'Lies die Plakette des inaktiven Irdenen.'
 L['attwogaz_location'] = 'Auf einem Felsvorsprung.'
 L['halthaz_location'] = 'Auf einem Felsvorsprung am Fuß des Pfeilers.'
 L['krattdaz_location'] = 'Auf einem Felsvorsprung zwischen zwei Wasserfällen.'
@@ -219,7 +219,7 @@ L['furball_location'] = 'Im zerstörten Gebäude.'
 L['dander_location'] = 'Draußen.'
 L['gobbo_location'] = 'Im Gebäude auf dem Bett.'
 
-L['beledars_spawn_note'] = 'Dieser Gegner erscheint an einem von mehreren Positionen in einem festgelegten Intervall.\n\nNächstes erscheinen:\n{note:%s (%s)}'
+L['beledars_spawn_note'] = 'Dieser Gegner erscheint an einem von mehreren Positionen in einem festgelegten Intervall.\n\nNächstes Erscheinen:\n{note:%s (%s)}'
 L['croakit_note'] = 'Angle 10x {item:211474} aus einem {object:Schwarm schattenblinder Barsche} in der Nähe (oder kaufe diese im Auktionshaus) und wirf sie ihm zu, damit der seltene Gegner angreifbar wird.'
 L['deathtide_note'] = 'Sammle eine {item:220122} ({dot:Red}) und ein {item:220124} ({dot:Green}). Kombiniere diese zu {item:220123}, um damit den seltenen Gegner am {object:Ominöser Altar} zu beschwören.'
 L['murkshade_note'] = 'Interagiere mit {npc:218455}.'
@@ -249,7 +249,7 @@ L['hallowfall_sparkfly_note'] = 'Entfache mit 3x {item:206350} die {object:Klein
 
 L['nightfarm_growthling_note'] = 'Entfache mit 3x {item:206350} die {object:Kleine Schlüsselflamme} in {location:Das Surrende Feld}, damit {npc:208186} erscheint.\n\nKaufe eine {item:219148} für 2x {item:206350} und benutze diese, bis ein {item:221546} erscheint.'
 
-L['thunder_lynx_note'] = '1. Entfache mit 3x {item:206350} die {object:Kleine Schlüsselflamme} in {location:Fackelscheinmine}, damit {npc:212419} erscheint.\n\n2. Spreche mit {npc:212419}, damit du die Quest {quest:82007} erhalten kannst.\n\n3. Finde die Luchswelpen: {npc:222373} ({dot:Blue}), {npc:222372} ({dot:Green}), {npc:222375} ({dot:Orange}) und {npc:222374} ({dot:Red}).\n\n{note:Starte gleichzeitig die Quest {quest:76169}, um eine {item:219198} zu erhalten oder benutze einen vergleichbaren Gegenstand, wie die {item:219148}. Du brauchst eine Fackel, um {npc:222373} in der {location:Kaltschattenhöhle} zu finden.}\n\n4. Rette alle Luchswelpen und kehre dann zu {npc:212419} zurück.'
+L['thunder_lynx_note'] = '1. Entfache mit 3x {item:206350} die {object:Kleine Schlüsselflamme} in {location:Fackelscheinmine}, damit {npc:212419} erscheint.\n\n2. Sprich mit {npc:212419}, damit du die Quest {quest:82007} erhalten kannst.\n\n3. Finde die Luchswelpen: {npc:222373} ({dot:Blue}), {npc:222372} ({dot:Green}), {npc:222375} ({dot:Orange}) und {npc:222374} ({dot:Red}).\n\n{note:Starte gleichzeitig die Quest {quest:76169}, um eine {item:219198} zu erhalten oder benutze einen vergleichbaren Gegenstand, wie die {item:219148}. Du brauchst eine Fackel, um {npc:222373} in der {location:Kaltschattenhöhle} zu finden.}\n\n4. Rette alle Luchswelpen und kehre dann zu {npc:212419} zurück.'
 
 L['options_icons_fighter'] = '{achievement:41999}'
 L['options_icons_fighter_desc'] = 'Zeigt die Positionen der {npc:Nachtsturzelitegegner} für den Erfolg {achievement:41999} an'
@@ -282,7 +282,7 @@ L['smelling_history_3_location'] = 'In einer kleinen Höhle auf einem Tisch.'
 L['smelling_history_4_location'] = 'Im Gebäude auf einem Tisch.'
 L['smelling_history_5_location'] = 'Im Gebäude auf einem Tisch.'
 L['smelling_history_6_location'] = 'Im Gebäude auf dem Bett an der Südseite des Zimmers.'
-L['smelling_history_7_location'] = 'Im Gebäude auf auf dem Bücherstapel.'
+L['smelling_history_7_location'] = 'Im Gebäude auf dem Bücherstapel.'
 L['smelling_history_8_location'] = 'Im Gebäude auf dem Tisch neben dem Bett an der Nordseite des Zimmers.'
 L['smelling_history_9_location'] = 'Im Gebäude, von hinten angelehnt an den Tisch von {npc:226024}.'
 L['smelling_history_10_location'] = 'Im Gebäude auf der Bank.'
@@ -305,7 +305,7 @@ Die vier {npc:227421} erscheinen in {location:Azj-Kahet} an verschiedenen Orten.
 
 Spüre diese auf und spreche mit ihnen, um sie zurück zu schicken.
 
-Sobald du alle vier {npc:227421} gefunden hast, gehen zurück zum Buch {object:Fleischiger Foliant} und spreche mit einem der vier {npc:227421}.
+Sobald du alle vier {npc:227421} gefunden hast, gehe zurück zum Buch {object:Fleischiger Foliant} und spreche mit einem der vier {npc:227421}.
 ]]
 L['another_you_4_note'] = 'Läuft im {location:Nest der Weberin} herum.'
 
@@ -313,7 +313,7 @@ L['concealed_contraband_note'] = 'Entferne den {object:Netzkokon}, um den Schatz
 L['memory_cache_note'] = 'Hole dir den Schwächungszauber {spell:420847} von einem {object:Extraktor} ({dot:Red}) in der Nähe und töte dann die {npc:223908} vor der Kiste, um den {item:223870} zu erhalten.'
 L['niffen_stash_note'] = 'Hängt unter der Brücke.'
 L['trapped_trove_note'] = 'In einem Gebäude das von der Decke hängt. Vermeide die Spinnweben am Boden.'
-L['weaving_supplies_note'] = 'Sammle Seidenfetzen von der Plattform in der Nähe, um den Schatz zu öffen.\n\n{item:223901} ({dot:Purple})\n{item:223903} ({dot:Yellow})\n{item:223902} ({dot:Red})'
+L['weaving_supplies_note'] = 'Sammle Seidenfetzen von der Plattform in der Nähe, um den Schatz zu öffnen.\n\n{item:223901} ({dot:Purple})\n{item:223903} ({dot:Yellow})\n{item:223902} ({dot:Red})'
 
 L['tkaktath_note'] = 'Startet eine Questreihe, um das Reittier {item:224150} zu erhalten.'
 
@@ -424,19 +424,19 @@ L['marmaduke_note'] = '1. Sammle das {item:233027} in der oberen Etage des {loca
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
 L['options_icons_secrets_of_azeroth_desc'] = 'Zeigt die Positionen für die {location:Geheimnisse von Azeroth} an.'
 
-L['alyx_kickoff_note'] = 'Spreche mit {npc:226683}, um die neuen {location:Geheimnisse von Azeroth} freizuschalten.'
+L['alyx_kickoff_note'] = 'Sprich mit {npc:226683}, um die neuen {location:Geheimnisse von Azeroth} freizuschalten.'
 
 -- L['celebration_crates_label'] = 'Feierkiste'
 L['celebration_crates_note'] = 'Finde und bringe alle {object:Feierkisten} zurück, die in ganz {location:Azeroth} versteckt sind.'
 
 L['1_soggy_celebration_crate_note'] = 'Kaufe ein {item:225996} von {npc:143029} ({dot:Blue}) in {location:The Dive Bar} und gib dieses {npc:189119}, um {item:226200} auszudecken.'
-L['2_hazy_celebration_crate_note'] = 'Du musst jedoch tot sein, um die {item:232263} öffnen zu können.}'
+L['2_hazy_celebration_crate_note'] = 'Du musst jedoch tot sein, um die {item:232263} öffnen zu können.'
 L['3_dirt_caked_celebration_crate_note'] = '{note:Du musst die {item:228321} von der Anschlagtafel bei {npc:226683} für diese Kiste NICHT sammeln.}\n\n1. Betrete {location:Die Vergessene Krypta} hinter {location:Karazhan}.\n\n2. Laufe die Treppen herunter dann durch den {location:Brunnen der Vergessenen} und die {location:Bettlergasse} entlang.\n\n3. Gehe nach rechts in den Eingang zur {location:Bettlergasse} und folge dem Tunnel.\n\n4. Durchquere den großen Raum diagonal in Richtung des Wassers.\n\n5. Schwimme durch das Wasser zu {location:Der Sumpf der Verzweiflung}.'
 L['4_sandy_celebration_crate'] = '1. Sammle {item:228768} in eine Höhle der {location:Versunkene Ausgrabungsstätte} ({location:Kalimdor}, {location:Tausend Nadeln}).\n\n2. Kaufe {item:228767} von {npc:91079} für %s. {note:Lauft den östlichen Weg entlang}.'
 L['5_battered_celebration_crate'] = 'An den Felsen der Höhle in der Nähe von {npc:24026}.'
 L['6_waterlogged_celebration_crate'] = 'Unterwasser auf der zweiten Ebene des Gebäudes hinter einem Bett.\n\n{note:Berühre den Aufzug nicht, dabei kann derzeit das Spiel abstürzen.}'
 L['7_charred_celebration_crate'] = 'Neben dem Trampolin.'
-L['8_mildewed_celebration_crate'] = '1. Finde und trinke den {object:Trank der Wahrheit} auf der Spitze des {location:Donnergipfel}s im {location:Eschental}.\n\n2. Plündere die {object:Verschimmelte Feierkiste} in {location:Düsterbruch} in {location:Feralas}.\n\n{note:Der Stärkungszauber {spell:463368} hält 30 Minuten lang an. Du musst selber nach {location:Feralas} fliegen, da der Stärkungszauber entfernt wird, wenn du den Kontinent wechelst, ein Portal nimmst oder den {item:6948} benutzt.}'
+L['8_mildewed_celebration_crate'] = '1. Finde und trinke den {object:Trank der Wahrheit} auf der Spitze des {location:Donnergipfel}s im {location:Eschental}.\n\n2. Plündere die {object:Verschimmelte Feierkiste} in {location:Düsterbruch} in {location:Feralas}.\n\n{note:Der Stärkungszauber {spell:463368} hält 30 Minuten lang an. Du musst selber nach {location:Feralas} fliegen, da der Stärkungszauber entfernt wird, wenn du den Kontinent wechselst, ein Portal nimmst oder den {item:6948} benutzt.}'
 L['9_crystalized_celebration_crate'] = 'Innerhalb von {location:Oshu\'gun} in {location:Nagrand}.'
 L['10_surprisingly_pristine_celebration_crate'] = '1. Sammle {item:228772} in einer Höhle in {location:Ahn\'Qiraj: Das Gefallene Königreich} ({location:Kalimdor}).\n\n2. Vergrabe die Knochen im {object:Nicht gekennzeichnetes Grab} in {location:Sturmheim} ({location:Die Verheerten Inseln}).'
 L['11_ghostly_celebration_crate'] = 'Auf dem Gebäude des {location:Sitz des Primus} rechts neben dem Portal.'
@@ -457,11 +457,11 @@ L['options_icons_ratts_revenge_desc'] = 'Zeigt die Positionen für den Erfolg {a
 L['inert_peculiar_key_note'] = 'Im großen hohlen Baumstamm hinter der Kiste versteckt.\n\n{note:Nächster Ort:}\nWenn du den {item:228938} {bug:NICHT BESITZT} gehe nach {location:Dornogal} ({location:Khaz Algar}, {location:Insel von Dorn}).\n\nWenn du den {item:228938} |cFF00FF00BESITZT|r gehe zum {location:Gebirgspass der Totenwinde} in {location:Die Östlichen Königreiche}.'
 
 -- PECULIAR GEM
-L['carefully_penned_note'] = 'Spreche mit {npc:230042} während du den Titel {title:Detektiv} trägst, um die Quest {quest:84684} zu erhalten.\n\n{note:Nächster Ort:} {location:Azj-Kahet}'
-L['unfinished_note'] = 'In einer kleinen Höhle im {location:Deepwalker Pass} surrounded by a ring of {npc:229596}.\n\n{note:Nächster Ort:} {location:Stadt der Fäden}'
+L['carefully_penned_note'] = 'Sprich mit {npc:230042}, während du den Titel {title:Detektiv} trägst, um die Quest {quest:84684} zu erhalten.\n\n{note:Nächster Ort:} {location:Azj-Kahet}'
+L['unfinished_note'] = 'In einer kleinen Höhle im {location:Deepwalker Pass}, umgeben von einem Ring aus {npc:229596n}.\n\n{note:Nächster Ort:} {location:Stadt der Fäden}'
 L['hastily_scrawled_note'] = 'An einer Felskante über der {location:Stadt der Fäden}.\n\n{note:Nächster Ort:} {location:Heilsturz}'
 L['water_resistant_note'] = 'In einer kleinen Höhle im Teich zwischen {location:Azj-Kahet} und {location:Heilsturz}.\n\n{note:Nächster Ort:} {location:Faerins Vorstoss} ({location:Azj-Kahet})'
-L['peculiar_gem_note'] = 'Springe ein Loch in der Höhle des {location:Stütznest Vosh} runter.\n\n{note:Das Loch ist an der Wand versteckt und erfordert einige geschickte Sprünge.}\n\nNähere dich {npc:233550} und sie wird flüchten und den {item:228938} hinterlassen.\n\n{note:Nächster Ort:}\nWenn du den {item:228941} {bug:NICHT BESITZT} gehe zum {location:Krater von Un\'Goro} ({location:Kalimdor}).\n\nWenn du den {item:228941} |cFF00FF00BESITZT|r gehe zum {location:Gebirgspass der Totenwinde} ({location:Die Östlichen Königreiche}).'
+L['peculiar_gem_note'] = 'Springe in ein Loch in der Höhle des {location:Stütznest Vosh} runter.\n\n{note:Das Loch ist an der Wand versteckt und erfordert einige geschickte Sprünge.}\n\nNähere dich {npc:233550} und sie wird flüchten und den {item:228938} hinterlassen.\n\n{note:Nächster Ort:}\nWenn du den {item:228941} {bug:NICHT BESITZT} gehe zum {location:Krater von Un\'Goro} ({location:Kalimdor}).\n\nWenn du den {item:228941} |cFF00FF00BESITZT|r gehe zum {location:Gebirgspass der Totenwinde} ({location:Die Östlichen Königreiche}).'
 
 -- KARAZHAN CATACOMBS
 L['karazhan_catacombs_label'] = 'Die Katakomben von Karazhan'
@@ -489,17 +489,17 @@ L['decryption_machine_label'] = 'Entschlüsselungskonsole' -- ???
 L['decryption_console_label'] = 'Entschlüsselungskonsole'
 L['rubensteins_console'] = 'Rubensteins Konsole'
 
-L['code_machine_note_1'] = 'Gibt den Code ein, um aus dem {object:Eigentum von Ältester Ko\'nani} ein {item:228967} zu erhalten.\n\n{object:Code}: 88224646'
-L['code_machine_note_2'] = 'Gibt den Code ein, um aus der {object:Verschlüsselte Truhe} ein {item:228967} zu erhalten.\n\n{object:Code}: 10638'
-L['code_machine_note_3'] = 'Gibt den Code ein, um aus der {object:Verschlüsselte Truhe} ein {item:228967} zu erhalten.\n\n{object:Code}: 5661'
-L['code_machine_note_4'] = 'Gibt den Code ein, um aus {object:Rubensteins Tresor} ein {item:228967} zu erhalten.\n\n{object:Code}: 52233'
-L['code_machine_note_5'] = 'Gibt den Code ein, um aus der {object:Verschlüsselte Truhe} ein {item:228967} zu erhalten.\n\n{object:Code}: 51567'
-L['code_machine_note_6'] = 'Gibt den Code ein, um aus der {object:Verschlüsselte Truhe} ein {item:228967} zu erhalten.\n\n{object:Code}: 115'
-L['code_machine_note_7'] = 'Gibt den Code ein, um aus der {object:Verschlüsselte Puzzlebox} ein {item:228967} zu erhalten.\n\n{object:Code}: 17112317'
-L['code_machine_note_8'] = 'Gibt den Code ein, um aus der {object:Verschlüsselte Truhe} ein {item:228967} zu erhalten.\n\n{object:Code}: 19019'
+L['code_machine_note_1'] = 'Gib den Code ein, um aus dem {object:Eigentum von Ältester Ko\'nani} ein {item:228967} zu erhalten.\n\n{object:Code}: 88224646'
+L['code_machine_note_2'] = 'Gib den Code ein, um aus der {object:Verschlüsselte Truhe} ein {item:228967} zu erhalten.\n\n{object:Code}: 10638'
+L['code_machine_note_3'] = 'Gib den Code ein, um aus der {object:Verschlüsselte Truhe} ein {item:228967} zu erhalten.\n\n{object:Code}: 5661'
+L['code_machine_note_4'] = 'Gib den Code ein, um aus {object:Rubensteins Tresor} ein {item:228967} zu erhalten.\n\n{object:Code}: 52233'
+L['code_machine_note_5'] = 'Gib den Code ein, um aus der {object:Verschlüsselte Truhe} ein {item:228967} zu erhalten.\n\n{object:Code}: 51567'
+L['code_machine_note_6'] = 'Gib den Code ein, um aus der {object:Verschlüsselte Truhe} ein {item:228967} zu erhalten.\n\n{object:Code}: 115'
+L['code_machine_note_7'] = 'Gib den Code ein, um aus der {object:Verschlüsselte Puzzlebox} ein {item:228967} zu erhalten.\n\n{object:Code}: 17112317'
+L['code_machine_note_8'] = 'Gib den Code ein, um aus der {object:Verschlüsselte Truhe} ein {item:228967} zu erhalten.\n\n{object:Code}: 19019'
 
 L['slot_machine_label'] = '"Glück gefällig?"-Spielautomat'
-L['slot_machine_note_a'] = 'Kaufe fünf der Glücksgegenstände und gebe dann den Code ein:\n\n'
+L['slot_machine_note_a'] = 'Kaufe fünf der Glücksgegenstände und gib dann den Code ein:\n\n'
 L['slot_machine_note_b'] = '{npc:2795} in {location:Sturmwind}:\n{note:(Nur Allianz; Für Horde im AH zu kaufen)}\n'
 L['slot_machine_note_c'] = '{npc:219197} in {location:Dornogal}:\n'
 L['slot_machine_note_d'] = '{npc:186650} in {location:Ebenen von Ohn\'ahra}\n'
@@ -516,7 +516,7 @@ L['uthers_tomb_note'] = 'Beschwöre eine {npc:231482} bei {location:Uthers Grabm
 L['orb_5_label'] = 'Kugel 5'
 L['jeremy_feasel_note'] = '{npc:232048} ist in der {location:Höhle der Verlorenen Geister} ({location:Pandaria}, {location:Zeitlose Insel}).\n\nBesiege {npc:232048} in einem Haustierkampf, bei dem du nur Haustiere von vorherigen Geheimnissen benutzt.%s\n\nSobald du gewonnen hast, schließe die Quest {quest:84781} ab, um {item:228995} zu erhalten.\n\nGehe dann zum {npc:230310} in {location:Beutebucht} ({location:Die Östlichen Königreiche}, {location:Schlingendorntal}) und kaufe das {item:228996}.'
 L['zarhym_note'] = 'Sprich mit {npc:71876} in der Höhle, um in die Geisterwelt zu gelangen.'
-L['pointless_treasure_salesman_location'] = 'Im inneren der Goblinstatue versteckt.'
+L['pointless_treasure_salesman_location'] = 'Im Inneren der Goblinstatue versteckt.'
 L['pointless_treasure_salesman_note'] = 'Kaufe das {item:228996}:'
 
 -- ORB 6
@@ -543,7 +543,7 @@ L['orb_7_summary'] = '1. Gehe zur {location:Die Insel der Behüter} ({location:D
 
 L['marin_bladewing_note'] = 'Kaufe ein {pet:1716} von {npc:107379} für %s nach dem erreichen von %s bei den {faction:1894} oder im {location:Auktionshaus}.'
 L['owl_of_the_watchers_label'] = 'Eule der Behüter'
-L['owl_of_the_watchers_note'] = '{note:Nur 3 Statuen sind gleichzeitg aktiv.}\n\nStelle dich neben eine aktive Statue mit deinem beschworenen {pet:1716}, um jeweils einen der vier Stärkungszauber einmal zu erhalten:\n\n{spell:225049} {dot:Red}\n{spell:225038} {dot:Purple}\n{spell:223160} {dot:Green}\n{spell:225059} {dot:Blue}\n\nWenn dein {pet:1716} ermächtigt ist, wird es von {note:einer weißen Rauchwolke verfolgt}.\n\nBetrete den Dungeon {location:Das Verlies der Wächterinnen}.'
+L['owl_of_the_watchers_note'] = '{note:Nur 3 Statuen sind gleichzeitig aktiv.}\n\nStelle dich neben eine aktive Statue mit deinem beschworenen {pet:1716}, um jeweils einen der vier Stärkungszauber einmal zu erhalten:\n\n{spell:225049} {dot:Red}\n{spell:225038} {dot:Purple}\n{spell:223160} {dot:Green}\n{spell:225059} {dot:Blue}\n\nWenn dein {pet:1716} ermächtigt ist, wird es von {note:einer weißen Rauchwolke verfolgt}.\n\nBetrete den Dungeon {location:Das Verlies der Wächterinnen}.'
 
 L['sentry_statue_note'] = '1. Besiege {npc:95885}, um diesen geheimen Raum in der {location:Die Kammer der Nacht} zu öffnen.\n\n2. Besiege alle anderen Bosse.\n\n3. Bringe {spell:204481} vom Endboss {npc:95888} zu diesem geheimen Raum mit deinem {pet:1716}, damit eine {item:229046} erscheint.\n\n4. Bringe die {item:229046} zum Bossraum von {npc:95887}.'
 L['sentry_note'] = '1. Platziere die {item:229046} hier beim Eingang, um den {npc:109300} erscheinen zu lassen.\n\n2. Interagiere mit dem {npc:109300}, um das Rätsel zu beginnen. Das Ziel ist es, dass jede {npc:98082} im Boden verschwunden ist.\n\n3. Plündere den {object:Schatz der Wächter}, um den {item:229054} zu erhalten.'
@@ -572,7 +572,7 @@ L['code_label'] = '%d zu %s'
 -- Orb 9
 L['orb_9_label'] = 'Kugel 9'
 
-L['ak_decryption_console_note'] = 'Zurück in der versteckten Höhle im {location:Stütznest Vosh} in {location:Azj-Kahet}.\n\nSetze deine {item:228966} auf, um eine versteckte Plattform zu offenbaren.\n\nVisiere den {npc:230383} an und verwende das {item:228996}, um die Plattform zu erreichen. Gibt den Code ein und öffne die {object:Verschlüsselte Truhe}, um das Reittier {item:229348} zu erhalten.\n\n{object:Code}: 84847078'
+L['ak_decryption_console_note'] = 'Zurück in der versteckten Höhle im {location:Stütznest Vosh} in {location:Azj-Kahet}.\n\nSetze deine {item:228966} auf, um eine versteckte Plattform zu offenbaren.\n\nVisiere den {npc:230383} an und verwende das {item:228996}, um die Plattform zu erreichen. Gib den Code ein und öffne die {object:Verschlüsselte Truhe}, um das Reittier {item:229348} zu erhalten.\n\n{object:Code}: 84847078'
 
 -------------------------------------------------------------------------------
 ---------------------------------- UNDERMINE ----------------------------------
@@ -587,9 +587,9 @@ L['inert_plunger_label'] = 'Inaktiver Zünder?'
 L['exploded_plunger_label'] = 'Explodierter Zünder'
 
 L['unexploded_fireworks_location'] = 'Auf dem Dach des Gebäudes.'
-L['suspicious_book_note'] = 'Im Bürcherregal ({dot:Red}) in der ersten Etage versteckt. Wenn du versuchst, das Buch einzusammeln, fliegt es zu einem anderen Bücherregal ({dot:Green}) in der zweiten Etage. Auch hier fliegt das Buch ein letztes Mal weg, wenn du versuchst, es einzusammeln, und landet auf dem Schreibtisch in der dritten Etage.'
+L['suspicious_book_note'] = 'Im Bücherregal ({dot:Red}) in der ersten Etage versteckt. Wenn du versuchst, das Buch einzusammeln, fliegt es zu einem anderen Bücherregal ({dot:Green}) in der zweiten Etage. Auch hier fliegt das Buch ein letztes Mal weg, wenn du versuchst, es einzusammeln, und landet auf dem Schreibtisch in der dritten Etage.'
 L['fireworks_hat_note'] = 'Versuche den Hut zu greifen, damit er vom Dach hier landet.'
-L['blackened_dice_note'] = 'Drehe das {object:Rohrventil}, damit mder Würfel scheint.'
+L['blackened_dice_note'] = 'Drehe das {object:Rohrventil}, damit der Würfel erscheint.'
 L['lonely_tub_note'] = 'Hebe den {object:Feuerlöscher} ({dot:Blue}) in der Nähe auf, um das Feuer der {object:Einsame Wanne} zu löschen.'
 L['impotent_potable_location'] = 'Unterhalb des Stegs.'
 L['abandoned_toolbox_location'] = 'Ganz oben auf dem Dach des {location:Der Schrottladen}.\n\nNimm die Treppen nach oben.'
@@ -625,7 +625,7 @@ L['gallywixs_notes_location'] = 'Auf einem Tisch im hinteren Teil des {location:
 L['options_icons_can_do_attitude'] = '{achievement:41589}'
 L['options_icons_can_do_attitude_desc'] = 'Zeigt mögliche Positionen der {npc:237103} für den Erfolg {achievement:41589} an.'
 L['discarded_can_label'] = '{npc:237103}'
-L['discarded_can_note'] = 'Kick die {npc:237103} herum.'
+L['discarded_can_note'] = 'Kicke die {npc:237103} herum.'
 L['discarded_can_suffix'] = 'Dosen herumgekickt'
 
 L['options_icons_scrap_rewards'] = 'S.C.H.R.O.T.T.-Haufen'
@@ -642,15 +642,15 @@ L['undermine_undershirt_note'] = '1. Sammle den {object:Kanalkäse} in der Kanal
 
 L['undermine_clam_chowder_label'] = 'Lorenhalls Ratgeber zu authentischer Küche'
 L['undermine_clam_chowder_location'] = 'In der Gasse auf einem Regal hinter {npc:226728}.'
-L['undermine_clam_chowder_note'] = '1. Um dieses Rezept zu erhalten, musst du zunächst das Rezept {item:16767} erlernen, welches bei zwei {object:Classic}-Händlern für %s gekaut werden kann.\n\n{npc:54232} in {location:Beutebucht} ({location:Die Östlichen Königreiche}, {location:Schlingendorntal})\n\n{npc:48060} in {location:Luntenbrand} ({location:Die Östlichen Königreiche}, {location:Ödland})\n\n2. Wenn du das "alte" Rezept erlernt hast, interagiere mit dem Buch {object:Lorenhalls Ratgeber zu authentischer Küche} und lese dir alle Seiten durch, um das Rezept {item:235800} zu erhalten.'
+L['undermine_clam_chowder_note'] = '1. Um dieses Rezept zu erhalten, musst du zunächst das Rezept {item:16767} erlernen, welches bei zwei {object:Classic}-Händlern für %s gekauft werden kann.\n\n{npc:54232} in {location:Beutebucht} ({location:Die Östlichen Königreiche}, {location:Schlingendorntal})\n\n{npc:48060} in {location:Luntenbrand} ({location:Die Östlichen Königreiche}, {location:Ödland})\n\n2. Wenn du das "alte" Rezept erlernt hast, interagiere mit dem Buch {object:Lorenhalls Ratgeber zu authentischer Küche} und lese dir alle Seiten durch, um das Rezept {item:235800} zu erhalten.'
 
 L['breakneck_race_note'] = 'Die folgenden {object:99-G-Genickbrecher} Anpassungen werden empfohlen, um das Erreichen von |cFFFFD700Gold|r ein wenig zu erleichtern: \n\n%s\n\n%s\n\n%s'
-L['upgrade_the_pozzik_standard'] = '{item:232982} (Motor): Erreiche den Rang |cFFCD7F32Bronze|r bei allen normalen and umgekehrten Halsbrecherrennen.'
+L['upgrade_the_pozzik_standard'] = '{item:232982} (Motor): Erreiche den Rang |cFFCD7F32Bronze|r bei allen normalen und umgekehrten Halsbrecherrennen.'
 L['upgrade_22h_slicks'] = '{item:232985} (Räder): Kann von Ingenieuren hergestellt oder auch im Auktionshaus gekauft werden.'
 L['upgrade_turbo_handcrank'] = '{item:232984} (Turbo): Kombiniere alle 5 Teile, die du von seltenen Gegnern plündern oder im Auktionshaus kaufen kannst.'
 
-L['blazefeather_peacock_note'] = 'Spreche nach Abschluss des {quest:83421} Geschichtsstrangs mit {npc:226555}, um für %s ein einen zähmbaren {npc:226561} zu beschwören.'
-L['radioactive_subject_note'] = 'Benutze nahegelegene Rohre und eine Kombination aus {item:237276}, {item:109076} und {item:231099} oder anderen Sprung-Puzzle-Tricks, um das Dach des {location:Dampfdrucklabore} Gebäudes zu erreichen.'
+L['blazefeather_peacock_note'] = 'Spreche nach Abschluss des {quest:83421} Geschichtsstrangs mit {npc:226555}, um für %s einen zähmbaren {npc:226561} zu beschwören.'
+L['radioactive_subject_note'] = 'Benutze nahegelegene Rohre und eine Kombination aus {item:237276}, {item:109076} und {item:231099} oder anderen Sprung-Puzzle-Tricks, um das Dach des {location:Dampfdrucklabor} Gebäudes zu erreichen.'
 L['george_the_big_pinch_note'] = 'Klicke schnell alle 5 {npc:238189} an, um den Stärkungszauber {spell:1219679} zu erhalten, der dir erlaubt {npc:233938} zu zähmen.'
 
 -------------------------------------------------------------------------------
@@ -667,16 +667,16 @@ L['phaseorb_note'] = 'Laufe durch die Phasentauchkugel, um mit etwas Glück eine
 
 L['options_icons_purrkins'] = '{achievement:42729}'
 L['options_icons_purrkins_desc'] = 'Zeigt die Positionen der Schnurrer für den Erfolg {achievement:42729} an.'
-L['purrkins_note'] = 'Streichel ({emote:/streicheln}) den Schnurrer.'
+L['purrkins_note'] = 'Streichle ({emote:/streicheln}) den Schnurrer.'
 L['kareshire_sublabel'] = 'Erscheint und verschwindet hin und wieder.'
 L['in_a_tree'] = 'Oben im Baum.'
 L['little_ms_phaser_sublabel'] = 'Erscheint und verschwindet hin und wieder.'
 
 L['mailroom_distribution_note'] = 'Sammle vor dem Eingang die {object:Überschüssige Post} ein, öffne dann die Tür und stelle dich auf die Kreise, um mit dem Extraaktionsbutton die Post auszutragen. Der Schatz erscheint neben dem Eingang.'
-L['gift_of_the_brothers_note'] = 'Interagiere mit der {object:Flackernde Laterne} und spreche mit {npc:233881}. Suche nach den Brüdern {npc:234112} ({dot:Red}), {npc:234113} ({dot:Yellow}) und {npc:234075} ({dot:Green}) und spreche mit ihnen, kehre dann zu {npc:233881} zurück, um ihm die Laterne zurück zu geben.'
+L['gift_of_the_brothers_note'] = 'Interagiere mit der {object:Flackernde Laterne} und sprich mit {npc:233881}. Suche nach den Brüdern {npc:234112} ({dot:Red}), {npc:234113} ({dot:Yellow}) und {npc:234075} ({dot:Green}) und sprich mit ihnen, kehre dann zu {npc:233881} zurück, um ihm die Laterne zurückzugeben.'
 L['ancient_coffer_note'] = 'Sammle das {item:233794} ({dot:Red}) und die {item:233799} ({dot:Yellow}), um den Kasten öffnen zu können.'
 
 L['sthaarbs_note'] = 'Verwende den Teleporter in der Nähe des {object:Phasenleiter}, um {npc:234845} zu erreichen.'
 L['heka_tamos_note'] = 'Sammle die folgenden Objekte: {object:Taufänger}, {object:Spektrale Laterne}, {object:Erdige Sukkulente} und {object:Windfänger}, die in {location:Die Oase} erscheinen. Interagiere anschließend mit der {object:Kohlepfanne der Elementaren Einheit}, um den seltenen Gegner zu beschwören.'
 
-L['translocated_gorger_note'] = nil
+L['translocated_gorger_note'] = 'Sammle wöchentlich 1 {item:246240} pro Boss und Kriegsband von dem Boss während einer {object:Verschlinger Invasion} und kombiniere sie, um dein Reittier zu erhalten.'
