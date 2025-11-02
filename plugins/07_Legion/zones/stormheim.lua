@@ -587,7 +587,7 @@ map.nodes[58044752] = Treasure({
     rewards = {TreasuresOfStormheim}
 })
 
-map.nodes[60857274] = Treasure({
+map.nodes[60854274] = Treasure({
     label = L['small_treasure_chest'],
     quest = 40094,
     rewards = {TreasuresOfStormheim}
