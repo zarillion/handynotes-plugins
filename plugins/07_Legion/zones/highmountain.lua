@@ -646,7 +646,9 @@ map.nodes[46362163] = Treasure({
 map.nodes[49647128] = Treasure({
     label = L['small_treasure_chest'],
     quest = 39606,
-    rewards = {TreasuresOfHighmountain}
+    note = L['in_cave'],
+    rewards = {TreasuresOfHighmountain},
+    pois = {POI({45007240})}
 })
 
 -------------------------------------------------------------------------------
