@@ -199,7 +199,7 @@ map.nodes[62604750] = Rare({
     }
 }) -- Thondrax
 
-map.nodes[59757745] = Rare({
+map.nodes[55607740] = Rare({
     id = 92104,
     quest = 38466,
     label = L['unguarded_thistleleaf_treasure'],
@@ -387,7 +387,7 @@ map.nodes[43068822] = Treasure({
 })
 
 map.nodes[63904556] = Treasure({quest = 44139, note = L['in_small_cottage']})
-map.nodes[51317849] = Treasure({quest = 46954})
+-- map.nodes[51317849] = Treasure({quest = 46954})
 
 map.nodes[38636563] = Treasure({
     label = '{npc:92738}',
