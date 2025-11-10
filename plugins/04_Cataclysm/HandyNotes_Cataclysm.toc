@@ -1,4 +1,4 @@
-## Interface: 110205
+## Interface: 120000
 ## Title: HandyNotes: Cataclysm
 ## Version: 0
 ## Notes: Cataclysm Notes

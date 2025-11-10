@@ -1,12 +1,12 @@
 ## Interface: 120000
-## Title: HandyNotes: Shadowlands
+## Title: HandyNotes: Midnight
 ## Version: 0
-## Notes: Shadowlands Notes
+## Notes: Midnight Notes
 ## OptionalDeps: Ace3
 ## RequiredDeps: HandyNotes
 ## X-Embeds: Ace3
-## SavedVariables: HandyNotes_ShadowlandsDB
-## IconTexture: 4254080
+## SavedVariables: HandyNotes_MidnightDB
+## IconTexture: 236762
 
 embeds.xml
 core\core.xml
