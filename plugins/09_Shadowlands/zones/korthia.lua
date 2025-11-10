@@ -468,6 +468,8 @@ local Relic = Class('Relic', ns.node.Treasure, {
     end
 })
 
+Relic.IsCollected = function() return false end
+
 -------------------------------------------------------------------------------
 
 -- GHO: 40914788
