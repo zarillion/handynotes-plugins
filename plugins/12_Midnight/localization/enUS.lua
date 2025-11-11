@@ -1,0 +1,3 @@
+local ADDON_NAME, ns = ...
+local L = ns.NewLocale('enUS')
+if not L then return end
