@@ -1,7 +1,7 @@
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('esES')
 if not L then return end
--- Spanish Translation by (EU) Krovikan-Minahonda
+-- Spanish Translation by Krovikan EU-Minahonda
 L['area_spawn'] = 'Aparece en los alrededores.'
 
 L['squirrels_note'] = 'Tienes que seleccionar una alimaña que no sea mascota de combate y teclear {emote:/amar}.'
