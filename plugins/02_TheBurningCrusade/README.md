@@ -69,7 +69,7 @@ In addition to rares, this plugin also adds the following expansion or zone-spec
 This addon has been translated to the following languages:
 
 * `deDE` - German (thanks Dathwada EU-Eredar!)
-* `esES` - Spanish (Spain) (thanks (EU) Krovikan-Minahonda!)
+* `esES` - Spanish (Spain) (thanks Krovikan EU-Minahonda!)
 * `frFR` - French (thanks Lightuky EU-Khaz Modan!)
 * `zhCN` - Chinese (Simplified) (thanks Adavak!)
 
