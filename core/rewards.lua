@@ -774,6 +774,27 @@ function Reputation:IsObtained()
 end
 
 -------------------------------------------------------------------------------
+------------------------------------ DECOR ------------------------------------
+-------------------------------------------------------------------------------
+
+local Decor = Class('Decor', Reward)
+
+function Decor:Initialize(attrs)
+    Reward.Initialize(self, attrs)
+
+    if not self.id then
+        error('Decor() reward requires an decor id to be set')
+    end
+
+    self.itemLink = C_HousingDecor.GetDecorName(self.id)
+    self.itemIcon = 7252953 -- C_HousingDecor.GetDecorIcon(self.id)
+end
+
+function Decor:GetText()
+    return Icon(self.itemIcon) .. self.itemLink .. ' (' .. L['decor'] .. ')'
+end
+
+-------------------------------------------------------------------------------
 
 ns.reward = {
     Reward = Reward,
@@ -782,6 +803,7 @@ ns.reward = {
     Achievement = Achievement,
     Buff = Buff,
     Currency = Currency,
+    Decor = Decor,
     Follower = Follower,
     Item = Item,
     Heirloom = Heirloom,

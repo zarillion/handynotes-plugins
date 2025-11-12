@@ -7,9 +7,9 @@ local L = ns.locale
 local Class = ns.Class
 local Group = ns.Group
 
--- local Collectible = ns.node.Collectible
+local Collectible = ns.node.Collectible
 
--- local Achievement = ns.reward.Achievement
+local Achievement = ns.reward.Achievement
 
 -------------------------------------------------------------------------------
 
@@ -35,6 +35,12 @@ ns.groups.SKYRIDING_GLYPH = Group('skyriding_glyph', 4728198, {
     type = ns.group_types.EXPANSION
 })
 
+ns.groups.TELESCOPE = Group('telescope', 134442, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 62057
+})
+
 -------------------------------------------------------------------------------
 
 -- ns.groups.SAFARI = Group('safari', 4048818, {
@@ -54,6 +60,27 @@ local SkyridingGlyph = Class('SkyridingGlyph', Collectible, {
 })
 
 ns.node.SkyridingGlyph = SkyridingGlyph
+
+-------------------------------------------------------------------------------
+------------------------- MIDNIGHT: THE HIGHEST PEAKS -------------------------
+-------------------------------------------------------------------------------
+
+local Telescope = Class('Telescope', Collectible, {
+    icon = 1723999,
+    label = L['midnight_telescope'], -- Midnight Highest Peak Telescope
+    group = ns.groups.TELESCOPE,
+    rewards = {
+        Achievement({
+            id = 62057,
+            criteria = {id = 1, qty = true, suffix = L['telescopes_placed']}
+        })
+    },
+    IsCompleted = function(self)
+        return C_QuestLog.IsQuestFlaggedCompleted(self.quest[1])
+    end
+})
+
+ns.node.Telescope = Telescope
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
