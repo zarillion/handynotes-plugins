@@ -17,14 +17,14 @@ local Treasure = ns.node.Treasure
 
 -------------------------------------------------------------------------------
 
-cal = Map({id = 2547, settings = false}) -- Collegiate Calamity
-par = Map({id = 2545, settings = false}) -- Parhelion Plaza
-tdw = Map({id = nil, settings = false}) -- The Darkway
-gru = Map({id = 2510, settings = false}) -- The Grudge Pit
-gom = Map({id = 2505, settings = false}) -- The Gulf of Memory
-sks = Map({id = 2528, settings = false}) -- Sunkiller Sanctum - or 2540
-sgp = Map({id = 2506, settings = false}) -- Shadowguard Point
-tor = Map({id = 2507, settings = false}) -- Torment's Rise
+local cal = Map({id = 2547, settings = false}) -- Collegiate Calamity
+local par = Map({id = 2545, settings = false}) -- Parhelion Plaza
+local tdw = Map({id = nil, settings = false}) -- The Darkway
+local gru = Map({id = 2510, settings = false}) -- The Grudge Pit
+local gom = Map({id = 2505, settings = false}) -- The Gulf of Memory
+local sks = Map({id = 2528, settings = false}) -- Sunkiller Sanctum - or 2540
+local sgp = Map({id = 2506, settings = false}) -- Shadowguard Point
+local tor = Map({id = 2507, settings = false}) -- Torment's Rise
 
 -------------------------------------------------------------------------------
 
