@@ -326,7 +326,7 @@ end
 ----------------------------------- ENTRANCE ----------------------------------
 -------------------------------------------------------------------------------
 
-local Entrance = Class('Line', POI)
+local Entrance = Class('Entrance', POI)
 
 function Entrance:Initialize(attrs)
     POI.Initialize(self, attrs)

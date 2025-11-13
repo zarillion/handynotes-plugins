@@ -266,30 +266,10 @@ smc.nodes[38107699] = Treasure({
     rewards = {Achievement({id = 62104, criteria = 111833})}
 }) -- Unfinished Sheet Music
 
-map.nodes[17504000] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111772})}
-}) -- Tablet of Akil'zon
-
 map.nodes[17504500] = Treasure({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111773})}
 }) -- Tablet of Halazzi
-
-map.nodes[17505000] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111774})}
-}) -- Tablet of Jan'alai
-
-map.nodes[17505500] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111775})}
-}) -- Tablet of Nalorakk
-
-map.nodes[17506000] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111776})}
-}) -- Tablet of the Witherbark
 
 map.nodes[17506500] = Treasure({
     quest = nil,
