@@ -1,5 +1,9 @@
 # v127
 
+* Added Mawtouched Geomental.
+* Added more Itsy Bitsy Spider nodes.
+* Fixed some tooltip rendering errors.
+
 # v126
 
 * Localization updates: ruRU
