@@ -271,11 +271,6 @@ map.nodes[17504500] = Treasure({
     rewards = {Achievement({id = 62104, criteria = 111773})}
 }) -- Tablet of Halazzi
 
-map.nodes[17506500] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111777})}
-}) -- Tablet of Kulzi
-
 map.nodes[17507000] = Treasure({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111778})}

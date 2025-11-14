@@ -12,7 +12,10 @@ local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Item = ns.reward.Item
 local Transmog = ns.reward.Transmog
+
+local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
@@ -52,15 +55,18 @@ map.nodes[10003000] = Rare({
     rewards = {Achievement({id = 62122, criteria = 111843})}
 }) -- Mrrlokk
 
-map.nodes[10003500] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
-    rewards = {Achievement({id = 62122, criteria = 111844})}
+map.nodes[38994997] = Rare({
+    id = 247976, -- Placeholder
+    quest = 91634, -- 94701
+    rewards = {
+        Achievement({id = 62122, criteria = 111844}),
+        Transmog({item = 264627, type = L['polearm']}) -- Rav'ik's Space Hunting Spear
+    }
 }) -- Poacher Rav'ik
 
-map.nodes[10004000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+map.nodes[30484456] = Rare({
+    id = 242031,
+    quest = 89578, -- 94702
     rewards = {Achievement({id = 62122, criteria = 111845})}
 }) -- Spinefrill
 
@@ -98,8 +104,7 @@ map.nodes[33718897] = Rare({
     id = 242026,
     quest = 89572, -- 94707
     rewards = {
-        Achievement({id = 62122, criteria = 111850}),
-        ns.reward.Item({item = 265543})
+        Achievement({id = 62122, criteria = 111850}), Item({item = 265543})
     }
 }) -- Elder Oaktalon
 
@@ -107,8 +112,7 @@ map.nodes[47682056] = Rare({
     id = 242027,
     quest = 94708, -- 89573
     rewards = {
-        Achievement({id = 62122, criteria = 111851}),
-        ns.reward.Item({item = 265560})
+        Achievement({id = 62122, criteria = 111851}), Item({item = 265560})
     }
 }) -- Depthborn Eelamental
 
@@ -143,23 +147,37 @@ map.nodes[46838186] = Treasure({
 -- of the great warriors of old at their final resting places
 -- in the sacred grounds of their loa.
 
-map.nodes[20002000] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 62125, criteria = 111856})}
+-- Node also appears on the minimap at 21507728, but i cant find it.
+
+map.nodes[21897738] = Treasure({
+    quest = 93871,
+    rewards = {
+        Achievement({id = 62125, criteria = 111856}), Item({item = 265362}) -- Arsenal: Twilight Blade
+    },
+    pois = {
+        POI({points = 24027566, label = L['sealing_orb'], quest = 93918}),
+        POI({points = 26097401, label = L['sealing_orb'], quest = 93919}),
+        POI({points = 26098074, label = L['sealing_orb'], quest = 93916}),
+        POI({points = 23957895, label = L['sealing_orb'], quest = 93917})
+    }
 }) -- Sealed Twilight Blade Bounty
+-- A tugging feeling draws your attention towards the nearby towers when you touch this chest.
+
+-- sealing orbs: 24027566 -> 93918, 26097401 -> 93919, 26098074 -> 93916, 23957895 -> 93917
 
 map.nodes[20002500] = Treasure({
     quest = nil,
     rewards = {Achievement({id = 62125, criteria = 111857})}
 }) -- Bait and Tackle
 
-map.nodes[20003000] = Treasure({
-    quest = nil,
+map.nodes[41994779] = Treasure({
+    quest = 90796,
+    location = L['small_cave'],
     rewards = {Achievement({id = 62125, criteria = 111858})}
 }) -- Burrow Bounty
 
-map.nodes[20003500] = Treasure({
-    quest = nil,
+map.nodes[52326599] = Treasure({
+    quest = 90797,
     rewards = {Achievement({id = 62125, criteria = 111859})}
 }) -- Mrruk's Mangy Trove
 
@@ -168,14 +186,18 @@ map.nodes[20004000] = Treasure({
     rewards = {Achievement({id = 62125, criteria = 111860})}
 }) -- Secret Formula
 
-map.nodes[20004500] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 62125, criteria = 111861})}
+map.nodes[42645243] = Treasure({
+    quest = 90799,
+    rewards = {
+        Achievement({id = 62125, criteria = 111861}), Item({item = 255008}) -- Abandoned Eagle Egg - todo: probably placeholder ([DNT] in name), has duration: 3 days
+    }
 }) -- Abandoned Nest
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
+
+-- @41994652 Spelunker's Lucky Charm - Quest 89145 - Mining
 
 -------------------------------------------------------------------------------
 ---------------------------- ZUL'AMAN GLYPH HUNTER ----------------------------
@@ -197,7 +219,7 @@ map.nodes[51482357] = SkyridingGlyph({
     rewards = {Achievement({id = 61581, criteria = 110356})}
 }) -- Temple of Jan'alai
 
-map.nodes[20003000] = SkyridingGlyph({
+map.nodes[53205448] = SkyridingGlyph({
     rewards = {Achievement({id = 61581, criteria = 110357})}
 }) -- Strait of Hexx'alor
 
@@ -213,7 +235,7 @@ map.nodes[20004500] = SkyridingGlyph({
     rewards = {Achievement({id = 61581, criteria = 110360})}
 }) -- Zeb'Alar Lumberyard
 
-map.nodes[20005000] = SkyridingGlyph({
+map.nodes[24825483] = SkyridingGlyph({
     rewards = {Achievement({id = 61581, criteria = 110361})}
 }) -- Amani Pass
 
@@ -247,6 +269,11 @@ map.nodes[55131762] = Treasure({
     quest = 94631,
     rewards = {Achievement({id = 62104, criteria = 111774})}
 }) -- Tablet of Jan'alai
+
+map.nodes[39264472] = Treasure({
+    quest = 94673,
+    rewards = {Achievement({id = 62104, criteria = 111777})}
+}) -- Tablet of Kulzi
 
 ------------------------- MIDNIGHT: THE HIGHEST PEAKS -------------------------
 
