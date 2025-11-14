@@ -15,6 +15,7 @@
 * **[HandyNotes: Shadowlands](https://www.curseforge.com/wow/addons/handynotes-shadowlands)**
 * [HandyNotes: Dragonflight](https://www.curseforge.com/wow/addons/handynotes-dragonflight)
 * [HandyNotes: The War Within](https://www.curseforge.com/wow/addons/handynotes-the-war-within)
+* [HandyNotes: Midnight](https://www.curseforge.com/wow/addons/handynotes-midnight)
 
 ## Global Features
 
