@@ -12,6 +12,10 @@ local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Item = ns.reward.Item
+local Transmog = ns.reward.Transmog
+
+local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
 
@@ -22,10 +26,16 @@ local smc = Map({id = 2393, settings = true}) -- Silvermoon City
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[10001000] = Rare({
+map.nodes[51927380] = Rare({
     id = 246332,
-    quest = nil, -- 91280 ?
-    rewards = {Achievement({id = 61507, criteria = 110166})}
+    quest = 91280, -- 94681 ?
+    rewards = {
+        Achievement({id = 61507, criteria = 110166}),
+        Transmog({item = 264520, type = L['staff']}) -- Warden's Leycrook
+    },
+    pois = {
+        Path({51397508, 51527435, 51927380, 52587399, 52807469, 52587536}) -- Got killed before he stopped at the end.
+    }
 }) -- Warden of Weeds
 
 map.nodes[10001500] = Rare({
@@ -34,10 +44,13 @@ map.nodes[10001500] = Rare({
     rewards = {Achievement({id = 61507, criteria = 110167})}
 }) -- Harried Hawkstrider
 
-map.nodes[10002000] = Rare({
+map.nodes[54706018] = Rare({
     id = 240129,
-    quest = nil, -- 92392 ?
-    rewards = {Achievement({id = 61507, criteria = 110168})}
+    quest = 92392, -- 94684
+    rewards = {
+        Achievement({id = 61507, criteria = 110168}),
+        Transmog({item = 264523, type = L['1h_sword']})
+    }
 }) -- Overfester Hydra
 
 map.nodes[10002500] = Rare({
@@ -70,10 +83,13 @@ map.nodes[40198539] = Rare({
     rewards = {Achievement({id = 61507, criteria = 110173})}
 }) -- Terrinor
 
-map.nodes[10005000] = Rare({
+map.nodes[49058775] = Rare({
     id = 250841,
-    quest = nil, -- 92404 ?
-    rewards = {Achievement({id = 61507, criteria = 110174})}
+    quest = 92404, -- 94690
+    rewards = {
+        Achievement({id = 61507, criteria = 110174}),
+        Transmog({item = 264536, type = L['cloth']}) -- Zedling Summoning Collar
+    }
 }) -- Bad Zed
 
 map.nodes[10005500] = Rare({
@@ -116,7 +132,8 @@ map.nodes[10008000] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[12501500] = Treasure({
+map.nodes[24346928] = Treasure({
+    requires = ns.requirement.Item(263870), -- Rookery Cache Key
     quest = nil,
     rewards = {Achievement({id = 61960, criteria = 111471})}
 }) -- Rookery Cache
@@ -188,7 +205,7 @@ map.nodes[58921954] = SkyridingGlyph({
     rewards = {Achievement({id = 61576, criteria = 110337})}
 }) -- Silvermoon City
 
-map.nodes[15001500] = SkyridingGlyph({
+map.nodes[54555098] = SkyridingGlyph({
     rewards = {Achievement({id = 61576, criteria = 110338})}
 }) -- Runestone Shan'dor
 
@@ -256,8 +273,8 @@ map.nodes[17502500] = Treasure({
     rewards = {Achievement({id = 62104, criteria = 111831})}
 }) -- Dar'khan's Notes
 
-map.nodes[17503000] = Treasure({
-    quest = nil,
+map.nodes[57815092] = Treasure({
+    quest = 93562,
     rewards = {Achievement({id = 62104, criteria = 111832})}
 }) -- Hawkstrider Husbandry Manual
 
