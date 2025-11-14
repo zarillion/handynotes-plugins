@@ -1,4 +1,5 @@
 from pathlib import Path
+import os
 import sys
 
 import click
@@ -42,12 +43,19 @@ HERE = Path(__file__).absolute().parent
     required=True,
     help="GitHub API token",
 )
+@click.option(
+    "-e",
+    "--expansion",
+    type=int,
+    help="Expansion number to release"
+)
 def main(
     tag: ReleaseTag,
     curse_token: str,
     wago_token: str,
     wowi_token: str,
     github_token: str,
+    expansion: int | None = None,
 ):
     """
     Release TAG as a new set of plugin versions based on the files that have changed
@@ -58,7 +66,7 @@ def main(
         python release.py v60
     """
 
-    if tag.value not in current_tags():
+    if "CI" in os.environ and tag.value not in current_tags():
         print(f"Tag not present on HEAD: {tag}", file=sys.stderr)
         return 1
 
@@ -68,7 +76,12 @@ def main(
     released = set()
     success: list[bool] = []
 
-    for plugin in filtered_plugins(plugins, tag):
+    if expansion:
+        plugins = [p for p in plugins if f"{expansion:02d}" in p.dir]
+    else:
+        plugins = filtered_plugins(plugins, tag)
+
+    for plugin in plugins:
         zip = create_release_zip(plugin, tag)
 
         if plugin.curse:
@@ -81,7 +94,9 @@ def main(
         print(f"Released: {plugin.name}-{tag}")
         released.add(zip)
 
-    success.append(upload_as_github_release(tag, released, github_token))
+    if not expansion:
+        success.append(upload_as_github_release(tag, released, github_token))
+
     return 0 if all(success) else 1
 
 

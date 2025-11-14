@@ -29,8 +29,8 @@ def changed_files(ref1: str, ref2: str) -> list[Path]:
 class ReleaseTag:
     def __init__(self, value: str):
         self.value = value
-        if match := re.fullmatch(r"v(\d+)", value):
-            self.version = int(match.group(1))
+        if match := re.fullmatch(r"(v|b)(\d+)", value):
+            self.version = int(match.group(2))
         else:
             raise ValueError(value)
 
