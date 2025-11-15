@@ -232,7 +232,8 @@ function Specialization:Initialize(id)
 end
 
 function Specialization:IsMet()
-    local specID = GetSpecializationInfo(GetSpecialization())
+    local specID = C_SpecializationInfo.GetSpecializationInfo(
+        C_SpecializationInfo.GetSpecialization())
     return specID == self.id
 end
 
