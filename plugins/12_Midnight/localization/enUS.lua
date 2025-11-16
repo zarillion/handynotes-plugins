@@ -22,8 +22,8 @@ L['options_icons_midnight_lore_hunter_desc'] = 'Display lore object locations fo
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------
 
-L['eversong_woods_stone_vat_of_wine_note'] = "Requires 10 {item:256232} and {item:256397} from {npc:251405}.\n\nStomp on the Grapes then add the yeast."
-L['eversong_woods_stone_vat_of_wine_location'] = "On a flying platform."
+L['eversong_woods_stone_vat_of_wine_note'] = 'Requires 10x {item:256232} and 1x {item:256397} from {npc:251405}.\n\nStomp on the Grapes then add the yeast.'
+L['eversong_woods_stone_vat_of_wine_location'] = 'On a flying platform.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR -----------------------------------
