@@ -10,6 +10,7 @@ local Rare = ns.node.Rare
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
+local PT = ns.node.ProfessionTreasures
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
@@ -26,37 +27,37 @@ local map = Map({id = 2437, settings = true})
 -------------------------------------------------------------------------------
 
 map.nodes[10001000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 242023,
+    quest = nil, -- 89569
     rewards = {Achievement({id = 62122, criteria = 111839})}
 }) -- Necrohexxer Raz'ka
 
 map.nodes[51801862] = Rare({
-    id = 242024, -- Placeholder
+    id = 242024,
     quest = 89570, -- 94697
     rewards = {Achievement({id = 62122, criteria = 111840})}
 }) -- The Snapping Scourge
 
 map.nodes[10002000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 242025,
+    quest = nil, -- 89571
     rewards = {Achievement({id = 62122, criteria = 111841})}
 }) -- Skullcrusher Harak
 
 map.nodes[10002500] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 242028,
+    quest = nil, -- 89575
     rewards = {Achievement({id = 62122, criteria = 111842})}
 }) -- Lightwood Borer
 
 map.nodes[10003000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 245975,
+    quest = nil, -- 91174
     rewards = {Achievement({id = 62122, criteria = 111843})}
 }) -- Mrrlokk
 
 map.nodes[38994997] = Rare({
-    id = 247976, -- Placeholder
+    id = 247976,
     quest = 91634, -- 94701
     rewards = {
         Achievement({id = 62122, criteria = 111844}),
@@ -80,7 +81,7 @@ map.nodes[46295113] = Rare({
 }) -- Oophaga
 
 map.nodes[47773422] = Rare({
-    id = 242033, -- Placeholder
+    id = 242033,
     quest = 89580, -- 94704
     rewards = {
         Achievement({id = 62122, criteria = 111847}),
@@ -89,14 +90,14 @@ map.nodes[47773422] = Rare({
 }) -- Tiny Vermin
 
 map.nodes[10005500] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 242034,
+    quest = nil, -- 89581
     rewards = {Achievement({id = 62122, criteria = 111848})}
 }) -- Voidtouched Crustacean
 
-map.nodes[10006000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+map.nodes[39402040] = Rare({ -- wowhead beta coords
+    id = 242035,
+    quest = nil, -- 89583
     rewards = {Achievement({id = 62122, criteria = 111849})}
 }) -- The Devouring Invader
 
@@ -118,13 +119,13 @@ map.nodes[47682056] = Rare({
 
 map.nodes[46484359] = Rare({
     id = 245691,
-    quest = nil,
+    quest = nil, -- 91072
     rewards = {Achievement({id = 62122, criteria = 111852})}
 }) -- The Decaying Diamondback
 
 map.nodes[45294170] = Rare({
     id = 245692,
-    quest = nil,
+    quest = nil, -- 91073
     rewards = {Achievement({id = 62122, criteria = 111853})}
 }) -- Asha the Empowered
 
@@ -154,16 +155,13 @@ map.nodes[21897738] = Treasure({
     rewards = {
         Achievement({id = 62125, criteria = 111856}), Item({item = 265362}) -- Arsenal: Twilight Blade
     },
-    pois = {
+    pois = { -- sealing orbs
         POI({points = 24027566, label = L['sealing_orb'], quest = 93918}),
         POI({points = 26097401, label = L['sealing_orb'], quest = 93919}),
         POI({points = 26098074, label = L['sealing_orb'], quest = 93916}),
         POI({points = 23957895, label = L['sealing_orb'], quest = 93917})
     }
 }) -- Sealed Twilight Blade Bounty
--- A tugging feeling draws your attention towards the nearby towers when you touch this chest.
-
--- sealing orbs: 24027566 -> 93918, 26097401 -> 93919, 26098074 -> 93916, 23957895 -> 93917
 
 map.nodes[20002500] = Treasure({
     quest = nil,
@@ -197,7 +195,7 @@ map.nodes[42645243] = Treasure({
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
--- @41994652 Spelunker's Lucky Charm - Quest 89145 - Mining
+map.nodes[41994652] = PT.Mining({id = 238597, quest = 89145}) -- Spelunker's Lucky Charm
 
 -------------------------------------------------------------------------------
 ---------------------------- ZUL'AMAN GLYPH HUNTER ----------------------------

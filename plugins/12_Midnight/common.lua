@@ -41,6 +41,12 @@ ns.groups.TELESCOPE = Group('telescope', 134442, {
     achievement = 62057
 })
 
+ns.groups.MIDNIGHT_LORE_HUNTER = Group('midnight_lore_hunter', 4549135, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 62104
+})
+
 -------------------------------------------------------------------------------
 
 -- ns.groups.SAFARI = Group('safari', 4048818, {
@@ -83,55 +89,66 @@ local Telescope = Class('Telescope', Collectible, {
 ns.node.Telescope = Telescope
 
 -------------------------------------------------------------------------------
+----------------------------- MIDNIGHT LORE HUNTER ----------------------------
+-------------------------------------------------------------------------------
+
+local LoreObject = Class('LoreObject', Collectible, {
+    icon = 4549135,
+    group = ns.groups.MIDNIGHT_LORE_HUNTER
+})
+
+ns.node.LoreObject = LoreObject
+
+-------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
--- local ProfessionMaster = Class('ProfessionMaster', ns.node.NPC, {
---     scale = 0.9,
---     group = ns.groups.PROFESSION_TREASURES
--- })
+local ProfessionMaster = Class('ProfessionMaster', ns.node.NPC, {
+    scale = 0.9,
+    group = ns.groups.PROFESSION_TREASURES
+})
 
--- function ProfessionMaster:IsEnabled()
---     if not ns.PlayerHasProfession(self.skillID) then return false end
---     return ns.node.NPC.IsEnabled(self)
--- end
+function ProfessionMaster:IsEnabled()
+    if not ns.PlayerHasProfession(self.skillID) then return false end
+    return ns.node.NPC.IsEnabled(self)
+end
 
--- local ProfessionTreasure = Class('ProfessionTreasure', ns.node.Item, {
---     scale = 0.9,
---     group = ns.groups.PROFESSION_TREASURES
--- })
+local ProfessionTreasure = Class('ProfessionTreasure', ns.node.Item, {
+    scale = 0.9,
+    group = ns.groups.PROFESSION_TREASURES
+})
 
--- function ProfessionTreasure:IsEnabled()
---     if not ns.PlayerHasProfession(self.skillID) then return false end
---     return ns.node.Item.IsEnabled(self)
--- end
+function ProfessionTreasure:IsEnabled()
+    if not ns.PlayerHasProfession(self.skillID) then return false end
+    return ns.node.Item.IsEnabled(self)
+end
 
--- ns.node.ProfessionMasters = {}
--- ns.node.ProfessionTreasures = {}
+ns.node.ProfessionMasters = {}
+ns.node.ProfessionTreasures = {}
 
--- local PM = ns.node.ProfessionMasters
--- local PT = ns.node.ProfessionTreasures
+local PM = ns.node.ProfessionMasters
+local PT = ns.node.ProfessionTreasures
 
--- for _, profession in pairs(ns.professions) do
---     if profession.variantID ~= nil then
---         local name = profession.name
---         local icon = profession.icon
---         local skillID = profession.skillID
---         local variantID = profession.variantID[11]
+for _, profession in pairs(ns.professions) do
+    if profession.variantID ~= nil then
+        local name = profession.name
+        local icon = profession.icon
+        local skillID = profession.skillID
+        local variantID = profession.variantID[11]
 
---         PM[name] = Class(name .. 'Master', ProfessionMaster, {
---             icon = icon,
---             skillID = skillID,
---             requires = ns.requirement.Profession(skillID, variantID, 1)
---         })
+        PM[name] = Class(name .. 'Master', ProfessionMaster, {
+            icon = icon,
+            skillID = skillID,
+            requires = ns.requirement.Profession(skillID, variantID, 1)
+        })
 
---         PT[name] = Class(name .. 'Treasure', ProfessionTreasure, {
---             icon = icon,
---             skillID = skillID,
---             requires = ns.requirement.Profession(skillID, variantID, 1)
---         })
---     end
--- end
+        PT[name] = Class(name .. 'Treasure', ProfessionTreasure, {
+            icon = icon,
+            skillID = skillID,
+            requires = ns.requirement.Profession(skillID, variantID, 1)
+        })
+    end
+end
 
 -------------------------------------------------------------------------------
 ------------------------------- MIDNIGHT SAFARI -------------------------------

@@ -21,92 +21,92 @@ local map = Map({id = 2413, settings = true}) -- or 2480
 -------------------------------------------------------------------------------
 
 map.nodes[10001000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 248741,
+    quest = nil, -- 91832
     rewards = {Achievement({id = 61264, criteria = 109039})}
 }) -- Rhazul
 
 map.nodes[10001500] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 249844,
+    quest = nil, -- 92137
     rewards = {Achievement({id = 61264, criteria = 109040})}
 }) -- Chironex
 
 map.nodes[10002000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 249849,
+    quest = nil, -- 92142
     rewards = {Achievement({id = 61264, criteria = 109041})}
 }) -- Ha'kalawe
 
 map.nodes[10002500] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 249902,
+    quest = nil, -- 92148
     rewards = {Achievement({id = 61264, criteria = 109042})}
 }) -- Tallcap the Truthspreader
 
 map.nodes[10003000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 249962,
+    quest = nil, -- 92154
     rewards = {Achievement({id = 61264, criteria = 109043})}
 }) -- Queen Lashtongue
 
 map.nodes[10003500] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 249997,
+    quest = nil, -- 92161
     rewards = {Achievement({id = 61264, criteria = 109044})}
 }) -- Chlorokyll
 
 map.nodes[10004000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 250086,
+    quest = nil, -- 92168
     rewards = {Achievement({id = 61264, criteria = 109045})}
 }) -- Stumpy
 
 map.nodes[10004500] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 250180,
+    quest = nil, -- 92170
     rewards = {Achievement({id = 61264, criteria = 109046})}
 }) -- Serrasa
 
 map.nodes[10005000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 250226,
+    quest = nil, -- 92172
     rewards = {Achievement({id = 61264, criteria = 109047})}
 }) -- Mindrot
 
 map.nodes[10005500] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 250231,
+    quest = nil, -- 92176
     rewards = {Achievement({id = 61264, criteria = 109048})}
 }) -- Dracaena
 
 map.nodes[10006000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 250246,
+    quest = nil, -- 92183
     rewards = {Achievement({id = 61264, criteria = 109049})}
 }) -- Treetop
 
 map.nodes[10006500] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 250317,
+    quest = nil, -- 92190
     rewards = {Achievement({id = 61264, criteria = 109050})}
 }) -- Oro'ohna
 
 map.nodes[10007000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 250321,
+    quest = nil, -- 92191
     rewards = {Achievement({id = 61264, criteria = 109051})}
 }) -- Pterrock
 
 map.nodes[10007500] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 250347,
+    quest = nil, -- 92193
     rewards = {Achievement({id = 61264, criteria = 109052})}
 }) -- Ahl'ua'huhi
 
 map.nodes[10008000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 250358,
+    quest = nil, -- 92194
     rewards = {Achievement({id = 61264, criteria = 109053})}
 }) -- Annulus the Worldshaker
 

@@ -21,86 +21,86 @@ local map = Map({id = 2405, settings = true}) -- or 2479
 -------------------------------------------------------------------------------
 
 map.nodes[10001000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 244272,
+    quest = nil, -- 90805
     rewards = {Achievement({id = 62130, criteria = 111877})}
 }) -- Sundereth the Caller
 
 map.nodes[10001500] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 238498,
+    quest = nil, -- 91050
     rewards = {Achievement({id = 62130, criteria = 111878})}
 }) -- Territorial Voidscythe
 
 map.nodes[10002000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 241443,
+    quest = nil, -- 91048
     rewards = {Achievement({id = 62130, criteria = 111879})}
 }) -- Tremora
 
 map.nodes[10002500] = Rare({
     id = 130210, -- Placeholder
-    quest = nil,
+    quest = nil, -- 93966
     rewards = {Achievement({id = 62130, criteria = 111880})}
 }) -- Screamara the Matriarch
 
 map.nodes[10003000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 256923,
+    quest = nil, -- 93946
     rewards = {Achievement({id = 62130, criteria = 111881})}
 }) -- Bane of the Vilebloods
 
 map.nodes[10003500] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 256924,
+    quest = nil, -- 93944
     rewards = {Achievement({id = 62130, criteria = 111882})}
 }) -- Aeonelle Blackstar
 
 map.nodes[10004000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 256925,
+    quest = nil, -- 93947
     rewards = {Achievement({id = 62130, criteria = 111883})}
 }) -- Lotus Darkblossom
 
 map.nodes[10004500] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 256926,
+    quest = nil, -- 93934
     rewards = {Achievement({id = 62130, criteria = 111884})}
 }) -- Queen o' War
 
 map.nodes[10005000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 256808,
+    quest = nil, -- 93895
     rewards = {Achievement({id = 62130, criteria = 111885})}
 }) -- Ravengerus
 
 map.nodes[10005500] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 257027,
+    quest = nil, -- 93953
     rewards = {Achievement({id = 62130, criteria = 111886})}
 }) -- Rakshur the Bonegrinder
 
 map.nodes[10006000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 256770,
+    quest = nil, -- 93884
     rewards = {Achievement({id = 62130, criteria = 111887})}
 }) -- Bilemaw the Gluttonous
 
-map.nodes[10006500] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+map.nodes[41609320] = Rare({ -- wowhead beta coords
+    id = 245182,
+    quest = nil, -- 91047
     rewards = {Achievement({id = 62130, criteria = 111888})}
 }) -- Eruundi
 
 map.nodes[10007000] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 245044,
+    quest = nil, -- 91051
     rewards = {Achievement({id = 62130, criteria = 111889})}
 }) -- Nightbrood
 
 map.nodes[10007500] = Rare({
-    id = 130210, -- Placeholder
-    quest = nil,
+    id = 256821,
+    quest = nil, -- 93896
     rewards = {Achievement({id = 62130, criteria = 111890})}
 }) -- Far'thana the Mad
 

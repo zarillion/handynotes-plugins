@@ -6,6 +6,7 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local LoreObject = ns.node.LoreObject
 local Rare = ns.node.Rare
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
@@ -53,9 +54,9 @@ map.nodes[54706018] = Rare({
     }
 }) -- Overfester Hydra
 
-map.nodes[10002500] = Rare({
+map.nodes[36566408] = Rare({
     id = 250582,
-    quest = nil, -- 92366 ?
+    quest = 34685, -- 92366 ?
     rewards = {Achievement({id = 61507, criteria = 110169})}
 }) -- Bloated Snapdragon
 
@@ -71,9 +72,9 @@ map.nodes[10003500] = Rare({
     rewards = {Achievement({id = 61507, criteria = 110171})}
 }) -- Coralfang
 
-map.nodes[10004000] = Rare({
+map.nodes[36657718] = Rare({
     id = 250754,
-    quest = nil, -- 92393 ?
+    quest = 92393, -- 94688
     rewards = {Achievement({id = 61507, criteria = 110172})}
 }) -- Lady Liminus
 
@@ -139,6 +140,11 @@ map.nodes[24346928] = Treasure({
 }) -- Rookery Cache
 
 map.nodes[38897606] = Treasure({
+    requires = {
+        ns.requirement.Item(258768), -- Battered Safebox Key
+        ns.requirement.Item(258769), -- Worn Safebox Key @ 38467346
+        ns.requirement.Item(258770) -- Tarnished Safebox Key
+    },
     quest = nil,
     rewards = {Achievement({id = 61960, criteria = 111472})}
 }) -- Triple-Locked Safebox
@@ -193,8 +199,9 @@ map.nodes[48737544] = Treasure({
 ------------------------- EVERSONG WOODS GLYPH HUNTER -------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[15001000] = SkyridingGlyph({
-    rewards = {Achievement({id = 61576, criteria = 110335})}
+smc.nodes[48320667] = SkyridingGlyph({
+    rewards = {Achievement({id = 61576, criteria = 110335})},
+    parent = map.id
 }) -- The Shining Span
 
 map.nodes[40401011] = SkyridingGlyph({
@@ -253,95 +260,97 @@ smc.nodes[79266076] = Telescope({quest = 94539, parent = map.id})
 
 -- note: from all zones in Midnight. move node to the zone when you find it there.
 
-map.nodes[47958820] = Treasure({
+map.nodes[47958820] = LoreObject({
     quest = 91841,
     rewards = {Achievement({id = 62104, criteria = 111828})}
 }) -- Memorial Plaque
 
-map.nodes[37601378] = Treasure({
+map.nodes[37601378] = LoreObject({
     quest = 93563,
     rewards = {Achievement({id = 62104, criteria = 111829})}
 }) -- Shrine of Dath'remar
 
-map.nodes[50524347] = Treasure({
+map.nodes[50524347] = LoreObject({
     quest = 93564,
     rewards = {Achievement({id = 62104, criteria = 111830})}
 }) -- Dead Scar Research
 
-map.nodes[17502500] = Treasure({
+map.nodes[17502500] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111831})}
 }) -- Dar'khan's Notes
 
-map.nodes[57815092] = Treasure({
+map.nodes[57815092] = LoreObject({
     quest = 93562,
     rewards = {Achievement({id = 62104, criteria = 111832})}
 }) -- Hawkstrider Husbandry Manual
 
-smc.nodes[38107699] = Treasure({
+smc.nodes[38107699] = LoreObject({
     quest = 93570,
     rewards = {Achievement({id = 62104, criteria = 111833})}
 }) -- Unfinished Sheet Music
 
-map.nodes[17504500] = Treasure({
+map.nodes[17504500] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111773})}
 }) -- Tablet of Halazzi
 
-map.nodes[17507000] = Treasure({
+map.nodes[17507000] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111778})}
 }) -- Tablet of Filo
 
-map.nodes[17507500] = Treasure({
+map.nodes[17507500] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111823})}
 }) -- Tarnished Mural
 
-map.nodes[17508000] = Treasure({
+map.nodes[17508000] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111824})}
 }) -- Ancient Runestone
 
-map.nodes[17508500] = Treasure({
+map.nodes[17508500] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111825})}
 }) -- Derelict Mural
 
-map.nodes[17509000] = Treasure({
+map.nodes[17509000] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111826})}
 }) -- Forgotten Mural
 
-map.nodes[18501000] = Treasure({
+map.nodes[18501000] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111827})}
 }) -- A Frayed Scroll
 
-map.nodes[18501500] = Treasure({
+map.nodes[18501500] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111834})}
 }) -- Void Armor
 
-map.nodes[18502000] = Treasure({
+map.nodes[18502000] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111835})}
 }) -- Ancient Tablet
 
-map.nodes[18502500] = Treasure({
+map.nodes[18502500] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111836})}
 }) -- Abandoned Telescope
 
-map.nodes[18511500] = Treasure({
+map.nodes[18511500] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111837})}
 }) -- Tainted Page
 
-map.nodes[18512000] = Treasure({
+map.nodes[18512000] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111838})}
 }) -- Shadowgraft Harness
+
+-- Profane Research @36047251 quest 93565
 
 -------------------------------- EVER PAINTIG ---------------------------------
 
