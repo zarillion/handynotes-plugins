@@ -9,8 +9,11 @@ local Map = ns.Map
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 local SkyridingGlyph = ns.node.SkyridingGlyph
+local Telescope = ns.node.Telescope
+local LoreObject = ns.node.LoreObject
 
 local Achievement = ns.reward.Achievement
+local Toy = ns.reward.Toy
 
 -------------------------------------------------------------------------------
 
@@ -86,9 +89,9 @@ map.nodes[10006000] = Rare({
     rewards = {Achievement({id = 61264, criteria = 109049})}
 }) -- Treetop
 
-map.nodes[10006500] = Rare({
+map.nodes[28128184] = Rare({ -- review
     id = 250317,
-    quest = nil, -- 92190
+    quest = 92190, -- 94723
     rewards = {Achievement({id = 61264, criteria = 109050})}
 }) -- Oro'ohna
 
@@ -114,13 +117,15 @@ map.nodes[10008000] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[20001000] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 61263, criteria = 109033})}
+map.nodes[71683100] = Treasure({
+    quest = 92424,
+    rewards = {
+        Achievement({id = 61263, criteria = 109033}), Toy({item = 258963})
+    }
 }) -- Failed Shroom Jumper's Satchel
 
-map.nodes[20001500] = Treasure({
-    quest = nil,
+map.nodes[47065025] = Treasure({
+    quest = 92426,
     rewards = {Achievement({id = 61263, criteria = 109034})}
 }) -- Burning Branch of the World Tree
 
@@ -154,10 +159,14 @@ map.nodes[20004500] = Treasure({
     rewards = {Achievement({id = 61263, criteria = 110256})}
 }) -- Sporespawned Cache
 
-map.nodes[20005000] = Treasure({
+map.nodes[40642802] = Treasure({
+    requires = ns.requirement.Item(260531, 150), -- Crystalized Resin Fragment
     quest = nil,
     rewards = {Achievement({id = 61263, criteria = 110257})}
 }) -- Peculiar Cauldron
+
+-- Flame Harded Sap of Teldrassil @40862753 in water under a water lily, probably all over the zone, not on minimap
+-- gives 3-7 Resin, was lootable multiple times, sometimes said "there is no loot" but was lootable a seconds laiter. despawned after some time
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
@@ -170,7 +179,7 @@ map.nodes[25001000] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110364})}
 }) -- Blossoming Terrace, Harandar
 
-map.nodes[27501000] = SkyridingGlyph({
+map.nodes[47075321] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110365})}
 }) -- The Cradle, Harandar
 
@@ -178,7 +187,7 @@ map.nodes[30001000] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110366})}
 }) -- Roots of Teldrassil, Harandar
 
-map.nodes[32501000] = SkyridingGlyph({
+map.nodes[69304593] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110367})}
 }) -- Roots of Amirdrassil, Harandar
 
@@ -186,7 +195,7 @@ map.nodes[35001000] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110368})}
 }) -- Blooming Lattice, Harandar
 
-map.nodes[37501000] = SkyridingGlyph({
+map.nodes[73012599] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110369})}
 }) -- Roots of Nordrassil, Harandar
 
@@ -201,4 +210,49 @@ map.nodes[42501000] = SkyridingGlyph({
 map.nodes[45001000] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110371})}
 }) -- Rift of Aln, Harandar
+
+-------------------------------------------------------------------------------
+------------------------- MIDNIGHT: THE HIGHEST PEAKS -------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[49407592] = Telescope({quest = 94548})
+map.nodes[53495855] = Telescope({quest = 94550})
+map.nodes[69602132] = Telescope({quest = 94547})
+map.nodes[70524356] = Telescope({quest = 94546})
+
+---------------------------- MIDNIGHT LORE HUNTER -----------------------------
+
+map.nodes[33336084] = LoreObject({
+    quest = 93556,
+    rewards = {Achievement({id = 62104, criteria = 111824})}
+}) -- Ancient Runestone
+
+map.nodes[47604723] = LoreObject({
+    quest = 93559,
+    rewards = {Achievement({id = 62104, criteria = 111827})}
+}) -- A Frayed Scroll
+
+map.nodes[17507500] = LoreObject({
+    quest = nil,
+    rewards = {Achievement({id = 62104, criteria = 111823})}
+}) -- Tarnished Mural
+
+map.nodes[72443809] = LoreObject({
+    quest = 93557,
+    rewards = {Achievement({id = 62104, criteria = 111825})}
+}) -- Derelict Mural
+
+map.nodes[68212379] = LoreObject({
+    quest = 93558,
+    rewards = {Achievement({id = 62104, criteria = 111826})}
+}) -- Forgotten Mural
+
+-------------------------------------------------------------------------------
+
+-- Glowing Moth, first moth triggered quest 92231 and gives item 251881 which starts quest 92448
+-- moths give 1x currency 3385 (Luminous Dust)
+-- not on minimap
+
+-- 47634696 92231
+-- 40433446 92300
 

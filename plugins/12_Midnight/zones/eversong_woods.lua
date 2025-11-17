@@ -60,9 +60,9 @@ map.nodes[36566408] = Rare({
     rewards = {Achievement({id = 61507, criteria = 110169})}
 }) -- Bloated Snapdragon
 
-map.nodes[10003000] = Rare({
+map.nodes[62744907] = Rare({ -- review
     id = 250719,
-    quest = nil, -- 92391 ?
+    quest = 92391, -- 94686
     rewards = {Achievement({id = 61507, criteria = 110170})}
 }) -- Cre'van
 
@@ -300,31 +300,6 @@ map.nodes[17507000] = LoreObject({
     rewards = {Achievement({id = 62104, criteria = 111778})}
 }) -- Tablet of Filo
 
-map.nodes[17507500] = LoreObject({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111823})}
-}) -- Tarnished Mural
-
-map.nodes[17508000] = LoreObject({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111824})}
-}) -- Ancient Runestone
-
-map.nodes[17508500] = LoreObject({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111825})}
-}) -- Derelict Mural
-
-map.nodes[17509000] = LoreObject({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111826})}
-}) -- Forgotten Mural
-
-map.nodes[18501000] = LoreObject({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111827})}
-}) -- A Frayed Scroll
-
 map.nodes[18501500] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111834})}
@@ -387,4 +362,3 @@ map.nodes[20004000] = Treasure({
     quest = nil,
     rewards = {Achievement({id = 62185, criteria = 112035})}
 }) -- Elrendar's Song
-
