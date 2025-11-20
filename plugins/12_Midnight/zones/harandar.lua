@@ -14,6 +14,7 @@ local LoreObject = ns.node.LoreObject
 
 local Achievement = ns.reward.Achievement
 local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
 
@@ -23,9 +24,9 @@ local map = Map({id = 2413, settings = true}) -- or 2480
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[10001000] = Rare({
+map.nodes[51164535] = Rare({
     id = 248741,
-    quest = nil, -- 91832
+    quest = 94712, -- 91832
     rewards = {Achievement({id = 61264, criteria = 109039})}
 }) -- Rhazul
 
@@ -129,9 +130,12 @@ map.nodes[47065025] = Treasure({
     rewards = {Achievement({id = 61263, criteria = 109034})}
 }) -- Burning Branch of the World Tree
 
-map.nodes[20002000] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 61263, criteria = 109035})}
+map.nodes[73656535] = Treasure({
+    quest = 92427,
+    rewards = {
+        Achievement({id = 61263, criteria = 109035}),
+        Transmog({item = 263289, type = L['cosmetic']})
+    }
 }) -- Sporelord's Fight Prize
 
 map.nodes[20002500] = Treasure({
@@ -199,7 +203,7 @@ map.nodes[73012599] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110369})}
 }) -- Roots of Nordrassil, Harandar
 
-map.nodes[40001000] = SkyridingGlyph({
+map.nodes[44546280] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110370})}
 }) -- Fungara Village, Harandar
 
@@ -219,6 +223,7 @@ map.nodes[49407592] = Telescope({quest = 94548})
 map.nodes[53495855] = Telescope({quest = 94550})
 map.nodes[69602132] = Telescope({quest = 94547})
 map.nodes[70524356] = Telescope({quest = 94546})
+map.nodes[69406339] = Telescope({quest = 94549})
 
 ---------------------------- MIDNIGHT LORE HUNTER -----------------------------
 
@@ -232,8 +237,8 @@ map.nodes[47604723] = LoreObject({
     rewards = {Achievement({id = 62104, criteria = 111827})}
 }) -- A Frayed Scroll
 
-map.nodes[17507500] = LoreObject({
-    quest = nil,
+map.nodes[55665402] = LoreObject({
+    quest = 93554,
     rewards = {Achievement({id = 62104, criteria = 111823})}
 }) -- Tarnished Mural
 
@@ -247,12 +252,32 @@ map.nodes[68212379] = LoreObject({
     rewards = {Achievement({id = 62104, criteria = 111826})}
 }) -- Forgotten Mural
 
--------------------------------------------------------------------------------
+-------------------------------- GLOWING MOTHS --------------------------------
 
 -- Glowing Moth, first moth triggered quest 92231 and gives item 251881 which starts quest 92448
 -- moths give 1x currency 3385 (Luminous Dust)
--- not on minimap
 
--- 47634696 92231
--- 40433446 92300
+local Moth = Class('Moth', ns.node.Collectible, {
+    label = L['glowing_moth'],
+    icon = 'chest_pp',
+    group = ns.groups.GLOWING_MOTH,
+    rewards = {
+        ns.reward.Currency({id = 3385}) -- Luminous Dust
+    }
+})
 
+map.nodes[33954404] = Moth({quest = 92208})
+map.nodes[36112639] = Moth({quest = 92197})
+map.nodes[36354839] = Moth({quest = 92196})
+map.nodes[38344710] = Moth({quest = 92207})
+map.nodes[40433446] = Moth({quest = 92300})
+map.nodes[41592743] = Moth({quest = 92301})
+map.nodes[43215365] = Moth({quest = 92210})
+map.nodes[47634696] = Moth({quest = 92231})
+map.nodes[48545535] = Moth({quest = 92307})
+map.nodes[49267552] = Moth({quest = 92235})
+map.nodes[50266966] = Moth({quest = 92234})
+map.nodes[50634062] = Moth({quest = 92302})
+map.nodes[52935065] = Moth({quest = 92214})
+map.nodes[53765910] = Moth({quest = 92229})
+map.nodes[71385863] = Moth({quest = 92215})

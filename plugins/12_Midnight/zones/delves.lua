@@ -258,9 +258,9 @@ gru.nodes[10004000] = SturdyChest({
 ------------------------------ THE GULF OF MEMORY -----------------------------
 -------------------------------------------------------------------------------
 
-gom.nodes[10001000] = SturdyChest({
+gom.nodes[54232518] = SturdyChest({
     achievementID = 61898,
-    quest = nil,
+    quest = 94023,
     rlabel = ns.status.Gray('#1')
 })
 
