@@ -29,9 +29,9 @@ L['eversong_woods_stone_vat_of_wine_location'] = 'En una plataforma voladora.'
 ----------------------------------- HARANDAR -----------------------------------
 -------------------------------------------------------------------------------
 
-L['glowing_moth'] = nil
-L['options_icons_glowing_moth'] = nil
-L['options_icons_glowing_moth_desc'] = nil
+L['glowing_moth'] = 'Polilla resplandeciente'
+L['options_icons_glowing_moth'] = 'Polilla resplandeciente'
+L['options_icons_glowing_moth_desc'] = 'Muestra dónde están las Polillas resplandecientes.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
