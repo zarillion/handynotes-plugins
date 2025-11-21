@@ -30,9 +30,9 @@ L['eversong_woods_stone_vat_of_wine_location'] = 'Sur une plate-forme volante.'
 ----------------------------------- HARANDAR -----------------------------------
 -------------------------------------------------------------------------------
 
-L['glowing_moth'] = nil
-L['options_icons_glowing_moth'] = nil
-L['options_icons_glowing_moth_desc'] = nil
+L['glowing_moth'] = 'Phalène luminescent'
+L['options_icons_glowing_moth'] = 'Phalène luminescent'
+L['options_icons_glowing_moth_desc'] = 'Afficher les emplacements des Phalènes luminescentes.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
