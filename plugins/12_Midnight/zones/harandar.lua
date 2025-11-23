@@ -16,6 +16,8 @@ local Achievement = ns.reward.Achievement
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
+local Path = ns.poi.Path
+
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2413, settings = true}) -- or 2480
@@ -36,15 +38,22 @@ map.nodes[10001500] = Rare({
     rewards = {Achievement({id = 61264, criteria = 109040})}
 }) -- Chironex
 
-map.nodes[10002000] = Rare({
+map.nodes[69175986] = Rare({
     id = 249849,
     quest = nil, -- 92142
-    rewards = {Achievement({id = 61264, criteria = 109041})}
+    rewards = {Achievement({id = 61264, criteria = 109041})},
+    pois = {
+        Path({
+            69546295, 68806295, 68146280, 67696231, 67476167, 67466099,
+            68076071, 68636028, 69175986, 69666044, 70076098, 70226166,
+            70196238, 69546295
+        })
+    }
 }) -- Ha'kalawe
 
-map.nodes[10002500] = Rare({
+map.nodes[72636928] = Rare({
     id = 249902,
-    quest = nil, -- 92148
+    quest = 92148, -- 94715
     rewards = {Achievement({id = 61264, criteria = 109042})}
 }) -- Tallcap the Truthspreader
 
@@ -84,9 +93,9 @@ map.nodes[10005500] = Rare({
     rewards = {Achievement({id = 61264, criteria = 109048})}
 }) -- Dracaena
 
-map.nodes[10006000] = Rare({
+map.nodes[36597516] = Rare({
     id = 250246,
-    quest = nil, -- 92183
+    quest = 94722, -- 92183
     rewards = {Achievement({id = 61264, criteria = 109049})}
 }) -- Treetop
 
@@ -138,8 +147,8 @@ map.nodes[73656535] = Treasure({
     }
 }) -- Sporelord's Fight Prize
 
-map.nodes[20002500] = Treasure({
-    quest = nil,
+map.nodes[62905124] = Treasure({
+    quest = 92431,
     rewards = {Achievement({id = 61263, criteria = 109036})}
 }) -- Reliquary's Lost Paintbrush
 
@@ -176,10 +185,12 @@ map.nodes[40642802] = Treasure({
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
+-- Spare Expedition Torch (Mining) @38836586 quest 89151
+
 -------------------------------------------------------------------------------
 ----------------------------- HARANDAR GLYPH HUNTER ---------------------------
 -------------------------------------------------------------------------------
-map.nodes[25001000] = SkyridingGlyph({
+map.nodes[60244436] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110364})}
 }) -- Blossoming Terrace, Harandar
 
@@ -266,12 +277,19 @@ local Moth = Class('Moth', ns.node.Collectible, {
     }
 })
 
+map.nodes[30317339] = Moth({quest = 92211})
+map.nodes[31848176] = Moth({quest = 92203})
+map.nodes[32066708] = Moth({quest = 92213})
+map.nodes[32628477] = Moth({quest = 92212})
+map.nodes[33376349] = Moth({quest = 92201})
+map.nodes[33377561] = Moth({quest = 92202})
 map.nodes[33954404] = Moth({quest = 92208})
 map.nodes[36112639] = Moth({quest = 92197})
 map.nodes[36354839] = Moth({quest = 92196})
 map.nodes[38344710] = Moth({quest = 92207})
 map.nodes[40433446] = Moth({quest = 92300})
 map.nodes[41592743] = Moth({quest = 92301})
+map.nodes[42196651] = Moth({quest = 92204})
 map.nodes[43215365] = Moth({quest = 92210})
 map.nodes[47634696] = Moth({quest = 92231})
 map.nodes[48545535] = Moth({quest = 92307})
@@ -280,4 +298,9 @@ map.nodes[50266966] = Moth({quest = 92234})
 map.nodes[50634062] = Moth({quest = 92302})
 map.nodes[52935065] = Moth({quest = 92214})
 map.nodes[53765910] = Moth({quest = 92229})
+map.nodes[59445433] = Moth({quest = 92206})
+map.nodes[59984305] = Moth({quest = 92305})
+map.nodes[60344858] = Moth({quest = 92209})
+map.nodes[66306282] = Moth({quest = 92200})
+map.nodes[66965657] = Moth({quest = 92228})
 map.nodes[71385863] = Moth({quest = 92215})
