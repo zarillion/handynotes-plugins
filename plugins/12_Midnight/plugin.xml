@@ -5,8 +5,8 @@
   <Script file="zones\harandar.lua"/>
   <Script file="zones\voidstorm.lua"/>
   <Script file="zones\zul_aman.lua"/>
-
   <!-- -->
+  <Script file="zones\arcantina.lua"/>
   <Script file="zones\delves.lua"/>
   <Script file="zones\skyriding_races.lua"/>
 </Ui>
