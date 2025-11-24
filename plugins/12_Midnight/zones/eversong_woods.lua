@@ -17,6 +17,7 @@ local Item = ns.reward.Item
 local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
+local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
@@ -133,10 +134,12 @@ map.nodes[10008000] = Rare({
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[24346928] = Treasure({
+smc.nodes[24346928] = Treasure({
     requires = ns.requirement.Item(263870), -- Rookery Cache Key
     quest = nil,
-    rewards = {Achievement({id = 61960, criteria = 111471})}
+    location = L['on_flying_platform'],
+    rewards = {Achievement({id = 61960, criteria = 111471})},
+    parent = map.id
 }) -- Rookery Cache
 
 map.nodes[38897606] = Treasure({
@@ -145,12 +148,15 @@ map.nodes[38897606] = Treasure({
         ns.requirement.Item(258769), -- Worn Safebox Key @ 38467346
         ns.requirement.Item(258770) -- Tarnished Safebox Key
     },
-    quest = nil,
-    rewards = {Achievement({id = 61960, criteria = 111472})}
+    quest = 93456,
+    note = L['triple_locked_safebox_note'],
+    rewards = {Achievement({id = 61960, criteria = 111472})},
+    pois = {POI({40247582, 38467346, 37637480})}
 }) -- Triple-Locked Safebox
 
-map.nodes[12502500] = Treasure({
+map.nodes[40961945] = Treasure({
     quest = nil,
+    note = L['gift_of_the_phoenix_note'],
     rewards = {Achievement({id = 61960, criteria = 111473})}
 }) -- Gift of the Phoenix
 
@@ -216,11 +222,11 @@ map.nodes[54555098] = SkyridingGlyph({
     rewards = {Achievement({id = 61576, criteria = 110338})}
 }) -- Runestone Shan'dor
 
-map.nodes[15002000] = SkyridingGlyph({
+map.nodes[49474803] = SkyridingGlyph({
     rewards = {Achievement({id = 61576, criteria = 110339})}
 }) -- Path of Dawn
 
-map.nodes[15002500] = SkyridingGlyph({
+map.nodes[39454563] = SkyridingGlyph({
     rewards = {Achievement({id = 61576, criteria = 110340})}
 }) -- Sunsail Anchorage
 
@@ -232,11 +238,11 @@ map.nodes[52466754] = SkyridingGlyph({
     rewards = {Achievement({id = 61576, criteria = 110342})}
 }) -- Tranquillien
 
-map.nodes[15004000] = SkyridingGlyph({
+map.nodes[33436540] = SkyridingGlyph({
     rewards = {Achievement({id = 61576, criteria = 110343})}
 }) -- Daggerspine Point
 
-map.nodes[15004500] = SkyridingGlyph({
+map.nodes[58435831] = SkyridingGlyph({
     rewards = {Achievement({id = 61576, criteria = 110344})}
 }) -- Suncrown Tree
 
@@ -329,36 +335,21 @@ map.nodes[18512000] = LoreObject({
 
 -------------------------------- EVER PAINTIG ---------------------------------
 
-map.nodes[20001000] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 62185, criteria = 111993})}
-}) -- Sway of Red and Gold
+local Painting = Class('Painting', ns.node.Collectible,
+    {icon = 'peg_yw', scale = 1.5})
 
-map.nodes[20001500] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 62185, criteria = 112030})}
-}) -- Light Consuming
+function Painting:Initialize(criteria, location)
+    ns.node.Collectible.Initialize(self)
+    self.location = location or nil
+    self.getters.rewards = function(self)
+        return {Achievement({id = 62185, criteria = criteria})}
+    end
+end
 
-map.nodes[20002000] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 62185, criteria = 112031})}
-}) -- Anar'alah Belore
-
-map.nodes[20002500] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 62185, criteria = 112032})}
-}) -- Suncrown's Devastation
-
-map.nodes[20003000] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 62185, criteria = 112033})}
-}) -- Babble and Brook
-
-map.nodes[39007822] = Treasure({
-    rewards = {Achievement({id = 62185, criteria = 112034})}
-}) -- Memories of Ghosts
-
-map.nodes[20004000] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 62185, criteria = 112035})}
-}) -- Elrendar's Song
+map.nodes[53967560] = Painting(111993) -- Sway of Red and Gold
+map.nodes[41805634] = Painting(112030) -- Light Consuming
+map.nodes[50764128] = Painting(112031) -- Anar'alah Belore
+map.nodes[55145968] = Painting(112032, L['on_flying_platform']) -- Suncrown's Devastation
+map.nodes[46086429] = Painting(112033) -- Babble and Brook
+map.nodes[39007822] = Painting(112034) -- Memories of Ghosts
+map.nodes[42626263] = Painting(112035) -- Elrendar's Song

@@ -23,7 +23,9 @@ L['options_icons_midnight_lore_hunter_desc'] = nil
 -------------------------------------------------------------------------------
 
 L['eversong_woods_stone_vat_of_wine_note'] = nil
-L['eversong_woods_stone_vat_of_wine_location'] = nil
+L['on_flying_platform'] = nil
+L['gift_of_the_phoenix_note'] = nil
+L['triple_locked_safebox_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR -----------------------------------

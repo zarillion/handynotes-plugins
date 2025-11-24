@@ -23,7 +23,9 @@ L['options_icons_midnight_lore_hunter_desc'] = 'Muestra dónde están los objeto
 -------------------------------------------------------------------------------
 
 L['eversong_woods_stone_vat_of_wine_note'] = 'Requiere 10x {item:256232} y 1x {item:256397} de {npc:251405}.\n\nPisa las uvas y luego añade la levadura.'
-L['eversong_woods_stone_vat_of_wine_location'] = 'En una plataforma voladora.'
+L['on_flying_platform'] = 'En una plataforma voladora.'
+L['gift_of_the_phoenix_note'] = nil
+L['triple_locked_safebox_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR -----------------------------------

@@ -24,7 +24,9 @@ L['options_icons_midnight_lore_hunter_desc'] = 'Zeigt die Positionen der Geschic
 -------------------------------------------------------------------------------
 
 L['eversong_woods_stone_vat_of_wine_note'] = "Benötigt 10 {item:256232} und {item:256397} von {npc:251405}.\n\nStampfe die Trauben und gib dann die Hefe hinzu."
-L['eversong_woods_stone_vat_of_wine_location'] = "Auf einer fliegenden Plattform."
+L['on_flying_platform'] = "Auf einer fliegenden Plattform."
+L['gift_of_the_phoenix_note'] = nil
+L['triple_locked_safebox_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR -----------------------------------

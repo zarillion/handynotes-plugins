@@ -23,7 +23,9 @@ L['options_icons_midnight_lore_hunter_desc'] = 'Display lore object locations fo
 -------------------------------------------------------------------------------
 
 L['eversong_woods_stone_vat_of_wine_note'] = 'Requires 10x {item:256232} and 1x {item:256397} from {npc:251405}.\n\nStomp on the Grapes then add the yeast.'
-L['eversong_woods_stone_vat_of_wine_location'] = 'On a flying platform.'
+L['on_flying_platform'] = 'On a flying platform.'
+L['gift_of_the_phoenix_note'] = 'Catch 5 cinders from phoenixes that spawn after using the Gift of the Phoenix.'
+L['triple_locked_safebox_note'] = 'Requires 3 Hidden Safebox Keys. Grab the purple torch next to the chest to reveal them.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR -----------------------------------

@@ -38,10 +38,13 @@ map.nodes[51801862] = Rare({
     rewards = {Achievement({id = 62122, criteria = 111840})}
 }) -- The Snapping Scourge
 
-map.nodes[10002000] = Rare({
+map.nodes[51857291] = Rare({
     id = 242025,
-    quest = nil, -- 89571
-    rewards = {Achievement({id = 62122, criteria = 111841})}
+    quest = 94698, -- 89571
+    rewards = {
+        Achievement({id = 62122, criteria = 111841}),
+        Transmog({item = 256231, type = L['2h_sword']})
+    }
 }) -- Skullcrusher Harak
 
 map.nodes[10002500] = Rare({
