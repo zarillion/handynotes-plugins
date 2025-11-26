@@ -6,11 +6,12 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local LoreObject = ns.node.LoreObject
+local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
-local PT = ns.node.ProfessionTreasures
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
@@ -26,9 +27,9 @@ local map = Map({id = 2437, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[10001000] = Rare({
+map.nodes[34413305] = Rare({
     id = 242023,
-    quest = nil, -- 89569
+    quest = 94683, -- 89569
     rewards = {Achievement({id = 62122, criteria = 111839})}
 }) -- Necrohexxer Raz'ka
 
@@ -53,10 +54,13 @@ map.nodes[10002500] = Rare({
     rewards = {Achievement({id = 62122, criteria = 111842})}
 }) -- Lightwood Borer
 
-map.nodes[10003000] = Rare({
+map.nodes[50876514] = Rare({
     id = 245975,
-    quest = nil, -- 91174
-    rewards = {Achievement({id = 62122, criteria = 111843})}
+    quest = 94700, -- 91174
+    rewards = {
+        Achievement({id = 62122, criteria = 111843}),
+        Transmog({item = 264580, type = L['plate']})
+    }
 }) -- Mrrlokk
 
 map.nodes[38994997] = Rare({
@@ -65,7 +69,8 @@ map.nodes[38994997] = Rare({
     rewards = {
         Achievement({id = 62122, criteria = 111844}),
         Transmog({item = 264627, type = L['polearm']}) -- Rav'ik's Space Hunting Spear
-    }
+    },
+    parent = 2536
 }) -- Poacher Rav'ik
 
 map.nodes[30484456] = Rare({
@@ -92,9 +97,9 @@ map.nodes[47773422] = Rare({
     }
 }) -- Tiny Vermin
 
-map.nodes[10005500] = Rare({
+map.nodes[21307055] = Rare({
     id = 242034,
-    quest = nil, -- 89581
+    quest = 94705, -- 89581
     rewards = {Achievement({id = 62122, criteria = 111848})}
 }) -- Voidtouched Crustacean
 
@@ -144,7 +149,10 @@ map.nodes[44724409] = Treasure({
 
 map.nodes[46838186] = Treasure({
     quest = nil,
-    rewards = {Achievement({id = 62125, criteria = 111855})}
+    rewards = {Achievement({id = 62125, criteria = 111855})},
+    pois = {
+        POI({points = 54772240}) -- Honored Warrior's Urn. Spawns 255233, after you kill him he says "You have proven ... worthy" no quest triggered
+    }
 }) -- Honored Warrior's Cache
 -- 93560 Triggered when clicking the cache
 -- To prove yourself worthy, retrieve the four tokens from each
@@ -166,8 +174,8 @@ map.nodes[21897738] = Treasure({
     }
 }) -- Sealed Twilight Blade Bounty
 
-map.nodes[20002500] = Treasure({
-    quest = nil,
+map.nodes[20846654] = Treasure({
+    quest = 90795,
     rewards = {Achievement({id = 62125, criteria = 111857})}
 }) -- Bait and Tackle
 
@@ -182,8 +190,8 @@ map.nodes[52326599] = Treasure({
     rewards = {Achievement({id = 62125, criteria = 111859})}
 }) -- Mrruk's Mangy Trove
 
-map.nodes[20004000] = Treasure({
-    quest = nil,
+map.nodes[40483595] = Treasure({
+    quest = 90798,
     rewards = {Achievement({id = 62125, criteria = 111860})}
 }) -- Secret Formula
 
@@ -193,6 +201,13 @@ map.nodes[42645243] = Treasure({
         Achievement({id = 62125, criteria = 111861}), Item({item = 255008}) -- Abandoned Eagle Egg - todo: probably placeholder ([DNT] in name), has duration: 3 days
     }
 }) -- Abandoned Nest
+
+map.nodes[44325620] = Treasure({
+    label = 'Ruz\'avalt\'s Prized Tackle',
+    quest = nil,
+    rewards = {}
+}) -- Ruz'avalt's Prized Tackle
+-- TODO: not interactable
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
@@ -204,15 +219,15 @@ map.nodes[41994652] = PT.Mining({id = 238597, quest = 89145}) -- Spelunker's Luc
 ---------------------------- ZUL'AMAN GLYPH HUNTER ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[20001000] = SkyridingGlyph({
+map.nodes[19177064] = SkyridingGlyph({
     rewards = {Achievement({id = 61581, criteria = 110353})}
 }) -- Revantusk Sedge
 
-map.nodes[20001500] = SkyridingGlyph({
+map.nodes[42923436] = SkyridingGlyph({
     rewards = {Achievement({id = 61581, criteria = 110355})}
 }) -- Shadebasin Watch
 
-map.nodes[20002000] = SkyridingGlyph({
+map.nodes[53008212] = SkyridingGlyph({
     rewards = {Achievement({id = 61581, criteria = 110354})}
 }) -- Temple of Akil'zon
 
@@ -232,12 +247,13 @@ map.nodes[30418478] = SkyridingGlyph({
     rewards = {Achievement({id = 61581, criteria = 110359})}
 }) -- Nalorakk's Prowl
 
-map.nodes[20004500] = SkyridingGlyph({
+map.nodes[27912860] = SkyridingGlyph({
     rewards = {Achievement({id = 61581, criteria = 110360})}
 }) -- Zeb'Alar Lumberyard
 
 map.nodes[24825483] = SkyridingGlyph({
-    rewards = {Achievement({id = 61581, criteria = 110361})}
+    rewards = {Achievement({id = 61581, criteria = 110361})},
+    parent = {2395, 2536}
 }) -- Amani Pass
 
 map.nodes[46698217] = SkyridingGlyph({
@@ -250,33 +266,45 @@ map.nodes[42748014] = SkyridingGlyph({
 
 ---------------------------- MIDNIGHT LORE HUNTER -----------------------------
 
-map.nodes[30178466] = Treasure({
+map.nodes[30178466] = LoreObject({
     quest = 94632,
     rewards = {Achievement({id = 62104, criteria = 111775})},
     pois = {ns.poi.Entrance({31258397})}
 }) -- Tablet of Nalorakk
 
-map.nodes[53108211] = Treasure({
+map.nodes[53108211] = LoreObject({
     quest = 94627,
     rewards = {Achievement({id = 62104, criteria = 111772})}
 }) -- Tablet of Akil'zon
 
-map.nodes[37492669] = Treasure({
+map.nodes[37492669] = LoreObject({
     quest = 94633,
     rewards = {Achievement({id = 62104, criteria = 111776})}
 }) -- Tablet of the Witherbark
 
-map.nodes[55131762] = Treasure({
+map.nodes[55131762] = LoreObject({
     quest = 94631,
     rewards = {Achievement({id = 62104, criteria = 111774})}
 }) -- Tablet of Jan'alai
 
-map.nodes[39264472] = Treasure({
+map.nodes[39264472] = LoreObject({
     quest = 94673,
     rewards = {Achievement({id = 62104, criteria = 111777})}
 }) -- Tablet of Kulzi
+
+map.nodes[32083165] = LoreObject({
+    quest = 94628,
+    rewards = {Achievement({id = 62104, criteria = 111773})}
+}) -- Tablet of Halazzi
+
+map.nodes[52923212] = LoreObject({
+    quest = 94674,
+    rewards = {Achievement({id = 62104, criteria = 111778})}
+}) -- Tablet of Filo
 
 ------------------------- MIDNIGHT: THE HIGHEST PEAKS -------------------------
 
 map.nodes[53018202] = Telescope({quest = 94542})
 map.nodes[41854163] = Telescope({quest = 94545})
+map.nodes[18477047] = Telescope({quest = 94541})
+map.nodes[57692123] = Telescope({quest = 94543})

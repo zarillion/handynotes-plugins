@@ -296,16 +296,6 @@ smc.nodes[38107699] = LoreObject({
     rewards = {Achievement({id = 62104, criteria = 111833})}
 }) -- Unfinished Sheet Music
 
-map.nodes[17504500] = LoreObject({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111773})}
-}) -- Tablet of Halazzi
-
-map.nodes[17507000] = LoreObject({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111778})}
-}) -- Tablet of Filo
-
 map.nodes[18501500] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111834})}
