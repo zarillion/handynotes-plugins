@@ -306,20 +306,10 @@ map.nodes[18502000] = LoreObject({
     rewards = {Achievement({id = 62104, criteria = 111835})}
 }) -- Ancient Tablet
 
-map.nodes[18502500] = LoreObject({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111836})}
-}) -- Abandoned Telescope
-
 map.nodes[18511500] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111837})}
 }) -- Tainted Page
-
-map.nodes[18512000] = LoreObject({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111838})}
-}) -- Shadowgraft Harness
 
 -- Profane Research @36047251 quest 93565
 
