@@ -296,11 +296,6 @@ smc.nodes[38107699] = LoreObject({
     rewards = {Achievement({id = 62104, criteria = 111833})}
 }) -- Unfinished Sheet Music
 
-map.nodes[18501500] = LoreObject({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111834})}
-}) -- Void Armor
-
 map.nodes[18502000] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111835})}
