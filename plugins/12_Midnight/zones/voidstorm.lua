@@ -305,6 +305,11 @@ map.nodes[63427822] = LoreObject({
     rewards = {Achievement({id = 62104, criteria = 111834})}
 }) -- Void Armor
 
+map.nodes[18511500] = LoreObject({
+    quest = nil,
+    rewards = {Achievement({id = 62104, criteria = 111837})}
+}) -- Tainted Page
+
 -------------------------------------------------------------------------------
 ------------------------- MIDNIGHT: THE HIGHEST PEAKS -------------------------
 -------------------------------------------------------------------------------

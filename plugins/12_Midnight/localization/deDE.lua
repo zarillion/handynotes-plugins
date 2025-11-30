@@ -27,6 +27,7 @@ L['eversong_woods_stone_vat_of_wine_note'] = "Benötigt 10 {item:256232} und {it
 L['on_flying_platform'] = "Auf einer fliegenden Plattform."
 L['gift_of_the_phoenix_note'] = nil
 L['triple_locked_safebox_note'] = nil
+L['incomplete_book_of_sonnets'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR -----------------------------------

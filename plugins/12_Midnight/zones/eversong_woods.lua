@@ -94,9 +94,9 @@ map.nodes[49058775] = Rare({
     }
 }) -- Bad Zed
 
-map.nodes[10005500] = Rare({
+map.nodes[34812098] = Rare({
     id = 250780,
-    quest = nil, -- 92395 ?
+    quest = 94691, -- 92395 ?
     rewards = {Achievement({id = 61507, criteria = 110175})}
 }) -- Waverly
 
@@ -196,6 +196,20 @@ map.nodes[48737544] = Treasure({
         Achievement({id = 61960, criteria = 111479}), ns.reward.Pet({id = 4974})
     }
 }) -- Burbling Paint Pot
+
+smc.nodes[47267188] = Treasure({
+    label = L['incomplete_book_of_sonnets'],
+    requires = ns.requirement.Item(263257), -- Booklet of Sonnets
+    quest = 93458,
+    -- rewards = {},
+    parent = map.id,
+    pois = {
+        POI({40748846, label = '{item:265833}'}), -- Lost Page 1
+        POI({33289017, label = '{item:265834}'}), -- Lost Page 2
+        POI({39818047, label = '{item:265835}'}) -- Lost Page 3
+    }
+}) -- Incomplete Book of Sonnets
+-- TODO: bugged on beta, cannot be looted
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
@@ -300,11 +314,6 @@ map.nodes[18502000] = LoreObject({
     quest = nil,
     rewards = {Achievement({id = 62104, criteria = 111835})}
 }) -- Ancient Tablet
-
-map.nodes[18511500] = LoreObject({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111837})}
-}) -- Tainted Page
 
 -- Profane Research @36047251 quest 93565
 

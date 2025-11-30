@@ -26,6 +26,7 @@ L['eversong_woods_stone_vat_of_wine_note'] = 'Requires 10x {item:256232} and 1x 
 L['on_flying_platform'] = 'On a flying platform.'
 L['gift_of_the_phoenix_note'] = 'Catch 5 cinders from phoenixes that spawn after using the Gift of the Phoenix.'
 L['triple_locked_safebox_note'] = 'Requires 3 Hidden Safebox Keys. Grab the purple torch next to the chest to reveal them.'
+L['incomplete_book_of_sonnets'] = 'Incomplete Book of Sonnets'
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR -----------------------------------

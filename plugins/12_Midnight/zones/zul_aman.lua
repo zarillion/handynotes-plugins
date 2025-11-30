@@ -22,6 +22,7 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2437, settings = true})
+local aam = Map({id = 2536, settings = true}) -- Atal'Aman
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -70,7 +71,7 @@ map.nodes[38994997] = Rare({
         Achievement({id = 62122, criteria = 111844}),
         Transmog({item = 264627, type = L['polearm']}) -- Rav'ik's Space Hunting Spear
     },
-    parent = 2536
+    parent = aam.id
 }) -- Poacher Rav'ik
 
 map.nodes[30484456] = Rare({
@@ -253,7 +254,7 @@ map.nodes[27912860] = SkyridingGlyph({
 
 map.nodes[24825483] = SkyridingGlyph({
     rewards = {Achievement({id = 61581, criteria = 110361})},
-    parent = {2395, 2536}
+    parent = {2395, aam.id}
 }) -- Amani Pass
 
 map.nodes[46698217] = SkyridingGlyph({
@@ -304,7 +305,8 @@ map.nodes[52923212] = LoreObject({
 
 ------------------------- MIDNIGHT: THE HIGHEST PEAKS -------------------------
 
-map.nodes[53018202] = Telescope({quest = 94542})
-map.nodes[41854163] = Telescope({quest = 94545})
 map.nodes[18477047] = Telescope({quest = 94541})
+map.nodes[53018202] = Telescope({quest = 94542})
 map.nodes[57692123] = Telescope({quest = 94543})
+aam.nodes[07344751] = Telescope({quest = 94544, parent = map.id})
+map.nodes[41854163] = Telescope({quest = 94545})

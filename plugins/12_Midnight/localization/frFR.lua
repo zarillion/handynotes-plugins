@@ -27,6 +27,7 @@ L['eversong_woods_stone_vat_of_wine_note'] = 'Requiert 10x {item:256232} et 1x {
 L['on_flying_platform'] = 'Sur une plate-forme volante.'
 L['gift_of_the_phoenix_note'] = 'Attrapez 5x Cendres de phénix tombant au sol après avoir interagi avec le {object:Réceptacle de Haut-Soleil}.'
 L['triple_locked_safebox_note'] = 'Requiert 3x clés de coffre-fort cachées. Prenez la {object:Torche ardente} à côté du coffre pour les faire apparaître.'
+L['incomplete_book_of_sonnets'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR -----------------------------------
