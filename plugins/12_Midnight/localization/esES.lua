@@ -39,7 +39,7 @@ L['options_icons_glowing_moth_desc'] = 'Muestra dónde están las Polillas respl
 ---------------------------------- VOIDSTORM ----------------------------------
 -------------------------------------------------------------------------------
 
-L['bloody_sack_note'] = nil
+L['bloody_sack_note'] = 'Coge la {object:Carne goteando} de un montón de huesos cercanos para alimentar la {object:Mazmorra olvidada}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ZUL'AMAN ----------------------------------
