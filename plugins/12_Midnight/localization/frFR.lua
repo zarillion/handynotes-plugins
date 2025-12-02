@@ -41,7 +41,7 @@ L['options_icons_glowing_moth_desc'] = 'Afficher les emplacements des Phalènes 
 ---------------------------------- VOIDSTORM ----------------------------------
 -------------------------------------------------------------------------------
 
-L['bloody_sack_note'] = nil
+L['bloody_sack_note'] = 'Ramassez de la {object:Viande dégoulinante} sur les tas d\'os à proximité pour nourrir l\'{object:Oubliette oubliée}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ZUL'AMAN ----------------------------------
