@@ -26,7 +26,7 @@ L['eversong_woods_stone_vat_of_wine_note'] = 'Requiere 10x {item:256232} y 1x {i
 L['on_flying_platform'] = 'En una plataforma voladora.'
 L['gift_of_the_phoenix_note'] = 'Atrapa 5 cenizas de los fénix que aparecen después de usar el Regalo del Fénix.'
 L['triple_locked_safebox_note'] = 'Requiere 3 llaves ocultas de caja fuerte. Coge la antorcha morada al lado del cofre para verlas.'
-L['incomplete_book_of_sonnets'] = 'Folleto de sonetos incompleto'.
+L['incomplete_book_of_sonnets'] = 'Libro de sonetos incompleto'.
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR -----------------------------------
