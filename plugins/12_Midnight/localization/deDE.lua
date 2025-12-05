@@ -23,8 +23,8 @@ L['options_icons_midnight_lore_hunter_desc'] = 'Zeigt die Positionen der Geschic
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------
 
-L['eversong_woods_stone_vat_of_wine_note'] = "Benötigt 10 {item:256232} und {item:256397} von {npc:251405}.\n\nStampfe die Trauben und gib dann die Hefe hinzu."
-L['on_flying_platform'] = "Auf einer fliegenden Plattform."
+L['eversong_woods_stone_vat_of_wine_note'] = 'Benötigt 10 {item:256232} und {item:256397} von {npc:251405}.\n\nStampfe die Trauben und gib dann die Hefe hinzu.'
+L['on_flying_platform'] = 'Auf einer fliegenden Plattform.'
 L['gift_of_the_phoenix_note'] = nil
 L['triple_locked_safebox_note'] = nil
 L['incomplete_book_of_sonnets'] = nil

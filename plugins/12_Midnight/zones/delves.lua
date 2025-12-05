@@ -30,7 +30,6 @@ local gom = Map({id = 2505, settings = false}) -- The Gulf of Memory
 local sks = Map({id = 2528, settings = false}) -- Sunkiller Sanctum - or 2540
 local sgp = Map({id = 2506, settings = false}) -- Shadowguard Point
 
-
 -- local tor = Map({id = 2507, settings = false}) -- Torment's Rise ?
 
 -------------------------------------------------------------------------------
@@ -56,7 +55,6 @@ local SturdyChest = Class('SturdyChest', Treasure, {
         end
     }
 }) -- Sturdy Chest
-
 
 -------------------------------------------------------------------------------
 ---------------------------------- ATAL'AMAN ----------------------------------
