@@ -198,15 +198,11 @@ map.nodes[47075321] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110365})}
 }) -- The Cradle, Harandar
 
-map.nodes[30001000] = SkyridingGlyph({
-    rewards = {Achievement({id = 61582, criteria = 110366})}
-}) -- Roots of Teldrassil, Harandar
-
 map.nodes[69304593] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110367})}
 }) -- Roots of Amirdrassil, Harandar
 
-map.nodes[35001000] = SkyridingGlyph({
+map.nodes[54123558] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110368})}
 }) -- Blooming Lattice, Harandar
 
@@ -218,11 +214,11 @@ map.nodes[44546280] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110370})}
 }) -- Fungara Village, Harandar
 
-map.nodes[42501000] = SkyridingGlyph({
+map.nodes[26536139] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110366})}
 }) -- Roots of Shaladrassil, Harandar
 
-map.nodes[45001000] = SkyridingGlyph({
+map.nodes[61866750] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110371})}
 }) -- Rift of Aln, Harandar
 

@@ -347,7 +347,8 @@ map.nodes[54954554] = SkyridingGlyph({
     rewards = {Achievement({id = 61583, criteria = 110376})}
 }) -- Gnawing Reach, Voidstorm
 
-map.nodes[37501000] = SkyridingGlyph({
+slr.nodes[36224497] = SkyridingGlyph({
+    parent = map.id,
     rewards = {Achievement({id = 61583, criteria = 110377})}
 }) -- Hanaar Outpost, Voidstorm
 
@@ -355,7 +356,7 @@ map.nodes[38917611] = SkyridingGlyph({
     rewards = {Achievement({id = 61583, criteria = 110378})}
 }) -- Ethereum Refinery, Voidstorm
 
-map.nodes[42501000] = SkyridingGlyph({
+map.nodes[45305226] = SkyridingGlyph({
     rewards = {Achievement({id = 61583, criteria = 110379})}
 }) -- Master's Perch, Voidstorm
 
@@ -363,11 +364,11 @@ map.nodes[65087193] = SkyridingGlyph({
     rewards = {Achievement({id = 61583, criteria = 110380})}
 }) -- Obscurion Citadel, Voidstorm
 
-map.nodes[47501000] = SkyridingGlyph({
+map.nodes[36053726] = SkyridingGlyph({
     rewards = {Achievement({id = 61583, criteria = 110381})}
 }) -- Shadowguard Point, Voidstorm
 
-map.nodes[50001000] = SkyridingGlyph({
+map.nodes[49278746] = SkyridingGlyph({
     rewards = {Achievement({id = 61583, criteria = 110382})}
 }) -- The Gorging Pit, Voidstorm
 
