@@ -149,12 +149,19 @@ map.nodes[73656535] = Treasure({
 
 map.nodes[62905124] = Treasure({
     quest = 92431,
-    rewards = {Achievement({id = 61263, criteria = 109036})}
+    rewards = {
+        Achievement({id = 61263, criteria = 109036}),
+        Transmog({item = 263287, type = L['cosmetic']}) -- [Reliquary-Keeper's Lost Shortbow]
+}
 }) -- Reliquary's Lost Paintbrush
 
-map.nodes[20003000] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 61263, criteria = 109037})}
+map.nodes[55693943] = Treasure({
+    quest = 92436,
+    rewards = {
+        Achievement({id = 61263, criteria = 109037}),
+        Pet({item = 258903, id = 4927}) -- [Percival]
+
+    }
 }) -- Kemet's Simmering Cauldron
 
 map.nodes[20003500] = Treasure({
