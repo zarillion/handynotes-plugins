@@ -13,6 +13,7 @@ local Telescope = ns.node.Telescope
 local LoreObject = ns.node.LoreObject
 
 local Achievement = ns.reward.Achievement
+local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -32,7 +33,7 @@ map.nodes[51164535] = Rare({
     rewards = {Achievement({id = 61264, criteria = 109039})}
 }) -- Rhazul
 
-map.nodes[10001500] = Rare({
+map.nodes[68714070] = Rare({
     id = 249844,
     quest = nil, -- 92137
     rewards = {Achievement({id = 61264, criteria = 109040})}
@@ -57,7 +58,7 @@ map.nodes[72636928] = Rare({
     rewards = {Achievement({id = 61264, criteria = 109042})}
 }) -- Tallcap the Truthspreader
 
-map.nodes[10003000] = Rare({
+map.nodes[59934684] = Rare({
     id = 249962,
     quest = nil, -- 92154
     rewards = {Achievement({id = 61264, criteria = 109043})}
@@ -87,7 +88,7 @@ map.nodes[10005000] = Rare({
     rewards = {Achievement({id = 61264, criteria = 109047})}
 }) -- Mindrot
 
-map.nodes[10005500] = Rare({
+map.nodes[40654299] = Rare({
     id = 250231,
     quest = nil, -- 92176
     rewards = {Achievement({id = 61264, criteria = 109048})}
@@ -105,13 +106,13 @@ map.nodes[28128184] = Rare({ -- review
     rewards = {Achievement({id = 61264, criteria = 109050})}
 }) -- Oro'ohna
 
-map.nodes[10007000] = Rare({
+map.nodes[27277032] = Rare({
     id = 250321,
     quest = nil, -- 92191
     rewards = {Achievement({id = 61264, criteria = 109051})}
 }) -- Pterrock
 
-map.nodes[10007500] = Rare({
+map.nodes[39696070] = Rare({
     id = 250347,
     quest = nil, -- 92193
     rewards = {Achievement({id = 61264, criteria = 109052})}
@@ -169,7 +170,7 @@ map.nodes[20003500] = Treasure({
     rewards = {Achievement({id = 61263, criteria = 110254})}
 }) -- Gift of the Cycle
 
-map.nodes[20004000] = Treasure({
+map.nodes[26736759] = Treasure({
     quest = nil,
     rewards = {Achievement({id = 61263, criteria = 110255})}
 }) -- Impenatrably Sealed Gourd
