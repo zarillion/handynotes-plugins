@@ -16,6 +16,7 @@ local Achievement = ns.reward.Achievement
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+local Reputation = ns.reward.Reputation
 
 local Path = ns.poi.Path
 
@@ -108,13 +109,13 @@ map.nodes[28128184] = Rare({ -- review
 
 map.nodes[27277032] = Rare({
     id = 250321,
-    quest = nil, -- 92191
+    quest = 94724, -- 92191
     rewards = {Achievement({id = 61264, criteria = 109051})}
 }) -- Pterrock
 
 map.nodes[39696070] = Rare({
     id = 250347,
-    quest = nil, -- 92193
+    quest = 94725, -- 92193
     rewards = {Achievement({id = 61264, criteria = 109052})}
 }) -- Ahl'ua'huhi
 
@@ -153,7 +154,7 @@ map.nodes[62905124] = Treasure({
     rewards = {
         Achievement({id = 61263, criteria = 109036}),
         Transmog({item = 263287, type = L['cosmetic']}) -- [Reliquary-Keeper's Lost Shortbow]
-}
+    }
 }) -- Reliquary's Lost Paintbrush
 
 map.nodes[55693943] = Treasure({
@@ -244,27 +245,42 @@ map.nodes[69406339] = Telescope({quest = 94549})
 
 map.nodes[33336084] = LoreObject({
     quest = 93556,
-    rewards = {Achievement({id = 62104, criteria = 111824})}
+    rewards = {
+        Achievement({id = 62104, criteria = 111824}),
+        Reputation({id = 2704, gain = 275, quest = 93556})
+    }
 }) -- Ancient Runestone
 
 map.nodes[47604723] = LoreObject({
     quest = 93559,
-    rewards = {Achievement({id = 62104, criteria = 111827})}
+    rewards = {
+        Achievement({id = 62104, criteria = 111827}),
+        Reputation({id = 2704, gain = 275, quest = 93559})
+    }
 }) -- A Frayed Scroll
 
 map.nodes[55665402] = LoreObject({
     quest = 93554,
-    rewards = {Achievement({id = 62104, criteria = 111823})}
+    rewards = {
+        aAchievement({id = 62104, criteria = 111823}),
+        Reputation({id = 2704, gain = 275, quest = 93554})
+    }
 }) -- Tarnished Mural
 
 map.nodes[72443809] = LoreObject({
     quest = 93557,
-    rewards = {Achievement({id = 62104, criteria = 111825})}
+    rewards = {
+        Achievement({id = 62104, criteria = 111825}),
+        Reputation({id = 2704, gain = 275, quest = 93557})
+    }
 }) -- Derelict Mural
 
 map.nodes[68212379] = LoreObject({
     quest = 93558,
-    rewards = {Achievement({id = 62104, criteria = 111826})}
+    rewards = {
+        Achievement({id = 62104, criteria = 111826}),
+        Reputation({id = 2704, gain = 275, quest = 93558})
+    }
 }) -- Forgotten Mural
 
 -------------------------------- GLOWING MOTHS --------------------------------
