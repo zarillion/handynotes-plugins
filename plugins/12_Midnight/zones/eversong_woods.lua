@@ -224,9 +224,9 @@ smc.nodes[48320667] = SkyridingGlyph({
     parent = map.id
 }) -- The Shining Span
 
-map.nodes[40401011] = SkyridingGlyph({
+map.nodes[65203258] = SkyridingGlyph({
     rewards = {Achievement({id = 61576, criteria = 110336})}
-}) -- Sunstrider Isle
+}) -- Brightwing Estate
 
 map.nodes[58921954] = SkyridingGlyph({
     rewards = {Achievement({id = 61576, criteria = 110337})}
@@ -268,12 +268,11 @@ map.nodes[43204636] = SkyridingGlyph({
 ------------------------- MIDNIGHT: THE HIGHEST PEAKS -------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[40411010] = Telescope({
-    quest = 34905 -- placeholder
-})
+map.nodes[40411010] = Telescope({quest = 94537})
 map.nodes[52486750] = Telescope({quest = 94538})
 map.nodes[50308417] = Telescope({quest = 94540})
 smc.nodes[20227961] = Telescope({quest = 94536, parent = map.id})
+
 smc.nodes[79266076] = Telescope({quest = 94539, parent = map.id})
 
 ---------------------------- MIDNIGHT LORE HUNTER -----------------------------
