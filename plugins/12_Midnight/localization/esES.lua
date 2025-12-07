@@ -34,7 +34,7 @@ L['incomplete_book_of_sonnets'] = 'Libro de sonetos incompleto.'
 
 L['glowing_moth'] = 'Polilla resplandeciente'
 L['options_icons_glowing_moth'] = 'Polilla resplandeciente'
-L['options_icons_glowing_moth_desc'] = 'Muestra dónde están las Polillas resplandecientes.'
+L['options_icons_glowing_moth_desc'] = 'Muestra dónde están las Polillas resplandecientes para el logro {achievement:61052}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
