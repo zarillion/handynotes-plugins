@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local LoreObject = ns.node.LoreObject
+local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
@@ -40,9 +41,9 @@ map.nodes[51927380] = Rare({
     }
 }) -- Warden of Weeds
 
-map.nodes[10001500] = Rare({
+map.nodes[45057825] = Rare({
     id = 246633,
-    quest = nil, -- 91315 ?
+    quest = 91315, -- 91315/94682
     rewards = {Achievement({id = 61507, criteria = 110167})}
 }) -- Harried Hawkstrider
 
@@ -67,9 +68,9 @@ map.nodes[62744907] = Rare({ -- review
     rewards = {Achievement({id = 61507, criteria = 110170})}
 }) -- Cre'van
 
-map.nodes[10003500] = Rare({
+map.nodes[36383637] = Rare({
     id = 250683,
-    quest = nil, -- 92389 ?
+    quest = 92389, -- 92389 ?
     rewards = {Achievement({id = 61507, criteria = 110171})}
 }) -- Coralfang
 
@@ -96,19 +97,19 @@ map.nodes[49058775] = Rare({
 
 map.nodes[34812098] = Rare({
     id = 250780,
-    quest = 94691, -- 92395 ?
+    quest = 92395, -- 94691/92395 ?
     rewards = {Achievement({id = 61507, criteria = 110175})}
 }) -- Waverly
 
-map.nodes[10006000] = Rare({
+map.nodes[56427760] = Rare({
     id = 250826,
-    quest = nil, -- 92403 ?
+    quest = 92403, -- 92403/94692
     rewards = {Achievement({id = 61507, criteria = 110176})}
 }) -- Banuran
 
 map.nodes[59207920] = Rare({ -- wowhead beta data
     id = 250806,
-    quest = nil, -- 92399 ?
+    quest = 92399, -- 92399 ?
     rewards = {Achievement({id = 61507, criteria = 110177})}
 }) -- Lost Guardian
 
@@ -118,13 +119,13 @@ map.nodes[42316891] = Rare({
     rewards = {Achievement({id = 61507, criteria = 110178})}
 }) -- Duskburn
 
-map.nodes[10007500] = Rare({
+map.nodes[51544585] = Rare({
     id = 255329,
     quest = nil, -- 93555 ?
     rewards = {Achievement({id = 61507, criteria = 110179})}
 }) -- Malfunctioning Construct
 
-map.nodes[10008000] = Rare({
+map.nodes[44993855] = Rare({
     id = 255348,
     quest = nil, -- 93561 ?
     rewards = {Achievement({id = 61507, criteria = 110180})}
@@ -145,13 +146,17 @@ smc.nodes[24346928] = Treasure({
 map.nodes[38897606] = Treasure({
     requires = {
         ns.requirement.Item(258768), -- Battered Safebox Key
-        ns.requirement.Item(258769), -- Worn Safebox Key @ 38467346
+        ns.requirement.Item(258769), -- Worn Safebox Key
         ns.requirement.Item(258770) -- Tarnished Safebox Key
     },
     quest = 93456,
     note = L['triple_locked_safebox_note'],
     rewards = {Achievement({id = 61960, criteria = 111472})},
-    pois = {POI({40247582, 38467346, 37637480})}
+    pois = {
+        POI({40247582, label = '{item:258770}'}), -- Tarnished Safebox Key
+        POI({38467346, label = '{item:258769}'}), -- Worn Safebox Key
+        POI({37637480, label = '{item:258768}'}) --  Battered Safebox Key
+    }
 }) -- Triple-Locked Safebox
 
 map.nodes[40961945] = Treasure({
@@ -187,7 +192,7 @@ map.nodes[40436089] = Treasure({
     quest = 86645, -- 93061
     note = L['eversong_woods_stone_vat_of_wine_note'], -- requires 10 Bunch of Ripe Grapes (item 256232) and Instant Yeast (item 256397) from sheri. Stomp on the Grapes then add the yeast. -- todo add to locale
     location = L['eversong_woods_stone_vat_of_wine_location'], -- on a flying platform -- todo add to licale
-    rewards = {Achievement({id = 61960, criteria = 111478})}
+    rewards = {Achievement({id = 61960, criteria = 111478})} -- + [Goldenmist Grapes] housing decor
 }) -- Stone Vat of Wine
 
 map.nodes[48737544] = Treasure({
@@ -197,11 +202,11 @@ map.nodes[48737544] = Treasure({
     }
 }) -- Burbling Paint Pot
 
-smc.nodes[47267188] = Treasure({
+smc.nodes[37805238] = Treasure({
     label = L['incomplete_book_of_sonnets'],
     requires = ns.requirement.Item(263257), -- Booklet of Sonnets
-    quest = 93458,
-    -- rewards = {},
+    quest = 94781, -- 93458 (old quest id?),
+    -- rewards = {}, --[Silvermoon Library Bookcase] housing decor + 55rep with Silvermoon City faction
     parent = map.id,
     pois = {
         POI({40748846, label = '{item:265833}'}), -- Lost Page 1
@@ -214,7 +219,8 @@ smc.nodes[47267188] = Treasure({
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
-
+smc.nodes[49117586] = PT.Alchemy({quest = 89115, id = 238536, parent = map.id})
+smc.nodes[47755169] = PT.Alchemy({quest = 89117, id = 238538, parent = map.id})
 -------------------------------------------------------------------------------
 ------------------------- EVERSONG WOODS GLYPH HUNTER -------------------------
 -------------------------------------------------------------------------------
@@ -269,11 +275,12 @@ map.nodes[43204636] = SkyridingGlyph({
 -------------------------------------------------------------------------------
 
 map.nodes[40411010] = Telescope({quest = 94537})
-map.nodes[52486750] = Telescope({quest = 94538})
-map.nodes[50308417] = Telescope({quest = 94540})
+map.nodes[52486750] = Telescope({quest = 94538}) -- review (doesnt seem to be there)
+map.nodes[50198543] = Telescope({quest = 94540})
 smc.nodes[20227961] = Telescope({quest = 94536, parent = map.id})
 
-smc.nodes[79266076] = Telescope({quest = 94539, parent = map.id})
+smc.nodes[79266076] = Telescope({quest = 94539, parent = map.id}) -- review
+map.nodes[54585101] = Telescope({quest = 94539}) -- review
 
 ---------------------------- MIDNIGHT LORE HUNTER -----------------------------
 
@@ -292,12 +299,12 @@ map.nodes[37601378] = LoreObject({
 map.nodes[50524347] = LoreObject({
     quest = 93564,
     rewards = {Achievement({id = 62104, criteria = 111830})}
-}) -- Dead Scar Research
+}) -- Dead Scar Research/Mirveda's Notes
 
-map.nodes[17502500] = LoreObject({
-    quest = nil,
+map.nodes[36057251] = LoreObject({
+    quest = 93565,
     rewards = {Achievement({id = 62104, criteria = 111831})}
-}) -- Dar'khan's Notes
+}) -- Profane Research/Dar'khan's Notes
 
 map.nodes[57815092] = LoreObject({
     quest = 93562,
@@ -308,8 +315,6 @@ smc.nodes[38107699] = LoreObject({
     quest = 93570,
     rewards = {Achievement({id = 62104, criteria = 111833})}
 }) -- Unfinished Sheet Music
-
--- Profane Research @36047251 quest 93565
 
 -------------------------------- EVER PAINTIG ---------------------------------
 

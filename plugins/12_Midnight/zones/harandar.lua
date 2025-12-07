@@ -31,13 +31,13 @@ local map = Map({id = 2413, settings = true}) -- or 2480
 
 map.nodes[51164535] = Rare({
     id = 248741,
-    quest = 94712, -- 91832
+    quest = 91832, -- 94712/91832
     rewards = {Achievement({id = 61264, criteria = 109039})}
 }) -- Rhazul
 
 map.nodes[68714070] = Rare({
     id = 249844,
-    quest = nil, -- 92137
+    quest = 92137, -- 92137
     rewards = {Achievement({id = 61264, criteria = 109040})}
 }) -- Chironex
 
@@ -62,43 +62,43 @@ map.nodes[72636928] = Rare({
 
 map.nodes[59934684] = Rare({
     id = 249962,
-    quest = nil, -- 92154
+    quest = 92154, -- 92154
     rewards = {Achievement({id = 61264, criteria = 109043})}
 }) -- Queen Lashtongue
 
 map.nodes[10003500] = Rare({
     id = 249997,
-    quest = nil, -- 92161
+    quest = 92161, -- 92161
     rewards = {Achievement({id = 61264, criteria = 109044})}
 }) -- Chlorokyll
 
 map.nodes[10004000] = Rare({
     id = 250086,
-    quest = nil, -- 92168
+    quest = 92168, -- 92168
     rewards = {Achievement({id = 61264, criteria = 109045})}
 }) -- Stumpy
 
 map.nodes[10004500] = Rare({
     id = 250180,
-    quest = nil, -- 92170
+    quest = 92170, -- 92170
     rewards = {Achievement({id = 61264, criteria = 109046})}
 }) -- Serrasa
 
 map.nodes[10005000] = Rare({
     id = 250226,
-    quest = nil, -- 92172
+    quest = 92172, -- 92172
     rewards = {Achievement({id = 61264, criteria = 109047})}
 }) -- Mindrot
 
 map.nodes[40654299] = Rare({
     id = 250231,
-    quest = nil, -- 92176
+    quest = 92176, -- 92176
     rewards = {Achievement({id = 61264, criteria = 109048})}
 }) -- Dracaena
 
 map.nodes[36597516] = Rare({
     id = 250246,
-    quest = 94722, -- 92183
+    quest = 92183, -- 94722/92183
     rewards = {Achievement({id = 61264, criteria = 109049})}
 }) -- Treetop
 
@@ -110,19 +110,19 @@ map.nodes[28118181] = Rare({ -- review
 
 map.nodes[27277032] = Rare({
     id = 250321,
-    quest = 94724, -- 92191
+    quest = 92191, -- 94724, -- 92191
     rewards = {Achievement({id = 61264, criteria = 109051})}
 }) -- Pterrock
 
 map.nodes[39696070] = Rare({
     id = 250347,
-    quest = 94725, -- 92193
+    quest = 92193, -- 92193/94725
     rewards = {Achievement({id = 61264, criteria = 109052})}
 }) -- Ahl'ua'huhi
 
 map.nodes[10008000] = Rare({
     id = 250358,
-    quest = nil, -- 92194
+    quest = 92194, -- 92194
     rewards = {Achievement({id = 61264, criteria = 109053})}
 }) -- Annulus the Worldshaker
 
