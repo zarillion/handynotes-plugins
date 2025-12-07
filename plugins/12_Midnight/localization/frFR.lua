@@ -35,7 +35,7 @@ L['incomplete_book_of_sonnets'] = 'Livret de sonnets incomplet'
 
 L['glowing_moth'] = 'Phalène luminescent'
 L['options_icons_glowing_moth'] = 'Phalène luminescent'
-L['options_icons_glowing_moth_desc'] = 'Afficher les emplacements des Phalènes luminescentes.'
+L['options_icons_glowing_moth_desc'] = 'Afficher les emplacements des Phalènes luminescentes pour le haut-fait {achievement:61052}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
