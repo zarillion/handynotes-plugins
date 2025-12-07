@@ -6,11 +6,12 @@ local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local LoreObject = ns.node.LoreObject
+local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
-local Treasure = ns.node.Treasure
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
-local LoreObject = ns.node.LoreObject
+local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Pet = ns.reward.Pet
@@ -193,7 +194,7 @@ map.nodes[40642802] = Treasure({
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
-
+map.nodes[34772469] = PT.Alchemy({quest = 89113, id = 238534})
 -- Spare Expedition Torch (Mining) @38836586 quest 89151
 
 -------------------------------------------------------------------------------
@@ -287,40 +288,59 @@ map.nodes[68212379] = LoreObject({
 
 -- Glowing Moth, first moth triggered quest 92231 and gives item 251881 which starts quest 92448
 -- moths give 1x currency 3385 (Luminous Dust)
+-- 120 in total to find
 
 local Moth = Class('Moth', ns.node.Collectible, {
     label = L['glowing_moth'],
-    icon = 'chest_pp',
+    icon = 1003597,
     group = ns.groups.GLOWING_MOTH,
     rewards = {
+        Achievement({id = 61052, oneline = true}),
         ns.reward.Currency({id = 3385}) -- Luminous Dust
     }
 })
 
-map.nodes[30317339] = Moth({quest = 92211})
-map.nodes[31848176] = Moth({quest = 92203})
-map.nodes[32066708] = Moth({quest = 92213})
-map.nodes[32628477] = Moth({quest = 92212})
+map.nodes[36354839] = Moth({quest = 92196})
+map.nodes[36112639] = Moth({quest = 92197})
+map.nodes[49882551] = Moth({quest = 92198})
+map.nodes[55002755] = Moth({quest = 92199})
+map.nodes[66306282] = Moth({quest = 92200})
 map.nodes[33376349] = Moth({quest = 92201})
 map.nodes[33377561] = Moth({quest = 92202})
-map.nodes[33954404] = Moth({quest = 92208})
-map.nodes[36112639] = Moth({quest = 92197})
-map.nodes[36354839] = Moth({quest = 92196})
-map.nodes[38344710] = Moth({quest = 92207})
-map.nodes[40433446] = Moth({quest = 92300})
-map.nodes[41592743] = Moth({quest = 92301})
+map.nodes[31848176] = Moth({quest = 92203})
 map.nodes[42196651] = Moth({quest = 92204})
-map.nodes[43215365] = Moth({quest = 92210})
-map.nodes[47634696] = Moth({quest = 92231})
-map.nodes[48545535] = Moth({quest = 92307})
-map.nodes[49267552] = Moth({quest = 92235})
-map.nodes[50266966] = Moth({quest = 92234})
-map.nodes[50634062] = Moth({quest = 92302})
-map.nodes[52935065] = Moth({quest = 92214})
-map.nodes[53765910] = Moth({quest = 92229})
 map.nodes[59445433] = Moth({quest = 92206})
-map.nodes[59984305] = Moth({quest = 92305})
+map.nodes[38334744] = Moth({quest = 92207})
+map.nodes[33954404] = Moth({quest = 92208})
 map.nodes[60344858] = Moth({quest = 92209})
-map.nodes[66306282] = Moth({quest = 92200})
-map.nodes[66965657] = Moth({quest = 92228})
+map.nodes[43215365] = Moth({quest = 92210})
+map.nodes[30317339] = Moth({quest = 92211})
+map.nodes[32628477] = Moth({quest = 92212})
+map.nodes[32066708] = Moth({quest = 92213})
+map.nodes[52935065] = Moth({quest = 92214})
 map.nodes[71385863] = Moth({quest = 92215})
+map.nodes[46382488] = Moth({quest = 92225})
+map.nodes[55143288] = Moth({quest = 92227})
+map.nodes[66965657] = Moth({quest = 92228})
+map.nodes[50266966] = Moth({quest = 92234})
+map.nodes[53765910] = Moth({quest = 92229})
+map.nodes[41614012] = Moth({quest = 92230})
+map.nodes[47634696] = Moth({quest = 92231})
+map.nodes[68693633] = Moth({quest = 92233})
+map.nodes[49267552] = Moth({quest = 92235})
+map.nodes[41953772] = Moth({quest = 92241})
+map.nodes[43264035] = Moth({quest = 92242})
+map.nodes[30806365] = Moth({quest = 92248})
+map.nodes[36974830] = Moth({quest = 92256})
+map.nodes[42192226] = Moth({quest = 92259})
+map.nodes[39095510] = Moth({quest = 92266})
+map.nodes[56584765] = Moth({quest = 92299})
+map.nodes[40443446] = Moth({quest = 92300})
+map.nodes[41592744] = Moth({quest = 92301})
+map.nodes[50634062] = Moth({quest = 92302})
+map.nodes[65432712] = Moth({quest = 92303})
+map.nodes[69033120] = Moth({quest = 92304})
+map.nodes[59984305] = Moth({quest = 92305})
+map.nodes[67736886] = Moth({quest = 92306})
+map.nodes[48545535] = Moth({quest = 92307})
+

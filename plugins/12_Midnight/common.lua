@@ -47,9 +47,10 @@ ns.groups.MIDNIGHT_LORE_HUNTER = Group('midnight_lore_hunter', 4549135, {
     achievement = 62104
 })
 
-ns.groups.GLOWING_MOTH = Group('glowing_moth', 'chest_pp', {
+ns.groups.GLOWING_MOTH = Group('glowing_moth', 1003597, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.COLLECTIBLE
+    type = ns.group_types.COLLECTIBLE,
+    achievement = 61052
 })
 
 -------------------------------------------------------------------------------

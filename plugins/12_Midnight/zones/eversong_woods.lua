@@ -309,11 +309,6 @@ smc.nodes[38107699] = LoreObject({
     rewards = {Achievement({id = 62104, criteria = 111833})}
 }) -- Unfinished Sheet Music
 
-map.nodes[18502000] = LoreObject({
-    quest = nil,
-    rewards = {Achievement({id = 62104, criteria = 111835})}
-}) -- Ancient Tablet
-
 -- Profane Research @36047251 quest 93565
 
 -------------------------------- EVER PAINTIG ---------------------------------

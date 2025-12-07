@@ -194,10 +194,10 @@ map.nodes[64537547] = Treasure({
     }
 }) -- Bloody Sack
 
-map.nodes[20002500] = Treasure({
-    quest = nil,
+map.nodes[53364266] = Treasure({
+    quest = 93840,
     rewards = {Achievement({id = 62126, criteria = 111867})}
-}) -- Malignant Chest
+}) -- Malignant Chest (93812,93813,93814,93815 triggers from the maligant nodes around the cave that you need to activate)
 
 slr.nodes[53133228] = Treasure({
     quest = 93996, -- 94005 after you pull out the stash
@@ -306,10 +306,15 @@ map.nodes[63427822] = LoreObject({
     rewards = {Achievement({id = 62104, criteria = 111834})}
 }) -- Void Armor
 
-map.nodes[18511500] = LoreObject({
-    quest = nil,
+map.nodes[28156593] = LoreObject({
+    quest = 94397,
     rewards = {Achievement({id = 62104, criteria = 111837})}
-}) -- Tainted Page
+}) -- Tainted Page/Tattered Page -- review
+
+map.nodes[28156593] = LoreObject({
+    quest = 94394,
+    rewards = {Achievement({id = 62104, criteria = 111835})}
+}) -- Ancient Tablet
 
 -------------------------------------------------------------------------------
 ------------------------- MIDNIGHT: THE HIGHEST PEAKS -------------------------

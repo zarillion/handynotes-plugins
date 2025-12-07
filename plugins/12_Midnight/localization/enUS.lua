@@ -34,7 +34,7 @@ L['incomplete_book_of_sonnets'] = 'Incomplete Book of Sonnets'
 
 L['glowing_moth'] = 'Glowing Moth'
 L['options_icons_glowing_moth'] = 'Glowing Moth'
-L['options_icons_glowing_moth_desc'] = 'Shows the locations of Glowing Moths.'
+L['options_icons_glowing_moth_desc'] = 'Shows the locations of Glowing Moths for {achievement:61052} achievement.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
