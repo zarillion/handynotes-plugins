@@ -139,7 +139,7 @@ for _, profession in pairs(ns.professions) do
         local name = profession.name
         local icon = profession.icon
         local skillID = profession.skillID
-        local variantID = profession.variantID[11]
+        local variantID = profession.variantID[12]
 
         PM[name] = Class(name .. 'Master', ProfessionMaster, {
             icon = icon,

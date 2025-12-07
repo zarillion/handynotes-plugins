@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local LoreObject = ns.node.LoreObject
+local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
@@ -133,7 +134,7 @@ map.nodes[40174130] = Rare({
     parent = slr.id
 }) -- Nightbrood
 
-map.nodes[10007500] = Rare({
+map.nodes[53946272] = Rare({
     id = 256821,
     quest = nil, -- 93896
     rewards = {Achievement({id = 62130, criteria = 111890})}
@@ -202,7 +203,7 @@ slr.nodes[53133228] = Treasure({
     quest = 93996, -- 94005 after you pull out the stash
     rewards = {Achievement({id = 62126, criteria = 111868})},
     parent = map.id
-}) -- Stellar Stash
+}) -- Stellar Stash --rewards [Void Elf Round Table] housing decor
 
 lop_b.nodes[23748369] = Treasure({
     quest = 94454,
@@ -229,7 +230,7 @@ map.nodes[55377542] = Treasure({
     quest = 93553,
     rewards = {
         Achievement({id = 62126, criteria = 111871}),
-        Transmog({item = 267138, type = L['cosmetic']}) -- Harpoon of Extirpation
+        Transmog({item = 266075, type = L['cosmetic']}) -- Harpoon of Extirpation
     }
 }) -- Embedded Spear
 
@@ -316,13 +317,15 @@ map.nodes[18511500] = LoreObject({
 
 map.nodes[39686116] = Telescope({quest = 94551})
 map.nodes[36504430] = Telescope({quest = 94552})
-map.nodes[41767022] = Telescope({quest = 93553})
-map.nodes[48548112] = Telescope({quest = 94555})
+map.nodes[55466717] = Telescope({quest = 94553})
+map.nodes[41767022] = Telescope({quest = 94554})
+map.nodes[37815497] = Telescope({quest = 94555})
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
+slr.nodes[41964062] = PT.Alchemy({quest = 89112, id = 238533, parent = map.id})
 -------------------------------------------------------------------------------
 ---------------------------- VOIDSTORM GLYPH HUNTER ---------------------------
 -------------------------------------------------------------------------------
