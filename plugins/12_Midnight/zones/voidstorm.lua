@@ -19,6 +19,7 @@ local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+local Reputation = ns.reward.Reputation
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -293,27 +294,42 @@ map.nodes[24827001] = Treasure({
 
 map.nodes[40485863] = LoreObject({
     quest = 94395,
-    rewards = {Achievement({id = 62104, criteria = 111836})}
+    rewards = {
+        Achievement({id = 62104, criteria = 111836}),
+        Reputation({id = 2699, gain = 275, quest = 94395})
+    }
 }) -- Abandoned Telescope
 
 map.nodes[27835402] = LoreObject({
     quest = 94398,
-    rewards = {Achievement({id = 62104, criteria = 111838})}
+    rewards = {
+        Achievement({id = 62104, criteria = 111838}),
+        Reputation({id = 2699, gain = 275, quest = 94398})
+    }
 }) -- Shadowgraft Harness
 
 map.nodes[63427822] = LoreObject({
     quest = 94389,
-    rewards = {Achievement({id = 62104, criteria = 111834})}
+    rewards = {
+        Achievement({id = 62104, criteria = 111834}),
+        Reputation({id = 2699, gain = 275, quest = 94389})
+    }
 }) -- Void Armor
 
 map.nodes[28156593] = LoreObject({
     quest = 94397,
-    rewards = {Achievement({id = 62104, criteria = 111837})}
+    rewards = {
+        Achievement({id = 62104, criteria = 111837}),
+        Reputation({id = 2699, gain = 275, quest = 94397})
+    }
 }) -- Tainted Page/Tattered Page -- review
 
 map.nodes[28156593] = LoreObject({
     quest = 94394,
-    rewards = {Achievement({id = 62104, criteria = 111835})}
+    rewards = {
+        Achievement({id = 62104, criteria = 111835}),
+        Reputation({id = 2699, gain = 275, quest = 94394})
+    }
 }) -- Ancient Tablet
 
 -------------------------------------------------------------------------------

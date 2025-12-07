@@ -16,6 +16,7 @@ local Treasure = ns.node.Treasure
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
 local Transmog = ns.reward.Transmog
+local Reputation = ns.reward.Reputation
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -137,7 +138,7 @@ map.nodes[44993855] = Rare({
 
 smc.nodes[24346928] = Treasure({
     requires = ns.requirement.Item(263870), -- Rookery Cache Key
-    quest = nil,
+    quest = 93967, -- 94626 triggered after feeding Mischevious Chick with Tasty Meat from Farstrider Aerieminder(had to buy meat and fly away for bit to spawn to place it)
     location = L['on_flying_platform'],
     rewards = {Achievement({id = 61960, criteria = 111471})},
     parent = map.id
@@ -160,7 +161,7 @@ map.nodes[38897606] = Treasure({
 }) -- Triple-Locked Safebox
 
 map.nodes[40961945] = Treasure({
-    quest = nil,
+    quest = 93544, -- 93545 triggered when returning cinders
     note = L['gift_of_the_phoenix_note'],
     rewards = {Achievement({id = 61960, criteria = 111473})}
 }) -- Gift of the Phoenix
@@ -174,7 +175,7 @@ map.nodes[43276949] = Treasure({
 }) -- Forgotten Ink and Quill
 
 map.nodes[44614554] = Treasure({
-    quest = 94740, -- 93908
+    quest = 93908, -- 93908 (94740 didnt trigger for tfmonk)
     rewards = {Achievement({id = 61960, criteria = 111475})}
 }) -- Gilded Armillary Sphere
 
@@ -278,9 +279,8 @@ map.nodes[40411010] = Telescope({quest = 94537})
 map.nodes[52486750] = Telescope({quest = 94538}) -- review (doesnt seem to be there)
 map.nodes[50198543] = Telescope({quest = 94540})
 smc.nodes[20227961] = Telescope({quest = 94536, parent = map.id})
-
-smc.nodes[79266076] = Telescope({quest = 94539, parent = map.id}) -- review
-map.nodes[54585101] = Telescope({quest = 94539}) -- review
+-- smc.nodes[79266076] = Telescope({quest = 94539, parent = map.id}) -- Moved to below location
+map.nodes[54585101] = Telescope({quest = 94539})
 
 ---------------------------- MIDNIGHT LORE HUNTER -----------------------------
 
@@ -288,32 +288,50 @@ map.nodes[54585101] = Telescope({quest = 94539}) -- review
 
 map.nodes[47958820] = LoreObject({
     quest = 91841,
-    rewards = {Achievement({id = 62104, criteria = 111828})}
+    rewards = {
+        Achievement({id = 62104, criteria = 111828}),
+        Reputation({id = 2710, gain = 275, quest = 91841})
+    }
 }) -- Memorial Plaque
 
 map.nodes[37601378] = LoreObject({
     quest = 93563,
-    rewards = {Achievement({id = 62104, criteria = 111829})}
+    rewards = {
+        Achievement({id = 62104, criteria = 111829}),
+        Reputation({id = 2710, gain = 275, quest = 93563})
+    }
 }) -- Shrine of Dath'remar
 
 map.nodes[50524347] = LoreObject({
     quest = 93564,
-    rewards = {Achievement({id = 62104, criteria = 111830})}
+    rewards = {
+        Achievement({id = 62104, criteria = 111830}),
+        Reputation({id = 2710, gain = 275, quest = 93564})
+    }
 }) -- Dead Scar Research/Mirveda's Notes
 
 map.nodes[36057251] = LoreObject({
     quest = 93565,
-    rewards = {Achievement({id = 62104, criteria = 111831})}
+    rewards = {
+        Achievement({id = 62104, criteria = 111831}),
+        Reputation({id = 2710, gain = 275, quest = 93565})
+    }
 }) -- Profane Research/Dar'khan's Notes
 
 map.nodes[57815092] = LoreObject({
     quest = 93562,
-    rewards = {Achievement({id = 62104, criteria = 111832})}
+    rewards = {
+        Achievement({id = 62104, criteria = 111832}),
+        Reputation({id = 2710, gain = 275, quest = 93562})
+    }
 }) -- Hawkstrider Husbandry Manual
 
 smc.nodes[38107699] = LoreObject({
     quest = 93570,
-    rewards = {Achievement({id = 62104, criteria = 111833})}
+    rewards = {
+        Achievement({id = 62104, criteria = 111833}),
+        Reputation({id = 2710, gain = 275, quest = 93570})
+    }
 }) -- Unfinished Sheet Music
 
 -------------------------------- EVER PAINTIG ---------------------------------
