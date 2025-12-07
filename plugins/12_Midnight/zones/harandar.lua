@@ -42,8 +42,8 @@ map.nodes[68714070] = Rare({
 
 map.nodes[69175986] = Rare({
     id = 249849,
-    quest = nil, -- 92142
-    rewards = {Achievement({id = 61264, criteria = 109041})},
+    quest = 92142, -- 92142/94714
+    rewards = {Achievement({id = 61264, criteria = 109041})}, -- [Ha'kalawe's Flawless Wing] clock
     pois = {
         Path({
             69546295, 68806295, 68146280, 67696231, 67476167, 67466099,
@@ -101,7 +101,7 @@ map.nodes[36597516] = Rare({
     rewards = {Achievement({id = 61264, criteria = 109049})}
 }) -- Treetop
 
-map.nodes[28128184] = Rare({ -- review
+map.nodes[28118181] = Rare({ -- review
     id = 250317,
     quest = 92190, -- 94723
     rewards = {Achievement({id = 61264, criteria = 109050})}
@@ -262,7 +262,7 @@ map.nodes[47604723] = LoreObject({
 map.nodes[55665402] = LoreObject({
     quest = 93554,
     rewards = {
-        aAchievement({id = 62104, criteria = 111823}),
+        Achievement({id = 62104, criteria = 111823}),
         Reputation({id = 2704, gain = 275, quest = 93554})
     }
 }) -- Tarnished Mural
