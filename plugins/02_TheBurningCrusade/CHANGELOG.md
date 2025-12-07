@@ -1,3 +1,7 @@
+# v128
+
+* Bump toc to 110207
+
 # v125
 
 * Fixed mount journal ids for Netherwing Drakes in Shadowmoon Valley

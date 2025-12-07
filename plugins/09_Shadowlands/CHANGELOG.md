@@ -1,3 +1,7 @@
+# v128
+
+* Bump toc to 110207
+
 # v118
 
 * Venari rewards are now tracked as account-bound.
