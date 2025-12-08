@@ -122,13 +122,13 @@ map.nodes[42316891] = Rare({
 
 map.nodes[51544585] = Rare({
     id = 255329,
-    quest = nil, -- 93555 ?
+    quest = 93555, -- 93555/94695 ?
     rewards = {Achievement({id = 61507, criteria = 110179})}
 }) -- Malfunctioning Construct
 
 map.nodes[44993855] = Rare({
     id = 255348,
-    quest = nil, -- 93561 ?
+    quest = 93561, -- 93561/94696 ?
     rewards = {Achievement({id = 61507, criteria = 110180})}
 }) -- Dame Bloodshed
 
@@ -220,8 +220,28 @@ smc.nodes[37805238] = Treasure({
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
-smc.nodes[49117586] = PT.Alchemy({quest = 89115, id = 238536, parent = map.id})
-smc.nodes[47755169] = PT.Alchemy({quest = 89117, id = 238538, parent = map.id})
+smc.nodes[49117586] = PT.Alchemy({quest = 89115, id = 238536, parent = map.id}) -- Freshly Plucked Peacebloom
+smc.nodes[47755169] = PT.Alchemy({quest = 89117, id = 238538, parent = map.id}) -- Pristine Potion
+smc.nodes[47655039] = PT.Inscription({
+    quest = 89073,
+    id = 238578,
+    parent = map.id
+}) -- Songwriter's Pen
+map.nodes[63493260] = PT.Enchanting({quest = 89107, id = 238555}) -- Sin'dorei Enchanting Rod
+map.nodes[64253046] = PT.Herbalism({quest = 89158, id = 238472}) -- A Spade
+smc.nodes[49027593] =
+    PT.Herbalism({quest = 89160, id = 238470, parent = map.id})  -- Simple Leaf Pruners
+smc.nodes[44765626] = PT.Leatherworking({
+    quest = 89096,
+    id = 238595,
+    parent = map.id
+}) -- Artisan's Considered Order
+smc.nodes[43135562] = PT.Skinning({quest = 89171, id = 238633, parent = map.id}) -- Sin'dorei Tanning Oil
+smc.nodes[35736122] =
+    PT.Tailoring({quest = 89079, id = 238613, parent = map.id}) -- A Really Nice Curtain
+smc.nodes[31796828] =
+    PT.Tailoring({quest = 89084, id = 238618, parent = map.id}) -- Particularly Enchanting Tablecloth
+
 -------------------------------------------------------------------------------
 ------------------------- EVERSONG WOODS GLYPH HUNTER -------------------------
 -------------------------------------------------------------------------------
