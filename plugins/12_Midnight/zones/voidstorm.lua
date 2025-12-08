@@ -222,9 +222,10 @@ map.nodes[47937851] = Treasure({
 }) -- Forgotten Researcher's Cache -- Entrance
 -- TODO: recheck on live servers, beta has no translation to main map coords for this map
 
-map.nodes[20004000] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 62126, criteria = 111870})}
+slr.nodes[49052012] = Treasure({
+    quest = 94387,
+    rewards = {Achievement({id = 62126, criteria = 111870})},
+    parent = map.id
 }) -- Scout's Pack
 
 map.nodes[55377542] = Treasure({
@@ -347,6 +348,7 @@ map.nodes[37815497] = Telescope({quest = 94555})
 -------------------------------------------------------------------------------
 
 slr.nodes[41964062] = PT.Alchemy({quest = 89112, id = 238533, parent = map.id})
+map.nodes[34725692] = PT.Leatherworking({quest = nil, id = 238589})
 -------------------------------------------------------------------------------
 ---------------------------- VOIDSTORM GLYPH HUNTER ---------------------------
 -------------------------------------------------------------------------------

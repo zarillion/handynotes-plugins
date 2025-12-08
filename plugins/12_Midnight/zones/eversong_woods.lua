@@ -59,7 +59,7 @@ map.nodes[54706018] = Rare({
 
 map.nodes[36566408] = Rare({
     id = 250582,
-    quest = 34685, -- 92366 ?
+    quest = 92366, -- 92366/94685 ?
     rewards = {Achievement({id = 61507, criteria = 110169})}
 }) -- Bloated Snapdragon
 
@@ -331,11 +331,11 @@ map.nodes[43204636] = SkyridingGlyph({
 -------------------------------------------------------------------------------
 
 map.nodes[40411010] = Telescope({quest = 94537})
-map.nodes[52486750] = Telescope({quest = 94538}) -- review (doesnt seem to be there)
 map.nodes[50198543] = Telescope({quest = 94540})
 smc.nodes[20227961] = Telescope({quest = 94536, parent = map.id})
 -- smc.nodes[79266076] = Telescope({quest = 94539, parent = map.id}) -- Moved to below location
 map.nodes[54585101] = Telescope({quest = 94539})
+map.nodes[37414789] = Telescope({quest = 94538})
 
 ---------------------------- MIDNIGHT LORE HUNTER -----------------------------
 
@@ -397,15 +397,13 @@ local Painting = Class('Painting', ns.node.Collectible,
 function Painting:Initialize(criteria, location)
     ns.node.Collectible.Initialize(self)
     self.location = location or nil
-    self.getters.rewards = function(self)
-        return {Achievement({id = 62185, criteria = criteria})}
-    end
+    self.rewards = {Achievement({id = 62185, criteria = criteria})}
 end
 
 map.nodes[53967560] = Painting(111993) -- Sway of Red and Gold
-map.nodes[41805634] = Painting(112030) -- Light Consuming
+map.nodes[41805634] = Painting(112030) -- Lost Lamppost
 map.nodes[50764128] = Painting(112031) -- Anar'alah Belore
-map.nodes[55145968] = Painting(112032, L['on_flying_platform']) -- Suncrown's Devastation
+map.nodes[55145968] = Painting(112032, L['on_flying_platform']) -- Light Consuming
 map.nodes[46086429] = Painting(112033) -- Babble and Brook
 map.nodes[39007822] = Painting(112034) -- Memories of Ghosts
 map.nodes[42626263] = Painting(112035) -- Elrendar's Song
