@@ -222,15 +222,50 @@ smc.nodes[37805238] = Treasure({
 -------------------------------------------------------------------------------
 smc.nodes[49117586] = PT.Alchemy({quest = 89115, id = 238536, parent = map.id}) -- Freshly Plucked Peacebloom
 smc.nodes[47755169] = PT.Alchemy({quest = 89117, id = 238538, parent = map.id}) -- Pristine Potion
+smc.nodes[53404960] = PT.Blacksmithing({
+    quest = 89183,
+    id = 238546,
+    parent = map.id
+}) -- Sin'dorei Master's Forgemace
+smc.nodes[56705120] = PT.Blacksmithing({
+    quest = 89177,
+    id = 238540,
+    parent = map.id
+}) -- Deconstructed Forge Techniques
+smc.nodes[60005340] = PT.Blacksmithing({
+    quest = 89184,
+    id = 238547,
+    parent = map.id
+}) -- Silvermoon Blacksmith's Hammer
+map.nodes[63493260] = PT.Enchanting({quest = 89107, id = 238555}) -- Sin'dorei Enchanting Rod
+smc.nodes[62005460] = PT.Engineering({
+    quest = 89133,
+    id = 238556,
+    parent = map.id
+}) -- One Engineer's Junk
+smc.nodes[64305620] = PT.Engineering({
+    quest = 89139,
+    id = 238562,
+    parent = map.id
+}) -- What To Do When Nothing Works
+map.nodes[64253046] = PT.Herbalism({quest = 89158, id = 238472}) -- A Spade
+smc.nodes[49027593] =
+    PT.Herbalism({quest = 89160, id = 238470, parent = map.id}) -- Simple Leaf Pruners
 smc.nodes[47655039] = PT.Inscription({
     quest = 89073,
     id = 238578,
     parent = map.id
 }) -- Songwriter's Pen
-map.nodes[63493260] = PT.Enchanting({quest = 89107, id = 238555}) -- Sin'dorei Enchanting Rod
-map.nodes[64253046] = PT.Herbalism({quest = 89158, id = 238472}) -- A Spade
-smc.nodes[49027593] =
-    PT.Herbalism({quest = 89160, id = 238470, parent = map.id})  -- Simple Leaf Pruners
+smc.nodes[55444782] = PT.Jewelcrafting({
+    quest = 89127,
+    id = 238585,
+    parent = map.id
+}) -- Vintage Soul Gem
+smc.nodes[50505659] = PT.Jewelcrafting({
+    quest = 89122,
+    id = 238580,
+    parent = map.id
+}) -- Sin'dorei Masterwork Chisel
 smc.nodes[44765626] = PT.Leatherworking({
     quest = 89096,
     id = 238595,
