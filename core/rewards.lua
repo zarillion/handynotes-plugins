@@ -777,7 +777,8 @@ end
 ------------------------------------ DECOR ------------------------------------
 -------------------------------------------------------------------------------
 
-local Decor = Class('Decor', Reward)
+local Decor = Class('Decor', Reward,
+    {display_option = 'show_decor_rewards', type = L['decor']})
 
 function Decor:Initialize(attrs)
     Reward.Initialize(self, attrs)
@@ -791,7 +792,7 @@ function Decor:Initialize(attrs)
 end
 
 function Decor:GetText()
-    return Icon(self.itemIcon) .. self.itemLink .. ' (' .. L['decor'] .. ')'
+    return Icon(self.itemIcon) .. self.itemLink .. ' (' .. self.type .. ')'
 end
 
 -------------------------------------------------------------------------------

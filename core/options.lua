@@ -35,6 +35,7 @@ ns.optionDefaults = {
         show_toy_rewards = true,
         show_transmog_rewards = true,
         show_manuscript_rewards = true, -- dragonflight only
+        show_decor_rewards = true,
         show_class_locked_rewards = false,
 
         -- reward options
@@ -199,6 +200,14 @@ ns.options = {
                     hidden = function()
                         return ADDON_NAME ~= 'HandyNotes_Dragonflight'
                     end
+                },
+                show_decor_rewards = {
+                    type = 'toggle',
+                    arg = 'show_decor_rewards',
+                    name = L['options_decor_rewards'],
+                    desc = L['options_decor_rewards_desc'],
+                    order = 18,
+                    width = 'full'
                 },
                 RewardBehaviorHeader = {
                     type = 'header',

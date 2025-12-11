@@ -153,7 +153,7 @@ map.nodes[46838186] = Treasure({
     quest = nil,
     rewards = {Achievement({id = 62125, criteria = 111855})},
     pois = {
-        POI({points = 54772240}) -- Honored Warrior's Urn. Spawns 255233, after you kill him he says "You have proven ... worthy" no quest triggered
+        POI({points = 54772240, label = '{item:259220}'}) -- Honored Warrior's Urn. Spawns 255233, after you kill him he says "You have proven ... worthy" no quest triggered. Drops Dragonhawk Feather
     }
 }) -- Honored Warrior's Cache
 -- 93560 Triggered when clicking the cache
