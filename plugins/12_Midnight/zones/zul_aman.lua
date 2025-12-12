@@ -332,3 +332,20 @@ map.nodes[53018202] = Telescope({quest = 94542})
 map.nodes[57692123] = Telescope({quest = 94543})
 aam.nodes[07344751] = Telescope({quest = 94544, parent = map.id})
 map.nodes[41854163] = Telescope({quest = 94545})
+
+
+------------------------- THE FROG AND THE PRINCESS ----------------------------
+local FrogPrincess = Class('FrogPrincess', ns.node.Collectible,
+    {icon = 2399262, scale = 1.5})
+
+function FrogPrincess:Initialize(criteria, location)
+    ns.node.Collectible.Initialize(self)
+    self.parent = location or nil
+    self.rewards = {Achievement({id = 62201, criteria = criteria})}
+end
+
+map.nodes[20002000] = FrogPrincess(112041) -- Princess Fita
+map.nodes[68281931] = FrogPrincess(112445) -- Princess Gabiku
+aam.nodes[27534005] = FrogPrincess(112446, {parent = map.id}) -- Princess Jakobu
+map.nodes[53945956] = FrogPrincess(112447) -- Princess Tafiki
+map.nodes[29817915] = FrogPrincess(112448) -- Princess Zambina
