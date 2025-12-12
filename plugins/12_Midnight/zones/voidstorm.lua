@@ -290,7 +290,7 @@ map.nodes[24827001] = Treasure({
 
 -- 64457565 Oceanic Vortex
 -- fishing pool, looted Abundant Token (currency 3376)
-
+-- Lost Shadowstep Supplies 39306383 (quest 91308)
 ---------------------------- MIDNIGHT LORE HUNTER -----------------------------
 
 map.nodes[40485863] = LoreObject({
@@ -347,8 +347,17 @@ map.nodes[37815497] = Telescope({quest = 94555})
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-slr.nodes[41964062] = PT.Alchemy({quest = 89112, id = 238533, parent = map.id})
-map.nodes[34725692] = PT.Leatherworking({quest = nil, id = 238589})
+slr.nodes[41964062] = PT.Alchemy({quest = 89112, id = 238533, parent = map.id}) -- Vial of Voidstorm Oddities
+map.nodes[30516899] = PT.Blacksmithing({quest = 89181, id = 238544}) -- Voidstorm Defense Spear
+map.nodes[35495882] = PT.Enchanting({quest = nil, id = 238550}) -- Pure Void Crystal
+map.nodes[55486428] = PT.Herbalism({quest = nil, id = 238474}) -- Peculiar Lotus
+slr.nodes[54814150] =
+    PT.Inscription({quest = nil, id = 238572, parent = map.id}) -- Void-Touched Quill (Cant loot phasing issue)
+map.nodes[30496904] = PT.Jewelcrafting({quest = 89123, id = 238581}) -- Speculative Voidstorm Crystal
+map.nodes[34725692] = PT.Leatherworking({quest = nil, id = 238589}) -- Ethereal Leatherworking Knife
+map.nodes[41803825] = PT.Mining({quest = nil, id = 238602}) -- Star Metal Deposit
+slr.nodes[43284936] = PT.Skinning({quest = nil, id = 238631, parent = map.id}) -- Voidstorm Leather Sample
+
 -------------------------------------------------------------------------------
 ---------------------------- VOIDSTORM GLYPH HUNTER ---------------------------
 -------------------------------------------------------------------------------

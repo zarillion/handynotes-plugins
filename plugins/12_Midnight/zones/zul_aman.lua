@@ -215,7 +215,35 @@ map.nodes[44325620] = Treasure({
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[41994652] = PT.Mining({id = 238597, quest = 89145}) -- Spelunker's Lucky Charm
+map.nodes[40395117] = PT.Alchemy({quest = 89114, id = 238535}) -- Vial of Zul'Aman Oddities
+aam.nodes[49102321] = PT.Alchemy({quest = 89116, id = 238537, parent = map.id}) -- Measured Ladle
+aam.nodes[33086582] = PT.Blacksmithing({
+    quest = nil,
+    id = 238542,
+    parent = map.id
+}) -- Carefully Racked Spear
+aam.nodes[48712253] = PT.Enchanting({
+    quest = 89100,
+    id = 238548,
+    parent = map.id
+}) -- Enchanted Amani Mask
+map.nodes[40415118] = PT.Enchanting({quest = 89106, id = 238554}) -- Loa-Blessed Dust
+aam.nodes[65143476] = PT.Engineering({
+    quest = 89138,
+    id = 238561,
+    parent = map.id
+}) -- Offline Helper Bot
+map.nodes[34218780] = PT.Engineering({quest = 89140, id = 238563}) -- Handy Wrench
+map.nodes[40484935] = PT.Inscription({quest = 89068, id = 238573}) -- Leather-Bound Techniques
+map.nodes[45214528] = PT.Leatherworking({quest = nil, id = 238591}) -- Bundle of Tanner's Trinkets
+map.nodes[33127891] = PT.Leatherworking({quest = nil, id = 238588}) -- Amani Leatherworker's Tool
+map.nodes[30768406] = PT.Leatherworking({quest = nil, id = 238590}) -- Prestigiously Racked Hide
+map.nodes[41994652] = PT.Mining({quest = 89145, id = 238597}) -- Spelunker's Lucky Charm
+aam.nodes[43284936] = PT.Mining({quest = nil, id = 238601, parent = map.id}) -- Amani Expert's Chisel
+aam.nodes[43134510] = PT.Skinning({quest = nil, id = 238629, parent = map.id}) -- Cadre Skinning Knife
+map.nodes[33107901] = PT.Skinning({quest = nil, id = 238634}) -- Amani Skinning Knife
+map.nodes[40413603] = PT.Skinning({quest = nil, id = 238632}) -- Amani Tanning Oil
+map.nodes[40004900] = PT.Tailoring({quest = nil, id = 238619}) -- Artisan's Cover Comb
 
 -------------------------------------------------------------------------------
 ---------------------------- ZUL'AMAN GLYPH HUNTER ----------------------------
@@ -332,7 +360,6 @@ map.nodes[53018202] = Telescope({quest = 94542})
 map.nodes[57692123] = Telescope({quest = 94543})
 aam.nodes[07344751] = Telescope({quest = 94544, parent = map.id})
 map.nodes[41854163] = Telescope({quest = 94545})
-
 
 ------------------------- THE FROG AND THE PRINCESS ----------------------------
 local FrogPrincess = Class('FrogPrincess', ns.node.Collectible,

@@ -194,8 +194,24 @@ map.nodes[40642802] = Treasure({
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
-map.nodes[34772469] = PT.Alchemy({quest = 89113, id = 238534})
--- Spare Expedition Torch (Mining) @38836586 quest 89151
+map.nodes[34772469] = PT.Alchemy({quest = 89113, id = 238534}) -- Vial of Rootlands Oddities
+map.nodes[66345085] = PT.Blacksmithing({quest = 89182, id = 238545}) -- Rutaani Floratender's Sword
+map.nodes[37756522] = PT.Enchanting({quest = 89104, id = 238552}) -- Entropic Shard
+map.nodes[65725022] = PT.Enchanting({quest = 89105, id = 238553}) -- Primal Essence Orb
+map.nodes[68004981] = PT.Engineering({quest = 89136, id = 238559}) -- Expeditious Pylon
+map.nodes[51005500] = PT.Herbalism({quest = nil, id = 238475}) -- Planting Shovel
+map.nodes[38176697] = PT.Herbalism({quest = nil, id = 238468}) -- Bloomed Bud
+map.nodes[76065110] = PT.Herbalism({quest = nil, id = 238473}) -- Harvester's Sickle (dupe spawn in Zul aman???)
+map.nodes[52386428] = PT.Herbalism({quest = nil, id = 238471}) -- Lightbloom Root
+map.nodes[52754998] = PT.Inscription({quest = 89071, id = 238576}) -- Leftover Sanguithorn Pigment
+map.nodes[52435261] = PT.Inscription({quest = 89070, id = 238575}) -- Intrepid Explorer's Marker
+map.nodes[36092524] = PT.Leatherworking({quest = nil, id = 238594}) -- Haranir Leatherworking Knife
+map.nodes[51755128] = PT.Leatherworking({quest = nil, id = 238593}) -- Haranir Leatherworking Mallet
+map.nodes[38836586] = PT.Mining({quest = 89151, id = 238603}) -- Spare Expedition Torch
+map.nodes[69534924] = PT.Skinning({quest = nil, id = 238630}) -- Primal Hide
+map.nodes[76035111] = PT.Skinning({quest = nil, id = 238628}) -- Lightbloom Afflicted Hide
+map.nodes[70535084] = PT.Tailoring({quest = nil, id = 238612}) -- A Child's Stuffy
+map.nodes[69795098] = PT.Tailoring({quest = nil, id = 238615}) -- Wooden Weaving Sword
 
 -------------------------------------------------------------------------------
 ----------------------------- HARANDAR GLYPH HUNTER ---------------------------
@@ -320,6 +336,7 @@ map.nodes[32066708] = Moth({quest = 92213})
 map.nodes[52935065] = Moth({quest = 92214})
 map.nodes[71385863] = Moth({quest = 92215})
 map.nodes[46382488] = Moth({quest = 92225})
+map.nodes[62343714] = Moth({quest = 92226})
 map.nodes[55143288] = Moth({quest = 92227})
 map.nodes[66965657] = Moth({quest = 92228})
 map.nodes[50266966] = Moth({quest = 92234})

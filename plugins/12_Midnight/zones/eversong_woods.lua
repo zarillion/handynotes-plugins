@@ -237,7 +237,10 @@ smc.nodes[60005340] = PT.Blacksmithing({
     id = 238547,
     parent = map.id
 }) -- Silvermoon Blacksmith's Hammer
+map.nodes[56844077] = PT.Blacksmithing({quest = 89180, id = 238543}) -- Metalworking Cheat Sheet
+map.nodes[48327578] = PT.Blacksmithing({quest = 89178, id = 238541}) -- Silvermoon Smithing Kit
 map.nodes[63493260] = PT.Enchanting({quest = 89107, id = 238555}) -- Sin'dorei Enchanting Rod
+map.nodes[60755301] = PT.Enchanting({quest = 89103, id = 238551}) -- Everblazing Sunmote
 smc.nodes[62005460] = PT.Engineering({
     quest = 89133,
     id = 238556,
@@ -248,6 +251,7 @@ smc.nodes[64305620] = PT.Engineering({
     id = 238562,
     parent = map.id
 }) -- What To Do When Nothing Works
+map.nodes[39574579] = PT.Engineering({quest = 89135, id = 238558}) -- Manual of Mistakes and Mishaps
 map.nodes[64253046] = PT.Herbalism({quest = 89158, id = 238472}) -- A Spade
 smc.nodes[49027593] =
     PT.Herbalism({quest = 89160, id = 238470, parent = map.id}) -- Simple Leaf Pruners
@@ -256,6 +260,8 @@ smc.nodes[47655039] = PT.Inscription({
     id = 238578,
     parent = map.id
 }) -- Songwriter's Pen
+map.nodes[40356123] = PT.Inscription({quest = 89074, id = 238579}) -- Songwriter's Quill
+map.nodes[48317555] = PT.Inscription({quest = 89069, id = 238574}) -- Spare Ink
 smc.nodes[55444782] = PT.Jewelcrafting({
     quest = 89127,
     id = 238585,
@@ -266,17 +272,42 @@ smc.nodes[50505659] = PT.Jewelcrafting({
     id = 238580,
     parent = map.id
 }) -- Sin'dorei Masterwork Chisel
+map.nodes[56624088] = PT.Jewelcrafting({quest = 89125, id = 238583}) -- Poorly Rounded Vial
+map.nodes[39643882] = PT.Jewelcrafting({quest = 89129, id = 238587}) -- Sin'dorei Gem Faceters
 smc.nodes[44765626] = PT.Leatherworking({
     quest = 89096,
     id = 238595,
     parent = map.id
 }) -- Artisan's Considered Order
+map.nodes[37964535] = PT.Mining({quest = nil, id = 238599}) -- Solid Ore Punchers
 smc.nodes[43135562] = PT.Skinning({quest = 89171, id = 238633, parent = map.id}) -- Sin'dorei Tanning Oil
+map.nodes[48447631] = PT.Skinning({quest = nil, id = 238635}) -- Thalassian Skinning Knife
 smc.nodes[35736122] =
     PT.Tailoring({quest = 89079, id = 238613, parent = map.id}) -- A Really Nice Curtain
 smc.nodes[31796828] =
     PT.Tailoring({quest = 89084, id = 238618, parent = map.id}) -- Particularly Enchanting Tablecloth
+map.nodes[46333485] = PT.Tailoring({quest = nil, id = 238614}) -- Sin'dorei Outfitter's Ruler
 
+--[[ MOVE TO RIGHT MAP WHEN FOUND
+map.nodes[] = PT.Enchanting({quest = nil, id = 238549}) -- Enchanted Sunfire Silk
+map.nodes[] = PT.Engineering({quest = nil, id = 238560}) -- Ethereal Stormwrench
+map.nodes[] = PT.Engineering({quest = nil, id = 238557}) -- Miniaturized Transport Skiff
+map.nodes[] = PT.Tailoring({quest = nil, id = 238616}) -- Book of Sin'dorei Stitches
+map.nodes[] = PT.Tailoring({quest = nil, id = 238617}) --Satin Throw Pillow
+map.nodes[] = PT.Leatherworking({quest = nil, id = 238592}) -- Patterns: Beyond the Void
+map.nodes[] = PT.Alchemy({quest = nil, id = 238532}) -- Vial of Eversong Oddities
+map.nodes[] = PT.Alchemy({quest = nil, id = 238539}) -- Failed Experiment
+map.nodes[] = PT.Jewelcrafting({quest = nil, id = 238586}) -- Ethereal Gem Pliers
+map.nodes[] = PT.Jewelcrafting({quest = nil, id = 238584}) -- Shattered Glass
+map.nodes[] = PT.Jewelcrafting({quest = nil, id = 238582}) -- Dual-Function Magnifiers
+map.nodes[] = PT.Inscription({quest = nil, id = 238577}) -- Half-Baked Techniques
+map.nodes[] = PT.Herbalism({quest = nil, id = 238469}) -- Sweeping Harvester's Scythe
+map.nodes[] = PT.Mining({quest = nil, id = 238600}) -- Glimmering Void Pearl
+map.nodes[] = PT.Mining({quest = nil, id = 238598}) -- Lost Voidstorm Satchel
+map.nodes[] = PT.Mining({quest = nil, id = 238596}) -- Miner's Guide to Voidstorm
+
+
+]] --
 -------------------------------------------------------------------------------
 ------------------------- EVERSONG WOODS GLYPH HUNTER -------------------------
 -------------------------------------------------------------------------------
