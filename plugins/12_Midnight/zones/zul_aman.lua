@@ -344,7 +344,7 @@ function FrogPrincess:Initialize(criteria, location)
     self.rewards = {Achievement({id = 62201, criteria = criteria})}
 end
 
-map.nodes[20002000] = FrogPrincess(112041) -- Princess Fita
+map.nodes[31702263] = FrogPrincess(112041) -- Princess Fita
 map.nodes[68281931] = FrogPrincess(112445) -- Princess Gabiku
 aam.nodes[27534005] = FrogPrincess(112446, {parent = map.id}) -- Princess Jakobu
 map.nodes[53945956] = FrogPrincess(112447) -- Princess Tafiki
