@@ -235,11 +235,11 @@ aam.nodes[65143476] = PT.Engineering({
 }) -- Offline Helper Bot
 map.nodes[34218780] = PT.Engineering({quest = 89140, id = 238563}) -- Handy Wrench
 map.nodes[40484935] = PT.Inscription({quest = 89068, id = 238573}) -- Leather-Bound Techniques
-map.nodes[45214528] = PT.Leatherworking({quest = nil, id = 238591}) -- Bundle of Tanner's Trinkets
-map.nodes[33127891] = PT.Leatherworking({quest = nil, id = 238588}) -- Amani Leatherworker's Tool
-map.nodes[30768406] = PT.Leatherworking({quest = nil, id = 238590}) -- Prestigiously Racked Hide
-map.nodes[41994652] = PT.Mining({quest = 89145, id = 238597}) -- Spelunker's Lucky Charm
-aam.nodes[43284936] = PT.Mining({quest = nil, id = 238601, parent = map.id}) -- Amani Expert's Chisel
+aam.nodes[45294561] = PT.Leatherworking({quest = 89092, id = 238591, parent = map.id}) -- Bundle of Tanner's Trinkets
+map.nodes[33087891] = PT.Leatherworking({quest = 89089, id = 238588}) -- Amani Leatherworker's Tool
+map.nodes[30758397] = PT.Leatherworking({quest = 89091, id = 238590}) -- Prestigiously Racked Hide
+map.nodes[42004653] = PT.Mining({quest = 89145, id = 238597}) -- Spelunker's Lucky Charm
+aam.nodes[33296591] = PT.Mining({quest = 89149, id = 238601, parent = map.id}) -- Amani Expert's Chisel
 aam.nodes[44904517] = PT.Skinning({quest = 89167, id = 238629, parent = map.id}) -- Cadre Skinning Knife
 map.nodes[33077907] = PT.Skinning({quest = 89172, id = 238634}) -- Amani Skinning Knife
 map.nodes[40393601] = PT.Skinning({quest = 89170, id = 238632}) -- Amani Tanning Oil

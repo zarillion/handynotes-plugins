@@ -279,7 +279,7 @@ smc.nodes[44765626] = PT.Leatherworking({
     id = 238595,
     parent = map.id
 }) -- Artisan's Considered Order
-map.nodes[37964535] = PT.Mining({quest = nil, id = 238599}) -- Solid Ore Punchers
+map.nodes[37984538] = PT.Mining({quest = 89147, id = 238599}) -- Solid Ore Punchers
 smc.nodes[43135562] = PT.Skinning({quest = 89171, id = 238633, parent = map.id}) -- Sin'dorei Tanning Oil
 map.nodes[48407626] = PT.Skinning({quest = 89173, id = 238635}) -- Thalassian Skinning Knife
 smc.nodes[35736122] =
@@ -304,7 +304,7 @@ map.nodes[] = PT.Inscription({quest = nil, id = 238577}) -- Half-Baked Technique
 map.nodes[] = PT.Herbalism({quest = nil, id = 238469}) -- Sweeping Harvester's Scythe
 map.nodes[] = PT.Mining({quest = nil, id = 238600}) -- Glimmering Void Pearl
 map.nodes[] = PT.Mining({quest = nil, id = 238598}) -- Lost Voidstorm Satchel
-map.nodes[] = PT.Mining({quest = nil, id = 238596}) -- Miner's Guide to Voidstorm
+
 
 
 ]] --

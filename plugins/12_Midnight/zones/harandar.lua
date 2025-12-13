@@ -205,8 +205,8 @@ map.nodes[76065110] = PT.Herbalism({quest = nil, id = 238473}) -- Harvester's Si
 map.nodes[52386428] = PT.Herbalism({quest = nil, id = 238471}) -- Lightbloom Root
 map.nodes[52754998] = PT.Inscription({quest = 89071, id = 238576}) -- Leftover Sanguithorn Pigment
 map.nodes[52435261] = PT.Inscription({quest = 89070, id = 238575}) -- Intrepid Explorer's Marker
-map.nodes[36092524] = PT.Leatherworking({quest = nil, id = 238594}) -- Haranir Leatherworking Knife
-map.nodes[51755128] = PT.Leatherworking({quest = nil, id = 238593}) -- Haranir Leatherworking Mallet
+map.nodes[36102517] = PT.Leatherworking({quest = 89095, id = 238594}) -- Haranir Leatherworking Knife
+map.nodes[51695132] = PT.Leatherworking({quest = 89094, id = 238593}) -- Haranir Leatherworking Mallet
 map.nodes[38836586] = PT.Mining({quest = 89151, id = 238603}) -- Spare Expedition Torch
 map.nodes[69524917] = PT.Skinning({quest = 89168, id = 238630}) -- Primal Hide
 map.nodes[76095108] = PT.Skinning({quest = 89166, id = 238628}) -- Lightbloom Afflicted Hide
