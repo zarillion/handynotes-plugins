@@ -1,3 +1,7 @@
+# v129
+
+* Updated Ace3 Libraries
+
 # v123
 
 * Fixed lua error in pin tooltip [[#503]](https://github.com/zarillion/handynotes-plugins/issues/503)
