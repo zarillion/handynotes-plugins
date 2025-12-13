@@ -208,10 +208,10 @@ map.nodes[52435261] = PT.Inscription({quest = 89070, id = 238575}) -- Intrepid E
 map.nodes[36092524] = PT.Leatherworking({quest = nil, id = 238594}) -- Haranir Leatherworking Knife
 map.nodes[51755128] = PT.Leatherworking({quest = nil, id = 238593}) -- Haranir Leatherworking Mallet
 map.nodes[38836586] = PT.Mining({quest = 89151, id = 238603}) -- Spare Expedition Torch
-map.nodes[69534924] = PT.Skinning({quest = nil, id = 238630}) -- Primal Hide
-map.nodes[76035111] = PT.Skinning({quest = nil, id = 238628}) -- Lightbloom Afflicted Hide
-map.nodes[70535084] = PT.Tailoring({quest = nil, id = 238612}) -- A Child's Stuffy
-map.nodes[69795098] = PT.Tailoring({quest = nil, id = 238615}) -- Wooden Weaving Sword
+map.nodes[69524917] = PT.Skinning({quest = 89168, id = 238630}) -- Primal Hide
+map.nodes[76095108] = PT.Skinning({quest = 89166, id = 238628}) -- Lightbloom Afflicted Hide
+map.nodes[70565090] = PT.Tailoring({quest = 89078, id = 238612}) -- A Child's Stuffy
+map.nodes[69765105] = PT.Tailoring({quest = 89081, id = 238615}) -- Wooden Weaving Sword
 
 -------------------------------------------------------------------------------
 ----------------------------- HARANDAR GLYPH HUNTER ---------------------------

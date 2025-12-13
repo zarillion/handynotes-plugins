@@ -281,12 +281,12 @@ smc.nodes[44765626] = PT.Leatherworking({
 }) -- Artisan's Considered Order
 map.nodes[37964535] = PT.Mining({quest = nil, id = 238599}) -- Solid Ore Punchers
 smc.nodes[43135562] = PT.Skinning({quest = 89171, id = 238633, parent = map.id}) -- Sin'dorei Tanning Oil
-map.nodes[48447631] = PT.Skinning({quest = nil, id = 238635}) -- Thalassian Skinning Knife
+map.nodes[48407626] = PT.Skinning({quest = 89173, id = 238635}) -- Thalassian Skinning Knife
 smc.nodes[35736122] =
     PT.Tailoring({quest = 89079, id = 238613, parent = map.id}) -- A Really Nice Curtain
 smc.nodes[31796828] =
     PT.Tailoring({quest = 89084, id = 238618, parent = map.id}) -- Particularly Enchanting Tablecloth
-map.nodes[46333485] = PT.Tailoring({quest = nil, id = 238614}) -- Sin'dorei Outfitter's Ruler
+map.nodes[46363487] = PT.Tailoring({quest = 89080, id = 238614}) -- Sin'dorei Outfitter's Ruler
 
 --[[ MOVE TO RIGHT MAP WHEN FOUND
 map.nodes[] = PT.Enchanting({quest = nil, id = 238549}) -- Enchanted Sunfire Silk

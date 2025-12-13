@@ -356,7 +356,7 @@ slr.nodes[54814150] =
 map.nodes[30496904] = PT.Jewelcrafting({quest = 89123, id = 238581}) -- Speculative Voidstorm Crystal
 map.nodes[34725692] = PT.Leatherworking({quest = nil, id = 238589}) -- Ethereal Leatherworking Knife
 map.nodes[41803825] = PT.Mining({quest = nil, id = 238602}) -- Star Metal Deposit
-slr.nodes[43284936] = PT.Skinning({quest = nil, id = 238631, parent = map.id}) -- Voidstorm Leather Sample
+slr.nodes[45504240] = PT.Skinning({quest = 89169, id = 238631, parent = map.id}) -- Voidstorm Leather Sample
 
 -------------------------------------------------------------------------------
 ---------------------------- VOIDSTORM GLYPH HUNTER ---------------------------

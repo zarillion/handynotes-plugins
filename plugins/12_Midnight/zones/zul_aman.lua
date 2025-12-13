@@ -240,10 +240,10 @@ map.nodes[33127891] = PT.Leatherworking({quest = nil, id = 238588}) -- Amani Lea
 map.nodes[30768406] = PT.Leatherworking({quest = nil, id = 238590}) -- Prestigiously Racked Hide
 map.nodes[41994652] = PT.Mining({quest = 89145, id = 238597}) -- Spelunker's Lucky Charm
 aam.nodes[43284936] = PT.Mining({quest = nil, id = 238601, parent = map.id}) -- Amani Expert's Chisel
-aam.nodes[43134510] = PT.Skinning({quest = nil, id = 238629, parent = map.id}) -- Cadre Skinning Knife
-map.nodes[33107901] = PT.Skinning({quest = nil, id = 238634}) -- Amani Skinning Knife
-map.nodes[40413603] = PT.Skinning({quest = nil, id = 238632}) -- Amani Tanning Oil
-map.nodes[40004900] = PT.Tailoring({quest = nil, id = 238619}) -- Artisan's Cover Comb
+aam.nodes[44904517] = PT.Skinning({quest = 89167, id = 238629, parent = map.id}) -- Cadre Skinning Knife
+map.nodes[33077907] = PT.Skinning({quest = 89172, id = 238634}) -- Amani Skinning Knife
+map.nodes[40393601] = PT.Skinning({quest = 89170, id = 238632}) -- Amani Tanning Oil
+map.nodes[40534936] = PT.Tailoring({quest = 89085, id = 238619}) -- Artisan's Cover Comb
 
 -------------------------------------------------------------------------------
 ---------------------------- ZUL'AMAN GLYPH HUNTER ----------------------------
