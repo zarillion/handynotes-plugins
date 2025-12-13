@@ -199,10 +199,10 @@ map.nodes[66345085] = PT.Blacksmithing({quest = 89182, id = 238545}) -- Rutaani 
 map.nodes[37756522] = PT.Enchanting({quest = 89104, id = 238552}) -- Entropic Shard
 map.nodes[65725022] = PT.Enchanting({quest = 89105, id = 238553}) -- Primal Essence Orb
 map.nodes[68004981] = PT.Engineering({quest = 89136, id = 238559}) -- Expeditious Pylon
-map.nodes[51005500] = PT.Herbalism({quest = nil, id = 238475}) -- Planting Shovel
-map.nodes[38176697] = PT.Herbalism({quest = nil, id = 238468}) -- Bloomed Bud
-map.nodes[76065110] = PT.Herbalism({quest = nil, id = 238473}) -- Harvester's Sickle (dupe spawn in Zul aman???)
-map.nodes[52386428] = PT.Herbalism({quest = nil, id = 238471}) -- Lightbloom Root
+map.nodes[51115571] = PT.Herbalism({quest = 89155, id = 238475}) -- Planting Shovel
+map.nodes[38326704] = PT.Herbalism({quest = 89162, id = 238468}) -- Bloomed Bud
+map.nodes[76135105] = PT.Herbalism({quest = 89157, id = 238473}) -- Harvester's Sickle (dupe spawn in Zul aman???)
+map.nodes[36662506] = PT.Herbalism({quest = 89159, id = 238471}) -- Lightbloom Root
 map.nodes[52754998] = PT.Inscription({quest = 89071, id = 238576}) -- Leftover Sanguithorn Pigment
 map.nodes[52435261] = PT.Inscription({quest = 89070, id = 238575}) -- Intrepid Explorer's Marker
 map.nodes[36102517] = PT.Leatherworking({quest = 89095, id = 238594}) -- Haranir Leatherworking Knife
