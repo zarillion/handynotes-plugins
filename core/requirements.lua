@@ -111,8 +111,8 @@ function Item:Initialize(id, count, quality)
     self.id, self.count, self.quality = id, count, quality
     self.text = string.format('{item:%d}', self.id)
     if self.quality ~= nil then
-        self.text = self.text ..
-                        C_Texture.GetCraftingReagentQualityChatIcon(self.quality)
+        local icon = '|A:Professions-Icon-Quality-Tier' .. self.quality .. ':16:16|a'
+        self.text = self.text .. icon
     end
     if self.count and self.count > 1 then
         self.text = self.text .. ' x' .. self.count
