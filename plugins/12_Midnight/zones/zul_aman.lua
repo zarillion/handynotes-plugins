@@ -235,7 +235,11 @@ aam.nodes[65143476] = PT.Engineering({
 }) -- Offline Helper Bot
 map.nodes[34218780] = PT.Engineering({quest = 89140, id = 238563}) -- Handy Wrench
 map.nodes[40484935] = PT.Inscription({quest = 89068, id = 238573}) -- Leather-Bound Techniques
-aam.nodes[45294561] = PT.Leatherworking({quest = 89092, id = 238591, parent = map.id}) -- Bundle of Tanner's Trinkets
+aam.nodes[45294561] = PT.Leatherworking({
+    quest = 89092,
+    id = 238591,
+    parent = map.id
+}) -- Bundle of Tanner's Trinkets
 map.nodes[33087891] = PT.Leatherworking({quest = 89089, id = 238588}) -- Amani Leatherworker's Tool
 map.nodes[30758397] = PT.Leatherworking({quest = 89091, id = 238590}) -- Prestigiously Racked Hide
 map.nodes[42004653] = PT.Mining({quest = 89145, id = 238597}) -- Spelunker's Lucky Charm

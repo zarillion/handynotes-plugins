@@ -351,7 +351,8 @@ slr.nodes[41964062] = PT.Alchemy({quest = 89112, id = 238533, parent = map.id}) 
 map.nodes[30516899] = PT.Blacksmithing({quest = 89181, id = 238544}) -- Voidstorm Defense Spear
 map.nodes[35495882] = PT.Enchanting({quest = nil, id = 238550}) -- Pure Void Crystal
 map.nodes[55486428] = PT.Herbalism({quest = nil, id = 238474}) -- Peculiar Lotus
-slr.nodes[54814150] = PT.Inscription({quest = nil, id = 238572, parent = map.id}) -- Void-Touched Quill (Cant loot phasing issue)
+slr.nodes[54814150] =
+    PT.Inscription({quest = nil, id = 238572, parent = map.id}) -- Void-Touched Quill (Cant loot phasing issue)
 map.nodes[30496904] = PT.Jewelcrafting({quest = 89123, id = 238581}) -- Speculative Voidstorm Crystal
 map.nodes[34725692] = PT.Leatherworking({quest = 89090, id = 238589}) -- Ethereal Leatherworking Knife
 map.nodes[41843821] = PT.Mining({quest = 89150, id = 238602}) -- Star Metal Deposit

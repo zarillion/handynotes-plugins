@@ -14,6 +14,7 @@ local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
@@ -184,11 +185,14 @@ map.nodes[20004500] = Treasure({
 
 map.nodes[40642802] = Treasure({
     requires = ns.requirement.Item(260531, 150), -- Crystalized Resin Fragment
-    quest = nil,
-    rewards = {Achievement({id = 61263, criteria = 110257})}
+    quest = 93587,
+    rewards = {
+        Achievement({id = 61263, criteria = 110257}),
+        Mount({item = 252017, id = 2713})
+    }
 }) -- Peculiar Cauldron
 
--- Flame Harded Sap of Teldrassil @40862753 in water under a water lily, probably all over the zone, not on minimap
+-- Flame Harded Sap of Teldrassil @40862753,41803677 in water under a water lily, probably all over the zone, not on minimap
 -- gives 3-7 Resin, was lootable multiple times, sometimes said "there is no loot" but was lootable a seconds laiter. despawned after some time
 
 -------------------------------------------------------------------------------
@@ -339,6 +343,7 @@ map.nodes[71385863] = Moth({quest = 92215})
 map.nodes[55616429] = Moth({quest = 92219})
 map.nodes[74005723] = Moth({quest = 92220}) -- in a cave
 map.nodes[71715882] = Moth({quest = 92221})
+map.nodes[60341777] = Moth({quest = 92222}) -- in a cave
 map.nodes[44023812] = Moth({quest = 92223})
 map.nodes[43063945] = Moth({quest = 92224})
 map.nodes[46382488] = Moth({quest = 92225})
@@ -352,6 +357,7 @@ map.nodes[47634696] = Moth({quest = 92231})
 map.nodes[68693633] = Moth({quest = 92233})
 map.nodes[49267552] = Moth({quest = 92235})
 map.nodes[44783569] = Moth({quest = 92236})
+map.nodes[51382032] = Moth({quest = 92237}) -- in a cave
 map.nodes[58673020] = Moth({quest = 92238})
 map.nodes[41953772] = Moth({quest = 92241})
 map.nodes[43264035] = Moth({quest = 92242})
@@ -359,8 +365,10 @@ map.nodes[46864847] = Moth({quest = 92243})
 map.nodes[35897426] = Moth({quest = 92247})
 map.nodes[30806365] = Moth({quest = 92248})
 map.nodes[48275058] = Moth({quest = 92251})
+map.nodes[60724540] = Moth({quest = 92253}) -- in a cave in waterfall
 map.nodes[54493885] = Moth({quest = 92255})
 map.nodes[36974830] = Moth({quest = 92256})
+map.nodes[67971999] = Moth({quest = 92257}) -- in a cave
 map.nodes[42192226] = Moth({quest = 92259})
 map.nodes[65305774] = Moth({quest = 92264}) -- in a cave
 map.nodes[41346807] = Moth({quest = 92265})
