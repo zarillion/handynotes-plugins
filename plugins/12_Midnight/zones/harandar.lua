@@ -191,9 +191,8 @@ map.nodes[40642802] = Treasure({
         Mount({item = 252017, id = 2713})
     }
 }) -- Peculiar Cauldron
-
--- Flame Harded Sap of Teldrassil @40862753,41803677 in water under a water lily, probably all over the zone, not on minimap
--- gives 3-7 Resin, was lootable multiple times, sometimes said "there is no loot" but was lootable a seconds laiter. despawned after some time
+-- Flame Harded Sap of Teldrassil (loots 2-7x Crystalized Resin Fragment) - item:260531
+-- found in the river from approx 39682090 to 49925115
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
