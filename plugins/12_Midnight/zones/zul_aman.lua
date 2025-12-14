@@ -153,14 +153,14 @@ map.nodes[46838186] = Treasure({
     quest = nil,
     rewards = {Achievement({id = 62125, criteria = 111855})},
     pois = {
-        POI({points = 54772240, label = '{item:259220}'}) -- Honored Warrior's Urn. Spawns 255233, after you kill him he says "You have proven ... worthy" no quest triggered. Drops Dragonhawk Feather
+        -- Honored Warrior's Urn:
+        POI({points = 54772240, label = '{item:259220}'}), -- Spawns Jan'alai's Chosen (255233), drops Dragonhawk Feather
+        POI({points = 34543348, label = '{item:259223}'}), -- Spawns Halazzi's Chosen (255232), drops Lynx Claw
+        POI({points = 51578491}), -- Spawns Akil'zon's Chosen (255231) -- looting was bugged
+        POI({points = 32698349, label = '{item:259219}'}),  -- Spawns Nalorakk's Chosen (255171), drops Bear Tooth
     }
 }) -- Honored Warrior's Cache
 -- 93560 Triggered when clicking the cache
--- To prove yourself worthy, retrieve the four tokens from each
--- of the great warriors of old at their final resting places
--- in the sacred grounds of their loa.
-
 -- Node also appears on the minimap at 21507728, but i cant find it.
 
 map.nodes[21897738] = Treasure({
