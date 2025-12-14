@@ -174,9 +174,15 @@ map.nodes[20003500] = Treasure({
 }) -- Gift of the Cycle
 
 map.nodes[26736759] = Treasure({
-    quest = nil,
-    rewards = {Achievement({id = 61263, criteria = 110255})}
+    quest = 93508,
+    rewards = {
+        Achievement({id = 61263, criteria = 110255}),
+        Pet({item = 260730, id = 4948}) -- [Perturbed Sporebat]
+    }
 }) -- Impenatrably Sealed Gourd
+-- Loot [Mysterious Red Fluid] (260251) from the nearby {object:Dangling Jug}
+-- loot [Mysterious Purple Fluid] (260250) from the nearby {object:Hanging Flask}
+-- click on {object:Durable Vase} and add the fluids to get [Fizzing Fluid] (260266) then loot the treasure from the Sealed Gourd
 
 map.nodes[20004500] = Treasure({
     quest = nil,
