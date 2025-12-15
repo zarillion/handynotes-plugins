@@ -18,6 +18,8 @@ L['options_icons_telescope_desc'] = nil
 L['options_icons_midnight_lore_hunter'] = '{achievement:62104}'
 L['options_icons_midnight_lore_hunter_desc'] = nil
 
+L['share_a_drink_note'] = nil
+
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------

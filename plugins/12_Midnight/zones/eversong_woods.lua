@@ -15,8 +15,9 @@ local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
-local Transmog = ns.reward.Transmog
+local Pet = ns.reward.Pet
 local Reputation = ns.reward.Reputation
+local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -140,7 +141,7 @@ smc.nodes[24346928] = Treasure({
     requires = ns.requirement.Item(263870), -- Rookery Cache Key
     quest = 93967, -- 94626 triggered after feeding Mischevious Chick with Tasty Meat from Farstrider Aerieminder(had to buy meat and fly away for bit to spawn to place it)
     location = L['on_flying_platform'],
-    rewards = {Achievement({id = 61960, criteria = 111471})},
+    rewards = {Achievement({id = 61960, criteria = 111471}), Pet({id = 5003})},
     parent = map.id
 }) -- Rookery Cache
 

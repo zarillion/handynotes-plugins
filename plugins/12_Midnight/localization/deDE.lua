@@ -19,6 +19,8 @@ L['options_icons_telescope_desc'] = 'Zeigt die Positionen aller 10 Teleskope fü
 L['options_icons_midnight_lore_hunter'] = '{achievement:62104}'
 L['options_icons_midnight_lore_hunter_desc'] = 'Zeigt die Positionen der Geschichtsobjekte für den {achievement:62104} Erfolg an.'
 
+L['share_a_drink_note'] = 'Kaufe {item:251039} von {npc:250495} in der Arcantina und teile ihn mit allen Rassen.'
+
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------

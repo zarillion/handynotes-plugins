@@ -18,6 +18,8 @@ L['options_icons_telescope_desc'] = 'Display the location of all 10 telescopes f
 L['options_icons_midnight_lore_hunter'] = '{achievement:62104}'
 L['options_icons_midnight_lore_hunter_desc'] = 'Display lore object locations for {achievement:62104} achievement.'
 
+L['share_a_drink_note'] = 'Purchase {item:251039} from {npc:250495} in the Arcantina and share it with all races.'
+
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------

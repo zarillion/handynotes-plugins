@@ -157,7 +157,7 @@ map.nodes[46838186] = Treasure({
         POI({points = 54772240, label = '{item:259220}'}), -- Spawns Jan'alai's Chosen (255233), drops Dragonhawk Feather
         POI({points = 34543348, label = '{item:259223}'}), -- Spawns Halazzi's Chosen (255232), drops Lynx Claw
         POI({points = 51578491}), -- Spawns Akil'zon's Chosen (255231) -- looting was bugged
-        POI({points = 32698349, label = '{item:259219}'}),  -- Spawns Nalorakk's Chosen (255171), drops Bear Tooth
+        POI({points = 32698349, label = '{item:259219}'}) -- Spawns Nalorakk's Chosen (255171), drops Bear Tooth
     }
 }) -- Honored Warrior's Cache
 -- 93560 Triggered when clicking the cache
@@ -366,6 +366,7 @@ aam.nodes[07344751] = Telescope({quest = 94544, parent = map.id})
 map.nodes[41854163] = Telescope({quest = 94545})
 
 ------------------------- THE FROG AND THE PRINCESS ----------------------------
+
 local FrogPrincess = Class('FrogPrincess', ns.node.Collectible,
     {icon = 2399262, scale = 1.5})
 
@@ -380,3 +381,28 @@ map.nodes[68281931] = FrogPrincess(112445) -- Princess Gabiku
 aam.nodes[27534005] = FrogPrincess(112446, {parent = map.id}) -- Princess Jakobu
 map.nodes[53945956] = FrogPrincess(112447) -- Princess Tafiki
 map.nodes[29817915] = FrogPrincess(112448) -- Princess Zambina
+
+----------------------------- SHADOWPINE SCATTERED ----------------------------
+
+local Songseeker = Class('Songseeker', ns.node.Collectible, {icon = 6119037})
+
+map.nodes[10001000] = Songseeker({
+    rewards = {Achievement({id = 61455, criteria = 109749})}
+}) -- Songseeker Baz'wa
+
+map.nodes[47338191] = Songseeker({
+    rewards = {Achievement({id = 61455, criteria = 109750})}
+}) -- Songseeker Far'lan
+
+map.nodes[10003000] = Songseeker({
+    rewards = {Achievement({id = 61455, criteria = 109751})}
+}) -- Songseeker Jebanda
+
+map.nodes[10004000] = Songseeker({
+    rewards = {Achievement({id = 61455, criteria = 109752})}
+}) -- Songseeker Dova
+
+map.nodes[55201810] = Songseeker({
+    location = 'On top of the Temple.', -- TODO: add localization line
+    rewards = {Achievement({id = 61455, criteria = 109753})}
+}) -- Songseeker Ikaja

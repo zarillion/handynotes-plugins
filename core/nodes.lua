@@ -467,7 +467,7 @@ function Item:Initialize(attrs)
 end
 
 function Item:IsCompleted()
-    if ns.PlayerHasItem(self.id) then return true end
+    if not self.ignore_bags and ns.PlayerHasItem(self.id) then return true end
     return Node.IsCompleted(self)
 end
 

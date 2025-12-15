@@ -18,6 +18,8 @@ L['options_icons_telescope_desc'] = 'Muestra dónde están los 10 telescopios pa
 L['options_icons_midnight_lore_hunter'] = '{achievement:62104}'
 L['options_icons_midnight_lore_hunter_desc'] = 'Muestra dónde están los objetos de conocimiento para el logro {achievement:62104}.'
 
+L['share_a_drink_note'] = nil
+
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------

@@ -19,6 +19,8 @@ L['options_icons_telescope_desc'] = 'Afficher les emplacements des 10 télescope
 L['options_icons_midnight_lore_hunter'] = '{achievement:62104}'
 L['options_icons_midnight_lore_hunter_desc'] = 'Afficher les emplacements des objets d\'histoire pour le haut-fait {achievement:62104}.'
 
+L['share_a_drink_note'] = nil
+
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------
