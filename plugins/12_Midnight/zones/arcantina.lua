@@ -39,7 +39,7 @@ map.nodes[68055216] = CantinaItem({icon = 134302, id = 6657, quest = 92363}) -- 
 
 -------------------------------------------------------------------------------
 
-map.nodes[50005000] = ns.node.Collectible({
+map.nodes[62736680] = ns.node.Collectible({
     icon = 135999,
     label = '{achievement:61081}',
     note = L['share_a_drink_note'],

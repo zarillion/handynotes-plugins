@@ -67,28 +67,29 @@ map.nodes[59934684] = Rare({
     rewards = {Achievement({id = 61264, criteria = 109043})}
 }) -- Queen Lashtongue
 
-map.nodes[10003500] = Rare({
+map.nodes[64574794] = Rare({
     id = 249997,
-    quest = 92161, -- 92161
+    quest = 92161, -- 94717
     rewards = {Achievement({id = 61264, criteria = 109044})}
 }) -- Chlorokyll
 
-map.nodes[10004000] = Rare({
+map.nodes[65553269] = Rare({
     id = 250086,
     quest = 92168, -- 92168
     rewards = {Achievement({id = 61264, criteria = 109045})}
 }) -- Stumpy
 
-map.nodes[10004500] = Rare({
+map.nodes[56383299] = Rare({
     id = 250180,
     quest = 92170, -- 92170
     rewards = {Achievement({id = 61264, criteria = 109046})}
 }) -- Serrasa
 
-map.nodes[10005000] = Rare({
+map.nodes[45933134] = Rare({
     id = 250226,
-    quest = 92172, -- 92172
-    rewards = {Achievement({id = 61264, criteria = 109047})}
+    quest = 92172, -- 92720
+    rewards = {Achievement({id = 61264, criteria = 109047})},
+    pois = {Path({45422935, 45762998, 46033063, 45933134, 45803201, 46143260})}
 }) -- Mindrot
 
 map.nodes[40654299] = Rare({
@@ -121,7 +122,7 @@ map.nodes[39696070] = Rare({
     rewards = {Achievement({id = 61264, criteria = 109052})}
 }) -- Ahl'ua'huhi
 
-map.nodes[10008000] = Rare({
+map.nodes[44201658] = Rare({
     id = 250358,
     quest = 92194, -- 92194
     rewards = {Achievement({id = 61264, criteria = 109053})}
@@ -265,7 +266,9 @@ map.nodes[49407592] = Telescope({quest = 94548})
 map.nodes[53495855] = Telescope({quest = 94550})
 map.nodes[69602132] = Telescope({quest = 94547})
 map.nodes[70524356] = Telescope({quest = 94546})
-map.nodes[69406339] = Telescope({quest = 94549})
+map.nodes[69406339] = Telescope({quest = 94549}) -- removed?
+map.nodes[68162597] = Telescope({quest = 95166}) -- 95270 also triggered
+map.nodes[69174638] = Telescope({quest = 94546}) -- 94551, 94553
 
 ---------------------------- MIDNIGHT LORE HUNTER -----------------------------
 
@@ -320,7 +323,7 @@ local Moth = Class('Moth', ns.node.Collectible, {
     icon = 1003597,
     group = ns.groups.GLOWING_MOTH,
     rewards = {
-        Achievement({id = 61052, oneline = true}),
+        Achievement({id = 61052, criteria = {id = 1, qty = true}}),
         ns.reward.Currency({id = 3385}) -- Luminous Dust
     }
 })
@@ -388,3 +391,19 @@ map.nodes[59984305] = Moth({quest = 92305})
 map.nodes[67736886] = Moth({quest = 92306})
 map.nodes[48545535] = Moth({quest = 92307})
 
+-------------------------------------------------------------------------------
+
+map.nodes[66166169] = ns.node.NPC({
+    icon = 1670851,
+    id = 247220,
+    rewards = {
+        Achievement({id = 61939, criteria = {id = 1, qty = true}}),
+        ns.reward.Spacer(),
+        Achievement({id = 61943, criteria = 111433, oneline = true}),
+        Achievement({id = 62325, criteria = 112532, oneline = true}),
+        Achievement({id = 62326, criteria = 112536, oneline = true}),
+        Achievement({id = 62329, criteria = 112540, oneline = true}),
+        Achievement({id = 62330, criteria = 112544, oneline = true}),
+        Achievement({id = 62331, criteria = 112548, oneline = true})
+    }
+})

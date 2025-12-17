@@ -121,7 +121,7 @@ map.nodes[42316891] = Rare({
     rewards = {Achievement({id = 61507, criteria = 110178})}
 }) -- Duskburn
 
-map.nodes[51544585] = Rare({
+map.nodes[51684599] = Rare({
     id = 255329,
     quest = 93555, -- 93555/94695 ?
     rewards = {Achievement({id = 61507, criteria = 110179})}
@@ -368,6 +368,7 @@ smc.nodes[20227961] = Telescope({quest = 94536, parent = map.id})
 -- smc.nodes[79266076] = Telescope({quest = 94539, parent = map.id}) -- Moved to below location
 map.nodes[54585101] = Telescope({quest = 94539})
 map.nodes[37414789] = Telescope({quest = 94538})
+map.nodes[63628512] = Telescope({quest = 94544})
 
 ---------------------------- MIDNIGHT LORE HUNTER -----------------------------
 

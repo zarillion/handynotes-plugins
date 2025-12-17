@@ -19,6 +19,7 @@ local Transmog = ns.reward.Transmog
 local Reputation = ns.reward.Reputation
 
 local POI = ns.poi.POI
+local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
 
@@ -364,6 +365,7 @@ map.nodes[53018202] = Telescope({quest = 94542})
 map.nodes[57692123] = Telescope({quest = 94543})
 aam.nodes[07344751] = Telescope({quest = 94544, parent = map.id})
 map.nodes[41854163] = Telescope({quest = 94545})
+map.nodes[27797002] = Telescope({quest = 94553})
 
 ------------------------- THE FROG AND THE PRINCESS ----------------------------
 
@@ -386,7 +388,7 @@ map.nodes[29817915] = FrogPrincess(112448) -- Princess Zambina
 
 local Songseeker = Class('Songseeker', ns.node.Collectible, {icon = 6119037})
 
-map.nodes[10001000] = Songseeker({
+map.nodes[52687933] = Songseeker({
     rewards = {Achievement({id = 61455, criteria = 109749})}
 }) -- Songseeker Baz'wa
 
@@ -394,8 +396,15 @@ map.nodes[47338191] = Songseeker({
     rewards = {Achievement({id = 61455, criteria = 109750})}
 }) -- Songseeker Far'lan
 
-map.nodes[10003000] = Songseeker({
-    rewards = {Achievement({id = 61455, criteria = 109751})}
+map.nodes[33194347] = Songseeker({
+    rewards = {Achievement({id = 61455, criteria = 109751})},
+    pois = {
+        Path({
+            31533814, 32063855, 32553899, 33013949, 33194013, 33144080,
+            33164147, 33144214, 33154281, 33194347, 32954410, 32604467,
+            32254524, 31954584, 31714646, 31624653
+        })
+    }
 }) -- Songseeker Jebanda
 
 map.nodes[10004000] = Songseeker({

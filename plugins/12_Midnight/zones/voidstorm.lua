@@ -317,13 +317,13 @@ map.nodes[63427822] = LoreObject({
     }
 }) -- Void Armor
 
-map.nodes[28156593] = LoreObject({
+map.nodes[60384550] = LoreObject({
     quest = 94397,
     rewards = {
         Achievement({id = 62104, criteria = 111837}),
         Reputation({id = 2699, gain = 275, quest = 94397})
     }
-}) -- Tainted Page/Tattered Page -- review
+}) -- Tainted Page/Tattered Page
 
 map.nodes[28156593] = LoreObject({
     quest = 94394,
