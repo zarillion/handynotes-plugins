@@ -44,8 +44,8 @@ L['options_icons_glowing_moth_desc'] = 'Muestra dónde están las Polillas respl
 -------------------------------------------------------------------------------
 
 L['bloody_sack_note'] = 'Coge la {object:Carne goteando} de un montón de huesos cercanos para alimentar la {object:Mazmorra olvidada}.'
-L['malignant_chest_note'] = nil
-L['malignant_node'] = nil
+L['malignant_chest_note'] = 'Activa los {object:Nodos malignos} de la cueva para desbloquear el cofre.'
+L['malignant_node'] = 'Nodos malignos'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ZUL'AMAN ----------------------------------
