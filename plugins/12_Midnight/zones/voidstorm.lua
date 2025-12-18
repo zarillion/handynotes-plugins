@@ -14,12 +14,13 @@ local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Decor = ns.reward.Decor
 local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Reputation = ns.reward.Reputation
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
-local Reputation = ns.reward.Reputation
 
 local Path = ns.poi.Path
 local POI = ns.poi.POI
@@ -75,7 +76,7 @@ map.nodes[47058063] = Rare({
 map.nodes[39236392] = Rare({
     id = 256924,
     location = L['in_small_cave'],
-    quest = nil, -- 93944
+    quest = 34751, -- 93944
     rewards = {Achievement({id = 62130, criteria = 111882})}
 }) -- Aeonelle Blackstar
 
@@ -197,14 +198,25 @@ map.nodes[64537547] = Treasure({
 
 map.nodes[53364266] = Treasure({
     quest = 93840,
-    rewards = {Achievement({id = 62126, criteria = 111867})}
-}) -- Malignant Chest (93812,93813,93814,93815 triggers from the maligant nodes around the cave that you need to activate)
+    rewards = {
+        Achievement({id = 62126, criteria = 111867}), Decor({id = 15746}) -- Void Elf Torch
+    },
+    note = L['malignant_chest_note'],
+    pois = {
+        POI({points = {53484323}, label = L['malignant_node'], quest = 93812}), -- Malignant Node
+        POI({points = {52924332}, label = L['malignant_node'], quest = 93813}), -- Malignant Node
+        POI({points = {53534391}, label = L['malignant_node'], quest = 93814}), -- Malignant Node
+        POI({points = {53234268}, label = L['malignant_node'], quest = 93815}) -- Malignant Node
+    }
+}) -- Malignant Chest
 
 slr.nodes[53133228] = Treasure({
     quest = 93996, -- 94005 after you pull out the stash
-    rewards = {Achievement({id = 62126, criteria = 111868})},
+    rewards = {
+        Achievement({id = 62126, criteria = 111868}), Decor({id = 14597})
+    },
     parent = map.id
-}) -- Stellar Stash --rewards [Void Elf Round Table] housing decor
+}) -- Stellar Stash
 
 lop_b.nodes[23748369] = Treasure({
     quest = 94454,
@@ -224,7 +236,10 @@ map.nodes[47937851] = Treasure({
 
 slr.nodes[49052012] = Treasure({
     quest = 94387,
-    rewards = {Achievement({id = 62126, criteria = 111870})},
+    rewards = {
+        Achievement({id = 62126, criteria = 111870}),
+        Transmog({item = 266101, type = L['cosmetic']}) -- Unused Initiates's Bulwark
+    },
     parent = map.id
 }) -- Scout's Pack
 

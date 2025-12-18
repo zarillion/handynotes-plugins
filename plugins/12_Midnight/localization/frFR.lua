@@ -19,7 +19,8 @@ L['options_icons_telescope_desc'] = 'Afficher les emplacements des 10 télescope
 L['options_icons_midnight_lore_hunter'] = '{achievement:62104}'
 L['options_icons_midnight_lore_hunter_desc'] = 'Afficher les emplacements des objets d\'histoire pour le haut-fait {achievement:62104}.'
 
-L['share_a_drink_note'] = 'Achetez des {item:251039} auprès de {npc:250495} à l\'Arcantina et partagez-les avec chaque race.'
+L['options_icons_profession_treasures'] = 'Trésors de métiers'
+L['options_icons_profession_treasures_desc'] = 'Afficher les emplacements des trésors qui confèrent de la connaissance de métiers.'
 
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
@@ -44,7 +45,15 @@ L['options_icons_glowing_moth_desc'] = 'Afficher les emplacements des Phalènes 
 -------------------------------------------------------------------------------
 
 L['bloody_sack_note'] = 'Ramassez de la {object:Viande dégoulinante} sur les tas d\'os à proximité pour nourrir l\'{object:Oubliette oubliée}.'
+L['malignant_chest_note'] = nil
+L['malignant_node'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- ZUL'AMAN ----------------------------------
 -------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+---------------------------------- ARCANTINA ----------------------------------
+-------------------------------------------------------------------------------
+
+L['share_a_drink_note'] = 'Achetez des {item:251039} auprès de {npc:250495} à l\'Arcantina et partagez-les avec chaque race.'

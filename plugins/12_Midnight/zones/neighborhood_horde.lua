@@ -17,7 +17,7 @@ local Riddle = Class('Riddle', ns.node.Node,
     {label = '{quest:93074}', icon = 'peg_gn', scale = 2})
 
 function Riddle:IsEnabled()
-    return self.quest and C_QuestLog.IsOnQuest(self.quest) or false
+    return self.quest and C_QuestLog.IsOnQuest(self.quest[1]) or false
 end
 
 function Riddle.getters:rewards()
@@ -25,3 +25,6 @@ function Riddle.getters:rewards()
 end
 
 map.nodes[55574979] = Riddle({quest = 93074, decor = 524})
+
+
+-- 95166 triggered when petting npc 256523 Raptor Hatchling, running around @54695761, sleeps @54525807
