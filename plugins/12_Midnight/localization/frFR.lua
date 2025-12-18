@@ -45,8 +45,8 @@ L['options_icons_glowing_moth_desc'] = 'Afficher les emplacements des Phalènes 
 -------------------------------------------------------------------------------
 
 L['bloody_sack_note'] = 'Ramassez de la {object:Viande dégoulinante} sur les tas d\'os à proximité pour nourrir l\'{object:Oubliette oubliée}.'
-L['malignant_chest_note'] = nil
-L['malignant_node'] = nil
+L['malignant_chest_note'] = 'Activez les {object:Nœuds malveillants} dans la grotte pour déverrouiller le coffre.'
+L['malignant_node'] = 'Nœud malveillant'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ZUL'AMAN ----------------------------------
