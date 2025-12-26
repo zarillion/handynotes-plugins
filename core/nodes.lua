@@ -301,11 +301,11 @@ function Node:Render(tooltip, focusable)
     end
 
     -- optional text directly under sublabel/label for development notes
-    if self.devnote and ns:GetOpt('development') then
+    if self.devnote and _G['HandyNotes_ZarPluginsDevelopment'] then
         tooltip:AddLine(ns.RenderLinks(self.devnote), 1, 0, 1)
     end
     -- optional text directly under sublabel/label for development notes
-    if self.areaPOI and ns:GetOpt('development') then
+    if self.areaPOI and _G['HandyNotes_ZarPluginsDevelopment'] then
         tooltip:AddLine(ns.RenderLinks('Poi ID: ' .. self.areaPOI), 0.58, 0.43,
             0.84)
     end

@@ -25,6 +25,8 @@ L['options_icons_flight_master_desc'] = 'Muestra los {npc:Maestro de Vuelo} para
 L['options_icons_worldsoul_memories'] = 'Recuerdos del alma-mundo'
 L['options_icons_worldsoul_memories_desc'] = 'Muestra las recompensas para  {object:Recuerdos del alma-mundo}.'
 
+L['last_architect_note'] = nil
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------

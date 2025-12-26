@@ -774,6 +774,28 @@ function Reputation:IsObtained()
 end
 
 -------------------------------------------------------------------------------
+------------------------------------ DECOR ------------------------------------
+-------------------------------------------------------------------------------
+
+local Decor = Class('Decor', Reward,
+    {display_option = 'show_decor_rewards', type = L['decor']})
+
+function Decor:Initialize(attrs)
+    Reward.Initialize(self, attrs)
+
+    if not self.id then
+        error('Decor() reward requires an decor id to be set')
+    end
+
+    self.itemLink = C_HousingDecor.GetDecorName(self.id)
+    self.itemIcon = 7252953 -- C_HousingDecor.GetDecorIcon(self.id)
+end
+
+function Decor:GetText()
+    return Icon(self.itemIcon) .. self.itemLink .. ' (' .. self.type .. ')'
+end
+
+-------------------------------------------------------------------------------
 
 ns.reward = {
     Reward = Reward,
@@ -796,5 +818,6 @@ ns.reward = {
     Toy = Toy,
     Appearance = Appearance,
     Transmog = Transmog,
-    Reputation = Reputation
+    Reputation = Reputation,
+    Decor = Decor
 }

@@ -25,6 +25,8 @@ L['options_icons_flight_master_desc'] = nil
 L['options_icons_worldsoul_memories'] = nil
 L['options_icons_worldsoul_memories_desc'] = nil
 
+L['last_architect_note'] = nil
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------
