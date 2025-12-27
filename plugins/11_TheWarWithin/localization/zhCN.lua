@@ -25,7 +25,7 @@ L['options_icons_flight_master_desc'] = '显示 {achievement:40430} 成就中 {n
 L['options_icons_worldsoul_memories'] = '世界之魂的回忆'
 L['options_icons_worldsoul_memories_desc'] = '显示 {object:世界之魂的回忆} 的奖励。'
 
-L['last_architect_note'] = nil
+L['last_architect_note'] = '完成每日谜题以获得装饰。'
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
