@@ -1,3 +1,7 @@
+# v129
+
+* Localization updates: deDE, esES, frFR, zhCN
+
 # v128
 
 * Bump toc to 110207
