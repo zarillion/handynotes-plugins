@@ -93,7 +93,7 @@ L['time_format_12hrs'] = '%I:%M %p - %d/%m hora local'
 L['time_format_24hrs'] = '%H:%M - %d/%m hora local'
 
 ----------------------------------- REWARDS -----------------------------------
-L['decor'] = 'Adorno para hogares'
+L['decor'] = 'Adorno para las viviendas'
 L['heirloom'] = 'Reliquia'
 L['item'] = 'Objeto'
 L['mount'] = 'Montura'
