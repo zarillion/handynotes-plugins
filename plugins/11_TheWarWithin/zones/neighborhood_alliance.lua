@@ -6,6 +6,8 @@ local Class = ns.Class
 local Map = ns.Map
 local L = ns.locale
 
+local POI = ns.poi.POI
+
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2352, settings = true})
@@ -53,7 +55,6 @@ map.nodes[69202670] = _Riddle_({quest = 92962, decor = 378})
 map.nodes[63104670] = _Riddle_({quest = 92963, decor = 389})
 map.nodes[64875098] = Riddle({quest = 92964, decor = 390})
 map.nodes[59805240] = _Riddle_({quest = 92965, decor = 494})
-map.nodes[66905700] = _Riddle_({quest = 92966, decor = 528})
 map.nodes[58306500] = _Riddle_({quest = 92967, decor = 530})
 map.nodes[52806680] = _Riddle_({quest = 92968, decor = 529})
 map.nodes[55307130] = _Riddle_({quest = 92969, decor = 1122})
@@ -97,3 +98,10 @@ map.nodes[53603970] = _Riddle_({quest = 93006, decor = 1153})
 map.nodes[57303920] = _Riddle_({quest = 93007, decor = 9255})
 map.nodes[52002900] = _Riddle_({quest = 93008, decor = 80})
 map.nodes[53604190] = _Riddle_({quest = 93009, decor = 2110})
+
+map.nodes[66905700] = _Riddle_({
+    location = L['in_water_cave'],
+    quest = 92966,
+    decor = 528,
+    pois = {POI({points = 64655751, label =L['entrance']})}
+})
