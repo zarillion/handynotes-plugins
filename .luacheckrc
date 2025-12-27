@@ -32,7 +32,6 @@ read_globals = {
     'C_DateAndTime',
     'C_Garrison',
     'C_Heirloom',
-    'C_HousingDecor',
     'C_Item',
     'C_MajorFactions',
     'C_Map',
