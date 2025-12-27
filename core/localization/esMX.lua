@@ -93,6 +93,7 @@ L['time_format_12hrs'] = '%I:%M %p - %d/%m heure locale'
 L['time_format_24hrs'] = '%H:%M - %d/%m heure locale'
 
 ----------------------------------- REWARDS -----------------------------------
+L['decor'] = 'Decoraciones de viviendas'
 L['heirloom'] = nil
 L['item'] = nil
 L['mount'] = 'Montura'

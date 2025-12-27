@@ -93,6 +93,7 @@ L['time_format_12hrs'] = nil
 L['time_format_24hrs'] = nil
 
 ----------------------------------- REWARDS -----------------------------------
+L['decor'] = '하우징 장식'
 L['heirloom'] = '유산'
 L['item'] = nil
 L['mount'] = '탈것'

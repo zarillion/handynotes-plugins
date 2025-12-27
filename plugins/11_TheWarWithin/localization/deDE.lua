@@ -26,7 +26,7 @@ L['options_icons_flight_master_desc'] = 'Zeigt die Positionen der {npc:Flugmeist
 L['options_icons_worldsoul_memories'] = 'Weltenseelenerinnerung'
 L['options_icons_worldsoul_memories_desc'] = 'Zeigt die Positionen der {object:Weltenseelenerinnerungen} an.'
 
-L['last_architect_note'] = 'Schließe tägliche Rätsel ab um Dekorationen zu erhalten.'
+L['last_architect_note'] = 'Schließe tägliche Rätsel ab, um Dekorationen zu erhalten.'
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------

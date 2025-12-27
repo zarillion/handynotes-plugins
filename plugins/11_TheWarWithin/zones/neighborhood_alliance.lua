@@ -14,7 +14,7 @@ local map = Map({id = 2352, settings = true})
 ----------------------------------- RIDDLES -----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[50005000] = ns.node.NPC({
+map.nodes[52733748] = ns.node.NPC({
     id = 253596,
     icon = 'peg_bl',
     scale = 2,
@@ -51,7 +51,7 @@ map.nodes[63203830] = _Riddle_({quest = 92437, decor = 373})
 map.nodes[58103010] = _Riddle_({quest = 92961, decor = 374})
 map.nodes[69202670] = _Riddle_({quest = 92962, decor = 378})
 map.nodes[63104670] = _Riddle_({quest = 92963, decor = 389})
-map.nodes[64805090] = _Riddle_({quest = 92964, decor = 390})
+map.nodes[64875098] = Riddle({quest = 92964, decor = 390})
 map.nodes[59805240] = _Riddle_({quest = 92965, decor = 494})
 map.nodes[66905700] = _Riddle_({quest = 92966, decor = 528})
 map.nodes[58306500] = _Riddle_({quest = 92967, decor = 530})

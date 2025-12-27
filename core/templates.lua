@@ -276,7 +276,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             end
         elseif L_UIDROPDOWNMENU_MENU_VALUE == 'rewards' then
             for i, type in ipairs({
-                'rep', 'mount', 'pet', 'recipe', 'toy', 'transmog', 'decor'
+                'rep', 'mount', 'pet', 'recipe', 'toy', 'transmog'
             }) do
                 LibDD:UIDropDownMenu_AddButton({
                     text = L['options_' .. type .. '_rewards'],
@@ -299,6 +299,18 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
                     checked = ns:GetOpt('show_manuscript_rewards'),
                     func = function(button, option)
                         ns:SetOpt('show_manuscript_rewards', button.checked)
+                    end
+                }, 2)
+            end
+
+            if ns.expansion >= 11 then -- TWW and beyond
+                LibDD:UIDropDownMenu_AddButton({
+                    text = L['options_decor_rewards'],
+                    isNotRadio = true,
+                    keepShownOnClick = true,
+                    checked = ns:GetOpt('show_decor_rewards'),
+                    func = function(button, option)
+                        ns:SetOpt('show_decor_rewards', button.checked)
                     end
                 }, 2)
             end
