@@ -99,9 +99,9 @@ map.nodes[57303920] = _Riddle_({quest = 93007, decor = 9255})
 map.nodes[52002900] = _Riddle_({quest = 93008, decor = 80})
 map.nodes[53604190] = _Riddle_({quest = 93009, decor = 2110})
 
-map.nodes[66905700] = _Riddle_({
+map.nodes[66905700] = Riddle({
     location = L['in_water_cave'],
     quest = 92966,
     decor = 528,
-    pois = {POI({points = 64655751, label =L['entrance']})}
+    pois = {POI({points = 64655751, label = L['entrance']})}
 })
