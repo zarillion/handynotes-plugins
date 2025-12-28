@@ -6,6 +6,8 @@ local Class = ns.Class
 local Map = ns.Map
 local L = ns.locale
 
+local Riddle = ns.node.Riddle
+
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2351, settings = true})
@@ -29,17 +31,6 @@ map.nodes[53695737] = ns.node.NPC({
     questCount = true
 }) -- The Last Architect
 
-local Riddle = Class('Riddle', ns.node.Node,
-    {label = '{quest:93074}', icon = 'peg_gn', scale = 2})
-
-function Riddle:IsEnabled()
-    return self.quest and C_QuestLog.IsOnQuest(self.quest[1]) or false
-end
-
-function Riddle.getters:rewards()
-    return self.decor and {ns.reward.Decor({id = self.decor})} or {}
-end
-
 local _Riddle_ = Class('_Riddle_', Riddle,
     {devnote = 'Wowhead data, please confirm coordinates'})
 -- remove Class once all nodes have been confirmed
@@ -57,7 +48,7 @@ map.nodes[62605160] = _Riddle_({quest = 93080, decor = 1700})
 map.nodes[72005000] = _Riddle_({quest = 93081, decor = 1723})
 map.nodes[68905250] = _Riddle_({quest = 93082, decor = 1724})
 map.nodes[72104180] = _Riddle_({quest = 93083, decor = 1736})
-map.nodes[60706450] = _Riddle_({quest = 93084, decor = 1737})
+map.nodes[60726463] = Riddle({quest = 93084, item = 245546, decor = 1737})
 map.nodes[38648026] = Riddle({quest = 93085, decor = 2114})
 map.nodes[55505240] = _Riddle_({quest = 93087, decor = 2115})
 map.nodes[63735623] = Riddle({quest = 93088, decor = 2116})

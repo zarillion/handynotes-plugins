@@ -74,6 +74,7 @@ L['elite'] = nil
 L['quest'] = nil
 L['quest_repeatable'] = nil
 L['achievement'] = nil
+L['decor_owned'] = nil
 
 ---------------------------------- LOCATION -----------------------------------
 L['in_cave'] = 'En una cueva.'

@@ -74,6 +74,7 @@ L['elite'] = 'Elite'
 L['quest'] = 'Quest'
 L['quest_repeatable'] = 'Repeatable Quest'
 L['achievement'] = 'Achievement'
+L['decor_owned'] = 'Owned: %s'
 
 ---------------------------------- LOCATION -----------------------------------
 L['in_cave'] = 'In a cave.'

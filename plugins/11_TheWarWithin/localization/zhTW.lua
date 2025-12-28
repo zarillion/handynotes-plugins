@@ -26,6 +26,7 @@ L['options_icons_worldsoul_memories'] = nil
 L['options_icons_worldsoul_memories_desc'] = nil
 
 L['last_architect_note'] = nil
+L['neighborhood_riddle'] = '寶藏位置'
 
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------

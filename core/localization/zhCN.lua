@@ -74,6 +74,7 @@ L['elite'] = '精英'
 L['quest'] = '任务'
 L['quest_repeatable'] = '可重复任务'
 L['achievement'] = '成就'
+L['decor_owned'] = nil
 
 ---------------------------------- LOCATION -----------------------------------
 L['in_cave'] = '在洞穴。'

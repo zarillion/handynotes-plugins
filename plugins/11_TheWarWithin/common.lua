@@ -449,6 +449,27 @@ ns.node.WorldsoulMemory = WorldsoulMemory
 ns.hooks.areapoievent.Add(ns.groups.WORLDSOUL_MEMORIES, WORLDSOUL_AREA_POIS)
 
 -------------------------------------------------------------------------------
+----------------------------- NEIGHBORHOOD RIDDLES ----------------------------
+-------------------------------------------------------------------------------
+
+local Riddle = Class('Riddle', ns.node.Node, {
+    label = L['neighborhood_riddle'],
+    icon = 'peg_gn',
+    scale = 2
+})
+
+function Riddle:IsEnabled()
+    return self.quest and C_QuestLog.IsOnQuest(self.quest[1]) or false
+end
+
+function Riddle.getters:rewards()
+    return self.item and {ns.reward.Decor({item = self.item})} or
+               {ns.reward.Decor({id = self.decor})}
+end
+
+ns.node.Riddle = Riddle
+
+-------------------------------------------------------------------------------
 ------------------------------ KHAZ ALGAR SAFARI ------------------------------
 -------------------------------------------------------------------------------
 

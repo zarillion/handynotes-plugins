@@ -6,6 +6,8 @@ local Class = ns.Class
 local Map = ns.Map
 local L = ns.locale
 
+local Riddle = ns.node.Riddle
+
 local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
@@ -30,17 +32,6 @@ map.nodes[52733748] = ns.node.NPC({
     },
     questCount = true
 }) -- The Last Architect
-
-local Riddle = Class('Riddle', ns.node.Node,
-    {label = '{quest:93074}', icon = 'peg_gn', scale = 2})
-
-function Riddle:IsEnabled()
-    return self.quest and C_QuestLog.IsOnQuest(self.quest[1]) or false
-end
-
-function Riddle.getters:rewards()
-    return self.decor and {ns.reward.Decor({id = self.decor})} or {}
-end
 
 local _Riddle_ = Class('_Riddle_', Riddle,
     {devnote = 'Wowhead data, please confirm coordinates'})

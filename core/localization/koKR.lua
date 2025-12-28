@@ -74,6 +74,7 @@ L['elite'] = '정예'
 L['quest'] = nil
 L['quest_repeatable'] = nil
 L['achievement'] = nil
+L['decor_owned'] = nil
 
 ---------------------------------- LOCATION -----------------------------------
 L['in_cave'] = '동굴 안에 있음.'
