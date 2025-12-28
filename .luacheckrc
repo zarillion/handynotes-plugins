@@ -31,6 +31,7 @@ read_globals = {
     'C_CurrencyInfo',
     'C_DateAndTime',
     'C_Garrison',
+    'C_HousingCatalog',
     'C_HousingDecor',
     'C_Heirloom',
     'C_Item',
