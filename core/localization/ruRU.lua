@@ -74,7 +74,7 @@ L['elite'] = 'Элитный'
 L['quest'] = 'Задание'
 L['quest_repeatable'] = 'Повторяемое задание'
 L['achievement'] = 'Достижение'
-L['decor_owned'] = nil
+L['decor_owned'] = 'В собственности: %s'
 
 ---------------------------------- LOCATION -----------------------------------
 L['in_cave'] = 'В пещере.'
@@ -206,8 +206,8 @@ L['ignore_faction_restrictions_desc'] = 'Показать награды, тре
 L['options_rewards_settings'] = 'Награды'
 L['options_reward_behaviors_settings'] = 'Поощрительное поведение'
 L['options_reward_types'] = 'Показать типы наград'
-L['options_decor_rewards'] = nil
-L['options_decor_rewards_desc'] = nil
+L['options_decor_rewards'] = 'Показывать награды декора'
+L['options_decor_rewards_desc'] = 'Отображать награды декора в подсказках.'
 L['options_manuscript_rewards'] = 'Отображать манускрипты наблюдения за драконами'
 L['options_manuscript_rewards_desc'] = 'Отображать манускрипты наблюдения за драконами во всплывающих подсказках и отслеживать их собранный статус.'
 L['options_mount_rewards'] = 'Показать маунтов'
