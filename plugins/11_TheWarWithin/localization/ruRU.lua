@@ -25,7 +25,7 @@ L['options_icons_flight_master_desc'] = 'Показать местоположе
 L['options_icons_worldsoul_memories'] = 'Воспоминание души мира'
 L['options_icons_worldsoul_memories_desc'] = 'Показать награды за {object:Воспоминание души мира}.'
 
-L['last_architect_note'] = nil
+L['last_architect_note'] = 'Выполняйте ежедневные загадки, чтобы получить декор.'
 L['neighborhood_riddle'] = 'Местонахождение сокровища'
 
 -------------------------------------------------------------------------------
