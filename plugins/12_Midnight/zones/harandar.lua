@@ -348,6 +348,9 @@ map.nodes[32628477] = Moth({quest = 92212})
 map.nodes[32066708] = Moth({quest = 92213})
 map.nodes[52935065] = Moth({quest = 92214})
 map.nodes[71385863] = Moth({quest = 92215})
+map.nodes[63744145] = Moth({quest = 92216})
+map.nodes[61283517] = Moth({quest = 92217}) -- in a cave
+map.nodes[55796664] = Moth({quest = 92218})
 map.nodes[55616429] = Moth({quest = 92219})
 map.nodes[74005723] = Moth({quest = 92220}) -- in a cave
 map.nodes[71715882] = Moth({quest = 92221})
@@ -362,22 +365,37 @@ map.nodes[50266966] = Moth({quest = 92234})
 map.nodes[53765910] = Moth({quest = 92229})
 map.nodes[41614012] = Moth({quest = 92230})
 map.nodes[47634696] = Moth({quest = 92231})
+map.nodes[50353360] = Moth({quest = 92232})
 map.nodes[68693633] = Moth({quest = 92233})
 map.nodes[49267552] = Moth({quest = 92235})
 map.nodes[44783569] = Moth({quest = 92236})
 map.nodes[51382032] = Moth({quest = 92237}) -- in a cave
 map.nodes[58673020] = Moth({quest = 92238})
+map.nodes[73716830] = Moth({quest = 92239})
+map.nodes[73716173] = Moth({quest = 92240})
 map.nodes[41953772] = Moth({quest = 92241})
 map.nodes[43264035] = Moth({quest = 92242})
 map.nodes[46864847] = Moth({quest = 92243})
+map.nodes[61423712] = Moth({quest = 92244}) -- in a cave
+map.nodes[62434085] = Moth({quest = 92245})
+map.nodes[41346613] = Moth({quest = 92246})
 map.nodes[35897426] = Moth({quest = 92247})
 map.nodes[30806365] = Moth({quest = 92248})
+map.nodes[36098144] = Moth({quest = 92249})
+map.nodes[51887662] = Moth({quest = 92250})
 map.nodes[48275058] = Moth({quest = 92251})
+map.nodes[61245046] = Moth({quest = 92252})
 map.nodes[60724540] = Moth({quest = 92253}) -- in a cave in waterfall
+map.nodes[62494432] = Moth({quest = 92254})
 map.nodes[54493885] = Moth({quest = 92255})
 map.nodes[36974830] = Moth({quest = 92256})
 map.nodes[67971999] = Moth({quest = 92257}) -- in a cave
+map.nodes[54495206] = Moth({quest = 92258})
 map.nodes[42192226] = Moth({quest = 92259})
+map.nodes[72873719] = Moth({quest = 92260})
+map.nodes[65894471] = Moth({quest = 92261})
+map.nodes[63994863] = Moth({quest = 92262})
+map.nodes[62495867] = Moth({quest = 92263})
 map.nodes[65305774] = Moth({quest = 92264}) -- in a cave
 map.nodes[41346807] = Moth({quest = 92265})
 map.nodes[39095510] = Moth({quest = 92266})
@@ -390,6 +408,7 @@ map.nodes[69033120] = Moth({quest = 92304})
 map.nodes[59984305] = Moth({quest = 92305})
 map.nodes[67736886] = Moth({quest = 92306})
 map.nodes[48545535] = Moth({quest = 92307})
+
 
 -------------------------------------------------------------------------------
 
