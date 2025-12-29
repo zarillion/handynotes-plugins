@@ -932,7 +932,7 @@ map.nodes[39801260] = HunterPetNode({
     label = '{npc:226555}',
     requires = ns.requirement.Quest(87008), -- ![Ad-Hoc Wedding Planner]
     note = format(L['blazefeather_peacock_note'],
-        GetCoinTextureString(5000000000)),
+        C_CurrencyInfo.GetCoinTextureString(5000000000)),
     rewards = {HunterPet({id = 226561, icon = 132200})} -- Blazefeather Peakcock
 }) -- Grelik Greaseguard <Exotic Beasts> (Blazefeather Peacock)
 
