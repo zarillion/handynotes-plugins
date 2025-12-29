@@ -786,7 +786,7 @@ map.nodes[62606740] = PetBattle({
     rewards = {Achievement({id = 10876, criteria = 31541})}
 }) -- Envoy of the Hunt
 
-map.nodes[4830448] = PetBattle({
+map.nodes[48304480] = PetBattle({
     id = 99878,
     note = L['general_pet_tamer_note'],
     rewards = {Achievement({id = 10876, criteria = 31539})}

@@ -84,7 +84,7 @@ map.nodes[31452235] = Rare({
     }
 }) -- Apothecary Falthis
 
-map.nodes[3720390] = Rare({
+map.nodes[37203390] = Rare({
     id = 10639,
     rewards = {
         Transmog({item = 9817, type = L['mail']}) -- Fortified Spaulders

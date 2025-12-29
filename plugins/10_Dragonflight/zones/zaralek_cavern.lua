@@ -403,7 +403,7 @@ map.nodes[36694883] = Treasure({
     rewards = {
         Achievement({id = 17786, criteria = 59222}) -- Treasures of Zaralek Cavern
     },
-    pois = {POI({36444822, 2883540})}
+    pois = {POI({35684877, 36374597, 36444822, 42334547, 41135062})} -- Bottled Magma
 }) -- Ancient Zaqali Chest
 
 map.nodes[28544791] = Treasure({

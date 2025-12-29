@@ -77,7 +77,7 @@ map.nodes[28403360] = Safari.SmallFrog({
     }
 }) -- Small Frog
 
-map.nodes[51405020] = Safari.Snake({pois = {POI({7620760, 76204360})}}) -- Snake
+map.nodes[51405020] = Safari.Snake({pois = {POI({76200760, 76204360})}}) -- Snake
 
 map.nodes[14604640] = Safari.SpiritCrab({
     pois = {

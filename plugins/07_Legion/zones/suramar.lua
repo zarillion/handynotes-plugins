@@ -325,7 +325,7 @@ map.nodes[16812672] = Rare({
 -- map.nodes[64204800] = Rare({id = 113694, note = 'Hidden until you are near it.', pois = {POI({60204080, 62004680, 62405220, 62405280, 62605320, 64204740, 64204800, 66205340, 66205360})}}) -- Pashya - No Quest triggered
 -- map.nodes[66805540] = Rare({id = 105899, quest = 45506, pois = {Path({67505495, 67045441, 66325418, 65695428, 65895430, 66325421, 66705442, 66535485, 66625528, 66965570, 67355579, 67625598, 67855623, 67775562, 67505495})}}) -- Oglok the Furious
 -- map.nodes[79005800] = Rare({id = 99899, quest = 44669}) -- Vicious Whale Shark
--- map.nodes[8136264] = Rare({id = 112759, quest = 45471}) -- Az'jatar
+-- map.nodes[81306264] = Rare({id = 112759, quest = 45471}) -- Az'jatar
 -- map.nodes[87406260] = Rare({id = 103827, quest = 41786, note = 'Use the {npc:103859} to summon {npc:103827}'}) -- King Morgalash
 -- falanaar_tunnels.nodes[59935820] = Rare({id = 105728, quest = 45505, parent = {id = map.id, note = L['inside_falanaar_tunnels'], pois = {POI({20655047})}}}) -- Scythemaster Cil'raman
 -- falanaar_tunnels.nodes[67165175] = Rare({id = 105632, parent = {id = map.id, note = L['inside_falanaar_tunnels'], pois = {POI({20655047})}}}) -- Broodmother Shu'malis - No Quest triggered
