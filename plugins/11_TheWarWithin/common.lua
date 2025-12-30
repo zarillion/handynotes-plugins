@@ -30,11 +30,6 @@ ns.groups.DISTURBED_EARTH = Group('disturbed_earth', 132386, {
     type = ns.group_types.EXPANSION
 })
 
-ns.groups.PROFESSION_TREASURES = Group('profession_treasures', 4620676, {
-    defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.EXPANSION
-})
-
 ns.groups.RATTS_REVENGE = Group('ratts_revenge', 5370377, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -286,57 +281,6 @@ local SkyridingGlyph = Class('SkyridingGlyph', Collectible, {
 })
 
 ns.node.SkyridingGlyph = SkyridingGlyph
-
--------------------------------------------------------------------------------
------------------------------ PROFESSION TREASURES ----------------------------
--------------------------------------------------------------------------------
-
-local ProfessionMaster = Class('ProfessionMaster', ns.node.NPC, {
-    scale = 0.9,
-    group = ns.groups.PROFESSION_TREASURES
-})
-
-function ProfessionMaster:IsEnabled()
-    if not ns.PlayerHasProfession(self.skillID) then return false end
-    return ns.node.NPC.IsEnabled(self)
-end
-
-local ProfessionTreasure = Class('ProfessionTreasure', ns.node.Item, {
-    scale = 0.9,
-    group = ns.groups.PROFESSION_TREASURES
-})
-
-function ProfessionTreasure:IsEnabled()
-    if not ns.PlayerHasProfession(self.skillID) then return false end
-    return ns.node.Item.IsEnabled(self)
-end
-
-ns.node.ProfessionMasters = {}
-ns.node.ProfessionTreasures = {}
-
-local PM = ns.node.ProfessionMasters
-local PT = ns.node.ProfessionTreasures
-
-for _, profession in pairs(ns.professions) do
-    if profession.variantID ~= nil then
-        local name = profession.name
-        local icon = profession.icon
-        local skillID = profession.skillID
-        local variantID = profession.variantID[11]
-
-        PM[name] = Class(name .. 'Master', ProfessionMaster, {
-            icon = icon,
-            skillID = skillID,
-            requires = ns.requirement.Profession(skillID, variantID, 1)
-        })
-
-        PT[name] = Class(name .. 'Treasure', ProfessionTreasure, {
-            icon = icon,
-            skillID = skillID,
-            requires = ns.requirement.Profession(skillID, variantID, 1)
-        })
-    end
-end
 
 -------------------------------------------------------------------------------
 -------------------------------- DISTURBED DIRT -------------------------------

@@ -133,11 +133,6 @@ ns.groups.PROFESSION_RARES = Group('profession_rares', 'peg_rd', {
     type = ns.group_types.EXPANSION
 })
 
-ns.groups.PROFESSION_TREASURES = Group('profession_treasures', 4620676, {
-    defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.EXPANSION
-})
-
 ns.groups.REED_CHEST = Group('reed_chest', 'chest_yw', {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -474,57 +469,6 @@ local RareElite = Class('RareElite', Rare, {
 })
 
 ns.node.RareElite = RareElite
-
--------------------------------------------------------------------------------
------------------------------ PROFESSION TREASURES ----------------------------
--------------------------------------------------------------------------------
-
-local ProfessionMaster = Class('ProfessionMaster', ns.node.NPC, {
-    scale = 0.9,
-    group = ns.groups.PROFESSION_TREASURES
-})
-
-function ProfessionMaster:IsEnabled()
-    if not ns.PlayerHasProfession(self.skillID) then return false end
-    return ns.node.NPC.IsEnabled(self)
-end
-
-local ProfessionTreasure = Class('ProfessionTreasure', ns.node.Item, {
-    scale = 0.9,
-    group = ns.groups.PROFESSION_TREASURES
-})
-
-function ProfessionTreasure:IsEnabled()
-    if not ns.PlayerHasProfession(self.skillID) then return false end
-    return ns.node.Item.IsEnabled(self)
-end
-
-ns.node.ProfessionMasters = {}
-ns.node.ProfessionTreasures = {}
-
-local PM = ns.node.ProfessionMasters
-local PT = ns.node.ProfessionTreasures
-
-for _, profession in pairs(ns.professions) do
-    if profession.variantID ~= nil then
-        local name = profession.name
-        local icon = profession.icon
-        local skillID = profession.skillID
-        local variantID = profession.variantID[10]
-
-        PM[name] = Class(name .. 'Master', ProfessionMaster, {
-            icon = icon,
-            skillID = skillID,
-            requires = ns.requirement.Profession(skillID, variantID, 25)
-        })
-
-        PT[name] = Class(name .. 'Treasure', ProfessionTreasure, {
-            icon = icon,
-            skillID = skillID,
-            requires = ns.requirement.Profession(skillID, variantID, 25)
-        })
-    end
-end
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
