@@ -534,18 +534,33 @@ for _, profession in pairs(ns.professions) do
         local name = profession.name
         local icon = profession.icon
         local skillID = profession.skillID
-        local variantID = profession.variantID[ns.expansion]
 
         PM[name] = Class(name .. 'Master', ProfessionMaster, {
             icon = icon,
             skillID = skillID,
-            requires = ns.requirement.Profession(skillID, variantID, 25)
+            level = 1,
+            getters = {
+                requires = function(self)
+                    local profession = ns.getProfessionBySkillID(self.skillID)
+                    local variantID = profession.variantID[ns.expansion]
+                    local level = self.level
+                    return ns.requirement.Profession(skillID, variantID, level)
+                end
+            }
         })
 
         PT[name] = Class(name .. 'Treasure', ProfessionTreasure, {
             icon = icon,
             skillID = skillID,
-            requires = ns.requirement.Profession(skillID, variantID, 25)
+            level = 1,
+            getters = {
+                requires = function(self)
+                    local profession = ns.getProfessionBySkillID(self.skillID)
+                    local variantID = profession.variantID[ns.expansion]
+                    local level = self.level
+                    return ns.requirement.Profession(skillID, variantID, level)
+                end
+            }
         })
     end
 end
