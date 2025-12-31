@@ -734,11 +734,7 @@ map.nodes[63507151] = PT.Inscription({
 
 map.nodes[36044664] = PT.Inscription({id = 210460, quest = 78413, level = 25}) -- Primalist Shadowbinding Rune
 
-map.nodes[37262292] = PT.Blacksmithing({
-    id = 210466,
-    quest = 78419,
-    level = 25
-}) -- Flamesworn Render
+map.nodes[37262292] = PT.Blacksmithing({id = 210466, quest = 78419, level = 25}) -- Flamesworn Render
 
 map.nodes[49836299] = PT.Blacksmithing({
     id = 210464,
@@ -747,11 +743,7 @@ map.nodes[49836299] = PT.Blacksmithing({
     note = L['amirdrassil_defenders_shield_note']
 }) -- Amirdrassil Defender's Shield
 
-map.nodes[36344680] = PT.Blacksmithing({
-    id = 210465,
-    quest = 78418,
-    level = 25
-}) -- Deathstalker Chasis
+map.nodes[36344680] = PT.Blacksmithing({id = 210465, quest = 78418, level = 25}) -- Deathstalker Chasis
 
 map.nodes[39575227] = PT.Engineering({
     id = 210193,
@@ -805,17 +797,10 @@ map.nodes[43513336] = PT.Jewelcrafting({
     note = L['handful_of_pebbles_note']
 }) -- Handful of Pebbles
 
-map.nodes[58945389] = PT.Jewelcrafting({
-    id = 210202,
-    quest = 78285,
-    level = 25
-}) -- Coalesced Dreamstone
+map.nodes[58945389] = PT.Jewelcrafting({id = 210202, quest = 78285, level = 25}) -- Coalesced Dreamstone
 
-map.nodes[41766650] = PT.Leatherworking({
-    id = 210208,
-    quest = 78298,
-    level = 25
-}) -- Tuft of Dreamsaber Fur
+map.nodes[41766650] =
+    PT.Leatherworking({id = 210208, quest = 78298, level = 25}) -- Tuft of Dreamsaber Fur
 
 map.nodes[37467101] = PT.Leatherworking({
     id = 210211,

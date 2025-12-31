@@ -858,21 +858,9 @@ map.nodes[54472026] = PT.Inscription({
     pois = {POI({52781885})}
 }) -- Ancient Research
 
-map.nodes[34504542] = PT.Jewelcrafting({
-    id = 205216,
-    quest = 75653,
-    level = 25
-}) -- Gently Jostled Jewels
-map.nodes[40378070] = PT.Jewelcrafting({
-    id = 205214,
-    quest = 75652,
-    level = 25
-}) -- Snubbed Snail Shells
-map.nodes[54413247] = PT.Jewelcrafting({
-    id = 205219,
-    quest = 75654,
-    level = 25
-}) -- Broken Barter Boulder
+map.nodes[34504542] = PT.Jewelcrafting({id = 205216, quest = 75653, level = 25}) -- Gently Jostled Jewels
+map.nodes[40378070] = PT.Jewelcrafting({id = 205214, quest = 75652, level = 25}) -- Snubbed Snail Shells
+map.nodes[54413247] = PT.Jewelcrafting({id = 205219, quest = 75654, level = 25}) -- Broken Barter Boulder
 
 map.nodes[44521565] = PT.Tailoring({id = 206030, quest = 76116, level = 25}) -- Exquisitely Embroidered Banner
 map.nodes[47214855] = PT.Tailoring({id = 206019, quest = 76102, level = 25}) -- Abandoned Reserve Chute
@@ -907,37 +895,16 @@ map.nodes[57657393] = PT.Engineering({
     note = L['bolts_and_brass_note']
 }) -- Bolts and Brass (Handful of Khaz'gorite Bolts)
 
-map.nodes[27514286] = PT.Blacksmithing({
-    id = 205988,
-    quest = 76080,
-    level = 25
-}) -- Zaqali Elder Spear
-map.nodes[48312201] = PT.Blacksmithing({
-    id = 205987,
-    quest = 76079,
-    level = 25
-}) -- Brimstone Rescue Ring
-map.nodes[57155464] = PT.Blacksmithing({
-    id = 205986,
-    quest = 76078,
-    level = 25
-}) -- Well-Worn Kiln
+map.nodes[27514286] = PT.Blacksmithing({id = 205988, quest = 76080, level = 25}) -- Zaqali Elder Spear
+map.nodes[48312201] = PT.Blacksmithing({id = 205987, quest = 76079, level = 25}) -- Brimstone Rescue Ring
+map.nodes[57155464] = PT.Blacksmithing({id = 205986, quest = 76078, level = 25}) -- Well-Worn Kiln
 
-map.nodes[41164881] = PT.Leatherworking({
-    id = 204986,
-    quest = 75495,
-    level = 25
-}) -- Flame-Infused Scale Oil
-map.nodes[45252112] = PT.Leatherworking({
-    id = 204987,
-    quest = 75496,
-    level = 25
-}) -- Lava-Forged Leatherworker's "Knife"
-map.nodes[49565480] = PT.Leatherworking({
-    id = 204988,
-    quest = 75502,
-    level = 25
-}) -- Sulfur-Soaked Skins
+map.nodes[41164881] =
+    PT.Leatherworking({id = 204986, quest = 75495, level = 25}) -- Flame-Infused Scale Oil
+map.nodes[45252112] =
+    PT.Leatherworking({id = 204987, quest = 75496, level = 25}) -- Lava-Forged Leatherworker's "Knife"
+map.nodes[49565480] =
+    PT.Leatherworking({id = 204988, quest = 75502, level = 25}) -- Sulfur-Soaked Skins
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------
