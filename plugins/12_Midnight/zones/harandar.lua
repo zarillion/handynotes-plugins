@@ -264,10 +264,10 @@ map.nodes[61866750] = SkyridingGlyph({
 
 map.nodes[49407592] = Telescope({quest = 94548})
 map.nodes[53495855] = Telescope({quest = 94550})
-map.nodes[69602132] = Telescope({quest = 94547})
+--removed map.nodes[69602132] = Telescope({quest = 94547})---
 map.nodes[70524356] = Telescope({quest = 94546})
 map.nodes[69406339] = Telescope({quest = 94549}) -- removed?
-map.nodes[68162597] = Telescope({quest = 95166}) -- 95270 also triggered
+map.nodes[68162597] = Telescope({quest = 94547}) -- 95270 also triggered
 map.nodes[69174638] = Telescope({quest = 94546}) -- 94551, 94553
 
 ---------------------------- MIDNIGHT LORE HUNTER -----------------------------
@@ -328,86 +328,130 @@ local Moth = Class('Moth', ns.node.Collectible, {
     }
 })
 
-map.nodes[36354839] = Moth({quest = 92196})
-map.nodes[36112639] = Moth({quest = 92197})
-map.nodes[49882551] = Moth({quest = 92198})
-map.nodes[55002755] = Moth({quest = 92199})
-map.nodes[66306282] = Moth({quest = 92200})
-map.nodes[33376349] = Moth({quest = 92201})
-map.nodes[33377561] = Moth({quest = 92202})
-map.nodes[31848176] = Moth({quest = 92203})
-map.nodes[42196651] = Moth({quest = 92204})
-map.nodes[52418078] = Moth({quest = 92205})
-map.nodes[59445433] = Moth({quest = 92206})
-map.nodes[38334744] = Moth({quest = 92207})
-map.nodes[33954404] = Moth({quest = 92208})
-map.nodes[60344858] = Moth({quest = 92209})
-map.nodes[43215365] = Moth({quest = 92210})
-map.nodes[30317339] = Moth({quest = 92211})
-map.nodes[32628477] = Moth({quest = 92212})
-map.nodes[32066708] = Moth({quest = 92213})
-map.nodes[52935065] = Moth({quest = 92214})
-map.nodes[71385863] = Moth({quest = 92215})
-map.nodes[63744145] = Moth({quest = 92216})
-map.nodes[61283517] = Moth({quest = 92217}) -- in a cave
-map.nodes[55796664] = Moth({quest = 92218})
-map.nodes[55616429] = Moth({quest = 92219})
-map.nodes[74005723] = Moth({quest = 92220}) -- in a cave
-map.nodes[71715882] = Moth({quest = 92221})
-map.nodes[60341777] = Moth({quest = 92222}) -- in a cave
-map.nodes[44023812] = Moth({quest = 92223})
-map.nodes[43063945] = Moth({quest = 92224})
-map.nodes[46382488] = Moth({quest = 92225})
-map.nodes[62343714] = Moth({quest = 92226})
-map.nodes[55143288] = Moth({quest = 92227})
-map.nodes[66965657] = Moth({quest = 92228})
-map.nodes[50266966] = Moth({quest = 92234})
-map.nodes[53765910] = Moth({quest = 92229})
-map.nodes[41614012] = Moth({quest = 92230})
-map.nodes[47634696] = Moth({quest = 92231})
-map.nodes[50353360] = Moth({quest = 92232})
-map.nodes[68693633] = Moth({quest = 92233})
-map.nodes[49267552] = Moth({quest = 92235})
-map.nodes[44783569] = Moth({quest = 92236})
-map.nodes[51382032] = Moth({quest = 92237}) -- in a cave
-map.nodes[58673020] = Moth({quest = 92238})
-map.nodes[73716830] = Moth({quest = 92239})
-map.nodes[73716173] = Moth({quest = 92240})
-map.nodes[41953772] = Moth({quest = 92241})
-map.nodes[43264035] = Moth({quest = 92242})
-map.nodes[46864847] = Moth({quest = 92243})
-map.nodes[61423712] = Moth({quest = 92244}) -- in a cave
-map.nodes[62434085] = Moth({quest = 92245})
-map.nodes[41346613] = Moth({quest = 92246})
-map.nodes[35897426] = Moth({quest = 92247})
-map.nodes[30806365] = Moth({quest = 92248})
-map.nodes[36098144] = Moth({quest = 92249})
-map.nodes[51887662] = Moth({quest = 92250})
-map.nodes[48275058] = Moth({quest = 92251})
-map.nodes[61245046] = Moth({quest = 92252})
-map.nodes[60724540] = Moth({quest = 92253}) -- in a cave in waterfall
-map.nodes[62494432] = Moth({quest = 92254})
-map.nodes[54493885] = Moth({quest = 92255})
-map.nodes[36974830] = Moth({quest = 92256})
-map.nodes[67971999] = Moth({quest = 92257}) -- in a cave
-map.nodes[54495206] = Moth({quest = 92258})
-map.nodes[42192226] = Moth({quest = 92259})
-map.nodes[72873719] = Moth({quest = 92260})
-map.nodes[65894471] = Moth({quest = 92261})
-map.nodes[63994863] = Moth({quest = 92262})
-map.nodes[62495867] = Moth({quest = 92263})
-map.nodes[65305774] = Moth({quest = 92264}) -- in a cave
-map.nodes[41346807] = Moth({quest = 92265})
-map.nodes[39095510] = Moth({quest = 92266})
-map.nodes[56584765] = Moth({quest = 92299})
-map.nodes[40443446] = Moth({quest = 92300})
-map.nodes[41592744] = Moth({quest = 92301})
-map.nodes[50634062] = Moth({quest = 92302})
-map.nodes[65432712] = Moth({quest = 92303})
-map.nodes[69033120] = Moth({quest = 92304})
-map.nodes[59984305] = Moth({quest = 92305})
-map.nodes[67736886] = Moth({quest = 92306})
-map.nodes[48545535] = Moth({quest = 92307})
+function Moth.getters:requires()
+    return ns.requirement.Reputation(2704, self.renown, true)
+end
+
+map.nodes[36354839] = Moth({quest = 92196, renown = 1})  -- Group 1
+map.nodes[36112639] = Moth({quest = 92197, renown = 1})  -- Group 1
+map.nodes[49882551] = Moth({quest = 92198, renown = 1})
+map.nodes[55002755] = Moth({quest = 92199, renown = 1})
+map.nodes[66306282] = Moth({quest = 92200, renown = 1})
+map.nodes[33376349] = Moth({quest = 92201, renown = 1})
+map.nodes[33377561] = Moth({quest = 92202, renown = 1})
+map.nodes[31848176] = Moth({quest = 92203, renown = 1})
+map.nodes[42196651] = Moth({quest = 92204, renown = 1})
+map.nodes[52418078] = Moth({quest = 92205, renown = 1})
+map.nodes[59445433] = Moth({quest = 92206, renown = 1})
+map.nodes[38334744] = Moth({quest = 92207, renown = 1})
+map.nodes[33954404] = Moth({quest = 92208, renown = 1})
+map.nodes[60344858] = Moth({quest = 92209, renown = 1})
+map.nodes[43215365] = Moth({quest = 92210, renown = 1})
+map.nodes[30317339] = Moth({quest = 92211, renown = 1})
+map.nodes[32628477] = Moth({quest = 92212, renown = 1})
+map.nodes[32066708] = Moth({quest = 92213, renown = 1})
+map.nodes[52935065] = Moth({quest = 92214, renown = 1})
+map.nodes[71385863] = Moth({quest = 92215, renown = 1})
+map.nodes[63744145] = Moth({quest = 92216, renown = 4})
+map.nodes[61283517] = Moth({quest = 92217, renown = 4}) -- in a cave
+map.nodes[55796664] = Moth({quest = 92218, renown = 4})
+map.nodes[55616429] = Moth({quest = 92219, renown = 4})
+map.nodes[74005723] = Moth({quest = 92220, renown = 4}) -- in a cave
+map.nodes[71715882] = Moth({quest = 92221, renown = 4})
+map.nodes[60341777] = Moth({quest = 92222, renown = 4}) -- in a cave
+map.nodes[44023812] = Moth({quest = 92223, renown = 4})
+map.nodes[43063945] = Moth({quest = 92224, renown = 4})
+map.nodes[46382488] = Moth({quest = 92225, renown = 1})
+map.nodes[62343714] = Moth({quest = 92226, renown = 1})
+map.nodes[55143288] = Moth({quest = 92227, renown = 1})
+map.nodes[66965657] = Moth({quest = 92228, renown = 1})
+map.nodes[53765910] = Moth({quest = 92229, renown = 1})
+map.nodes[41614012] = Moth({quest = 92230, renown = 1})
+map.nodes[47634696] = Moth({quest = 92231, renown = 1})
+map.nodes[50353360] = Moth({quest = 92232, renown = 1})
+map.nodes[68693633] = Moth({quest = 92233, renown = 1})
+map.nodes[50266966] = Moth({quest = 92234, renown = 1})
+map.nodes[49267552] = Moth({quest = 92235, renown = 1})
+map.nodes[44783569] = Moth({quest = 92236, renown = 4})
+map.nodes[51382032] = Moth({quest = 92237, renown = 4}) -- in a cave
+map.nodes[58673020] = Moth({quest = 92238, renown = 4})
+map.nodes[73716830] = Moth({quest = 92239, renown = 4})
+map.nodes[73716173] = Moth({quest = 92240, renown = 4})
+map.nodes[41953772] = Moth({quest = 92241, renown = 4})
+map.nodes[43264035] = Moth({quest = 92242, renown = 4})
+map.nodes[46864847] = Moth({quest = 92243, renown = 4})
+map.nodes[61423712] = Moth({quest = 92244, renown = 4}) -- in a cave
+map.nodes[62434085] = Moth({quest = 92245, renown = 4})
+map.nodes[41346613] = Moth({quest = 92246, renown = 4})
+map.nodes[35897426] = Moth({quest = 92247, renown = 4})
+map.nodes[30806365] = Moth({quest = 92248, renown = 4})
+map.nodes[36098144] = Moth({quest = 92249, renown = 4})
+map.nodes[51887662] = Moth({quest = 92250, renown = 4})
+map.nodes[48275058] = Moth({quest = 92251, renown = 4})
+map.nodes[61245046] = Moth({quest = 92252, renown = 4})
+map.nodes[60724540] = Moth({quest = 92253, renown = 4}) -- in a cave in waterfall
+map.nodes[62494432] = Moth({quest = 92254, renown = 4})
+map.nodes[54493885] = Moth({quest = 92255, renown = 4})
+map.nodes[36974830] = Moth({quest = 92256, renown = 4})
+map.nodes[67971999] = Moth({quest = 92257, renown = 4}) -- in a cave
+map.nodes[54495206] = Moth({quest = 92258, renown = 4})
+map.nodes[42192226] = Moth({quest = 92259, renown = 4})
+map.nodes[72873719] = Moth({quest = 92260, renown = 4})
+map.nodes[65894471] = Moth({quest = 92261, renown = 4})
+map.nodes[63994863] = Moth({quest = 92262, renown = 4})
+map.nodes[62495867] = Moth({quest = 92263, renown = 4})
+map.nodes[65305774] = Moth({quest = 92264, renown = 4}) -- in a cave
+map.nodes[41346807] = Moth({quest = 92265, renown = 4})
+map.nodes[39095510] = Moth({quest = 92266, renown = 4})
+map.nodes[00000000] = Moth({quest = 92267, renown = 9})
+map.nodes[00000000] = Moth({quest = 92268, renown = 9})
+map.nodes[00000000] = Moth({quest = 92269, renown = 9})
+map.nodes[00000000] = Moth({quest = 92270, renown = 9})
+map.nodes[00000000] = Moth({quest = 92271, renown = 9})
+map.nodes[00000000] = Moth({quest = 92272, renown = 9})
+map.nodes[00000000] = Moth({quest = 92273, renown = 9})
+map.nodes[00000000] = Moth({quest = 92274, renown = 9})
+map.nodes[00000000] = Moth({quest = 92275, renown = 9})
+map.nodes[00000000] = Moth({quest = 92276, renown = 9})
+map.nodes[00000000] = Moth({quest = 92277, renown = 9})
+map.nodes[00000000] = Moth({quest = 92278, renown = 9})
+map.nodes[00000000] = Moth({quest = 92279, renown = 9})
+map.nodes[00000000] = Moth({quest = 92280, renown = 9})
+map.nodes[00000000] = Moth({quest = 92281, renown = 9})
+map.nodes[00000000] = Moth({quest = 92282, renown = 9})
+map.nodes[00000000] = Moth({quest = 92283, renown = 9})
+map.nodes[00000000] = Moth({quest = 92284, renown = 9})
+map.nodes[00000000] = Moth({quest = 92285, renown = 9})
+map.nodes[00000000] = Moth({quest = 92286, renown = 9})
+map.nodes[00000000] = Moth({quest = 92287, renown = 9})
+map.nodes[00000000] = Moth({quest = 92288, renown = 9})
+map.nodes[00000000] = Moth({quest = 92289, renown = 9})
+map.nodes[00000000] = Moth({quest = 92290, renown = 9})
+map.nodes[00000000] = Moth({quest = 92291, renown = 9})
+map.nodes[00000000] = Moth({quest = 92292, renown = 9})
+map.nodes[00000000] = Moth({quest = 92293, renown = 9})
+map.nodes[00000000] = Moth({quest = 92294, renown = 9})
+map.nodes[00000000] = Moth({quest = 92295, renown = 9})
+map.nodes[00000000] = Moth({quest = 92296, renown = 9})
+map.nodes[00000000] = Moth({quest = 92297, renown = 9})
+map.nodes[56584765] = Moth({quest = 92299, renown = 1})
+map.nodes[40443446] = Moth({quest = 92300, renown = 1})
+map.nodes[41592744] = Moth({quest = 92301, renown = 1})
+map.nodes[50634062] = Moth({quest = 92302, renown = 1})
+map.nodes[65432712] = Moth({quest = 92303, renown = 1})
+map.nodes[69033120] = Moth({quest = 92304, renown = 1})
+map.nodes[59984305] = Moth({quest = 92305, renown = 1})
+map.nodes[67736886] = Moth({quest = 92306, renown = 1})
+map.nodes[48545535] = Moth({quest = 92307, renown = 1})
+map.nodes[00000000] = Moth({quest = 92308, renown = 9})
+map.nodes[00000000] = Moth({quest = 92309, renown = 9})
+map.nodes[74095339] = Moth({quest = 92310, renown = 9}) -- g3
+map.nodes[00000000] = Moth({quest = 92311, renown = 9})
+map.nodes[00000000] = Moth({quest = 92312, renown = 9})
+map.nodes[00000000] = Moth({quest = 92313, renown = 9})
+map.nodes[00000000] = Moth({quest = 92314, renown = 9})
+map.nodes[00000000] = Moth({quest = 92315, renown = 9})
+map.nodes[00000000] = Moth({quest = 92316, renown = 9})
 
 
 -------------------------------------------------------------------------------
@@ -426,3 +470,16 @@ map.nodes[66166169] = ns.node.NPC({
         Achievement({id = 62331, criteria = 112548, oneline = true})
     }
 })
+
+--[[ MIDNIGHT: Chronicler of the Harani - https://www.wowhead.com/beta/achievement=61344/chronicler-of-the-haranir
+
+Requires "THe Cauldron of Echoes" https://www.wowhead.com/beta/quest=88994/the-cauldron-of-echoes
+[59982090] = {vignette=7372, label="Echoes of Our Past: Fading History"}, 93475
+[59711852] = {vignette=7373, label="Echoes of Our Past: Alndust"}, 93474
+[61141595] = {vignette=7374, label="Echoes of Our Past: Dangerous Memories"},  93473
+
+https://www.wowhead.com/beta/quest=88993/weynans-ward
+[41563588] = {vignette=7370, label="Laments of Wey'nan: Hunting Purpose"}, 93471
+[43233732] = {vignette=7369, label="Laments of Wey'nan: Finding Hope"}, 93470
+[42303547] = {vignette=7371, label="Laments of Wey'nan: There Must Be More"}, 93472
+]]--
