@@ -26,7 +26,8 @@ local cal = Map({id = 2547, settings = false}) -- Collegiate Calamity
 local tdw = Map({id = nil, settings = false}) -- The Darkway
 -- local tcr = Map({id = nil, settings = false}) -- Twilight Crypts
 local gru = Map({id = 2510, settings = false}) -- The Grudge Pit
-local gom = Map({id = 2505, settings = false}) -- The Gulf of Memory
+local gom = Map({id = 2505, settings = false}) -- The Gulf of Memory - (Upper Rootway)
+local gml = Map({id = 2575, settings = false}) -- The Gulf of Memory - (Lower Rootway)
 local sks = Map({id = 2528, settings = false}) -- Sunkiller Sanctum (Upper)- or 2540
 local skl = Map({id = 2571, settings = false}) -- Sunkiller Sanctum (Lower)
 local sgp = Map({id = 2506, settings = false}) -- Shadowguard Point
@@ -221,15 +222,15 @@ gom.nodes[54232518] = SturdyChest({
     rlabel = ns.status.Gray('#1')
 })
 
-gom.nodes[10002000] = SturdyChest({
+gml.nodes[52598146] = SturdyChest({
     achievementID = 61898,
-    quest = nil,
+    quest = 94016,
     rlabel = ns.status.Gray('#2')
 })
 
-gom.nodes[10003000] = SturdyChest({
+gml.nodes[34494620] = SturdyChest({
     achievementID = 61898,
-    quest = nil,
+    quest = 94041,
     rlabel = ns.status.Gray('#3')
 })
 
