@@ -264,7 +264,7 @@ map.nodes[61866750] = SkyridingGlyph({
 
 map.nodes[49407592] = Telescope({quest = 94548})
 map.nodes[53495855] = Telescope({quest = 94550})
---removed map.nodes[69602132] = Telescope({quest = 94547})---
+-- removed map.nodes[69602132] = Telescope({quest = 94547})---
 map.nodes[70524356] = Telescope({quest = 94546})
 map.nodes[69406339] = Telescope({quest = 94549}) -- removed?
 map.nodes[68162597] = Telescope({quest = 94547}) -- 95270 also triggered
@@ -332,8 +332,8 @@ function Moth.getters:requires()
     return ns.requirement.Reputation(2704, self.renown, true)
 end
 
-map.nodes[36354839] = Moth({quest = 92196, renown = 1})  -- Group 1
-map.nodes[36112639] = Moth({quest = 92197, renown = 1})  -- Group 1
+map.nodes[36354839] = Moth({quest = 92196, renown = 1}) -- Group 1
+map.nodes[36112639] = Moth({quest = 92197, renown = 1}) -- Group 1
 map.nodes[49882551] = Moth({quest = 92198, renown = 1})
 map.nodes[55002755] = Moth({quest = 92199, renown = 1})
 map.nodes[66306282] = Moth({quest = 92200, renown = 1})
@@ -453,7 +453,6 @@ map.nodes[00000000] = Moth({quest = 92314, renown = 9})
 map.nodes[00000000] = Moth({quest = 92315, renown = 9})
 map.nodes[00000000] = Moth({quest = 92316, renown = 9})
 
-
 -------------------------------------------------------------------------------
 
 map.nodes[66166169] = ns.node.NPC({
@@ -482,4 +481,4 @@ https://www.wowhead.com/beta/quest=88993/weynans-ward
 [41563588] = {vignette=7370, label="Laments of Wey'nan: Hunting Purpose"}, 93471
 [43233732] = {vignette=7369, label="Laments of Wey'nan: Finding Hope"}, 93470
 [42303547] = {vignette=7371, label="Laments of Wey'nan: There Must Be More"}, 93472
-]]--
+]] --

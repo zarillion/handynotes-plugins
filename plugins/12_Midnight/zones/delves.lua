@@ -27,7 +27,8 @@ local tdw = Map({id = nil, settings = false}) -- The Darkway
 -- local tcr = Map({id = nil, settings = false}) -- Twilight Crypts
 local gru = Map({id = 2510, settings = false}) -- The Grudge Pit
 local gom = Map({id = 2505, settings = false}) -- The Gulf of Memory
-local sks = Map({id = 2528, settings = false}) -- Sunkiller Sanctum - or 2540
+local sks = Map({id = 2528, settings = false}) -- Sunkiller Sanctum (Upper)- or 2540
+local skl = Map({id = 2571, settings = false}) -- Sunkiller Sanctum (Lower)
 local sgp = Map({id = 2506, settings = false}) -- Shadowguard Point
 
 -- local tor = Map({id = 2507, settings = false}) -- Torment's Rise ?
@@ -78,12 +79,6 @@ map.nodes[10003000] = SturdyChest({
     rlabel = ns.status.Gray('#3')
 })
 
-map.nodes[10004000] = SturdyChest({
-    achievementID = 61863,
-    quest = nil,
-    rlabel = ns.status.Gray('#4')
-})
-
 -------------------------------------------------------------------------------
 ------------------------------ THE SHADOW ENCLAVE -----------------------------
 -------------------------------------------------------------------------------
@@ -104,12 +99,6 @@ she.nodes[10002000] = SturdyChest({
     achievementID = 61892,
     quest = nil,
     rlabel = ns.status.Gray('#3')
-})
-
-she.nodes[10003000] = SturdyChest({
-    achievementID = 61892,
-    quest = nil,
-    rlabel = ns.status.Gray('#4')
 })
 
 -------------------------------------------------------------------------------
@@ -134,12 +123,6 @@ par.nodes[10003000] = SturdyChest({
     rlabel = ns.status.Gray('#3')
 })
 
-par.nodes[10004000] = SturdyChest({
-    achievementID = 61893,
-    quest = nil,
-    rlabel = ns.status.Gray('#4')
-})
-
 -------------------------------------------------------------------------------
 ----------------------------- COLLEGIATE CALAMITY -----------------------------
 -------------------------------------------------------------------------------
@@ -160,12 +143,6 @@ cal.nodes[10003000] = SturdyChest({
     achievementID = 61894,
     quest = nil,
     rlabel = ns.status.Gray('#3')
-})
-
-cal.nodes[10004000] = SturdyChest({
-    achievementID = 61894,
-    quest = nil,
-    rlabel = ns.status.Gray('#4')
 })
 
 -------------------------------------------------------------------------------
@@ -190,12 +167,6 @@ tdw.nodes[10003000] = SturdyChest({
     rlabel = ns.status.Gray('#3')
 })
 
-tdw.nodes[10004000] = SturdyChest({
-    achievementID = 61895,
-    quest = nil,
-    rlabel = ns.status.Gray('#4')
-})
-
 -------------------------------------------------------------------------------
 ------------------------------- TWILIGHT CRYPTS -------------------------------
 -------------------------------------------------------------------------------
@@ -216,12 +187,6 @@ map.nodes[10003000] = SturdyChest({
     achievementID = 61896,
     quest = nil,
     rlabel = ns.status.Gray('#3')
-})
-
-map.nodes[10004000] = SturdyChest({
-    achievementID = 61896,
-    quest = nil,
-    rlabel = ns.status.Gray('#4')
 })
 
 -------------------------------------------------------------------------------
@@ -246,12 +211,6 @@ gru.nodes[10003000] = SturdyChest({
     rlabel = ns.status.Gray('#3')
 })
 
-gru.nodes[10004000] = SturdyChest({
-    achievementID = 61897,
-    quest = nil,
-    rlabel = ns.status.Gray('#4')
-})
-
 -------------------------------------------------------------------------------
 ------------------------------ THE GULF OF MEMORY -----------------------------
 -------------------------------------------------------------------------------
@@ -274,38 +233,26 @@ gom.nodes[10003000] = SturdyChest({
     rlabel = ns.status.Gray('#3')
 })
 
-gom.nodes[10004000] = SturdyChest({
-    achievementID = 61898,
-    quest = nil,
-    rlabel = ns.status.Gray('#4')
-})
-
 -------------------------------------------------------------------------------
 ------------------------------ SUNKILLER SANCTUM ------------------------------
 -------------------------------------------------------------------------------
 
-sks.nodes[10001000] = SturdyChest({
+sks.nodes[38144902] = SturdyChest({
     achievementID = 91899,
-    quest = nil,
+    quest = 94042,
     rlabel = ns.status.Gray('#1')
 })
 
-sks.nodes[10002000] = SturdyChest({
+skl.nodes[49755052] = SturdyChest({
     achievementID = 91899,
-    quest = nil,
+    quest = 94043,
     rlabel = ns.status.Gray('#2')
 })
 
-sks.nodes[10003000] = SturdyChest({
+skl.nodes[60114079] = SturdyChest({
     achievementID = 91899,
-    quest = nil,
+    quest = 94024,
     rlabel = ns.status.Gray('#3')
-})
-
-sks.nodes[10004000] = SturdyChest({
-    achievementID = 91899,
-    quest = nil,
-    rlabel = ns.status.Gray('#4')
 })
 
 -------------------------------------------------------------------------------
@@ -328,10 +275,4 @@ sgp.nodes[10003000] = SturdyChest({
     achievementID = 61900,
     quest = nil,
     rlabel = ns.status.Gray('#3')
-})
-
-sgp.nodes[10004000] = SturdyChest({
-    achievementID = 61900,
-    quest = nil,
-    rlabel = ns.status.Gray('#4')
 })

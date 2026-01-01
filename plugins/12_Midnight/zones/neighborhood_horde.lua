@@ -26,5 +26,4 @@ end
 
 map.nodes[55574979] = Riddle({quest = 93074, decor = 524})
 
-
 -- 95166 triggered when petting npc 256523 Raptor Hatchling, running around @54695761, sleeps @54525807
