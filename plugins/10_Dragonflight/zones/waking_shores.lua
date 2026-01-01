@@ -1073,66 +1073,77 @@ map.nodes[69014673] = PetBattle({
 map.nodes[22258763] = PT.Blacksmithing({
     id = 201007,
     quest = 70246,
+    level = 25,
     note = L['pt_smith_ancient_monument_note']
 }) -- Ancient Monument
 
 map.nodes[24906970] = PT.Tailoring({
     id = 198702,
     quest = 70304,
+    level = 25,
     note = L['pt_tailor_itinerant_singed_fabric_note']
 }) -- Itinerant Singed Fabric
 
 map.nodes[25107411] = PT.Alchemy({
     id = 198685,
     quest = 70289,
+    level = 25,
     note = L['pt_alch_well_insulated_mug_note']
 }) -- Well-Insulated Mug
 
 map.nodes[33906370] = PT.Jewelcrafting({
     id = 201017,
     quest = 70273,
+    level = 25,
     note = L['pt_jewel_igneous_gem_note']
 }) -- Igneous Gem
 
 map.nodes[34506710] = PT.Blacksmithing({
     id = 201010,
     quest = 70310,
+    level = 25,
     note = L['pt_smith_qalashi_weapon_diagram_note']
 }) -- Qalashi Weapon Diagram
 
 map.nodes[35506430] = PT.Blacksmithing({
     id = 201008,
     quest = 70296,
+    level = 25,
     note = L['pt_smith_molten_ingot_note']
 }) -- Molten Ingot
 
 map.nodes[39008600] = PT.Leatherworking({
     id = 198711,
     quest = 70308,
+    level = 25,
     note = L['pt_leath_poachers_pack_note']
 }) -- Poacher's Pack
 
 map.nodes[49097754] = PT.Engineering({
     id = 198789,
     quest = 70275,
+    level = 25,
     note = L['pt_engi_intact_coil_capacitor_note']
 }) -- Intact Coil Capacitor
 
 map.nodes[50404510] = PT.Jewelcrafting({
     id = 198687,
     quest = 70292,
+    level = 25,
     note = L['pt_jewel_closely_guarded_shiny_note']
 }) -- Closely Guarded Shiny
 
 map.nodes[55008100] = PT.Alchemy({
     id = 198663,
     quest = 70274,
+    level = 25,
     note = L['pt_alch_frostforged_potion_note']
 }) -- Frostforged Potion
 
 map.nodes[56004490] = PT.Engineering({
     id = 201014,
     quest = 70270,
+    level = 25,
     note = L['pt_engi_boomthyr_rocket_note'],
     pois = {POI({55904529, 58134453, 57994435, 57834457})}
 }) -- Boomthyr Rocket
@@ -1140,48 +1151,56 @@ map.nodes[56004490] = PT.Engineering({
 map.nodes[56401950] = PT.Blacksmithing({
     id = 198791,
     quest = 70230,
+    level = 25,
     note = L['pt_smith_glimmer_of_blacksmithing_wisdom_note']
 }) -- Glimmer of Blacksmithing Wisdom
 
 map.nodes[57505850] = PT.Enchanting({
     id = 201012,
     quest = 70272,
+    level = 25,
     note = L['pt_ench_enchanted_debris_note']
 }) -- Enchanted Debris
 
 map.nodes[57508360] = PT.Enchanting({
     id = 198798,
     quest = 70320,
+    level = 25,
     note = L['pt_ench_flashfrozen_scroll_note']
 }) -- Flashfrozen Scroll
 
 map.nodes[64302540] = PT.Leatherworking({
     id = 198667,
     quest = 70280,
+    level = 25,
     note = L['pt_leath_spare_djaradin_tools_note']
 }) -- Spare Djaradin Tools
 
 map.nodes[65502570] = PT.Blacksmithing({
     id = 201005,
     quest = 70312,
+    level = 25,
     note = L['pt_smith_curious_ingots_note']
 }) -- Curious Ingots
 
 map.nodes[67875796] = PT.Inscription({
     id = 198704,
     quest = 70306,
+    level = 25,
     note = L['pt_script_pulsing_earth_rune_note']
 }) -- Pulsing Earth Rune
 
 map.nodes[68002680] = PT.Enchanting({
     id = 198675,
     quest = 70283,
+    level = 25,
     note = L['pt_ench_lava_infused_seed_note']
 }) -- Lava-Infused Seed
 
 map.nodes[74703790] = PT.Tailoring({
     id = 198699,
     quest = 70302,
+    level = 25,
     note = L['pt_tailor_mysterious_banner_note']
 }) -- Mysterious Banner
 
@@ -1190,6 +1209,7 @@ map.nodes[74703790] = PT.Tailoring({
 map.nodes[43276663] = PM.Blacksmithing({
     id = 194836,
     quest = 70250,
+    level = 25,
     note = L['pm_smith_grekka_anvilsmash'],
     rewards = {
         Item({item = 190456, count = '25'}), -- Artisan's Mettle
@@ -1200,6 +1220,7 @@ map.nodes[43276663] = PM.Blacksmithing({
 map.nodes[60827590] = PM.Alchemy({
     id = 194829,
     quest = 70247,
+    level = 25,
     note = L['pm_alch_grigori_vialtry'],
     rewards = {
         Item({item = 190456, count = '25'}), -- Artisan's Mettle
@@ -1210,6 +1231,7 @@ map.nodes[60827590] = PM.Alchemy({
 map.nodes[73286972] = PM.Skinning({
     id = 194844,
     quest = 70259,
+    level = 25,
     note = L['pm_skin_zenzi'],
     rewards = {
         Item({item = 190456, count = '25'}), -- Artisan's Mettle

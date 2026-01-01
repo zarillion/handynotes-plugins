@@ -1022,48 +1022,56 @@ map.nodes[36165256] = PetBattle({
 map.nodes[25203540] = PT.Jewelcrafting({
     id = 198670,
     quest = 70282,
+    level = 25,
     note = L['pt_jewel_lofty_malygite_note']
 }) -- Lofty Malygite
 
 map.nodes[35344012] = PT.Tailoring({
     id = 198692,
     quest = 70295,
+    level = 25,
     note = L['pt_tailor_noteworthy_scrap_of_carpet_note']
 }) -- Noteworthy Scrap of Carpet
 
 map.nodes[50906650] = PT.Blacksmithing({
     id = 201009,
     quest = 70353,
+    level = 25,
     note = L['pt_smith_falconer_gauntlet_drawings_note']
 }) -- Falconer Gauntlet Drawings
 
 map.nodes[61406760] = PT.Enchanting({
     id = 198689,
     quest = 70291,
+    level = 25,
     note = L['pt_ench_stormbound_horn_note']
 }) -- Stormbound Horn
 
 map.nodes[61801300] = PT.Jewelcrafting({
     id = 198660,
     quest = 70263,
+    level = 25,
     note = L['pt_jewel_fragmented_key_note']
 }) -- Fragmented Key
 
 map.nodes[66105290] = PT.Tailoring({
     id = 201020,
     quest = 70303,
+    level = 25,
     note = L['pt_tailor_silky_surprise_note']
 }) -- Silky Surprise
 
 map.nodes[79238374] = PT.Alchemy({
     id = 198710,
     quest = 70305,
+    level = 25,
     note = L['pt_alch_canteen_of_suspicious_water_note']
 }) -- Canteen Of Suspicious Water
 
 map.nodes[81103790] = PT.Blacksmithing({
     id = 201004,
     quest = 70313,
+    level = 25,
     note = L['pt_smith_ancient_spear_shards_note'],
     pois = {POI({79403650})}
 }) -- Ancient Spear Shards
@@ -1071,12 +1079,14 @@ map.nodes[81103790] = PT.Blacksmithing({
 map.nodes[85702520] = PT.Inscription({
     id = 198703,
     quest = 70307,
+    level = 25,
     note = L['pt_script_sign_language_reference_sheet_note']
 }) -- Sign Language Reference Sheet
 
 map.nodes[86405370] = PT.Leatherworking({
     id = 198696,
     quest = 70300,
+    level = 25,
     note = L['pt_leath_wind_blessed_hide_note']
 }) -- Wind-Blessed Hide
 
@@ -1085,6 +1095,7 @@ map.nodes[86405370] = PT.Leatherworking({
 map.nodes[82455067] = PM.Leatherworking({
     id = 194842,
     quest = 70256,
+    level = 25,
     note = L['pm_leath_erden'],
     rewards = {
         Item({item = 190456, count = '25'}), -- Artisan's Mettle
@@ -1095,6 +1106,7 @@ map.nodes[82455067] = PM.Leatherworking({
 map.nodes[58375000] = PM.Herbalism({
     id = 194839,
     quest = 70253,
+    level = 25,
     note = L['pm_herb_hua_greenpaw'],
     rewards = {
         Item({item = 190456, count = '25'}), -- Artisan's Mettle
@@ -1105,6 +1117,7 @@ map.nodes[58375000] = PM.Herbalism({
 map.nodes[62441868] = PM.Enchanting({
     id = 194837,
     quest = 70251,
+    level = 25,
     note = L['pm_ench_shalasar_glimmerdusk'],
     rewards = {
         Item({item = 190456, count = '25'}), -- Artisan's Mettle

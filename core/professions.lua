@@ -97,6 +97,10 @@ ns.professions = {
 
 -------------------------------------------------------------------------------
 
+ns.professionsBySkillID = {}
+
+-------------------------------------------------------------------------------
+
 local function GetName(self)
     return C_TradeSkillUI.GetTradeSkillDisplayName(self.skillID)
 end
@@ -106,4 +110,15 @@ local function HasProfession(self) return ns.PlayerHasProfession(self.skillID) e
 for name, profession in pairs(ns.professions) do
     profession.GetName = GetName
     profession.HasProfession = HasProfession
+
+    -- add reverse lookup
+    ns.professionsBySkillID[profession.skillID] = profession
 end
+
+-------------------------------------------------------------------------------
+
+local function getProfessionBySkillID(skillID)
+    return ns.professionsBySkillID[skillID]
+end
+
+ns.getProfessionBySkillID = getProfessionBySkillID
