@@ -247,7 +247,10 @@ map.nodes[26736759] = Treasure({
 
 map.nodes[20004500] = Treasure({
     quest = nil,
-    rewards = {Achievement({id = 61263, criteria = 110256})}
+    rewards = {
+        Achievement({id = 61263, criteria = 110256}),
+        Mount({item = 256423, id = 2747}) -- Untained Grove Crawler
+    }
 }) -- Sporespawned Cache
 
 map.nodes[40642802] = Treasure({
@@ -255,7 +258,7 @@ map.nodes[40642802] = Treasure({
     quest = 93587,
     rewards = {
         Achievement({id = 61263, criteria = 110257}),
-        Mount({item = 252017, id = 2713})
+        Mount({item = 252017, id = 2713}) -- Ruddy Sporeglider
     }
 }) -- Peculiar Cauldron
 -- Flame Harded Sap of Teldrassil (loots 2-7x Crystalized Resin Fragment) - item:260531

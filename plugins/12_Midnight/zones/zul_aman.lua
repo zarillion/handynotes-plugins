@@ -196,12 +196,18 @@ map.nodes[45294170] = Rare({
 map.nodes[44724409] = Treasure({
     requires = ns.requirement.Item(259361, 1000), -- Vile Essence
     quest = nil,
-    rewards = {Achievement({id = 62125, criteria = 111854})}
+    rewards = {
+        Achievement({id = 62125, criteria = 111854}),
+        Mount({item = 257444, id = 2786}) -- Hexed Vilefeather Eagle
+    }
 }) -- Abandoned Ritual Skull
 
 map.nodes[46838186] = Treasure({
     quest = nil,
-    rewards = {Achievement({id = 62125, criteria = 111855})},
+    rewards = {
+        Achievement({id = 62125, criteria = 111855}),
+        Mount({item = 257223, id = 2778}) -- Ancestral War Bear
+    },
     pois = {
         -- Honored Warrior's Urn:
         POI({points = 54772240, label = '{item:259220}'}), -- Spawns Jan'alai's Chosen (255233), drops Dragonhawk Feather
