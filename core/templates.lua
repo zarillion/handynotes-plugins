@@ -276,7 +276,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             end
         elseif L_UIDROPDOWNMENU_MENU_VALUE == 'rewards' then
             for i, type in ipairs({
-                'rep', 'mount', 'pet', 'recipe', 'toy', 'transmog', 'decor'
+                'rep', 'mount', 'pet', 'recipe', 'toy', 'transmog'
             }) do
                 LibDD:UIDropDownMenu_AddButton({
                     text = L['options_' .. type .. '_rewards'],
