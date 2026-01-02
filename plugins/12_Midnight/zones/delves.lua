@@ -23,8 +23,8 @@ local map = Map({id = 1, settings = true}) -- Placeholder
 local she = Map({id = 2502, settings = false}) -- The Shadow Enclave
 local par = Map({id = 2545, settings = false}) -- Parhelion Plaza
 local cal = Map({id = 2547, settings = false}) -- Collegiate Calamity
-local tdw = Map({id = nil, settings = false}) -- The Darkway
--- local tcr = Map({id = nil, settings = false}) -- Twilight Crypts
+local tdw = Map({id = 2525, settings = false}) -- The Darkway
+local tcr = Map({id = 2504, settings = false}) -- Twilight Crypts
 local gru = Map({id = 2510, settings = false}) -- The Grudge Pit
 local gom = Map({id = 2505, settings = false}) -- The Gulf of Memory - (Upper Rootway)
 local gml = Map({id = 2575, settings = false}) -- The Gulf of Memory - (Lower Rootway)
@@ -128,21 +128,21 @@ par.nodes[10003000] = SturdyChest({
 ----------------------------- COLLEGIATE CALAMITY -----------------------------
 -------------------------------------------------------------------------------
 
-cal.nodes[10001000] = SturdyChest({
+cal.nodes[30951246] = SturdyChest({
     achievementID = 61894,
-    quest = nil,
+    quest = 94018,
     rlabel = ns.status.Gray('#1')
 })
 
-cal.nodes[10002000] = SturdyChest({
+cal.nodes[29545397] = SturdyChest({
     achievementID = 61894,
-    quest = nil,
+    quest = 94030,
     rlabel = ns.status.Gray('#2')
 })
 
-cal.nodes[10003000] = SturdyChest({
+cal.nodes[81283209] = SturdyChest({
     achievementID = 61894,
-    quest = nil,
+    quest = 94029,
     rlabel = ns.status.Gray('#3')
 })
 
@@ -150,9 +150,9 @@ cal.nodes[10003000] = SturdyChest({
 --------------------------------- THE DARKWAY ---------------------------------
 -------------------------------------------------------------------------------
 
-tdw.nodes[10001000] = SturdyChest({
+tdw.nodes[53104305] = SturdyChest({
     achievementID = 61895,
-    quest = nil,
+    quest = 94026,
     rlabel = ns.status.Gray('#1')
 })
 
@@ -172,21 +172,21 @@ tdw.nodes[10003000] = SturdyChest({
 ------------------------------- TWILIGHT CRYPTS -------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[10001000] = SturdyChest({
+tcr.nodes[56828579] = SturdyChest({
     achievementID = 61896,
-    quest = nil,
+    quest = 94020,
     rlabel = ns.status.Gray('#1')
 })
 
-map.nodes[10002000] = SturdyChest({
+tcr.nodes[21743629] = SturdyChest({
     achievementID = 61896,
-    quest = nil,
+    quest = 94034,
     rlabel = ns.status.Gray('#2')
 })
 
-map.nodes[10003000] = SturdyChest({
+tcr.nodes[46934989] = SturdyChest({
     achievementID = 61896,
-    quest = nil,
+    quest = 94037,
     rlabel = ns.status.Gray('#3')
 })
 
@@ -194,21 +194,21 @@ map.nodes[10003000] = SturdyChest({
 -------------------------------- THE GRUDGE PIT -------------------------------
 -------------------------------------------------------------------------------
 
-gru.nodes[10001000] = SturdyChest({
+gru.nodes[69763165] = SturdyChest({
     achievementID = 61897,
-    quest = nil,
+    quest = 94022,
     rlabel = ns.status.Gray('#1')
 })
 
-gru.nodes[10002000] = SturdyChest({
+gru.nodes[36972865] = SturdyChest({
     achievementID = 61897,
-    quest = nil,
+    quest = 94039,
     rlabel = ns.status.Gray('#2')
 })
 
-gru.nodes[10003000] = SturdyChest({
+gru.nodes[67535956] = SturdyChest({
     achievementID = 61897,
-    quest = nil,
+    quest = 94021,
     rlabel = ns.status.Gray('#3')
 })
 
@@ -239,19 +239,19 @@ gml.nodes[34494620] = SturdyChest({
 -------------------------------------------------------------------------------
 
 sks.nodes[38144902] = SturdyChest({
-    achievementID = 91899,
+    achievementID = 61899,
     quest = 94042,
     rlabel = ns.status.Gray('#1')
 })
 
 skl.nodes[49755052] = SturdyChest({
-    achievementID = 91899,
+    achievementID = 61899,
     quest = 94043,
     rlabel = ns.status.Gray('#2')
 })
 
 skl.nodes[60114079] = SturdyChest({
-    achievementID = 91899,
+    achievementID = 61899,
     quest = 94024,
     rlabel = ns.status.Gray('#3')
 })
@@ -260,23 +260,27 @@ skl.nodes[60114079] = SturdyChest({
 ------------------------------ SHADOWGUARD POINT ------------------------------
 -------------------------------------------------------------------------------
 
-sgp.nodes[10001000] = SturdyChest({
+sgp.nodes[58636052] = SturdyChest({
     achievementID = 61900,
-    quest = nil,
+    quest = 94044,
     rlabel = ns.status.Gray('#1')
 })
 
-sgp.nodes[10002000] = SturdyChest({
+sgp.nodes[41805375] = SturdyChest({
     achievementID = 61900,
-    quest = nil,
+    quest = 94017,
     rlabel = ns.status.Gray('#2')
 })
 
-sgp.nodes[10003000] = SturdyChest({
+sgp.nodes[58264151] = SturdyChest({
     achievementID = 61900,
-    quest = nil,
+    quest = 94025,
     rlabel = ns.status.Gray('#3')
 })
+
+-------------------------------------------------------------------------------
+-------------------------------- DELVE REWARDS --------------------------------
+-------------------------------------------------------------------------------
 
 local DELVE_REWARDS = {
 
