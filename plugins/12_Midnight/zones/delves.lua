@@ -19,7 +19,7 @@ local Achievement = ns.reward.Achievement
 
 local map = Map({id = 1, settings = true}) -- Placeholder
 
--- local atn = Map({id = nil, settings = false}) -- Atal'aman
+local atn = Map({id = 2535, settings = false}) -- Atal'aman
 local she = Map({id = 2502, settings = false}) -- The Shadow Enclave
 local par = Map({id = 2545, settings = false}) -- Parhelion Plaza
 local cal = Map({id = 2547, settings = false}) -- Collegiate Calamity
@@ -62,19 +62,19 @@ local SturdyChest = Class('SturdyChest', Treasure, {
 ---------------------------------- ATAL'AMAN ----------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[10001000] = SturdyChest({
+atn.nodes[48345051] = SturdyChest({
     achievementID = 61863,
-    quest = nil,
+    quest = 94014,
     rlabel = ns.status.Gray('#1')
 })
 
-map.nodes[10002000] = SturdyChest({
+atn.nodes[10002000] = SturdyChest({
     achievementID = 61863,
     quest = nil,
     rlabel = ns.status.Gray('#2')
 })
 
-map.nodes[10003000] = SturdyChest({
+atn.nodes[10003000] = SturdyChest({
     achievementID = 61863,
     quest = nil,
     rlabel = ns.status.Gray('#3')
@@ -106,21 +106,21 @@ she.nodes[10002000] = SturdyChest({
 ------------------------------- PARHELION PLAZA -------------------------------
 -------------------------------------------------------------------------------
 
-par.nodes[10001000] = SturdyChest({
+par.nodes[09635031] = SturdyChest({
     achievementID = 61893,
-    quest = nil,
+    quest = 94019,
     rlabel = ns.status.Gray('#1')
 })
 
-par.nodes[10002000] = SturdyChest({
+par.nodes[41168679] = SturdyChest({
     achievementID = 61893,
-    quest = nil,
+    quest = 94033,
     rlabel = ns.status.Gray('#2')
 })
 
-par.nodes[10003000] = SturdyChest({
+par.nodes[22446108] = SturdyChest({
     achievementID = 61893,
-    quest = nil,
+    quest = 94015,
     rlabel = ns.status.Gray('#3')
 })
 
