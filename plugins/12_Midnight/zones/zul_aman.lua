@@ -33,13 +33,21 @@ local aam = Map({id = 2536, settings = true}) -- Atal'Aman
 map.nodes[34413305] = Rare({
     id = 242023,
     quest = 94683, -- 89569
-    rewards = {Achievement({id = 62122, criteria = 111839})}
+    rewards = {
+        Achievement({id = 62122, criteria = 111839}),
+        Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Mount({item = 257200, id = 2775}) -- Witherbark Pango
+    }
 }) -- Necrohexxer Raz'ka
 
 map.nodes[51801862] = Rare({
     id = 242024,
     quest = 89570, -- 94697
-    rewards = {Achievement({id = 62122, criteria = 111840})}
+    rewards = {
+        Achievement({id = 62122, criteria = 111840}),
+        Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Mount({item = 257200, id = 2775}) -- Witherbark Pango
+    }
 }) -- The Snapping Scourge
 
 map.nodes[51857291] = Rare({
@@ -47,6 +55,9 @@ map.nodes[51857291] = Rare({
     quest = 89571, -- 94698, -- 89571
     rewards = {
         Achievement({id = 62122, criteria = 111841}),
+
+        Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Mount({item = 257200, id = 2775}), -- Witherbark Pango
         Transmog({item = 256231, type = L['2h_sword']})
     }
 }) -- Skullcrusher Harak
@@ -54,7 +65,11 @@ map.nodes[51857291] = Rare({
 map.nodes[28952444] = Rare({
     id = 242028,
     quest = nil, -- 89575
-    rewards = {Achievement({id = 62122, criteria = 111842})}
+    rewards = {
+        Achievement({id = 62122, criteria = 111842}),
+        Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Mount({item = 257200, id = 2775}) -- Witherbark Pango
+    }
 }) -- Lightwood Borer enterance 28732403
 
 map.nodes[50876514] = Rare({
@@ -62,6 +77,8 @@ map.nodes[50876514] = Rare({
     quest = 91174, -- 94700, -- 91174
     rewards = {
         Achievement({id = 62122, criteria = 111843}),
+        Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Mount({item = 257200, id = 2775}), -- Witherbark Pango
         Transmog({item = 264580, type = L['plate']})
     }
 }) -- Mrrlokk
@@ -71,6 +88,9 @@ map.nodes[38994997] = Rare({
     quest = 91634, -- 94701
     rewards = {
         Achievement({id = 62122, criteria = 111844}),
+
+        Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Mount({item = 257200, id = 2775}), -- Witherbark Pango
         Transmog({item = 264627, type = L['polearm']}) -- Rav'ik's Space Hunting Spear
     },
     parent = aam.id
@@ -79,7 +99,11 @@ map.nodes[38994997] = Rare({
 map.nodes[30484456] = Rare({
     id = 242031,
     quest = 89578, -- 94702
-    rewards = {Achievement({id = 62122, criteria = 111845})}
+    rewards = {
+        Achievement({id = 62122, criteria = 111845}),
+        Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Mount({item = 257200, id = 2775}) -- Witherbark Pango
+    }
 }) -- Spinefrill
 
 map.nodes[46295113] = Rare({
@@ -87,6 +111,8 @@ map.nodes[46295113] = Rare({
     quest = 89579, -- 94703, -- 89579
     rewards = {
         Achievement({id = 62122, criteria = 111846}),
+        Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Mount({item = 257200, id = 2775}), -- Witherbark Pango
         Transmog({item = 264541, type = L['leather']}) -- Egg-Swaddling Sash
     }
 }) -- Oophaga
@@ -96,6 +122,8 @@ map.nodes[47773422] = Rare({
     quest = 89580, -- 94704
     rewards = {
         Achievement({id = 62122, criteria = 111847}),
+        Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Mount({item = 257200, id = 2775}), -- Witherbark Pango
         Transmog({item = 264648, type = L['1h_mace']}) -- Verminscale Gavel
     }
 }) -- Tiny Vermin
@@ -103,20 +131,31 @@ map.nodes[47773422] = Rare({
 map.nodes[21307055] = Rare({
     id = 242034,
     quest = 94705, -- 89581
-    rewards = {Achievement({id = 62122, criteria = 111848})}
+    rewards = {
+        Achievement({id = 62122, criteria = 111848}),
+        Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Mount({item = 257200, id = 2775}) -- Witherbark Pango
+    }
 }) -- Voidtouched Crustacean
 
 map.nodes[39402040] = Rare({ -- wowhead beta coords
     id = 242035,
     quest = 89583, -- 89583/94706
-    rewards = {Achievement({id = 62122, criteria = 111849})}
+    rewards = {
+        Achievement({id = 62122, criteria = 111849}),
+        Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Mount({item = 257200, id = 2775}) -- Witherbark Pango
+    }
 }) -- The Devouring Invader
 
 map.nodes[33718897] = Rare({
     id = 242026,
     quest = 89572, -- 94707
     rewards = {
-        Achievement({id = 62122, criteria = 111850}), Item({item = 265543})
+        Achievement({id = 62122, criteria = 111850}), Item({item = 265543}),
+        Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Mount({item = 257200, id = 2775}) -- Witherbark Pango
+
     }
 }) -- Elder Oaktalon
 
@@ -124,20 +163,30 @@ map.nodes[47682056] = Rare({
     id = 242027,
     quest = 89573, -- 94708, -- 89573
     rewards = {
-        Achievement({id = 62122, criteria = 111851}), Item({item = 265560})
+        Achievement({id = 62122, criteria = 111851}), Item({item = 265560}),
+        Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
 }) -- Depthborn Eelamental
 
 map.nodes[46394339] = Rare({
     id = 245691,
     quest = nil, -- 91072
-    rewards = {Achievement({id = 62122, criteria = 111852})}
+    rewards = {
+        Achievement({id = 62122, criteria = 111852}),
+        Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Mount({item = 257200, id = 2775}) -- Witherbark Pango
+    }
 }) -- The Decaying Diamondback
 
 map.nodes[45294170] = Rare({
     id = 245692,
     quest = nil, -- 91073
-    rewards = {Achievement({id = 62122, criteria = 111853})}
+    rewards = {
+        Achievement({id = 62122, criteria = 111853}),
+        Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Mount({item = 257200, id = 2775}) -- Witherbark Pango
+    }
 }) -- Asha the Empowered
 
 -------------------------------------------------------------------------------

@@ -35,7 +35,8 @@ map.nodes[51164535] = Rare({
     quest = 91832, -- 94712/91832
     rewards = {
         Achievement({id = 61264, criteria = 109039}),
-        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Rhazul
 
@@ -44,7 +45,8 @@ map.nodes[68714070] = Rare({
     quest = 92137, -- 92137 94713
     rewards = {
         Achievement({id = 61264, criteria = 109040}),
-        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Chironex
 
@@ -53,7 +55,8 @@ map.nodes[69175986] = Rare({
     quest = 92142, -- 92142/94714
     rewards = {
         Achievement({id = 61264, criteria = 109041}),
-        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }, -- [Ha'kalawe's Flawless Wing] clock
     pois = {
         Path({
@@ -69,7 +72,8 @@ map.nodes[72636928] = Rare({
     quest = 92148, -- 94715
     rewards = {
         Achievement({id = 61264, criteria = 109042}),
-        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Tallcap the Truthspreader
 
@@ -78,7 +82,8 @@ map.nodes[59934684] = Rare({
     quest = 92154, -- 92154
     rewards = {
         Achievement({id = 61264, criteria = 109043}),
-        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Queen Lashtongue
 
@@ -87,7 +92,8 @@ map.nodes[64574794] = Rare({
     quest = 92161, -- 94717
     rewards = {
         Achievement({id = 61264, criteria = 109044}),
-        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Chlorokyll
 
@@ -96,7 +102,8 @@ map.nodes[65553269] = Rare({
     quest = 92168, -- 92168
     rewards = {
         Achievement({id = 61264, criteria = 109045}),
-        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Stumpy
 
@@ -105,7 +112,8 @@ map.nodes[56383299] = Rare({
     quest = 92170, -- 92170
     rewards = {
         Achievement({id = 61264, criteria = 109046}),
-        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Serrasa
 
@@ -114,7 +122,8 @@ map.nodes[45933134] = Rare({
     quest = 92172, -- 92720
     rewards = {
         Achievement({id = 61264, criteria = 109047}),
-        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     },
     pois = {Path({45422935, 45762998, 46033063, 45933134, 45803201, 46143260})}
 }) -- Mindrot
@@ -124,7 +133,8 @@ map.nodes[40654299] = Rare({
     quest = 92176, -- 92176
     rewards = {
         Achievement({id = 61264, criteria = 109048}),
-        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Dracaena
 
@@ -133,7 +143,8 @@ map.nodes[36597516] = Rare({
     quest = 92183, -- 94722/92183
     rewards = {
         Achievement({id = 61264, criteria = 109049}),
-        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Treetop
 
@@ -142,7 +153,8 @@ map.nodes[28118181] = Rare({ -- review
     quest = 92190, -- 94723
     rewards = {
         Achievement({id = 61264, criteria = 109050}),
-        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Oro'ohna
 
@@ -151,7 +163,8 @@ map.nodes[27277032] = Rare({
     quest = 92191, -- 94724, -- 92191
     rewards = {
         Achievement({id = 61264, criteria = 109051}),
-        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Pterrock
 
@@ -160,7 +173,8 @@ map.nodes[39696070] = Rare({
     quest = 92193, -- 92193/94725
     rewards = {
         Achievement({id = 61264, criteria = 109052}),
-        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Ahl'ua'huhi
 
@@ -169,7 +183,8 @@ map.nodes[44201658] = Rare({
     quest = 92194, -- 92194
     rewards = {
         Achievement({id = 61264, criteria = 109053}),
-        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Annulus the Worldshaker
 

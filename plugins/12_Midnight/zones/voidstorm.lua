@@ -40,7 +40,11 @@ local lop_b = Map({id = 2527, settings = true}) -- Lair of Predaxas - Bottom
 map.nodes[29515008] = Rare({
     id = 244272,
     quest = 94728, -- 90805
-    rewards = {Achievement({id = 62130, criteria = 111877})}
+    rewards = {
+        Achievement({id = 62130, criteria = 111877}),
+        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    }
 }) -- Sundereth the Caller
 
 map.nodes[34058198] = Rare({
@@ -48,6 +52,8 @@ map.nodes[34058198] = Rare({
     quest = 94729, -- 91050
     rewards = {
         Achievement({id = 62130, criteria = 111878}),
+        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}), -- Sanguine Harrower
         Transmog({item = 264564, type = L['mail']}) -- Voidscale Shoulderpads
     }
 }) -- Territorial Voidscythe
@@ -56,34 +62,54 @@ map.nodes[36168355] = Rare({
     id = 241443,
     location = L['in_small_cave'],
     quest = 94730, -- 91048
-    rewards = {Achievement({id = 62130, criteria = 111879})},
+    rewards = {
+        Achievement({id = 62130, criteria = 111879}),
+        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    },
     pois = {POI({35698120})}
 }) -- Tremora
 
 map.nodes[43665154] = Rare({
     id = 256922,
     quest = 94731, -- 93966
-    rewards = {Achievement({id = 62130, criteria = 111880})}
+    rewards = {
+        Achievement({id = 62130, criteria = 111880}),
+        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    }
 }) -- Screammaxa the Matriarch
 
 map.nodes[47058063] = Rare({
     id = 256923,
     location = L['in_small_cave'],
     quest = 94732, -- 93946
-    rewards = {Achievement({id = 62130, criteria = 111881})}
+    rewards = {
+        Achievement({id = 62130, criteria = 111881}),
+        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    }
 }) -- Bane of the Vilebloods
 
 map.nodes[39236392] = Rare({
     id = 256924,
     location = L['in_small_cave'],
     quest = 34751, -- 93944
-    rewards = {Achievement({id = 62130, criteria = 111882})}
+    rewards = {
+        Achievement({id = 62130, criteria = 111882}),
+        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    }
 }) -- Aeonelle Blackstar
 
 map.nodes[37897177] = Rare({
     id = 256925,
     quest = 94758, -- 93947
-    rewards = {Achievement({id = 62130, criteria = 111883})}
+    rewards = {
+        Achievement({id = 62130, criteria = 111883}),
+        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    }
 }) -- Lotus Darkblossom
 
 map.nodes[55727945] = Rare({
@@ -91,6 +117,8 @@ map.nodes[55727945] = Rare({
     quest = 94761, -- 93934
     rewards = {
         Achievement({id = 62130, criteria = 111884}),
+        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}), -- Sanguine Harrower
         Transmog({item = 267136, type = L['cloth']}) -- Queen's Tentacle Sash
     }
 }) -- Queen o' War -- Crown of the Lost Queen
@@ -98,13 +126,21 @@ map.nodes[55727945] = Rare({
 map.nodes[48815326] = Rare({
     id = 256808,
     quest = nil, -- 93895
-    rewards = {Achievement({id = 62130, criteria = 111885})}
+    rewards = {
+        Achievement({id = 62130, criteria = 111885}),
+        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    }
 }) -- Ravengerus
 
 slr.nodes[46334094] = Rare({
     id = 257027,
     quest = 94762, -- 93953
-    rewards = {Achievement({id = 62130, criteria = 111886})},
+    rewards = {
+        Achievement({id = 62130, criteria = 111886}),
+        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    },
     parent = map.id
 }) -- Rakshur the Bonegrinder
 
@@ -112,14 +148,22 @@ map.nodes[35495023] = Rare({
     id = 256770,
     location = L['in_small_cave'],
     quest = 94752, -- 93884
-    rewards = {Achievement({id = 62130, criteria = 111887})},
+    rewards = {
+        Achievement({id = 62130, criteria = 111887}),
+        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    },
     pois = {POI({35604940})}
 }) -- Bilemaw the Gluttonous
 
 slr.nodes[39049231] = Rare({ -- wowhead beta coords
     id = 245182,
     quest = 94754, -- 91047
-    rewards = {Achievement({id = 62130, criteria = 111888})},
+    rewards = {
+        Achievement({id = 62130, criteria = 111888}),
+        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    },
     pois = {
         Path({
             39319097, 39099054, 38559100, 38649176, 39049231, 39499288,
@@ -132,14 +176,22 @@ slr.nodes[39049231] = Rare({ -- wowhead beta coords
 map.nodes[40174130] = Rare({
     id = 245044,
     quest = nil, -- 91051
-    rewards = {Achievement({id = 62130, criteria = 111889})},
+    rewards = {
+        Achievement({id = 62130, criteria = 111889}),
+        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    },
     parent = slr.id
 }) -- Nightbrood
 
 map.nodes[53946272] = Rare({
     id = 256821,
     quest = nil, -- 93896
-    rewards = {Achievement({id = 62130, criteria = 111890})}
+    rewards = {
+        Achievement({id = 62130, criteria = 111890}),
+        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    }
 }) -- Far'thana the Mad
 
 -- Hardin Steellock @map 2444 28.35 57.11, Horde only?

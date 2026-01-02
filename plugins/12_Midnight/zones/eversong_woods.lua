@@ -54,6 +54,8 @@ map.nodes[54706018] = Rare({
     quest = 92392, -- 94684
     rewards = {
         Achievement({id = 61507, criteria = 110168}),
+        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}), -- Cobalt Dragonhawk
         Transmog({item = 264523, type = L['1h_sword']})
     }
 }) -- Overfester Hydra
@@ -61,31 +63,51 @@ map.nodes[54706018] = Rare({
 map.nodes[36566408] = Rare({
     id = 250582,
     quest = 92366, -- 92366/94685 ?
-    rewards = {Achievement({id = 61507, criteria = 110169})}
+    rewards = {
+        Achievement({id = 61507, criteria = 110169}),
+        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+    }
 }) -- Bloated Snapdragon
 
 map.nodes[62744907] = Rare({ -- review
     id = 250719,
     quest = 92391, -- 94686
-    rewards = {Achievement({id = 61507, criteria = 110170})}
+    rewards = {
+        Achievement({id = 61507, criteria = 110170}),
+        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+    }
 }) -- Cre'van
 
 map.nodes[36383637] = Rare({
     id = 250683,
     quest = 92389, -- 92389 ?
-    rewards = {Achievement({id = 61507, criteria = 110171})}
+    rewards = {
+        Achievement({id = 61507, criteria = 110171}),
+        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+    }
 }) -- Coralfang
 
 map.nodes[36657718] = Rare({
     id = 250754,
     quest = 92393, -- 94688
-    rewards = {Achievement({id = 61507, criteria = 110172})}
+    rewards = {
+        Achievement({id = 61507, criteria = 110172}),
+        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+    }
 }) -- Lady Liminus
 
 map.nodes[40198539] = Rare({
     id = 250876,
     quest = 92409, -- 94689
-    rewards = {Achievement({id = 61507, criteria = 110173})}
+    rewards = {
+        Achievement({id = 61507, criteria = 110173}),
+        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+    }
 }) -- Terrinor
 
 map.nodes[49058775] = Rare({
@@ -93,6 +115,8 @@ map.nodes[49058775] = Rare({
     quest = 92404, -- 94690
     rewards = {
         Achievement({id = 61507, criteria = 110174}),
+        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}), -- Cobalt Dragonhawk
         Transmog({item = 264536, type = L['cloth']}) -- Zedling Summoning Collar
     }
 }) -- Bad Zed
@@ -100,37 +124,61 @@ map.nodes[49058775] = Rare({
 map.nodes[34812098] = Rare({
     id = 250780,
     quest = 92395, -- 94691/92395 ?
-    rewards = {Achievement({id = 61507, criteria = 110175})}
+    rewards = {
+        Achievement({id = 61507, criteria = 110175}),
+        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+    }
 }) -- Waverly
 
 map.nodes[56427760] = Rare({
     id = 250826,
     quest = 92403, -- 92403/94692
-    rewards = {Achievement({id = 61507, criteria = 110176})}
+    rewards = {
+        Achievement({id = 61507, criteria = 110176}),
+        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+    }
 }) -- Banuran
 
 map.nodes[59207920] = Rare({ -- wowhead beta data
     id = 250806,
     quest = 92399, -- 92399 ?
-    rewards = {Achievement({id = 61507, criteria = 110177})}
+    rewards = {
+        Achievement({id = 61507, criteria = 110177}),
+        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+    }
 }) -- Lost Guardian
 
 map.nodes[42316891] = Rare({
     id = 255302,
     quest = 93550, -- 94694
-    rewards = {Achievement({id = 61507, criteria = 110178})}
+    rewards = {
+        Achievement({id = 61507, criteria = 110178}),
+        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+    }
 }) -- Duskburn
 
 map.nodes[51684599] = Rare({
     id = 255329,
     quest = 93555, -- 93555/94695 ?
-    rewards = {Achievement({id = 61507, criteria = 110179})}
+    rewards = {
+        Achievement({id = 61507, criteria = 110179}),
+        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+    }
 }) -- Malfunctioning Construct
 
 map.nodes[44993855] = Rare({
     id = 255348,
     quest = 93561, -- 93561/94696 ?
-    rewards = {Achievement({id = 61507, criteria = 110180})}
+    rewards = {
+        Achievement({id = 61507, criteria = 110180}),
+        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+    }
 }) -- Dame Bloodshed
 
 -------------------------------------------------------------------------------
