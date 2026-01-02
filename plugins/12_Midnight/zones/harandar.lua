@@ -33,19 +33,28 @@ local map = Map({id = 2413, settings = true}) -- or 2480
 map.nodes[51164535] = Rare({
     id = 248741,
     quest = 91832, -- 94712/91832
-    rewards = {Achievement({id = 61264, criteria = 109039})}
+    rewards = {
+        Achievement({id = 61264, criteria = 109039}),
+        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+    }
 }) -- Rhazul
 
 map.nodes[68714070] = Rare({
     id = 249844,
     quest = 92137, -- 92137 94713
-    rewards = {Achievement({id = 61264, criteria = 109040})}
+    rewards = {
+        Achievement({id = 61264, criteria = 109040}),
+        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+    }
 }) -- Chironex
 
 map.nodes[69175986] = Rare({
     id = 249849,
     quest = 92142, -- 92142/94714
-    rewards = {Achievement({id = 61264, criteria = 109041})}, -- [Ha'kalawe's Flawless Wing] clock
+    rewards = {
+        Achievement({id = 61264, criteria = 109041}),
+        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+    }, -- [Ha'kalawe's Flawless Wing] clock
     pois = {
         Path({
             69546295, 68806295, 68146280, 67696231, 67476167, 67466099,
@@ -58,74 +67,110 @@ map.nodes[69175986] = Rare({
 map.nodes[72636928] = Rare({
     id = 249902,
     quest = 92148, -- 94715
-    rewards = {Achievement({id = 61264, criteria = 109042})}
+    rewards = {
+        Achievement({id = 61264, criteria = 109042}),
+        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+    }
 }) -- Tallcap the Truthspreader
 
 map.nodes[59934684] = Rare({
     id = 249962,
     quest = 92154, -- 92154
-    rewards = {Achievement({id = 61264, criteria = 109043})}
+    rewards = {
+        Achievement({id = 61264, criteria = 109043}),
+        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+    }
 }) -- Queen Lashtongue
 
 map.nodes[64574794] = Rare({
     id = 249997,
     quest = 92161, -- 94717
-    rewards = {Achievement({id = 61264, criteria = 109044})}
+    rewards = {
+        Achievement({id = 61264, criteria = 109044}),
+        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+    }
 }) -- Chlorokyll
 
 map.nodes[65553269] = Rare({
     id = 250086,
     quest = 92168, -- 92168
-    rewards = {Achievement({id = 61264, criteria = 109045})}
+    rewards = {
+        Achievement({id = 61264, criteria = 109045}),
+        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+    }
 }) -- Stumpy
 
 map.nodes[56383299] = Rare({
     id = 250180,
     quest = 92170, -- 92170
-    rewards = {Achievement({id = 61264, criteria = 109046})}
+    rewards = {
+        Achievement({id = 61264, criteria = 109046}),
+        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+    }
 }) -- Serrasa
 
 map.nodes[45933134] = Rare({
     id = 250226,
     quest = 92172, -- 92720
-    rewards = {Achievement({id = 61264, criteria = 109047})},
+    rewards = {
+        Achievement({id = 61264, criteria = 109047}),
+        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+    },
     pois = {Path({45422935, 45762998, 46033063, 45933134, 45803201, 46143260})}
 }) -- Mindrot
 
 map.nodes[40654299] = Rare({
     id = 250231,
     quest = 92176, -- 92176
-    rewards = {Achievement({id = 61264, criteria = 109048})}
+    rewards = {
+        Achievement({id = 61264, criteria = 109048}),
+        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+    }
 }) -- Dracaena
 
 map.nodes[36597516] = Rare({
     id = 250246,
     quest = 92183, -- 94722/92183
-    rewards = {Achievement({id = 61264, criteria = 109049})}
+    rewards = {
+        Achievement({id = 61264, criteria = 109049}),
+        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+    }
 }) -- Treetop
 
 map.nodes[28118181] = Rare({ -- review
     id = 250317,
     quest = 92190, -- 94723
-    rewards = {Achievement({id = 61264, criteria = 109050})}
+    rewards = {
+        Achievement({id = 61264, criteria = 109050}),
+        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+    }
 }) -- Oro'ohna
 
 map.nodes[27277032] = Rare({
     id = 250321,
     quest = 92191, -- 94724, -- 92191
-    rewards = {Achievement({id = 61264, criteria = 109051})}
+    rewards = {
+        Achievement({id = 61264, criteria = 109051}),
+        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+    }
 }) -- Pterrock
 
 map.nodes[39696070] = Rare({
     id = 250347,
     quest = 92193, -- 92193/94725
-    rewards = {Achievement({id = 61264, criteria = 109052})}
+    rewards = {
+        Achievement({id = 61264, criteria = 109052}),
+        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+    }
 }) -- Ahl'ua'huhi
 
 map.nodes[44201658] = Rare({
     id = 250358,
     quest = 92194, -- 92194
-    rewards = {Achievement({id = 61264, criteria = 109053})}
+    rewards = {
+        Achievement({id = 61264, criteria = 109053}),
+        Mount({item = 246735, id = 2615}) -- Rootstalker Grimlynx
+    }
 }) -- Annulus the Worldshaker
 
 -------------------------------------------------------------------------------
