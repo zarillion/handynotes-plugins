@@ -65,7 +65,7 @@ map.nodes[51857291] = Rare({
 
 map.nodes[28952444] = Rare({
     id = 242028,
-    quest = nil, -- 89575
+    quest = 89575, -- 89575
     rewards = {
         Achievement({id = 62122, criteria = 111842}),
         Mount({item = 257152, id = 2760}), -- Amani Sharptalon
@@ -172,7 +172,7 @@ map.nodes[47682056] = Rare({
 
 map.nodes[46394339] = Rare({
     id = 245691,
-    quest = nil, -- 91072
+    quest = 91072, -- 91072
     rewards = {
         Achievement({id = 62122, criteria = 111852}),
         Mount({item = 257152, id = 2760}), -- Amani Sharptalon
@@ -182,7 +182,7 @@ map.nodes[46394339] = Rare({
 
 map.nodes[45294170] = Rare({
     id = 245692,
-    quest = nil, -- 91073
+    quest = 91073, -- 91073
     rewards = {
         Achievement({id = 62122, criteria = 111853}),
         Mount({item = 257152, id = 2760}), -- Amani Sharptalon
@@ -196,7 +196,7 @@ map.nodes[45294170] = Rare({
 
 map.nodes[44724409] = Treasure({
     requires = ns.requirement.Item(259361, 1000), -- Vile Essence
-    quest = nil,
+    quest = nil, -- 90794 or 90804
     rewards = {
         Achievement({id = 62125, criteria = 111854}),
         Mount({item = 257444, id = 2786}) -- Hexed Vilefeather Eagle
@@ -204,7 +204,7 @@ map.nodes[44724409] = Treasure({
 }) -- Abandoned Ritual Skull
 
 map.nodes[46838186] = Treasure({
-    quest = nil,
+    quest = 90793,
     rewards = {
         Achievement({id = 62125, criteria = 111855}),
         Mount({item = 257223, id = 2778}) -- Ancestral War Bear
@@ -263,7 +263,7 @@ map.nodes[42645243] = Treasure({
 
 map.nodes[44325620] = Treasure({
     label = 'Ruz\'avalt\'s Prized Tackle',
-    quest = nil,
+    quest = 90790,
     rewards = {}
 }) -- Ruz'avalt's Prized Tackle
 -- TODO: not interactable
@@ -275,7 +275,7 @@ map.nodes[44325620] = Treasure({
 map.nodes[40395117] = PT.Alchemy({quest = 89114, id = 238535}) -- Vial of Zul'Aman Oddities
 aam.nodes[49102321] = PT.Alchemy({quest = 89116, id = 238537, parent = map.id}) -- Measured Ladle
 aam.nodes[33086582] = PT.Blacksmithing({
-    quest = nil,
+    quest = 89179,
     id = 238542,
     parent = map.id
 }) -- Carefully Racked Spear

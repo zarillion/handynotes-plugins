@@ -125,7 +125,7 @@ map.nodes[55727945] = Rare({
 
 map.nodes[48815326] = Rare({
     id = 256808,
-    quest = nil, -- 93895
+    quest = 93895, -- 93895
     rewards = {
         Achievement({id = 62130, criteria = 111885}),
         Mount({item = 257085, id = 2751}), -- Augmented Stormray
@@ -135,7 +135,7 @@ map.nodes[48815326] = Rare({
 
 slr.nodes[46334094] = Rare({
     id = 257027,
-    quest = 94762, -- 93953
+    quest = 93953, --94762, -- 93953
     rewards = {
         Achievement({id = 62130, criteria = 111886}),
         Mount({item = 257085, id = 2751}), -- Augmented Stormray
@@ -175,7 +175,7 @@ slr.nodes[39049231] = Rare({ -- wowhead beta coords
 
 map.nodes[40174130] = Rare({
     id = 245044,
-    quest = nil, -- 91051
+    quest = 91051, -- 91051
     rewards = {
         Achievement({id = 62130, criteria = 111889}),
         Mount({item = 257085, id = 2751}), -- Augmented Stormray
@@ -186,7 +186,7 @@ map.nodes[40174130] = Rare({
 
 map.nodes[53946272] = Rare({
     id = 256821,
-    quest = nil, -- 93896
+    quest = 93896, -- 93896
     rewards = {
         Achievement({id = 62130, criteria = 111890}),
         Mount({item = 257085, id = 2751}), -- Augmented Stormray
@@ -199,21 +199,21 @@ map.nodes[53946272] = Rare({
 
 -- map.nodes[30336652] = Rare({
 --     id = 248791,
---     quest = nil,
+--     quest = 94459,
 --     rewards = {},
 --     pois = {ns.poi.Line({30006658, 30336652, 3067661})}
 -- }) -- Voidseer Orivane
 
 -- map.nodes[30186940] = Rare({
 --     id = 248791,
---     quest = nil,
+--     quest = 94459,
 --     rewards = {},
 --     pois = {ns.poi.Line({29906904, 30186940, 30516971})}
 -- }) -- Voidseer Orivane
 
--- map.nodes[29796787] = Rare({id = 248068, quest = nil, rewards = {}}) -- Nullspiral
+-- map.nodes[29796787] = Rare({id = 248068, quest = 94460, rewards = {}}) -- Nullspiral
 
--- map.nodes[28847023] = Rare({id = 248459, quest = nil, rewards = {}}) -- The Many-Broken
+-- map.nodes[28847023] = Rare({id = 248459, quest = 94458, rewards = {}}) -- The Many-Broken
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
@@ -231,7 +231,7 @@ map.nodes[49947936] = Treasure({
 
 map.nodes[25766728] = Treasure({
     requires = ns.requirement.Item(251519), -- Key of Fused Darkness
-    quest = nil,
+    quest = 92414,
     rewards = {Achievement({id = 62126, criteria = 111864})},
     pois = {
         POI({25746749}), -- Potion of Dissociation
@@ -416,10 +416,10 @@ map.nodes[37815497] = Telescope({quest = 94555})
 
 slr.nodes[41964062] = PT.Alchemy({quest = 89112, id = 238533, parent = map.id}) -- Vial of Voidstorm Oddities
 map.nodes[30516899] = PT.Blacksmithing({quest = 89181, id = 238544}) -- Voidstorm Defense Spear
-map.nodes[35495882] = PT.Enchanting({quest = nil, id = 238550}) -- Pure Void Crystal
-map.nodes[55486428] = PT.Herbalism({quest = nil, id = 238474}) -- Peculiar Lotus
+map.nodes[35495882] = PT.Enchanting({quest = 89102, id = 238550}) -- Pure Void Crystal
+map.nodes[55486428] = PT.Herbalism({quest = 89156, id = 238474}) -- Peculiar Lotus
 slr.nodes[54814150] =
-    PT.Inscription({quest = nil, id = 238572, parent = map.id}) -- Void-Touched Quill (Cant loot phasing issue)
+    PT.Inscription({quest = 89067, id = 238572, parent = map.id}) -- Void-Touched Quill (Cant loot phasing issue)
 map.nodes[30496904] = PT.Jewelcrafting({quest = 89123, id = 238581}) -- Speculative Voidstorm Crystal
 map.nodes[34725692] = PT.Leatherworking({quest = 89090, id = 238589}) -- Ethereal Leatherworking Knife
 map.nodes[41843821] = PT.Mining({quest = 89150, id = 238602}) -- Star Metal Deposit

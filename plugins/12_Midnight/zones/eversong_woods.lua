@@ -347,21 +347,21 @@ smc.nodes[31796828] =
 map.nodes[46363487] = PT.Tailoring({quest = 89080, id = 238614}) -- Sin'dorei Outfitter's Ruler
 
 --[[ MOVE TO RIGHT MAP WHEN FOUND
-map.nodes[] = PT.Enchanting({quest = nil, id = 238549}) -- Enchanted Sunfire Silk
-map.nodes[] = PT.Engineering({quest = nil, id = 238560}) -- Ethereal Stormwrench
-map.nodes[] = PT.Engineering({quest = nil, id = 238557}) -- Miniaturized Transport Skiff
-map.nodes[] = PT.Tailoring({quest = nil, id = 238616}) -- Book of Sin'dorei Stitches
-map.nodes[] = PT.Tailoring({quest = nil, id = 238617}) --Satin Throw Pillow
-map.nodes[] = PT.Leatherworking({quest = nil, id = 238592}) -- Patterns: Beyond the Void
-map.nodes[] = PT.Alchemy({quest = nil, id = 238532}) -- Vial of Eversong Oddities
-map.nodes[] = PT.Alchemy({quest = nil, id = 238539}) -- Failed Experiment
-map.nodes[] = PT.Jewelcrafting({quest = nil, id = 238586}) -- Ethereal Gem Pliers
-map.nodes[] = PT.Jewelcrafting({quest = nil, id = 238584}) -- Shattered Glass
-map.nodes[] = PT.Jewelcrafting({quest = nil, id = 238582}) -- Dual-Function Magnifiers
-map.nodes[] = PT.Inscription({quest = nil, id = 238577}) -- Half-Baked Techniques
-map.nodes[] = PT.Herbalism({quest = nil, id = 238469}) -- Sweeping Harvester's Scythe
-map.nodes[] = PT.Mining({quest = nil, id = 238600}) -- Glimmering Void Pearl
-map.nodes[] = PT.Mining({quest = nil, id = 238598}) -- Lost Voidstorm Satchel
+map.nodes[] = PT.Enchanting({quest = 89101, id = 238549}) -- Enchanted Sunfire Silk
+map.nodes[] = PT.Engineering({quest = 89137, id = 238560}) -- Ethereal Stormwrench
+map.nodes[] = PT.Engineering({quest = 89134, id = 238557}) -- MIniturized Transport Skiff
+map.nodes[] = PT.Tailoring({quest = 89082, id = 238616}) -- Book of Sin'dorei Stitches
+map.nodes[] = PT.Tailoring({quest = 89083, id = 238617}) --Satin Throw Pillow
+map.nodes[] = PT.Leatherworking({quest = 89093, id = 238592}) -- Patterns: Beyond the Void
+map.nodes[] = PT.Alchemy({quest = 89111, id = 238532}) -- Vial of Eversong Oddities
+map.nodes[] = PT.Alchemy({quest = 89118, id = 238539}) -- Failed Experiment
+map.nodes[] = PT.Jewelcrafting({quest = 89128, id = 238586}) -- Ethereal Gem Pliers
+map.nodes[] = PT.Jewelcrafting({quest = 89126, id = 238584}) -- Shattered Glass
+map.nodes[] = PT.Jewelcrafting({quest = 89124, id = 238582}) -- Dual-Function Magnifiers
+map.nodes[] = PT.Inscription({quest = 89072, id = 238577}) -- Half-Baked Techniques
+map.nodes[] = PT.Herbalism({quest = 89161, id = 238469}) -- Sweeping Harvester's Scythe
+map.nodes[] = PT.Mining({quest = 89148, id = 238600}) -- Glimmering Void Pearl
+map.nodes[] = PT.Mining({quest = 89146, id = 238598}) -- Lost Voidstorm Satchel
 
 
 

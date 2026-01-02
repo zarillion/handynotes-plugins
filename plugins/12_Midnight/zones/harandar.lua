@@ -230,7 +230,7 @@ map.nodes[55693943] = Treasure({
 }) -- Kemet's Simmering Cauldron
 
 map.nodes[20003500] = Treasure({
-    quest = nil,
+    quest = 93144,
     rewards = {Achievement({id = 61263, criteria = 110254})}
 }) -- Gift of the Cycle
 
@@ -246,7 +246,7 @@ map.nodes[26736759] = Treasure({
 -- click on {object:Durable Vase} and add the fluids to get [Fizzing Fluid] (260266) then loot the treasure from the Sealed Gourd
 
 map.nodes[20004500] = Treasure({
-    quest = nil,
+    quest = 93650,
     rewards = {
         Achievement({id = 61263, criteria = 110256}),
         Mount({item = 256423, id = 2747}) -- Untained Grove Crawler
