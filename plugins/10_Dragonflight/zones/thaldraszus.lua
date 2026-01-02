@@ -939,30 +939,35 @@ map.nodes[55974053] = PetBattle({
 map.nodes[52208050] = PT.Blacksmithing({
     id = 201006,
     quest = 70311,
+    level = 25,
     note = L['pt_smith_draconic_flux_note']
 }) -- Draconic Flux
 
 map.nodes[55203050] = PT.Alchemy({
     id = 203471,
     quest = 70278,
+    level = 25,
     note = L['pt_alch_tasty_candy_note']
 }) -- Tasty Candy
 
 map.nodes[56104090] = PT.Inscription({
     id = 201015,
     quest = 70287,
+    level = 25,
     note = L['pt_script_counterfeit_darkmoon_deck_note']
 }) -- Counterfeit Darkmoon Deck
 
 map.nodes[56304120] = PT.Inscription({
     id = 198659,
     quest = 70264,
+    level = 25,
     note = L['pt_script_forgetful_apprentices_tome_note']
 }) -- Forgetful Apprentice's Tome
 
 map.nodes[47104007] = PT.Inscription({
     id = 198659,
     quest = 70248,
+    level = 25,
     note = L['pt_script_forgetful_apprentices_tome_algethera_note'],
     pois = {POI({49844031})}
 }) -- Forgetful Apprentice's Tome
@@ -970,48 +975,56 @@ map.nodes[47104007] = PT.Inscription({
 map.nodes[56803050] = PT.Leatherworking({
     id = 198690,
     quest = 70294,
+    level = 25,
     note = L['pt_leath_decayed_scales_note']
 }) -- Decayed Scales
 
 map.nodes[56914372] = PT.Jewelcrafting({
     id = 198656,
     quest = 70261,
+    level = 25,
     note = L['pt_jewel_painters_pretty_jewel_note']
 }) -- Painter's Pretty Jewel
 
 map.nodes[58604580] = PT.Tailoring({
     id = 201019,
     quest = 70372,
+    level = 25,
     note = L['pt_tailor_ancient_dragonweave_bolt_note']
 }) -- Ancient Dragonweave Bolt
 
 map.nodes[59503840] = PT.Alchemy({
     id = 198697,
     quest = 70301,
+    level = 25,
     note = L['pt_alch_contraband_concoction_note']
 }) -- Contraband Concoction
 
 map.nodes[59806520] = PT.Jewelcrafting({
     id = 198682,
     quest = 70285,
+    level = 25,
     note = L['pt_jewel_alexstraszite_cluster_note']
 }) -- Alexstraszite Cluster
 
 map.nodes[59897033] = PT.Enchanting({
     id = 198800,
     quest = 70342,
+    level = 25,
     note = L['pt_ench_fractured_titanic_sphere_note']
 }) -- Fractured Titanic Sphere
 
 map.nodes[60407970] = PT.Tailoring({
     id = 198684,
     quest = 70288,
+    level = 25,
     note = L['pt_tailor_miniature_bronze_dragonflight_banner_note']
 }) -- Miniature Bronze Dragonflight Banner
 
 val.nodes[13206368] = PT.Inscription({
     id = 198669,
     quest = 70281,
+    level = 25,
     parent = map.id,
     note = L['pt_script_how_to_train_your_whelpling_note']
 }) -- How to Train Your Whelpling
@@ -1021,6 +1034,7 @@ val.nodes[13206368] = PT.Inscription({
 map.nodes[61437687] = PM.Mining({
     id = 194843,
     quest = 70258,
+    level = 25,
     note = L['pm_mining_bridgette_holdug'],
     rewards = {
         Item({item = 190456, count = '25'}), -- Artisan's Mettle
@@ -1031,6 +1045,7 @@ map.nodes[61437687] = PM.Mining({
 val.nodes[27894576] = PM.Tailoring({
     id = 194845,
     quest = 70260,
+    level = 25,
     note = L['pm_tailor_elysa_raywinder'],
     parent = map.id,
     rewards = {

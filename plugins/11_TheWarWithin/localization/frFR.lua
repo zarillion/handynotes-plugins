@@ -26,6 +26,9 @@ L['options_icons_flight_master_desc'] = 'Afficher les emplacements des {npc:Maî
 L['options_icons_worldsoul_memories'] = 'Souvenirs de l\'Âme-monde'
 L['options_icons_worldsoul_memories_desc'] = 'Afficher les récompenses liées aux {object:Souvenirs de l\'Âme-monde}.'
 
+L['last_architect_note'] = 'Résolvez des énigmes quotidiennes pour obtenir des éléments de décoration.'
+L['neighborhood_riddle'] = 'Emplacement du trésor'
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------

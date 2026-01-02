@@ -25,6 +25,9 @@ L['options_icons_flight_master_desc'] = 'Display {npc:Flight Master} locations f
 L['options_icons_worldsoul_memories'] = 'Worldsoul Memories'
 L['options_icons_worldsoul_memories_desc'] = 'Display rewards for {object:Worldsoul Memories}.'
 
+L['last_architect_note'] = 'Complete daily riddles to earn decorations.'
+L['neighborhood_riddle'] = 'Treasure Location'
+
 -------------------------------------------------------------------------------
 -------------------------------- ISLE OF DORN ---------------------------------
 -------------------------------------------------------------------------------

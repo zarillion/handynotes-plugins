@@ -74,6 +74,7 @@ L['elite'] = '정예'
 L['quest'] = nil
 L['quest_repeatable'] = nil
 L['achievement'] = nil
+L['decor_owned'] = nil
 
 ---------------------------------- LOCATION -----------------------------------
 L['in_cave'] = '동굴 안에 있음.'
@@ -93,6 +94,7 @@ L['time_format_12hrs'] = nil
 L['time_format_24hrs'] = nil
 
 ----------------------------------- REWARDS -----------------------------------
+L['decor'] = '하우징 장식'
 L['heirloom'] = '유산'
 L['item'] = nil
 L['mount'] = '탈것'

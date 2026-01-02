@@ -901,54 +901,63 @@ map.nodes[19522460] = PetBattle({
 map.nodes[12504940] = PT.Leatherworking({
     id = 201018,
     quest = 70269,
+    level = 25,
     note = L['pt_leath_well_danced_drum_note']
 }) -- Well-Danced Drum
 
 map.nodes[16203880] = PT.Tailoring({
     id = 198680,
     quest = 70284,
+    level = 25,
     note = L['pt_tailor_decaying_brackenhide_blanket_note']
 }) -- Decaying Brackenhide Blanket
 
 map.nodes[16303849] = PT.Alchemy({
     id = 198599,
     quest = 70208,
+    level = 25,
     note = L['pt_alch_experimental_decay_sample_note']
 }) -- Experimental Decay Sample
 
 map.nodes[16703880] = PT.Leatherworking({
     id = 198658,
     quest = 70266,
+    level = 25,
     note = L['pt_leath_decay_infused_tanning_oil_note']
 }) -- Decay-Infused Tanning Oil
 
 map.nodes[21564555] = PT.Enchanting({
     id = 198694,
     quest = 70298,
+    level = 25,
     note = L['pt_ench_enriched_earthen_shard_note']
 }) -- Enriched Earthen Shard
 
 map.nodes[38505920] = PT.Enchanting({
     id = 198799,
     quest = 70336,
+    level = 25,
     note = L['pt_ench_forgotten_arcane_tome_note']
 }) -- Forgotten Arcane Tome
 
 map.nodes[40705450] = PT.Tailoring({
     id = 198662,
     quest = 70267,
+    level = 25,
     note = L['pt_tailor_intriguing_bolt_of_blue_cloth_note']
 }) -- Intriguing Bolt of Blue Cloth
 
 map.nodes[43703090] = PT.Inscription({
     id = 198686,
     quest = 70293,
+    level = 25,
     note = L['pt_script_frosted_parchment_note']
 }) -- Frosted Parchment
 
 map.nodes[44606120] = PT.Jewelcrafting({
     id = 201016,
     quest = 70271,
+    level = 25,
     note = L['pt_jewel_harmonic_crystal_harmonizer_note'],
     pois = {POI({44726215, 44176203, 44686017})}
 }) -- Harmonic Crystal Harmonizer
@@ -956,24 +965,28 @@ map.nodes[44606120] = PT.Jewelcrafting({
 map.nodes[45006130] = PT.Jewelcrafting({
     id = 198664,
     quest = 70277,
+    level = 25,
     note = L['pt_jewel_crystalline_overgrowth_note']
 }) -- Crystalline Overgrowth
 
 map.nodes[45106120] = PT.Enchanting({
     id = 201013,
     quest = 70290,
+    level = 25,
     note = L['pt_ench_faintly_enchanted_remains_note']
 }) -- Faintly Enchanted Remains
 
 map.nodes[46202390] = PT.Inscription({
     id = 198693,
     quest = 70297,
+    level = 25,
     note = L['pt_script_dusty_darkmoon_card_note']
 }) -- Dusty Darkmoon Card
 
 map.nodes[53146614] = PT.Blacksmithing({
     id = 201011,
     quest = 70314,
+    level = 25,
     note = L['pt_smith_spelltouched_tongs_note'],
     requires = {
         ns.requirement.Profession(186), ns.requirement.Profession(164, 2822, 25)
@@ -984,12 +997,14 @@ map.nodes[53146614] = PT.Blacksmithing({
 map.nodes[57504130] = PT.Leatherworking({
     id = 198683,
     quest = 70286,
+    level = 25,
     note = L['pt_leath_treated_hides_note']
 }) -- Treated Hides
 
 map.nodes[67061316] = PT.Alchemy({
     id = 198712,
     quest = 70309,
+    level = 25,
     note = L['pt_alch_firewater_powder_sample_note']
 }) -- Firewater Powder Sample
 
@@ -998,6 +1013,7 @@ map.nodes[67061316] = PT.Alchemy({
 map.nodes[17762167] = PM.Engineering({
     id = 194838,
     quest = 70252,
+    level = 25,
     note = L['pm_engi_frizz_buzzcrank'],
     rewards = {
         Item({item = 190456, count = '25'}), -- Artisan's Mettle
@@ -1008,6 +1024,7 @@ map.nodes[17762167] = PM.Engineering({
 map.nodes[40146434] = PM.Inscription({
     id = 194840,
     quest = 70254,
+    level = 25,
     note = L['pm_script_lydiara_whisperfeather'],
     rewards = {
         Item({item = 190456, count = '25'}), -- Artisan's Mettle
@@ -1018,6 +1035,7 @@ map.nodes[40146434] = PM.Inscription({
 map.nodes[46244076] = PM.Jewelcrafting({
     id = 194841,
     quest = 70255,
+    level = 25,
     note = L['pm_jewel_pluutar'],
     rewards = {
         Item({item = 190456, count = '25'}), -- Artisan's Mettle

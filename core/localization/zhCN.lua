@@ -74,6 +74,7 @@ L['elite'] = '精英'
 L['quest'] = '任务'
 L['quest_repeatable'] = '可重复任务'
 L['achievement'] = '成就'
+L['decor_owned'] = '已拥有：'
 
 ---------------------------------- LOCATION -----------------------------------
 L['in_cave'] = '在洞穴。'
@@ -93,6 +94,7 @@ L['time_format_12hrs'] = '%m/%d - %I:%M %p 本地时间'
 L['time_format_24hrs'] = '%m/%d - %H:%M 本地时间'
 
 ----------------------------------- REWARDS -----------------------------------
+L['decor'] = '装饰'
 L['heirloom'] = '传家宝'
 L['item'] = '物品'
 L['mount'] = '坐骑'
@@ -204,8 +206,8 @@ L['ignore_faction_restrictions_desc'] = '显示需要对立阵营的组、项和
 L['options_rewards_settings'] = '奖励'
 L['options_reward_behaviors_settings'] = '奖励行为'
 L['options_reward_types'] = '显示奖励类型'
-L['options_decor_rewards'] = nil
-L['options_decor_rewards_desc'] = nil
+L['options_decor_rewards'] = '显示装饰奖励'
+L['options_decor_rewards_desc'] = '在提示中显示装饰奖励并跟踪其收集状态。'
 L['options_manuscript_rewards'] = '显示观龙者手稿奖励'
 L['options_manuscript_rewards_desc'] = '在提示中显示龙观察者手稿奖励并跟踪其收集状态。'
 L['options_mount_rewards'] = '显示坐骑奖励'

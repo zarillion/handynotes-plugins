@@ -303,6 +303,18 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
                 }, 2)
             end
 
+            if ns.expansion >= 11 then -- TWW and beyond
+                LibDD:UIDropDownMenu_AddButton({
+                    text = L['options_decor_rewards'],
+                    isNotRadio = true,
+                    keepShownOnClick = true,
+                    checked = ns:GetOpt('show_decor_rewards'),
+                    func = function(button, option)
+                        ns:SetOpt('show_decor_rewards', button.checked)
+                    end
+                }, 2)
+            end
+
             -- Additional options tweaking the behavior of the above filters
             LibDD:UIDropDownMenu_AddSeparator(2)
             LibDD:UIDropDownMenu_AddButton({

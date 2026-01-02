@@ -1,4 +1,16 @@
+# v129
+
+* Localization updates: deDE, esES, frFR, zhCN
+
+# v128
+
+* Bump toc to 110207
+
 # v127
+
+* Added Mawtouched Geomental.
+* Added more Itsy Bitsy Spider nodes.
+* Fixed some tooltip rendering errors.
 
 # v126
 

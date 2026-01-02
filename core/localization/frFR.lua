@@ -74,6 +74,7 @@ L['elite'] = 'Élite'
 L['quest'] = 'Quête'
 L['quest_repeatable'] = 'Quête répétable'
 L['achievement'] = 'Haut-Fait'
+L['decor_owned'] = 'Possédé : %s'
 
 ---------------------------------- LOCATION -----------------------------------
 L['in_cave'] = 'Dans une grotte.'
@@ -93,6 +94,7 @@ L['time_format_12hrs'] = '%I:%M %p - %d/%m heure locale'
 L['time_format_24hrs'] = '%H:%M - %d/%m heure locale'
 
 ----------------------------------- REWARDS -----------------------------------
+L['decor'] = 'Élément de décoration intérieure'
 L['heirloom'] = 'Héritage'
 L['item'] = 'Objet'
 L['mount'] = 'Monture'

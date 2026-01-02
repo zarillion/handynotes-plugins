@@ -782,17 +782,29 @@ local Decor = Class('Decor', Reward,
 
 function Decor:Initialize(attrs)
     Reward.Initialize(self, attrs)
-
-    if not self.id then
-        error('Decor() reward requires an decor id to be set')
+    if self.item then
+        if not self.CacheItem then self.CacheItem = Item.CacheItem end
+        Item.Initialize(self, attrs)
+    else
+        if not self.id then
+            error('Decor() reward requires an decor id or item to be set')
+        end
+        self.itemLink = C_HousingDecor.GetDecorName(self.id)
+        self.itemIcon = 7252953 -- C_HousingDecor.GetDecorIcon(self.id)
     end
-
-    self.itemLink = C_HousingDecor.GetDecorName(self.id)
-    self.itemIcon = 7252953 -- C_HousingDecor.GetDecorIcon(self.id)
 end
 
 function Decor:GetText()
+    if self.item then return Item.GetText(self) end
     return Icon(self.itemIcon) .. self.itemLink .. ' (' .. self.type .. ')'
+end
+
+function Decor:GetStatus()
+    if not self.item then return end
+
+    local item = C_HousingCatalog.GetCatalogEntryInfoByItem(self.item, true)
+    local owned = item.numStored + item.numPlaced
+    return L['decor_owned']:format(owned or 0)
 end
 
 -------------------------------------------------------------------------------
@@ -819,5 +831,6 @@ ns.reward = {
     Toy = Toy,
     Appearance = Appearance,
     Transmog = Transmog,
-    Reputation = Reputation
+    Reputation = Reputation,
+    Decor = Decor
 }

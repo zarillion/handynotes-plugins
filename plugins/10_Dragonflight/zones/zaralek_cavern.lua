@@ -403,7 +403,7 @@ map.nodes[36694883] = Treasure({
     rewards = {
         Achievement({id = 17786, criteria = 59222}) -- Treasures of Zaralek Cavern
     },
-    pois = {POI({36444822, 2883540})}
+    pois = {POI({35684877, 36374597, 36444822, 42334547, 41135062})} -- Bottled Magma
 }) -- Ancient Zaqali Chest
 
 map.nodes[28544791] = Treasure({
@@ -844,60 +844,67 @@ map.nodes[45698150] = PetBattle({
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[40485918] = PT.Alchemy({id = 205213, quest = 75651}) -- Suspicious Mold
-map.nodes[52631830] = PT.Alchemy({id = 205211, quest = 75646}) -- Nutrient Diluted Protofluid
-map.nodes[62154115] = PT.Alchemy({id = 205212, quest = 75649}) -- Marrow-Ripened Slime
+map.nodes[40485918] = PT.Alchemy({id = 205213, quest = 75651, level = 25}) -- Suspicious Mold
+map.nodes[52631830] = PT.Alchemy({id = 205211, quest = 75646, level = 25}) -- Nutrient Diluted Protofluid
+map.nodes[62154115] = PT.Alchemy({id = 205212, quest = 75649, level = 25}) -- Marrow-Ripened Slime
 
-map.nodes[36674615] = PT.Inscription({id = 206031, quest = 76117}) -- Intricate Zaqali Runes
-map.nodes[53007440] = PT.Inscription({id = 206034, quest = 76120}) -- Hissing Rune Draft
+map.nodes[36674615] = PT.Inscription({id = 206031, quest = 76117, level = 25}) -- Intricate Zaqali Runes
+map.nodes[53007440] = PT.Inscription({id = 206034, quest = 76120, level = 25}) -- Hissing Rune Draft
 map.nodes[54472026] = PT.Inscription({
     id = 206035,
     quest = 76121,
+    level = 25,
     location = L['in_cave'],
     pois = {POI({52781885})}
 }) -- Ancient Research
 
-map.nodes[34504542] = PT.Jewelcrafting({id = 205216, quest = 75653}) -- Gently Jostled Jewels
-map.nodes[40378070] = PT.Jewelcrafting({id = 205214, quest = 75652}) -- Snubbed Snail Shells
-map.nodes[54413247] = PT.Jewelcrafting({id = 205219, quest = 75654}) -- Broken Barter Boulder
+map.nodes[34504542] = PT.Jewelcrafting({id = 205216, quest = 75653, level = 25}) -- Gently Jostled Jewels
+map.nodes[40378070] = PT.Jewelcrafting({id = 205214, quest = 75652, level = 25}) -- Snubbed Snail Shells
+map.nodes[54413247] = PT.Jewelcrafting({id = 205219, quest = 75654, level = 25}) -- Broken Barter Boulder
 
-map.nodes[44521565] = PT.Tailoring({id = 206030, quest = 76116}) -- Exquisitely Embroidered Banner
-map.nodes[47214855] = PT.Tailoring({id = 206019, quest = 76102}) -- Abandoned Reserve Chute
-map.nodes[59117314] = PT.Tailoring({id = 206025, quest = 76110}) -- Used Medical Wrap Kit
+map.nodes[44521565] = PT.Tailoring({id = 206030, quest = 76116, level = 25}) -- Exquisitely Embroidered Banner
+map.nodes[47214855] = PT.Tailoring({id = 206019, quest = 76102, level = 25}) -- Abandoned Reserve Chute
+map.nodes[59117314] = PT.Tailoring({id = 206025, quest = 76110, level = 25}) -- Used Medical Wrap Kit
 
-map.nodes[36666933] = PT.Enchanting({id = 205001, quest = 75510}) -- Resonating Arcane Crystal
-map.nodes[48251702] = PT.Enchanting({id = 204990, quest = 75508}) -- Lava-Drenched Shadow Crystal
-map.nodes[62395380] = PT.Enchanting({id = 204999, quest = 75509}) -- Shimmering Aqueous Orb
+map.nodes[36666933] = PT.Enchanting({id = 205001, quest = 75510, level = 25}) -- Resonating Arcane Crystal
+map.nodes[48251702] = PT.Enchanting({id = 204990, quest = 75508, level = 25}) -- Lava-Drenched Shadow Crystal
+map.nodes[62395380] = PT.Enchanting({id = 204999, quest = 75509, level = 25}) -- Shimmering Aqueous Orb
 
-map.nodes[50504790] = PT.Engineering({id = 204471, quest = 75184}) -- Defective Survival Pack
+map.nodes[50504790] = PT.Engineering({id = 204471, quest = 75184, level = 25}) -- Defective Survival Pack
 map.nodes[37825884] = PT.Engineering({
     id = 204475,
     quest = 75186,
+    level = 25,
     note = L['busted_wyrmhole_generator_note']
 }) -- Busted Wyrmhole Generator
 map.nodes[48101659] = PT.Engineering({
     id = 204855,
     quest = 75433,
+    level = 25,
     location = L['in_small_cave'],
     note = L['molten_scoutbot_note']
 }) -- Molten Scoutbot (Overclocked Determination Core)
-map.nodes[48162790] = PT.Engineering({id = 204470, quest = 75183}) -- Haphazardly Discarded Bombs
-map.nodes[48484868] = PT.Engineering({id = 204469, quest = 75180}) -- Misplace Aberrus Outflow Blueprints
-map.nodes[49437901] = PT.Engineering({id = 204853, quest = 75431}) -- Discarded Dracothyst Drill
-map.nodes[49875919] = PT.Engineering({id = 204480, quest = 75188}) -- Inconspicuous Data Miner
+map.nodes[48162790] = PT.Engineering({id = 204470, quest = 75183, level = 25}) -- Haphazardly Discarded Bombs
+map.nodes[48484868] = PT.Engineering({id = 204469, quest = 75180, level = 25}) -- Misplace Aberrus Outflow Blueprints
+map.nodes[49437901] = PT.Engineering({id = 204853, quest = 75431, level = 25}) -- Discarded Dracothyst Drill
+map.nodes[49875919] = PT.Engineering({id = 204480, quest = 75188, level = 25}) -- Inconspicuous Data Miner
 map.nodes[57657393] = PT.Engineering({
     id = 204850,
     quest = 75430,
+    level = 25,
     note = L['bolts_and_brass_note']
 }) -- Bolts and Brass (Handful of Khaz'gorite Bolts)
 
-map.nodes[27514286] = PT.Blacksmithing({id = 205988, quest = 76080}) -- Zaqali Elder Spear
-map.nodes[48312201] = PT.Blacksmithing({id = 205987, quest = 76079}) -- Brimstone Rescue Ring
-map.nodes[57155464] = PT.Blacksmithing({id = 205986, quest = 76078}) -- Well-Worn Kiln
+map.nodes[27514286] = PT.Blacksmithing({id = 205988, quest = 76080, level = 25}) -- Zaqali Elder Spear
+map.nodes[48312201] = PT.Blacksmithing({id = 205987, quest = 76079, level = 25}) -- Brimstone Rescue Ring
+map.nodes[57155464] = PT.Blacksmithing({id = 205986, quest = 76078, level = 25}) -- Well-Worn Kiln
 
-map.nodes[41164881] = PT.Leatherworking({id = 204986, quest = 75495}) -- Flame-Infused Scale Oil
-map.nodes[45252112] = PT.Leatherworking({id = 204987, quest = 75496}) -- Lava-Forged Leatherworker's "Knife"
-map.nodes[49565480] = PT.Leatherworking({id = 204988, quest = 75502}) -- Sulfur-Soaked Skins
+map.nodes[41164881] =
+    PT.Leatherworking({id = 204986, quest = 75495, level = 25}) -- Flame-Infused Scale Oil
+map.nodes[45252112] =
+    PT.Leatherworking({id = 204987, quest = 75496, level = 25}) -- Lava-Forged Leatherworker's "Knife"
+map.nodes[49565480] =
+    PT.Leatherworking({id = 204988, quest = 75502, level = 25}) -- Sulfur-Soaked Skins
 
 -------------------------------------------------------------------------------
 -------------------------------- DRAGON GLYPHS --------------------------------

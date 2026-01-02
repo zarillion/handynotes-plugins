@@ -74,6 +74,7 @@ L['elite'] = '菁英'
 L['quest'] = '任務'
 L['quest_repeatable'] = '可重複任務'
 L['achievement'] = '成就'
+L['decor_owned'] = nil
 
 ---------------------------------- LOCATION -----------------------------------
 L['in_cave'] = '在洞穴.'
@@ -93,6 +94,7 @@ L['time_format_12hrs'] = '%m/%d - %I:%M %p 本地時間'
 L['time_format_24hrs'] = '%m/%d - %H:%M 本地時間'
 
 ----------------------------------- REWARDS -----------------------------------
+L['decor'] = '房屋裝飾'
 L['heirloom'] = '傳家寶'
 L['item'] = '物品'
 L['mount'] = '坐騎'
