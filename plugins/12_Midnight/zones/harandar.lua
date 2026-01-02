@@ -38,7 +38,7 @@ map.nodes[51164535] = Rare({
 
 map.nodes[68714070] = Rare({
     id = 249844,
-    quest = 92137, -- 92137
+    quest = 92137, -- 92137 94713
     rewards = {Achievement({id = 61264, criteria = 109040})}
 }) -- Chironex
 

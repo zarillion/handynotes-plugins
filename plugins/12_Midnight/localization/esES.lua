@@ -56,3 +56,10 @@ L['malignant_node'] = 'Nodos malignos'
 -------------------------------------------------------------------------------
 
 L['share_a_drink_note'] = 'Compra una {item:251039} al {npc:250495} en la Arcantina y compártela con todas las razas.'
+
+-------------------------------------------------------------------------------
+----------------------------------- DELVES ------------------------------------
+-------------------------------------------------------------------------------
+
+L['sturdy_chest'] = 'Cofre robusto'
+L['sturdy_chest_suffix'] = 'Cofre robusto encontrado'

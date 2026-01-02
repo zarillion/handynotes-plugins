@@ -7,7 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Treasure = ns.node.Treasure
-local Spacer = ns.reward.Spacer
+
 local Achievement = ns.reward.Achievement
 -- local Pet = ns.reward.Pet
 -- local Spacer = ns.reward.Spacer

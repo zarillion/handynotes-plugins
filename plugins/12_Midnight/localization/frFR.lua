@@ -57,3 +57,10 @@ L['malignant_node'] = 'Nœud malveillant'
 -------------------------------------------------------------------------------
 
 L['share_a_drink_note'] = 'Achetez des {item:251039} auprès de {npc:250495} à l\'Arcantina et partagez-les avec chaque race.'
+
+-------------------------------------------------------------------------------
+----------------------------------- DELVES ------------------------------------
+-------------------------------------------------------------------------------
+
+L['sturdy_chest'] = 'Coffre solide'
+L['sturdy_chest_suffix'] = 'Coffre solide trouvé'

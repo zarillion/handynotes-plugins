@@ -169,7 +169,7 @@ local function HookAllPOIS()
         local poi = ns.hooks['delve'][self.poiInfo.areaPoiID]
         if not poi then return end
 
-        local hookInfo = Hook({})
+        local hookInfo
 
         if (self.poiInfo.description == _G.DELVE_LABEL) then
             hookInfo = Hook({

@@ -2,7 +2,7 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
-local Class = ns.Class
+--local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
@@ -30,7 +30,7 @@ local POI = ns.poi.POI
 local map = Map({id = 2405, settings = true}) -- or 2479
 local slr = Map({id = 2444, settings = true}) -- Slayer's Rise
 
-local lop_t = Map({id = 2526, settings = true}) -- Lair of Predaxas - Top
+--local lop_t = Map({id = 2526, settings = true}) -- Lair of Predaxas - Top
 local lop_b = Map({id = 2527, settings = true}) -- Lair of Predaxas - Bottom
 
 -------------------------------------------------------------------------------
