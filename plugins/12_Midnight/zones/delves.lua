@@ -278,48 +278,47 @@ sgp.nodes[10003000] = SturdyChest({
     rlabel = ns.status.Gray('#3')
 })
 
-
 local DELVE_REWARDS = {
 
     ['the_grudge_pit'] = {
         Achievement({id = 61897, criteria = SturdyChestCriteria}), -- The Grudge Pit Discoveries
-        Achievement({id = 61724, criteria = {110982, 110983, 110984}}), -- The Grudge Pit Stories
+        Achievement({id = 61724, criteria = {110982, 110983, 110984}}) -- The Grudge Pit Stories
     },
     ['the_darkway'] = {
         Achievement({id = 61895, criteria = SturdyChestCriteria}), -- The Darkway Discoveries
-        Achievement({id = 61728, criteria = {111009, 111010, 111011}}), -- The Darkway Stories
+        Achievement({id = 61728, criteria = {111009, 111010, 111011}}) -- The Darkway Stories
     },
     ['collegiate_calamity'] = {
         Achievement({id = 61894, criteria = SturdyChestCriteria}), -- Collegiate Calamity Discoveries
-        Achievement({id = 61726, criteria = {110994, 110995, 110996}}), -- Collegiate Calamity Stories
+        Achievement({id = 61726, criteria = {110994, 110995, 110996}}) -- Collegiate Calamity Stories
     },
     ['parhelion_plaza'] = {
         Achievement({id = 61893, criteria = SturdyChestCriteria}), -- Parhelion Plaza Discoveries
-        Achievement({id = 61725, criteria = {110985, 110986, 110987}}), -- Parhelion Plaza Stories
+        Achievement({id = 61725, criteria = {110985, 110986, 110987}}) -- Parhelion Plaza Stories
     },
     ['the_shadow_enclave'] = {
         Achievement({id = 61892, criteria = SturdyChestCriteria}), -- The Shadow Enclave Discoveries
-        Achievement({id = 61727, criteria = {111003, 111004, 111005}}), -- The Shadow Enclave Stories
+        Achievement({id = 61727, criteria = {111003, 111004, 111005}}) -- The Shadow Enclave Stories
     },
     ['twilight_crypts'] = {
         Achievement({id = 61896, criteria = SturdyChestCriteria}), -- Twilight Crypts Discoveries
-        Achievement({id = 61730, criteria = {111006, 111007, 111008}}), -- Twilight Crypts Stories
+        Achievement({id = 61730, criteria = {111006, 111007, 111008}}) -- Twilight Crypts Stories
     },
     ['atalaman'] = {
         Achievement({id = 61863, criteria = SturdyChestCriteria}), -- Atal'aman Discoveries
-        Achievement({id = 61729, criteria = {111000, 111001, 111002}}), -- Atal'aman Stories
+        Achievement({id = 61729, criteria = {111000, 111001, 111002}}) -- Atal'aman Stories
     },
     ['shadowguard_point'] = {
         Achievement({id = 61900, criteria = SturdyChestCriteria}), -- Shadowguard Point Discoveries
-        Achievement({id = 61733, criteria = {110991, 110992, 110993}}), -- Shadowguard Point Stories
+        Achievement({id = 61733, criteria = {110991, 110992, 110993}}) -- Shadowguard Point Stories
     },
     ['sunkiller_sanctum'] = {
         Achievement({id = 61899, criteria = SturdyChestCriteria}), -- Sunkiller Sanctum Discoveries
-        Achievement({id = 61732, criteria = {110988, 110989, 110990}}), -- Sunkiller Sanctum Stories
+        Achievement({id = 61732, criteria = {110988, 110989, 110990}}) -- Sunkiller Sanctum Stories
     },
     ['the_gulf_of_memory'] = {
         Achievement({id = 61898, criteria = SturdyChestCriteria}), -- The Gulf of Memory Discoveries
-        Achievement({id = 61731, criteria = {110997, 110998, 110999}}), -- The Gulf of Memory Stories
+        Achievement({id = 61731, criteria = {110997, 110998, 110999}}) -- The Gulf of Memory Stories
     }
 }
 
@@ -336,7 +335,6 @@ local DELVE_AREA_POIS = {
     [8429] = DELVE_REWARDS['sunkiller_sanctum'],
     [8435] = DELVE_REWARDS['the_gulf_of_memory'],
 
-
     -- BOUNTIFUL DELVES -------------------------------------------------------
     [8434] = DELVE_REWARDS['the_grudge_pit'],
     [8440] = DELVE_REWARDS['the_darkway'],
@@ -347,7 +345,7 @@ local DELVE_AREA_POIS = {
     [8444] = DELVE_REWARDS['atalaman'],
     [8432] = DELVE_REWARDS['shadowguard_point'],
     [8430] = DELVE_REWARDS['sunkiller_sanctum'],
-    [8436] = DELVE_REWARDS['the_gulf_of_memory'],
+    [8436] = DELVE_REWARDS['the_gulf_of_memory']
 
 }
 
