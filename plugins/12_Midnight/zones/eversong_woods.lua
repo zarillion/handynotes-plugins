@@ -14,6 +14,7 @@ local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Mount = ns.reward.Mount
 -- local Item = ns.reward.Item
 local Pet = ns.reward.Pet
 local Reputation = ns.reward.Reputation
@@ -36,6 +37,8 @@ map.nodes[51927380] = Rare({
     quest = 91280, -- 94681 ?
     rewards = {
         Achievement({id = 61507, criteria = 110166}),
+        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}), -- Cobalt Dragonhawk
         Transmog({item = 264520, type = L['staff']}) -- Warden's Leycrook
     },
     pois = {
@@ -46,7 +49,11 @@ map.nodes[51927380] = Rare({
 map.nodes[45057825] = Rare({
     id = 246633,
     quest = 91315, -- 91315/94682
-    rewards = {Achievement({id = 61507, criteria = 110167})}
+    rewards = {
+        Achievement({id = 61507, criteria = 110167}),
+        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+    }
 }) -- Harried Hawkstrider
 
 map.nodes[54706018] = Rare({
@@ -177,7 +184,8 @@ map.nodes[44993855] = Rare({
     rewards = {
         Achievement({id = 61507, criteria = 110180}),
         Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
-        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+        Mount({item = 257147, id = 2758}), -- Cobalt Dragonhawk
+        Pet({item = 265609, id = 4985}) -- Princess Bloodshed
     }
 }) -- Dame Bloodshed
 
@@ -189,7 +197,10 @@ smc.nodes[24346928] = Treasure({
     requires = ns.requirement.Item(263870), -- Rookery Cache Key
     quest = 93967, -- 94626 triggered after feeding Mischevious Chick with Tasty Meat from Farstrider Aerieminder(had to buy meat and fly away for bit to spawn to place it)
     location = L['on_flying_platform'],
-    rewards = {Achievement({id = 61960, criteria = 111471}), Pet({id = 5003})},
+    rewards = {
+        Achievement({id = 61960, criteria = 111471}),
+        Pet({item = 267838, id = 5003}) -- Sunwing Hatchling
+    },
     parent = map.id
 }) -- Rookery Cache
 
@@ -247,9 +258,7 @@ map.nodes[40436089] = Treasure({
 
 map.nodes[48737544] = Treasure({
     quest = 91358,
-    rewards = {
-        Achievement({id = 61960, criteria = 111479}), ns.reward.Pet({id = 4974})
-    }
+    rewards = {Achievement({id = 61960, criteria = 111479}), Pet({id = 4974})}
 }) -- Burbling Paint Pot
 
 smc.nodes[37805238] = Treasure({

@@ -14,6 +14,7 @@ local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Mount = ns.reward.Mount
 local Item = ns.reward.Item
 local Transmog = ns.reward.Transmog
 local Reputation = ns.reward.Reputation
