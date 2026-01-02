@@ -16,6 +16,8 @@ local Treasure = ns.node.Treasure
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Section = ns.reward.Section
+local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 local Reputation = ns.reward.Reputation
@@ -35,7 +37,7 @@ map.nodes[51164535] = Rare({
     quest = 91832, -- 94712/91832
     rewards = {
         Achievement({id = 61264, criteria = 109039}),
-        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Rhazul
@@ -45,7 +47,7 @@ map.nodes[68714070] = Rare({
     quest = 92137, -- 92137 94713
     rewards = {
         Achievement({id = 61264, criteria = 109040}),
-        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Chironex
@@ -55,7 +57,7 @@ map.nodes[69175986] = Rare({
     quest = 92142, -- 92142/94714
     rewards = {
         Achievement({id = 61264, criteria = 109041}),
-        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }, -- [Ha'kalawe's Flawless Wing] clock
     pois = {
@@ -72,7 +74,7 @@ map.nodes[72636928] = Rare({
     quest = 92148, -- 94715
     rewards = {
         Achievement({id = 61264, criteria = 109042}),
-        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Tallcap the Truthspreader
@@ -82,7 +84,7 @@ map.nodes[59934684] = Rare({
     quest = 92154, -- 92154
     rewards = {
         Achievement({id = 61264, criteria = 109043}),
-        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Queen Lashtongue
@@ -92,7 +94,7 @@ map.nodes[64574794] = Rare({
     quest = 92161, -- 94717
     rewards = {
         Achievement({id = 61264, criteria = 109044}),
-        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Chlorokyll
@@ -102,7 +104,7 @@ map.nodes[65553269] = Rare({
     quest = 92168, -- 92168
     rewards = {
         Achievement({id = 61264, criteria = 109045}),
-        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Stumpy
@@ -112,7 +114,7 @@ map.nodes[56383299] = Rare({
     quest = 92170, -- 92170
     rewards = {
         Achievement({id = 61264, criteria = 109046}),
-        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Serrasa
@@ -122,7 +124,7 @@ map.nodes[45933134] = Rare({
     quest = 92172, -- 92720
     rewards = {
         Achievement({id = 61264, criteria = 109047}),
-        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     },
     pois = {Path({45422935, 45762998, 46033063, 45933134, 45803201, 46143260})}
@@ -133,7 +135,7 @@ map.nodes[40654299] = Rare({
     quest = 92176, -- 92176
     rewards = {
         Achievement({id = 61264, criteria = 109048}),
-        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Dracaena
@@ -143,7 +145,7 @@ map.nodes[36597516] = Rare({
     quest = 92183, -- 94722/92183
     rewards = {
         Achievement({id = 61264, criteria = 109049}),
-        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Treetop
@@ -153,7 +155,7 @@ map.nodes[28118181] = Rare({ -- review
     quest = 92190, -- 94723
     rewards = {
         Achievement({id = 61264, criteria = 109050}),
-        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Oro'ohna
@@ -163,7 +165,7 @@ map.nodes[27277032] = Rare({
     quest = 92191, -- 94724, -- 92191
     rewards = {
         Achievement({id = 61264, criteria = 109051}),
-        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Pterrock
@@ -173,7 +175,7 @@ map.nodes[39696070] = Rare({
     quest = 92193, -- 92193/94725
     rewards = {
         Achievement({id = 61264, criteria = 109052}),
-        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Ahl'ua'huhi
@@ -183,7 +185,7 @@ map.nodes[44201658] = Rare({
     quest = 92194, -- 92194
     rewards = {
         Achievement({id = 61264, criteria = 109053}),
-        Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Annulus the Worldshaker
@@ -416,12 +418,12 @@ map.nodes[32066708] = Moth({quest = 92213, renown = 1})
 map.nodes[52935065] = Moth({quest = 92214, renown = 1})
 map.nodes[71385863] = Moth({quest = 92215, renown = 1})
 map.nodes[63744145] = Moth({quest = 92216, renown = 4})
-map.nodes[61283517] = Moth({quest = 92217, renown = 4}) -- in a cave
+map.nodes[61283517] = Moth({quest = 92217, renown = 4, location = L['in_cave']})
 map.nodes[55796664] = Moth({quest = 92218, renown = 4})
 map.nodes[55616429] = Moth({quest = 92219, renown = 4})
-map.nodes[74005723] = Moth({quest = 92220, renown = 4}) -- in a cave
+map.nodes[74005723] = Moth({quest = 92220, renown = 4, location = L['in_cave']})
 map.nodes[71715882] = Moth({quest = 92221, renown = 4})
-map.nodes[60341777] = Moth({quest = 92222, renown = 4}) -- in a cave
+map.nodes[60341777] = Moth({quest = 92222, renown = 4, location = L['in_cave']})
 map.nodes[44023812] = Moth({quest = 92223, renown = 4})
 map.nodes[43063945] = Moth({quest = 92224, renown = 4})
 map.nodes[46382488] = Moth({quest = 92225, renown = 1})
@@ -436,14 +438,14 @@ map.nodes[68693633] = Moth({quest = 92233, renown = 1})
 map.nodes[50266966] = Moth({quest = 92234, renown = 1})
 map.nodes[49267552] = Moth({quest = 92235, renown = 1})
 map.nodes[44783569] = Moth({quest = 92236, renown = 4})
-map.nodes[51382032] = Moth({quest = 92237, renown = 4}) -- in a cave
+map.nodes[51382032] = Moth({quest = 92237, renown = 4, location = L['in_cave']})
 map.nodes[58673020] = Moth({quest = 92238, renown = 4})
 map.nodes[73716830] = Moth({quest = 92239, renown = 4})
 map.nodes[73716173] = Moth({quest = 92240, renown = 4})
 map.nodes[41953772] = Moth({quest = 92241, renown = 4})
 map.nodes[43264035] = Moth({quest = 92242, renown = 4})
 map.nodes[46864847] = Moth({quest = 92243, renown = 4})
-map.nodes[61423712] = Moth({quest = 92244, renown = 4}) -- in a cave
+map.nodes[61423712] = Moth({quest = 92244, renown = 4, location = L['in_cave']})
 map.nodes[62434085] = Moth({quest = 92245, renown = 4})
 map.nodes[41346613] = Moth({quest = 92246, renown = 4})
 map.nodes[35897426] = Moth({quest = 92247, renown = 4})
@@ -452,18 +454,22 @@ map.nodes[36098144] = Moth({quest = 92249, renown = 4})
 map.nodes[51887662] = Moth({quest = 92250, renown = 4})
 map.nodes[48275058] = Moth({quest = 92251, renown = 4})
 map.nodes[61245046] = Moth({quest = 92252, renown = 4})
-map.nodes[60724540] = Moth({quest = 92253, renown = 4}) -- in a cave in waterfall
+map.nodes[60724540] = Moth({
+    quest = 92253,
+    renown = 4,
+    location = L['in_waterfall_cave']
+})
 map.nodes[62494432] = Moth({quest = 92254, renown = 4})
 map.nodes[54493885] = Moth({quest = 92255, renown = 4})
 map.nodes[36974830] = Moth({quest = 92256, renown = 4})
-map.nodes[67971999] = Moth({quest = 92257, renown = 4}) -- in a cave
+map.nodes[67971999] = Moth({quest = 92257, renown = 4, location = L['in_cave']})
 map.nodes[54495206] = Moth({quest = 92258, renown = 4})
 map.nodes[42192226] = Moth({quest = 92259, renown = 4})
 map.nodes[72873719] = Moth({quest = 92260, renown = 4})
 map.nodes[65894471] = Moth({quest = 92261, renown = 4})
 map.nodes[63994863] = Moth({quest = 92262, renown = 4})
 map.nodes[62495867] = Moth({quest = 92263, renown = 4})
-map.nodes[65305774] = Moth({quest = 92264, renown = 4}) -- in a cave
+map.nodes[65305774] = Moth({quest = 92264, renown = 4, location = L['in_cave']})
 map.nodes[41346807] = Moth({quest = 92265, renown = 4})
 map.nodes[39095510] = Moth({quest = 92266, renown = 4})
 map.nodes[00000000] = Moth({quest = 92267, renown = 9})
@@ -508,7 +514,7 @@ map.nodes[67736886] = Moth({quest = 92306, renown = 1})
 map.nodes[48545535] = Moth({quest = 92307, renown = 1})
 map.nodes[00000000] = Moth({quest = 92308, renown = 9})
 map.nodes[00000000] = Moth({quest = 92309, renown = 9})
-map.nodes[74095339] = Moth({quest = 92310, renown = 9}) -- g3
+map.nodes[74095339] = Moth({quest = 92310, renown = 9})
 map.nodes[00000000] = Moth({quest = 92311, renown = 9})
 map.nodes[00000000] = Moth({quest = 92312, renown = 9})
 map.nodes[00000000] = Moth({quest = 92313, renown = 9})

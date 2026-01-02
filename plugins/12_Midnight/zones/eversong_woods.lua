@@ -18,6 +18,8 @@ local Mount = ns.reward.Mount
 -- local Item = ns.reward.Item
 local Pet = ns.reward.Pet
 local Reputation = ns.reward.Reputation
+local Section = ns.reward.Section
+local Spacer = ns.reward.Spacer
 local Transmog = ns.reward.Transmog
 
 local Path = ns.poi.Path
@@ -37,9 +39,10 @@ map.nodes[51927380] = Rare({
     quest = 91280, -- 94681 ?
     rewards = {
         Achievement({id = 61507, criteria = 110166}),
-        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
-        Mount({item = 257147, id = 2758}), -- Cobalt Dragonhawk
-        Transmog({item = 264520, type = L['staff']}) -- Warden's Leycrook
+        Transmog({item = 264520, type = L['staff']}), -- Warden's Leycrook
+        Spacer(), Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+
     },
     pois = {
         Path({51397508, 51527435, 51927380, 52587399, 52807469, 52587536}) -- Got killed before he stopped at the end.
@@ -51,7 +54,7 @@ map.nodes[45057825] = Rare({
     quest = 91315, -- 91315/94682
     rewards = {
         Achievement({id = 61507, criteria = 110167}),
-        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
         Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
     }
 }) -- Harried Hawkstrider
@@ -61,9 +64,10 @@ map.nodes[54706018] = Rare({
     quest = 92392, -- 94684
     rewards = {
         Achievement({id = 61507, criteria = 110168}),
-        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
-        Mount({item = 257147, id = 2758}), -- Cobalt Dragonhawk
-        Transmog({item = 264523, type = L['1h_sword']})
+        Transmog({item = 264523, type = L['1h_sword']}), Spacer(),
+        Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+
     }
 }) -- Overfester Hydra
 
@@ -72,7 +76,7 @@ map.nodes[36566408] = Rare({
     quest = 92366, -- 92366/94685 ?
     rewards = {
         Achievement({id = 61507, criteria = 110169}),
-        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
         Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
     }
 }) -- Bloated Snapdragon
@@ -82,7 +86,7 @@ map.nodes[62744907] = Rare({ -- review
     quest = 92391, -- 94686
     rewards = {
         Achievement({id = 61507, criteria = 110170}),
-        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
         Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
     }
 }) -- Cre'van
@@ -92,7 +96,7 @@ map.nodes[36383637] = Rare({
     quest = 92389, -- 92389 ?
     rewards = {
         Achievement({id = 61507, criteria = 110171}),
-        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
         Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
     }
 }) -- Coralfang
@@ -102,7 +106,7 @@ map.nodes[36657718] = Rare({
     quest = 92393, -- 94688
     rewards = {
         Achievement({id = 61507, criteria = 110172}),
-        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
         Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
     }
 }) -- Lady Liminus
@@ -112,7 +116,7 @@ map.nodes[40198539] = Rare({
     quest = 92409, -- 94689
     rewards = {
         Achievement({id = 61507, criteria = 110173}),
-        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
         Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
     }
 }) -- Terrinor
@@ -122,9 +126,10 @@ map.nodes[49058775] = Rare({
     quest = 92404, -- 94690
     rewards = {
         Achievement({id = 61507, criteria = 110174}),
-        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
-        Mount({item = 257147, id = 2758}), -- Cobalt Dragonhawk
-        Transmog({item = 264536, type = L['cloth']}) -- Zedling Summoning Collar
+        Transmog({item = 264536, type = L['cloth']}), -- Zedling Summoning Collar
+        Spacer(), Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+
     }
 }) -- Bad Zed
 
@@ -133,7 +138,7 @@ map.nodes[34812098] = Rare({
     quest = 92395, -- 94691/92395 ?
     rewards = {
         Achievement({id = 61507, criteria = 110175}),
-        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
         Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
     }
 }) -- Waverly
@@ -143,7 +148,7 @@ map.nodes[56427760] = Rare({
     quest = 92403, -- 92403/94692
     rewards = {
         Achievement({id = 61507, criteria = 110176}),
-        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
         Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
     }
 }) -- Banuran
@@ -153,7 +158,7 @@ map.nodes[59207920] = Rare({ -- wowhead beta data
     quest = 92399, -- 92399 ?
     rewards = {
         Achievement({id = 61507, criteria = 110177}),
-        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
         Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
     }
 }) -- Lost Guardian
@@ -163,7 +168,7 @@ map.nodes[42316891] = Rare({
     quest = 93550, -- 94694
     rewards = {
         Achievement({id = 61507, criteria = 110178}),
-        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
         Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
     }
 }) -- Duskburn
@@ -173,7 +178,7 @@ map.nodes[51684599] = Rare({
     quest = 93555, -- 93555/94695 ?
     rewards = {
         Achievement({id = 61507, criteria = 110179}),
-        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
         Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
     }
 }) -- Malfunctioning Construct
@@ -183,9 +188,10 @@ map.nodes[44993855] = Rare({
     quest = 93561, -- 93561/94696 ?
     rewards = {
         Achievement({id = 61507, criteria = 110180}),
-        Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
-        Mount({item = 257147, id = 2758}), -- Cobalt Dragonhawk
-        Pet({item = 265609, id = 4985}) -- Princess Bloodshed
+        Pet({item = 265609, id = 4985}), -- Princess Bloodshed
+        Spacer(), Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+
     }
 }) -- Dame Bloodshed
 

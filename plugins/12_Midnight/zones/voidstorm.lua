@@ -19,6 +19,8 @@ local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Reputation = ns.reward.Reputation
+local Section = ns.reward.Section
+local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -42,7 +44,7 @@ map.nodes[29515008] = Rare({
     quest = 94728, -- 90805
     rewards = {
         Achievement({id = 62130, criteria = 111877}),
-        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
 }) -- Sundereth the Caller
@@ -52,9 +54,10 @@ map.nodes[34058198] = Rare({
     quest = 94729, -- 91050
     rewards = {
         Achievement({id = 62130, criteria = 111878}),
-        Mount({item = 257085, id = 2751}), -- Augmented Stormray
-        Mount({item = 260635, id = 2827}), -- Sanguine Harrower
-        Transmog({item = 264564, type = L['mail']}) -- Voidscale Shoulderpads
+        Transmog({item = 264564, type = L['mail']}), -- Voidscale Shoulderpads
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+
     }
 }) -- Territorial Voidscythe
 
@@ -64,7 +67,7 @@ map.nodes[36168355] = Rare({
     quest = 94730, -- 91048
     rewards = {
         Achievement({id = 62130, criteria = 111879}),
-        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     },
     pois = {POI({35698120})}
@@ -75,7 +78,7 @@ map.nodes[43665154] = Rare({
     quest = 94731, -- 93966
     rewards = {
         Achievement({id = 62130, criteria = 111880}),
-        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
 }) -- Screammaxa the Matriarch
@@ -86,7 +89,7 @@ map.nodes[47058063] = Rare({
     quest = 94732, -- 93946
     rewards = {
         Achievement({id = 62130, criteria = 111881}),
-        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
 }) -- Bane of the Vilebloods
@@ -97,7 +100,7 @@ map.nodes[39236392] = Rare({
     quest = 34751, -- 93944
     rewards = {
         Achievement({id = 62130, criteria = 111882}),
-        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
 }) -- Aeonelle Blackstar
@@ -107,7 +110,7 @@ map.nodes[37897177] = Rare({
     quest = 94758, -- 93947
     rewards = {
         Achievement({id = 62130, criteria = 111883}),
-        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
 }) -- Lotus Darkblossom
@@ -117,9 +120,10 @@ map.nodes[55727945] = Rare({
     quest = 94761, -- 93934
     rewards = {
         Achievement({id = 62130, criteria = 111884}),
-        Mount({item = 257085, id = 2751}), -- Augmented Stormray
-        Mount({item = 260635, id = 2827}), -- Sanguine Harrower
-        Transmog({item = 267136, type = L['cloth']}) -- Queen's Tentacle Sash
+        Transmog({item = 267136, type = L['cloth']}), -- Queen's Tentacle Sash
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+
     }
 }) -- Queen o' War -- Crown of the Lost Queen
 
@@ -128,17 +132,17 @@ map.nodes[48815326] = Rare({
     quest = 93895, -- 93895
     rewards = {
         Achievement({id = 62130, criteria = 111885}),
-        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
 }) -- Ravengerus
 
 slr.nodes[46334094] = Rare({
     id = 257027,
-    quest = 93953, --94762, -- 93953
+    quest = 93953, -- 94762, -- 93953
     rewards = {
         Achievement({id = 62130, criteria = 111886}),
-        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     },
     parent = map.id
@@ -150,7 +154,7 @@ map.nodes[35495023] = Rare({
     quest = 94752, -- 93884
     rewards = {
         Achievement({id = 62130, criteria = 111887}),
-        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     },
     pois = {POI({35604940})}
@@ -161,7 +165,7 @@ slr.nodes[39049231] = Rare({ -- wowhead beta coords
     quest = 94754, -- 91047
     rewards = {
         Achievement({id = 62130, criteria = 111888}),
-        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     },
     pois = {
@@ -178,7 +182,7 @@ map.nodes[40174130] = Rare({
     quest = 91051, -- 91051
     rewards = {
         Achievement({id = 62130, criteria = 111889}),
-        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     },
     parent = slr.id
@@ -189,7 +193,7 @@ map.nodes[53946272] = Rare({
     quest = 93896, -- 93896
     rewards = {
         Achievement({id = 62130, criteria = 111890}),
-        Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
 }) -- Far'thana the Mad
@@ -418,8 +422,11 @@ slr.nodes[41964062] = PT.Alchemy({quest = 89112, id = 238533, parent = map.id}) 
 map.nodes[30516899] = PT.Blacksmithing({quest = 89181, id = 238544}) -- Voidstorm Defense Spear
 map.nodes[35495882] = PT.Enchanting({quest = 89102, id = 238550}) -- Pure Void Crystal
 map.nodes[55486428] = PT.Herbalism({quest = 89156, id = 238474}) -- Peculiar Lotus
-slr.nodes[54814150] =
-    PT.Inscription({quest = 89067, id = 238572, parent = map.id}) -- Void-Touched Quill (Cant loot phasing issue)
+slr.nodes[54814150] = PT.Inscription({
+    quest = 89067,
+    id = 238572,
+    parent = map.id
+}) -- Void-Touched Quill (Cant loot phasing issue)
 map.nodes[30496904] = PT.Jewelcrafting({quest = 89123, id = 238581}) -- Speculative Voidstorm Crystal
 map.nodes[34725692] = PT.Leatherworking({quest = 89090, id = 238589}) -- Ethereal Leatherworking Knife
 map.nodes[41843821] = PT.Mining({quest = 89150, id = 238602}) -- Star Metal Deposit
