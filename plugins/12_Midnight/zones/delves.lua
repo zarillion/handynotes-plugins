@@ -96,9 +96,9 @@ she.nodes[54634885] = SturdyChest({
     rlabel = ns.status.Gray('#2')
 })
 
-she.nodes[10002000] = SturdyChest({
+she.nodes[55903437] = SturdyChest({
     achievementID = 61892,
-    quest = nil,
+    quest = 94028,
     rlabel = ns.status.Gray('#3')
 })
 
