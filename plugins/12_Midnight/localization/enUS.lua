@@ -11,7 +11,6 @@ L['options_icons_skyriding_glyph'] = 'Skyriding Glyphs'
 L['options_icons_skyriding_glyph_desc'] = 'Display the location of all skyriding glyphs.'
 
 L['midnight_telescope'] = 'Telescope' -- is ingame called "Vista Flag" on beta
-L['telescopes_placed'] = 'Telescopes Placed'
 L['options_icons_telescope'] = '{achievement:62057}'
 L['options_icons_telescope_desc'] = 'Display the location of all 10 telescopes for the {achievement:62057} achievement.'
 

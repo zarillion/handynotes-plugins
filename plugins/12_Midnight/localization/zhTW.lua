@@ -11,7 +11,6 @@ L['options_icons_skyriding_glyph'] = '天空騎術雕紋'
 L['options_icons_skyriding_glyph_desc'] = '顯示所有天空騎術雕紋的位置.'
 
 L['midnight_telescope'] = nil
-L['telescopes_placed'] = nil
 L['options_icons_telescope'] = '{achievement:62057}'
 L['options_icons_telescope_desc'] = nil
 

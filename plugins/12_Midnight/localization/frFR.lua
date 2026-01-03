@@ -12,7 +12,6 @@ L['options_icons_skyriding_glyph'] = 'Glyphes de vol dynamique'
 L['options_icons_skyriding_glyph_desc'] = 'Afficher les emplacements des glyphes de vol dynamique.'
 
 L['midnight_telescope'] = 'Télescope'
-L['telescopes_placed'] = 'Télescopes placés'
 L['options_icons_telescope'] = '{achievement:62057}'
 L['options_icons_telescope_desc'] = 'Afficher les emplacements des 10 télescopes pour le haut-fait {achievement:62057}.'
 

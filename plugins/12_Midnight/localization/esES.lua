@@ -11,7 +11,6 @@ L['options_icons_skyriding_glyph'] = 'Glifos de Surcacielos'
 L['options_icons_skyriding_glyph_desc'] = 'Muestra dónde están los glifos de surcacielos.'
 
 L['midnight_telescope'] = 'Telescopio'
-L['telescopes_placed'] = 'Telescopios puestos'
 L['options_icons_telescope'] = '{achievement:62057}'
 L['options_icons_telescope_desc'] = 'Muestra dónde están los 10 telescopios para el logro {achievement:62057}.'
 

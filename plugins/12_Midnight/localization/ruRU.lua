@@ -11,7 +11,6 @@ L['options_icons_skyriding_glyph'] = 'Символы высшего пилота
 L['options_icons_skyriding_glyph_desc'] = 'Отображение местоположения всех символов высшего пилотажа.'
 
 L['midnight_telescope'] = 'Телескоп' -- is ingame called "Vista Flag" on beta
-L['telescopes_placed'] = 'Установлены телескопы'
 L['options_icons_telescope'] = '{achievement:62057}'
 L['options_icons_telescope_desc'] = 'Отобразить расположение всех 10 телескопов для достижения {achievement:62057}.'
 

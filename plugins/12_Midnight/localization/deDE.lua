@@ -12,7 +12,6 @@ L['options_icons_skyriding_glyph'] = 'Glyphen des Himmelsreitens'
 L['options_icons_skyriding_glyph_desc'] = 'Zeigt die Positionen aller Glyphen des Himmelsreitens an.'
 
 L['midnight_telescope'] = 'Teleskop' -- is ingame called "Vista Flag" on beta
-L['telescopes_placed'] = 'Teleskope platziert'
 L['options_icons_telescope'] = '{achievement:62057}'
 L['options_icons_telescope_desc'] = 'Zeigt die Positionen aller 10 Teleskope für den {achievement:62057} Erfolg an.'
 
