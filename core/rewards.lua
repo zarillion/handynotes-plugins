@@ -831,6 +831,5 @@ ns.reward = {
     Toy = Toy,
     Appearance = Appearance,
     Transmog = Transmog,
-    Reputation = Reputation,
-    Decor = Decor
+    Reputation = Reputation
 }
