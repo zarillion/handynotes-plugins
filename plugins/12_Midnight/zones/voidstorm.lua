@@ -408,11 +408,36 @@ map.nodes[28156593] = LoreObject({
 ------------------------- MIDNIGHT: THE HIGHEST PEAKS -------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[39686116] = Telescope({quest = 94551, achievement = 62291, criteria = 111588, repfaction = 2699})
-map.nodes[36504430] = Telescope({quest = 94552, achievement = 62291, criteria = 111589, repfaction = 2699})
-map.nodes[55466717] = Telescope({quest = 94553, achievement = 62291, criteria = 111590, repfaction = 2699})
-map.nodes[41767022] = Telescope({quest = 94554, achievement = 62291, criteria = 111591, repfaction = 2699})
-map.nodes[37815497] = Telescope({quest = 94555, achievement = 62291, criteria = 111592, repfaction = 2699})
+map.nodes[39686116] = Telescope({
+    quest = 94551,
+    achievement = 62291,
+    criteria = 111588,
+    repfaction = 2699
+})
+map.nodes[36504430] = Telescope({
+    quest = 94552,
+    achievement = 62291,
+    criteria = 111589,
+    repfaction = 2699
+})
+map.nodes[55466717] = Telescope({
+    quest = 94553,
+    achievement = 62291,
+    criteria = 111590,
+    repfaction = 2699
+})
+map.nodes[41767022] = Telescope({
+    quest = 94554,
+    achievement = 62291,
+    criteria = 111591,
+    repfaction = 2699
+})
+map.nodes[37815497] = Telescope({
+    quest = 94555,
+    achievement = 62291,
+    criteria = 111592,
+    repfaction = 2699
+})
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------

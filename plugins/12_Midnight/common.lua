@@ -85,10 +85,7 @@ local Telescope = Class('Telescope', Collectible, {
     getters = {
         rewards = function(self)
             return {
-                Achievement({
-                    id = self.achievement,
-                    criteria = self.criteria
-                }),
+                Achievement({id = self.achievement, criteria = self.criteria}),
                 Reputation({id = self.repfaction, gain = 100})
             }
         end

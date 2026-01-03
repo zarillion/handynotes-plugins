@@ -421,11 +421,36 @@ map.nodes[52923212] = LoreObject({
 
 ------------------------- MIDNIGHT: THE HIGHEST PEAKS -------------------------
 
-map.nodes[27797001] = Telescope({quest = 94541, achievement = 62289, criteria = 111578, repfaction = 2696})
-map.nodes[53018202] = Telescope({quest = 94542, achievement = 62289, criteria = 111579, repfaction = 2696})
-map.nodes[57692123] = Telescope({quest = 94543, achievement = 62289, criteria = 111580, repfaction = 2696})
-map.nodes[24635830] = Telescope({quest = 94544, achievement = 62289, criteria = 111581, repfaction = 2696})
-map.nodes[41854163] = Telescope({quest = 94545, achievement = 62289, criteria = 111582, repfaction = 2696})
+map.nodes[27797001] = Telescope({
+    quest = 94541,
+    achievement = 62289,
+    criteria = 111578,
+    repfaction = 2696
+})
+map.nodes[53018202] = Telescope({
+    quest = 94542,
+    achievement = 62289,
+    criteria = 111579,
+    repfaction = 2696
+})
+map.nodes[57692123] = Telescope({
+    quest = 94543,
+    achievement = 62289,
+    criteria = 111580,
+    repfaction = 2696
+})
+map.nodes[24635830] = Telescope({
+    quest = 94544,
+    achievement = 62289,
+    criteria = 111581,
+    repfaction = 2696
+})
+map.nodes[41854163] = Telescope({
+    quest = 94545,
+    achievement = 62289,
+    criteria = 111582,
+    repfaction = 2696
+})
 
 ------------------------- THE FROG AND THE PRINCESS ----------------------------
 

@@ -425,11 +425,37 @@ map.nodes[43204636] = SkyridingGlyph({
 ------------------------- MIDNIGHT: THE HIGHEST PEAKS -------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[40411010] = Telescope({quest = 94537, achievement = 62288, criteria = 111574, repfaction = 2710})
-map.nodes[50198543] = Telescope({quest = 94540, achievement = 62288, criteria = 111577, repfaction = 2710})
-smc.nodes[20227961] = Telescope({quest = 94536, parent = map.id, achievement = 62288, criteria = 111573, repfaction = 2710})
-map.nodes[54585101] = Telescope({quest = 94539, achievement = 62288, criteria = 111576, repfaction = 2710})
-map.nodes[37414789] = Telescope({quest = 94538, achievement = 62288, criteria = 111575, repfaction = 2710})
+map.nodes[40411010] = Telescope({
+    quest = 94537,
+    achievement = 62288,
+    criteria = 111574,
+    repfaction = 2710
+})
+map.nodes[50198543] = Telescope({
+    quest = 94540,
+    achievement = 62288,
+    criteria = 111577,
+    repfaction = 2710
+})
+smc.nodes[20227961] = Telescope({
+    quest = 94536,
+    parent = map.id,
+    achievement = 62288,
+    criteria = 111573,
+    repfaction = 2710
+})
+map.nodes[54585101] = Telescope({
+    quest = 94539,
+    achievement = 62288,
+    criteria = 111576,
+    repfaction = 2710
+})
+map.nodes[37414789] = Telescope({
+    quest = 94538,
+    achievement = 62288,
+    criteria = 111575,
+    repfaction = 2710
+})
 ---------------------------- MIDNIGHT LORE HUNTER -----------------------------
 
 -- note: from all zones in Midnight. move node to the zone when you find it there.

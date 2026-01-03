@@ -328,11 +328,36 @@ map.nodes[61866750] = SkyridingGlyph({
 ------------------------- MIDNIGHT: THE HIGHEST PEAKS -------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[49407592] = Telescope({quest = 94548, achievement = 62290, criteria = 111585, repfaction = 2704})
-map.nodes[53495855] = Telescope({quest = 94550, achievement = 62290, criteria = 111587, repfaction = 2704})
-map.nodes[69174638] = Telescope({quest = 94546, achievement = 62290, criteria = 111583, repfaction = 2704})
-map.nodes[69406339] = Telescope({quest = 94549, achievement = 62290, criteria = 111586, repfaction = 2704})
-map.nodes[68162597] = Telescope({quest = 94547, achievement = 62290, criteria = 111584, repfaction = 2704})
+map.nodes[49407592] = Telescope({
+    quest = 94548,
+    achievement = 62290,
+    criteria = 111585,
+    repfaction = 2704
+})
+map.nodes[53495855] = Telescope({
+    quest = 94550,
+    achievement = 62290,
+    criteria = 111587,
+    repfaction = 2704
+})
+map.nodes[69174638] = Telescope({
+    quest = 94546,
+    achievement = 62290,
+    criteria = 111583,
+    repfaction = 2704
+})
+map.nodes[69406339] = Telescope({
+    quest = 94549,
+    achievement = 62290,
+    criteria = 111586,
+    repfaction = 2704
+})
+map.nodes[68162597] = Telescope({
+    quest = 94547,
+    achievement = 62290,
+    criteria = 111584,
+    repfaction = 2704
+})
 ---------------------------- MIDNIGHT LORE HUNTER -----------------------------
 
 map.nodes[33336084] = LoreObject({
