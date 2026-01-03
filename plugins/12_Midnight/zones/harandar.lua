@@ -27,6 +27,7 @@ local Path = ns.poi.Path
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2413, settings = true}) -- or 2480
+local den = Map({id = 2576, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -327,14 +328,11 @@ map.nodes[61866750] = SkyridingGlyph({
 ------------------------- MIDNIGHT: THE HIGHEST PEAKS -------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[49407592] = Telescope({quest = 94548})
-map.nodes[53495855] = Telescope({quest = 94550})
--- removed map.nodes[69602132] = Telescope({quest = 94547})---
-map.nodes[70524356] = Telescope({quest = 94546})
-map.nodes[69406339] = Telescope({quest = 94549}) -- removed?
-map.nodes[68162597] = Telescope({quest = 94547}) -- 95270 also triggered
-map.nodes[69174638] = Telescope({quest = 94546}) -- 94551, 94553
-
+map.nodes[49407592] = Telescope({quest = 94548, achievement = 62290, criteria = 111585, repfaction = 2704})
+map.nodes[53495855] = Telescope({quest = 94550, achievement = 62290, criteria = 111587, repfaction = 2704})
+map.nodes[69174638] = Telescope({quest = 94546, achievement = 62290, criteria = 111583, repfaction = 2704})
+map.nodes[69406339] = Telescope({quest = 94549, achievement = 62290, criteria = 111586, repfaction = 2704})
+map.nodes[68162597] = Telescope({quest = 94547, achievement = 62290, criteria = 111584, repfaction = 2704})
 ---------------------------- MIDNIGHT LORE HUNTER -----------------------------
 
 map.nodes[33336084] = LoreObject({
@@ -482,7 +480,7 @@ map.nodes[45015808] = Moth({quest = 92273, renown = 9})
 map.nodes[54007303] = Moth({quest = 92274, renown = 9})
 map.nodes[50108017] = Moth({quest = 92275, renown = 9, location = L['in_cave']})
 map.nodes[46107184] = Moth({quest = 92276, renown = 9})
-map.nodes[53015598] = Moth({quest = 92277, renown = 9}) -- rootlands den? 2576
+den.nodes[61757488] = Moth({quest = 92277, renown = 9, parent = map.id})
 map.nodes[43182734] = Moth({quest = 92278, renown = 9})
 map.nodes[66503310] = Moth({quest = 92279, renown = 9})
 map.nodes[72043314] = Moth({quest = 92280, renown = 9})

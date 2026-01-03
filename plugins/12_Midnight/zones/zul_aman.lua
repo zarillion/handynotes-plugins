@@ -35,7 +35,7 @@ local aam = Map({id = 2536, settings = true}) -- Atal'Aman
 
 map.nodes[34413305] = Rare({
     id = 242023,
-    quest = 94683, -- 89569
+    quest = 89569, -- 94683
     rewards = {
         Achievement({id = 62122, criteria = 111839}),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
@@ -55,7 +55,7 @@ map.nodes[51801862] = Rare({
 
 map.nodes[51857291] = Rare({
     id = 242025,
-    quest = 89571, -- 94698, -- 89571
+    quest = 89571, -- 94698
     rewards = {
         Achievement({id = 62122, criteria = 111841}),
         Transmog({item = 256231, type = L['2h_sword']}), Spacer(),
@@ -67,7 +67,7 @@ map.nodes[51857291] = Rare({
 
 map.nodes[28952444] = Rare({
     id = 242028,
-    quest = 89575, -- 89575
+    quest = 89575, -- 89575/81425/94699?
     rewards = {
         Achievement({id = 62122, criteria = 111842}),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
@@ -77,7 +77,7 @@ map.nodes[28952444] = Rare({
 
 map.nodes[50876514] = Rare({
     id = 245975,
-    quest = 91174, -- 94700, -- 91174
+    quest = 91174, -- 94700
     rewards = {
         Achievement({id = 62122, criteria = 111843}),
         Transmog({item = 264580, type = L['plate']}), Spacer(),
@@ -112,7 +112,7 @@ map.nodes[30484456] = Rare({
 
 map.nodes[46295113] = Rare({
     id = 242032,
-    quest = 89579, -- 94703, -- 89579
+    quest = 89579, -- 94703
     rewards = {
         Achievement({id = 62122, criteria = 111846}),
         Transmog({item = 264541, type = L['leather']}), -- Egg-Swaddling Sash
@@ -136,7 +136,7 @@ map.nodes[47773422] = Rare({
 
 map.nodes[21307055] = Rare({
     id = 242034,
-    quest = 94705, -- 89581
+    quest = 89581, -- 94705
     rewards = {
         Achievement({id = 62122, criteria = 111848}),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
@@ -177,7 +177,7 @@ map.nodes[47682056] = Rare({
 
 map.nodes[46394339] = Rare({
     id = 245691,
-    quest = 91072, -- 91072
+    quest = 91072, -- 94709
     rewards = {
         Achievement({id = 62122, criteria = 111852}),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
@@ -187,7 +187,7 @@ map.nodes[46394339] = Rare({
 
 map.nodes[45294170] = Rare({
     id = 245692,
-    quest = 91073, -- 91073
+    quest = 91073, -- 94710
     rewards = {
         Achievement({id = 62122, criteria = 111853}),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
@@ -421,12 +421,11 @@ map.nodes[52923212] = LoreObject({
 
 ------------------------- MIDNIGHT: THE HIGHEST PEAKS -------------------------
 
-map.nodes[18477047] = Telescope({quest = 94541})
-map.nodes[53018202] = Telescope({quest = 94542})
-map.nodes[57692123] = Telescope({quest = 94543})
-aam.nodes[07344751] = Telescope({quest = 94544, parent = map.id})
-map.nodes[41854163] = Telescope({quest = 94545})
-map.nodes[27797002] = Telescope({quest = 94553})
+map.nodes[27797001] = Telescope({quest = 94541, achievement = 62289, criteria = 111578, repfaction = 2696})
+map.nodes[53018202] = Telescope({quest = 94542, achievement = 62289, criteria = 111579, repfaction = 2696})
+map.nodes[57692123] = Telescope({quest = 94543, achievement = 62289, criteria = 111580, repfaction = 2696})
+map.nodes[24635830] = Telescope({quest = 94544, achievement = 62289, criteria = 111581, repfaction = 2696})
+map.nodes[41854163] = Telescope({quest = 94545, achievement = 62289, criteria = 111582, repfaction = 2696})
 
 ------------------------- THE FROG AND THE PRINCESS ----------------------------
 

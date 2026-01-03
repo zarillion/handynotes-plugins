@@ -10,6 +10,7 @@ local Group = ns.Group
 local Collectible = ns.node.Collectible
 
 local Achievement = ns.reward.Achievement
+local Reputation = ns.reward.Reputation
 
 -------------------------------------------------------------------------------
 
@@ -81,11 +82,16 @@ local Telescope = Class('Telescope', Collectible, {
     icon = 1723999,
     label = L['midnight_telescope'], -- Midnight Highest Peak Telescope
     group = ns.groups.TELESCOPE,
-    rewards = {
-        Achievement({
-            id = 62057,
-            criteria = {id = 1, qty = true, suffix = L['telescopes_placed']}
-        })
+    getters = {
+        rewards = function(self)
+            return {
+                Achievement({
+                    id = self.achievement,
+                    criteria = self.criteria
+                }),
+                Reputation({id = self.repfaction, gain = 100})
+            }
+        end
     },
     IsCompleted = function(self)
         return C_QuestLog.IsQuestFlaggedCompleted(self.quest[1])
