@@ -17,8 +17,6 @@ local Achievement = ns.reward.Achievement
 
 -------------------------------------------------------------------------------
 
-local map = Map({id = 1, settings = true}) -- Placeholder
-
 local atn = Map({id = 2535, settings = false}) -- Atal'aman
 local she = Map({id = 2502, settings = false}) -- The Shadow Enclave
 local par = Map({id = 2545, settings = false}) -- Parhelion Plaza
@@ -68,15 +66,15 @@ atn.nodes[48345051] = SturdyChest({
     rlabel = ns.status.Gray('#1')
 })
 
-atn.nodes[10002000] = SturdyChest({
+atn.nodes[53065795] = SturdyChest({
     achievementID = 61863,
-    quest = nil,
+    quest = 94000,
     rlabel = ns.status.Gray('#2')
 })
 
-atn.nodes[10003000] = SturdyChest({
+atn.nodes[53006534] = SturdyChest({
     achievementID = 61863,
-    quest = nil,
+    quest = 94038,
     rlabel = ns.status.Gray('#3')
 })
 
@@ -156,15 +154,15 @@ tdw.nodes[53104305] = SturdyChest({
     rlabel = ns.status.Gray('#1')
 })
 
-tdw.nodes[10002000] = SturdyChest({
+tdw.nodes[45814550] = SturdyChest({
     achievementID = 61895,
-    quest = nil,
+    quest = 94045,
     rlabel = ns.status.Gray('#2')
 })
 
-tdw.nodes[10003000] = SturdyChest({
+tdw.nodes[41584824] = SturdyChest({
     achievementID = 61895,
-    quest = nil,
+    quest = 94027,
     rlabel = ns.status.Gray('#3')
 })
 
