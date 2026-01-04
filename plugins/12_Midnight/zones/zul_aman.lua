@@ -455,7 +455,7 @@ map.nodes[41854163] = Telescope({
 ------------------------- THE FROG AND THE PRINCESS ----------------------------
 
 local FrogPrincess = Class('FrogPrincess', ns.node.Collectible,
-    {icon = 2399262, scale = 1.5})
+    {icon = 2399262})
 
 function FrogPrincess:Initialize(criteria, location)
     ns.node.Collectible.Initialize(self)
@@ -492,7 +492,7 @@ map.nodes[33194347] = Songseeker({
     }
 }) -- Songseeker Jebanda
 
-map.nodes[10004000] = Songseeker({
+map.nodes[39175638] = Songseeker({
     rewards = {Achievement({id = 61455, criteria = 109752})}
 }) -- Songseeker Dova
 
@@ -500,3 +500,14 @@ map.nodes[55201810] = Songseeker({
     location = 'On top of the Temple.', -- TODO: add localization line
     rewards = {Achievement({id = 61455, criteria = 109753})}
 }) -- Songseeker Ikaja
+
+------------------------- SPIRITPAW MARATHON ----------------------------
+
+
+local SpiritpawMarathon = Class('SpiritpawMarathon', ns.node.Collectible, {icon = 4891426})
+
+map.nodes[32292240] = SpiritpawMarathon({
+    rewards = {
+        Achievement({id = 62202, criteria = 112042}) -- Spiritpaw Marathon,
+    }
+}) -- Speak with Feevra (Achievement seems buggy not displaying on map)
