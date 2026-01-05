@@ -1,3 +1,7 @@
+# v129
+
+* Fixed invalid coordinates in Maldraxxus and Revendreth
+
 # v128
 
 * Bump toc to 110207
