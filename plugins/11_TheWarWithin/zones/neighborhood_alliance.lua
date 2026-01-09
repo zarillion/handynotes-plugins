@@ -46,26 +46,40 @@ map.nodes[69202670] = _Riddle_({quest = 92962, item = 245355})
 map.nodes[63124673] = Riddle({quest = 92963, item = 245356})
 map.nodes[64875098] = Riddle({quest = 92964, item = 245376})
 map.nodes[59805240] = _Riddle_({quest = 92965, item = 235523})
-map.nodes[58306500] = _Riddle_({quest = 92967, item = 236678})
-map.nodes[52806680] = _Riddle_({quest = 92968, item = 236677})
+map.nodes[58356504] = Riddle({quest = 92967, item = 236678})
+map.nodes[52826684] = Riddle({quest = 92968, item = 236677})
 map.nodes[55307130] = _Riddle_({quest = 92969, item = 242951})
 map.nodes[39105990] = _Riddle_({quest = 92970, item = 246742})
 map.nodes[40806130] = _Riddle_({quest = 92971, item = 246104})
-map.nodes[45406440] = _Riddle_({quest = 92972, item = 246103})
+map.nodes[45416434] = Riddle({
+    quest = 92972,
+    item = 246103,
+    note = L['in_small_cave'],
+    pois = {Entrance({45766492})}
+})
 map.nodes[46325795] = Riddle({quest = 92973, item = 246101})
 map.nodes[55055073] = Riddle({quest = 92974, item = 246246})
 map.nodes[49905660] = _Riddle_({quest = 92975, item = 246245})
 map.nodes[47706190] = Riddle({quest = 92976, item = 246243})
-map.nodes[64508560] = Riddle({quest = 92977, item = 245548})
+map.nodes[64568560] = Riddle({quest = 92977, item = 245548})
 map.nodes[54207360] = _Riddle_({quest = 92978, item = 243334})
-map.nodes[61607940] = _Riddle_({quest = 92979, item = 245334})
+map.nodes[61617944] = Riddle({
+    quest = 92979,
+    item = 245334,
+    note = L['in_small_cave'],
+    pois = {Entrance({62407950})}
+})
 map.nodes[28504480] = _Riddle_({quest = 92980, item = 245556})
 map.nodes[29854833] = Riddle({quest = 92981, item = 245547})
 map.nodes[61908250] = Riddle({quest = 92982, item = 244531})
 map.nodes[42504470] = _Riddle_({quest = 92983, item = 245372})
 map.nodes[42605380] = _Riddle_({quest = 92984, item = 245336})
-map.nodes[37104590] = _Riddle_({quest = 92985, item = 246106})
-map.nodes[36605420] = _Riddle_({quest = 92986, item = 239075})
+map.nodes[37084593] = Riddle({
+    quest = 92985,
+    item = 246106,
+    note = L['in_water']
+})
+map.nodes[36615416] = Riddle({quest = 92986, item = 239075})
 map.nodes[36605780] = _Riddle_({quest = 92987, item = 235677})
 map.nodes[34606020] = _Riddle_({quest = 92988, item = 235675})
 map.nodes[33907280] = _Riddle_({quest = 92989, item = 253589})
@@ -85,7 +99,7 @@ map.nodes[57814204] = Riddle({quest = 93002, item = 253490})
 map.nodes[56652751] = Riddle({quest = 93003, item = 257690})
 map.nodes[55004000] = _Riddle_({quest = 93004, item = 244780})
 map.nodes[60305680] = _Riddle_({quest = 93005, item = 253441})
-map.nodes[53603970] = _Riddle_({quest = 93006, item = 253479})
+map.nodes[53653978] = Riddle({quest = 93006, item = 253479})
 map.nodes[57303920] = _Riddle_({quest = 93007, item = 253181})
 map.nodes[52002900] = _Riddle_({quest = 93008, item = 235994})
 map.nodes[53604195] = Riddle({quest = 93009, item = 246255})
