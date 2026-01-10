@@ -161,8 +161,8 @@ L['shadowflame_leatherworking_table_label'] = 'Стол кузни пламен�
 L['shadowflame_leatherworking_table_note'] = 'Требуется при изготовления этого рецепта:\n{spell:406275}'
 L['shadowflame_incantation_table_label'] = 'Стол кузни пламени тьмы (Наложение чар)'
 L['shadowflame_incantation_table_note'] = 'Требуется при изготовления этого рецепта:\n{spell:405076}'
-L['altar_of_decay_label'] = nil
-L['altar_of_decay_note'] = nil
+L['altar_of_decay_label'] = 'Алтарь гнили'
+L['altar_of_decay_note'] = 'Необходим при создании этих рецептов:\n{spell:110423}: \nDecayed Patterns\nDecay-Infused reagents\n\n{spell:264211}: \nToxic potions\nToxic phials\n{spell:405879}'
 L['azure_loom_label'] = 'Лазурный ткацкий станок'
 L['azure_loom_note'] = 'Требуется при изготовления этого рецепта:\n{spell:376556}'
 L['temporal_loom_label'] = 'Временной ткацкий станок'
@@ -197,9 +197,9 @@ L['goggle_wobble_note'] = '{emote:/танец} с {npc:207763} во время �
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = 'Показать {npc:207763} места для достижения {achievement:19791}.'
 
-L['just_one_more_thing_note'] = nil
-L['options_icons_just_one_more_thing'] = nil
-L['options_icons_just_one_more_thing_desc'] = nil
+L['just_one_more_thing_note'] = 'Необходимо выполнить любое локальное задание {wq:Исследовать: ...} три раза.'
+L['options_icons_just_one_more_thing'] = '{achievement:19792}'
+L['options_icons_just_one_more_thing_desc'] = 'Отобразить прогресс по каждому критерию достижения {achievement:19792}.'
 
 -------------------------------------------------------------------------------
 ------------------------------- THE AZURE SPAN --------------------------------
@@ -466,12 +466,12 @@ L['untranslated_tome'] = 'Непереведенная книга'
 L['untranslated_tome_note'] = 'В здании со входом под мостом.'
 L['mysterious_boot'] = 'Таинственный сапог'
 L['mysterious_boot_note'] = 'Верхний этаж.'
-L['decaying_fishing_bucket'] = nil
-L['decaying_fishing_bucket_note'] = nil
-L['forgotten_fishing_pole'] = nil
-L['forgotten_fishing_pole_note'] = nil
-L['overgrown_fishing_bench'] = nil
-L['overgrown_fishing_bench_note'] = nil
+L['decaying_fishing_bucket'] = 'Гниющее ведро с рыбой'
+L['decaying_fishing_bucket_note'] = 'На верхнем этаже башни.'
+L['forgotten_fishing_pole'] = 'Забытая удочка'
+L['forgotten_fishing_pole_note'] = 'На первом этаже.'
+L['overgrown_fishing_bench'] = 'Заросшая скамья рыболова'
+L['overgrown_fishing_bench_note'] = 'Заросший камень, его трудно разглядеть.'
 
 -------------------------------------------------------------------------------
 ------------------------------ OHN'AHRAN PLAINS -------------------------------
@@ -550,7 +550,7 @@ L['options_icons_dreamguard'] = '{achievement:16574}'
 L['options_icons_dreamguard_desc'] = 'Отображать места Изумрудных Стражников для {achievement:16574}'
 
 L['khadin_note'] = 'Обмен {item:191784} на знания по профессии.'
-L['khadin_prof_note'] = nil
+L['khadin_prof_note'] = 'Заработайте на %d больше {currency:%d}, чтобы прокачать дерево профессий {spell:%d} до максимума.'
 L['the_great_swog_note'] = 'Обменять {item:199338}, {item:199339} и {item:199340} на {item:202102}.'
 L['hunt_instructor_basku_note'] = 'Обменяйте {item:200093} на репутацию с {faction:2503}.'
 L['elder_yusa_note'] = 'Возьмите в цель {npc:192818} и {emote:/голод} чтобы получить рецепт приготовления.'
@@ -867,10 +867,10 @@ L['box_of_rocks_note'] = '{object:Ящики с камнями} можно на�
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = 'Показать возможные местоположения {object:Ящиков с камнями} для {achievement:18559}.'
 
-L['drakonid_painting'] = nil
-L['emptied_hourglass'] = nil
-L['rusted_signal_horn'] = nil
-L['rusted_signal_horn_note'] = nil
+L['drakonid_painting'] = 'Картина драконида'
+L['emptied_hourglass'] = 'Опустевшие песочные часы'
+L['rusted_signal_horn'] = 'Ржавый сигнальный рог'
+L['rusted_signal_horn_note'] = 'На верхнем этаже.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Zaralek Cavern --------------------------------
