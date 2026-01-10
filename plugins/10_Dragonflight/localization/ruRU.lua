@@ -162,7 +162,7 @@ L['shadowflame_leatherworking_table_note'] = 'Требуется при изго
 L['shadowflame_incantation_table_label'] = 'Стол кузни пламени тьмы (Наложение чар)'
 L['shadowflame_incantation_table_note'] = 'Требуется при изготовления этого рецепта:\n{spell:405076}'
 L['altar_of_decay_label'] = 'Алтарь гнили'
-L['altar_of_decay_note'] = 'Необходим при создании этих рецептов:\n{spell:110423}: \nDecayed Patterns\nDecay-Infused reagents\n\n{spell:264211}: \nToxic potions\nToxic phials\n{spell:405879}'
+L['altar_of_decay_note'] = 'Необходим при создании этих рецептов:\n{spell:110423}: \nРазложение\nС энергией разложения\n\n{spell:264211}: \nТоксичный яд\nТоксичные флаконы\n{spell:405879}'
 L['azure_loom_label'] = 'Лазурный ткацкий станок'
 L['azure_loom_note'] = 'Требуется при изготовления этого рецепта:\n{spell:376556}'
 L['temporal_loom_label'] = 'Временной ткацкий станок'
@@ -945,11 +945,11 @@ L['djaradin_scroll'] = 'Свиток джарадинов'
 L['forgotten_incense'] = 'Забытые благовония'
 L['forgotten_incense_note'] = '{note:Труднодоступен из-за границ задания.}'
 L['historied_heirloom'] = 'Историческая реликвия'
-L['rusted_dirt_pale'] = nil
-L['rusted_dirt_pale_note'] = nil
-L['niffen_pickaxe'] = nil
-L['chipped_grub_pot'] = nil
-L['chipped_grub_pot_note'] = nil
+L['rusted_dirt_pale'] = 'Ржавое ведро с грязью'
+L['rusted_dirt_pale_note'] = '{note:Исчезает после нажатия на другие объекты {object:Важнейшая подсказка}}'
+L['niffen_pickaxe'] = 'Кирка ниффов'
+L['chipped_grub_pot'] = 'Надколотый котел с личинками'
+L['chipped_grub_pot_note'] = 'На вершине башни.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Emerald Dream ---------------------------------
