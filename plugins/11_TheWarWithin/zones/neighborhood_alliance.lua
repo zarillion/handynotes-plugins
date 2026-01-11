@@ -42,7 +42,7 @@ local _Riddle_ = Class('_Riddle_', Riddle,
 
 map.nodes[63203830] = _Riddle_({quest = 92437, item = 245375})
 map.nodes[58143008] = Riddle({quest = 92961, item = 245384})
-map.nodes[69202670] = _Riddle_({quest = 92962, item = 245355})
+map.nodes[69202670] = Riddle({quest = 92962, item = 245355})
 map.nodes[63124673] = Riddle({quest = 92963, item = 245356})
 map.nodes[64875098] = Riddle({quest = 92964, item = 245376})
 map.nodes[59805240] = _Riddle_({quest = 92965, item = 235523})
