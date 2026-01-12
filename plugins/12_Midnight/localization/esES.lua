@@ -43,8 +43,8 @@ L['glowing_moth'] = 'Polilla resplandeciente'
 L['options_icons_glowing_moth'] = 'Polilla resplandeciente'
 L['options_icons_glowing_moth_desc'] = 'Muestra dónde están las Polillas resplandecientes para el logro {achievement:61052}.'
 
-L['sporespawned_cache_note'] = nil
-L['fungal_mallet'] = nil
+L['sporespawned_cache_note'] = 'Interactúa con la {dot:Red}{object:Marra fúngica} en la Aldea Fungara para conseguir el buff {spell:1266347} y úsalo para hacer sonar el {object:Gong micelio}. El tesoro aparecerá junto al gong.'
+L['fungal_mallet'] = 'Marra fúngica'
 L['impenatrably_sealed_gourd_note'] = nil
 
 -------------------------------------------------------------------------------
