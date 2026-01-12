@@ -88,35 +88,35 @@ map.nodes[53653978] = Riddle({quest = 93006, item = 253479})
 map.nodes[53604195] = Riddle({quest = 93009, item = 246255})
 
 map.nodes[45416434] = Riddle({
-    quest = 92972,
     item = 246103,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
+    quest = 92972,
     pois = {Entrance({45766492})}
 })
 
 map.nodes[61617944] = Riddle({
-    quest = 92979,
     item = 245334,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
+    quest = 92979,
     pois = {Entrance({62407950})}
 })
 
 map.nodes[37084593] = Riddle({
-    quest = 92985,
     item = 246106,
-    note = L['in_water']
+    location = L['in_water'],
+    quest = 92985
 })
 
 map.nodes[59204490] = Riddle({
-    quest = 93000,
     item = 241618,
-    note = L['in_small_cave'],
+    location = L['in_small_cave'],
+    quest = 93000,
     pois = {Entrance({59004550})}
 })
 
 map.nodes[66905700] = Riddle({
+    item = 236676,
     location = L['in_water_cave'],
     quest = 92966,
-    item = 236676,
     pois = {Entrance({64655751})}
 })
