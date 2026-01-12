@@ -62,7 +62,7 @@ map.nodes[55055073] = Riddle({quest = 92974, item = 246246})
 map.nodes[49905660] = _Riddle_({quest = 92975, item = 246245})
 map.nodes[47706190] = Riddle({quest = 92976, item = 246243})
 map.nodes[64568560] = Riddle({quest = 92977, item = 245548})
-map.nodes[54207360] = _Riddle_({quest = 92978, item = 243334})
+map.nodes[54207360] = Riddle({quest = 92978, item = 243334})
 map.nodes[61617944] = Riddle({
     quest = 92979,
     item = 245334,
