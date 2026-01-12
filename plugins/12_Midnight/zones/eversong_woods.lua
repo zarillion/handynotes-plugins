@@ -2,20 +2,22 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
-local Class = ns.Class
+
 local L = ns.locale
 local Map = ns.Map
 
 local LoreObject = ns.node.LoreObject
+local Painting = ns.node.EverPainting
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
+local RuneStone = ns.node.RuneStoneRush
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
-local Mount = ns.reward.Mount
 -- local Item = ns.reward.Item
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Reputation = ns.reward.Reputation
 local Section = ns.reward.Section
@@ -269,7 +271,7 @@ map.nodes[48737544] = Treasure({
 
 smc.nodes[37805238] = Treasure({
     label = L['incomplete_book_of_sonnets'],
-    requires = ns.requirement.Item(263257), -- Booklet of Sonnets
+    requires = ns.requirement.Item(265832), -- Booklet of Sonnets
     quest = 94781, -- 93458 (old quest id?),
     -- rewards = {}, --[Silvermoon Library Bookcase] housing decor + 55rep with Silvermoon City faction
     parent = map.id,
@@ -510,15 +512,6 @@ smc.nodes[38107699] = LoreObject({
 
 -------------------------------- EVER PAINTIG ---------------------------------
 
-local Painting = Class('Painting', ns.node.Collectible,
-    {icon = 'peg_yw', scale = 1.5})
-
-function Painting:Initialize(criteria, location)
-    ns.node.Collectible.Initialize(self)
-    self.location = location or nil
-    self.rewards = {Achievement({id = 62185, criteria = criteria})}
-end
-
 map.nodes[53967560] = Painting(111993) -- Sway of Red and Gold
 map.nodes[41805634] = Painting(112030) -- Lost Lamppost
 map.nodes[50764128] = Painting(112031) -- Anar'alah Belore
@@ -526,3 +519,11 @@ map.nodes[55145968] = Painting(112032, L['on_flying_platform']) -- Light Consumi
 map.nodes[46086429] = Painting(112033) -- Babble and Brook
 map.nodes[39007822] = Painting(112034) -- Memories of Ghosts
 map.nodes[42626263] = Painting(112035) -- Elrendar's Song
+
+-------------------------------- RUNESTONE RUSH ---------------------------------
+
+map.nodes[47405860] = RuneStone(111480) -- Elrendar River Runestone (Sapmaw the Infestor)
+map.nodes[38405580] = RuneStone(111481) -- Ath'ran Runestone (Commander Viskaj)
+map.nodes[61406280] = RuneStone(111482) -- Dawnstar Spire Runestone (Hal'nok the Trampler)
+map.nodes[41007380] = RuneStone(111483) -- Sanctum of the Moon Runestone (Commander Gravok)
+map.nodes[40601360] = RuneStone(111484) -- Sunstrider Isle Runestone (Claw of the Void)

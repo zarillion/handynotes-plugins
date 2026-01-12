@@ -24,6 +24,11 @@ L['options_icons_profession_treasures_desc'] = 'Display locations of treasures w
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_ever_painting'] = '{achievement:62185}'
+L['options_icons_ever_painting_desc'] = 'Display painting locations for {achievement:62185} achievement.'
+L['options_icons_runestone_rush'] = '{achievement:61961}'
+L['options_icons_runestone_rush_desc'] = 'Display rune stone locations for {achievement:61961} achievement.'
+
 L['eversong_woods_stone_vat_of_wine_note'] = 'Requires 10x {item:256232} and 1x {item:256397} from {npc:251405}.\n\nStomp on the Grapes then add the yeast.'
 L['on_flying_platform'] = 'On a flying platform.'
 L['gift_of_the_phoenix_note'] = 'Catch 5 cinders from phoenixes that spawn after using the Gift of the Phoenix.'
@@ -37,6 +42,10 @@ L['incomplete_book_of_sonnets'] = 'Incomplete Book of Sonnets'
 L['glowing_moth'] = 'Glowing Moth'
 L['options_icons_glowing_moth'] = 'Glowing Moth'
 L['options_icons_glowing_moth_desc'] = 'Shows the locations of Glowing Moths for {achievement:61052} achievement.'
+
+L['sporespawned_cache_note'] = 'Interact with the {dot:Red}{object:Fungal Mallet} in Fungara Village to get the {spell:1266347} buff, and use it to ring the {object:Mycelium Gong}. The treasure will appear next to the gong.'
+L['fungal_mallet'] = 'Fungal Mallet'
+L['impenatrably_sealed_gourd_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------

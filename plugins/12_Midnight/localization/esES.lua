@@ -24,6 +24,11 @@ L['options_icons_profession_treasures_desc'] = 'Muestra dónde están los tesoro
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_ever_painting'] = '{achievement:62185}'
+L['options_icons_ever_painting_desc'] = nil
+L['options_icons_runestone_rush'] = '{achievement:61961}'
+L['options_icons_runestone_rush_desc'] = nil
+
 L['eversong_woods_stone_vat_of_wine_note'] = 'Requiere 10x {item:256232} y 1x {item:256397} de {npc:251405}.\n\nPisa las uvas y luego añade la levadura.'
 L['on_flying_platform'] = 'En una plataforma voladora.'
 L['gift_of_the_phoenix_note'] = 'Atrapa 5 cenizas de los fénix que aparecen después de usar el Regalo del Fénix.'
@@ -37,6 +42,10 @@ L['incomplete_book_of_sonnets'] = 'Libro de sonetos incompleto.'
 L['glowing_moth'] = 'Polilla resplandeciente'
 L['options_icons_glowing_moth'] = 'Polilla resplandeciente'
 L['options_icons_glowing_moth_desc'] = 'Muestra dónde están las Polillas resplandecientes para el logro {achievement:61052}.'
+
+L['sporespawned_cache_note'] = nil
+L['fungal_mallet'] = nil
+L['impenatrably_sealed_gourd_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------

@@ -25,6 +25,11 @@ L['options_icons_profession_treasures_desc'] = 'Afficher les emplacements des tr
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_ever_painting'] = '{achievement:62185}'
+L['options_icons_ever_painting_desc'] = nil
+L['options_icons_runestone_rush'] = '{achievement:61961}'
+L['options_icons_runestone_rush_desc'] = nil
+
 L['eversong_woods_stone_vat_of_wine_note'] = 'Requiert 10x {item:256232} et 1x {item:256397} acheté auprès de {npc:251405}.\n\nPiétinez les Grappes de raisin puis ajoutez la Levure.'
 L['on_flying_platform'] = 'Sur une plate-forme volante.'
 L['gift_of_the_phoenix_note'] = 'Attrapez 5x Cendres de phénix tombant au sol après avoir interagi avec le {object:Réceptacle de Haut-Soleil}.'
@@ -38,6 +43,10 @@ L['incomplete_book_of_sonnets'] = 'Livret de sonnets incomplet'
 L['glowing_moth'] = 'Phalène luminescent'
 L['options_icons_glowing_moth'] = 'Phalène luminescent'
 L['options_icons_glowing_moth_desc'] = 'Afficher les emplacements des Phalènes luminescentes pour le haut-fait {achievement:61052}.'
+
+L['sporespawned_cache_note'] = nil
+L['fungal_mallet'] = nil
+L['impenatrably_sealed_gourd_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------

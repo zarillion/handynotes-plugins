@@ -54,6 +54,17 @@ ns.groups.GLOWING_MOTH = Group('glowing_moth', 1003597, {
     achievement = 61052
 })
 
+ns.groups.RUNESTONE_RUSH = Group('runestone_rush', 134423, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 61961
+})
+
+ns.groups.EVER_PAINTING = Group('ever_painting', 7549082, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 62185
+})
 -------------------------------------------------------------------------------
 
 -- ns.groups.SAFARI = Group('safari', 4048818, {
@@ -108,6 +119,34 @@ local LoreObject = Class('LoreObject', Collectible, {
 
 ns.node.LoreObject = LoreObject
 
+-------------------------------------------------------------------------------
+------------------------------- RUNESTONE RUSH --------------------------------
+-------------------------------------------------------------------------------
+
+local RuneStone = Class('RuneStone', Collectible,
+    {icon = 134423, group = ns.groups.RUNESTONE_RUSH})
+
+function RuneStone:Initialize(criteria)
+    ns.node.Collectible.Initialize(self)
+    self.rewards = {Achievement({id = 61961, criteria = criteria})}
+end
+
+ns.node.RuneStoneRush = RuneStone
+
+-------------------------------------------------------------------------------
+-------------------------------- EVER PAINTING --------------------------------
+-------------------------------------------------------------------------------
+
+local Painting = Class('Painting', Collectible,
+    {icon = 7549082, group = ns.groups.EVER_PAINTING})
+
+function Painting:Initialize(criteria, location)
+    ns.node.Collectible.Initialize(self)
+    self.location = location or nil
+    self.rewards = {Achievement({id = 62185, criteria = criteria})}
+end
+
+ns.node.EverPainting = Painting
 -------------------------------------------------------------------------------
 ------------------------------- MIDNIGHT SAFARI -------------------------------
 -------------------------------------------------------------------------------

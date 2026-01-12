@@ -262,7 +262,7 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
             func = function(button, option)
                 HideUIPanel(WorldMapFrame)
                 for _, category in ipairs(SettingsPanel:GetAllCategories()) do
-                    if category:GetName() == "HandyNotes" then
+                    if category:GetName() == 'HandyNotes' then
                         Settings.OpenToCategory(category:GetID())
                     end
                 end

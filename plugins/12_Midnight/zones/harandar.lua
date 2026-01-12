@@ -17,12 +17,13 @@ local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Section = ns.reward.Section
---local Spacer = ns.reward.Spacer
+-- local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 local Reputation = ns.reward.Reputation
 
 local Path = ns.poi.Path
+local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
@@ -239,6 +240,7 @@ map.nodes[20003500] = Treasure({
 
 map.nodes[26736759] = Treasure({
     quest = 93508,
+    note = L['impenatrably_sealed_gourd_note'],
     rewards = {
         Achievement({id = 61263, criteria = 110255}),
         Pet({item = 260730, id = 4948}) -- [Perturbed Sporebat]
@@ -248,11 +250,15 @@ map.nodes[26736759] = Treasure({
 -- loot [Mysterious Purple Fluid] (260250) from the nearby {object:Hanging Flask}
 -- click on {object:Durable Vase} and add the fluids to get [Fizzing Fluid] (260266) then loot the treasure from the Sealed Gourd
 
-map.nodes[20004500] = Treasure({
-    quest = 93650,
+map.nodes[46656778] = Treasure({
+    quest = 93650, -- 93652 when ringing dong
+    note = L['sporespawned_cache_note'],
     rewards = {
         Achievement({id = 61263, criteria = 110256}),
         Mount({item = 256423, id = 2747}) -- Untained Grove Crawler
+    },
+    pois = {
+        POI({color = 'Red', points = {41306790}, label = L['fungal_mallet']})
     }
 }) -- Sporespawned Cache
 
@@ -564,7 +570,7 @@ map.nodes[66166169] = ns.node.NPC({
 
 --[[ MIDNIGHT: Chronicler of the Harani - https://www.wowhead.com/beta/achievement=61344/chronicler-of-the-haranir
 
-Requires "THe Cauldron of Echoes" https://www.wowhead.com/beta/quest=88994/the-cauldron-of-echoes
+https://www.wowhead.com/beta/quest=88994/the-cauldron-of-echoes
 [59982090] = {vignette=7372, label="Echoes of Our Past: Fading History"}, 93475
 [59711852] = {vignette=7373, label="Echoes of Our Past: Alndust"}, 93474
 [61141595] = {vignette=7374, label="Echoes of Our Past: Dangerous Memories"},  93473
@@ -573,4 +579,11 @@ https://www.wowhead.com/beta/quest=88993/weynans-ward
 [41563588] = {vignette=7370, label="Laments of Wey'nan: Hunting Purpose"}, 93471
 [43233732] = {vignette=7369, label="Laments of Wey'nan: Finding Hope"}, 93470
 [42303547] = {vignette=7371, label="Laments of Wey'nan: There Must Be More"}, 93472
+
+https://www.wowhead.com/beta/quest=88996/the-echoless-flame
+89284/91516/89268/91511
+[64853844] = {vignette=7378, label="Words of Obayo: The Flame"}, 93482
+cave enterance 61383815 for both below
+[62603568] = {vignette=7380, label="Words of Obayo: The Silence"}, 39480
+[61433498] = {vignette=7379, label="Words of Obayo: The Rift"}, 93481
 ]] --

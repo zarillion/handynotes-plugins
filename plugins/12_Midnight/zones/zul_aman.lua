@@ -454,8 +454,8 @@ map.nodes[41854163] = Telescope({
 
 ------------------------- THE FROG AND THE PRINCESS ----------------------------
 
-local FrogPrincess = Class('FrogPrincess', ns.node.Collectible,
-    {icon = 2399262})
+local FrogPrincess =
+    Class('FrogPrincess', ns.node.Collectible, {icon = 2399262})
 
 function FrogPrincess:Initialize(criteria, location)
     ns.node.Collectible.Initialize(self)
@@ -503,8 +503,8 @@ map.nodes[55201810] = Songseeker({
 
 ------------------------- SPIRITPAW MARATHON ----------------------------
 
-
-local SpiritpawMarathon = Class('SpiritpawMarathon', ns.node.Collectible, {icon = 4891426})
+local SpiritpawMarathon = Class('SpiritpawMarathon', ns.node.Collectible,
+    {icon = 4891426})
 
 map.nodes[32292240] = SpiritpawMarathon({
     rewards = {

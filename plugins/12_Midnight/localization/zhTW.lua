@@ -24,6 +24,11 @@ L['options_icons_profession_treasures_desc'] = '顯示會給予專業技能知�
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_ever_painting'] = '{achievement:62185}'
+L['options_icons_ever_painting_desc'] = nil
+L['options_icons_runestone_rush'] = '{achievement:61961}'
+L['options_icons_runestone_rush_desc'] = nil
+
 L['eversong_woods_stone_vat_of_wine_note'] = nil
 L['on_flying_platform'] = nil
 L['gift_of_the_phoenix_note'] = nil
@@ -37,6 +42,10 @@ L['incomplete_book_of_sonnets'] = nil
 L['glowing_moth'] = nil
 L['options_icons_glowing_moth'] = nil
 L['options_icons_glowing_moth_desc'] = nil
+
+L['sporespawned_cache_note'] = nil
+L['fungal_mallet'] = nil
+L['impenatrably_sealed_gourd_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
