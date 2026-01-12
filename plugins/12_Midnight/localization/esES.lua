@@ -25,9 +25,9 @@ L['options_icons_profession_treasures_desc'] = 'Muestra dónde están los tesoro
 -------------------------------------------------------------------------------
 
 L['options_icons_ever_painting'] = '{achievement:62185}'
-L['options_icons_ever_painting_desc'] = nil
+L['options_icons_ever_painting_desc'] = 'Muestra dónde están los caballetes de pintor para el logro {achievement:62185}.'
 L['options_icons_runestone_rush'] = '{achievement:61961}'
-L['options_icons_runestone_rush_desc'] = nil
+L['options_icons_runestone_rush_desc'] = 'Muestra dónde están las piedras rúnicas para el logro {achievement:61961}.'
 
 L['eversong_woods_stone_vat_of_wine_note'] = 'Requiere 10x {item:256232} y 1x {item:256397} de {npc:251405}.\n\nPisa las uvas y luego añade la levadura.'
 L['on_flying_platform'] = 'En una plataforma voladora.'
