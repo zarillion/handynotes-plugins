@@ -27,7 +27,7 @@ L['options_icons_profession_treasures_desc'] = 'Display locations of treasures w
 L['options_icons_ever_painting'] = '{achievement:62185}'
 L['options_icons_ever_painting_desc'] = 'Display painting locations for {achievement:62185} achievement.'
 L['options_icons_runestone_rush'] = '{achievement:61961}'
-L['options_icons_runestone_rush_desc'] = 'Display rune stone locations for {achievement:61961} achievement.'
+L['options_icons_runestone_rush_desc'] = 'Display runestones locations for {achievement:61961} achievement.'
 
 L['eversong_woods_stone_vat_of_wine_note'] = 'Requires 10x {item:256232} and 1x {item:256397} from {npc:251405}.\n\nStomp on the Grapes then add the yeast.'
 L['on_flying_platform'] = 'On a flying platform.'
