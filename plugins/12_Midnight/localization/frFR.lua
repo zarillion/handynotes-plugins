@@ -26,9 +26,9 @@ L['options_icons_profession_treasures_desc'] = 'Afficher les emplacements des tr
 -------------------------------------------------------------------------------
 
 L['options_icons_ever_painting'] = '{achievement:62185}'
-L['options_icons_ever_painting_desc'] = nil
+L['options_icons_ever_painting_desc'] = 'Afficher les emplacements des peintures pour le haut-fait {achievement:62185}.'
 L['options_icons_runestone_rush'] = '{achievement:61961}'
-L['options_icons_runestone_rush_desc'] = nil
+L['options_icons_runestone_rush_desc'] = 'Afficher les emplacements des pierres runiques pour le haut-fait {achievement:61961}.'
 
 L['eversong_woods_stone_vat_of_wine_note'] = 'Requiert 10x {item:256232} et 1x {item:256397} acheté auprès de {npc:251405}.\n\nPiétinez les Grappes de raisin puis ajoutez la Levure.'
 L['on_flying_platform'] = 'Sur une plate-forme volante.'
@@ -44,8 +44,8 @@ L['glowing_moth'] = 'Phalène luminescent'
 L['options_icons_glowing_moth'] = 'Phalène luminescent'
 L['options_icons_glowing_moth_desc'] = 'Afficher les emplacements des Phalènes luminescentes pour le haut-fait {achievement:61052}.'
 
-L['sporespawned_cache_note'] = nil
-L['fungal_mallet'] = nil
+L['sporespawned_cache_note'] = 'Interagissez avec le {dot:Red}{object:Maillet fongique} à Fongara pour obtenir le buff {spell:1266347}, puis utilisez-le pour faire sonner le {object:Gong de mycélium}. Le trésor apparaîtra à côté du gong.'
+L['fungal_mallet'] = 'Maillet fongique'
 L['impenatrably_sealed_gourd_note'] = nil
 
 -------------------------------------------------------------------------------
