@@ -456,6 +456,8 @@ map.nodes[34725692] = PT.Leatherworking({quest = 89090, id = 238589}) -- Etherea
 map.nodes[41843821] = PT.Mining({quest = 89150, id = 238602}) -- Star Metal Deposit
 slr.nodes[30486907] = PT.Mining({quest = 89144, id = 238596, parent = map.id}) -- Miner's Guide to Voidstorm
 slr.nodes[45504240] = PT.Skinning({quest = 89169, id = 238631, parent = map.id}) -- Voidstorm Leather Sample
+slr.nodes[62028368] = PT.Tailoring({quest = 89082, id = 238616, parent = map.id}) -- Book of Sin'dorei Stitches -- rough coords need to confirm
+slr.nodes[61478504] = PT.Tailoring({quest = 89083, id = 238617, parent = map.id}) --Satin Throw Pillow -- rough coords need to confirm
 
 -------------------------------------------------------------------------------
 ---------------------------- VOIDSTORM GLYPH HUNTER ---------------------------

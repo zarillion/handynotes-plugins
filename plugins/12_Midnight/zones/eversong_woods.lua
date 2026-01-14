@@ -358,8 +358,6 @@ map.nodes[46363487] = PT.Tailoring({quest = 89080, id = 238614}) -- Sin'dorei Ou
 map.nodes[] = PT.Enchanting({quest = 89101, id = 238549}) -- Enchanted Sunfire Silk
 map.nodes[] = PT.Engineering({quest = 89137, id = 238560}) -- Ethereal Stormwrench
 map.nodes[] = PT.Engineering({quest = 89134, id = 238557}) -- MIniturized Transport Skiff
-map.nodes[] = PT.Tailoring({quest = 89082, id = 238616}) -- Book of Sin'dorei Stitches
-map.nodes[] = PT.Tailoring({quest = 89083, id = 238617}) --Satin Throw Pillow
 map.nodes[] = PT.Leatherworking({quest = 89093, id = 238592}) -- Patterns: Beyond the Void
 map.nodes[] = PT.Alchemy({quest = 89111, id = 238532}) -- Vial of Eversong Oddities
 map.nodes[] = PT.Alchemy({quest = 89118, id = 238539}) -- Failed Experiment
