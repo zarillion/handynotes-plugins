@@ -485,7 +485,8 @@ slr.nodes[30486907] = PT.Mining({quest = 89144, id = 238596, parent = map.id}) -
 slr.nodes[45504240] = PT.Skinning({quest = 89169, id = 238631, parent = map.id}) -- Voidstorm Leather Sample
 slr.nodes[62018352] =
     PT.Tailoring({quest = 89082, id = 238616, parent = map.id}) -- Book of Sin'dorei Stitches
-slr.nodes[61398512] = PT.Tailoring({quest = 89083, id = 238617, parent = map.id}) -- Satin Throw Pillow
+slr.nodes[61398512] =
+    PT.Tailoring({quest = 89083, id = 238617, parent = map.id}) -- Satin Throw Pillow
 
 -------------------------------------------------------------------------------
 ---------------------------- VOIDSTORM GLYPH HUNTER ---------------------------
