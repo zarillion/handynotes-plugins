@@ -454,7 +454,7 @@ slr.nodes[28933903] = PT.Engineering({
     quest = 89134,
     id = 238557,
     parent = map.id
-}) -- Miniturized Transport Skiff
+}) -- Miniaturized Transport Skiff
 map.nodes[55486428] = PT.Herbalism({quest = 89156, id = 238474}) -- Peculiar Lotus
 slr.nodes[60698426] = PT.Inscription({
     quest = 89067,
@@ -484,8 +484,8 @@ slr.nodes[54245159] = PT.Mining({quest = 89146, id = 238598, parent = map.id}) -
 slr.nodes[30486907] = PT.Mining({quest = 89144, id = 238596, parent = map.id}) -- Miner's Guide to Voidstorm
 slr.nodes[45504240] = PT.Skinning({quest = 89169, id = 238631, parent = map.id}) -- Voidstorm Leather Sample
 slr.nodes[62018352] =
-    PT.Tailoring({quest = 89082, id = 238616, parent = map.id}) -- Book of Sin'dorei Stitches -- rough coords need to confirm
-slr.nodes[61398512] = PT.Tailoring({quest = 89083, id = 238617}) -- Satin Throw Pillow -- rough coords need to confirm
+    PT.Tailoring({quest = 89082, id = 238616, parent = map.id}) -- Book of Sin'dorei Stitches
+slr.nodes[61398512] = PT.Tailoring({quest = 89083, id = 238617, parent = map.id}) -- Satin Throw Pillow
 
 -------------------------------------------------------------------------------
 ---------------------------- VOIDSTORM GLYPH HUNTER ---------------------------
