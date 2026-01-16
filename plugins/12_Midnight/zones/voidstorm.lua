@@ -445,19 +445,47 @@ map.nodes[37815497] = Telescope({
 slr.nodes[41964062] = PT.Alchemy({quest = 89112, id = 238533, parent = map.id}) -- Vial of Voidstorm Oddities
 map.nodes[30516899] = PT.Blacksmithing({quest = 89181, id = 238544}) -- Voidstorm Defense Spear
 map.nodes[35495882] = PT.Enchanting({quest = 89102, id = 238550}) -- Pure Void Crystal
+slr.nodes[54135101] = PT.Engineering({
+    quest = 89137,
+    id = 238560,
+    parent = map.id
+}) -- Ethereal Stormwrench
+slr.nodes[28933903] = PT.Engineering({
+    quest = 89134,
+    id = 238557,
+    parent = map.id
+}) -- Miniturized Transport Skiff
 map.nodes[55486428] = PT.Herbalism({quest = 89156, id = 238474}) -- Peculiar Lotus
-slr.nodes[54814150] = PT.Inscription({
+slr.nodes[60698426] = PT.Inscription({
     quest = 89067,
     id = 238572,
     parent = map.id
-}) -- Void-Touched Quill (Cant loot phasing issue)
+}) -- Void-Touched Quill
 map.nodes[30496904] = PT.Jewelcrafting({quest = 89123, id = 238581}) -- Speculative Voidstorm Crystal
+slr.nodes[54205104] = PT.Jewelcrafting({
+    quest = 89128,
+    id = 238586,
+    parent = map.id
+}) -- Ethereal Gem Pliers
+slr.nodes[62765345] = PT.Jewelcrafting({
+    quest = 89126,
+    id = 238584,
+    parent = map.id
+}) -- Shattered Glass
 map.nodes[34725692] = PT.Leatherworking({quest = 89090, id = 238589}) -- Ethereal Leatherworking Knife
+slr.nodes[53745167] = PT.Leatherworking({
+    quest = 89093,
+    id = 238592,
+    parent = map.id
+}) -- Patterns: Beyond the Void
 map.nodes[41843821] = PT.Mining({quest = 89150, id = 238602}) -- Star Metal Deposit
+slr.nodes[28733856] = PT.Mining({quest = 89148, id = 238600, parent = map.id}) -- Glimmering Void Pearl
+slr.nodes[54245159] = PT.Mining({quest = 89146, id = 238598, parent = map.id}) -- Lost Voidstorm Satchel
 slr.nodes[30486907] = PT.Mining({quest = 89144, id = 238596, parent = map.id}) -- Miner's Guide to Voidstorm
 slr.nodes[45504240] = PT.Skinning({quest = 89169, id = 238631, parent = map.id}) -- Voidstorm Leather Sample
-slr.nodes[62018352] = PT.Tailoring({quest = 89082, id = 238616, parent = map.id}) -- Book of Sin'dorei Stitches -- rough coords need to confirm
-slr.nodes[61398512] = PT.Tailoring({quest = 89083, id = 238617, parent = map.id}) --Satin Throw Pillow -- rough coords need to confirm
+slr.nodes[62018352] =
+    PT.Tailoring({quest = 89082, id = 238616, parent = map.id}) -- Book of Sin'dorei Stitches -- rough coords need to confirm
+slr.nodes[61398512] = PT.Tailoring({quest = 89083, id = 238617}) -- Satin Throw Pillow -- rough coords need to confirm
 
 -------------------------------------------------------------------------------
 ---------------------------- VOIDSTORM GLYPH HUNTER ---------------------------
