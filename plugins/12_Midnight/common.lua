@@ -65,6 +65,13 @@ ns.groups.EVER_PAINTING = Group('ever_painting', 7549082, {
     type = ns.group_types.ACHIEVEMENT,
     achievement = 62185
 })
+
+ns.groups.MORE_THAN_JUST_THIER_ROOTS = Group('more_than_just_thier_roots',
+    236160, {
+        defaults = ns.GROUP_HIDDEN,
+        type = ns.group_types.ACHIEVEMENT,
+        achievement = 62188
+    })
 -------------------------------------------------------------------------------
 
 -- ns.groups.SAFARI = Group('safari', 4048818, {
@@ -147,6 +154,18 @@ function Painting:Initialize(criteria, location)
 end
 
 ns.node.EverPainting = Painting
+
+-------------------------------------------------------------------------------
+------------------------- MORE THAN JUST THIER ROOTS --------------------------
+-------------------------------------------------------------------------------
+
+local MoreThanJustThierRoots = Class('MoreThanJustThierRoots', Collectible, {
+    icon = 236160,
+    group = ns.groups.MORE_THAN_JUST_THIER_ROOTS
+})
+
+ns.node.MoreThanJustThierRoots = MoreThanJustThierRoots
+
 -------------------------------------------------------------------------------
 ------------------------------- MIDNIGHT SAFARI -------------------------------
 -------------------------------------------------------------------------------

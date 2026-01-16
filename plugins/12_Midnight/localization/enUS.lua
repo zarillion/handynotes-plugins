@@ -27,7 +27,7 @@ L['options_icons_profession_treasures_desc'] = 'Display locations of treasures w
 L['options_icons_ever_painting'] = '{achievement:62185}'
 L['options_icons_ever_painting_desc'] = 'Display painting locations for {achievement:62185} achievement.'
 L['options_icons_runestone_rush'] = '{achievement:61961}'
-L['options_icons_runestone_rush_desc'] = 'Display runestones locations for {achievement:61961} achievement.'
+L['options_icons_runestone_rush_desc'] = 'Display runestone locations for {achievement:61961} achievement.'
 
 L['eversong_woods_stone_vat_of_wine_note'] = 'Requires 10x {item:256232} and 1x {item:256397} from {npc:251405}.\n\nStomp on the Grapes then add the yeast.'
 L['on_flying_platform'] = 'On a flying platform.'
@@ -46,6 +46,10 @@ L['options_icons_glowing_moth_desc'] = 'Shows the locations of Glowing Moths for
 L['sporespawned_cache_note'] = 'Interact with the {dot:Red}{object:Fungal Mallet} in Fungara Village to get the {spell:1266347} buff, and use it to ring the {object:Mycelium Gong}. The treasure will appear next to the gong.'
 L['fungal_mallet'] = 'Fungal Mallet'
 L['impenatrably_sealed_gourd_note'] = nil
+
+L['options_more_than_just_thier_roots'] = '{achievement:62188}'
+L['options_more_than_just_thier_roots_desc'] = 'Display the locations of NPCs for the {achievement:62188} achievement.'
+L['more_than_just_thier_roots_note'] = 'Speak with the NPCs in the below locations:'
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------

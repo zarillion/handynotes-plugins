@@ -48,6 +48,10 @@ L['sporespawned_cache_note'] = 'Interagissez avec le {dot:Red}{object:Maillet fo
 L['fungal_mallet'] = 'Maillet fongique'
 L['impenatrably_sealed_gourd_note'] = nil
 
+L['options_more_than_just_thier_roots'] = '{achievement:62188}'
+L['options_more_than_just_thier_roots_desc'] = 'Afficher les emplacements des PNJs pour le haut-fait {achievement:62188}.'
+L['more_than_just_thier_roots_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
 -------------------------------------------------------------------------------

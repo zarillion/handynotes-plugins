@@ -47,6 +47,10 @@ L['sporespawned_cache_note'] = nil
 L['fungal_mallet'] = nil
 L['impenatrably_sealed_gourd_note'] = nil
 
+L['options_more_than_just_thier_roots'] = '{achievement:62188}'
+L['options_more_than_just_thier_roots_desc'] = nil
+L['more_than_just_thier_roots_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
 -------------------------------------------------------------------------------

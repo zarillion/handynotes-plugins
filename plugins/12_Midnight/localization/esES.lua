@@ -47,6 +47,10 @@ L['sporespawned_cache_note'] = 'Interactúa con la {dot:Red}{object:Marra fúngi
 L['fungal_mallet'] = 'Marra fúngica'
 L['impenatrably_sealed_gourd_note'] = nil
 
+L['options_more_than_just_thier_roots'] = '{achievement:62188}'
+L['options_more_than_just_thier_roots_desc'] = 'Muestra dónde están los NPC para el logro {achievement:62188}.'
+L['more_than_just_thier_roots_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
 -------------------------------------------------------------------------------

@@ -184,7 +184,7 @@ map.nodes[39696070] = Rare({
 
 map.nodes[44201658] = Rare({
     id = 250358,
-    quest = 92194, -- 92194
+    quest = 92194, -- 94726
     rewards = {
         Achievement({id = 61264, criteria = 109053}),
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
@@ -568,6 +568,74 @@ map.nodes[66166169] = ns.node.NPC({
     }
 })
 
+-------------------------------- MORE THAN JUST THEIR ROOTS --------------------------------
+
+local MoreThanJustThierRoots = ns.node.MoreThanJustThierRoots
+
+map.nodes[20002500] = Class('more_than_just_thier_roots', ns.node.Collectible, {
+    label = '{achievement:62188}',
+    group = ns.groups.MORE_THAN_JUST_THIER_ROOTS,
+    icon = 236160,
+    scale = 2,
+    rewards = {
+        Achievement({
+            id = 62188,
+            criteria = {111946, 111947, 111948, 111949, 111950} -- Chonon, Funnid, Kawayn, Or'jan, Zhakir
+        }) -- More Than Just Their Roots,
+    },
+    getters = {
+        note = function()
+            local function Rootstatus(achievementID, criteriaNum)
+                if select(3, GetAchievementCriteriaInfo(achievementID,
+                    criteriaNum)) then
+                    return ns.status.Green(L['completed'])
+                else
+                    return ns.status.Red(L['incomplete'])
+                end
+            end
+            local note = L['more_than_just_thier_roots_note']
+            note = note .. '\n\n' .. '{npc:245103} - {map:198} ' ..
+                       Rootstatus(62188, 1)
+            note = note .. '\n' .. '{npc:245107} - {map:2239} ' ..
+                       Rootstatus(62188, 2)
+            note = note .. '\n' .. '{npc:251936} - {map:116} ' ..
+                       Rootstatus(62188, 3)
+            note = note .. '\n' .. '{npc:245105} - {map:62} ' ..
+                       Rootstatus(62188, 4)
+            note = note .. '\n' .. '{npc:245106} - {map:641} ' ..
+                       Rootstatus(62188, 5)
+            return note
+        end
+    }
+})()
+
+local mnt = Map({id = 198, settings = true})
+local ami = Map({id = 2239, settings = true})
+local hil = Map({id = 116, settings = true})
+local drk = Map({id = 62, settings = true})
+local val = Map({id = 641, settings = true})
+
+mnt.nodes[58422998] = MoreThanJustThierRoots({
+    id = 245103,
+    rewards = {Achievement({id = 62188, criteria = 111946})} -- Chonon
+})
+ami.nodes[34225261] = MoreThanJustThierRoots({
+    id = 245107,
+    rewards = {Achievement({id = 62188, criteria = 111947})} -- Funnid
+})
+hil.nodes[50824257] = MoreThanJustThierRoots({
+    id = 251936,
+    rewards = {Achievement({id = 62188, criteria = 111948})} -- Kawayn
+})
+drk.nodes[33206678] = MoreThanJustThierRoots({
+    id = 245105,
+    rewards = {Achievement({id = 62188, criteria = 111949})} -- Or'jan
+})
+val.nodes[46713541] = MoreThanJustThierRoots({
+    id = 245106,
+    rewards = {Achievement({id = 62188, criteria = 111950})} -- Zhakir
+})
+
 --[[ MIDNIGHT: Chronicler of the Harani - https://www.wowhead.com/beta/achievement=61344/chronicler-of-the-haranir
 
 https://www.wowhead.com/beta/quest=88994/the-cauldron-of-echoes
@@ -581,9 +649,17 @@ https://www.wowhead.com/beta/quest=88993/weynans-ward
 [42303547] = {vignette=7371, label="Laments of Wey'nan: There Must Be More"}, 93472
 
 https://www.wowhead.com/beta/quest=88996/the-echoless-flame
-89284/91516/89268/91511
+91516
 [64853844] = {vignette=7378, label="Words of Obayo: The Flame"}, 93482
 cave enterance 61383815 for both below
 [62603568] = {vignette=7380, label="Words of Obayo: The Silence"}, 39480
 [61433498] = {vignette=7379, label="Words of Obayo: The Rift"}, 93481
+
+https://www.wowhead.com/beta/quest=88997/russulas-outreach
+-- 91517
+[63434013] = {vignette=7381, label="Tending the Lands: The Conflict"}, 93485
+[61023895] = {vignette=7382, label="Tending the Lands: The Plan"}, 93484
+[61413718] = {vignette=7383, label="Tending the Lands: The Cycle"}, 93483
+
 ]] --
+
