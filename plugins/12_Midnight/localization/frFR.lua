@@ -46,7 +46,7 @@ L['options_icons_glowing_moth_desc'] = 'Afficher les emplacements des Phalènes 
 
 L['sporespawned_cache_note'] = 'Interagissez avec le {dot:Red}{object:Maillet fongique} à Fongara pour obtenir le buff {spell:1266347}, puis utilisez-le pour faire sonner le {object:Gong de mycélium}. Le trésor apparaîtra à côté du gong.'
 L['fungal_mallet'] = 'Maillet fongique'
-L['impenatrably_sealed_gourd_note'] = nil
+L['impenatrably_sealed_gourd_note'] = 'Récupérez le {item:260251} sur le {object:Pichet pendant} à proximité et le {item:260250} sur le {object:Flacon suspendu} proche. \nInteragissez avec le {object:Vase durable} et ajoutez-y les fluides pour obtenir le {item:260266}. \nInspectez le trésor pour obtenir la récompense.'
 
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = 'Afficher les emplacements des PNJs pour le haut-fait {achievement:62188}.'
