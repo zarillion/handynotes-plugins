@@ -48,11 +48,7 @@ ns.groups.MIDNIGHT_LORE_HUNTER = Group('midnight_lore_hunter', 4549135, {
     achievement = 62104
 })
 
-ns.groups.GLOWING_MOTH = Group('glowing_moth', 1003597, {
-    defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.COLLECTIBLE,
-    achievement = 61052
-})
+------------------------------ EVERSONG WOODS ---------------------------------
 
 ns.groups.RUNESTONE_RUSH = Group('runestone_rush', 134423, {
     defaults = ns.GROUP_HIDDEN,
@@ -66,12 +62,40 @@ ns.groups.EVER_PAINTING = Group('ever_painting', 7549082, {
     achievement = 62185
 })
 
+--------------------------------- HARANDAR ------------------------------------
+---
+ns.groups.GLOWING_MOTH = Group('glowing_moth', 1003597, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.COLLECTIBLE,
+    achievement = 61052
+})
+
 ns.groups.MORE_THAN_JUST_THIER_ROOTS = Group('more_than_just_thier_roots',
     236160, {
         defaults = ns.GROUP_HIDDEN,
         type = ns.group_types.ACHIEVEMENT,
         achievement = 62188
-    })
+})
+
+--------------------------------- ZUL'AMAN ------------------------------------
+
+ns.groups.FROG_PRINCESS = Group('frog_princess', 2399262, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 62201
+})
+
+ns.groups.SONG_SEEKER = Group('song_seeker', 6119037, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 61455
+})
+
+ns.groups.SPIRITPAW_MARATHON = Group('spiritpaw_marathon', 4891426, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 62202
+})
 -------------------------------------------------------------------------------
 
 -- ns.groups.SAFARI = Group('safari', 4048818, {
@@ -165,6 +189,60 @@ local MoreThanJustThierRoots = Class('MoreThanJustThierRoots', Collectible, {
 })
 
 ns.node.MoreThanJustThierRoots = MoreThanJustThierRoots
+
+-------------------------------------------------------------------------------
+-------------------------------- FROG PRINCESS --------------------------------
+-------------------------------------------------------------------------------
+
+local FrogPrincess = Class('frog_princess', Collectible,
+    {icon = 2399262, group = ns.groups.FROG_PRINCESS})
+
+function FrogPrincess:Initialize(criteria, location)
+    ns.node.Collectible.Initialize(self)
+    self.parent = location or nil
+    self.rewards = {Achievement({id = 62201, criteria = criteria})}
+end
+
+ns.node.FrogPrincess = FrogPrincess
+
+-------------------------------------------------------------------------------
+-------------------------------- SONG SEEKER ----------------------------------
+-------------------------------------------------------------------------------
+
+local Songseeker = Class('Songseeker', Collectible,
+    {icon = 6119037, group = ns.groups.SONG_SEEKER})
+
+ns.node.Songseeker = Songseeker
+-------------------------------------------------------------------------------
+------------------------- MORE THAN JUST THIER ROOTS --------------------------
+-------------------------------------------------------------------------------
+
+local SpiritpawMarathon = Class('SpiritpawMarathon', ns.node.Collectible, {
+    icon = 4891426,
+    group = ns.groups.SPIRITPAW_MARATHON
+})
+
+ns.node.SpiritpawMarathon = SpiritpawMarathon
+
+-------------------------------------------------------------------------------
+------------------------------- DUST 'EM OFF ----------------------------------
+-------------------------------------------------------------------------------
+
+local Moth = Class('Moth', ns.node.Collectible, {
+    label = L['glowing_moth'],
+    icon = 1003597,
+    group = ns.groups.GLOWING_MOTH,
+    rewards = {
+        Achievement({id = 61052, criteria = {id = 1, qty = true}}),
+        ns.reward.Currency({id = 3385}) -- Luminous Dust
+    }
+})
+
+function Moth.getters:requires()
+    return ns.requirement.Reputation(2704, self.renown, true)
+end
+
+ns.node.Moth = Moth
 
 -------------------------------------------------------------------------------
 ------------------------------- MIDNIGHT SAFARI -------------------------------

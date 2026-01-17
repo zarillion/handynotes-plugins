@@ -48,8 +48,8 @@ L['sporespawned_cache_note'] = 'Interagissez avec le {dot:Red}{object:Maillet fo
 L['fungal_mallet'] = 'Maillet fongique'
 L['impenatrably_sealed_gourd_note'] = nil
 
-L['options_more_than_just_thier_roots'] = '{achievement:62188}'
-L['options_more_than_just_thier_roots_desc'] = 'Afficher les emplacements des PNJs pour le haut-fait {achievement:62188}.'
+L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
+L['options_icons_more_than_just_thier_roots_desc'] = 'Afficher les emplacements des PNJs pour le haut-fait {achievement:62188}.'
 L['more_than_just_thier_roots_note'] = nil
 
 -------------------------------------------------------------------------------
@@ -63,6 +63,16 @@ L['malignant_node'] = 'Nœud malveillant'
 -------------------------------------------------------------------------------
 ---------------------------------- ZUL'AMAN ----------------------------------
 -------------------------------------------------------------------------------
+
+L['options_icons_frog_princess'] = '{achievement:62201}'
+L['options_icons_frog_princess_desc'] = nil
+
+L['options_icons_song_seeker'] = '{achievement:61455}'
+L['options_icons_song_seeker_desc'] = nil
+
+L['options_icons_spiritpaw_marathon'] = '{achievement:62202}'
+L['options_icons_spiritpaw_marathon_desc'] = nil
+L['spiritpaw_marathon_note'] = 'Parlez avec {npc:258938}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------

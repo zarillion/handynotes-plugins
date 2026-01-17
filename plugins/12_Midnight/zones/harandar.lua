@@ -12,6 +12,7 @@ local Rare = ns.node.Rare
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
+local Moth = ns.node.Moth
 
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
@@ -412,19 +413,6 @@ map.nodes[68212379] = LoreObject({
 -- moths give 1x currency 3385 (Luminous Dust)
 -- 120 in total to find
 
-local Moth = Class('Moth', ns.node.Collectible, {
-    label = L['glowing_moth'],
-    icon = 1003597,
-    group = ns.groups.GLOWING_MOTH,
-    rewards = {
-        Achievement({id = 61052, criteria = {id = 1, qty = true}}),
-        ns.reward.Currency({id = 3385}) -- Luminous Dust
-    }
-})
-
-function Moth.getters:requires()
-    return ns.requirement.Reputation(2704, self.renown, true)
-end
 
 map.nodes[36354839] = Moth({quest = 92196, renown = 1}) -- Group 1
 map.nodes[36112639] = Moth({quest = 92197, renown = 1}) -- Group 1

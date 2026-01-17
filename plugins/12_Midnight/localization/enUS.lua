@@ -45,10 +45,10 @@ L['options_icons_glowing_moth_desc'] = 'Shows the locations of Glowing Moths for
 
 L['sporespawned_cache_note'] = 'Interact with the {dot:Red}{object:Fungal Mallet} in Fungara Village to get the {spell:1266347} buff, and use it to ring the {object:Mycelium Gong}. The treasure will appear next to the gong.'
 L['fungal_mallet'] = 'Fungal Mallet'
-L['impenatrably_sealed_gourd_note'] = nil
+L['impenatrably_sealed_gourd_note'] = 'Loot {item:260251} from the nearby {object:Dangling Jug} and {item:260250} from the nearby {object:Hanging Flask} \nInteract with the {object:Durable Vase} and add the fluids to receive {item:260266} \nInteract with the treasure to receive the reward.'
 
-L['options_more_than_just_thier_roots'] = '{achievement:62188}'
-L['options_more_than_just_thier_roots_desc'] = 'Display the locations of NPCs for the {achievement:62188} achievement.'
+L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
+L['options_icons_more_than_just_thier_roots_desc'] = 'Display the locations of NPCs for the {achievement:62188} achievement.'
 L['more_than_just_thier_roots_note'] = 'Speak with the NPCs in the below locations:'
 
 -------------------------------------------------------------------------------
@@ -62,6 +62,16 @@ L['malignant_node'] = 'Malignant Node'
 -------------------------------------------------------------------------------
 ---------------------------------- ZUL'AMAN ----------------------------------
 -------------------------------------------------------------------------------
+
+L['options_icons_frog_princess'] = '{achievement:62201}'
+L['options_icons_frog_princess_desc'] = 'Display the locations of the frogs for the {achievement:62201} achievement.'
+
+L['options_icons_song_seeker'] = '{achievement:61455}'
+L['options_icons_song_seeker_desc'] = 'Display the locations of the Song Seekers for the {achievement:61455} achievement.'
+
+L['options_icons_spiritpaw_marathon'] = '{achievement:62202}'
+L['options_icons_spiritpaw_marathon_desc'] = 'Display the locations for the {achievement:62202} achievement.'
+L['spiritpaw_marathon_note'] = 'Speak with {npc:258938}'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------

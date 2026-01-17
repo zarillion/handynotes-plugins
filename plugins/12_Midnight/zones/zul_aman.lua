@@ -2,7 +2,6 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
-local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
@@ -12,6 +11,9 @@ local Rare = ns.node.Rare
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
+local FrogPrincess = ns.node.FrogPrincess
+local Songseeker = ns.node.Songseeker
+local SpiritpawMarathon = ns.node.SpiritpawMarathon
 
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
@@ -454,15 +456,6 @@ map.nodes[41854163] = Telescope({
 
 ------------------------- THE FROG AND THE PRINCESS ----------------------------
 
-local FrogPrincess =
-    Class('FrogPrincess', ns.node.Collectible, {icon = 2399262})
-
-function FrogPrincess:Initialize(criteria, location)
-    ns.node.Collectible.Initialize(self)
-    self.parent = location or nil
-    self.rewards = {Achievement({id = 62201, criteria = criteria})}
-end
-
 map.nodes[31702263] = FrogPrincess(112041) -- Princess Fita
 map.nodes[68281931] = FrogPrincess(112445) -- Princess Gabiku
 aam.nodes[27534005] = FrogPrincess(112446, {parent = map.id}) -- Princess Jakobu
@@ -470,8 +463,6 @@ map.nodes[53945956] = FrogPrincess(112447) -- Princess Tafiki
 map.nodes[29817915] = FrogPrincess(112448) -- Princess Zambina
 
 ----------------------------- SHADOWPINE SCATTERED ----------------------------
-
-local Songseeker = Class('Songseeker', ns.node.Collectible, {icon = 6119037})
 
 map.nodes[52687933] = Songseeker({
     rewards = {Achievement({id = 61455, criteria = 109749})}
@@ -503,11 +494,10 @@ map.nodes[55201810] = Songseeker({
 
 ------------------------- SPIRITPAW MARATHON ----------------------------
 
-local SpiritpawMarathon = Class('SpiritpawMarathon', ns.node.Collectible,
-    {icon = 4891426})
-
 map.nodes[32292240] = SpiritpawMarathon({
+    label = '{achievement:62202}',
+    note = L['spiritpaw_marathon_note'],
     rewards = {
-        Achievement({id = 62202, criteria = 112042}) -- Spiritpaw Marathon,
+        Achievement({id = 62202, criteria = 112042, oneline = true}) -- Spiritpaw Marathon,
     }
 }) -- Speak with Feevra (Achievement seems buggy not displaying on map)
