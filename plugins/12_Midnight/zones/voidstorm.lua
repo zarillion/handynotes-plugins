@@ -44,7 +44,7 @@ map.nodes[29515008] = Rare({
     quest = 90805, -- 94728, -- 90805
     rewards = {
         Achievement({id = 62130, criteria = 111877}),
-        Reputation({id = 2699, gain = 275, quest = 94732}), Spacer(),
+        Reputation({id = 2699, gain = 50, quest = 94728}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
@@ -56,7 +56,7 @@ map.nodes[34058198] = Rare({
     rewards = {
         Achievement({id = 62130, criteria = 111878}),
         Transmog({item = 264564, type = L['mail']}), -- Voidscale Shoulderpads
-        Reputation({id = 2699, gain = 275, quest = 94729}), Spacer(),
+        Reputation({id = 2699, gain = 50, quest = 94729}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
 
@@ -69,7 +69,7 @@ map.nodes[36168355] = Rare({
     quest = 91048, -- 94730, -- 91048
     rewards = {
         Achievement({id = 62130, criteria = 111879}),
-        Reputation({id = 2699, gain = 275, quest = 94730}), Spacer(),
+        Reputation({id = 2699, gain = 50, quest = 94730}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     },
@@ -81,7 +81,7 @@ map.nodes[43665154] = Rare({
     quest = 93966, -- 94731, -- 93966
     rewards = {
         Achievement({id = 62130, criteria = 111880}),
-        Reputation({id = 2699, gain = 275, quest = 94731}), Spacer(),
+        Reputation({id = 2699, gain = 50, quest = 94731}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
@@ -93,7 +93,7 @@ map.nodes[47058063] = Rare({
     quest = 93946, -- 93946
     rewards = {
         Achievement({id = 62130, criteria = 111881}),
-        Reputation({id = 2699, gain = 275, quest = 94732}), Spacer(),
+        Reputation({id = 2699, gain = 50, quest = 94732}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
@@ -105,6 +105,7 @@ map.nodes[39236392] = Rare({
     quest = 93944, -- 34751, -- 93944
     rewards = {
         Achievement({id = 62130, criteria = 111882}),
+         Reputation({id = 2699, gain = 50, quest = 94751}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
@@ -115,7 +116,7 @@ map.nodes[37897177] = Rare({
     quest = 93947, -- 94758, -- 93947
     rewards = {
         Achievement({id = 62130, criteria = 111883}),
-        Reputation({id = 2699, gain = 275, quest = 94758}), Spacer(),
+        Reputation({id = 2699, gain = 50, quest = 94758}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
@@ -127,7 +128,7 @@ map.nodes[55727945] = Rare({
     rewards = {
         Achievement({id = 62130, criteria = 111884}),
         Transmog({item = 264533, type = L['cloth']}), -- Queen's Tentacle Sash
-        Reputation({id = 2699, gain = 275, quest = 94761}), Spacer(),
+        Reputation({id = 2699, gain = 50, quest = 94761}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
 
@@ -149,7 +150,7 @@ slr.nodes[46334094] = Rare({
     quest = 93953, -- 94762, -- 93953
     rewards = {
         Achievement({id = 62130, criteria = 111886}),
-        Reputation({id = 2699, gain = 275, quest = 94762}), Spacer(),
+        Reputation({id = 2699, gain = 50, quest = 94762}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     },
@@ -162,7 +163,7 @@ map.nodes[35495023] = Rare({
     quest = 93884, -- 94752, -- 93884
     rewards = {
         Achievement({id = 62130, criteria = 111887}),
-        Reputation({id = 2699, gain = 275, quest = 94752}), Spacer(),
+        Reputation({id = 2699, gain = 50, quest = 94752}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     },
@@ -174,7 +175,7 @@ slr.nodes[39049231] = Rare({ -- wowhead beta coords
     quest = 91047, -- 94754, -- 91047
     rewards = {
         Achievement({id = 62130, criteria = 111888}),
-        Reputation({id = 2699, gain = 275, quest = 94754}), Spacer(),
+        Reputation({id = 2699, gain = 50, quest = 94754}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     },
@@ -192,6 +193,7 @@ map.nodes[40174130] = Rare({
     quest = 91051, -- 91051
     rewards = {
         Achievement({id = 62130, criteria = 111889}),
+        Reputation({id = 2699, gain = 50, quest = 94759}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     },
