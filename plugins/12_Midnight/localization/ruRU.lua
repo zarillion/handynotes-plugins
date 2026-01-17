@@ -25,9 +25,9 @@ L['options_icons_profession_treasures_desc'] = 'Отображение мест�
 -------------------------------------------------------------------------------
 
 L['options_icons_ever_painting'] = '{achievement:62185}'
-L['options_icons_ever_painting_desc'] = nil
+L['options_icons_ever_painting_desc'] = 'Показать места, где можно нарисовать картину для достижения {achievement:62185}.'
 L['options_icons_runestone_rush'] = '{achievement:61961}'
-L['options_icons_runestone_rush_desc'] = nil
+L['options_icons_runestone_rush_desc'] = 'Отобразить местоположение рунных камней для достижения {achievement:61961}.'
 
 L['eversong_woods_stone_vat_of_wine_note'] = nil
 L['on_flying_platform'] = 'На летающей платформе.'
@@ -48,8 +48,8 @@ L['fungal_mallet'] = nil
 L['impenatrably_sealed_gourd_note'] = nil
 
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
-L['options_icons_more_than_just_thier_roots_desc'] = nil
-L['more_than_just_thier_roots_note'] = nil
+L['options_icons_more_than_just_thier_roots_desc'] = 'Отобразить местоположение НПС для достижения {achievement:62188}.'
+L['more_than_just_thier_roots_note'] = 'Поговорите с НПС в указанных ниже локациях:'
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
@@ -64,14 +64,14 @@ L['malignant_node'] = nil
 -------------------------------------------------------------------------------
 
 L['options_icons_frog_princess'] = '{achievement:62201}'
-L['options_icons_frog_princess_desc'] = nil
+L['options_icons_frog_princess_desc'] = 'Отобразить местоположение лягушек для достижения {achievement:62201}.'
 
 L['options_icons_song_seeker'] = '{achievement:61455}'
 L['options_icons_song_seeker_desc'] = nil
 
 L['options_icons_spiritpaw_marathon'] = '{achievement:62202}'
-L['options_icons_spiritpaw_marathon_desc'] = nil
-L['spiritpaw_marathon_note'] = 'Sprich mit {npc:258938}.'
+L['options_icons_spiritpaw_marathon_desc'] = 'Отобразить местоположения достижения {achievement:62202}.'
+L['spiritpaw_marathon_note'] = 'Поговорите с {npc:258938}'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
