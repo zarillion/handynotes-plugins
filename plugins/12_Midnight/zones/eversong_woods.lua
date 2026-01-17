@@ -104,7 +104,7 @@ map.nodes[36383637] = Rare({
     quest = 92389, -- 92389 ?
     rewards = {
         Achievement({id = 61507, criteria = 110171}),
-        Reputation({id = 2710, gain = 50, quest = 95388}), Spacer(),
+        Reputation({id = 2710, gain = 50, quest = 94687}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
         Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
     }
