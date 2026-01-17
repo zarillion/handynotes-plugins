@@ -138,7 +138,7 @@ map.nodes[47773422] = Rare({
     rewards = {
         Achievement({id = 62122, criteria = 111847}),
         Transmog({item = 264648, type = L['1h_mace']}), -- Verminscale Gavel
-        Reputation({id = 2696, gain = 5, quest = 94704}), Spacer(), Spacer(),
+        Reputation({id = 2696, gain = 5, quest = 94704}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
 
