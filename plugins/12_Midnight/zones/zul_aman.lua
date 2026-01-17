@@ -40,6 +40,7 @@ map.nodes[34413305] = Rare({
     quest = 89569, -- 94683
     rewards = {
         Achievement({id = 62122, criteria = 111839}),
+        Reputation({id = 2696, gain = 5, quest = 94683}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
@@ -50,6 +51,7 @@ map.nodes[51801862] = Rare({
     quest = 89570, -- 94697
     rewards = {
         Achievement({id = 62122, criteria = 111840}),
+        Reputation({id = 2696, gain = 5, quest = 94697}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
@@ -60,7 +62,8 @@ map.nodes[51857291] = Rare({
     quest = 89571, -- 94698
     rewards = {
         Achievement({id = 62122, criteria = 111841}),
-        Transmog({item = 256231, type = L['2h_sword']}), Spacer(),
+        Transmog({item = 256231, type = L['2h_sword']}),
+        Reputation({id = 2696, gain = 5, quest = 94700}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
 
@@ -72,6 +75,7 @@ map.nodes[28952444] = Rare({
     quest = 89575, -- 89575/81425/94699?
     rewards = {
         Achievement({id = 62122, criteria = 111842}),
+        Reputation({id = 2696, gain = 5, quest = 94699}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
@@ -82,7 +86,8 @@ map.nodes[50876514] = Rare({
     quest = 91174, -- 94700
     rewards = {
         Achievement({id = 62122, criteria = 111843}),
-        Transmog({item = 264580, type = L['plate']}), Spacer(),
+        Transmog({item = 264580, type = L['plate']}),
+        Reputation({id = 2696, gain = 5, quest = 94700}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
 
@@ -95,7 +100,8 @@ map.nodes[38994997] = Rare({
     rewards = {
         Achievement({id = 62122, criteria = 111844}),
         Transmog({item = 264627, type = L['polearm']}), -- Rav'ik's Space Hunting Spear
-        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Reputation({id = 2696, gain = 5, quest = 94701}), Spacer(),
+        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
 
     },
@@ -107,6 +113,7 @@ map.nodes[30484456] = Rare({
     quest = 89578, -- 94702
     rewards = {
         Achievement({id = 62122, criteria = 111845}),
+        Reputation({id = 2696, gain = 5, quest = 94702}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
@@ -118,7 +125,8 @@ map.nodes[46295113] = Rare({
     rewards = {
         Achievement({id = 62122, criteria = 111846}),
         Transmog({item = 264541, type = L['leather']}), -- Egg-Swaddling Sash
-        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Reputation({id = 2696, gain = 5, quest = 94703}), Spacer(),
+        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
 
     }
@@ -130,7 +138,8 @@ map.nodes[47773422] = Rare({
     rewards = {
         Achievement({id = 62122, criteria = 111847}),
         Transmog({item = 264648, type = L['1h_mace']}), -- Verminscale Gavel
-        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Reputation({id = 2696, gain = 5, quest = 94704}), Spacer(), Spacer(),
+        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
 
     }
@@ -141,26 +150,29 @@ map.nodes[21307055] = Rare({
     quest = 89581, -- 94705
     rewards = {
         Achievement({id = 62122, criteria = 111848}),
+        Reputation({id = 2696, gain = 5, quest = 94705}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
 }) -- Voidtouched Crustacean
 
-map.nodes[39402040] = Rare({ -- wowhead beta coords
+map.nodes[39592097] = Rare({ -- wowhead beta coords
     id = 242035,
     quest = 89583, -- 89583/94706
     rewards = {
         Achievement({id = 62122, criteria = 111849}),
+        Reputation({id = 2696, gain = 5, quest = 94706}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
-}) -- The Devouring Invader
+}) -- The Devouring Invader in cave
 
 map.nodes[33718897] = Rare({
     id = 242026,
     quest = 89572, -- 94707
     rewards = {
         Achievement({id = 62122, criteria = 111850}), Item({item = 265543}),
+        Reputation({id = 2696, gain = 5, quest = 94707}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
 
@@ -172,6 +184,7 @@ map.nodes[47682056] = Rare({
     quest = 89573, -- 94708, -- 89573
     rewards = {
         Achievement({id = 62122, criteria = 111851}), Item({item = 265560}),
+        Reputation({id = 2696, gain = 5, quest = 94708}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
@@ -182,6 +195,7 @@ map.nodes[46394339] = Rare({
     quest = 91072, -- 94709
     rewards = {
         Achievement({id = 62122, criteria = 111852}),
+        Reputation({id = 2696, gain = 5, quest = 94709}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
@@ -192,6 +206,7 @@ map.nodes[45294170] = Rare({
     quest = 91073, -- 94710
     rewards = {
         Achievement({id = 62122, criteria = 111853}),
+        Reputation({id = 2696, gain = 5, quest = 94710}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
