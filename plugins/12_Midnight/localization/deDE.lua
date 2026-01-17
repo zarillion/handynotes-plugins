@@ -21,6 +21,9 @@ L['options_icons_midnight_lore_hunter_desc'] = 'Zeigt die Positionen der Geschic
 L['options_icons_profession_treasures'] = 'Schätze für Berufe'
 L['options_icons_profession_treasures_desc'] = 'Zeigt die Positionen der Schätze, die für deinen Beruf Wissen gewähren.'
 
+L['options_icons_safari'] = '{achievement:61091}'
+L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:61091} an.'
+
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------

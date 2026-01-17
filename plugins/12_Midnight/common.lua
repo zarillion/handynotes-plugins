@@ -11,6 +11,7 @@ local Collectible = ns.node.Collectible
 
 local Achievement = ns.reward.Achievement
 local Reputation = ns.reward.Reputation
+local Pet = ns.reward.Pet
 
 -------------------------------------------------------------------------------
 
@@ -47,6 +48,8 @@ ns.groups.MIDNIGHT_LORE_HUNTER = Group('midnight_lore_hunter', 4549135, {
     type = ns.group_types.ACHIEVEMENT,
     achievement = 62104
 })
+
+ns.groups.SAFARI = Group('safari', 3046536, {defaults = ns.GROUP_HIDDEN})
 
 ------------------------------ EVERSONG WOODS ---------------------------------
 
@@ -248,13 +251,176 @@ ns.node.Moth = Moth
 ------------------------------- MIDNIGHT SAFARI -------------------------------
 -------------------------------------------------------------------------------
 
--- local Safari = Class('Safari', Collectible,
---     {icon = 'paw_g', group = ns.groups.SAFARI}) -- Midnight Safari
+local Safari = Class('Safari', Collectible,
+    {icon = 'paw_g', group = ns.groups.SAFARI})
 
--- ns.node.Safari = Safari
+ns.node.Safari = {
 
--- map.nodes[0000] = Safari({
---     id = 222071,
---     rewards = {Achievement({id = nil, criteria = nil}), Pet({id = nil})}
---     -- pois = {POI({0000})}
--- }) -- Critter Name
+    AkilFledgling = Class('AkilFledgling', Safari, {
+        id = 249812,
+        rewards = {
+            Achievement({id = 61091, criteria = 112790, oneline = true}),
+            Pet({id = 4874})
+        }
+    }), -- Akil Fledgling
+
+    AzureSporebat = Class('AzureSporebat', Safari, {
+        id = 249822,
+        rewards = {
+            Achievement({id = 61091, criteria = 112791, oneline = true}),
+            Pet({id = 4882})
+        }
+    }), -- Azure Sporebat
+
+    DevouringRunt = Class('DevouringRunt', Safari, {
+        id = 240014,
+        rewards = {
+            Achievement({id = 61091, criteria = 112792, oneline = true}),
+            Pet({id = 4790})
+        }
+    }), -- Devouring Runt
+
+    EbonSnapling = Class('EbonSnapling', Safari, {
+        id = 249818,
+        rewards = {
+            Achievement({id = 61091, criteria = 112793, oneline = true}),
+            Pet({id = 4878})
+        }
+    }), -- Ebon Snapling
+
+    GloomToad = Class('GloomToad', Safari, {
+        id = 249826,
+        rewards = {
+            Achievement({id = 61091, criteria = 112794, oneline = true}),
+            Pet({id = 4885})
+        }
+    }), -- Gloom Toad
+
+    NetherFamiliar = Class('NetherFamiliar', Safari, {
+        id = 250571,
+        rewards = {
+            Achievement({id = 61091, criteria = 112795, oneline = true}),
+            Pet({id = 4889})
+        }
+    }), -- Nether Familiar
+
+    RootlingNester = Class('RootlingNester', Safari, {
+        id = 249815,
+        rewards = {
+            Achievement({id = 61091, criteria = 112796, oneline = true}),
+            Pet({id = 4875})
+        }
+    }), -- Rootling Nester
+
+    StripedSnakebiter = Class('StripedSnakebiter', Safari, {
+        id = 192368,
+        rewards = {
+            Achievement({id = 61091, criteria = 112797, oneline = true}),
+            Pet({id = 3364})
+        }
+    }), -- Striped Snakebiter
+
+    VibrantManaling = Class('VibrantManaling', Safari, {
+        id = 250572,
+        rewards = {
+            Achievement({id = 61091, criteria = 112798, oneline = true}),
+            Pet({id = 4890})
+        }
+    }), -- Vibrant Manaling
+
+    Voidcrawler = Class('Voidcrawler', Safari, {
+        id = 241439,
+        rewards = {
+            Achievement({id = 61091, criteria = 112799, oneline = true}),
+            Pet({id = 4795})
+        }
+    }), -- Voidcrawler
+
+    WrathfulWyrm = Class('WrathfulWyrm', Safari, {
+        id = 250573,
+        rewards = {
+            Achievement({id = 61091, criteria = 112800, oneline = true}),
+            Pet({id = 4891})
+        }
+    }), -- Wrathful Wyrm
+
+    AmberTreeflitter = Class('AmberTreeflitter', Safari, {
+        id = 241500,
+        rewards = {
+            Achievement({id = 61091, criteria = 112801, oneline = true}),
+            Pet({id = 3277})
+        }
+    }), -- Amber Treeflitter
+
+    Blistercreepling = Class('Blistercreepling', Safari, {
+        id = 249819,
+        rewards = {
+            Achievement({id = 61091, criteria = 112802, oneline = true}),
+            Pet({id = 4879})
+        }
+    }), -- Blistercreepling
+
+    DragonhawkMosswing = Class('DragonhawkMosswing', Safari, {
+        id = 249824,
+        rewards = {
+            Achievement({id = 61091, criteria = 112803, oneline = true}),
+            Pet({id = 4883})
+        }
+    }), -- Dragonhawk Mosswing
+
+    Pangolil = Class('Pangolil', Safari, {
+        id = 249825,
+        rewards = {
+            Achievement({id = 61091, criteria = 112804, oneline = true}),
+            Pet({id = 4884})
+        }
+    }), -- Pangolil
+
+    MudPotadpole = Class('MudPotadpole', Safari, {
+        id = 249816,
+        rewards = {
+            Achievement({id = 61091, criteria = 112805, oneline = true}),
+            Pet({id = 4876})
+        }
+    }), -- Mud Potadpole
+
+    RiftbladeFamiliar = Class('RiftbladeFamiliar', Safari, {
+        id = 250680,
+        rewards = {
+            Achievement({id = 61091, criteria = 112806, oneline = true}),
+            Pet({id = 4892})
+        }
+    }), -- Riftblade Familiar
+
+    Silkcrawler = Class('Silkcrawler', Safari, {
+        id = 249827,
+        rewards = {
+            Achievement({id = 61091, criteria = 112807, oneline = true}),
+            Pet({id = 4886})
+        }
+    }), -- Silkcrawler
+
+    SwampBiter = Class('SwampBiter', Safari, {
+        id = 249820,
+        rewards = {
+            Achievement({id = 61091, criteria = 112808, oneline = true}),
+            Pet({id = 4880})
+        }
+    }), -- Swamp Biter
+
+    VioletChick = Class('VioletChick', Safari, {
+        id = 249817,
+        rewards = {
+            Achievement({id = 61091, criteria = 112809, oneline = true}),
+            Pet({id = 4877})
+        }
+    }), -- Violet Chick
+
+    Waddles = Class('Waddles', Safari, {
+        id = 222077,
+        rewards = {
+            Achievement({id = 61091, criteria = 112810, oneline = true}),
+            Pet({id = 4497})
+        }
+    }) -- Waddles
+}

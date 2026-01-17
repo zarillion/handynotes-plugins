@@ -9,6 +9,7 @@ local Map = ns.Map
 local LoreObject = ns.node.LoreObject
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
+local Safari = ns.node.Safari
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
@@ -24,6 +25,7 @@ local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
+local Entrance = ns.poi.Entrance
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
@@ -73,7 +75,7 @@ map.nodes[36168355] = Rare({
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     },
-    pois = {POI({35698120})}
+    pois = {Entrance({35698120, 37538455})}
 }) -- Tremora
 
 map.nodes[43665154] = Rare({
@@ -105,7 +107,7 @@ map.nodes[39236392] = Rare({
     quest = 93944, -- 34751, -- 93944
     rewards = {
         Achievement({id = 62130, criteria = 111882}),
-         Reputation({id = 2699, gain = 50, quest = 94751}), Spacer(),
+        Reputation({id = 2699, gain = 50, quest = 94751}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
@@ -140,6 +142,7 @@ map.nodes[48815326] = Rare({
     quest = 93895, -- 93895
     rewards = {
         Achievement({id = 62130, criteria = 111885}),
+        Reputation({id = 2699, gain = 50, quest = 94763}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
@@ -170,7 +173,7 @@ map.nodes[35495023] = Rare({
     pois = {POI({35604940})}
 }) -- Bilemaw the Gluttonous
 
-slr.nodes[39049231] = Rare({ -- wowhead beta coords
+slr.nodes[40888899] = Rare({ -- wowhead beta coords
     id = 245182,
     quest = 91047, -- 94754, -- 91047
     rewards = {
@@ -181,8 +184,8 @@ slr.nodes[39049231] = Rare({ -- wowhead beta coords
     },
     pois = {
         Path({
-            39319097, 39099054, 38559100, 38649176, 39049231, 39499288,
-            39649360, 39759435, 40069375, 39819309, 39579242, 39429173, 39319097
+            41038872, 40888899, 41028949, 41058986, 41139032, 41169061,
+            41479058, 41719037, 41559005, 41428975, 41038872
         })
     },
     parent = map.id
@@ -205,6 +208,7 @@ map.nodes[53946272] = Rare({
     quest = 93896, -- 93896
     rewards = {
         Achievement({id = 62130, criteria = 111890}),
+        Reputation({id = 2699, gain = 50, quest = 94755}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
@@ -554,3 +558,17 @@ map.nodes[49278746] = SkyridingGlyph({
     rewards = {Achievement({id = 61583, criteria = 110382})}
 }) -- The Gorging Pit, Voidstorm
 
+-------------------------------------------------------------------------------
+-------------------------------- SAFARI ---------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[40803860] = Safari.DevouringRunt({
+    pois = {POI({40803860, 40303720, 27807270, 33106600})}
+})
+map.nodes[30406980] = Safari.Voidcrawler({
+    pois = {POI({30406980, 28906590, 39808370, 30606640})}
+})
+map.nodes[31104390] = Safari.Blistercreepling({
+    pois = {POI({31104390, 26005122, 48607830, 62806720})}
+})
+map.nodes[63307370] = Safari.RiftbladeFamiliar({})

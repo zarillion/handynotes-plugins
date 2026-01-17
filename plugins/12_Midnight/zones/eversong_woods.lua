@@ -11,6 +11,7 @@ local Painting = ns.node.EverPainting
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local RuneStone = ns.node.RuneStoneRush
+local Safari = ns.node.Safari
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
@@ -32,6 +33,7 @@ local POI = ns.poi.POI
 
 local map = Map({id = 2395, settings = true})
 local smc = Map({id = 2393, settings = true}) -- Silvermoon City
+local iqd = Map({id = 2424, settings = true}) -- Isle of Quel'Danas
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -540,3 +542,26 @@ map.nodes[38405580] = RuneStone(111481) -- Ath'ran Runestone (Commander Viskaj)
 map.nodes[61406280] = RuneStone(111482) -- Dawnstar Spire Runestone (Hal'nok the Trampler)
 map.nodes[41007380] = RuneStone(111483) -- Sanctum of the Moon Runestone (Commander Gravok)
 map.nodes[40601360] = RuneStone(111484) -- Sunstrider Isle Runestone (Claw of the Void)
+
+-------------------------------------------------------------------------------
+-------------------------------- SAFARI ---------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[39307950] = Safari.VibrantManaling({
+    pois = {
+        POI({
+            39307950, 60303760, 38406090, 53805530, 39207940, 39405660, 45406820
+        })
+    }
+})
+map.nodes[57604880] = Safari.AmberTreeflitter({
+    pois = {POI({57604880, 39106360, 40804660, 42603880, 50005960})}
+})
+map.nodes[46103680] = Safari.VioletChick({
+    pois = {POI({46103680, 38005780, 60907250, 55407310, 46003640, 55207320})}
+})
+
+iqd.nodes[51803150] = Safari.NetherFamiliar({
+    pois = {POI({51803150, 49802930, 29002900, 43601560})}
+})
+iqd.nodes[43303030] = Safari.WrathfulWyrm({pois = {POI({43303030, 49302230})}})

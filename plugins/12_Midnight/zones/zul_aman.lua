@@ -8,6 +8,7 @@ local Map = ns.Map
 local LoreObject = ns.node.LoreObject
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
+local Safari = ns.node.Safari
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
@@ -519,3 +520,29 @@ map.nodes[32292240] = SpiritpawMarathon({
         Achievement({id = 62202, criteria = 112042, oneline = true}) -- Spiritpaw Marathon,
     }
 }) -- Speak with Feevra (Achievement seems buggy not displaying on map)
+
+-------------------------------------------------------------------------------
+-------------------------------- SAFARI ---------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[49608160] = Safari.AkilFledgling({
+    pois = {POI({49608160, 47207570, 56207050, 52808060})}
+})
+map.nodes[41304860] = Safari.EbonSnapling({pois = {POI({41304860, 32704560})}})
+map.nodes[37606460] = Safari.GloomToad({
+    pois = {
+        POI({
+            37606460, 43405720, 29302940, 45307310, 29004180, 37406480, 45207300
+        })
+    }
+})
+map.nodes[50405760] = Safari.StripedSnakebiter({
+    pois = {POI({50405760, 51506720, 48104690, 48704970})}
+})
+map.nodes[48602360] = Safari.DragonhawkMosswing({
+    pois = {POI({48602360, 50802150, 50502480, 51802880})}
+})
+map.nodes[42205450] = Safari.Pangolil({})
+map.nodes[44903540] = Safari.SwampBiter({
+    pois = {POI({44903540, 46803590, 51406510, 51406480})}
+})

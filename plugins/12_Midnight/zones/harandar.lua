@@ -9,6 +9,7 @@ local Map = ns.Map
 local LoreObject = ns.node.LoreObject
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
+local Safari = ns.node.Safari
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
@@ -175,6 +176,7 @@ map.nodes[28118181] = Rare({ -- review
 
 map.nodes[27277032] = Rare({
     id = 250321,
+    location = L['in_cave'],
     quest = 92191, -- 94724, -- 92191
     rewards = {
         Achievement({id = 61264, criteria = 109051}),
@@ -619,15 +621,15 @@ local val = Map({id = 641, settings = true})
 
 mnt.nodes[58422998] = MoreThanJustThierRoots({
     id = 245103,
-    rewards = {Achievement({id = 62188, criteria = 111946})} -- Chonon
+    rewards = {Achievement({id = 62188, criteria = 111946})} -- Chonon (on the roots)
 })
 ami.nodes[34225261] = MoreThanJustThierRoots({
     id = 245107,
-    rewards = {Achievement({id = 62188, criteria = 111947})} -- Funnid
+    rewards = {Achievement({id = 62188, criteria = 111947})} -- Funnid (up in the tree)
 })
 hil.nodes[50824257] = MoreThanJustThierRoots({
     id = 251936,
-    rewards = {Achievement({id = 62188, criteria = 111948})} -- Kawayn
+    rewards = {Achievement({id = 62188, criteria = 111948})} -- Kawayn (on top of the trunk)
 })
 drk.nodes[33206678] = MoreThanJustThierRoots({
     id = 245105,
@@ -665,3 +667,17 @@ https://www.wowhead.com/beta/quest=88997/russulas-outreach
 
 ]] --
 
+-------------------------------------------------------------------------------
+-------------------------------- SAFARI ---------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[72806790] = Safari.AzureSporebat({
+    pois = {POI({72806790, 69906440, 56705450, 64104560})}
+})
+map.nodes[35506380] =
+    Safari.RootlingNester({pois = {POI({35506380, 52908020})}})
+map.nodes[69503150] = Safari.MudPotadpole({})
+map.nodes[41506980] = Safari.Silkcrawler({
+    pois = {POI({41506980, 57804410, 39403380, 61902720})}
+})
+map.nodes[61101950] = Safari.Waddles({})

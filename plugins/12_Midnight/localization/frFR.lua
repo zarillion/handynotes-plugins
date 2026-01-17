@@ -21,6 +21,9 @@ L['options_icons_midnight_lore_hunter_desc'] = 'Afficher les emplacements des ob
 L['options_icons_profession_treasures'] = 'Trésors de métiers'
 L['options_icons_profession_treasures_desc'] = 'Afficher les emplacements des trésors qui confèrent de la connaissance de métiers.'
 
+L['options_icons_safari'] = '{achievement:61091}'
+L['options_icons_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:61091}.'
+
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------

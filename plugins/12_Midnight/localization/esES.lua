@@ -20,6 +20,9 @@ L['options_icons_midnight_lore_hunter_desc'] = 'Muestra dónde están los objeto
 L['options_icons_profession_treasures'] = 'Tesoros de profesión'
 L['options_icons_profession_treasures_desc'] = 'Muestra dónde están los tesoros que garantizan conocimiento de profesión.'
 
+L['options_icons_safari'] = '{achievement:61091}'
+L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:61091}.'
+
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------

@@ -20,6 +20,9 @@ L['options_icons_midnight_lore_hunter_desc'] = nil
 L['options_icons_profession_treasures'] = '专业宝藏'
 L['options_icons_profession_treasures_desc'] = '显示给予专业知识的宝藏位置。'
 
+L['options_icons_safari'] = '{achievement:61091}'
+L['options_icons_safari_desc'] = '显示 {achievement:61091} 成就中战斗宠物的位置。'
+
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------

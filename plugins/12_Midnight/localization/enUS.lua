@@ -20,6 +20,9 @@ L['options_icons_midnight_lore_hunter_desc'] = 'Display lore object locations fo
 L['options_icons_profession_treasures'] = 'Profession Treasures'
 L['options_icons_profession_treasures_desc'] = 'Display locations of treasures which grant profession knowledge.'
 
+L['options_icons_safari'] = '{achievement:61091}'
+L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievement:61091} achievement.'
+
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------
