@@ -72,6 +72,7 @@ map.nodes[51857291] = Rare({
 
 map.nodes[28952444] = Rare({
     id = 242028,
+    location = L['in_cave'],
     quest = 89575, -- 89575/81425/94699?
     rewards = {
         Achievement({id = 62122, criteria = 111842}),
@@ -121,6 +122,7 @@ map.nodes[30484456] = Rare({
 
 map.nodes[46295113] = Rare({
     id = 242032,
+    location = L['in_cave'],
     quest = 89579, -- 94703
     rewards = {
         Achievement({id = 62122, criteria = 111846}),
@@ -158,6 +160,7 @@ map.nodes[21307055] = Rare({
 
 map.nodes[39592097] = Rare({ -- wowhead beta coords
     id = 242035,
+    location = L['in_cave'],
     quest = 89583, -- 89583/94706
     rewards = {
         Achievement({id = 62122, criteria = 111849}),
