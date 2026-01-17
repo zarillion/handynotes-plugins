@@ -23,6 +23,7 @@ local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 local Reputation = ns.reward.Reputation
 
+local Entrance = ns.poi.Entrance
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
@@ -212,16 +213,16 @@ map.nodes[47065025] = Treasure({
 map.nodes[73656535] = Treasure({
     quest = 92427,
     rewards = {
-        Achievement({id = 61263, criteria = 109035}),
-        Transmog({item = 263289, type = L['cosmetic']})
+        Achievement({id = 61263, criteria = 109035}), --
+        Transmog({item = 263289}) -- Sporelord's Authority
     }
 }) -- Sporelord's Fight Prize
 
 map.nodes[62905124] = Treasure({
     quest = 92431,
     rewards = {
-        Achievement({id = 61263, criteria = 109036}),
-        Transmog({item = 263287, type = L['cosmetic']}) -- [Reliquary-Keeper's Lost Shortbow]
+        Achievement({id = 61263, criteria = 109036}), --
+        Transmog({item = 263287}) -- Reliquary-Keeper's Lost Shortbow
     }
 }) -- Reliquary's Lost Paintbrush
 
@@ -241,11 +242,13 @@ map.nodes[20003500] = Treasure({
 
 map.nodes[26736759] = Treasure({
     quest = 93508,
+    location = L['in_small_cave'],
     note = L['impenatrably_sealed_gourd_note'],
     rewards = {
         Achievement({id = 61263, criteria = 110255}),
         Pet({item = 260730, id = 4948}) -- [Perturbed Sporebat]
-    }
+    },
+    pois = {Entrance({27536797})}
 }) -- Impenatrably Sealed Gourd
 -- Loot [Mysterious Red Fluid] (260251) from the nearby {object:Dangling Jug}
 -- loot [Mysterious Purple Fluid] (260250) from the nearby {object:Hanging Flask}
@@ -412,7 +415,6 @@ map.nodes[68212379] = LoreObject({
 -- Glowing Moth, first moth triggered quest 92231 and gives item 251881 which starts quest 92448
 -- moths give 1x currency 3385 (Luminous Dust)
 -- 120 in total to find
-
 
 map.nodes[36354839] = Moth({quest = 92196, renown = 1}) -- Group 1
 map.nodes[36112639] = Moth({quest = 92197, renown = 1}) -- Group 1

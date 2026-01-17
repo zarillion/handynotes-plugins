@@ -246,16 +246,18 @@ map.nodes[25766728] = Treasure({
 
 map.nodes[64537547] = Treasure({
     quest = 93431,
-    note = L['bloody_sack_note'], -- Collect Dripping Meat from nearby bone piles
+    note = L['bloody_sack_note'],
     rewards = {
-        Achievement({id = 62126, criteria = 111866}), Toy({item = 267139}) -- Hungry Black Hole
+        Achievement({id = 62126, criteria = 111866}), --
+        Toy({item = 267139}) -- Hungry Black Hole
     }
 }) -- Bloody Sack
 
 map.nodes[53364266] = Treasure({
     quest = 93840,
     rewards = {
-        Achievement({id = 62126, criteria = 111867}), Decor({id = 15746}) -- Void Elf Torch
+        Achievement({id = 62126, criteria = 111867}), --
+        Decor({id = 15746}) -- Void Elf Torch
     },
     note = L['malignant_chest_note'],
     pois = {
@@ -269,7 +271,8 @@ map.nodes[53364266] = Treasure({
 slr.nodes[53133228] = Treasure({
     quest = 93996, -- 94005 after you pull out the stash
     rewards = {
-        Achievement({id = 62126, criteria = 111868}), Decor({id = 14597})
+        Achievement({id = 62126, criteria = 111868}), --
+        Decor({id = 14597})
     },
     parent = map.id
 }) -- Stellar Stash
@@ -277,7 +280,8 @@ slr.nodes[53133228] = Treasure({
 lop_b.nodes[23748369] = Treasure({
     quest = 94454,
     rewards = {
-        Achievement({id = 62126, criteria = 111869}), Toy({item = 250319}) -- Shadowgraft
+        Achievement({id = 62126, criteria = 111869}), --
+        Toy({item = 250319}) -- Shadowgraft
     }
 }) -- Forgotten Researcher's Cache
 
@@ -285,7 +289,8 @@ map.nodes[47937851] = Treasure({
     quest = 94454,
     location = L['in_cave'],
     rewards = {
-        Achievement({id = 62126, criteria = 111869}), Toy({item = 250319}) -- Shadowgraft
+        Achievement({id = 62126, criteria = 111869}), --
+        Toy({item = 250319}) -- Shadowgraft
     }
 }) -- Forgotten Researcher's Cache -- Entrance
 -- TODO: recheck on live servers, beta has no translation to main map coords for this map
@@ -293,8 +298,8 @@ map.nodes[47937851] = Treasure({
 slr.nodes[49052012] = Treasure({
     quest = 94387,
     rewards = {
-        Achievement({id = 62126, criteria = 111870}),
-        Transmog({item = 266101, type = L['cosmetic']}) -- Unused Initiates's Bulwark
+        Achievement({id = 62126, criteria = 111870}), --
+        Transmog({item = 266101}) -- Unused Initiates's Bulwark
     },
     parent = map.id
 }) -- Scout's Pack
@@ -302,8 +307,8 @@ slr.nodes[49052012] = Treasure({
 map.nodes[55377542] = Treasure({
     quest = 93553,
     rewards = {
-        Achievement({id = 62126, criteria = 111871}),
-        Transmog({item = 266075, type = L['cosmetic']}) -- Harpoon of Extirpation
+        Achievement({id = 62126, criteria = 111871}), --
+        Transmog({item = 266075}) -- Harpoon of Extirpation
     }
 }) -- Embedded Spear
 
@@ -319,16 +324,16 @@ map.nodes[28337290] = Treasure({
     quest = 93569,
     note = L['exaliburn_note'], -- Use Potion of Unquestionable Strength nearby
     rewards = {
-        Achievement({id = 62126, criteria = 111873}),
-        Transmog({item = 266099, type = L['cosmetic']}) -- Extinguished Exaliburn
+        Achievement({id = 62126, criteria = 111873}), --
+        Transmog({item = 266099}) -- Extinguished Exaliburn
     }
 }) -- Exaliburn
 
 map.nodes[35774141] = Treasure({
     quest = 93496,
     rewards = {
-        Achievement({id = 62126, criteria = 111874}),
-        Transmog({item = 266100, type = L['cosmetic']}) -- Barbed Riftwalker Dirk
+        Achievement({id = 62126, criteria = 111874}), --
+        Transmog({item = 266100}) -- Barbed Riftwalker Dirk
     },
     parent = slr.id
 }) -- Discarded Energy Pike
@@ -336,8 +341,8 @@ map.nodes[35774141] = Treasure({
 map.nodes[43018194] = Treasure({
     quest = 93493,
     rewards = {
-        Achievement({id = 62126, criteria = 111875}),
-        Transmog({item = 266098, type = L['cosmetic']}) -- Faindel's Longbow
+        Achievement({id = 62126, criteria = 111875}), --
+        Transmog({item = 266098}) -- Faindel's Longbow
     }
 }) -- Faindel's Quiver
 

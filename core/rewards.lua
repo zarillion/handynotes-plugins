@@ -799,13 +799,13 @@ function Decor:GetText()
     return Icon(self.itemIcon) .. self.itemLink .. ' (' .. self.type .. ')'
 end
 
-function Decor:GetStatus()
-    if not self.item then return end
+-- function Decor:GetStatus()
+--     if not self.item then return end
 
-    local item = C_HousingCatalog.GetCatalogEntryInfoByItem(self.item, true)
-    local owned = item.numStored + item.numPlaced
-    return L['decor_owned']:format(owned or 0)
-end
+--     local item = C_HousingCatalog.GetCatalogEntryInfoByItem(self.item, true) -- In the beta this API does NOT return any OwnedInfo
+--     local owned = item.numStored + item.numPlaced
+--     return L['decor_owned']:format(owned or 0)
+-- end
 
 -------------------------------------------------------------------------------
 

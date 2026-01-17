@@ -16,6 +16,7 @@ local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
+local Decor = ns.reward.Decor
 -- local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
@@ -231,14 +232,17 @@ map.nodes[38897606] = Treasure({
 map.nodes[40961945] = Treasure({
     quest = 93544, -- 93545 triggered when returning cinders
     note = L['gift_of_the_phoenix_note'],
-    rewards = {Achievement({id = 61960, criteria = 111473})}
+    rewards = {
+        Achievement({id = 61960, criteria = 111473}), --
+        Decor({item = 263211}) -- Gilded Eversong Cup
+    }
 }) -- Gift of the Phoenix
 
 map.nodes[43276949] = Treasure({
     quest = 94747, -- 93893
     rewards = {
-        Achievement({id = 61960, criteria = 111474}),
-        ns.reward.Item({item = 262616})
+        Achievement({id = 61960, criteria = 111474}), --
+        Decor({item = 262616}) -- Lively Songwriter's Quill
     }
 }) -- Forgotten Ink and Quill
 
@@ -259,14 +263,20 @@ map.nodes[60686729] = Treasure({
 
 map.nodes[40436089] = Treasure({
     quest = 86645, -- 93061
-    note = L['eversong_woods_stone_vat_of_wine_note'], -- requires 10 Bunch of Ripe Grapes (item 256232) and Instant Yeast (item 256397) from sheri. Stomp on the Grapes then add the yeast. -- todo add to locale
-    location = L['eversong_woods_stone_vat_of_wine_location'], -- on a flying platform -- todo add to licale
-    rewards = {Achievement({id = 61960, criteria = 111478})} -- + [Goldenmist Grapes] housing decor
+    location = L['on_flying_platform'],
+    note = L['eversong_woods_stone_vat_of_wine_note'],
+    rewards = {
+        Achievement({id = 61960, criteria = 111478}), --
+        Decor({item = 251912}) -- Goldenmist Grapes
+    }
 }) -- Stone Vat of Wine
 
 map.nodes[48737544] = Treasure({
     quest = 91358,
-    rewards = {Achievement({id = 61960, criteria = 111479}), Pet({id = 4974})}
+    rewards = {
+        Achievement({id = 61960, criteria = 111479}), --
+        Pet({id = 4974})
+    }
 }) -- Burbling Paint Pot
 
 smc.nodes[37805238] = Treasure({
