@@ -50,7 +50,7 @@ L['impenatrably_sealed_gourd_note'] = nil
 
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = 'Afficher les emplacements des PNJs pour le haut-fait {achievement:62188}.'
-L['more_than_just_thier_roots_note'] = nil
+L['more_than_just_thier_roots_note'] = 'Parlez aux PNJs aux endroits suivants :'
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
@@ -65,13 +65,13 @@ L['malignant_node'] = 'Nœud malveillant'
 -------------------------------------------------------------------------------
 
 L['options_icons_frog_princess'] = '{achievement:62201}'
-L['options_icons_frog_princess_desc'] = nil
+L['options_icons_frog_princess_desc'] = 'Afficher les emplacements des grenouilles pour le haut-fait {achievement:62201}.'
 
 L['options_icons_song_seeker'] = '{achievement:61455}'
-L['options_icons_song_seeker_desc'] = nil
+L['options_icons_song_seeker_desc'] = 'Afficher les emplacements des Cherche-Chant pour le haut-fait {achievement:61455}.'
 
 L['options_icons_spiritpaw_marathon'] = '{achievement:62202}'
-L['options_icons_spiritpaw_marathon_desc'] = nil
+L['options_icons_spiritpaw_marathon_desc'] = 'Afficher les emplacements liés au haut-fait {achievement:62202}.'
 L['spiritpaw_marathon_note'] = 'Parlez avec {npc:258938}.'
 
 -------------------------------------------------------------------------------
