@@ -75,7 +75,7 @@ ns.groups.MORE_THAN_JUST_THIER_ROOTS = Group('more_than_just_thier_roots',
         defaults = ns.GROUP_HIDDEN,
         type = ns.group_types.ACHIEVEMENT,
         achievement = 62188
-})
+    })
 
 --------------------------------- ZUL'AMAN ------------------------------------
 
