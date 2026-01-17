@@ -45,11 +45,11 @@ L['options_icons_glowing_moth_desc'] = 'Muestra dónde están las Polillas respl
 
 L['sporespawned_cache_note'] = 'Interactúa con la {dot:Red}{object:Marra fúngica} en la Aldea Fungara para conseguir el buff {spell:1266347} y úsalo para hacer sonar el {object:Gong micelio}. El tesoro aparecerá junto al gong.'
 L['fungal_mallet'] = 'Marra fúngica'
-L['impenatrably_sealed_gourd_note'] = nil
+L['impenatrably_sealed_gourd_note'] = 'Despoja el {item:260251} de la {object:Jarra colgante} cercana y el {item:260250} del {object:Frasco colgante} cercano. \nInteractúa con el {object:Jarrón duradero} y añade los fluidos para conseguir el {item:260266}. \nInteractúa con el tesoro para conseguir la recompensa.'
 
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = 'Muestra dónde están los NPC para el logro {achievement:62188}.'
-L['more_than_just_thier_roots_note'] = nil
+L['more_than_just_thier_roots_note'] = 'Habla con los NPC en las siguientes ubicaciones:'
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
@@ -64,13 +64,13 @@ L['malignant_node'] = 'Nodos malignos'
 -------------------------------------------------------------------------------
 
 L['options_icons_frog_princess'] = '{achievement:62201}'
-L['options_icons_frog_princess_desc'] = nil
+L['options_icons_frog_princess_desc'] = 'Muestra dónde están las ranas para el logro {achievement:62201}.'
 
 L['options_icons_song_seeker'] = '{achievement:61455}'
-L['options_icons_song_seeker_desc'] = nil
+L['options_icons_song_seeker_desc'] = 'Muestra dónde están los buscacantos Sombrapino para el logro {achievement:61455}.'
 
 L['options_icons_spiritpaw_marathon'] = '{achievement:62202}'
-L['options_icons_spiritpaw_marathon_desc'] = nil
+L['options_icons_spiritpaw_marathon_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:62202}.'
 L['spiritpaw_marathon_note'] = 'Habla con {npc:258938}.'
 
 -------------------------------------------------------------------------------
