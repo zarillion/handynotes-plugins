@@ -66,7 +66,7 @@ def main(
         python release.py v60
     """
 
-    if "CI" in os.environ and tag.value not in current_tags():
+    if tag.value.startswith("v") and tag.value not in current_tags():
         print(f"Tag not present on HEAD: {tag}", file=sys.stderr)
         return 1
 

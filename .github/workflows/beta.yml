@@ -32,10 +32,9 @@ jobs:
       - name: Build release
         id: release
         run: |
-          python scripts/release.py ${GITHUB_REF:10} \
+          python scripts/release.py b${{ github.run_id }} \
             --curse-token ${{ secrets.CURSEFORGE_API_TOKEN }} \
             --wago-token ${{ secrets.WAGO_API_TOKEN }} \
             --wowi-token ${{ secrets.WOWINTERFACE_API_TOKEN }} \
             --github-token ${{ secrets.GITHUB_TOKEN }} \
-            --expansion 12 \
-            b${{ github.run_id }}
+            --expansion 12
