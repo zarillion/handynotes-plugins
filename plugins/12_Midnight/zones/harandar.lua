@@ -672,12 +672,18 @@ https://www.wowhead.com/beta/quest=88997/russulas-outreach
 -------------------------------------------------------------------------------
 
 map.nodes[72806790] = Safari.AzureSporebat({
-    pois = {POI({72806790, 69906440, 56705450, 64104560})}
+    pois = {
+        POI({
+            72806790, 69906440, 56705450, 64104560, 59664567, 53206733,
+            52668026, 59663227, 61934807, 62186583, 57585470
+        })
+    }
 })
-map.nodes[35506380] =
-    Safari.RootlingNester({pois = {POI({35506380, 52908020})}})
+map.nodes[35506380] = Safari.RootlingNester({
+    pois = {POI({35506380, 52908020, 66583758, 53187541})}
+})
 map.nodes[69503150] = Safari.MudPotadpole({})
 map.nodes[41506980] = Safari.Silkcrawler({
-    pois = {POI({41506980, 57804410, 39403380, 61902720})}
+    pois = {POI({41506980, 57804410, 39403380, 61902720, 48455859, 50462682})}
 })
 map.nodes[61101950] = Safari.Waddles({})
