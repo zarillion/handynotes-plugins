@@ -923,6 +923,7 @@ L['smelly_treasure_chest_label'] = 'Stinkende Schatztruhe'
 L['options_icons_smelly_treasure_chest'] = 'Stinkende Schatztruhe'
 L['options_icons_smelly_treasure_chest_desc'] = 'Zeigt die möglichen Positionen der {object:Stinkende Schatztruhe} an.'
 
+L['seething_cache'] = 'Brodelnde Kugel'
 L['seething_cache_treasure_note'] = 'Sammle von {object:Brodelnde Kugel} 3x Stapel des Schwächungszaubers {spell:399342}, um die Truhe sehen und öffnen zu können.'
 L['chest_of_the_flights_treasure_note'] = 'Aktiviere {object:Ermächtigte Edelsteine} in der Reihenfolge {note:Rot > Schwarz > Blau > Gelb > Grün}, um die Truhe öffnen zu können.'
 L['curious_top_hat_note'] = 'Interagiere mit {npc:205010}, während du den {spell:410288} Stärkungszauber auf dir hast, um {item:205021} zu erhalten. Wenn du den Stärkungszauber nicht hast, wird er weglaufen.'

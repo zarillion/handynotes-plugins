@@ -922,6 +922,7 @@ L['smelly_treasure_chest_label'] = '臭垃圾箱'
 L['options_icons_smelly_treasure_chest'] = '臭垃圾箱'
 L['options_icons_smelly_treasure_chest_desc'] = '显示 {object:臭垃圾箱} 可能的位置。'
 
+L['seething_cache'] = '沸燃之箱'
 L['seething_cache_treasure_note'] = '为了能够看到 {object:沸燃之箱} 并拾取 {item:192779}，需要从位于 {location:查拉雷克洞窟} 的 {location:扎卡利喷口} 区域的 {object:沸燃宝珠} 获得3层 {spell:399342} 负面效果。'
 L['chest_of_the_flights_treasure_note'] = '要打开宝箱，需要按 {note:红 > 黑 > 蓝 > 黄 > 绿} 的顺序点击 {object:强化宝石}。'
 L['curious_top_hat_note'] = '在拥有 {spell:410288} 增益时与 {npc:205010} 互动并得到 {item:205021}。如果没有增益并靠近他，他就会逃跑。'

@@ -1,3 +1,7 @@
+# v130
+
+* Fixed Seething Cache in Zarelek caverns displaying as incorrect treasure
+
 # v129
 
 * Moved Profession Treasure functionality to core

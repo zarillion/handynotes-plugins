@@ -922,6 +922,7 @@ L['smelly_treasure_chest_label'] = 'Smelly Treasure Chest'
 L['options_icons_smelly_treasure_chest'] = 'Smelly Treasure Chest'
 L['options_icons_smelly_treasure_chest_desc'] = 'Display possible locations of {object:Smelly Treasure Chest}.'
 
+L['seething_cache'] = 'Seething Cache'
 L['seething_cache_treasure_note'] = 'To be able to see the {object:Seething Cache} and loot the {item:192779} you\'ll need to pick up 3x stacks of a {spell:399342} debuff from {object:Seething Orbs} located in the {location:Zaqali Caldera} area in {location:Zaralek Cavern}.'
 L['chest_of_the_flights_treasure_note'] = 'To open the treasure chest you need to click on the {object:Empowered Gems} in the order {note:Red > Black > Blue > Yellow > Green}.'
 L['curious_top_hat_note'] = 'Interact with {npc:205010} while you have the {spell:410288} Buff to recieve {item:205021}. If you dont have the Buff and go near him he will run away.'
