@@ -665,6 +665,12 @@ https://www.wowhead.com/beta/quest=88997/russulas-outreach
 [61023895] = {vignette=7382, label="Tending the Lands: The Plan"}, 93484
 [61413718] = {vignette=7383, label="Tending the Lands: The Cycle"}, 93483
 
+
+https://www.wowhead.com/beta/quest=88995/alnharas-bloom
+91455/89284
+[55036627] = {vignette=7376, label="Seeker's Trail: Seeking Peace"},93478
+[53686695] = {vignette=7375, label="Seeker's Trail: Call of Aln'hara"},93479
+[55936686] = {vignette=7377, label="Seeker's Trail: Unending Mission"},93476
 ]] --
 
 -------------------------------------------------------------------------------
