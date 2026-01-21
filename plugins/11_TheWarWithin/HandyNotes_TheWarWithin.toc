@@ -1,4 +1,4 @@
-## Interface: 110207
+## Interface: 120000
 ## Title: HandyNotes: The War Within
 ## Version: 0
 ## Notes: The War Within Notes
