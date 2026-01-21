@@ -1,3 +1,7 @@
+# v130
+
+* Bump toc to 120000
+
 # v129
 
 * Fixed invalid coordinates in Maldraxxus and Revendreth

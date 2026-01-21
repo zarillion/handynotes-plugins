@@ -1,3 +1,8 @@
+# v130
+
+* Housing riddle updates
+* Bump toc to 120000
+
 # v129
 
 * Added Neighborhood Riddles feature with new riddle nodes in Neighborhood Alliance and Horde zones

@@ -1,6 +1,8 @@
 # v130
 
+* Bump toc to 120000
 * Fixed Seething Cache in Zarelek caverns displaying as incorrect treasure
+* Localization updates: ruRU
 
 # v129
 
