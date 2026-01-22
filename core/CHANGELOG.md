@@ -1,3 +1,7 @@
+# v131
+
+* Updated all plugins for compatibility with 12.0.0 UI changes.
+
 # v129
 
 * Updated Ace3 Libraries
