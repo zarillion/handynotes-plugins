@@ -169,12 +169,23 @@ local function HookAllPOIS()
         local poi = ns.hooks['delve'][self.poiInfo.areaPoiID]
         if not poi then return end
 
-        local hookInfo = Hook({
-            rewardsSpaceBefore = true,
-            rewardsSpaceAfter = false,
-            rewards = poi.rewards,
-            group = poi.group
-        })
+        local hookInfo
+
+        if (self.poiInfo.description == _G.DELVE_LABEL) then
+            hookInfo = Hook({
+                rewardsSpaceBefore = true,
+                rewardsSpaceAfter = false,
+                rewards = poi.rewards,
+                group = poi.group
+            })
+        else
+            hookInfo = Hook({
+                rewardsSpaceBefore = false,
+                rewardsSpaceAfter = true,
+                rewards = poi.rewards,
+                group = poi.group
+            })
+        end
 
         renderTooltip(self, hookInfo)
     end)

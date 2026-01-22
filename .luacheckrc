@@ -46,6 +46,7 @@ read_globals = {
     'C_QuestLine',
     'C_QuestLog',
     'C_Reputation',
+    'C_SpecializationInfo',
     'C_Spell',
     'C_SuperTrack',
     'C_TaskQuest',
@@ -82,8 +83,6 @@ read_globals = {
     'GetQuestObjectiveInfo',
     'GetQuestResetTime',
     'GetServerTime',
-    'GetSpecialization',
-    'GetSpecializationInfo',
     'GetSpecializationInfoByID',
     'GetSpellInfo', -- 10.2.7
     'GetText',

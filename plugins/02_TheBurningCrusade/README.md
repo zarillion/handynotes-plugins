@@ -13,6 +13,7 @@
 * [HandyNotes: Shadowlands](https://www.curseforge.com/wow/addons/handynotes-shadowlands)
 * [HandyNotes: Dragonflight](https://www.curseforge.com/wow/addons/handynotes-dragonflight)
 * [HandyNotes: The War Within](https://www.curseforge.com/wow/addons/handynotes-the-war-within)
+* [HandyNotes: Midnight](https://www.curseforge.com/wow/addons/handynotes-midnight)
 
 ## Global Features
 
@@ -69,7 +70,7 @@ In addition to rares, this plugin also adds the following expansion or zone-spec
 This addon has been translated to the following languages:
 
 * `deDE` - German (thanks Dathwada EU-Eredar!)
-* `esES` - Spanish (Spain) (thanks (EU) Krovikan-Minahonda!)
+* `esES` - Spanish (Spain) (thanks Krovikan EU-Minahonda!)
 * `frFR` - French (thanks Lightuky EU-Khaz Modan!)
 * `zhCN` - Chinese (Simplified) (thanks Adavak!)
 

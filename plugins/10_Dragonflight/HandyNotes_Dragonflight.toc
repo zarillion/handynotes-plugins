@@ -1,4 +1,4 @@
-## Interface: 120000
+## Interface: 120000, 120001
 ## Title: HandyNotes: Dragonflight
 ## Version: 0
 ## Notes: Dragonflight Notes

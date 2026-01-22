@@ -40,15 +40,15 @@ ns.icons.tormentor = {Icon('tormentor'), Glow('tormentor')}
 ---------------------------------- CALLBACKS ----------------------------------
 -------------------------------------------------------------------------------
 
-ns.addon:RegisterEvent('COMBAT_LOG_EVENT_UNFILTERED', function()
-    -- Listen for aura applied/removed events so we can refresh when the player
-    -- enters and exits the rift in Korthia and the Maw
-    local _, e, _, _, _, _, _, _, t, _, _, s = CombatLogGetCurrentEventInfo()
-    if (e == 'SPELL_AURA_APPLIED' or e == 'SPELL_AURA_REMOVED') and t ==
-        UnitName('player') and (s == 352795 or s == 354870) then
-        C_Timer.After(1, function() ns.addon:Refresh() end)
-    end
-end)
+-- ns.addon:RegisterEvent('COMBAT_LOG_EVENT_UNFILTERED', function()
+--     -- Listen for aura applied/removed events so we can refresh when the player
+--     -- enters and exits the rift in Korthia and the Maw
+--     local _, e, _, _, _, _, _, _, t, _, _, s = CombatLogGetCurrentEventInfo()
+--     if (e == 'SPELL_AURA_APPLIED' or e == 'SPELL_AURA_REMOVED') and t ==
+--         UnitName('player') and (s == 352795 or s == 354870) then
+--         C_Timer.After(1, function() ns.addon:Refresh() end)
+--     end
+-- end)
 
 ns.addon:RegisterEvent('UNIT_SPELLCAST_SUCCEEDED', function(...)
     -- Watch for a spellcast event that signals the kitten was pet.

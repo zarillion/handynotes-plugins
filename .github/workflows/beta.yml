@@ -1,0 +1,40 @@
+name: Automated Release
+
+# Temporary workflow for automated beta releases
+# TODO: Delete me after merge to master branch
+
+on:
+  push:
+    branches:
+      - beta_12.0.0
+
+jobs:
+  build:
+    name: Release Addon
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Build release artifacts and upload them to CF, WoWI and GitHub
+      - name: Build release
+        id: release
+        run: |
+          python scripts/release.py b${{ github.run_id }} \
+            --curse-token ${{ secrets.CURSEFORGE_API_TOKEN }} \
+            --wago-token ${{ secrets.WAGO_API_TOKEN }} \
+            --wowi-token ${{ secrets.WOWINTERFACE_API_TOKEN }} \
+            --github-token ${{ secrets.GITHUB_TOKEN }} \
+            --expansion 12

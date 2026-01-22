@@ -1,0 +1,14 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+  <Script file="common.lua"/>
+  <Script file="zones\eversong_woods.lua"/>
+  <Script file="zones\harandar.lua"/>
+  <Script file="zones\voidstorm.lua"/>
+  <Script file="zones\zul_aman.lua"/>
+  <!-- -->
+  <Script file="zones\arcantina.lua"/>
+  <Script file="zones\delves.lua"/>
+  <!-- -->
+  <!-- <Script file="zones\neighborhood_alliance.lua"/> -->
+  <Script file="zones\neighborhood_horde.lua"/>
+</Ui>

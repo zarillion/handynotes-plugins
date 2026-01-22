@@ -105,13 +105,14 @@ ns.groups.NAZJA_SAFARI = Group('nazja_safari', 2267049,
 
 -- Listen for aura applied/removed events so we can refresh when the player
 -- enters and exits the alternate future
-ns.addon:RegisterEvent('COMBAT_LOG_EVENT_UNFILTERED', function()
-    local _, e, _, _, _, _, _, _, t, _, _, s = CombatLogGetCurrentEventInfo()
-    if (e == 'SPELL_AURA_APPLIED' or e == 'SPELL_AURA_REMOVED') and t ==
-        UnitName('player') and s == 296644 then
-        C_Timer.After(1, function() ns.addon:Refresh() end)
-    end
-end)
+
+-- ns.addon:RegisterEvent('COMBAT_LOG_EVENT_UNFILTERED', function()
+--     local _, e, _, _, _, _, _, _, t, _, _, s = CombatLogGetCurrentEventInfo()
+--     if (e == 'SPELL_AURA_APPLIED' or e == 'SPELL_AURA_REMOVED') and t ==
+--         UnitName('player') and s == 296644 then
+--         C_Timer.After(1, function() ns.addon:Refresh() end)
+--     end
+-- end)
 
 ns.addon:RegisterEvent('QUEST_ACCEPTED', function(_, _, id)
     if id == 56540 then
