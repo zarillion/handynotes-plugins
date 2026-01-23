@@ -464,6 +464,7 @@ map.nodes[37815497] = Telescope({
 -------------------------------------------------------------------------------
 
 slr.nodes[41964062] = PT.Alchemy({quest = 89112, id = 238533, parent = map.id}) -- Vial of Voidstorm Oddities
+map.nodes[32794329] = PT.Alchemy({quest = 89118, id = 238539}) -- Failed Experiment
 map.nodes[30516899] = PT.Blacksmithing({quest = 89181, id = 238544}) -- Voidstorm Defense Spear
 map.nodes[35495882] = PT.Enchanting({quest = 89102, id = 238550}) -- Pure Void Crystal
 slr.nodes[54135101] = PT.Engineering({
