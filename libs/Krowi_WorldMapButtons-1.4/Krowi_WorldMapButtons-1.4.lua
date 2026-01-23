@@ -18,7 +18,7 @@
 		the copyright holders.
 ]]
 
-local lib, oldminor = LibStub:NewLibrary('Krowi_WorldMapButtons-1.4', 7);
+local lib, oldminor = LibStub:NewLibrary('Krowi_WorldMapButtons-1.4', 8);
 
 if not lib then
 	return;
@@ -26,28 +26,27 @@ end
 
 local version = (GetBuildInfo());
 local major = string.match(version, "(%d+)%.(%d+)%.(%d+)(%w?)");
-lib.IsClassic = major == "1";
-lib.IsTbcClassic = major == "2";
-lib.IsWrathClassic = major == "3";
-lib.HasNoOverlay = lib.IsClassic or lib.IsTbcClassic or lib.IsWrathClassic;
-lib.IsDragonflight = major == "10";
-lib.IsTheWarWithin = major == "11";
-lib.IsMainline = lib.IsDragonflight or lib.IsTheWarWithin;
-
-local AddButton;
+major = tonumber(major);
+lib.HasNoOverlay = major <= 3;
+lib.IsMainline = major >= 11;
 
 lib.XOffset, lib.YOffset = 4, -2;
+
 function lib:SetOffsets(xOffset, yOffset)
 	self.XOffset = xOffset or self.XOffset;
 	self.YOffset = yOffset or self.YOffset;
 end
 
 function lib.SetPoints()
-	local xOffset = lib.XOffset;
+	local xOffset, yOffset = lib.XOffset, lib.YOffset;
 	for _, button in next, lib.Buttons do
 		if button:IsShown() then
-			button:SetPoint("TOPRIGHT", button.relativeFrame, -xOffset, lib.YOffset);
-			xOffset = xOffset + 32;
+			button:SetPoint("TOPRIGHT", button.relativeFrame, -xOffset, yOffset);
+			if lib.IsMainline then
+				yOffset = yOffset - 32;
+			else
+				xOffset = xOffset + 32;
+			end
 		end
 	end
 end
@@ -67,10 +66,6 @@ local function HookDefaultButtons()
 			f.KrowiWorldMapButtonsIndex = #lib.Buttons;
 			tinsert(lib.Buttons, f);
 		end
-		if WorldMapShowLegendButtonMixin and f.OnLoad == WorldMapShowLegendButtonMixin.OnLoad then
-			f.KrowiWorldMapButtonsIndex = #lib.Buttons;
-			tinsert(lib.Buttons, f);
-		end
 	end
 
 	lib.HookedDefaultButtons = true;
@@ -85,10 +80,15 @@ local function PatchWrathClassic()
 	PatchWrathClassic = function() end;
 end
 
-function AddButton(button)
-	local xOffset = 4 + #lib.Buttons * 32;
-	button:SetPoint("TOPRIGHT", WorldMapFrame:GetCanvasContainer(), "TOPRIGHT", -xOffset, -2);
+local function AddButton(button)
+	local xOffset, yOffset;
+	if lib.IsMainline then
+		yOffset = lib.YOffset - #lib.Buttons * 32;
+	else
+		xOffset = lib.XOffset + #lib.Buttons * 32;
+	end
 	button.relativeFrame = WorldMapFrame:GetCanvasContainer();
+	button:SetPoint("TOPRIGHT", button.relativeFrame, lib.IsMainline and -lib.XOffset or -xOffset, lib.IsMainline and yOffset or lib.YOffset);
 	hooksecurefunc(WorldMapFrame, lib.HasNoOverlay and "OnMapChanged" or "RefreshOverlayFrames", function()
 		button:Refresh();
 		lib.SetPoints();
@@ -130,18 +130,6 @@ if oldminor and oldminor == 3 then
 		for _, button in next, lib.Buttons do
 			button:SetParent(WorldMapFrame.ScrollContainer);
 			button:SetFrameStrata("TOOLTIP");
-		end
-	end
-end
-
-if oldminor and oldminor < 7 then
-	if lib.HookedDefaultButtons and WorldMapFrame.overlayFrames and WorldMapShowLegendButtonMixin then
-		-- Add the Legend button to the hooked set
-		for _, f in next, WorldMapFrame.overlayFrames do
-			if f.OnLoad == WorldMapShowLegendButtonMixin.OnLoad then
-				f.KrowiWorldMapButtonsIndex = #lib.Buttons;
-				tinsert(lib.Buttons, f);
-			end
 		end
 	end
 end
