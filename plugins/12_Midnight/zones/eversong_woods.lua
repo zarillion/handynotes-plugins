@@ -214,6 +214,23 @@ map.nodes[44993855] = Rare({
     }
 }) -- Dame Bloodshed
 
+iqd.nodes[55712913] = Rare({
+    id = 252465,
+    quest = 95011,
+    rewards = {
+        Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+    }
+}) -- Tarhu the Ransacker
+
+iqd.nodes[37093830] = Rare({
+    id = 239864,
+    quest = 95010,
+    rewards = {
+        Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
+        Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
+    }
+}) -- Dripping Shadow
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
