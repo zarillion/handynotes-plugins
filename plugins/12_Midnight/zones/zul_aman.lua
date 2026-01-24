@@ -266,7 +266,7 @@ map.nodes[20846654] = Treasure({
 
 map.nodes[41994779] = Treasure({
     quest = 90796,
-    location = L['small_cave'],
+    location = L['in_small_cave'],
     rewards = {Achievement({id = 62125, criteria = 111858})}
 }) -- Burrow Bounty
 
