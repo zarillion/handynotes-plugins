@@ -70,7 +70,7 @@ L['options_icons_frog_princess'] = '{achievement:62201}'
 L['options_icons_frog_princess_desc'] = 'Отобразить местоположение лягушек для достижения {achievement:62201}.'
 
 L['options_icons_song_seeker'] = '{achievement:61455}'
-L['options_icons_song_seeker_desc'] = nil
+L['options_icons_song_seeker_desc'] = 'Отобразить местоположение Искателей Песни для достижения {achievement:61455}.'
 
 L['options_icons_spiritpaw_marathon'] = '{achievement:62202}'
 L['options_icons_spiritpaw_marathon_desc'] = 'Отобразить местоположения достижения {achievement:62202}.'
