@@ -12,6 +12,9 @@ L['options_icons_delve_rewards_desc'] = 'Display {location:Delve} rewards on too
 L['options_icons_stormarion_assault'] = 'Stormarion Assault'
 L['options_icons_stormarion_assault_desc'] = 'Display {location:Stormarion Assault} rewards on tooltips.'
 
+L['options_icons_abundance_rewards'] = 'Abundance'
+L['options_icons_abundance_rewards_desc'] = 'Display {location:Abundance} rewards on tooltips.'
+
 L['skyriding_glyph'] = 'Skyriding Glyph'
 L['options_icons_skyriding_glyph'] = 'Skyriding Glyphs'
 L['options_icons_skyriding_glyph_desc'] = 'Display the location of all skyriding glyphs.'

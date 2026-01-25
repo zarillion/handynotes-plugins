@@ -13,6 +13,9 @@ L['options_icons_delve_rewards_desc'] = 'Zeigt die Belohnungen im Tooltip der {l
 L['options_icons_stormarion_assault'] = 'Sturmarionangriff'
 L['options_icons_stormarion_assault_desc'] = 'Zeigt die Belohnungen im Tooltip des {location:Sturmarionangriffs} an.'
 
+L['options_icons_abundance_rewards'] = 'Überfluss'
+L['options_icons_abundance_rewards_desc'] = 'Zeigt die Belohnungen im Tooltip des {location:Überfluss} an.'
+
 L['skyriding_glyph'] = 'Glyphe des Himmelsreitens'
 L['options_icons_skyriding_glyph'] = 'Glyphen des Himmelsreitens'
 L['options_icons_skyriding_glyph_desc'] = 'Zeigt die Positionen aller Glyphen des Himmelsreitens an.'

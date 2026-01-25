@@ -12,6 +12,9 @@ L['options_icons_delve_rewards_desc'] = 'Muestra dónde hay recompensas de {loca
 L['options_icons_stormarion_assault'] = 'Asalto de Tormentarion'
 L['options_icons_stormarion_assault_desc'] = 'Muestra dónde hay recompensas de {location:Asalto de Tormentarion} en las descripciones.'
 
+L['options_icons_abundance_rewards'] = 'Abundancia'
+L['options_icons_abundance_rewards_desc'] = 'Muestra dónde hay recompensas de {location:Abundancia} en las descripciones.'
+
 L['skyriding_glyph'] = 'Glifo de Surcacielos'
 L['options_icons_skyriding_glyph'] = 'Glifos de Surcacielos'
 L['options_icons_skyriding_glyph_desc'] = 'Muestra dónde están los glifos de surcacielos.'

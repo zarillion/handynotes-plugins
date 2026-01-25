@@ -13,6 +13,9 @@ L['options_icons_delve_rewards_desc'] = 'Afficher les récompenses des {location
 L['options_icons_stormarion_assault'] = 'Assaut de Fulgarion'
 L['options_icons_stormarion_assault_desc'] = 'Afficher les récompenses des {location:Assauts de Fulgarion} dans les infobulles.'
 
+L['options_icons_abundance_rewards'] = 'Abondance '
+L['options_icons_abundance_rewards_desc'] = 'Afficher les récompenses des {location:Abondance} dans les infobulles.'
+
 L['skyriding_glyph'] = 'Glyphe de vol dynamique'
 L['options_icons_skyriding_glyph'] = 'Glyphes de vol dynamique'
 L['options_icons_skyriding_glyph_desc'] = 'Afficher les emplacements des glyphes de vol dynamique.'
