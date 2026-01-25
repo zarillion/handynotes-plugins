@@ -6,6 +6,12 @@ if not L then return end
 ------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = '探究獎勵'
+L['options_icons_delve_rewards_desc'] = '在提示顯示 {location:探究} 的獎勵.'
+
+L['options_icons_stormarion_assault'] = '風瑪利昂襲擊'
+L['options_icons_stormarion_assault_desc'] = '在提示中顯示 {location:風瑪利昂襲擊} 的獎勵。'
+
 L['skyriding_glyph'] = '天空騎術雕紋'
 L['options_icons_skyriding_glyph'] = '天空騎術雕紋'
 L['options_icons_skyriding_glyph_desc'] = '顯示所有天空騎術雕紋的位置.'

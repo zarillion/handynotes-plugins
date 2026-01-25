@@ -67,7 +67,6 @@ map.nodes[51857291] = Rare({
         Reputation({id = 2696, gain = 5, quest = 94700}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
-
     }
 }) -- Skullcrusher Harak
 
@@ -92,7 +91,6 @@ map.nodes[50876514] = Rare({
         Reputation({id = 2696, gain = 5, quest = 94700}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
-
     }
 }) -- Mrrlokk
 
@@ -105,7 +103,6 @@ map.nodes[38994997] = Rare({
         Reputation({id = 2696, gain = 5, quest = 94701}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
-
     },
     parent = aam.id
 }) -- Poacher Rav'ik
@@ -131,7 +128,6 @@ map.nodes[46295113] = Rare({
         Reputation({id = 2696, gain = 5, quest = 94703}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
-
     }
 }) -- Oophaga
 
@@ -144,7 +140,6 @@ map.nodes[47773422] = Rare({
         Reputation({id = 2696, gain = 5, quest = 94704}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
-
     }
 }) -- Tiny Vermin
 
@@ -179,7 +174,6 @@ map.nodes[33718897] = Rare({
         Reputation({id = 2696, gain = 5, quest = 94707}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
-
     }
 }) -- Elder Oaktalon
 

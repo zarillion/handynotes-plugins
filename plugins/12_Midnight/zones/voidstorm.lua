@@ -573,3 +573,32 @@ map.nodes[31104390] = Safari.Blistercreepling({
     pois = {POI({26005122, 31104390, 48607830, 62806720})}
 })
 map.nodes[63307370] = Safari.RiftbladeFamiliar({})
+
+-------------------------------------------------------------------------------
+-------------------------- STORMARION ASSUALT ---------------------------------
+-------------------------------------------------------------------------------
+
+local maps = {
+    ns.maps[2405] -- Voidstorm
+}
+
+for _, m in pairs(maps) do
+    m.groups[#m.groups + 1] = ns.groups.STORMARION_ASSAULT
+    m.groups[ns.groups.STORMARION_ASSAULT] = true
+end
+
+local STORMARION_ASSAULT = {
+    ['stormarion_assault'] = {
+        Achievement({id = 61912, criteria = {111329, 111330, 111331, 111332}}), -- Anchoring the Defense
+        Achievement({id = 61913, criteria = {111335, 111334, 111333}}), -- A Singular Problem
+        Achievement({id = 61922, criteria = {111379}}) -- Ninety Percent is Good Enough
+    }
+}
+local STORMARION_ASSAULT_AREA_POIS = {
+    [8419] = STORMARION_ASSAULT['stormarion_assault'],
+    [8421] = STORMARION_ASSAULT['stormarion_assault'],
+    [8422] = STORMARION_ASSAULT['stormarion_assault']
+}
+
+ns.hooks.areapoievent.Add(ns.groups.STORMARION_ASSAULT,
+    STORMARION_ASSAULT_AREA_POIS)

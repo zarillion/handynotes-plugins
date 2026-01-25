@@ -279,6 +279,21 @@ sgp.nodes[58264151] = SturdyChest({
 -------------------------------------------------------------------------------
 -------------------------------- DELVE REWARDS --------------------------------
 -------------------------------------------------------------------------------
+local maps = {
+    ns.maps[2395], -- Eversong Woods
+    ns.maps[2393], -- Silvermoon City
+    ns.maps[2424], -- Isle of Quel'Danas
+    ns.maps[2413], -- Harandar
+    ns.maps[2405], -- Voidstorm
+    ns.maps[2444], -- Slayer's Rise
+    ns.maps[2437], -- Zul'Aman
+    ns.maps[2536] -- Atal'Aman
+}
+
+for _, m in pairs(maps) do
+    m.groups[#m.groups + 1] = ns.groups.DELVE_REWARDS
+    m.groups[ns.groups.DELVE_REWARDS] = true
+end
 
 local DELVE_REWARDS = {
 

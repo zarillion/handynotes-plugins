@@ -6,6 +6,12 @@ if not L then return end
 ------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = 'Награды в Вылазках'
+L['options_icons_delve_rewards_desc'] = 'Отображать награды в подсказках {location:Вылазки}.'
+
+L['options_icons_stormarion_assault'] = 'Атака на Штормарион'
+L['options_icons_stormarion_assault_desc'] = 'Отображать награды в подсказках {location:Атака на Штормарион}.'
+
 L['skyriding_glyph'] = 'Символы высшего пилотажа'
 L['options_icons_skyriding_glyph'] = 'Символы высшего пилотажа'
 L['options_icons_skyriding_glyph_desc'] = 'Отображение местоположения всех символов высшего пилотажа.'

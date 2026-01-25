@@ -7,6 +7,12 @@ if not L then return end
 ------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = 'Tiefen'
+L['options_icons_delve_rewards_desc'] = 'Zeigt die Belohnungen im Tooltip der {location:Tiefe} an.'
+
+L['options_icons_stormarion_assault'] = 'Sturmarionangriff'
+L['options_icons_stormarion_assault_desc'] = 'Zeigt die Belohnungen im Tooltip des {location:Sturmarionangriffs} an.'
+
 L['skyriding_glyph'] = 'Glyphe des Himmelsreitens'
 L['options_icons_skyriding_glyph'] = 'Glyphen des Himmelsreitens'
 L['options_icons_skyriding_glyph_desc'] = 'Zeigt die Positionen aller Glyphen des Himmelsreitens an.'

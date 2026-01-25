@@ -6,6 +6,12 @@ if not L then return end
 ------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = '地下堡奖励'
+L['options_icons_delve_rewards_desc'] = '在提示中显示 {location:地下堡} 的奖励。'
+
+L['options_icons_stormarion_assault'] = '斯托玛兰突袭战'
+L['options_icons_stormarion_assault_desc'] = '在提示中显示 {location:斯托玛兰突袭战} 的奖励。'
+
 L['skyriding_glyph'] = '驭空术魔符'
 L['options_icons_skyriding_glyph'] = '驭空术魔符'
 L['options_icons_skyriding_glyph_desc'] = '显示全部驭空术魔符的位置。'

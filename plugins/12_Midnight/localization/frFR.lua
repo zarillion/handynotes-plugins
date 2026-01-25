@@ -7,6 +7,12 @@ if not L then return end
 ------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = 'Récompenses des Gouffres'
+L['options_icons_delve_rewards_desc'] = 'Afficher les récompenses des {location:Gouffres} dans les infobulles.'
+
+L['options_icons_stormarion_assault'] = 'Assaut de Fulgarion'
+L['options_icons_stormarion_assault_desc'] = 'Afficher les récompenses des {location:Assaut de Fulgarion} dans les infobulles.'
+
 L['skyriding_glyph'] = 'Glyphe de vol dynamique'
 L['options_icons_skyriding_glyph'] = 'Glyphes de vol dynamique'
 L['options_icons_skyriding_glyph_desc'] = 'Afficher les emplacements des glyphes de vol dynamique.'

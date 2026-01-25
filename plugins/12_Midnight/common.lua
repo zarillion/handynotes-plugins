@@ -27,6 +27,12 @@ ns.groups.DELVE_REWARDS = Group('delve_rewards', 4203076, {
     HasEnabledNodes = function() return true end
 })
 
+ns.groups.STORMARION_ASSAULT = Group('stormarion_assault', 7431083, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+    HasEnabledNodes = function() return true end
+})
+
 ns.groups.PROFESSION_TREASURES = Group('profession_treasures', 4620676, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
