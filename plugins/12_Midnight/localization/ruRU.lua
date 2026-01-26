@@ -42,9 +42,9 @@ L['incomplete_book_of_sonnets'] = 'Неполная книга сонетов'
 ----------------------------------- HARANDAR -----------------------------------
 -------------------------------------------------------------------------------
 
-L['glowing_moth'] = nil
-L['options_icons_glowing_moth'] = nil
-L['options_icons_glowing_moth_desc'] = nil
+L['glowing_moth'] = 'Светящийся мотылек'
+L['options_icons_glowing_moth'] = 'Светящийся мотылек'
+L['options_icons_glowing_moth_desc'] = 'Показывает расположение светящихся мотыльков для достижения {achievement:61052}.'
 
 L['sporespawned_cache_note'] = nil
 L['fungal_mallet'] = nil
