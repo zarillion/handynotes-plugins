@@ -52,7 +52,7 @@ L['incomplete_book_of_sonnets'] = 'Incomplete Book of Sonnets'
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = 'Glowing Moth'
-L['options_icons_glowing_moth'] = 'Glowing Moth'
+L['options_icons_glowing_moth'] = '{achievement:61052}'
 L['options_icons_glowing_moth_desc'] = 'Shows the locations of Glowing Moths for {achievement:61052} achievement.'
 
 L['sporespawned_cache_note'] = 'Interact with the {dot:Red}{object:Fungal Mallet} in Fungara Village to get the {spell:1266347} buff, and use it to ring the {object:Mycelium Gong}. The treasure will appear next to the gong.'

@@ -53,7 +53,7 @@ L['incomplete_book_of_sonnets'] = 'Livret de sonnets incomplet'
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = 'Phalène luminescent'
-L['options_icons_glowing_moth'] = 'Phalène luminescent'
+L['options_icons_glowing_moth'] = '{achievement:61052}'
 L['options_icons_glowing_moth_desc'] = 'Afficher les emplacements des Phalènes luminescentes pour le haut-fait {achievement:61052}.'
 
 L['sporespawned_cache_note'] = 'Interagissez avec le {dot:Red}{object:Maillet fongique} à Fongara pour obtenir le buff {spell:1266347}, puis utilisez-le pour faire sonner le {object:Gong de mycélium}. Le trésor apparaîtra à côté du gong.'

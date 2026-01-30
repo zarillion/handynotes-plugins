@@ -52,7 +52,7 @@ L['incomplete_book_of_sonnets'] = nil
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = nil
-L['options_icons_glowing_moth'] = nil
+L['options_icons_glowing_moth'] = '{achievement:61052}'
 L['options_icons_glowing_moth_desc'] = nil
 
 L['sporespawned_cache_note'] = nil

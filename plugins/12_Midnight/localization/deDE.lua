@@ -53,7 +53,7 @@ L['incomplete_book_of_sonnets'] = 'Unvollständiges Buch der Sonnete'
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = 'Leuchtende Motte'
-L['options_icons_glowing_moth'] = 'Leuchtende Motte'
+L['options_icons_glowing_moth'] = '{achievement:61052}'
 L['options_icons_glowing_moth_desc'] = 'Zeigt die Positionen der leuchtenden Motten für den Erfolg {achievement:61052} an.'
 
 L['sporespawned_cache_note'] = 'Interagiere mit dem {dot:Red}{object:Pilzhammer} in Fungara Village, um den Stärkungszauber {spell:1266347} zu erhalten, und benutze ihn, um den {object:Myzelgong} zu läuten. Der Schatz erscheint daneben.'

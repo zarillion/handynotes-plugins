@@ -52,8 +52,8 @@ L['incomplete_book_of_sonnets'] = '未完成十四行诗集'
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = '发光飞蛾'
-L['options_icons_glowing_moth'] = '{achievement:62187}'
-L['options_icons_glowing_moth_desc'] = '显示 {achievement:62187} 成就中发光飞蛾的位置。'
+L['options_icons_glowing_moth'] = '{achievement:61052}'
+L['options_icons_glowing_moth_desc'] = '显示 {achievement:61052} 成就中发光飞蛾的位置。'
 
 L['sporespawned_cache_note'] = '与 {dot:Red}{object:真菌棒槌} 互动以获得 {spell:1266347} 增益，然后使用它敲响 {object:响菌丝锣}。宝藏将出现在锣旁边。'
 L['fungal_mallet'] = '真菌棒槌'
