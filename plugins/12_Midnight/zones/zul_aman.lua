@@ -227,13 +227,14 @@ map.nodes[46838186] = Treasure({
     quest = 90793,
     rewards = {
         Achievement({id = 62125, criteria = 111855}),
+        Reputation({id = 2696, gain = 75, quest = 90793}),
         Mount({item = 257223, id = 2778}) -- Ancestral War Bear
     },
     pois = {
         -- Honored Warrior's Urn:
         POI({points = 54772240, label = '{item:259220}'}), -- Spawns Jan'alai's Chosen (255233), drops Dragonhawk Feather
         POI({points = 34543348, label = '{item:259223}'}), -- Spawns Halazzi's Chosen (255232), drops Lynx Claw
-        POI({points = 51578491}), -- Spawns Akil'zon's Chosen (255231) -- looting was bugged
+        POI({points = 51578491, label = '{item:259221}'}), -- Spawns Akil'zon's Chosen (255231) drops eagle talon
         POI({points = 32698349, label = '{item:259219}'}) -- Spawns Nalorakk's Chosen (255171), drops Bear Tooth
     }
 }) -- Honored Warrior's Cache
