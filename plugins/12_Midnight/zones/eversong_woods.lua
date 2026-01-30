@@ -400,7 +400,6 @@ map.nodes[46363487] = PT.Tailoring({quest = 89080, id = 238614}) -- Sin'dorei Ou
 --[[ MOVE TO RIGHT MAP WHEN FOUND
 map.nodes[] = PT.Enchanting({quest = 89101, id = 238549}) -- Enchanted Sunfire Silk
 map.nodes[] = PT.Alchemy({quest = 89111, id = 238532}) -- Vial of Eversong Oddities
-map.nodes[] = PT.Alchemy({quest = 89118, id = 238539}) -- Failed Experiment
 map.nodes[] = PT.Jewelcrafting({quest = 89124, id = 238582}) -- Dual-Function Magnifiers
 map.nodes[] = PT.Inscription({quest = 89072, id = 238577}) -- Half-Baked Techniques
 map.nodes[] = PT.Herbalism({quest = 89161, id = 238469}) -- Sweeping Harvester's Scythe
