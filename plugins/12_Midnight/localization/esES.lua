@@ -68,7 +68,7 @@ L['altar_of_vigor'] = 'Altar del vigor'
 L['altar_of_wisdom'] = 'Altar de la sabiduría'
 L['altar_of_innocence_note'] = 'Devuelve la {item:256882} al {npc:254030} después de interactuar con el {object:Altar de la inocencia}.\n\nCompleta las tareas del resto de altares para hacer aparecer el tesoro {object:Don del ciclo} en {location:El Cubil}.'
 L['altar_of_vigor_note'] = 'Devuelve {item:257024} al {npc:254104} después de interactuar con el {object:Altar del vigor}.\n\Completa las tareas del resto de altares para hacer aparecer el tesoro {object:Don del ciclo} en {location:El Cubil}.'
-L['altar_of_wisdom_note'] = 'Devuelve la {item:257054} a {npc:254116} después de interactuar con el {object:Altar de la sabiduría}.\n\nCompleta las tareas del resto de altares para hacer aparecer el tesoro {object:Don del ciclo} en {location:El Cubil}.'
+L['altar_of_wisdom_note'] = 'Devuelve la {item:257054} al {npc:254116} después de interactuar con el {object:Altar de la sabiduría}.\n\nCompleta las tareas del resto de altares para hacer aparecer el tesoro {object:Don del ciclo} en {location:El Cubil}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
