@@ -477,7 +477,7 @@ slr.nodes[28933903] = PT.Engineering({
     id = 238557,
     parent = map.id
 }) -- Miniaturized Transport Skiff
-map.nodes[55486428] = PT.Herbalism({quest = 89156, id = 238474}) -- Peculiar Lotus
+map.nodes[34685697] = PT.Herbalism({quest = 89156, id = 238474}) -- Peculiar Lotus
 slr.nodes[60698426] = PT.Inscription({
     quest = 89067,
     id = 238572,
