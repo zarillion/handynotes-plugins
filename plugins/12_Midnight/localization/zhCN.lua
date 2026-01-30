@@ -63,6 +63,13 @@ L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = '显示 {achievement:62188} 成就中 NPC 的位置。'
 L['more_than_just_thier_roots_note'] = '与以下位置的 NPC 交谈：'
 
+L['altar_of_innocence'] = nil
+L['altar_of_vigor'] = nil
+L['altar_of_wisdom'] = nil
+L['altar_of_innocence_note'] = nil
+L['altar_of_vigor_note'] = nil
+L['altar_of_wisdom_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
 -------------------------------------------------------------------------------

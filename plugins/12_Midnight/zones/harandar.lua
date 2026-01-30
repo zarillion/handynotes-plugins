@@ -249,9 +249,43 @@ map.nodes[55693943] = Treasure({
     }
 }) -- Kemet's Simmering Cauldron
 
-map.nodes[20003500] = Treasure({
+map.nodes[51154755] = Treasure({
+    label = L['altar_of_innocence'],
+    icon = 519378,
+    quest = 93130,
+    note = L['altar_of_innocence_note'],
+    pois = {
+        POI({points = {51105049}, label = '{item:256882}'}) -- A Tattered Ball
+    }
+}) -- Altar of Innocence
+
+map.nodes[47185314] = Treasure({
+    label = L['altar_of_vigor'],
+    icon = 519389,
+    quest = 93145,
+    note = L['altar_of_vigor_note'],
+    pois = {
+        POI({points = {45145412}, label = '{item:257024}'}) -- Lost Hunting Knife
+    }
+}) -- Altar of Vigor
+
+map.nodes[51155856] = Treasure({
+    label = L['altar_of_wisdom'],
+    icon = 519379,
+    quest = 93146,
+    note = L['altar_of_wisdom_note'],
+    pois = {
+        POI({points = {51395600}, label = '{item:257054}'}) -- A Rolled-Up Pillow
+    }
+}) -- Altar of Wisdom
+
+den.nodes[47235078] = Treasure({
     quest = 93144,
-    rewards = {Achievement({id = 61263, criteria = 110254})}
+    questDeps = {93130, 93145, 93146},
+    parent = map.id,
+    rewards = {
+        Achievement({id = 61263, criteria = 110254}), Toy({item = 259084})
+    }
 }) -- Gift of the Cycle
 
 map.nodes[26736759] = Treasure({
@@ -671,8 +705,15 @@ https://www.wowhead.com/beta/quest=88995/alnharas-bloom
 [55036627] = {vignette=7376, label="Seeker's Trail: Seeking Peace"},93478
 [53686695] = {vignette=7375, label="Seeker's Trail: Call of Aln'hara"},93479
 [55936686] = {vignette=7377, label="Seeker's Trail: Unending Mission"},93476
-]] --
 
+
+https://www.wowhead.com/beta/quest=88998/root-of-the-world maybe right quest id?
+w
+89284/91518
+[40803630] = {vignette=7384, label="Ways of the Roots: Serving"}, 93488
+[41483413] = {vignette=7385, label="Ways of the Roots: Growing"}, 93487
+[40493470] = {vignette=7386, label="Ways of the Roots: Pruning"}, 93486
+]] --
 -------------------------------------------------------------------------------
 -------------------------------- SAFARI ---------------------------------------
 -------------------------------------------------------------------------------

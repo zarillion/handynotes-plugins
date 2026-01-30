@@ -63,6 +63,13 @@ L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = 'Display the locations of NPCs for the {achievement:62188} achievement.'
 L['more_than_just_thier_roots_note'] = 'Speak with the NPCs in the below locations:'
 
+L['altar_of_innocence'] = 'Altar of Innocence'
+L['altar_of_vigor'] = 'Altar of Vigor'
+L['altar_of_wisdom'] = 'Altar of Wisdom'
+L['altar_of_innocence_note'] = 'Return {item:256882} to the {npc:254030} after Interacting with the {object:Altar of Innocence}.\n\nComplete the tasks for the remaining altars to spawn the {object:Gift of the Cycle} treasure in {location:The Den}.'
+L['altar_of_vigor_note'] = 'Return {item:257024} to the {npc:254104} after Interacting with the {object:Altar of Vigor}.\n\nComplete the tasks for the remaining altars to spawn the {object:Gift of the Cycle} treasure in {location:The Den}.'
+L['altar_of_wisdom_note'] = 'Return {item:257054} to the {npc:254116} after Interacting with the {object:Altar of Wisdom}.\n\nComplete the tasks for the remaining altars to spawn the {object:Gift of the Cycle} treasure in {location:The Den}.'
+
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
 -------------------------------------------------------------------------------
