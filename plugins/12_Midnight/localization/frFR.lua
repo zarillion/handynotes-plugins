@@ -64,12 +64,12 @@ L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = 'Afficher les emplacements des PNJs pour le haut-fait {achievement:62188}.'
 L['more_than_just_thier_roots_note'] = 'Parlez aux PNJs aux endroits suivants :'
 
-L['altar_of_innocence'] = nil
-L['altar_of_vigor'] = nil
-L['altar_of_wisdom'] = nil
-L['altar_of_innocence_note'] = nil
-L['altar_of_vigor_note'] = nil
-L['altar_of_wisdom_note'] = nil
+L['altar_of_innocence'] = 'Autel de l\'innocence'
+L['altar_of_vigor'] = 'Autel de la vigueur'
+L['altar_of_wisdom'] = 'Autel de la sagesse'
+L['altar_of_innocence_note'] = 'Rendez la {item:256882} à l\'{npc:254030} après avoir interagi avec l\'{object:Autel de l\'innocence}.\n\nAccomplissez les tâches associées aux autres autels pour faire apparaître le {object:Don du cycle} à {location:La Tanière}.'
+L['altar_of_vigor_note'] = 'Rendez le {item:257024} à l\'{npc:254104} après avoir interagi avec l\'{object:Autel de la vigueur}.\n\nAccomplissez les tâches associées aux autres autels pour faire apparaître le {object:Don du cycle} à {location:La Tanière}.'
+L['altar_of_wisdom_note'] = 'Rendez l\'{item:257054} à l\'{npc:254116} après avoir interagi avec l\'{object:Autel de la sagesse}.\n\nAccomplissez les tâches associées aux autres autels pour faire apparaître le {object:Don du cycle} à {location:La Tanière}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
