@@ -63,12 +63,12 @@ L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = 'Muestra dónde están los NPC para el logro {achievement:62188}.'
 L['more_than_just_thier_roots_note'] = 'Habla con los NPC en las siguientes ubicaciones:'
 
-L['altar_of_innocence'] = nil
-L['altar_of_vigor'] = nil
-L['altar_of_wisdom'] = nil
-L['altar_of_innocence_note'] = nil
-L['altar_of_vigor_note'] = nil
-L['altar_of_wisdom_note'] = nil
+L['altar_of_innocence'] = 'Altar de la inocencia'
+L['altar_of_vigor'] = 'Altar del vigor'
+L['altar_of_wisdom'] = 'Altar de la sabiduría'
+L['altar_of_innocence_note'] = 'Devuelve la {item:256882} al {npc:254030} después de interactuar con el {object:Altar de la inocencia}.\n\nCompleta las tareas del resto de altares para hacer aparecer el tesoro {object:Don del ciclo} en {location:El Cubil}.'
+L['altar_of_vigor_note'] = 'Devuelve {item:257024} al {npc:254104} después de interactuar con el {object:Altar del vigor}.\n\Completa las tareas del resto de altares para hacer aparecer el tesoro {object:Don del ciclo} en {location:El Cubil}.'
+L['altar_of_wisdom_note'] = 'Devuelve la {item:257054} a {npc:254116} después de interactuar con el {object:Altar de la sabiduría}.\n\nCompleta las tareas del resto de altares para hacer aparecer el tesoro {object:Don del ciclo} en {location:El Cubil}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
