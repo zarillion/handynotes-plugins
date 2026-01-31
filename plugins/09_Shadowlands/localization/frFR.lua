@@ -542,11 +542,11 @@ L['sinrunner_note_day5'] = 'Equipez {npc:173468} d\'un {item:182597}, vendu par 
 L['sinrunner_note_day6'] = 'Nourrissez {npc:173468} avec 3 {item:179271}, vendus par {npc:167815} à la {location:Gargote}.'
 
 L['options_icons_carriages'] = '{achievement:14771}'
-L['options_icons_carriages_desc'] = 'Afficher les emplacements et les parcours des calèches.'
+L['options_icons_carriages_desc'] = 'Afficher les emplacements et les parcours des calèches pour le haut-fait {achievement:14771}.'
 L['options_icons_dredbats'] = '{achievement:14769}'
-L['options_icons_dredbats_desc'] = 'Afficher les emplacements et les trajets des {npc:161015s}.'
+L['options_icons_dredbats_desc'] = 'Afficher les emplacements et les trajets des {npc:161015s} pour le haut-fait {achievement:14769}.'
 L['options_icons_sinrunners'] = '{achievement:14770}'
-L['options_icons_sinrunners_desc'] = 'Afficher les emplacements et les trajets des {npc:174032s}.'
+L['options_icons_sinrunners_desc'] = 'Afficher les emplacements et les trajets des {npc:174032s} pour le haut-fait {achievement:14770}.'
 
 L['addius_note'] = 'Les êtres faibles d\'esprit ne devraient pas me faire perdre mon temps, mais si vous insistez, je vous montrerai la vraie douleur.'
 L['eyegor_note'] = 'Carnœil prêt pour la bataille !'
