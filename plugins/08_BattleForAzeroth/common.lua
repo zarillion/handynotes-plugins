@@ -24,39 +24,77 @@ ns.expansion = 8
 ns.groups.ASSAULT_EVENT = Group('assault_events', 'peg_yw')
 ns.groups.BOW_TO_YOUR_MASTERS = Group('bow_to_your_masters', 1850548, {
     defaults = ns.GROUP_HIDDEN,
-    faction = 'Horde'
+    faction = 'Horde',
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13020
 })
-ns.groups.BRUTOSAURS =
-    Group('brutosaurs', 1881827, {defaults = ns.GROUP_HIDDEN})
-ns.groups.CARVED_IN_STONE = Group('carved_in_stone', 134424,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.CATS_NAZJ = Group('cats_nazj', 454045, {defaults = ns.GROUP_HIDDEN})
+ns.groups.BRUTOSAURS = Group('brutosaurs', 1881827, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13029
+})
+ns.groups.CARVED_IN_STONE = Group('carved_in_stone', 134424, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13024
+})
+ns.groups.CATS_NAZJ = Group('cats_nazj', 454045, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13836
+})
 ns.groups.FABIOUS = Group('fabious', 2741477, {defaults = ns.GROUP_HIDDEN})
 ns.groups.COFFERS = Group('coffers', 'star_chest_g')
 ns.groups.DAILY_CHESTS = Group('daily_chests', 'chest_bl',
     {defaults = ns.GROUP_ALPHA75})
-ns.groups.CURSED_HUNTER = Group('cursed_hunter', 1027879,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.DRUST_FACTS = Group('drust_facts', 2101971,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.DUNE_RIDER = Group('dune_rider', 134962, {defaults = ns.GROUP_HIDDEN})
+ns.groups.CURSED_HUNTER = Group('cursed_hunter', 1027879, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13094
+})
+ns.groups.DRUST_FACTS = Group('drust_facts', 2101971, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13064
+})
+ns.groups.DUNE_RIDER = Group('dune_rider', 134962, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13018
+})
 ns.groups.EMBER_RELICS = Group('ember_relics', 514016, {
     defaults = ns.GROUP_HIDDEN,
-    faction = 'Alliance'
+    faction = 'Alliance',
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13082
 })
-ns.groups.GET_HEKD = Group('get_hekd', 1604165, {defaults = ns.GROUP_HIDDEN})
+ns.groups.GET_HEKD = Group('get_hekd', 1604165, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 12482
+})
 ns.groups.HONEYBACKS = Group('honeybacks', 2066005,
     {defaults = ns.GROUP_HIDDEN, faction = 'Alliance'})
-ns.groups.HOPPIN_SAD = Group('hoppin_sad', 804969, {defaults = ns.GROUP_HIDDEN})
-ns.groups.LIFE_FINDS_A_WAY = Group('life_finds_a_way', 236192,
-    {defaults = ns.GROUP_HIDDEN})
+ns.groups.HOPPIN_SAD = Group('hoppin_sad', 804969, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13028
+})
+ns.groups.LIFE_FINDS_A_WAY = Group('life_finds_a_way', 236192, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13048
+})
 ns.groups.LOCKED_CHEST = Group('locked_chest', 'chest_gy',
     {defaults = ns.GROUP_ALPHA75})
 ns.groups.MECH_CHEST = Group('mech_chest', 'chest_rd',
     {defaults = ns.GROUP_ALPHA75})
 ns.groups.MISC_NAZJ = Group('misc_nazj', 528288)
-ns.groups.MUSHROOM_HARVEST = Group('mushroom_harvest', 1869654,
-    {defaults = ns.GROUP_HIDDEN})
+ns.groups.MUSHROOM_HARVEST = Group('mushroom_harvest', 1869654, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13027
+})
 ns.groups.PAKU_TOTEMS = Group('paku_totems', 'flight_point_y',
     {defaults = ns.GROUP_HIDDEN, faction = 'Horde'})
 ns.groups.PRISMATICS = Group('prismatics', 'crystal_p',
@@ -64,40 +102,72 @@ ns.groups.PRISMATICS = Group('prismatics', 'crystal_p',
 ns.groups.RECRIG = Group('recrig', 'peg_bl')
 ns.groups.SAUSAGE_SAMPLER = Group('sausage_sampler', 133200, {
     defaults = ns.GROUP_HIDDEN,
-    faction = 'Alliance'
+    faction = 'Alliance',
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13087
 })
-ns.groups.SCAVENGER_OF_THE_SANDS = Group('scavenger_of_the_sands', 135725,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.SECRET_SUPPLY = Group('secret_supplies', 'star_chest_b',
-    {defaults = ns.GROUP_HIDDEN75})
-ns.groups.SHANTY_RAID = Group('shanty_raid', 1500866,
-    {defaults = ns.GROUP_HIDDEN})
+ns.groups.SCAVENGER_OF_THE_SANDS = Group('scavenger_of_the_sands', 135725, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13016
+})
+ns.groups.SECRET_SUPPLY = Group('secret_supplies', 'star_chest_b', {
+    defaults = ns.GROUP_HIDDEN75,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13317
+})
+ns.groups.SHANTY_RAID = Group('shanty_raid', 1500866, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13057
+})
 ns.groups.SLIMES_NAZJ = Group('slimes_nazj', 132107,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.SUPPLY = Group('supplies', 'star_chest_g',
     {defaults = ns.GROUP_HIDDEN75})
-ns.groups.TALES_OF_DE_LOA = Group('tales_of_de_loa', 1875083,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.THREE_SHEETS = Group('three_sheets', 135999,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.TIDESAGE_LEGENDS = Group('tidesage_legends', 1500881,
-    {defaults = ns.GROUP_HIDDEN})
+ns.groups.TALES_OF_DE_LOA = Group('tales_of_de_loa', 1875083, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13036
+})
+ns.groups.THREE_SHEETS = Group('three_sheets', 135999, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13061
+})
+ns.groups.TIDESAGE_LEGENDS = Group('tidesage_legends', 1500881, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13051
+})
 ns.groups.UPRIGHT_CITIZENS = Group('upright_citizens', 516667, {
     defaults = ns.GROUP_HIDDEN,
-    faction = 'Alliance'
+    faction = 'Alliance',
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 13285
 })
 ns.groups.VISIONS_BUFFS = Group('visions_buffs', 132183)
 ns.groups.VISIONS_CHEST = Group('visions_chest', 'chest_gy')
 ns.groups.VISIONS_CRYSTALS = Group('visions_crystals', 'crystal_o')
 ns.groups.VISIONS_MAIL = Group('visions_mail', 'envelope')
 ns.groups.VISIONS_MISC = Group('visions_misc', 2823166)
-ns.groups.SQUIRRELS = Group('squirrels', 237182, {defaults = ns.GROUP_HIDDEN})
-ns.groups.BATTLE_SAFARI = Group('battle_safari', 651137,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.MECHA_SAFARI = Group('mecha_safari', 1694136,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.NAZJA_SAFARI = Group('nazja_safari', 2267049,
-    {defaults = ns.GROUP_HIDDEN})
+ns.groups.SQUIRRELS = Group('squirrels', 237182, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14730
+})
+ns.groups.BATTLE_SAFARI = Group('battle_safari', 651137, {
+    defaults = ns.GROUP_HIDDEN,
+    achievement = 12930
+})
+ns.groups.MECHA_SAFARI = Group('mecha_safari', 1694136, {
+    defaults = ns.GROUP_HIDDEN,
+    achievement = 13693
+})
+ns.groups.NAZJA_SAFARI = Group('nazja_safari', 2267049, {
+    defaults = ns.GROUP_HIDDEN,
+    achievement = 13694
+})
 
 -------------------------------------------------------------------------------
 ---------------------------------- CALLBACKS ----------------------------------
