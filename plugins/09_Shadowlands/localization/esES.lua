@@ -547,11 +547,11 @@ L['sinrunner_note_day5'] = 'Equipa a {npc:173468} con una {item:182597}, vendida
 L['sinrunner_note_day6'] = 'Alimenta a {npc:173468} con 3x {item:179271}, vendidas por {npc:167815} que está en {location:Agujero en la Pared}.'
 
 L['options_icons_carriages'] = '{achievement:14771}'
-L['options_icons_carriages_desc'] = 'Muestra dónde están los caminos y los posibles carruajes que se pueden llevar.'
+L['options_icons_carriages_desc'] = 'Muestra dónde están los caminos y los posibles carruajes que se pueden llevar para el logro {achievement:14771}.'
 L['options_icons_dredbats'] = '{achievement:14769}'
-L['options_icons_dredbats_desc'] = 'Muestra dónde están las {npc:161015} y sus rutas.'
+L['options_icons_dredbats_desc'] = 'Muestra dónde están las {npc:161015} y sus rutas para el logro {achievement:14769}.'
 L['options_icons_sinrunners'] = '{achievement:14770}'
-L['options_icons_sinrunners_desc'] = 'Muestra dónde están los {npc:174032} y sus rutas.'
+L['options_icons_sinrunners_desc'] = 'Muestra dónde están los {npc:174032} y sus rutas para el logro {achievement:14770}.'
 
 L['addius_note'] = 'No debería perder el tiempo con criaturas de mente débil, pero, si insistes, te haré sufrir de verdad.'
 L['eyegor_note'] = '¡Jojobado listo para el combate!'
@@ -758,7 +758,7 @@ L['options_icons_rift_hidden_cache'] = 'Alijos ocultos de falla'
 L['options_icons_rift_hidden_cache_desc'] = 'Muestra donde están los {object:Alijo oculto de falla} dentro de {location:La Falla}.'
 
 L['options_icons_bonus_boss'] = '{achievement:14660}'
-L['options_icons_bonus_boss_desc'] = 'Muestra dónde están los élites de bonificación.'
+L['options_icons_bonus_boss_desc'] = 'Muestra dónde están los élites de bonificación para el logro {achievement:14660}.'
 L['options_icons_riftstone'] = '{npc:174962}'
 L['options_icons_riftstone_desc'] = 'Muestra dónde están los teletransportadores de {object:Piedra de falla caótica}.'
 L['options_icons_grapples'] = '{npc:176308}'
