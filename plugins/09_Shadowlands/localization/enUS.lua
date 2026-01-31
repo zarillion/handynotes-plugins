@@ -758,7 +758,7 @@ L['options_icons_rift_hidden_cache'] = 'Rift Hidden Caches'
 L['options_icons_rift_hidden_cache_desc'] = 'Display the locations of {object:Rift Hidden Caches} inside {location:The Rift}.'
 
 L['options_icons_bonus_boss'] = '{achievement:14660}'
-L['options_icons_bonus_boss_desc'] = 'Display locations of bonus elites.'
+L['options_icons_bonus_boss_desc'] = 'Display locations of bonus elites for the {achievement:14660} achievement.'
 L['options_icons_riftstone'] = '{npc:174962s}'
 L['options_icons_riftstone_desc'] = 'Display the locations of {object:Chaotic Riftstones} teleporters.'
 L['options_icons_grapples'] = '{npc:176308s}'
