@@ -552,11 +552,11 @@ L['sinrunner_note_day4'] = 'Hebe {item:182620} nahe {npc:173570} auf und fülle 
 L['sinrunner_note_day5'] = 'Rüste Graumähne mit {item:182597} aus, verkauft von {npc:171808} nahe dem Nachtmarkt (51.0, 78.8) im Austausch für verschiedene Fleischsorten.'
 L['sinrunner_note_day6'] = 'Verfüttere an Graumähne 3x {item:179271}, verkauft von {npc:167815} im Gebiet Loch in der Wand (40.8, 46.8).'
 
-L['options_icons_carriages'] = 'Kutschen'
+L['options_icons_carriages'] = '{achievement:14771}'
 L['options_icons_carriages_desc'] = 'Zeigt die Positionen und Wege von fahrbaren Kutschen an.'
-L['options_icons_dredbats'] = '{npc:161015n}'
+L['options_icons_dredbats'] = '{achievement:14769}'
 L['options_icons_dredbats_desc'] = 'Zeigt die Positionen der {npc:161015n} und ihre Wege an.'
-L['options_icons_sinrunners'] = '{npc:174032}'
+L['options_icons_sinrunners'] = '{achievement:14770}'
 L['options_icons_sinrunners_desc'] = 'Zeigt die Positionen der {npc:174032} und ihre Wege an.'
 
 L['addius_note'] = 'Willensschwache Wesen sollten nicht meine Zeit vergeuden, doch wenn Ihr darauf besteht, dann zeige ich Euch, was wahre Schmerzen sind.'
@@ -742,7 +742,7 @@ L['rift_hidden_cache'] = 'Versteckte Risstruhe'
 L['options_icons_rift_hidden_cache'] = 'Versteckte Risstruhen'
 L['options_icons_rift_hidden_cache_desc'] = 'Zeigt die Positionen von versteckten Risstruhen innerhalb des {location:Riss} an.'
 
-L['options_icons_bonus_boss'] = 'Bonus Elitegegner'
+L['options_icons_bonus_boss'] = '{achievement:14660}'
 L['options_icons_bonus_boss_desc'] = 'Zeigt die Positionen von Bonus Elitegegnern.'
 L['options_icons_riftstone'] = 'Chaotische Risssteine'
 L['options_icons_riftstone_desc'] = 'Zeigt die Positionen von Chaotischen Risssteinen an.'
