@@ -46,8 +46,8 @@ L['glowing_moth'] = 'Светящийся мотылек'
 L['options_icons_glowing_moth'] = 'Светящийся мотылек'
 L['options_icons_glowing_moth_desc'] = 'Показывает расположение светящихся мотыльков для достижения {achievement:61052}.'
 
-L['sporespawned_cache_note'] = nil
-L['fungal_mallet'] = nil
+L['sporespawned_cache_note'] = 'Взаимодействуйте с {dot:Red}{object:Грибной колотушкой} в Грибной деревни, чтобы получить бафф {spell:1266347}, и используйте его, чтобы ударить в {object:Гонг грибницы}. Сокровище появится рядом с гонгом.'
+L['fungal_mallet'] = 'Грибная колотушка'
 L['impenatrably_sealed_gourd_note'] = nil
 
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
