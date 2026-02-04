@@ -681,3 +681,13 @@ L['sthaarbs_note'] = 'Utilisez le téléporteur près du {object:Conduit de phas
 L['heka_tamos_note'] = 'Récupérez un buff auprès de chacun des objects {object:Veile-rosée}, {object:Lanterne spectrale}, {object:Succulente terreuse} et {object:Ventianne} qui apparaissent à proximité, puis interagissez avec le {object:Brasero d\'union élementaire} pour invoquer le rare.'
 
 L['translocated_gorger_note'] = 'Récupérez 1x {item:246240} par boss, par semaine et par bataillon sur le boss final de chaque {object:Attaque de dévoreur} et combinez-les pour créer la monture.'
+
+L['zo_turu_note_start'] = nil
+L['zo_turu_note_end'] = nil
+L['cartel_ba_dead_drop_label'] = nil
+L['cartel_ba_dead_drop_location'] = nil
+L['cartel_om_dead_drop_label'] = nil
+L['cartel_om_dead_drop_location'] = nil
+L['cartel_zo_dead_drop_label'] = nil
+L['cartel_zo_dead_drop_location'] = nil
+L['cartel_dead_drop_warning'] = nil

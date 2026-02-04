@@ -682,3 +682,13 @@ L['sthaarbs_note'] = 'Use the teleporter near the {object:Phase Conduit} to reac
 L['heka_tamos_note'] = 'Collect a buff from each of the {object:Dewminder}, {object:Spectral Lantern}, {object:Earthy Succulent} and {object:Windcatcher} which spawn nearby then interact with the {object:Brazier of Elemental Union} to summon the rare.'
 
 L['translocated_gorger_note'] = 'Collect 1 {item:246240} per boss per week per warband from the boss during a {object:Devourer Invasion} and combine them to create your mount.'
+
+L['zo_turu_note_start'] = 'Join one of three cartels and find a dead drops located within {location:Manaforge Omega}.\n\n{item:249702}\n{item:249704}\n{item:249700}\n\n{note:Each drop requires a different cartel.}'
+L['zo_turu_note_end'] = '\n\nOnce all drops have been collected visit {npc:245344} to complete {quest:92082}.'
+L['cartel_ba_dead_drop_label'] = 'Cartel Ba Dead Drop'
+L['cartel_ba_dead_drop_location'] = 'After {npc:233814} on the right path before using {spell:1232528} to cross the gap.'
+L['cartel_om_dead_drop_label'] = 'Cartel Om Dead Drop'
+L['cartel_om_dead_drop_location'] = 'On top of a rock behind the building after {npc:237861}.'
+L['cartel_zo_dead_drop_label'] = 'Cartel Zo Dead Drop'
+L['cartel_zo_dead_drop_location'] = 'Along a pipe leading to the the first mana-vent before {npc:247989}.'
+L['cartel_dead_drop_warning'] = '{note:This dead drop is unreachable if {npc:247989} has already been defeated in this instance.}'

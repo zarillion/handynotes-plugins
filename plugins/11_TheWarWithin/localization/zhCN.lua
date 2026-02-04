@@ -682,3 +682,13 @@ L['sthaarbs_note'] = '使用 {object:相位导管} 附近的传送器前往 {npc
 L['heka_tamos_note'] = '从附近的 {object:望露莲}、{object:幽灵提灯}、{object:土生肉质植物} 和 {object:捕风花} 处各收集一层增益效果，然后与 {object:元素团结火盆} 互动召唤稀有。'
 
 L['translocated_gorger_note'] = '每周每个战团可从 {object:吞噬者入侵} 首领收集1个 {item:246240}，组合这些物品即可制作坐骑。'
+
+L['zo_turu_note_start'] = nil
+L['zo_turu_note_end'] = nil
+L['cartel_ba_dead_drop_label'] = nil
+L['cartel_ba_dead_drop_location'] = nil
+L['cartel_om_dead_drop_label'] = nil
+L['cartel_om_dead_drop_location'] = nil
+L['cartel_zo_dead_drop_label'] = nil
+L['cartel_zo_dead_drop_location'] = nil
+L['cartel_dead_drop_warning'] = nil

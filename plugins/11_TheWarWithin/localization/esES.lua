@@ -682,3 +682,13 @@ L['sthaarbs_note'] = 'Usa el teletransportador cerca del {object:Conducto de fas
 L['heka_tamos_note'] = 'Consigue un buff de {object:Minador de rocío}, {object:Farol espectral}, {object:Exquisitez terránea} y {object:Atrapavientos} que aparecen cerca e interactúa con el {object:Blandón de unión elemental} para invocar al raro.'
 
 L['translocated_gorger_note'] = 'Recoge 1x {item:246240} por boss cada semana de la banda guerrera del boss durante una {object:Invasión de devoradores}. Combínalas y conseguirás tu montura.'
+
+L['zo_turu_note_start'] = nil
+L['zo_turu_note_end'] = nil
+L['cartel_ba_dead_drop_label'] = nil
+L['cartel_ba_dead_drop_location'] = nil
+L['cartel_om_dead_drop_label'] = nil
+L['cartel_om_dead_drop_location'] = nil
+L['cartel_zo_dead_drop_label'] = nil
+L['cartel_zo_dead_drop_location'] = nil
+L['cartel_dead_drop_warning'] = nil
