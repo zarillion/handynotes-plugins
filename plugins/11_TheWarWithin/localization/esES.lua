@@ -683,12 +683,12 @@ L['heka_tamos_note'] = 'Consigue un buff de {object:Minador de rocío}, {object:
 
 L['translocated_gorger_note'] = 'Recoge 1x {item:246240} por boss cada semana de la banda guerrera del boss durante una {object:Invasión de devoradores}. Combínalas y conseguirás tu montura.'
 
-L['zo_turu_note_start'] = nil
-L['zo_turu_note_end'] = nil
-L['cartel_ba_dead_drop_label'] = nil
-L['cartel_ba_dead_drop_location'] = nil
-L['cartel_om_dead_drop_label'] = nil
-L['cartel_om_dead_drop_location'] = nil
-L['cartel_zo_dead_drop_label'] = nil
-L['cartel_zo_dead_drop_location'] = nil
-L['cartel_dead_drop_warning'] = nil
+L['zo_turu_note_start'] = 'Únete a uno de los tres Cárteles y busca uno de los puntos de entrega de la {location:Forja de Maná Omega}.\n\n{item:249702}\n{item:249704}\n{item:249700}\n\n{note:Cada objeto requiere ser de un Cártel distinto.}'
+L['zo_turu_note_end'] = '\n\nUna vez hayas completado el trato visita a {npc:245344} para completar la misión {quest:92082}.'
+L['cartel_ba_dead_drop_label'] = 'Punto de entrega del Cártel Ba'
+L['cartel_ba_dead_drop_location'] = 'Después del {npc:233814}, toma el camino de la derecha antes de usar {spell:1232528} para cruzar el vacío.'
+L['cartel_om_dead_drop_label'] = 'Punto de entrega del Cártel Om'
+L['cartel_om_dead_drop_location'] = 'Encima de una roca que hay detrás del edificio después de {npc:237861}.'
+L['cartel_zo_dead_drop_label'] = 'Punto de entrega del Cártel Zo'
+L['cartel_zo_dead_drop_location'] = 'A lo largo de una tubería que conduce al primer respiradero de maná antes del {npc:247989}.'
+L['cartel_dead_drop_warning'] = '{note:Este punto de entrega es inalcanzable si {npc:247989} ya fue derrotado en esta instancia.}'
