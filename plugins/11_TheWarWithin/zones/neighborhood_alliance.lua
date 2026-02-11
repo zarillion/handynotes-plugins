@@ -41,7 +41,6 @@ local _Riddle_ = Class('_Riddle_', Riddle,
 -- https://www.wowhead.com/de/guide/player-housing/alliance-neighborhood-decor-treasure-hunt-quests-solutions#appearances-and-solutions
 
 map.nodes[63203830] = _Riddle_({quest = 92437, item = 245375})
-map.nodes[59805240] = _Riddle_({quest = 92965, item = 235523})
 map.nodes[55407150] = Riddle({quest = 92969, item = 242951})
 map.nodes[39105990] = _Riddle_({quest = 92970, item = 246742})
 map.nodes[40846131] = Riddle({quest = 92971, item = 246104})
@@ -86,6 +85,12 @@ map.nodes[57814204] = Riddle({quest = 93002, item = 253490})
 map.nodes[56652751] = Riddle({quest = 93003, item = 257690})
 map.nodes[53653978] = Riddle({quest = 93006, item = 253479})
 map.nodes[53604195] = Riddle({quest = 93009, item = 246255})
+
+map.nodes[59805240] = Riddle({
+    item = 235523,
+    location = L['in_water'],
+    quest = 92965
+})
 
 map.nodes[45416434] = Riddle({
     item = 246103,
