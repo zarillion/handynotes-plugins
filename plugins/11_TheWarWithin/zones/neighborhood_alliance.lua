@@ -40,7 +40,7 @@ local _Riddle_ = Class('_Riddle_', Riddle,
 -- coords, quests and rewards from wowhead
 -- https://www.wowhead.com/de/guide/player-housing/alliance-neighborhood-decor-treasure-hunt-quests-solutions#appearances-and-solutions
 
-map.nodes[63203830] = _Riddle_({quest = 92437, item = 245375})
+map.nodes[63203830] = Riddle({quest = 92437, item = 245375})
 map.nodes[55407150] = Riddle({quest = 92969, item = 242951})
 map.nodes[39105990] = _Riddle_({quest = 92970, item = 246742})
 map.nodes[40846131] = Riddle({quest = 92971, item = 246104})
