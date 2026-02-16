@@ -1108,8 +1108,8 @@ tfc.nodes[63104510] = Node({
     icon = 237169,
     quest = 92080,
     requires = {
-        ns.requirement.Reputation(2736, 8, true),
-        ns.requirement.Spell(1249465), -- Deal: Cartel Ba
+        ns.requirement.Reputation(2736, 8, true), --
+        ns.requirement.Spell(1249465) -- Deal: Cartel Ba
     },
     rewards = {Item({item = 249711})} -- Cartel Ba Cypher
 }) -- Cartel Ba Dead Drop
@@ -1120,8 +1120,8 @@ wok.nodes[58801080] = Node({
     icon = 466717,
     quest = 92081,
     requires = {
-        ns.requirement.Reputation(2736, 8, true),
-        ns.requirement.Spell(1249467), -- Deal: Cartel Om
+        ns.requirement.Reputation(2736, 8, true), --
+        ns.requirement.Spell(1249467) -- Deal: Cartel Om
     },
     rewards = {Item({item = 249712})} -- Cartel Om Cypher
 }) -- Cartel Om Dead Drop
@@ -1133,8 +1133,8 @@ tmt.nodes[35601920] = Node({
     icon = 134491,
     quest = 92079,
     requires = {
-        ns.requirement.Reputation(2736, 8, true),
-        ns.requirement.Spell(1249462), -- Deal: Cartel Zo
+        ns.requirement.Reputation(2736, 8, true), --
+        ns.requirement.Spell(1249462) -- Deal: Cartel Zo
     },
     rewards = {Item({item = 249710})} -- Cartel Zo Cypher
 }) -- Cartel Zo Dead Drop
