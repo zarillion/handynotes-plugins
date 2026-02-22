@@ -62,9 +62,9 @@ L['impenatrably_sealed_gourd_note'] = 'Despoja el {item:260251} de la {object:Ja
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = 'Muestra dónde están los NPC para el logro {achievement:62188}.'
 L['more_than_just_thier_roots_note'] = 'Habla con los NPC en las siguientes ubicaciones:'
-L['chonon_note'] = nil
-L['funnid_note'] = nil
-L['kawayn_note'] = nil
+L['chonon_note'] = 'Arriba en las ramas del árbol.'
+L['funnid_note'] = 'En lo alto de las ramas del árbol del mundo.'
+L['kawayn_note'] = 'Arriba en el gran tronco del árbol.'
 
 L['altar_of_innocence'] = 'Altar de la inocencia'
 L['altar_of_vigor'] = 'Altar del vigor'
