@@ -546,11 +546,11 @@ L['sinrunner_note_day4'] = '在 {npc:173570} 处拾取 {item:182620} 并填满 {
 L['sinrunner_note_day5'] = '从 {location:午夜集市} 的 {npc:171808} 用不同的肉换取 {item:182597}，给 {npc:173468} 装配上。'
 L['sinrunner_note_day6'] = '从 {location:城墙巨洞} 的 {npc:167815} 购买3个 {item:179271}，喂食 {npc:173468}。'
 
-L['options_icons_carriages'] = '马车'
+L['options_icons_carriages'] = '{achievement:14771}'
 L['options_icons_carriages_desc'] = '显示可骑乘马车的位置和路径。'
-L['options_icons_dredbats'] = '{npc:161015}'
+L['options_icons_dredbats'] = '{achievement:14769}'
 L['options_icons_dredbats_desc'] = '显示 {npc:161015} 的位置和路径。'
-L['options_icons_sinrunners'] = '{npc:174032}'
+L['options_icons_sinrunners'] = '{achievement:14770}'
 L['options_icons_sinrunners_desc'] = '显示 {npc:174032} 的位置和路径。'
 
 L['addius_note'] = '意志薄弱的生灵不该来浪费我的时间，不过如果你坚持的话，我会让你见识下真正的痛苦。'
@@ -757,7 +757,7 @@ L['rift_hidden_cache'] = '隙隐宝箱'
 L['options_icons_rift_hidden_cache'] = '隙隐宝箱'
 L['options_icons_rift_hidden_cache_desc'] = '显示 {location:裂隙} 内 {object:隙隐宝箱} 的位置。'
 
-L['options_icons_bonus_boss'] = '奖励精英'
+L['options_icons_bonus_boss'] = '{achievement:14660}'
 L['options_icons_bonus_boss_desc'] = '显示奖励精英位置。'
 L['options_icons_riftstone'] = '{npc:174962}'
 L['options_icons_riftstone_desc'] = '显示 {object:混沌裂隙石} 传送位置。'

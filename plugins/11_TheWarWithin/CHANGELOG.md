@@ -1,6 +1,15 @@
+# v130
+
+* Housing riddle updates
+* Bump toc to 120000
+
 # v129
 
-* Localization updates: deDE, esES, frFR, zhCN
+* Added Neighborhood Riddles feature with new riddle nodes in Neighborhood Alliance and Horde zones
+* Moved Profession Treasure functionality to core
+* Updated deprecated API usage in Undermine zone
+* Localization updates: deDE, enUS, esES, frFR, ruRU, zhCN, zhTW
+
 
 # v128
 

@@ -1,3 +1,14 @@
+# v130
+
+* Bump toc to 120000
+* Fixed Seething Cache in Zarelek caverns displaying as incorrect treasure
+* Localization updates: ruRU
+
+# v129
+
+* Moved Profession Treasure functionality to core
+* Fixed invalid coordinates in Zaralek Cavern
+
 # v128
 
 * Bump toc to 110207

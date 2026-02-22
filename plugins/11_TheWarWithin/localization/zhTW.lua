@@ -680,3 +680,13 @@ L['sthaarbs_note'] = nil
 L['heka_tamos_note'] = nil
 
 L['translocated_gorger_note'] = nil
+
+L['zo_turu_note_start'] = nil
+L['zo_turu_note_end'] = nil
+L['cartel_ba_dead_drop_label'] = nil
+L['cartel_ba_dead_drop_location'] = nil
+L['cartel_om_dead_drop_label'] = nil
+L['cartel_om_dead_drop_location'] = nil
+L['cartel_zo_dead_drop_label'] = nil
+L['cartel_zo_dead_drop_location'] = nil
+L['cartel_dead_drop_warning'] = nil

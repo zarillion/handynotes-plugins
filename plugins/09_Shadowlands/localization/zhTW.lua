@@ -546,11 +546,11 @@ L['sinrunner_note_day4'] = '在 {npc:173570} 附近拾取 {item:182620} 並用�
 L['sinrunner_note_day5'] = '從深夜市集的 {npc:171808} 用不同的肉換取 {item:182597}，給布蘭契裝上。'
 L['sinrunner_note_day6'] = '從城牆破洞的 {npc:167815} 購買3個 {item:179271}，餵食布蘭契。'
 
-L['options_icons_carriages'] = '馬車'
+L['options_icons_carriages'] = '{achievement:14771}'
 L['options_icons_carriages_desc'] = '顯示可騎乘馬車的位置和路徑。'
-L['options_icons_dredbats'] = '{npc:161015}'
+L['options_icons_dredbats'] = '{achievement:14769}'
 L['options_icons_dredbats_desc'] = '顯示{npc:161015}的位置和路徑。'
-L['options_icons_sinrunners'] = '{npc:174032}'
+L['options_icons_sinrunners'] = '{achievement:14770}'
 L['options_icons_sinrunners_desc'] = '顯示{npc:174032}的位置和路徑。'
 
 L['addius_note'] = '意志軟弱的傢伙不該浪費我的時間，不過，要是你堅持的話，我會讓你見識真正的痛苦。'
@@ -736,7 +736,7 @@ L['rift_hidden_cache'] = '裂隙隱藏寶箱'
 L['options_icons_rift_hidden_cache'] = '裂隙隱藏寶箱'
 L['options_icons_rift_hidden_cache_desc'] = '顯示在 |cFFFFFF00裂隙|r 內的寶箱位置.'
 
-L['options_icons_bonus_boss'] = '獎勵精英'
+L['options_icons_bonus_boss'] = '{achievement:14660}'
 L['options_icons_bonus_boss_desc'] = '顯示獎勵精英位置.'
 L['options_icons_riftstone'] = '{npc:174962}'
 L['options_icons_riftstone_desc'] = '顯示混亂裂隙石傳送者位置.'

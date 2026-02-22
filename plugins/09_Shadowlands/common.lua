@@ -188,44 +188,89 @@ end
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
-ns.groups.ANIMA_SHARD = Group('anima_shard', 'crystal_b',
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.BLESSINGS = Group('blessings', 1022951, {defaults = ns.GROUP_HIDDEN})
-ns.groups.BONUS_BOSS = Group('bonus_boss', 'peg_rd',
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.CARRIAGE = Group('carriages', 'horseshoe_g',
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.CODE_CREATURE = Group('code_creature', 348545,
-    {defaults = ns.GROUP_HIDDEN})
+ns.groups.ANIMA_SHARD = Group('anima_shard', 'crystal_b', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14339
+})
+ns.groups.BLESSINGS = Group('blessings', 1022951, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14767
+})
+ns.groups.BONUS_BOSS = Group('bonus_boss', 3586457, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14660
+})
+ns.groups.CARRIAGE = Group('carriages', 'horseshoe_g', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14771
+})
+ns.groups.CODE_CREATURE = Group('code_creature', 348545, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 15211
+})
 ns.groups.CONCORDANCES = Group('concordances', 4238797,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.COVENANT_ASSAULTS = Group('covenant_assaults', 236352,
     {defaults = ns.GROUP_HIDDEN})
-ns.groups.CRYPT_COUTURE = Group('crypt_couture', 237274,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.CRYPT_KICKER = Group('crypt_kicker', 236399,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.DREDBATS = Group('dredbats', 'flight_point_g',
-    {defaults = ns.GROUP_HIDDEN})
+ns.groups.CRYPT_COUTURE = Group('crypt_couture', 237274, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14763
+})
+ns.groups.CRYPT_KICKER = Group('crypt_kicker', 236399, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14273
+})
+ns.groups.DREDBATS = Group('dredbats', 'flight_point_g', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14769
+})
 ns.groups.ECHOED_JIROS = Group('echoed_jiros', 'peg_gn',
     {defaults = ns.GROUP_HIDDEN})
-ns.groups.EXILE_TALES = Group('exile_tales', 4072784,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.FAERIE_TALES = Group('faerie_tales', 355498,
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.FUGITIVES = Group('fugitives', 236247, {defaults = ns.GROUP_HIDDEN})
+ns.groups.EXILE_TALES = Group('exile_tales', 4072784, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 15509
+})
+ns.groups.FAERIE_TALES = Group('faerie_tales', 355498, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14788
+})
+ns.groups.FUGITIVES = Group('fugitives', 236247, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14274
+})
 ns.groups.GRAPPLES = Group('grapples', 'peg_bk', {defaults = ns.GROUP_HIDDEN})
 ns.groups.HELGARDE_CACHE = Group('helgarde_cache', 'chest_gy',
     {defaults = ns.GROUP_HIDDEN75})
-ns.groups.HYMNS = Group('hymns', 'scroll', {defaults = ns.GROUP_HIDDEN})
-ns.groups.INQUISITORS = Group('inquisitors', 3528307,
-    {defaults = ns.GROUP_HIDDEN})
+ns.groups.HYMNS = Group('hymns', 'scroll', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14768
+})
+ns.groups.INQUISITORS = Group('inquisitors', 3528307, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14276
+})
 ns.groups.INVASIVE_MAWSHROOM = Group('invasive_mawshroom', 134534,
     {defaults = ns.GROUP_HIDDEN75})
 ns.groups.KORTHIA_SHARED = Group('korthia_dailies', 1506458,
     {defaults = ns.GROUP_HIDDEN75})
-ns.groups.MAWSWORN_BLACKGUARD = Group('mawsworn_blackguard', 236173,
-    {defaults = ns.GROUP_HIDDEN})
+ns.groups.MAWSWORN_BLACKGUARD = Group('mawsworn_blackguard', 236173, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14742
+})
 ns.groups.MAWSWORN_CACHE = Group('mawsworn_cache', 3729814,
     {defaults = ns.GROUP_HIDDEN75})
 ns.groups.MAWSWORN_SUPPLY_CACHE = Group('mawsworn_supply_cache', 'chest_bk',
@@ -234,8 +279,11 @@ ns.groups.NEST_MATERIALS = Group('nest_materials', 136064,
     {defaults = ns.GROUP_HIDDEN75})
 ns.groups.NILGANIHMAHT_MOUNT = Group('nilganihmaht', 1391724,
     {defaults = ns.GROUP_HIDDEN75})
-ns.groups.PROTO_MATERIALS = Group('proto_materials', 838813,
-    {defaults = ns.GROUP_HIDDEN})
+ns.groups.PROTO_MATERIALS = Group('proto_materials', 838813, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 15229
+})
 ns.groups.PROTOFORM_SCHEMATICS = Group('protoform_schematics', 4217590,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.PUZZLE_CACHE = Group('puzzle_caches', 'star_chest_g',
@@ -248,17 +296,35 @@ ns.groups.RIFTBOUND_CACHE = Group('riftbound_cache', 'chest_bk',
 ns.groups.RIFTSTONE = Group('riftstone', 'portal_bl')
 ns.groups.SHROUDED_CYPHER = Group('shrouded_cyphers', 'chest_pp',
     {defaults = ns.GROUP_HIDDEN75})
-ns.groups.SINRUNNER = Group('sinrunners', 'horseshoe_o',
-    {defaults = ns.GROUP_HIDDEN})
-ns.groups.SLIME_CAT = Group('slime_cat', 3732497, {defaults = ns.GROUP_HIDDEN})
-ns.groups.SQUIRRELS = Group('squirrels', 237182, {defaults = ns.GROUP_HIDDEN})
+ns.groups.SINRUNNER = Group('sinrunners', 'horseshoe_o', {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14770
+})
+ns.groups.SLIME_CAT = Group('slime_cat', 3732497, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14634
+})
+ns.groups.SQUIRRELS = Group('squirrels', 237182, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14731
+})
 ns.groups.STYGIAN_CACHES = Group('stygian_caches', 'chest_nv',
     {defaults = ns.GROUP_HIDDEN75})
 ns.groups.STYGIA_NEXUS = Group('stygia_nexus', 'peg_gn',
     {defaults = ns.GROUP_HIDDEN75})
-ns.groups.VESPERS = Group('vespers', 3536181, {defaults = ns.GROUP_HIDDEN})
-ns.groups.WILD_HUNTING = Group('wild_hunting', 1604164,
-    {defaults = ns.GROUP_HIDDEN})
+ns.groups.VESPERS = Group('vespers', 3536181, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14734
+})
+ns.groups.WILD_HUNTING = Group('wild_hunting', 1604164, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14779
+})
 ns.groups.WILDSEED_SPIRITS = Group('wildseed_spirits', 895888,
     {defaults = ns.GROUP_HIDDEN})
 ns.groups.ZERETH_CACHE = Group('zereth_caches', 3950362,
@@ -293,6 +359,8 @@ ns.groups.BROKEN_MIRROR = Group('broken_mirror', 3854020, {
 
 ns.groups.RELIC = Group('relic', 'star_chest_b', {
     defaults = ns.GROUP_ALPHA75,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 14734,
     IsEnabled = function(self)
         -- Relics cannot be collected until the quest "What Must Be Found" is completed
         if not C_QuestLog.IsQuestFlaggedCompleted(64506) then
@@ -304,6 +372,8 @@ ns.groups.RELIC = Group('relic', 'star_chest_b', {
 
 ns.groups.CORELESS_AUTOMA = Group('coreless_automa', 4327618, {
     defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 15542,
     IsEnabled = function(self)
         -- Coreless automa cannot be controlled by Pocopoc until the quest "Core Control" is complete
         if not C_QuestLog.IsQuestFlaggedCompleted(65700) then
@@ -313,7 +383,11 @@ ns.groups.CORELESS_AUTOMA = Group('coreless_automa', 4327618, {
     end
 })
 
-ns.groups.SAFARI = Group('safari', 3046536, {defaults = ns.GROUP_HIDDEN})
+ns.groups.SAFARI = Group('safari', 3046536, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.COLLECTIBLE,
+    achievement = 15542
+})
 
 -------------------------------------------------------------------------------
 --------------------------------- SOULSHAPES ----------------------------------

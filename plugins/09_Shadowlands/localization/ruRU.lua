@@ -543,11 +543,11 @@ L['sinrunner_note_day4'] = 'Возьмите {item:182620} рядом с {npc:17
 L['sinrunner_note_day5'] = 'Оснастите Бланчи {item:182597}, которое обменивается у {npc:171808} возле ночного рынка на различное мясо из текущей локации.'
 L['sinrunner_note_day6'] = 'Купите 3 {item:179271}, у {npc:167815} для Бланчи.'
 
-L['options_icons_carriages'] = 'Экипажи'
+L['options_icons_carriages'] = '{achievement:14771}'
 L['options_icons_carriages_desc'] = 'Отображение местоположения и пути проезжаемых экипажей.'
-L['options_icons_dredbats'] = '{npc:161015}'
+L['options_icons_dredbats'] = '{achievement:14769}'
 L['options_icons_dredbats_desc'] = 'Показать местоположения и пути {npc:161015}.'
-L['options_icons_sinrunners'] = '{npc:174032}'
+L['options_icons_sinrunners'] = '{achievement:14770}'
 L['options_icons_sinrunners_desc'] = 'Показать местоположения и пути {npc:174032}.'
 
 L['addius_note'] = 'Слабоумным существам не стоит тратить мое время, но если вы будете настаивать, я покажу вам настоящую боль.'
@@ -733,7 +733,7 @@ L['rift_hidden_cache'] = 'Тайник разлома'
 L['options_icons_rift_hidden_cache'] = 'Тайник разлома'
 L['options_icons_rift_hidden_cache_desc'] = 'Показать расположение тайников внутри |cFFFFFF00разломов|r.'
 
-L['options_icons_bonus_boss'] = 'Бонусные элитные монстры'
+L['options_icons_bonus_boss'] = '{achievement:14660}'
 L['options_icons_bonus_boss_desc'] = 'Отображение местоположения бонусных элитных монстров.'
 L['options_icons_riftstone'] = '{npc:174962}'
 L['options_icons_riftstone_desc'] = 'Отображение местоположения хаотичных каменей разлома.'

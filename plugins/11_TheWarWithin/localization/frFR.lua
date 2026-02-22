@@ -681,3 +681,13 @@ L['sthaarbs_note'] = 'Utilisez le téléporteur près du {object:Conduit de phas
 L['heka_tamos_note'] = 'Récupérez un buff auprès de chacun des objects {object:Veile-rosée}, {object:Lanterne spectrale}, {object:Succulente terreuse} et {object:Ventianne} qui apparaissent à proximité, puis interagissez avec le {object:Brasero d\'union élementaire} pour invoquer le rare.'
 
 L['translocated_gorger_note'] = 'Récupérez 1x {item:246240} par boss, par semaine et par bataillon sur le boss final de chaque {object:Attaque de dévoreur} et combinez-les pour créer la monture.'
+
+L['zo_turu_note_start'] = 'Rejoignez l\'un des trois cartels et trouvez les boîtes mortes situées dans la {location:Manaforge Oméga}.\n\n{item:249702}\n{item:249704}\n{item:249700}\n\n{note:Chaque boîte morte nécessite un cartel différent.}'
+L['zo_turu_note_end'] = '\n\nUne fois toutes les boîtes mortes récupérées, allez voir {npc:245344} pour terminer {quest:92082}.'
+L['cartel_ba_dead_drop_label'] = 'Boîte morte du cartel Ba'
+L['cartel_ba_dead_drop_location'] = 'Après la {npc:233814}, sur le chemin de droite et avant d\'utiliser la {spell:1232528} pour franchir le vide.'
+L['cartel_om_dead_drop_label'] = 'Boîte morte du cartel Om'
+L['cartel_om_dead_drop_location'] = 'Au sommet d\'un rocher situé derrière le bâtiment après {npc:237861}.'
+L['cartel_zo_dead_drop_label'] = 'Boîte morte du cartel Zo'
+L['cartel_zo_dead_drop_location'] = 'Le long d\'un tuyau menant à la première bouche d\'aération à mana avant le {npc:247989}.'
+L['cartel_dead_drop_warning'] = '{note:Cette boîte morte est inaccessible si le {npc:247989} a déjà été vaincu dans cette instance.}'

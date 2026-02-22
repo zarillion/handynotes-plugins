@@ -10,6 +10,7 @@ local Collectible = ns.node.Collectible
 local Rare = ns.node.Rare
 local Treasure = ns.node.Treasure
 local SkyridingGlyph = ns.node.SkyridingGlyph
+local Node = ns.node.Node
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
@@ -25,7 +26,7 @@ local Entrance = ns.poi.Entrance
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
--- local ItemStatus = ns.tooltip.ItemStatus
+local QuestStatus = ns.tooltip.QuestStatus
 
 -------------------------------------------------------------------------------
 ------------------------------------ MAPS -------------------------------------
@@ -33,6 +34,10 @@ local POI = ns.poi.POI
 
 local taz = Map({id = 2472, settings = true})
 local map = Map({id = 2371, settings = true})
+
+local tfc = Map({id = 2460, settings = false}) -- Manaforge Omega: The Forge Core
+local wok = Map({id = 2465, settings = false}) -- Manaforge Omega: Wastes of Karesh
+local tmt = Map({id = 2463, settings = false}) -- Manaforge Omega: Technomancers' Terrance
 
 -------------------------------------------------------------------------------
 --------------------------------- Reshii Wraps --------------------------------
@@ -1070,35 +1075,66 @@ taz.nodes[60415720] = PhaseOrb({parent = map.id})
 taz.nodes[61128910] = PhaseOrb({parent = map.id})
 taz.nodes[62132931] = PhaseOrb({parent = map.id})
 
---[[
 -------------------------------------------------------------------------------
-------------------------- MOUNT: TRANSLOCATED GORGER --------------------------
+---------- MOUNT: XY TRUSTEE'S GEARGLIDER & TOY: CARTEL TRANSMORPHER ----------
 -------------------------------------------------------------------------------
 
-local TranslocatedGorger = Class('TranslocatedGorger', Collectible, {
-    icon = 3767410,
+local Zoturu = Class('zotutu', Collectible, {
+    id = 245344,
+    icon = 3802394,
+    requires = ns.requirement.Reputation(2736, 8, true), -- Manaforge Vandals
     rewards = {
-        Mount({item = 246159, id = 2602}) -- Translocated Gorger
+        Mount({item = 186639, id = 1482}), -- Xy Trustee's Gearglider
+        Toy({item = 249713}) -- Cartel Transmorpher
     }
-}) -- Translocated Gorger
+}) -- Zo'turu
 
-function TranslocatedGorger.getters:note()
-    local note = L['translocated_gorger_note']
-    return note .. ItemStatus(246240, 20, '{item:246240}')
+-- LuaFormatter off
+function Zoturu.getters:note()
+    local note = L['zo_turu_note_start'] .. '\n'
+    note = note .. QuestStatus(92080, 'x', format(' {object:%s}', L['cartel_ba_dead_drop_label']))
+    note = note .. QuestStatus(92081, 'x', format(' {object:%s}', L['cartel_om_dead_drop_label']))
+    note = note .. QuestStatus(92079, 'x', format(' {object:%s}', L['cartel_zo_dead_drop_label']))
+    return note .. L['zo_turu_note_end']
 end
+-- LuaFormatter on
 
-taz.nodes[29607260] = TranslocatedGorger({
-    label = '{npc:235104}',
-    quest = 86465,
-    parent = map.id
-}) -- The Wallbreaker (Tazavesh Invasion)
+map.nodes[41962212] = Zoturu()
 
-map.nodes[49606460] =
-    TranslocatedGorger({label = '{npc:235087}', quest = 86464}) -- The Harvester (The Atrium Invasion)
+tfc.nodes[63104510] = Node({
+    label = L['cartel_ba_dead_drop_label'],
+    location = L['cartel_ba_dead_drop_location'],
+    note = L['cartel_dead_drop_warning'],
+    icon = 237169,
+    quest = 92080,
+    requires = {
+        ns.requirement.Reputation(2736, 8, true), --
+        ns.requirement.Spell(1249465) -- Deal: Cartel Ba
+    },
+    rewards = {Item({item = 249711})} -- Cartel Ba Cypher
+}) -- Cartel Ba Dead Drop
 
-map.nodes[50605460] =
-    TranslocatedGorger({label = '{npc:234970}', quest = 86447}) -- Miasmawrath (Eco-Dome Primus Invasion)
+wok.nodes[58801080] = Node({
+    label = L['cartel_om_dead_drop_label'],
+    location = L['cartel_om_dead_drop_location'],
+    icon = 466717,
+    quest = 92081,
+    requires = {
+        ns.requirement.Reputation(2736, 8, true), --
+        ns.requirement.Spell(1249467) -- Deal: Cartel Om
+    },
+    rewards = {Item({item = 249712})} -- Cartel Om Cypher
+}) -- Cartel Om Dead Drop
 
-map.nodes[71402760] =
-    TranslocatedGorger({label = '{npc:231229}', quest = 84993}) -- Korogoth the Hungerer (The Oasis Invasion)
-]]
+tmt.nodes[35601920] = Node({
+    label = L['cartel_zo_dead_drop_label'],
+    location = L['cartel_zo_dead_drop_location'],
+    note = L['cartel_dead_drop_warning'],
+    icon = 134491,
+    quest = 92079,
+    requires = {
+        ns.requirement.Reputation(2736, 8, true), --
+        ns.requirement.Spell(1249462) -- Deal: Cartel Zo
+    },
+    rewards = {Item({item = 249710})} -- Cartel Zo Cypher
+}) -- Cartel Zo Dead Drop

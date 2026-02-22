@@ -1,3 +1,11 @@
+# v130
+
+* Bump toc to 120000
+
+# v129
+
+* Fixed invalid coordinates in Stormheim and Suramar
+
 # v128
 
 * Bump toc to 110207

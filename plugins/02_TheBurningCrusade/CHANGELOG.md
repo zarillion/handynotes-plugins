@@ -1,3 +1,11 @@
+# v130
+
+* Bump toc to 120000
+
+# v129
+
+* Updated Nuramoc Path in Netherstorm
+
 # v128
 
 * Bump toc to 110207

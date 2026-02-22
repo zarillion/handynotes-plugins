@@ -1,3 +1,11 @@
+# v132
+
+* Reorganise BFA achievements and add achievement ids to groups for better tracking.
+
+# v130
+
+* Bump toc to 120000
+
 # v128
 
 * Bump toc to 110207

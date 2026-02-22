@@ -683,3 +683,13 @@ L['sthaarbs_note'] = 'Используйте телепорт возле {object
 L['heka_tamos_note'] = 'Получите баффы от следующих объектов {object:Конденсатор росы}, {object:Призрачный фонарь}, {object:Землистый суккулент} и {object:Ловец ветра}, которые появляются поблизости, а затем взаимодействуйте с {object:Жаровней гармонии стихий}, чтобы призвать редкого монстра.'
 
 L['translocated_gorger_note'] = 'Собирайте по 1 {item:246240} на босса в неделю на отряд с редкого монстра во время {object:Нападение пожирателей} и объединяйте их, чтобы создать средство передвижения.'
+
+L['zo_turu_note_start'] = nil
+L['zo_turu_note_end'] = nil
+L['cartel_ba_dead_drop_label'] = nil
+L['cartel_ba_dead_drop_location'] = nil
+L['cartel_om_dead_drop_label'] = nil
+L['cartel_om_dead_drop_location'] = nil
+L['cartel_zo_dead_drop_label'] = nil
+L['cartel_zo_dead_drop_location'] = nil
+L['cartel_dead_drop_warning'] = nil

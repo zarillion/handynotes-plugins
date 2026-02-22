@@ -683,3 +683,13 @@ L['sthaarbs_note'] = 'Verwende den Teleporter in der Nähe des {object:Phasenlei
 L['heka_tamos_note'] = 'Sammle die folgenden Objekte: {object:Taufänger}, {object:Spektrale Laterne}, {object:Erdige Sukkulente} und {object:Windfänger}, die in {location:Die Oase} erscheinen. Interagiere anschließend mit der {object:Kohlepfanne der Elementaren Einheit}, um den seltenen Gegner zu beschwören.'
 
 L['translocated_gorger_note'] = 'Sammle wöchentlich 1 {item:246240} pro Boss und Kriegsband von dem Boss während einer {object:Verschlinger Invasion} und kombiniere sie, um dein Reittier zu erhalten.'
+
+L['zo_turu_note_start'] = nil
+L['zo_turu_note_end'] = nil
+L['cartel_ba_dead_drop_label'] = nil
+L['cartel_ba_dead_drop_location'] = nil
+L['cartel_om_dead_drop_label'] = nil
+L['cartel_om_dead_drop_location'] = nil
+L['cartel_zo_dead_drop_label'] = nil
+L['cartel_zo_dead_drop_location'] = nil
+L['cartel_dead_drop_warning'] = nil

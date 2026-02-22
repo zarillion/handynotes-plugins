@@ -922,6 +922,7 @@ L['smelly_treasure_chest_label'] = 'Arqueta olorosa'
 L['options_icons_smelly_treasure_chest'] = 'Arqueta olorosa'
 L['options_icons_smelly_treasure_chest_desc'] = 'Muestra dónde pueden estar las {object:Arqueta olorosa}.'
 
+L['seething_cache'] = 'Alijo hirviente'
 L['seething_cache_treasure_note'] = 'Para poder ver el {object:Alijo hirviente} y despojar la {item:192779} necesitarás coger 3 acumulaciones del debuff {spell:399342} de los {object:Orbe hirviente} que hay en la zona de la {location:Caldera Zaqali} de la {location:Caverna Zaralek}.'
 L['chest_of_the_flights_treasure_note'] = 'Para abrir el cofre necesitarás hacer click en las {object:Gema potenciada} en el orden {note:Rojo > Negro > Azul > Amarillo > Verde}.'
 L['curious_top_hat_note'] = 'Interactúa con la {npc:205010} mientras tengas el buff {spell:410288} para recibir {item:205021}. Si no tienes el buff y te acercas, huirá.'

@@ -434,11 +434,11 @@ L['sinrunner_note_day4'] = nil
 L['sinrunner_note_day5'] = nil
 L['sinrunner_note_day6'] = nil
 
-L['options_icons_carriages'] = nil
+L['options_icons_carriages'] = '{achievement:14771}'
 L['options_icons_carriages_desc'] = nil
-L['options_icons_dredbats'] = '{npc:161015s}'
+L['options_icons_dredbats'] = '{achievement:14769}'
 L['options_icons_dredbats_desc'] = nil
-L['options_icons_sinrunners'] = '{npc:174032s}'
+L['options_icons_sinrunners'] = '{achievement:14770}'
 L['options_icons_sinrunners_desc'] = nil
 
 L['addius_note'] = nil
@@ -593,7 +593,7 @@ L['rift_hidden_cache'] = nil
 L['options_icons_rift_hidden_cache'] = nil
 L['options_icons_rift_hidden_cache_desc'] = nil
 
-L['options_icons_bonus_boss'] = nil
+L['options_icons_bonus_boss'] = '{achievement:14660}'
 L['options_icons_bonus_boss_desc'] = nil
 L['options_icons_riftstone'] = '{npc:174962s}'
 L['options_icons_riftstone_desc'] = nil

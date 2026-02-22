@@ -1,3 +1,15 @@
+# v132
+
+* Reorganise Shadowlands achievements and add achievement ids to groups for better tracking.
+
+# v130
+
+* Bump toc to 120000
+
+# v129
+
+* Fixed invalid coordinates in Maldraxxus and Revendreth
+
 # v128
 
 * Bump toc to 110207
