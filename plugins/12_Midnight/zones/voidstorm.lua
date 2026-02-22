@@ -389,7 +389,7 @@ map.nodes[40485863] = LoreObject({
     quest = 94395,
     rewards = {
         Achievement({id = 62104, criteria = 111836}),
-        Reputation({id = 2699, gain = 275, quest = 94395})
+        Reputation({id = 2699, gain = 375, quest = 94395})
     }
 }) -- Abandoned Telescope
 
@@ -397,7 +397,7 @@ map.nodes[27835402] = LoreObject({
     quest = 94398,
     rewards = {
         Achievement({id = 62104, criteria = 111838}),
-        Reputation({id = 2699, gain = 275, quest = 94398})
+        Reputation({id = 2699, gain = 375, quest = 94398})
     }
 }) -- Shadowgraft Harness
 
@@ -405,7 +405,7 @@ map.nodes[63427822] = LoreObject({
     quest = 94389,
     rewards = {
         Achievement({id = 62104, criteria = 111834}),
-        Reputation({id = 2699, gain = 275, quest = 94389})
+        Reputation({id = 2699, gain = 375, quest = 94389})
     }
 }) -- Void Armor
 
@@ -413,7 +413,7 @@ map.nodes[60384550] = LoreObject({
     quest = 94397,
     rewards = {
         Achievement({id = 62104, criteria = 111837}),
-        Reputation({id = 2699, gain = 275, quest = 94397})
+        Reputation({id = 2699, gain = 375, quest = 94397})
     }
 }) -- Tainted Page/Tattered Page
 
@@ -421,7 +421,7 @@ map.nodes[28156593] = LoreObject({
     quest = 94394,
     rewards = {
         Achievement({id = 62104, criteria = 111835}),
-        Reputation({id = 2699, gain = 275, quest = 94394})
+        Reputation({id = 2699, gain = 375, quest = 94394})
     }
 }) -- Ancient Tablet
 

@@ -62,6 +62,9 @@ L['impenatrably_sealed_gourd_note'] = nil
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = nil
 L['more_than_just_thier_roots_note'] = nil
+L['chonon_note'] = nil
+L['funnid_note'] = nil
+L['kawayn_note'] = nil
 
 L['altar_of_innocence'] = nil
 L['altar_of_vigor'] = nil

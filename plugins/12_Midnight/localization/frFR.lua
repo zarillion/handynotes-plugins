@@ -63,6 +63,9 @@ L['impenatrably_sealed_gourd_note'] = 'Récupérez le {item:260251} sur le {obje
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = 'Afficher les emplacements des PNJs pour le haut-fait {achievement:62188}.'
 L['more_than_just_thier_roots_note'] = 'Parlez aux PNJs aux endroits suivants :'
+L['chonon_note'] = nil
+L['funnid_note'] = nil
+L['kawayn_note'] = nil
 
 L['altar_of_innocence'] = 'Autel de l\'innocence'
 L['altar_of_vigor'] = 'Autel de la vigueur'

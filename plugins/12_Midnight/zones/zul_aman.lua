@@ -382,7 +382,7 @@ map.nodes[30178466] = LoreObject({
     quest = 94632,
     rewards = {
         Achievement({id = 62104, criteria = 111775}),
-        Reputation({id = 2696, gain = 275, quest = 94632})
+        Reputation({id = 2696, gain = 375, quest = 94632})
     },
     pois = {ns.poi.Entrance({31258397})}
 }) -- Tablet of Nalorakk
@@ -391,7 +391,7 @@ map.nodes[53108211] = LoreObject({
     quest = 94627,
     rewards = {
         Achievement({id = 62104, criteria = 111772}),
-        Reputation({id = 2696, gain = 275, quest = 94633})
+        Reputation({id = 2696, gain = 375, quest = 94633})
     }
 }) -- Tablet of Akil'zon
 
@@ -399,7 +399,7 @@ map.nodes[37492669] = LoreObject({
     quest = 94633,
     rewards = {
         Achievement({id = 62104, criteria = 111776}),
-        Reputation({id = 2696, gain = 275, quest = 94633})
+        Reputation({id = 2696, gain = 375, quest = 94633})
     }
 }) -- Tablet of the Witherbark
 
@@ -407,7 +407,7 @@ map.nodes[55131762] = LoreObject({
     quest = 94631,
     rewards = {
         Achievement({id = 62104, criteria = 111774}),
-        Reputation({id = 2696, gain = 275, quest = 94631})
+        Reputation({id = 2696, gain = 375, quest = 94631})
     }
 }) -- Tablet of Jan'alai
 
@@ -415,7 +415,7 @@ map.nodes[39264472] = LoreObject({
     quest = 94673,
     rewards = {
         Achievement({id = 62104, criteria = 111777}),
-        Reputation({id = 2696, gain = 275, quest = 94673})
+        Reputation({id = 2696, gain = 375, quest = 94673})
     }
 }) -- Tablet of Kulzi
 
@@ -423,7 +423,7 @@ map.nodes[32083165] = LoreObject({
     quest = 94628,
     rewards = {
         Achievement({id = 62104, criteria = 111773}),
-        Reputation({id = 2696, gain = 275, quest = 94628})
+        Reputation({id = 2696, gain = 375, quest = 94628})
     }
 }) -- Tablet of Halazzi
 
@@ -431,7 +431,7 @@ map.nodes[52923212] = LoreObject({
     quest = 94674,
     rewards = {
         Achievement({id = 62104, criteria = 111778}),
-        Reputation({id = 2696, gain = 275, quest = 94674})
+        Reputation({id = 2696, gain = 375, quest = 94674})
     }
 }) -- Tablet of Filo
 

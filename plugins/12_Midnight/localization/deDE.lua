@@ -63,6 +63,9 @@ L['impenatrably_sealed_gourd_note'] = 'Sammle die {item:260251} vom nahegelegene
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = 'Zeigt die Positionen der NPCs für den Erfolg {achievement:62188} an.'
 L['more_than_just_thier_roots_note'] = 'Spreche mit dem jeweiligen NPC an den unten aufgeführten Orten.'
+L['chonon_note'] = nil
+L['funnid_note'] = nil
+L['kawayn_note'] = nil
 
 L['altar_of_innocence'] = nil
 L['altar_of_vigor'] = nil

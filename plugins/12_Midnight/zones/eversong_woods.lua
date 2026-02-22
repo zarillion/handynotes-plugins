@@ -501,7 +501,7 @@ map.nodes[47958820] = LoreObject({
     quest = 91841,
     rewards = {
         Achievement({id = 62104, criteria = 111828}),
-        Reputation({id = 2710, gain = 275, quest = 91841})
+        Reputation({id = 2710, gain = 375, quest = 91841})
     }
 }) -- Memorial Plaque
 
@@ -509,7 +509,7 @@ map.nodes[37601378] = LoreObject({
     quest = 93563,
     rewards = {
         Achievement({id = 62104, criteria = 111829}),
-        Reputation({id = 2710, gain = 275, quest = 93563})
+        Reputation({id = 2710, gain = 375, quest = 93563})
     }
 }) -- Shrine of Dath'remar
 
@@ -517,7 +517,7 @@ map.nodes[50524347] = LoreObject({
     quest = 93564,
     rewards = {
         Achievement({id = 62104, criteria = 111830}),
-        Reputation({id = 2710, gain = 275, quest = 93564})
+        Reputation({id = 2710, gain = 375, quest = 93564})
     }
 }) -- Dead Scar Research/Mirveda's Notes
 
@@ -525,7 +525,7 @@ map.nodes[36057251] = LoreObject({
     quest = 93565,
     rewards = {
         Achievement({id = 62104, criteria = 111831}),
-        Reputation({id = 2710, gain = 275, quest = 93565})
+        Reputation({id = 2710, gain = 375, quest = 93565})
     }
 }) -- Profane Research/Dar'khan's Notes
 
@@ -533,7 +533,7 @@ map.nodes[57815092] = LoreObject({
     quest = 93562,
     rewards = {
         Achievement({id = 62104, criteria = 111832}),
-        Reputation({id = 2710, gain = 275, quest = 93562})
+        Reputation({id = 2710, gain = 375, quest = 93562})
     }
 }) -- Hawkstrider Husbandry Manual
 
@@ -541,7 +541,7 @@ smc.nodes[38107699] = LoreObject({
     quest = 93570,
     rewards = {
         Achievement({id = 62104, criteria = 111833}),
-        Reputation({id = 2710, gain = 275, quest = 93570})
+        Reputation({id = 2710, gain = 375, quest = 93570})
     }
 }) -- Unfinished Sheet Music
 

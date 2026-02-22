@@ -422,7 +422,7 @@ map.nodes[33336084] = LoreObject({
     quest = 93556,
     rewards = {
         Achievement({id = 62104, criteria = 111824}),
-        Reputation({id = 2704, gain = 275, quest = 93556})
+        Reputation({id = 2704, gain = 375, quest = 93556})
     }
 }) -- Ancient Runestone
 
@@ -430,7 +430,7 @@ map.nodes[47604723] = LoreObject({
     quest = 93559,
     rewards = {
         Achievement({id = 62104, criteria = 111827}),
-        Reputation({id = 2704, gain = 275, quest = 93559})
+        Reputation({id = 2704, gain = 375, quest = 93559})
     }
 }) -- A Frayed Scroll
 
@@ -438,7 +438,7 @@ map.nodes[55665402] = LoreObject({
     quest = 93554,
     rewards = {
         Achievement({id = 62104, criteria = 111823}),
-        Reputation({id = 2704, gain = 275, quest = 93554})
+        Reputation({id = 2704, gain = 375, quest = 93554})
     }
 }) -- Tarnished Mural
 
@@ -446,7 +446,7 @@ map.nodes[72443809] = LoreObject({
     quest = 93557,
     rewards = {
         Achievement({id = 62104, criteria = 111825}),
-        Reputation({id = 2704, gain = 275, quest = 93557})
+        Reputation({id = 2704, gain = 375, quest = 93557})
     }
 }) -- Derelict Mural
 
@@ -454,7 +454,7 @@ map.nodes[68212379] = LoreObject({
     quest = 93558,
     rewards = {
         Achievement({id = 62104, criteria = 111826}),
-        Reputation({id = 2704, gain = 275, quest = 93558})
+        Reputation({id = 2704, gain = 375, quest = 93558})
     }
 }) -- Forgotten Mural
 
@@ -655,14 +655,17 @@ local val = Map({id = 641, settings = true})
 
 mnt.nodes[58422998] = MoreThanJustThierRoots({
     id = 245103,
+    note = L['chonon_note'],
     rewards = {Achievement({id = 62188, criteria = 111946})} -- Chonon (on the roots)
 })
 ami.nodes[34225261] = MoreThanJustThierRoots({
     id = 245107,
+    note = L['funnid_note'],
     rewards = {Achievement({id = 62188, criteria = 111947})} -- Funnid (up in the tree)
 })
 hil.nodes[50824257] = MoreThanJustThierRoots({
     id = 251936,
+    note = L['kawayn_note'],
     rewards = {Achievement({id = 62188, criteria = 111948})} -- Kawayn (on top of the trunk)
 })
 drk.nodes[33206678] = MoreThanJustThierRoots({

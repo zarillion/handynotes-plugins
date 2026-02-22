@@ -62,6 +62,9 @@ L['impenatrably_sealed_gourd_note'] = '从附近的 {object:Dangling Jug} 中拾
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = '显示 {achievement:62188} 成就中 NPC 的位置。'
 L['more_than_just_thier_roots_note'] = '与以下位置的 NPC 交谈：'
+L['chonon_note'] = nil
+L['funnid_note'] = nil
+L['kawayn_note'] = nil
 
 L['altar_of_innocence'] = nil
 L['altar_of_vigor'] = nil

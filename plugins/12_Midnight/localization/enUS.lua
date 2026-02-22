@@ -62,6 +62,9 @@ L['impenatrably_sealed_gourd_note'] = 'Loot {item:260251} from the nearby {objec
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = 'Display the locations of NPCs for the {achievement:62188} achievement.'
 L['more_than_just_thier_roots_note'] = 'Speak with the NPCs in the below locations:'
+L['chonon_note'] = 'Up on the branches of the tree'
+L['funnid_note'] = 'High up on the branches of the world tree'
+L['kawayn_note'] = 'Up on the big tree trunk'
 
 L['altar_of_innocence'] = 'Altar of Innocence'
 L['altar_of_vigor'] = 'Altar of Vigor'
