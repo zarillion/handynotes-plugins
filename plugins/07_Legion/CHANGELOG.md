@@ -1,3 +1,7 @@
+# v132
+
+* add missing critiea id of Durian Strongfruit for Battle on the Broken Isles achievement.
+
 # v130
 
 * Bump toc to 120000

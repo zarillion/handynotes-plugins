@@ -406,7 +406,7 @@ map.nodes[47003960] = PetBattle({
     id = 99035,
     note = L['general_pet_tamer_note'] .. '\n\n' .. L['durian_strongfruit_note'],
     rewards = {
-        Achievement({id = 10876, criteria = nil}), ns.reward.Spacer(),
+        Achievement({id = 10876, criteria = 31549}), ns.reward.Spacer(),
         Achievement({id = 9686, criteria = 14, oneline = true}), -- Aquatic
         Achievement({id = 9687, criteria = 14, oneline = true}), -- Beast
         Achievement({id = 9688, criteria = 14, oneline = true}), -- Critter
