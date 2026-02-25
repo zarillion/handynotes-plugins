@@ -83,8 +83,8 @@ In addition to rares, treasures and pet battles, this plugin also adds the follo
 
 ### Harandar
 
-* Location of the Glowing Moths for the [Dust 'Em Off](https://www.wowhead.com/achievement=61052)
-* Locations of the NPCs for the [More Than Just Their Roots](https://www.wowhead.com/achievement=62188)
+* Location of the Glowing Moths for the [Dust 'Em Off](https://www.wowhead.com/achievement=61052) achievement.
+* Locations of the NPCs for the [More Than Just Their Roots](https://www.wowhead.com/achievement=62188) achievement.
 
 ### Voidstorm
 
