@@ -1,3 +1,7 @@
+# v132
+
+* Housing riddle updates
+
 # v130
 
 * Housing riddle updates
@@ -9,7 +13,6 @@
 * Moved Profession Treasure functionality to core
 * Updated deprecated API usage in Undermine zone
 * Localization updates: deDE, enUS, esES, frFR, ruRU, zhCN, zhTW
-
 
 # v128
 
