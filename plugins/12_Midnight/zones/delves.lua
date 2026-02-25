@@ -279,6 +279,21 @@ sgp.nodes[58264151] = SturdyChest({
 -------------------------------------------------------------------------------
 -------------------------------- DELVE REWARDS --------------------------------
 -------------------------------------------------------------------------------
+local maps = {
+    ns.maps[2395], -- Eversong Woods
+    ns.maps[2393], -- Silvermoon City
+    ns.maps[2424], -- Isle of Quel'Danas
+    ns.maps[2413], -- Harandar
+    ns.maps[2405], -- Voidstorm
+    ns.maps[2444], -- Slayer's Rise
+    ns.maps[2437], -- Zul'Aman
+    ns.maps[2536] -- Atal'Aman
+}
+
+for _, m in pairs(maps) do
+    m.groups[#m.groups + 1] = ns.groups.DELVE_REWARDS
+    m.groups[ns.groups.DELVE_REWARDS] = true
+end
 
 local DELVE_REWARDS = {
 
@@ -351,6 +366,9 @@ local DELVE_REWARDS = {
         Achievement({id = 61713, oneline = true, criteria = {110914}}), -- Midnight Delver Damage Dealer III
         Achievement({id = 61716, oneline = true, criteria = {110944}}), -- Midnight Delver Healer III
         Achievement({id = 61719, oneline = true, criteria = {110974}}) -- Midnight Delver Tank III
+    },
+    ['torments_rise'] = {
+        Achievement({id = 61797, criteria = {111080, 111081}}) -- My Shady Nemesis
     }
 }
 
@@ -377,7 +395,10 @@ local DELVE_AREA_POIS = {
     [8444] = DELVE_REWARDS['atalaman'],
     [8432] = DELVE_REWARDS['shadowguard_point'],
     [8430] = DELVE_REWARDS['sunkiller_sanctum'],
-    [8436] = DELVE_REWARDS['the_gulf_of_memory']
+    [8436] = DELVE_REWARDS['the_gulf_of_memory'],
+
+    -- NEMESIS DELVES -----------------------------------------------------------
+    [8445] = DELVE_REWARDS['torments_rise']
 
 }
 

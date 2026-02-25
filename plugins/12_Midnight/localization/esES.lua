@@ -6,6 +6,15 @@ if not L then return end
 ------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = 'Recompensas de Profundidades'
+L['options_icons_delve_rewards_desc'] = 'Muestra dónde hay recompensas de {location:Profundidades} en las descripciones.'
+
+L['options_icons_stormarion_assault'] = 'Asalto de Tormentarion'
+L['options_icons_stormarion_assault_desc'] = 'Muestra dónde hay recompensas de {location:Asalto de Tormentarion} en las descripciones.'
+
+L['options_icons_abundance_rewards'] = 'Abundancia'
+L['options_icons_abundance_rewards_desc'] = 'Muestra dónde hay recompensas de {location:Abundancia} en las descripciones.'
+
 L['skyriding_glyph'] = 'Glifo de Surcacielos'
 L['options_icons_skyriding_glyph'] = 'Glifos de Surcacielos'
 L['options_icons_skyriding_glyph_desc'] = 'Muestra dónde están los glifos de surcacielos.'
@@ -43,7 +52,7 @@ L['incomplete_book_of_sonnets'] = 'Libro de sonetos incompleto.'
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = 'Polilla resplandeciente'
-L['options_icons_glowing_moth'] = 'Polilla resplandeciente'
+L['options_icons_glowing_moth'] = '{achievement:61052}'
 L['options_icons_glowing_moth_desc'] = 'Muestra dónde están las Polillas resplandecientes para el logro {achievement:61052}.'
 
 L['sporespawned_cache_note'] = 'Interactúa con la {dot:Red}{object:Marra fúngica} en la Aldea Fungara para conseguir el buff {spell:1266347} y úsalo para hacer sonar el {object:Gong micelio}. El tesoro aparecerá junto al gong.'
@@ -53,6 +62,16 @@ L['impenatrably_sealed_gourd_note'] = 'Despoja el {item:260251} de la {object:Ja
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = 'Muestra dónde están los NPC para el logro {achievement:62188}.'
 L['more_than_just_thier_roots_note'] = 'Habla con los NPC en las siguientes ubicaciones:'
+L['chonon_note'] = 'Arriba en las ramas del árbol.'
+L['funnid_note'] = 'En lo alto de las ramas del árbol del mundo.'
+L['kawayn_note'] = 'Arriba en el gran tronco del árbol.'
+
+L['altar_of_innocence'] = 'Altar de la inocencia'
+L['altar_of_vigor'] = 'Altar del vigor'
+L['altar_of_wisdom'] = 'Altar de la sabiduría'
+L['altar_of_innocence_note'] = 'Devuelve la {item:256882} al {npc:254030} después de interactuar con el {object:Altar de la inocencia}.\n\nCompleta las tareas del resto de altares para hacer aparecer el tesoro {object:Don del ciclo} en {location:El Cubil}.'
+L['altar_of_vigor_note'] = 'Devuelve {item:257024} al {npc:254104} después de interactuar con el {object:Altar del vigor}.\n\nCompleta las tareas del resto de altares para hacer aparecer el tesoro {object:Don del ciclo} en {location:El Cubil}.'
+L['altar_of_wisdom_note'] = 'Devuelve la {item:257054} al {npc:254116} después de interactuar con el {object:Altar de la sabiduría}.\n\nCompleta las tareas del resto de altares para hacer aparecer el tesoro {object:Don del ciclo} en {location:El Cubil}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------

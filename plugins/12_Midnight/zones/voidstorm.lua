@@ -389,7 +389,7 @@ map.nodes[40485863] = LoreObject({
     quest = 94395,
     rewards = {
         Achievement({id = 62104, criteria = 111836}),
-        Reputation({id = 2699, gain = 275, quest = 94395})
+        Reputation({id = 2699, gain = 375, quest = 94395})
     }
 }) -- Abandoned Telescope
 
@@ -397,7 +397,7 @@ map.nodes[27835402] = LoreObject({
     quest = 94398,
     rewards = {
         Achievement({id = 62104, criteria = 111838}),
-        Reputation({id = 2699, gain = 275, quest = 94398})
+        Reputation({id = 2699, gain = 375, quest = 94398})
     }
 }) -- Shadowgraft Harness
 
@@ -405,7 +405,7 @@ map.nodes[63427822] = LoreObject({
     quest = 94389,
     rewards = {
         Achievement({id = 62104, criteria = 111834}),
-        Reputation({id = 2699, gain = 275, quest = 94389})
+        Reputation({id = 2699, gain = 375, quest = 94389})
     }
 }) -- Void Armor
 
@@ -413,7 +413,7 @@ map.nodes[60384550] = LoreObject({
     quest = 94397,
     rewards = {
         Achievement({id = 62104, criteria = 111837}),
-        Reputation({id = 2699, gain = 275, quest = 94397})
+        Reputation({id = 2699, gain = 375, quest = 94397})
     }
 }) -- Tainted Page/Tattered Page
 
@@ -421,7 +421,7 @@ map.nodes[28156593] = LoreObject({
     quest = 94394,
     rewards = {
         Achievement({id = 62104, criteria = 111835}),
-        Reputation({id = 2699, gain = 275, quest = 94394})
+        Reputation({id = 2699, gain = 375, quest = 94394})
     }
 }) -- Ancient Tablet
 
@@ -464,6 +464,7 @@ map.nodes[37815497] = Telescope({
 -------------------------------------------------------------------------------
 
 slr.nodes[41964062] = PT.Alchemy({quest = 89112, id = 238533, parent = map.id}) -- Vial of Voidstorm Oddities
+map.nodes[32794329] = PT.Alchemy({quest = 89118, id = 238539}) -- Failed Experiment
 map.nodes[30516899] = PT.Blacksmithing({quest = 89181, id = 238544}) -- Voidstorm Defense Spear
 map.nodes[35495882] = PT.Enchanting({quest = 89102, id = 238550}) -- Pure Void Crystal
 slr.nodes[54135101] = PT.Engineering({
@@ -476,7 +477,7 @@ slr.nodes[28933903] = PT.Engineering({
     id = 238557,
     parent = map.id
 }) -- Miniaturized Transport Skiff
-map.nodes[55486428] = PT.Herbalism({quest = 89156, id = 238474}) -- Peculiar Lotus
+map.nodes[34685697] = PT.Herbalism({quest = 89156, id = 238474}) -- Peculiar Lotus
 slr.nodes[60698426] = PT.Inscription({
     quest = 89067,
     id = 238572,
@@ -572,3 +573,32 @@ map.nodes[31104390] = Safari.Blistercreepling({
     pois = {POI({26005122, 31104390, 48607830, 62806720})}
 })
 map.nodes[63307370] = Safari.RiftbladeFamiliar({})
+
+-------------------------------------------------------------------------------
+-------------------------- STORMARION ASSUALT ---------------------------------
+-------------------------------------------------------------------------------
+
+local maps = {
+    ns.maps[2405] -- Voidstorm
+}
+
+for _, m in pairs(maps) do
+    m.groups[#m.groups + 1] = ns.groups.STORMARION_ASSAULT
+    m.groups[ns.groups.STORMARION_ASSAULT] = true
+end
+
+local STORMARION_ASSAULT = {
+    ['stormarion_assault'] = {
+        Achievement({id = 61912, criteria = {111329, 111330, 111331, 111332}}), -- Anchoring the Defense
+        Achievement({id = 61913, criteria = {111335, 111334, 111333}}), -- A Singular Problem
+        Achievement({id = 61922, criteria = {111379}}) -- Ninety Percent is Good Enough
+    }
+}
+local STORMARION_ASSAULT_AREA_POIS = {
+    [8419] = STORMARION_ASSAULT['stormarion_assault'],
+    [8421] = STORMARION_ASSAULT['stormarion_assault'],
+    [8422] = STORMARION_ASSAULT['stormarion_assault']
+}
+
+ns.hooks.areapoievent.Add(ns.groups.STORMARION_ASSAULT,
+    STORMARION_ASSAULT_AREA_POIS)

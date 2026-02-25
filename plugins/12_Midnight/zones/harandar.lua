@@ -249,9 +249,43 @@ map.nodes[55693943] = Treasure({
     }
 }) -- Kemet's Simmering Cauldron
 
-map.nodes[20003500] = Treasure({
+map.nodes[51154755] = Treasure({
+    label = L['altar_of_innocence'],
+    icon = 519378,
+    quest = 93130,
+    note = L['altar_of_innocence_note'],
+    pois = {
+        POI({points = {51105049}, label = '{item:256882}'}) -- A Tattered Ball
+    }
+}) -- Altar of Innocence
+
+map.nodes[47185314] = Treasure({
+    label = L['altar_of_vigor'],
+    icon = 519389,
+    quest = 93145,
+    note = L['altar_of_vigor_note'],
+    pois = {
+        POI({points = {45145412}, label = '{item:257024}'}) -- Lost Hunting Knife
+    }
+}) -- Altar of Vigor
+
+map.nodes[51155856] = Treasure({
+    label = L['altar_of_wisdom'],
+    icon = 519379,
+    quest = 93146,
+    note = L['altar_of_wisdom_note'],
+    pois = {
+        POI({points = {51395600}, label = '{item:257054}'}) -- A Rolled-Up Pillow
+    }
+}) -- Altar of Wisdom
+
+den.nodes[47235078] = Treasure({
     quest = 93144,
-    rewards = {Achievement({id = 61263, criteria = 110254})}
+    questDeps = {93130, 93145, 93146},
+    parent = map.id,
+    rewards = {
+        Achievement({id = 61263, criteria = 110254}), Toy({item = 259084})
+    }
 }) -- Gift of the Cycle
 
 map.nodes[26736759] = Treasure({
@@ -388,7 +422,7 @@ map.nodes[33336084] = LoreObject({
     quest = 93556,
     rewards = {
         Achievement({id = 62104, criteria = 111824}),
-        Reputation({id = 2704, gain = 275, quest = 93556})
+        Reputation({id = 2704, gain = 375, quest = 93556})
     }
 }) -- Ancient Runestone
 
@@ -396,7 +430,7 @@ map.nodes[47604723] = LoreObject({
     quest = 93559,
     rewards = {
         Achievement({id = 62104, criteria = 111827}),
-        Reputation({id = 2704, gain = 275, quest = 93559})
+        Reputation({id = 2704, gain = 375, quest = 93559})
     }
 }) -- A Frayed Scroll
 
@@ -404,7 +438,7 @@ map.nodes[55665402] = LoreObject({
     quest = 93554,
     rewards = {
         Achievement({id = 62104, criteria = 111823}),
-        Reputation({id = 2704, gain = 275, quest = 93554})
+        Reputation({id = 2704, gain = 375, quest = 93554})
     }
 }) -- Tarnished Mural
 
@@ -412,7 +446,7 @@ map.nodes[72443809] = LoreObject({
     quest = 93557,
     rewards = {
         Achievement({id = 62104, criteria = 111825}),
-        Reputation({id = 2704, gain = 275, quest = 93557})
+        Reputation({id = 2704, gain = 375, quest = 93557})
     }
 }) -- Derelict Mural
 
@@ -420,7 +454,7 @@ map.nodes[68212379] = LoreObject({
     quest = 93558,
     rewards = {
         Achievement({id = 62104, criteria = 111826}),
-        Reputation({id = 2704, gain = 275, quest = 93558})
+        Reputation({id = 2704, gain = 375, quest = 93558})
     }
 }) -- Forgotten Mural
 
@@ -621,14 +655,17 @@ local val = Map({id = 641, settings = true})
 
 mnt.nodes[58422998] = MoreThanJustThierRoots({
     id = 245103,
+    note = L['chonon_note'],
     rewards = {Achievement({id = 62188, criteria = 111946})} -- Chonon (on the roots)
 })
 ami.nodes[34225261] = MoreThanJustThierRoots({
     id = 245107,
+    note = L['funnid_note'],
     rewards = {Achievement({id = 62188, criteria = 111947})} -- Funnid (up in the tree)
 })
 hil.nodes[50824257] = MoreThanJustThierRoots({
     id = 251936,
+    note = L['kawayn_note'],
     rewards = {Achievement({id = 62188, criteria = 111948})} -- Kawayn (on top of the trunk)
 })
 drk.nodes[33206678] = MoreThanJustThierRoots({
@@ -671,8 +708,15 @@ https://www.wowhead.com/beta/quest=88995/alnharas-bloom
 [55036627] = {vignette=7376, label="Seeker's Trail: Seeking Peace"},93478
 [53686695] = {vignette=7375, label="Seeker's Trail: Call of Aln'hara"},93479
 [55936686] = {vignette=7377, label="Seeker's Trail: Unending Mission"},93476
-]] --
 
+
+https://www.wowhead.com/beta/quest=88998/root-of-the-world maybe right quest id?
+w
+89284/91518
+[40803630] = {vignette=7384, label="Ways of the Roots: Serving"}, 93488
+[41483413] = {vignette=7385, label="Ways of the Roots: Growing"}, 93487
+[40493470] = {vignette=7386, label="Ways of the Roots: Pruning"}, 93486
+]] --
 -------------------------------------------------------------------------------
 -------------------------------- SAFARI ---------------------------------------
 -------------------------------------------------------------------------------

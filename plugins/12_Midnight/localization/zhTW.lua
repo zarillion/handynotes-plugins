@@ -6,6 +6,15 @@ if not L then return end
 ------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = '探究獎勵'
+L['options_icons_delve_rewards_desc'] = '在提示顯示 {location:探究} 的獎勵.'
+
+L['options_icons_stormarion_assault'] = '風瑪利昂襲擊'
+L['options_icons_stormarion_assault_desc'] = '在提示中顯示 {location:風瑪利昂襲擊} 的獎勵。'
+
+L['options_icons_abundance_rewards'] = '豐足'
+L['options_icons_abundance_rewards_desc'] = '在提示中顯示 {location:豐足} 的獎勵。'
+
 L['skyriding_glyph'] = '天空騎術雕紋'
 L['options_icons_skyriding_glyph'] = '天空騎術雕紋'
 L['options_icons_skyriding_glyph_desc'] = '顯示所有天空騎術雕紋的位置.'
@@ -43,7 +52,7 @@ L['incomplete_book_of_sonnets'] = nil
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = nil
-L['options_icons_glowing_moth'] = nil
+L['options_icons_glowing_moth'] = '{achievement:61052}'
 L['options_icons_glowing_moth_desc'] = nil
 
 L['sporespawned_cache_note'] = nil
@@ -53,6 +62,16 @@ L['impenatrably_sealed_gourd_note'] = nil
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = nil
 L['more_than_just_thier_roots_note'] = nil
+L['chonon_note'] = nil
+L['funnid_note'] = nil
+L['kawayn_note'] = nil
+
+L['altar_of_innocence'] = nil
+L['altar_of_vigor'] = nil
+L['altar_of_wisdom'] = nil
+L['altar_of_innocence_note'] = nil
+L['altar_of_vigor_note'] = nil
+L['altar_of_wisdom_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------

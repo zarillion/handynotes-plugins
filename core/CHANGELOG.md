@@ -1,3 +1,7 @@
+# 132
+
+* Update Krowi's world map button.
+
 # v131
 
 * Updated all plugins for compatibility with 12.0.0 UI changes.

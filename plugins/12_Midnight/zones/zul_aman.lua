@@ -67,7 +67,6 @@ map.nodes[51857291] = Rare({
         Reputation({id = 2696, gain = 5, quest = 94700}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
-
     }
 }) -- Skullcrusher Harak
 
@@ -92,7 +91,6 @@ map.nodes[50876514] = Rare({
         Reputation({id = 2696, gain = 5, quest = 94700}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
-
     }
 }) -- Mrrlokk
 
@@ -105,7 +103,6 @@ map.nodes[38994997] = Rare({
         Reputation({id = 2696, gain = 5, quest = 94701}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
-
     },
     parent = aam.id
 }) -- Poacher Rav'ik
@@ -131,7 +128,6 @@ map.nodes[46295113] = Rare({
         Reputation({id = 2696, gain = 5, quest = 94703}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
-
     }
 }) -- Oophaga
 
@@ -144,7 +140,6 @@ map.nodes[47773422] = Rare({
         Reputation({id = 2696, gain = 5, quest = 94704}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
-
     }
 }) -- Tiny Vermin
 
@@ -179,7 +174,6 @@ map.nodes[33718897] = Rare({
         Reputation({id = 2696, gain = 5, quest = 94707}), Spacer(),
         Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
-
     }
 }) -- Elder Oaktalon
 
@@ -233,13 +227,14 @@ map.nodes[46838186] = Treasure({
     quest = 90793,
     rewards = {
         Achievement({id = 62125, criteria = 111855}),
+        Reputation({id = 2696, gain = 75, quest = 90793}),
         Mount({item = 257223, id = 2778}) -- Ancestral War Bear
     },
     pois = {
         -- Honored Warrior's Urn:
         POI({points = 54772240, label = '{item:259220}'}), -- Spawns Jan'alai's Chosen (255233), drops Dragonhawk Feather
         POI({points = 34543348, label = '{item:259223}'}), -- Spawns Halazzi's Chosen (255232), drops Lynx Claw
-        POI({points = 51578491}), -- Spawns Akil'zon's Chosen (255231) -- looting was bugged
+        POI({points = 51578491, label = '{item:259221}'}), -- Spawns Akil'zon's Chosen (255231) drops eagle talon
         POI({points = 32698349, label = '{item:259219}'}) -- Spawns Nalorakk's Chosen (255171), drops Bear Tooth
     }
 }) -- Honored Warrior's Cache
@@ -266,7 +261,7 @@ map.nodes[20846654] = Treasure({
 
 map.nodes[41994779] = Treasure({
     quest = 90796,
-    location = L['small_cave'],
+    location = L['in_small_cave'],
     rewards = {Achievement({id = 62125, criteria = 111858})}
 }) -- Burrow Bounty
 
@@ -387,7 +382,7 @@ map.nodes[30178466] = LoreObject({
     quest = 94632,
     rewards = {
         Achievement({id = 62104, criteria = 111775}),
-        Reputation({id = 2696, gain = 275, quest = 94632})
+        Reputation({id = 2696, gain = 375, quest = 94632})
     },
     pois = {ns.poi.Entrance({31258397})}
 }) -- Tablet of Nalorakk
@@ -396,7 +391,7 @@ map.nodes[53108211] = LoreObject({
     quest = 94627,
     rewards = {
         Achievement({id = 62104, criteria = 111772}),
-        Reputation({id = 2696, gain = 275, quest = 94633})
+        Reputation({id = 2696, gain = 375, quest = 94633})
     }
 }) -- Tablet of Akil'zon
 
@@ -404,7 +399,7 @@ map.nodes[37492669] = LoreObject({
     quest = 94633,
     rewards = {
         Achievement({id = 62104, criteria = 111776}),
-        Reputation({id = 2696, gain = 275, quest = 94633})
+        Reputation({id = 2696, gain = 375, quest = 94633})
     }
 }) -- Tablet of the Witherbark
 
@@ -412,7 +407,7 @@ map.nodes[55131762] = LoreObject({
     quest = 94631,
     rewards = {
         Achievement({id = 62104, criteria = 111774}),
-        Reputation({id = 2696, gain = 275, quest = 94631})
+        Reputation({id = 2696, gain = 375, quest = 94631})
     }
 }) -- Tablet of Jan'alai
 
@@ -420,7 +415,7 @@ map.nodes[39264472] = LoreObject({
     quest = 94673,
     rewards = {
         Achievement({id = 62104, criteria = 111777}),
-        Reputation({id = 2696, gain = 275, quest = 94673})
+        Reputation({id = 2696, gain = 375, quest = 94673})
     }
 }) -- Tablet of Kulzi
 
@@ -428,7 +423,7 @@ map.nodes[32083165] = LoreObject({
     quest = 94628,
     rewards = {
         Achievement({id = 62104, criteria = 111773}),
-        Reputation({id = 2696, gain = 275, quest = 94628})
+        Reputation({id = 2696, gain = 375, quest = 94628})
     }
 }) -- Tablet of Halazzi
 
@@ -436,7 +431,7 @@ map.nodes[52923212] = LoreObject({
     quest = 94674,
     rewards = {
         Achievement({id = 62104, criteria = 111778}),
-        Reputation({id = 2696, gain = 275, quest = 94674})
+        Reputation({id = 2696, gain = 375, quest = 94674})
     }
 }) -- Tablet of Filo
 

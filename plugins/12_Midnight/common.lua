@@ -27,6 +27,18 @@ ns.groups.DELVE_REWARDS = Group('delve_rewards', 4203076, {
     HasEnabledNodes = function() return true end
 })
 
+ns.groups.ABUNDANCE_REWARDS = Group('abundance_rewards', 464342, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+    HasEnabledNodes = function() return true end
+})
+
+ns.groups.STORMARION_ASSAULT = Group('stormarion_assault', 7431083, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+    HasEnabledNodes = function() return true end
+})
+
 ns.groups.PROFESSION_TREASURES = Group('profession_treasures', 4620676, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION
@@ -49,7 +61,11 @@ ns.groups.MIDNIGHT_LORE_HUNTER = Group('midnight_lore_hunter', 4549135, {
     achievement = 62104
 })
 
-ns.groups.SAFARI = Group('safari', 3046536, {defaults = ns.GROUP_HIDDEN})
+ns.groups.SAFARI = Group('safari', 2205238, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.COLLECTIBLE,
+    achievement = 61091
+})
 
 ------------------------------ EVERSONG WOODS ---------------------------------
 
@@ -69,7 +85,7 @@ ns.groups.EVER_PAINTING = Group('ever_painting', 7549082, {
 ---
 ns.groups.GLOWING_MOTH = Group('glowing_moth', 1003597, {
     defaults = ns.GROUP_HIDDEN,
-    type = ns.group_types.COLLECTIBLE,
+    type = ns.group_types.ACHIEVEMENT,
     achievement = 61052
 })
 
@@ -100,12 +116,6 @@ ns.groups.SPIRITPAW_MARATHON = Group('spiritpaw_marathon', 4891426, {
     achievement = 62202
 })
 -------------------------------------------------------------------------------
-
--- ns.groups.SAFARI = Group('safari', 4048818, {
---     defaults = ns.GROUP_HIDDEN,
---     type = ns.group_types.ACHIEVEMENT,
---     achievement = 40194
--- })
 
 -------------------------------------------------------------------------------
 ------------------------------- SKYRIDING GLYPH -------------------------------

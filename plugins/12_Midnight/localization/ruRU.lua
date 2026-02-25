@@ -6,6 +6,15 @@ if not L then return end
 ------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = 'Награды в Вылазках'
+L['options_icons_delve_rewards_desc'] = 'Отображать награды в подсказках {location:Вылазки}.'
+
+L['options_icons_stormarion_assault'] = 'Атака на Штормарион'
+L['options_icons_stormarion_assault_desc'] = 'Отображать награды в подсказках {location:Атака на Штормарион}.'
+
+L['options_icons_abundance_rewards'] = 'Изобилие'
+L['options_icons_abundance_rewards_desc'] = 'Отображать награды в подсказках {location:Изобилие}.'
+
 L['skyriding_glyph'] = 'Символы высшего пилотажа'
 L['options_icons_skyriding_glyph'] = 'Символы высшего пилотажа'
 L['options_icons_skyriding_glyph_desc'] = 'Отображение местоположения всех символов высшего пилотажа.'
@@ -43,7 +52,7 @@ L['incomplete_book_of_sonnets'] = 'Неполная книга сонетов'
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = 'Светящийся мотылек'
-L['options_icons_glowing_moth'] = 'Светящийся мотылек'
+L['options_icons_glowing_moth'] = '{achievement:61052}'
 L['options_icons_glowing_moth_desc'] = 'Показывает расположение светящихся мотыльков для достижения {achievement:61052}.'
 
 L['sporespawned_cache_note'] = 'Взаимодействуйте с {dot:Red}{object:Грибной колотушкой} в Грибной деревни, чтобы получить бафф {spell:1266347}, и используйте его, чтобы ударить в {object:Гонг грибницы}. Сокровище появится рядом с гонгом.'
@@ -53,6 +62,16 @@ L['impenatrably_sealed_gourd_note'] = nil
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = 'Отобразить местоположение НПС для достижения {achievement:62188}.'
 L['more_than_just_thier_roots_note'] = 'Поговорите с НПС в указанных ниже локациях:'
+L['chonon_note'] = nil
+L['funnid_note'] = nil
+L['kawayn_note'] = nil
+
+L['altar_of_innocence'] = nil
+L['altar_of_vigor'] = nil
+L['altar_of_wisdom'] = nil
+L['altar_of_innocence_note'] = nil
+L['altar_of_vigor_note'] = nil
+L['altar_of_wisdom_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------

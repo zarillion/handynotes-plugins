@@ -7,6 +7,15 @@ if not L then return end
 ------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = 'Tiefen'
+L['options_icons_delve_rewards_desc'] = 'Zeigt die Belohnungen im Tooltip der {location:Tiefe} an.'
+
+L['options_icons_stormarion_assault'] = 'Sturmarionangriff'
+L['options_icons_stormarion_assault_desc'] = 'Zeigt die Belohnungen im Tooltip des {location:Sturmarionangriffs} an.'
+
+L['options_icons_abundance_rewards'] = 'Überfluss'
+L['options_icons_abundance_rewards_desc'] = 'Zeigt die Belohnungen im Tooltip des {location:Überfluss} an.'
+
 L['skyriding_glyph'] = 'Glyphe des Himmelsreitens'
 L['options_icons_skyriding_glyph'] = 'Glyphen des Himmelsreitens'
 L['options_icons_skyriding_glyph_desc'] = 'Zeigt die Positionen aller Glyphen des Himmelsreitens an.'
@@ -44,7 +53,7 @@ L['incomplete_book_of_sonnets'] = 'Unvollständiges Buch der Sonnete'
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = 'Leuchtende Motte'
-L['options_icons_glowing_moth'] = 'Leuchtende Motte'
+L['options_icons_glowing_moth'] = '{achievement:61052}'
 L['options_icons_glowing_moth_desc'] = 'Zeigt die Positionen der leuchtenden Motten für den Erfolg {achievement:61052} an.'
 
 L['sporespawned_cache_note'] = 'Interagiere mit dem {dot:Red}{object:Pilzhammer} in Fungara Village, um den Stärkungszauber {spell:1266347} zu erhalten, und benutze ihn, um den {object:Myzelgong} zu läuten. Der Schatz erscheint daneben.'
@@ -54,6 +63,16 @@ L['impenatrably_sealed_gourd_note'] = 'Sammle die {item:260251} vom nahegelegene
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = 'Zeigt die Positionen der NPCs für den Erfolg {achievement:62188} an.'
 L['more_than_just_thier_roots_note'] = 'Spreche mit dem jeweiligen NPC an den unten aufgeführten Orten.'
+L['chonon_note'] = nil
+L['funnid_note'] = nil
+L['kawayn_note'] = nil
+
+L['altar_of_innocence'] = nil
+L['altar_of_vigor'] = nil
+L['altar_of_wisdom'] = nil
+L['altar_of_innocence_note'] = nil
+L['altar_of_vigor_note'] = nil
+L['altar_of_wisdom_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------

@@ -8,6 +8,7 @@
   <!-- -->
   <Script file="zones\arcantina.lua"/>
   <Script file="zones\delves.lua"/>
+  <Script file="zones\abundance.lua"/>
   <!-- -->
   <!-- <Script file="zones\neighborhood_alliance.lua"/> -->
   <Script file="zones\neighborhood_horde.lua"/>

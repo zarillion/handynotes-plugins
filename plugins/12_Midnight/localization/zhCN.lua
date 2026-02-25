@@ -6,6 +6,15 @@ if not L then return end
 ------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = '地下堡奖励'
+L['options_icons_delve_rewards_desc'] = '在提示中显示 {location:地下堡} 的奖励。'
+
+L['options_icons_stormarion_assault'] = '斯托玛兰突袭战'
+L['options_icons_stormarion_assault_desc'] = '在提示中显示 {location:斯托玛兰突袭战} 的奖励。'
+
+L['options_icons_abundance_rewards'] = '丰饶'
+L['options_icons_abundance_rewards_desc'] = '在提示中显示 {location:丰饶} 的奖励。'
+
 L['skyriding_glyph'] = '驭空术魔符'
 L['options_icons_skyriding_glyph'] = '驭空术魔符'
 L['options_icons_skyriding_glyph_desc'] = '显示全部驭空术魔符的位置。'
@@ -43,8 +52,8 @@ L['incomplete_book_of_sonnets'] = '未完成十四行诗集'
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = '发光飞蛾'
-L['options_icons_glowing_moth'] = '{achievement:62187}'
-L['options_icons_glowing_moth_desc'] = '显示 {achievement:62187} 成就中发光飞蛾的位置。'
+L['options_icons_glowing_moth'] = '{achievement:61052}'
+L['options_icons_glowing_moth_desc'] = '显示 {achievement:61052} 成就中发光飞蛾的位置。'
 
 L['sporespawned_cache_note'] = '与 {dot:Red}{object:真菌棒槌} 互动以获得 {spell:1266347} 增益，然后使用它敲响 {object:响菌丝锣}。宝藏将出现在锣旁边。'
 L['fungal_mallet'] = '真菌棒槌'
@@ -53,6 +62,16 @@ L['impenatrably_sealed_gourd_note'] = '从附近的 {object:Dangling Jug} 中拾
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = '显示 {achievement:62188} 成就中 NPC 的位置。'
 L['more_than_just_thier_roots_note'] = '与以下位置的 NPC 交谈：'
+L['chonon_note'] = nil
+L['funnid_note'] = nil
+L['kawayn_note'] = nil
+
+L['altar_of_innocence'] = nil
+L['altar_of_vigor'] = nil
+L['altar_of_wisdom'] = nil
+L['altar_of_innocence_note'] = nil
+L['altar_of_vigor_note'] = nil
+L['altar_of_wisdom_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------

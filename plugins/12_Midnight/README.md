@@ -55,7 +55,41 @@ In addition to the plugin settings menu found under *Interface > Addons > HandyN
 
 This plugin adds information to the map for the following zones:
 
-* Patch 12.0 - Coming soon ...
+* Patch 12.0 - Eversong Woods, Zul'Aman, Harandar, Voidstorm
+
+In addition to rares, treasures and pet battles, this plugin also adds the following expansion or zone-specific items.
+
+### Quel'Thalas
+
+* Lore objects for the [Midnight Lore Hunter](https://www.wowhead.com/achievement=62104) achievement.
+* Telescope locations for the [Midnight: The Highest Peaks](https://www.wowhead.com/achievement=62057) achievement.
+* Skyriding Glyphs locations for the [Midnight Glyph Hunter](https://www.wowhead.com/achievement=61584) achievement.
+* Wild Pet locations for the [Midnight Safari](https://www.wowhead.com/achievement=61091) achievement.
+* Sturdy Chests inside delves for the [Midnight: Leave No Treasure Unfound](https://www.wowhead.com/achievement=61901) achievement.
+* Option to display Delve related achievements in the tooltips of Delves on the world map.
+* Option to display Abunance related achievements in the tooltips of Abunance events on the world map.
+* Profession treasure locations.
+
+### Eversong Woods
+
+ * Location of runestones for the [Runestone Rush](https://www.wowhead.com/achievement=61961) achievement.
+ * Location of paintings for the [Ever Painting](https://www.wowhead.com/achievement=62185) achievement.
+
+### Zul'Aman
+
+ * Location of "princess" frogs for the [The Frog and the Princesses](https://www.wowhead.com/achievement=62201) achievement.
+ * Location of Songseekers for the [Shadowpine Scattered](https://www.wowhead.com/achievement=61455) achievement.
+ * Location of the Spiritpaw Runner for the [Spiritpaw Marathon](https://www.wowhead.com/achievement=62202) achievement.
+
+### Harandar
+
+* Location of the Glowing Moths for the [Dust 'Em Off](https://www.wowhead.com/achievement=61052)
+* Locations of the NPCs for the [More Than Just Their Roots](https://www.wowhead.com/achievement=62188)
+
+### Voidstorm
+
+* Stormarion Assualt achievments.
+
 
 ## Localization
 

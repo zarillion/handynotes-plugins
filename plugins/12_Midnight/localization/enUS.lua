@@ -6,6 +6,15 @@ if not L then return end
 ------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_delve_rewards'] = 'Delve Rewards'
+L['options_icons_delve_rewards_desc'] = 'Display {location:Delve} rewards on tooltips.'
+
+L['options_icons_stormarion_assault'] = 'Stormarion Assault'
+L['options_icons_stormarion_assault_desc'] = 'Display {location:Stormarion Assault} rewards on tooltips.'
+
+L['options_icons_abundance_rewards'] = 'Abundance'
+L['options_icons_abundance_rewards_desc'] = 'Display {location:Abundance} rewards on tooltips.'
+
 L['skyriding_glyph'] = 'Skyriding Glyph'
 L['options_icons_skyriding_glyph'] = 'Skyriding Glyphs'
 L['options_icons_skyriding_glyph_desc'] = 'Display the location of all skyriding glyphs.'
@@ -43,7 +52,7 @@ L['incomplete_book_of_sonnets'] = 'Incomplete Book of Sonnets'
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = 'Glowing Moth'
-L['options_icons_glowing_moth'] = 'Glowing Moth'
+L['options_icons_glowing_moth'] = '{achievement:61052}'
 L['options_icons_glowing_moth_desc'] = 'Shows the locations of Glowing Moths for {achievement:61052} achievement.'
 
 L['sporespawned_cache_note'] = 'Interact with the {dot:Red}{object:Fungal Mallet} in Fungara Village to get the {spell:1266347} buff, and use it to ring the {object:Mycelium Gong}. The treasure will appear next to the gong.'
@@ -53,6 +62,16 @@ L['impenatrably_sealed_gourd_note'] = 'Loot {item:260251} from the nearby {objec
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = 'Display the locations of NPCs for the {achievement:62188} achievement.'
 L['more_than_just_thier_roots_note'] = 'Speak with the NPCs in the below locations:'
+L['chonon_note'] = 'Up on the branches of the tree.'
+L['funnid_note'] = 'High up on the branches of the world tree.'
+L['kawayn_note'] = 'Up on the big tree trunk.'
+
+L['altar_of_innocence'] = 'Altar of Innocence'
+L['altar_of_vigor'] = 'Altar of Vigor'
+L['altar_of_wisdom'] = 'Altar of Wisdom'
+L['altar_of_innocence_note'] = 'Return {item:256882} to the {npc:254030} after Interacting with the {object:Altar of Innocence}.\n\nComplete the tasks for the remaining altars to spawn the {object:Gift of the Cycle} treasure in {location:The Den}.'
+L['altar_of_vigor_note'] = 'Return {item:257024} to the {npc:254104} after Interacting with the {object:Altar of Vigor}.\n\nComplete the tasks for the remaining altars to spawn the {object:Gift of the Cycle} treasure in {location:The Den}.'
+L['altar_of_wisdom_note'] = 'Return {item:257054} to the {npc:254116} after Interacting with the {object:Altar of Wisdom}.\n\nComplete the tasks for the remaining altars to spawn the {object:Gift of the Cycle} treasure in {location:The Den}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
