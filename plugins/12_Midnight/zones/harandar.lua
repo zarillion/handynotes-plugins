@@ -422,7 +422,7 @@ map.nodes[33336084] = LoreObject({
     quest = 93556,
     rewards = {
         Achievement({id = 62104, criteria = 111824}),
-        Reputation({id = 2704, gain = 375, quest = 93556})
+        Reputation({id = 2704, gain = 250, quest = 93556})
     }
 }) -- Ancient Runestone
 
@@ -430,7 +430,7 @@ map.nodes[47604723] = LoreObject({
     quest = 93559,
     rewards = {
         Achievement({id = 62104, criteria = 111827}),
-        Reputation({id = 2704, gain = 375, quest = 93559})
+        Reputation({id = 2704, gain = 250, quest = 93559})
     }
 }) -- A Frayed Scroll
 
@@ -438,7 +438,7 @@ map.nodes[55665402] = LoreObject({
     quest = 93554,
     rewards = {
         Achievement({id = 62104, criteria = 111823}),
-        Reputation({id = 2704, gain = 375, quest = 93554})
+        Reputation({id = 2704, gain = 250, quest = 93554})
     }
 }) -- Tarnished Mural
 
@@ -446,7 +446,7 @@ map.nodes[72443809] = LoreObject({
     quest = 93557,
     rewards = {
         Achievement({id = 62104, criteria = 111825}),
-        Reputation({id = 2704, gain = 375, quest = 93557})
+        Reputation({id = 2704, gain = 250, quest = 93557})
     }
 }) -- Derelict Mural
 
@@ -454,7 +454,7 @@ map.nodes[68212379] = LoreObject({
     quest = 93558,
     rewards = {
         Achievement({id = 62104, criteria = 111826}),
-        Reputation({id = 2704, gain = 375, quest = 93558})
+        Reputation({id = 2704, gain = 250, quest = 93558})
     }
 }) -- Forgotten Mural
 
