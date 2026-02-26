@@ -62,16 +62,16 @@ L['impenatrably_sealed_gourd_note'] = '从附近的 {object:Dangling Jug} 中拾
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = '显示 {achievement:62188} 成就中 NPC 的位置。'
 L['more_than_just_thier_roots_note'] = '与以下位置的 NPC 交谈：'
-L['chonon_note'] = nil
-L['funnid_note'] = nil
-L['kawayn_note'] = nil
+L['chonon_note'] = '在树的树枝上。'
+L['funnid_note'] = '在世界之树的高处树枝上。'
+L['kawayn_note'] = '在大树的树干上方。'
 
-L['altar_of_innocence'] = nil
-L['altar_of_vigor'] = nil
-L['altar_of_wisdom'] = nil
-L['altar_of_innocence_note'] = nil
-L['altar_of_vigor_note'] = nil
-L['altar_of_wisdom_note'] = nil
+L['altar_of_innocence'] = '纯真祭坛'
+L['altar_of_vigor'] = '活力祭坛'
+L['altar_of_wisdom'] = '智慧祭坛'
+L['altar_of_innocence_note'] = '与 {object:纯真祭坛} 互动后，将 {item:256882} 交还给 {npc:254030}。\n\n完成其余祭坛的任务后，可在 {location:大巢穴} 刷新 {object:轮回的礼物} 宝藏。'
+L['altar_of_vigor_note'] = '与 {object:活力祭坛} 互动后，将 {item:257024} 交还给 {npc:254104}。\n\n完成其余祭坛的任务后，可在 {location:大巢穴} 刷新 {object:轮回的礼物} 宝藏。'
+L['altar_of_wisdom_note'] = '与 {object:智慧祭坛} 互动后，将 {item:257054} 交还给 {npc:254116}。\n\n完成其余祭坛的任务后，可在 {location:大巢穴} 刷新 {object:轮回的礼物} 宝藏。'
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------
