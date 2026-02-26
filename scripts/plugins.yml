@@ -80,9 +80,9 @@ plugins:
   - dir: 12_Midnight
     name: HandyNotes_Midnight
     curse: 932956
-    wago: null
-    wowi: null
-    enabled: false
+    wago: 96EL8gNg
+    wowi: 27067
+    enabled: true
 
   - dir: 13_TheLastTitan
     name: HandyNotes_TheLastTitan
