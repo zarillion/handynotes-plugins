@@ -339,7 +339,7 @@ map.nodes[42923436] = SkyridingGlyph({
     rewards = {Achievement({id = 61581, criteria = 110355})}
 }) -- Shadebasin Watch
 
-map.nodes[53008212] = SkyridingGlyph({
+map.nodes[53638039] = SkyridingGlyph({
     rewards = {Achievement({id = 61581, criteria = 110354})}
 }) -- Temple of Akil'zon
 
