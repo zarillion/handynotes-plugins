@@ -350,12 +350,12 @@ map.nodes[56844077] = PT.Blacksmithing({quest = 89180, id = 238543}) -- Metalwor
 map.nodes[48327578] = PT.Blacksmithing({quest = 89178, id = 238541}) -- Silvermoon Smithing Kit
 map.nodes[63493260] = PT.Enchanting({quest = 89107, id = 238555}) -- Sin'dorei Enchanting Rod
 map.nodes[60755301] = PT.Enchanting({quest = 89103, id = 238551}) -- Everblazing Sunmote
-smc.nodes[62005460] = PT.Engineering({
+smc.nodes[51307440] = PT.Engineering({
     quest = 89133,
     id = 238556,
     parent = map.id
 }) -- One Engineer's Junk
-smc.nodes[64305620] = PT.Engineering({
+smc.nodes[51205720] = PT.Engineering({
     quest = 89139,
     id = 238562,
     parent = map.id
@@ -426,9 +426,9 @@ map.nodes[58921954] = SkyridingGlyph({
     rewards = {Achievement({id = 61576, criteria = 110337})}
 }) -- Silvermoon City
 
-map.nodes[54555098] = SkyridingGlyph({
+map.nodes[40005960] = SkyridingGlyph({
     rewards = {Achievement({id = 61576, criteria = 110338})}
-}) -- Runestone Shan'dor
+}) -- Goldenmist Village
 
 map.nodes[49474803] = SkyridingGlyph({
     rewards = {Achievement({id = 61576, criteria = 110339})}
