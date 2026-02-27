@@ -417,7 +417,7 @@ map.nodes[60384550] = LoreObject({
     }
 }) -- Tainted Page/Tattered Page
 
-map.nodes[28156593] = LoreObject({
+map.nodes[50328768] = LoreObject({
     quest = 94394,
     rewards = {
         Achievement({id = 62104, criteria = 111835}),
