@@ -395,13 +395,7 @@ map.nodes[53108211] = LoreObject({
     }
 }) -- Tablet of Akil'zon
 
-map.nodes[37492669] = LoreObject({
-    quest = 94633,
-    rewards = {
-        Achievement({id = 62104, criteria = 111776}),
-        Reputation({id = 2696, gain = 250, quest = 94633})
-    }
-}) -- Tablet of the Witherbark
+
 
 map.nodes[55131762] = LoreObject({
     quest = 94631,
