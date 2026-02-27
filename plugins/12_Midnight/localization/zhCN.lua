@@ -55,9 +55,9 @@ L['glowing_moth'] = '发光飞蛾'
 L['options_icons_glowing_moth'] = '{achievement:61052}'
 L['options_icons_glowing_moth_desc'] = '显示 {achievement:61052} 成就中发光飞蛾的位置。'
 
-L['sporespawned_cache_note'] = '与 {dot:Red}{object:真菌棒槌} 互动以获得 {spell:1266347} 增益，然后使用它敲响 {object:响菌丝锣}。宝藏将出现在锣旁边。'
+L['sporespawned_cache_note'] = '与 {dot:Red}{object:真菌棒槌} 互动以获得 {spell:1266347} 增益，然后使用它敲响 {object:菌丝锣}。宝藏将出现在锣旁边。'
 L['fungal_mallet'] = '真菌棒槌'
-L['impenatrably_sealed_gourd_note'] = '从附近的 {object:Dangling Jug} 中拾取 {item:260251} 和从附近的 {object:Hanging Flask} 中拾取 {item:260250} \n与 {object:Durable Vase} 互动并添加液体以获得 {item:260266} \n与宝藏互动以获得奖励。'
+L['impenatrably_sealed_gourd_note'] = '从附近的 {object:垂吊的壶} 中拾取 {item:260251} 和从附近的 {object:悬挂的药剂} 中拾取 {item:260250} \n与 {object:牢固的花瓶} 互动并添加液体以获得 {item:260266} \n与宝藏互动以获得奖励。'
 
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = '显示 {achievement:62188} 成就中 NPC 的位置。'
@@ -68,10 +68,10 @@ L['kawayn_note'] = '在大树的树干上方。'
 
 L['altar_of_innocence'] = '纯真祭坛'
 L['altar_of_vigor'] = '活力祭坛'
-L['altar_of_wisdom'] = '智慧祭坛'
+L['altar_of_wisdom'] = '睿智祭坛'
 L['altar_of_innocence_note'] = '与 {object:纯真祭坛} 互动后，将 {item:256882} 交还给 {npc:254030}。\n\n完成其余祭坛的任务后，可在 {location:大巢穴} 刷新 {object:轮回的礼物} 宝藏。'
 L['altar_of_vigor_note'] = '与 {object:活力祭坛} 互动后，将 {item:257024} 交还给 {npc:254104}。\n\n完成其余祭坛的任务后，可在 {location:大巢穴} 刷新 {object:轮回的礼物} 宝藏。'
-L['altar_of_wisdom_note'] = '与 {object:智慧祭坛} 互动后，将 {item:257054} 交还给 {npc:254116}。\n\n完成其余祭坛的任务后，可在 {location:大巢穴} 刷新 {object:轮回的礼物} 宝藏。'
+L['altar_of_wisdom_note'] = '与 {object:睿智祭坛} 互动后，将 {item:257054} 交还给 {npc:254116}。\n\n完成其余祭坛的任务后，可在 {location:大巢穴} 刷新 {object:轮回的礼物} 宝藏。'
 
 -------------------------------------------------------------------------------
 ---------------------------------- VOIDSTORM ----------------------------------

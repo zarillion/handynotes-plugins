@@ -358,6 +358,10 @@ map.nodes[47075321] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110365})}
 }) -- The Cradle, Harandar
 
+map.nodes[34502360] = SkyridingGlyph({
+    rewards = {Achievement({id = 61582, criteria = 112628})}
+}) -- Roots of Teldrassil, Harandar
+
 map.nodes[69304593] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110367})}
 }) -- Roots of Amirdrassil, Harandar
