@@ -395,8 +395,6 @@ map.nodes[53108211] = LoreObject({
     }
 }) -- Tablet of Akil'zon
 
-
-
 map.nodes[55131762] = LoreObject({
     quest = 94631,
     rewards = {
