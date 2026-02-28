@@ -77,9 +77,9 @@ L['altar_of_wisdom_note'] = '与 {object:睿智祭坛} 互动后，将 {item:257
 ---------------------------------- VOIDSTORM ----------------------------------
 -------------------------------------------------------------------------------
 
-L['bloody_sack_note'] = '从附近的骨堆中收集 {object:Dripping Meat}，以喂养 {object:Forgotten Oubliette}。'
-L['malignant_chest_note'] = '激活洞穴中的 {object:Malignant Nodes} 以解锁宝箱。'
-L['malignant_node'] = 'Malignant Node'
+L['bloody_sack_note'] = '从附近的骨堆中收集 {object:滴水的肉}，以喂养 {object:被遗忘的密牢}。'
+L['malignant_chest_note'] = '激活洞穴中的 {object:怨毒节点} 以解锁宝箱。'
+L['malignant_node'] = '怨毒节点'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ZUL'AMAN ----------------------------------
