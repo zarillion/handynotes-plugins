@@ -94,7 +94,7 @@ L['options_icons_song_seeker_desc'] = 'Afficher les emplacements des Cherche-Cha
 
 L['options_icons_spiritpaw_marathon'] = '{achievement:62202}'
 L['options_icons_spiritpaw_marathon_desc'] = 'Afficher les emplacements liés au haut-fait {achievement:62202}.'
-L['spiritpaw_marathon_note'] = 'Parlez avec {npc:258938}.'
+L['spiritpaw_marathon_note'] = 'Parlez avec {npc:258938}, puis récupérez les {npc:250100} à proximité et emmenez-les au point {dot:Pink} situé au {location:Temple de Jan’alai} dans un délai de 30 minutes. \n\n ' .. ns.color.Red('Ne chevauchez pas une monture, sous peine de perdre le buff.')
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
