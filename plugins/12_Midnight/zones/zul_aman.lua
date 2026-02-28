@@ -216,7 +216,7 @@ map.nodes[45294170] = Rare({
 
 map.nodes[44724409] = Treasure({
     requires = ns.requirement.Item(259361, 1000), -- Vile Essence
-    quest = nil, -- 90794 or 90804
+    quest = 90794,
     rewards = {
         Achievement({id = 62125, criteria = 111854}),
         Mount({item = 257444, id = 2786}) -- Hexed Vilefeather Eagle
