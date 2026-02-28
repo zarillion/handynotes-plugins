@@ -504,7 +504,7 @@ map.nodes[32292240] = SpiritpawMarathon({
     label = '{achievement:62202}',
     note = L['spiritpaw_marathon_note'],
     rewards = {
-        Achievement({id = 62202, criteria = 112042, oneline = true}) -- Spiritpaw Marathon,
+        Achievement({id = 62202, criteria = 112895, oneline = true}) -- Spiritpaw Marathon,
     },
     pois = {
         POI({points = 51523279, color = 'Pink'}) -- End
