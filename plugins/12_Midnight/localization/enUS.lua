@@ -93,7 +93,7 @@ L['options_icons_song_seeker_desc'] = 'Display the locations of the Song Seekers
 
 L['options_icons_spiritpaw_marathon'] = '{achievement:62202}'
 L['options_icons_spiritpaw_marathon_desc'] = 'Display the locations for the {achievement:62202} achievement.'
-L['spiritpaw_marathon_note'] = 'Speak with {npc:258938}'
+L['spiritpaw_marathon_note'] = 'Speak with {npc:258938}, then pick up the nearby {npc:250100} and take them to the {dot:Pink} within the {location:Temple of Jan\'alai} within 30 minutes. \n\n ' .. ns.color.Red('Do not mount up or you will lose the buff.')
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------

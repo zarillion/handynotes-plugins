@@ -505,6 +505,9 @@ map.nodes[32292240] = SpiritpawMarathon({
     note = L['spiritpaw_marathon_note'],
     rewards = {
         Achievement({id = 62202, criteria = 112042, oneline = true}) -- Spiritpaw Marathon,
+    },
+    pois = {
+        POI({points = 51523279, color = 'Pink'}) -- End
     }
 }) -- Speak with Feevra (Achievement seems buggy not displaying on map)
 
