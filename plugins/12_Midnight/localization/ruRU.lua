@@ -62,9 +62,9 @@ L['impenatrably_sealed_gourd_note'] = nil
 L['options_icons_more_than_just_thier_roots'] = '{achievement:62188}'
 L['options_icons_more_than_just_thier_roots_desc'] = 'Отобразить местоположение НПС для достижения {achievement:62188}.'
 L['more_than_just_thier_roots_note'] = 'Поговорите с НПС в указанных ниже локациях:'
-L['chonon_note'] = nil
-L['funnid_note'] = nil
-L['kawayn_note'] = nil
+L['chonon_note'] = 'На ветвях дерева.'
+L['funnid_note'] = 'Высоко на ветвях Мирового Древа.'
+L['kawayn_note'] = 'На стволе большого дерева.'
 
 L['altar_of_innocence'] = nil
 L['altar_of_vigor'] = nil
