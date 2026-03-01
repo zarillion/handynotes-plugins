@@ -42,6 +42,8 @@ map.nodes[51164535] = Rare({
     quest = 91832, -- 94712/91832
     rewards = {
         Achievement({id = 61264, criteria = 109039}),
+        Transmog({item = 264530, type = L['cloth']}), -- Grimfur Mittens
+        Transmog({item = 264622, type = L['dagger']}), -- Grimfang Shank
         Reputation({id = 2704, gain = 50, quest = 94712}), Spacer(),
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
@@ -53,6 +55,8 @@ map.nodes[68714070] = Rare({
     quest = 92137, -- 92137 94713
     rewards = {
         Achievement({id = 61264, criteria = 109040}),
+        Transmog({item = 264538, type = L['cloth']}), -- Translucent Membrane Slippers
+        Transmog({item = 264544, type = L['leather']}), -- Grounded Death Cap
         Reputation({id = 2704, gain = 50, quest = 94713}), Spacer(),
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
@@ -64,10 +68,12 @@ map.nodes[69175986] = Rare({
     quest = 92142, -- 92142/94714
     rewards = {
         Achievement({id = 61264, criteria = 109041}),
+        Transmog({item = 264592, type = L['cloth']}), -- Ha'kalawe's Flawless Wing
+        Transmog({item = 264553, type = L['leather']}), -- Deepspore Leather Galoshes
         Reputation({id = 2704, gain = 50, quest = 94714}), Spacer(),
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
-    }, -- [Ha'kalawe's Flawless Wing] clock
+    },
     pois = {
         Path({
             69546295, 68806295, 68146280, 67696231, 67476167, 67466099,
@@ -82,6 +88,8 @@ map.nodes[72636928] = Rare({
     quest = 92148, -- 94715
     rewards = {
         Achievement({id = 61264, criteria = 109042}),
+        Transmog({item = 264532, type = L['cloth']}), -- Robes of Flowing Truths
+        Transmog({item = 264650, type = L['1h_mace']}), -- Truthspreader's Truth Spreader
         Reputation({id = 2704, gain = 50, quest = 94715}), Spacer(),
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
@@ -93,6 +101,8 @@ map.nodes[59934684] = Rare({
     quest = 92154, -- 92154
     rewards = {
         Achievement({id = 61264, criteria = 109043}),
+        Transmog({item = 264566, type = L['mail']}), -- Lashtongue's Leaffroggers
+        Transmog({item = 264571, type = L['plate']}), -- Ironleaf Wristguards
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
@@ -103,6 +113,7 @@ map.nodes[64574794] = Rare({
     quest = 92161, -- 94717
     rewards = {
         Achievement({id = 61264, criteria = 109044}),
+        Transmog({item = 264626, type = L['offhand']}), -- Scepter of Radiant Conversion
         Reputation({id = 2704, gain = 50, quest = 94717}), Spacer(),
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
@@ -114,6 +125,8 @@ map.nodes[65553269] = Rare({
     quest = 92168, -- 94718
     rewards = {
         Achievement({id = 61264, criteria = 109045}),
+        Transmog({item = 264578, type = L['plate']}), -- Stumpy's Terrorplate
+        Transmog({item = 264635, type = L['staff']}), -- Stumpy's Stump
         Reputation({id = 2704, gain = 50, quest = 94718}), Spacer(),
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
@@ -125,6 +138,8 @@ map.nodes[56383299] = Rare({
     quest = 92170, -- 92170
     rewards = {
         Achievement({id = 61264, criteria = 109046}),
+        Transmog({item = 264568, type = L['mail']}), -- Serrated Scale Gauntlets
+        Transmog({item = 264639, type = L['1h_axe']}), -- Razorfang Hacker
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
@@ -135,6 +150,8 @@ map.nodes[45933134] = Rare({
     quest = 92172, -- 92720
     rewards = {
         Achievement({id = 61264, criteria = 109047}),
+        Transmog({item = 264550, type = L['leather']}), -- Fungal Stalker's Stockings
+        Transmog({item = 264649, type = L['1h_mace']}), -- Mindrot Claw-Hammer
         Reputation({id = 2704, gain = 50, quest = 92720}), Spacer(), -- need to check quest id
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
@@ -147,6 +164,8 @@ map.nodes[40654299] = Rare({
     quest = 92176, -- 92176
     rewards = {
         Achievement({id = 61264, criteria = 109048}),
+        Transmog({item = 264562, type = L['mail']}), -- Plated Grove Vest
+        Transmog({item = 264644, type = L['1h_axe']}), -- Crawler's Mindscythe
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
@@ -157,6 +176,8 @@ map.nodes[36597516] = Rare({
     quest = 92183, -- 94722/92183
     rewards = {
         Achievement({id = 61264, criteria = 109049}),
+        Transmog({item = 264581, type = L['plate']}), -- Bloombark Spaulders
+        Transmog({item = 264633, type = L['staff']}), -- Treetop Battlestave
         Reputation({id = 2704, gain = 50, quest = 94722}), Spacer(),
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
@@ -168,6 +189,8 @@ map.nodes[28118181] = Rare({ -- review
     quest = 92190, -- 94723
     rewards = {
         Achievement({id = 61264, criteria = 109050}),
+        Transmog({item = 264591, type = L['cloth']}), -- Radiant Petalwing's Feather
+        Transmog({item = 264616, type = L['1h_sword']}), -- Lightblighted Sapdrinker
         Reputation({id = 2704, gain = 50, quest = 94723}), Spacer(),
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
@@ -180,6 +203,8 @@ map.nodes[27277032] = Rare({
     quest = 92191, -- 94724, -- 92191
     rewards = {
         Achievement({id = 61264, criteria = 109051}),
+        Transmog({item = 264567, type = L['mail']}), -- Rockscale Hood
+        Transmog({item = 264576, type = L['plate']}), -- Slatescale Grips
         Reputation({id = 2704, gain = 50, quest = 94724}), Spacer(),
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
@@ -191,6 +216,8 @@ map.nodes[39696070] = Rare({
     quest = 92193, -- 92193/94725
     rewards = {
         Achievement({id = 61264, criteria = 109052}),
+        Transmog({item = 264534, type = L['cloth']}), -- Bogvine Shoulderguards
+        Transmog({item = 264540, type = L['leather']}), -- Mirevine Wristguards
         Reputation({id = 2704, gain = 50, quest = 94725}), Spacer(),
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
@@ -202,6 +229,7 @@ map.nodes[44201658] = Rare({
     quest = 92194, -- 94726
     rewards = {
         Achievement({id = 61264, criteria = 109053}),
+        Transmog({item = 264614, type = L['shield']}), -- Fungal Cap Guard
         Reputation({id = 2704, gain = 50, quest = 94726}), Spacer(),
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
