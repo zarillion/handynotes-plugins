@@ -6,6 +6,7 @@
 * Update location of several profession treasures
 * Update Spiritpaw Marathon achievement.
 * Update rep rewards for Zul'aman rares.
+* Add item drops to rares
 * Localization updates
 
 # v132
