@@ -103,6 +103,7 @@ map.nodes[59934684] = Rare({
         Achievement({id = 61264, criteria = 109043}),
         Transmog({item = 264566, type = L['mail']}), -- Lashtongue's Leaffroggers
         Transmog({item = 264571, type = L['plate']}), -- Ironleaf Wristguards
+        Reputation({id = 2704, gain = 50, quest = 94716}), Spacer(),
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
