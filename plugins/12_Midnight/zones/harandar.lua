@@ -135,7 +135,7 @@ map.nodes[45933134] = Rare({
     quest = 92172, -- 92720
     rewards = {
         Achievement({id = 61264, criteria = 109047}),
-        Reputation({id = 2704, gain = 50, quest = 92720}), Spacer(), -- need to check quest id
+        Reputation({id = 2704, gain = 50, quest = 94720}), Spacer(),
         Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     },
