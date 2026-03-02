@@ -1,12 +1,12 @@
 # v133
 
-* Update lore object rep reward amount
-* Update location of several lore objects
-* Update location of several Skyriding Glyphs
-* Update location of several profession treasures
-* Update Spiritpaw Marathon achievement.
-* Update rep rewards for Zul'aman rares.
-* Add item drops to rares
+* Updated lore object rep reward amount
+* Updated location of several lore objects
+* Updated location of several Skyriding Glyphs
+* Updated location of several profession treasures
+* Updated Spiritpaw Marathon achievement.
+* Updated rep rewards for Zul'aman rares.
+* Added item drops to rares
 * Localization updates
 
 # v132
