@@ -507,7 +507,11 @@ slr.nodes[60698426] = PT.Inscription({
     id = 238572,
     parent = map.id
 }) -- Void-Touched Quill
-map.nodes[30496904] = PT.Jewelcrafting({quest = 89123, id = 238581}) -- Speculative Voidstorm Crystal
+slr.nodes[30496904] = PT.Jewelcrafting({
+    quest = 89123,
+    id = 238581,
+    parent = map.id
+}) -- Speculative Voidstorm Crystal
 slr.nodes[54205104] = PT.Jewelcrafting({
     quest = 89128,
     id = 238586,
