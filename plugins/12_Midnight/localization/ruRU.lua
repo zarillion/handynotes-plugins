@@ -93,7 +93,7 @@ L['options_icons_song_seeker_desc'] = 'Отобразить местополож
 
 L['options_icons_spiritpaw_marathon'] = '{achievement:62202}'
 L['options_icons_spiritpaw_marathon_desc'] = 'Отобразить местоположения достижения {achievement:62202}.'
-L['spiritpaw_marathon_note'] = 'Поговорите с {npc:258938}'
+L['spiritpaw_marathon_note'] = 'Поговорите с {npc:258938}, затем подберите ближайшего {npc:250100} и отнесите его к {dot:Pink} в {location:храм Джан\'алай} в течение 30 минут. \n\n ' .. ns.color.Red('Не садитесь на маунта иначе потеряете бафф.')
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
