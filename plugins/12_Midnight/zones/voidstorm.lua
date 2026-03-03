@@ -43,26 +43,26 @@ local lop_b = Map({id = 2527, settings = true}) -- Lair of Predaxas - Bottom
 
 map.nodes[29515008] = Rare({
     id = 244272,
-    quest = 90805, -- 94728, -- 90805
+    quest = 90805, -- 94728
     rewards = {
         Achievement({id = 62130, criteria = 111877}),
+        Reputation({id = 2699, gain = 50, quest = 94728}),
         Transmog({item = 264539, type = L['cloth']}), -- Robes of the Voidcaller
         Transmog({item = 264619, type = L['1h_sword']}), -- Nethersteel Spellblade
-        Reputation({id = 2699, gain = 50, quest = 94728}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
 }) -- Sundereth the Caller
 
 map.nodes[34058198] = Rare({
     id = 238498,
-    quest = 91050, -- 94729, -- 91050
+    quest = 91050, -- 94729
     rewards = {
         Achievement({id = 62130, criteria = 111878}),
+        Reputation({id = 2699, gain = 50, quest = 94729}),
         Transmog({item = 264565, type = L['mail']}), -- Voidscale Shoulderpads
         Transmog({item = 264642, type = L['1h_axe']}), -- Carving Voidscythe
-        Reputation({id = 2699, gain = 50, quest = 94729}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
 
     }
@@ -71,12 +71,12 @@ map.nodes[34058198] = Rare({
 map.nodes[36168355] = Rare({
     id = 241443,
     location = L['in_small_cave'],
-    quest = 91048, -- 94730, -- 91048
+    quest = 91048, -- 94730
     rewards = {
         Achievement({id = 62130, criteria = 111879}),
+        Reputation({id = 2699, gain = 50, quest = 94730}),
         Transmog({item = 264646, type = L['bow']}), -- Specimen Sinew Longbow
-        Reputation({id = 2699, gain = 50, quest = 94730}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     },
     pois = {Entrance({35698120, 37538455})}
@@ -84,13 +84,13 @@ map.nodes[36168355] = Rare({
 
 map.nodes[43665154] = Rare({
     id = 256922,
-    quest = 93966, -- 94731, -- 93966
+    quest = 93966, -- 94731
     rewards = {
         Achievement({id = 62130, criteria = 111880}),
-        Transmog({item = 264545, type = L['leather']}), -- Harrower-Claw Grips
+        Reputation({id = 2699, gain = 50, quest = 94731}),
         Transmog({item = 264583, type = L['plate']}), -- Barbute of the Winged Hunter
-        Reputation({id = 2699, gain = 50, quest = 94731}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Transmog({item = 264545, type = L['leather']}), -- Harrower-Claw Grips
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
 }) -- Screammaxa the Matriarch
@@ -98,13 +98,14 @@ map.nodes[43665154] = Rare({
 map.nodes[47058063] = Rare({
     id = 256923,
     location = L['in_small_cave'],
-    quest = 93946, -- 93946
+    quest = 93946, -- 94732
     rewards = {
         Achievement({id = 62130, criteria = 111881}),
-        Transmog({item = 264558, type = L['mail']}), -- Vileblood Resistant Sabatons
+        Reputation({id = 2699, gain = 50, quest = 94732}),
         Transmog({item = 264572, type = L['plate']}), -- Netherplate Clasp
-        Reputation({id = 2699, gain = 50, quest = 94732}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Transmog({item = 264558, type = L['mail']}), -- Vileblood Resistant Sabatons
+
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
 }) -- Bane of the Vilebloods
@@ -112,80 +113,27 @@ map.nodes[47058063] = Rare({
 map.nodes[39236392] = Rare({
     id = 256924,
     location = L['in_small_cave'],
-    quest = 93944, -- 34751, -- 93944
+    quest = 93944, -- 34751
     rewards = {
         Achievement({id = 62130, criteria = 111882}),
+        Reputation({id = 2699, gain = 50, quest = 94751}),
         Transmog({item = 264549, type = L['leather']}), -- Ever-Devouring Shoulderguards
         Transmog({item = 264637, type = L['warglaive']}), -- Cosmic Hunter's Glaive
-        Reputation({id = 2699, gain = 50, quest = 94751}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
 }) -- Aeonelle Blackstar
 
-map.nodes[37897177] = Rare({
-    id = 256925,
-    quest = 93947, -- 94758, -- 93947
-    rewards = {
-        Achievement({id = 62130, criteria = 111883}),
-        Transmog({item = 264548, type = L['leather']}), -- Sash of Cosmic Tranquility
-        Transmog({item = 264632, type = L['staff']}), -- Darkblossom's Crook
-        Reputation({id = 2699, gain = 50, quest = 94758}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
-        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
-    }
-}) -- Lotus Darkblossom
-
-map.nodes[55727945] = Rare({
-    id = 256926,
-    quest = 93934, -- 93934/94761
-    rewards = {
-        Achievement({id = 62130, criteria = 111884}),
-        Transmog({item = 264533, type = L['cloth']}), -- Queen's Tentacle Sash
-        Reputation({id = 2699, gain = 50, quest = 94761}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
-        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
-
-    }
-}) -- Queen o' War -- Crown of the Lost Queen
-
-map.nodes[48815326] = Rare({
-    id = 256808,
-    quest = 93895, -- 93895
-    rewards = {
-        Achievement({id = 62130, criteria = 111885}),
-        Transmog({item = 264535, type = L['cloth']}), -- Leggings of the Cosmic Harrower
-        Transmog({item = 264589, type = L['cloth']}), -- Voidfused Wing Cloak
-        Reputation({id = 2699, gain = 50, quest = 94763}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
-        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
-    }
-}) -- Ravengerus
-
-slr.nodes[46334094] = Rare({
-    id = 257027,
-    quest = 93953, -- 94762, -- 93953
-    rewards = {
-        Achievement({id = 62130, criteria = 111886}),
-        Transmog({item = 264561, type = L['mail']}), -- Primal Bonestompers
-        Transmog({item = 264630, type = L['2h_axe']}), -- Colossal Voidsunderer
-        Reputation({id = 2699, gain = 50, quest = 94762}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
-        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
-    },
-    parent = map.id
-}) -- Rakshur the Bonegrinder
-
 map.nodes[35495023] = Rare({
     id = 256770,
     location = L['in_small_cave'],
-    quest = 93884, -- 94752, -- 93884
+    quest = 93884, -- 94752
     rewards = {
         Achievement({id = 62130, criteria = 111887}),
+        Reputation({id = 2699, gain = 50, quest = 94752}),
         Transmog({item = 264579, type = L['plate']}), -- Hungering Wristplates
         Transmog({item = 264623, type = L['dagger']}), -- Shredding Fang
-        Reputation({id = 2699, gain = 50, quest = 94752}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     },
     pois = {POI({35604940})}
@@ -193,12 +141,12 @@ map.nodes[35495023] = Rare({
 
 slr.nodes[40888899] = Rare({ -- wowhead beta coords
     id = 245182,
-    quest = 91047, -- 94754, -- 91047
+    quest = 91047, -- 94754
     rewards = {
         Achievement({id = 62130, criteria = 111888}),
+        Reputation({id = 2699, gain = 50, quest = 94754}),
         Transmog({item = 264563, type = L['mail']}), -- Eruundi's Wristguards
-        Reputation({id = 2699, gain = 50, quest = 94754}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     },
     pois = {
@@ -210,32 +158,85 @@ slr.nodes[40888899] = Rare({ -- wowhead beta coords
     parent = map.id
 }) -- Eruundi
 
+map.nodes[53946272] = Rare({
+    id = 256821,
+    quest = 93896, -- 94755
+    rewards = {
+        Achievement({id = 62130, criteria = 111890}),
+        Reputation({id = 2699, gain = 50, quest = 94755}),
+        Transmog({item = 264913, type = L['1h_sword']}), -- Focused Netherslicer
+        Transmog({item = 264912, type = L['staff']}), -- Void-Channeler's Spire
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    }
+}) -- Far'thana the Mad
+
+map.nodes[37897177] = Rare({
+    id = 256925,
+    quest = 93947, -- 94758
+    rewards = {
+        Achievement({id = 62130, criteria = 111883}),
+        Reputation({id = 2699, gain = 50, quest = 94758}),
+        Transmog({item = 264548, type = L['leather']}), -- Sash of Cosmic Tranquility
+        Transmog({item = 264632, type = L['staff']}), -- Darkblossom's Crook
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    }
+}) -- Lotus Darkblossom
+
 map.nodes[40174130] = Rare({
     id = 245044,
-    quest = 91051, -- 91051
+    quest = 91051, -- 94759
     rewards = {
         Achievement({id = 62130, criteria = 111889}),
-        Transmog({item = 264551, type = L['leather']}), -- Nightbrood's Jaw
+        Reputation({id = 2699, gain = 50, quest = 94759}),
         Transmog({item = 264574, type = L['plate']}), -- Netherterror's Legplates
-        Reputation({id = 2699, gain = 50, quest = 94759}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Transmog({item = 264551, type = L['leather']}), -- Nightbrood's Jaw
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     },
     parent = slr.id
 }) -- Nightbrood
 
-map.nodes[53946272] = Rare({
-    id = 256821,
-    quest = 93896, -- 93896
+map.nodes[55727945] = Rare({
+    id = 256926,
+    quest = 93934, -- 94761
     rewards = {
-        Achievement({id = 62130, criteria = 111890}),
-        Transmog({item = 264913, type = L['1h_sword']}), -- Focused Netherslicer
-        Transmog({item = 264912, type = L['staff']}), -- Void-Channeler's Spire
-        Reputation({id = 2699, gain = 50, quest = 94755}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Achievement({id = 62130, criteria = 111884}),
+        Reputation({id = 2699, gain = 50, quest = 94761}),
+        Transmog({item = 264533, type = L['cloth']}), -- Queen's Tentacle Sash
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+
+    }
+}) -- Queen o' War -- Crown of the Lost Queen
+
+slr.nodes[46334094] = Rare({
+    id = 257027,
+    quest = 93953, -- 94762
+    rewards = {
+        Achievement({id = 62130, criteria = 111886}),
+        Reputation({id = 2699, gain = 50, quest = 94762}),
+        Transmog({item = 264561, type = L['mail']}), -- Primal Bonestompers
+        Transmog({item = 264630, type = L['2h_axe']}), -- Colossal Voidsunderer
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    },
+    parent = map.id
+}) -- Rakshur the Bonegrinder
+
+map.nodes[48815326] = Rare({
+    id = 256808,
+    quest = 93895, -- 94763
+    rewards = {
+        Achievement({id = 62130, criteria = 111885}),
+        Reputation({id = 2699, gain = 50, quest = 94763}),
+        Transmog({item = 264535, type = L['cloth']}), -- Leggings of the Cosmic Harrower
+        Transmog({item = 264589, type = L['cloth']}), -- Voidfused Wing Cloak
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
-}) -- Far'thana the Mad
+}) -- Ravengerus
 
 -- Hardin Steellock @map 2444 28.35 57.11, Horde only?
 -- Gar'chak Skullcleave @map 2444 69.68 77.30, Alliance only?

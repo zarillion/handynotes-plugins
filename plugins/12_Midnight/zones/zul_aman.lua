@@ -41,9 +41,9 @@ map.nodes[34413305] = Rare({
     quest = 89569, -- 94683
     rewards = {
         Achievement({id = 62122, criteria = 111839}),
+        Reputation({id = 2696, gain = 50, quest = 94683}),
         Transmog({item = 264527, type = L['cloth']}), -- Vile Hexxer's Mantle
-        Reputation({id = 2696, gain = 50, quest = 94683}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
 }) -- Necrohexxer Raz'ka
@@ -53,10 +53,10 @@ map.nodes[51801862] = Rare({
     quest = 89570, -- 94697
     rewards = {
         Achievement({id = 62122, criteria = 111840}),
+        Reputation({id = 2696, gain = 50, quest = 94697}),
         Transmog({item = 264585, type = L['plate']}), -- Snapper Steppers
         Transmog({item = 264617, type = L['1h_sword']}), -- Scourge's Spike
-        Reputation({id = 2696, gain = 50, quest = 94697}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
 }) -- The Snapping Scourge
@@ -66,10 +66,10 @@ map.nodes[51857291] = Rare({
     quest = 89571, -- 94698
     rewards = {
         Achievement({id = 62122, criteria = 111841}),
+        Reputation({id = 2696, gain = 50, quest = 94698}),
         Transmog({item = 264542, type = L['leather']}), -- Skullcrusher's Mantle
         Transmog({item = 256231, type = L['2h_sword']}), -- Harak's Skullcutter
-        Reputation({id = 2696, gain = 50, quest = 94698}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
 }) -- Skullcrusher Harak
@@ -77,13 +77,13 @@ map.nodes[51857291] = Rare({
 map.nodes[28952444] = Rare({
     id = 242028,
     location = L['in_cave'],
-    quest = 89575, -- 89575/81425/94699?
+    quest = 89575, -- 94699
     rewards = {
         Achievement({id = 62122, criteria = 111842}),
+        Reputation({id = 2696, gain = 50, quest = 94699}),
         Transmog({item = 264557, type = L['mail']}), -- Borerplate Pauldrons
         Transmog({item = 264640, type = L['1h_axe']}), -- Sharpened Borer Claw
-        Reputation({id = 2696, gain = 50, quest = 94699}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
 }) -- Lightwood Borer enterance 28732403
@@ -93,10 +93,10 @@ map.nodes[50876514] = Rare({
     quest = 91174, -- 94700
     rewards = {
         Achievement({id = 62122, criteria = 111843}),
-        Transmog({item = 264570, type = L['mail']}), -- Reinforced Chainmrrl
+        Reputation({id = 2696, gain = 50, quest = 94700}),
         Transmog({item = 264580, type = L['plate']}), -- Mrrlokk's Mrgl Grrdle
-        Reputation({id = 2696, gain = 50, quest = 94700}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Transmog({item = 264570, type = L['mail']}), -- Reinforced Chainmrrl
+        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
 }) -- Mrrlokk
@@ -106,10 +106,10 @@ map.nodes[38994997] = Rare({
     quest = 91634, -- 94701
     rewards = {
         Achievement({id = 62122, criteria = 111844}),
+        Reputation({id = 2696, gain = 50, quest = 94701}),
         Transmog({item = 264911, type = L['bow']}), -- Forest Hunter's Arc
         Transmog({item = 264627, type = L['polearm']}), -- Rav'ik's Spare Hunting Spear
-        Reputation({id = 2696, gain = 50, quest = 94701}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     },
     parent = aam.id
@@ -120,10 +120,10 @@ map.nodes[30484456] = Rare({
     quest = 89578, -- 94702
     rewards = {
         Achievement({id = 62122, criteria = 111845}),
+        Reputation({id = 2696, gain = 50, quest = 94702}),
         Transmog({item = 264554, type = L['leather']}), -- Frilly Leather Vest
         Transmog({item = 264620, type = L['dagger']}), -- Pufferspine Spellpierce
-        Reputation({id = 2696, gain = 50, quest = 94702}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
 }) -- Spinefrill
@@ -134,10 +134,10 @@ map.nodes[46295113] = Rare({
     quest = 89579, -- 94703
     rewards = {
         Achievement({id = 62122, criteria = 111846}),
-        Transmog({item = 264528, type = L['cloth']}), -- Goop-Coated Leggings
+        Reputation({id = 2696, gain = 50, quest = 94703}),
         Transmog({item = 264541, type = L['leather']}), -- Egg-Swaddling Sash
-        Reputation({id = 2696, gain = 50, quest = 94703}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Transmog({item = 264528, type = L['cloth']}), -- Goop-Coated Leggings
+        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
 }) -- Oophaga
@@ -147,9 +147,9 @@ map.nodes[47773422] = Rare({
     quest = 89580, -- 94704
     rewards = {
         Achievement({id = 62122, criteria = 111847}),
+        Reputation({id = 2696, gain = 50, quest = 94704}),
         Transmog({item = 264648, type = L['1h_mace']}), -- Verminscale Gavel
-        Reputation({id = 2696, gain = 50, quest = 94704}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
 }) -- Tiny Vermin
@@ -159,49 +159,49 @@ map.nodes[21307055] = Rare({
     quest = 89581, -- 94705
     rewards = {
         Achievement({id = 62122, criteria = 111848}),
-        Transmog({item = 264564, type = L['mail']}), -- Crab Wrangling Harness
+        Reputation({id = 2696, gain = 50, quest = 94705}),
         Transmog({item = 264586, type = L['plate']}), -- Crustacean Carapace Chestguard
-        Reputation({id = 2696, gain = 50, quest = 94705}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Transmog({item = 264564, type = L['mail']}), -- Crab Wrangling Harness
+        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
 }) -- Voidtouched Crustacean
 
-map.nodes[39592097] = Rare({ -- wowhead beta coords
+map.nodes[39592097] = Rare({
     id = 242035,
     location = L['in_cave'],
-    quest = 89583, -- 89583/94706
+    quest = 89583, -- 94706
     rewards = {
         Achievement({id = 62122, criteria = 111849}),
+        Reputation({id = 2696, gain = 50, quest = 94706}),
         Transmog({item = 264559, type = L['mail']}), -- Devourer's Visage
         Transmog({item = 264638, type = L['warglaive']}), -- Fangs of the Invader
-        Reputation({id = 2696, gain = 50, quest = 94706}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
-}) -- The Devouring Invader in cave
+}) -- The Devouring Invader
 
 map.nodes[33718897] = Rare({
     id = 242026,
     quest = 89572, -- 94707
     rewards = {
-        Achievement({id = 62122, criteria = 111850}), Item({item = 265543}),
-        Transmog({item = 264529, type = L['cloth']}), -- Cover of the Furbolg Elder
+        Achievement({id = 62122, criteria = 111850}),
+        Reputation({id = 2696, gain = 50, quest = 94707}),
         Transmog({item = 264547, type = L['leather']}), -- Worn Furbolg Bindings
-        Reputation({id = 2696, gain = 50, quest = 94707}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Transmog({item = 264529, type = L['cloth']}), -- Cover of the Furbolg Elder
+        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
 }) -- Elder Oaktalon
 
 map.nodes[47682056] = Rare({
     id = 242027,
-    quest = 89573, -- 94708, -- 89573
+    quest = 89573, -- 94708,
     rewards = {
-        Achievement({id = 62122, criteria = 111851}), Item({item = 265560}),
+        Achievement({id = 62122, criteria = 111851}),
+        Reputation({id = 2696, gain = 50, quest = 94708}),
         Transmog({item = 264618, type = L['1h_sword']}), -- Strangely Eelastic Blade
-        Reputation({id = 2696, gain = 50, quest = 94708}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
 }) -- Depthborn Eelamental
@@ -211,10 +211,10 @@ map.nodes[46394339] = Rare({
     quest = 91072, -- 94709
     rewards = {
         Achievement({id = 62122, criteria = 111852}),
-        Transmog({item = 264525, type = L['cloth']}), -- Wrapped Antenna Cuffs
+        Reputation({id = 2696, gain = 50, quest = 94709}),
         Transmog({item = 264582, type = L['plate']}), -- Diamondback-Scale Legguards
-        Reputation({id = 2696, gain = 50, quest = 94709}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Transmog({item = 264525, type = L['cloth']}), -- Wrapped Antenna Cuffs
+        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
 }) -- The Decaying Diamondback
@@ -224,10 +224,10 @@ map.nodes[45294170] = Rare({
     quest = 91073, -- 94710
     rewards = {
         Achievement({id = 62122, criteria = 111853}),
+        Reputation({id = 2696, gain = 50, quest = 94710}),
         Transmog({item = 264593, type = L['cloth']}), -- Warcloak of the Butcher
         Transmog({item = 264643, type = L['1h_axe']}), -- Ash'an's Spare Cleaver
-        Reputation({id = 2696, gain = 50, quest = 94710}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
+        Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
 }) -- Asha the Empowered
