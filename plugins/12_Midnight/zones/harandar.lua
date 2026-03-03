@@ -70,7 +70,7 @@ map.nodes[69175986] = Rare({
         Achievement({id = 61264, criteria = 109041}),
         Reputation({id = 2704, gain = 50, quest = 94714}),
         Transmog({item = 264553, type = L['leather']}), -- Deepspore Leather Galoshes
-        Transmog({item = 264592, type = L['cloth']}), -- Ha'kalawe's Flawless Wing
+        Transmog({item = 264592, type = L['cloak']}), -- Ha'kalawe's Flawless Wing
         Spacer(), Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     },
@@ -193,7 +193,7 @@ map.nodes[28118181] = Rare({
     rewards = {
         Achievement({id = 61264, criteria = 109050}),
         Reputation({id = 2704, gain = 50, quest = 94723}),
-        Transmog({item = 264591, type = L['cloth']}), -- Radiant Petalwing's Feather
+        Transmog({item = 264591, type = L['cloak']}), -- Radiant Petalwing's Feather
         Transmog({item = 264616, type = L['1h_sword']}), -- Lightblighted Sapdrinker
         Spacer(), Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
