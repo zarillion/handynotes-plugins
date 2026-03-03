@@ -97,7 +97,7 @@ L['options_icons_spiritpaw_marathon_desc'] = 'Afficher les emplacements liés au
 L['spiritpaw_marathon_note'] = 'Parlez avec {npc:258938}, puis récupérez les {npc:250100} à proximité et emmenez-les au point {dot:Pink} situé au {location:Temple de Jan’alai} dans un délai de 30 minutes. \n\n ' .. ns.color.Red('Ne chevauchez pas une monture, sous peine de perdre le buff.')
 
 L['options_icons_gnome_alone'] = '{achievement:62200}'
-L['options_icons_gnome_alone_desc'] = nil
+L['options_icons_gnome_alone_desc'] = 'Afficher les emplacements des objets liés au haut-fait {achievement:62200}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
