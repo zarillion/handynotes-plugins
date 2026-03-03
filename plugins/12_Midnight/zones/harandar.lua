@@ -461,14 +461,6 @@ map.nodes[33336084] = LoreObject({
     }
 }) -- Ancient Runestone
 
-map.nodes[47604723] = LoreObject({
-    quest = 93559,
-    rewards = {
-        Achievement({id = 62104, criteria = 111827}),
-        Reputation({id = 2704, gain = 250, quest = 93559})
-    }
-}) -- A Frayed Scroll
-
 map.nodes[55665402] = LoreObject({
     quest = 93554,
     rewards = {
