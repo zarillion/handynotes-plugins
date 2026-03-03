@@ -1,6 +1,7 @@
 # v135
 
-* Add Gnome Alone achievement in Zul'Aman.
+* Added Gnome Alone achievement in Zul'Aman.
+* Fixed an issue with The Frog and the Princesses achievement in Zul'aman not displaying correctly.
 * Localization updates
 
 # v134

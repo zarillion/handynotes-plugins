@@ -216,12 +216,6 @@ ns.node.MoreThanJustThierRoots = MoreThanJustThierRoots
 local FrogPrincess = Class('frog_princess', Collectible,
     {icon = 2399262, group = ns.groups.FROG_PRINCESS})
 
-function FrogPrincess:Initialize(criteria, location)
-    ns.node.Collectible.Initialize(self)
-    self.parent = location or nil
-    self.rewards = {Achievement({id = 62201, criteria = criteria})}
-end
-
 ns.node.FrogPrincess = FrogPrincess
 
 -------------------------------------------------------------------------------

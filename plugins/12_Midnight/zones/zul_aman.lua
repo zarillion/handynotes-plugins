@@ -485,11 +485,22 @@ map.nodes[41854163] = Telescope({
 
 ------------------------- THE FROG AND THE PRINCESS ----------------------------
 
-map.nodes[31702263] = FrogPrincess(112041) -- Princess Fita
-map.nodes[68281931] = FrogPrincess(112445) -- Princess Gabiku
-aam.nodes[27534005] = FrogPrincess(112446, {parent = map.id}) -- Princess Jakobu
-map.nodes[53945956] = FrogPrincess(112447) -- Princess Tafiki
-map.nodes[29817915] = FrogPrincess(112448) -- Princess Zambina
+map.nodes[31702263] = FrogPrincess({
+    rewards = {Achievement({id = 62201, criteria = 112041})}
+}) -- Princess Fita
+map.nodes[68281931] = FrogPrincess({
+    rewards = {Achievement({id = 62201, criteria = 112445})}
+}) -- Princess Gabiku
+aam.nodes[27534005] = FrogPrincess({
+    rewards = {Achievement({id = 62201, criteria = 112446})},
+    parent = map.id
+}) -- Princess Jakobu
+map.nodes[53945956] = FrogPrincess({
+    rewards = {Achievement({id = 62201, criteria = 112447})}
+}) -- Princess Tafiki
+map.nodes[29817915] = FrogPrincess({
+    rewards = {Achievement({id = 62201, criteria = 112448})}
+}) -- Princess Zambina
 
 ----------------------------- SHADOWPINE SCATTERED ----------------------------
 
