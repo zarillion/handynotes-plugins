@@ -225,7 +225,7 @@ map.nodes[45294170] = Rare({
     rewards = {
         Achievement({id = 62122, criteria = 111853}),
         Reputation({id = 2696, gain = 50, quest = 94710}),
-        Transmog({item = 264593, type = L['cloth']}), -- Warcloak of the Butcher
+        Transmog({item = 264593, type = L['cloak']}), -- Warcloak of the Butcher
         Transmog({item = 264643, type = L['1h_axe']}), -- Ash'an's Spare Cleaver
         Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango

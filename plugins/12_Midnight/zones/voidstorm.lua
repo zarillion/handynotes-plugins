@@ -232,7 +232,7 @@ map.nodes[48815326] = Rare({
         Achievement({id = 62130, criteria = 111885}),
         Reputation({id = 2699, gain = 50, quest = 94763}),
         Transmog({item = 264535, type = L['cloth']}), -- Leggings of the Cosmic Harrower
-        Transmog({item = 264589, type = L['cloth']}), -- Voidfused Wing Cloak
+        Transmog({item = 264589, type = L['cloak']}), -- Voidfused Wing Cloak
         Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }

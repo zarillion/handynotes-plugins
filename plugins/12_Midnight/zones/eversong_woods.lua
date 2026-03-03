@@ -206,7 +206,7 @@ map.nodes[42316891] = Rare({
         Achievement({id = 61507, criteria = 110178}),
         Reputation({id = 2710, gain = 50, quest = 94694}),
         Transmog({item = 264569, type = L['mail']}), -- Void-Gorged Kickers
-        Transmog({item = 264594, type = L['cloth']}), -- Netherscale Cloak
+        Transmog({item = 264594, type = L['cloak']}), -- Netherscale Cloak
         Spacer(), Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
         Mount({item = 257147, id = 2758}) -- Cobalt Dragonhawk
     }
@@ -230,7 +230,7 @@ map.nodes[44993855] = Rare({
     rewards = {
         Achievement({id = 61507, criteria = 110180}),
         Reputation({id = 2710, gain = 50, quest = 94696}),
-        Transmog({item = 264595, type = L['cloth']}), -- Lynxhide Shawl
+        Transmog({item = 264595, type = L['cloak']}), -- Lynxhide Shawl
         Transmog({item = 264624, type = L['dagger']}), -- Fang of the Dame
         Pet({item = 265609, id = 4985}), -- Princess Bloodshed
         Spacer(), Section(L['shared_drops']), Mount({item = 257156, id = 2762}), -- Cerulean Hawkstrider
