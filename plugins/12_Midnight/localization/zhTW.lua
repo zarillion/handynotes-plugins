@@ -95,6 +95,9 @@ L['options_icons_spiritpaw_marathon'] = '{achievement:62202}'
 L['options_icons_spiritpaw_marathon_desc'] = '顯示 {achievement:62202} 成就的位置。'
 L['spiritpaw_marathon_note'] = '與 {npc:258938} 交談，然後抱起附近的 {npc:250100}，並在 30 分鐘內將牠們帶到 {location:加亞萊的神廟} 內的 {dot:Pink} 位置。\n\n ' .. ns.color.Red('請勿上坐騎，否則會失去增益效果。')
 
+L['options_icons_gnome_alone'] = '{achievement:62200}'
+L['options_icons_gnome_alone_desc'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- 亞肯提納 ----------------------------------
 -------------------------------------------------------------------------------

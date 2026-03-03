@@ -96,6 +96,9 @@ L['options_icons_spiritpaw_marathon'] = '{achievement:62202}'
 L['options_icons_spiritpaw_marathon_desc'] = 'Zeige die Positionen der Läufer für den Erfolg {achievement:62202} an.'
 L['spiritpaw_marathon_note'] = 'Sprich mit {npc:258938}.'
 
+L['options_icons_gnome_alone'] = '{achievement:62200}'
+L['options_icons_gnome_alone_desc'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
 -------------------------------------------------------------------------------

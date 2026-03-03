@@ -95,6 +95,9 @@ L['options_icons_spiritpaw_marathon'] = '{achievement:62202}'
 L['options_icons_spiritpaw_marathon_desc'] = '显示 {achievement:62202} 成就中灵爪奔行者的位置。'
 L['spiritpaw_marathon_note'] = '和 {npc:258938} 交谈，然后抱起附近的 {npc:250100}，在30分钟内将他们带到 {location:加亚莱的神庙} 内的 {dot:Pink} 位置。\n\n ' .. ns.color.Red('不要骑乘坐骑，否则会失去该增益效果。')
 
+L['options_icons_gnome_alone'] = '{achievement:62200}'
+L['options_icons_gnome_alone_desc'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
 -------------------------------------------------------------------------------

@@ -1,5 +1,6 @@
 # v135
 
+* Add Gnome Alone achievement in Zul'Aman.
 * Localization updates
 
 # v134

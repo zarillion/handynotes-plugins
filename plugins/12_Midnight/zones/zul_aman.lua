@@ -15,6 +15,7 @@ local Treasure = ns.node.Treasure
 local FrogPrincess = ns.node.FrogPrincess
 local Songseeker = ns.node.Songseeker
 local SpiritpawMarathon = ns.node.SpiritpawMarathon
+local GnomeAlone = ns.node.GnomeAlone
 
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
@@ -533,6 +534,43 @@ map.nodes[32292240] = SpiritpawMarathon({
     }
 }) -- Speak with Feevra (Achievement seems buggy not displaying on map)
 
+---------------------------- GNOME ALONE -------------------------------
+
+map.nodes[54873241] = GnomeAlone({
+    rewards = {
+        Achievement({id = 62200, criteria = 112039}) -- Message in a Bottle,
+    }
+})
+
+map.nodes[54322060] = GnomeAlone({
+    rewards = {
+        Achievement({id = 62200, criteria = 112846}) -- Scrap of Singed Paper,
+    }
+})
+
+map.nodes[45906600] = GnomeAlone({
+    rewards = {
+        Achievement({id = 62200, criteria = 112847}) -- Discarded Scroll,
+    }
+})
+
+map.nodes[46374135] = GnomeAlone({
+    rewards = {
+        Achievement({id = 62200, criteria = 112845}) -- Hastily-Scribbed Note,
+    }
+})
+
+map.nodes[35692520] = GnomeAlone({
+    rewards = {
+        Achievement({id = 62200, criteria = 112844}) -- Moldy Diary,
+    }
+})
+
+map.nodes[34791716] = GnomeAlone({
+    rewards = {
+        Achievement({id = 62200, criteria = 112848}) -- Parting Note,
+    }
+})
 -------------------------------------------------------------------------------
 -------------------------------- SAFARI ---------------------------------------
 -------------------------------------------------------------------------------

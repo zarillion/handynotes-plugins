@@ -115,6 +115,12 @@ ns.groups.SPIRITPAW_MARATHON = Group('spiritpaw_marathon', 4891426, {
     type = ns.group_types.ACHIEVEMENT,
     achievement = 62202
 })
+
+ns.groups.GNOME_ALONE = Group('gnome_alone', 133740, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 62200
+})
 -------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------
@@ -226,8 +232,9 @@ local Songseeker = Class('Songseeker', Collectible,
     {icon = 6119037, group = ns.groups.SONG_SEEKER})
 
 ns.node.Songseeker = Songseeker
+
 -------------------------------------------------------------------------------
-------------------------- MORE THAN JUST THIER ROOTS --------------------------
+---------------------------- SPIRITPAW MARATHON -------------------------------
 -------------------------------------------------------------------------------
 
 local SpiritpawMarathon = Class('SpiritpawMarathon', ns.node.Collectible, {
@@ -236,6 +243,15 @@ local SpiritpawMarathon = Class('SpiritpawMarathon', ns.node.Collectible, {
 })
 
 ns.node.SpiritpawMarathon = SpiritpawMarathon
+
+-------------------------------------------------------------------------------
+-------------------------------- GNOME ALONE ----------------------------------
+-------------------------------------------------------------------------------
+
+local GnomeAlone = Class('GnomeAlone', ns.node.Collectible,
+    {icon = 133740, group = ns.groups.GNOME_ALONE})
+
+ns.node.GnomeAlone = GnomeAlone
 
 -------------------------------------------------------------------------------
 ------------------------------- DUST 'EM OFF ----------------------------------

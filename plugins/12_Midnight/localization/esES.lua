@@ -95,6 +95,9 @@ L['options_icons_spiritpaw_marathon'] = '{achievement:62202}'
 L['options_icons_spiritpaw_marathon_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:62202}.'
 L['spiritpaw_marathon_note'] = 'Habla con {npc:258938}, coge los {npc:250100} cercanos y llévalos a {dot:Pink} dentro del {location:Templo de Jan\'alai} en menos de 30 minutos. \n\n ' .. ns.color.Red('No montes o perderás el buff.')
 
+L['options_icons_gnome_alone'] = '{achievement:62200}'
+L['options_icons_gnome_alone_desc'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
 -------------------------------------------------------------------------------
