@@ -1,3 +1,7 @@
+# v135
+
+* Localization updates
+
 # v134
 
 * Added item drops to rares
