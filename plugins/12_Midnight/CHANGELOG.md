@@ -1,3 +1,7 @@
+# v136
+
+* Localization updates
+
 # v135
 
 * Added Gnome Alone achievement in Zul'Aman.
