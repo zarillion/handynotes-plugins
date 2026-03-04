@@ -69,7 +69,7 @@ map.nodes[51857291] = Rare({
         Achievement({id = 62122, criteria = 111841}),
         Reputation({id = 2696, gain = 50, quest = 94698}),
         Transmog({item = 264542, type = L['leather']}), -- Skullcrusher's Mantle
-        Transmog({item = 256231, type = L['2h_sword']}), -- Harak's Skullcutter
+        Transmog({item = 264631, type = L['2h_sword']}), -- Harak's Skullcutter
         Spacer(), Section(L['shared_drops']), Mount({item = 257152, id = 2760}), -- Amani Sharptalon
         Mount({item = 257200, id = 2775}) -- Witherbark Pango
     }
