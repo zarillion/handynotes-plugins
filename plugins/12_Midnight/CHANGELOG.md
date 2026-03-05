@@ -1,3 +1,7 @@
+# v138
+
+* Localization updates
+
 # v136
 
 * Removed Ruz'avalt's Prized Tackle from Zul'Aman.
