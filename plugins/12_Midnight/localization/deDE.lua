@@ -99,6 +99,7 @@ L['spiritpaw_marathon_note'] = 'Sprich mit {npc:258938}.'
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = nil
 
+L['abandoned_ritual_skull'] = 'Zurückgelassener Ritualschädel'
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
 -------------------------------------------------------------------------------

@@ -98,6 +98,8 @@ L['spiritpaw_marathon_note'] = 'Habla con {npc:258938}, coge los {npc:250100} ce
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:62200}.'
 
+L['abandoned_ritual_skull'] = 'Calavera de ritual abandonada'
+
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
 -------------------------------------------------------------------------------
