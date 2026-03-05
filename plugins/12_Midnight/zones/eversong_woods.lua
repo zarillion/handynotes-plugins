@@ -356,17 +356,17 @@ smc.nodes[37805238] = Treasure({
 -------------------------------------------------------------------------------
 smc.nodes[49117586] = PT.Alchemy({quest = 89115, id = 238536, parent = map.id}) -- Freshly Plucked Peacebloom
 smc.nodes[47755169] = PT.Alchemy({quest = 89117, id = 238538, parent = map.id}) -- Pristine Potion
-smc.nodes[53404960] = PT.Blacksmithing({
+smc.nodes[49176133] = PT.Blacksmithing({
     quest = 89183,
     id = 238546,
     parent = map.id
 }) -- Sin'dorei Master's Forgemace
-smc.nodes[56705120] = PT.Blacksmithing({
+smc.nodes[26986029] = PT.Blacksmithing({
     quest = 89177,
     id = 238540,
     parent = map.id
 }) -- Deconstructed Forge Techniques
-smc.nodes[60005340] = PT.Blacksmithing({
+smc.nodes[48547438] = PT.Blacksmithing({
     quest = 89184,
     id = 238547,
     parent = map.id

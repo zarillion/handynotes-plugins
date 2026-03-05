@@ -1,5 +1,7 @@
 # v136
 
+* Removed Ruz'avalt's Prized Tackle from Zul'Aman.
+* Fixed Blacksmithing profession treasure locations in Silvermoon.
 * Localization updates
 
 # v135

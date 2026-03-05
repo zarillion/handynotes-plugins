@@ -305,13 +305,6 @@ map.nodes[42645243] = Treasure({
     }
 }) -- Abandoned Nest
 
-map.nodes[44325620] = Treasure({
-    label = 'Ruz\'avalt\'s Prized Tackle',
-    quest = 90790,
-    rewards = {}
-}) -- Ruz'avalt's Prized Tackle
--- TODO: not interactable
-
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------
 -------------------------------------------------------------------------------
