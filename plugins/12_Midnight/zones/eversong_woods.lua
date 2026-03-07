@@ -356,6 +356,7 @@ smc.nodes[37805238] = Treasure({
 -------------------------------------------------------------------------------
 smc.nodes[49117586] = PT.Alchemy({quest = 89115, id = 238536, parent = map.id}) -- Freshly Plucked Peacebloom
 smc.nodes[47755169] = PT.Alchemy({quest = 89117, id = 238538, parent = map.id}) -- Pristine Potion
+smc.nodes[45054474] = PT.Alchemy({quest = 89111, id = 238532, parent = map.id}) -- Vial of Eversong Oddities
 smc.nodes[49176133] = PT.Blacksmithing({
     quest = 89183,
     id = 238546,
@@ -429,7 +430,7 @@ map.nodes[46363487] = PT.Tailoring({quest = 89080, id = 238614}) -- Sin'dorei Ou
 
 --[[ MOVE TO RIGHT MAP WHEN FOUND
 map.nodes[] = PT.Enchanting({quest = 89101, id = 238549}) -- Enchanted Sunfire Silk
-map.nodes[] = PT.Alchemy({quest = 89111, id = 238532}) -- Vial of Eversong Oddities
+
 map.nodes[] = PT.Inscription({quest = 89072, id = 238577}) -- Half-Baked Techniques
 map.nodes[] = PT.Herbalism({quest = 89161, id = 238469}) -- Sweeping Harvester's Scythe
 
