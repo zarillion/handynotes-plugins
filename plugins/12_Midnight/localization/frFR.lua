@@ -102,8 +102,8 @@ L['options_icons_gnome_alone_desc'] = 'Afficher les emplacements des objets lié
 L['abandoned_ritual_skull'] = 'Crâne rituel abandonné'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
-L['options_icons_put_a_pin_in_it_desc'] = nil
-L['kalika_note'] = nil
+L['options_icons_put_a_pin_in_it_desc'] = 'Affichez les emplacements liés au haut-fait {achievement:62199}.'
+L['kalika_note'] = 'Parlez à {npc:258884}, puis interagissez avec le {object:Bouton oublié} situé derrière la {object:Statue de jade} à proximité.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
