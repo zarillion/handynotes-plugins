@@ -2,6 +2,7 @@
 
 * Added Put a Pin in It achievement in Zul'Aman.
 * Updated some Glowing Moths in Harandar.
+* Localization updates
 
 # v138
 
