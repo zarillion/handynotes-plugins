@@ -356,7 +356,7 @@ map.nodes[31504451] = Treasure({
     quest = 93500,
     rewards = {
         Achievement({id = 62126, criteria = 111872}),
-        Pet({item = 266076, id = 4881})
+        Pet({item = 266076, id = 4881}) -- Nether Siphoner
     }
 }) -- Quivering Egg
 
@@ -617,11 +617,11 @@ end
 
 local STORMARION_ASSAULT = {
     ['stormarion_assault'] = {
-        Mount({item = 257180, id = 2767}), -- Contained Stormarion Defender
-        Spacer(),
         Achievement({id = 61912, criteria = {111329, 111330, 111331, 111332}}), -- Anchoring the Defense
         Achievement({id = 61913, criteria = {111335, 111334, 111333}}), -- A Singular Problem
-        Achievement({id = 61922, criteria = {111379}}) -- Ninety Percent is Good Enough
+        Achievement({id = 61922, criteria = {111379}}), -- Ninety Percent is Good Enough
+        Spacer(), Pet({item = 265030, id = 4983}), -- Kai
+        Mount({item = 257180, id = 2767}) -- Contained Stormarion Defender
     }
 }
 local STORMARION_ASSAULT_AREA_POIS = {
