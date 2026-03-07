@@ -376,6 +376,7 @@ map.nodes[56844077] = PT.Blacksmithing({quest = 89180, id = 238543}) -- Metalwor
 map.nodes[48327578] = PT.Blacksmithing({quest = 89178, id = 238541}) -- Silvermoon Smithing Kit
 map.nodes[63493260] = PT.Enchanting({quest = 89107, id = 238555}) -- Sin'dorei Enchanting Rod
 map.nodes[60755301] = PT.Enchanting({quest = 89103, id = 238551}) -- Everblazing Sunmote
+map.nodes[40196121] = PT.Enchanting({quest = 89101, id = 238549}) -- Enchanted Sunfire Silk
 smc.nodes[51307440] = PT.Engineering({
     quest = 89133,
     id = 238556,
@@ -429,7 +430,6 @@ smc.nodes[31796828] =
 map.nodes[46363487] = PT.Tailoring({quest = 89080, id = 238614}) -- Sin'dorei Outfitter's Ruler
 
 --[[ MOVE TO RIGHT MAP WHEN FOUND
-map.nodes[] = PT.Enchanting({quest = 89101, id = 238549}) -- Enchanted Sunfire Silk
 
 map.nodes[] = PT.Inscription({quest = 89072, id = 238577}) -- Half-Baked Techniques
 map.nodes[] = PT.Herbalism({quest = 89161, id = 238469}) -- Sweeping Harvester's Scythe

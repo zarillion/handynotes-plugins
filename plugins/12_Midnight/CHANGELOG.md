@@ -1,6 +1,7 @@
 # v138
 
 * Added Vial of Eversong Oddities Alchemy Profession treasure in Silvermoon.
+* Added Enchanted Sunfire Silk  Enchanting Profession treasure in Eversong Woods.
 * Added Contained Stormarion Defender mount to Stormarion Assualt rewards.
 * Removed achievement from Abandoned Ritual Skull in Zul'Aman due to no longer been part of the Treasures of Zul'Aman achievement.
 * Localization updates
