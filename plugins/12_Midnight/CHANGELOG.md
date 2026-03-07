@@ -1,3 +1,8 @@
+# V139
+
+* Added Put a Pin in It achievement in Zul'Aman.
+* Updated some Glowing Moth in Harandar.
+
 # v138
 
 * Added Vial of Eversong Oddities Alchemy profession treasure in Silvermoon.

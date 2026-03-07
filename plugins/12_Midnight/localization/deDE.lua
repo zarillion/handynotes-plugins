@@ -100,6 +100,11 @@ L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = nil
 
 L['abandoned_ritual_skull'] = 'Zurückgelassener Ritualschädel'
+
+L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
+L['options_icons_put_a_pin_in_it_desc'] = nil
+L['kalika_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
 -------------------------------------------------------------------------------

@@ -121,6 +121,12 @@ ns.groups.GNOME_ALONE = Group('gnome_alone', 133740, {
     type = ns.group_types.ACHIEVEMENT,
     achievement = 62200
 })
+
+ns.groups.PUT_A_PIN_IN_IT = Group('put_a_pin_in_it', 5206188, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 62199
+})
 -------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------
@@ -246,6 +252,15 @@ local GnomeAlone = Class('GnomeAlone', ns.node.Collectible,
     {icon = 133740, group = ns.groups.GNOME_ALONE})
 
 ns.node.GnomeAlone = GnomeAlone
+
+-------------------------------------------------------------------------------
+------------------------------ PUT A PIN IN IT --------------------------------
+-------------------------------------------------------------------------------
+
+local PutAPinInIt = Class('PutAPinInIt', ns.node.Collectible,
+    {icon = 5206188, group = ns.groups.PUT_A_PIN_IN_IT})
+
+ns.node.PutAPinInIt = PutAPinInIt
 
 -------------------------------------------------------------------------------
 ------------------------------- DUST 'EM OFF ----------------------------------

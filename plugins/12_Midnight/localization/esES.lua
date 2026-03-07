@@ -100,6 +100,10 @@ L['options_icons_gnome_alone_desc'] = 'Muestra todas las ubicaciones para el log
 
 L['abandoned_ritual_skull'] = 'Calavera de ritual abandonada'
 
+L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
+L['options_icons_put_a_pin_in_it_desc'] = nil
+L['kalika_note'] = nil
+
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
 -------------------------------------------------------------------------------

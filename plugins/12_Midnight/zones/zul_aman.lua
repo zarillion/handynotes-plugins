@@ -16,6 +16,7 @@ local FrogPrincess = ns.node.FrogPrincess
 local Songseeker = ns.node.Songseeker
 local SpiritpawMarathon = ns.node.SpiritpawMarathon
 local GnomeAlone = ns.node.GnomeAlone
+local PutAPinInIt = ns.node.PutAPinInIt
 
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
@@ -24,6 +25,8 @@ local Transmog = ns.reward.Transmog
 local Reputation = ns.reward.Reputation
 local Section = ns.reward.Section
 local Spacer = ns.reward.Spacer
+
+local Gray = ns.status.Gray
 
 local POI = ns.poi.POI
 local Path = ns.poi.Path
@@ -578,6 +581,36 @@ map.nodes[34791716] = GnomeAlone({
         Achievement({id = 62200, criteria = 112848}) -- Parting Note,
     }
 })
+
+-------------------------- PUT A PIN IN IT -----------------------------
+
+map.nodes[59247109] = PutAPinInIt({
+    label = '{npc:258933}', -- Chu'ke
+    quest = 95005,
+    rewards = {
+        Achievement({id = 62199, criteria = 112038}) -- Chu'ke found
+    },
+    rlabel = Gray('1/3')
+})
+
+map.nodes[38662378] = PutAPinInIt({
+    label = '{npc:258884}', -- Kalika
+    quest = 95045,
+    questDeps = 95005,
+    note = L['kalika_note'],
+    pois = {POI({points = 38682391})},
+    rlabel = Gray('2/3')
+})
+
+map.nodes[37809011] = PutAPinInIt({
+    quest = 95046,
+    questDeps = 95045,
+    rewards = {
+        Achievement({id = 62199, criteria = 112444}) -- Chu'ke found
+    },
+    rlabel = Gray('3/3')
+})
+
 -------------------------------------------------------------------------------
 -------------------------------- SAFARI ---------------------------------------
 -------------------------------------------------------------------------------
