@@ -103,6 +103,7 @@ L['abandoned_ritual_skull'] = 'Abandoned Ritual Skull'
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
 L['options_icons_put_a_pin_in_it_desc'] = 'Display the locations for the {achievement:62199} achievement.'
 L['kalika_note'] = 'Speak with {npc:258884}, then interact with the {object:Forgotten Button} behind the nearby {object:Jade Statue}.'
+
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
 -------------------------------------------------------------------------------
