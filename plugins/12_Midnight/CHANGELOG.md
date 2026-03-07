@@ -1,7 +1,7 @@
 # V139
 
 * Added Put a Pin in It achievement in Zul'Aman.
-* Updated some Glowing Moth in Harandar.
+* Updated some Glowing Moths in Harandar.
 
 # v138
 
