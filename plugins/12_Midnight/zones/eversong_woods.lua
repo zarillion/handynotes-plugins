@@ -398,6 +398,7 @@ smc.nodes[47655039] = PT.Inscription({
 }) -- Songwriter's Pen
 map.nodes[40356123] = PT.Inscription({quest = 89074, id = 238579}) -- Songwriter's Quill
 map.nodes[48317555] = PT.Inscription({quest = 89069, id = 238574}) -- Spare Ink
+map.nodes[39284543] = PT.Inscription({quest = 89072, id = 238577}) -- Half-Baked Techniques
 smc.nodes[55444782] = PT.Jewelcrafting({
     quest = 89127,
     id = 238585,
@@ -429,12 +430,6 @@ smc.nodes[31796828] =
     PT.Tailoring({quest = 89084, id = 238618, parent = map.id}) -- Particularly Enchanting Tablecloth
 map.nodes[46363487] = PT.Tailoring({quest = 89080, id = 238614}) -- Sin'dorei Outfitter's Ruler
 
---[[ MOVE TO RIGHT MAP WHEN FOUND
-
-map.nodes[] = PT.Inscription({quest = 89072, id = 238577}) -- Half-Baked Techniques
-map.nodes[] = PT.Herbalism({quest = 89161, id = 238469}) -- Sweeping Harvester's Scythe
-
-]] --
 -------------------------------------------------------------------------------
 ------------------------- EVERSONG WOODS GLYPH HUNTER -------------------------
 -------------------------------------------------------------------------------

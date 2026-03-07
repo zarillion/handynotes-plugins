@@ -330,6 +330,7 @@ aam.nodes[65143476] = PT.Engineering({
     parent = map.id
 }) -- Offline Helper Bot
 map.nodes[34218780] = PT.Engineering({quest = 89140, id = 238563}) -- Handy Wrench
+map.nodes[41914591] = PT.Herbalism({quest = 89161, id = 238469}) -- Sweeping Harvester's Scythe
 map.nodes[40484935] = PT.Inscription({quest = 89068, id = 238573}) -- Leather-Bound Techniques
 aam.nodes[45294561] = PT.Leatherworking({
     quest = 89092,
