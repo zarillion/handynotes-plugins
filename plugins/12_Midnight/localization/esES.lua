@@ -101,8 +101,8 @@ L['options_icons_gnome_alone_desc'] = 'Muestra todas las ubicaciones para el log
 L['abandoned_ritual_skull'] = 'Calavera de ritual abandonada'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
-L['options_icons_put_a_pin_in_it_desc'] = nil
-L['kalika_note'] = nil
+L['options_icons_put_a_pin_in_it_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:62199}.'
+L['kalika_note'] = 'Habla con {npc:258884}. Tras ello interactúa con el {object:Botón olvidado} que hay detrás de la {object:Estatua de jade} cercana.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
