@@ -1,3 +1,7 @@
+# V140
+
+* Localization updates
+
 # V139
 
 * Added Put a Pin in It achievement in Zul'Aman.
