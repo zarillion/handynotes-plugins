@@ -116,3 +116,5 @@ L['share_a_drink_note'] = 'Purchase {item:251039} from {npc:250495} in the Arcan
 
 L['sturdy_chest'] = 'Sturdy Chest'
 L['sturdy_chest_suffix'] = 'Sturdy Chest found'
+
+L['gulf_of_memory_chest_note'] = 'Walk up the roots of the tree to reach the treasure.'

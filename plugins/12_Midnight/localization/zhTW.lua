@@ -116,3 +116,5 @@ L['share_a_drink_note'] = '從亞肯提納的 {npc:250495} 購買 {item:251039} 
 
 L['sturdy_chest'] = '結實的箱子'
 L['sturdy_chest_suffix'] = '結實的箱子已發現'
+
+L['gulf_of_memory_chest_note'] = nil

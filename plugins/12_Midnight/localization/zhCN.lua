@@ -116,3 +116,5 @@ L['share_a_drink_note'] = '从奥术秘社的 {npc:250495} 处购买 {item:25103
 
 L['sturdy_chest'] = '坚固宝箱'
 L['sturdy_chest_suffix'] = '已找到坚固宝箱'
+
+L['gulf_of_memory_chest_note'] = nil

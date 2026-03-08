@@ -1,5 +1,6 @@
 # V140
 
+* Updated locations of Gulf of Memory Delve treasures.
 * Localization updates
 
 # V139

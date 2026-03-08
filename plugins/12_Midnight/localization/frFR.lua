@@ -117,3 +117,5 @@ L['share_a_drink_note'] = 'Achetez des {item:251039} auprès de {npc:250495} à 
 
 L['sturdy_chest'] = 'Coffre solide'
 L['sturdy_chest_suffix'] = 'Coffre solide trouvé'
+
+L['gulf_of_memory_chest_note'] = nil

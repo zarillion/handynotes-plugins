@@ -117,3 +117,5 @@ L['share_a_drink_note'] = 'Kaufe {item:251039} von {npc:250495} in der Arcantina
 
 L['sturdy_chest'] = 'Robuste Truhe'
 L['sturdy_chest_suffix'] = 'robuste Truhen geöffnet'
+
+L['gulf_of_memory_chest_note'] = nil

@@ -116,3 +116,5 @@ L['share_a_drink_note'] = 'Compra una {item:251039} al {npc:250495} en la Arcant
 
 L['sturdy_chest'] = 'Cofre robusto'
 L['sturdy_chest_suffix'] = 'Cofre robusto encontrado'
+
+L['gulf_of_memory_chest_note'] = nil
