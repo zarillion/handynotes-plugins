@@ -101,8 +101,8 @@ L['options_icons_gnome_alone_desc'] = 'Отобразить местополож
 L['abandoned_ritual_skull'] = 'Брошенный ритуальный череп'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
-L['options_icons_put_a_pin_in_it_desc'] = nil
-L['kalika_note'] = nil
+L['options_icons_put_a_pin_in_it_desc'] = 'Отобразить местоположения достижения {achievement:62199}.'
+L['kalika_note'] = 'Поговорите с {npc:258884}, затем взаимодействуйте с {object:Забытой пуговицой}, расположенной за находящейся неподалеку {object:Нефритовой статуей}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
