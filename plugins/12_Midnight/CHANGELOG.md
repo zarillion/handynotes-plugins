@@ -1,5 +1,6 @@
 # V140
 
+* Fixed location of Voidstorm Defense Spear Blacksmithing profession treasure.
 * Updated locations of Gulf of Memory Delve treasures.
 * Localization updates
 
