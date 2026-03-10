@@ -286,6 +286,24 @@ map.nodes[28847023] = RareElite({
     }
 }) -- The Many-Broken
 
+map.nodes[28206600] = RareElite({
+    id = 248700,
+    quest = 94462,
+    rewards = {
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    }
+}) -- Abysslick
+
+map.nodes[24806780] = RareElite({
+    id = 248823,
+    quest = 94463,
+    rewards = {
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    }
+}) -- Blackcore
+
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
