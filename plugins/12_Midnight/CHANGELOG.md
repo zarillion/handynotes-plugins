@@ -1,3 +1,7 @@
+# V141
+
+* Localization updates
+
 # V140
 
 * Fixed location of Voidstorm Defense Spear Blacksmithing profession treasure.
