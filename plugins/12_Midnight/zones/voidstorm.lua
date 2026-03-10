@@ -241,23 +241,50 @@ map.nodes[48815326] = Rare({
 -- Hardin Steellock @map 2444 28.35 57.11, Horde only?
 -- Gar'chak Skullcleave @map 2444 69.68 77.30, Alliance only?
 
--- map.nodes[30336652] = Rare({
---     id = 248791,
---     quest = 94459,
---     rewards = {},
---     pois = {ns.poi.Line({30006658, 30336652, 3067661})}
--- }) -- Voidseer Orivane
+local RareElite = ns.Class('RareElite', Rare,
+    {icon = 'star_skull_b', scale = 1.6})
 
--- map.nodes[30186940] = Rare({
---     id = 248791,
---     quest = 94459,
---     rewards = {},
---     pois = {ns.poi.Line({29906904, 30186940, 30516971})}
--- }) -- Voidseer Orivane
+ns.node.RareElite = RareElite
 
--- map.nodes[29796787] = Rare({id = 248068, quest = 94460, rewards = {}}) -- Nullspiral
+map.nodes[30336652] = RareElite({
+    id = 248791,
+    fgroup = 'voidseer_orivane',
+    quest = 94459,
+    rewards = {
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    },
+    pois = {ns.poi.Line({30006658, 30336652, 3067661})}
+}) -- Voidseer Orivane
 
--- map.nodes[28847023] = Rare({id = 248459, quest = 94458, rewards = {}}) -- The Many-Broken
+map.nodes[30186937] = RareElite({
+    id = 248791,
+    fgroup = 'voidseer_orivane',
+    quest = 94459,
+    rewards = {
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    },
+    pois = {ns.poi.Line({30416974, 30266966, 30186937, 29896900})}
+}) -- Voidseer Orivane
+
+map.nodes[29796787] = RareElite({
+    id = 248068,
+    quest = 94460,
+    rewards = {
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    }
+}) -- Nullspiral
+
+map.nodes[28847023] = RareElite({
+    id = 248459,
+    quest = 94458,
+    rewards = {
+        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    }
+}) -- The Many-Broken
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------
