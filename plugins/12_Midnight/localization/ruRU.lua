@@ -117,4 +117,4 @@ L['share_a_drink_note'] = 'Приобретите {item:251039} у {npc:250495} 
 L['sturdy_chest'] = 'Прочный сундук'
 L['sturdy_chest_suffix'] = 'Найден прочный сундук'
 
-L['gulf_of_memory_chest_note'] = nil
+L['gulf_of_memory_chest_note'] = 'Чтобы добраться до сокровища, нужно подняться по корням дерева.'
