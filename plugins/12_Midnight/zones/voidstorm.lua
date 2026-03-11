@@ -158,19 +158,6 @@ slr.nodes[40888899] = Rare({ -- wowhead beta coords
     parent = map.id
 }) -- Eruundi
 
-map.nodes[53946272] = Rare({
-    id = 256821,
-    quest = 93896, -- 94755
-    rewards = {
-        Achievement({id = 62130, criteria = 111890}),
-        Reputation({id = 2699, gain = 50, quest = 94755}),
-        Transmog({item = 264913, type = L['1h_sword']}), -- Focused Netherslicer
-        Transmog({item = 264912, type = L['staff']}), -- Void-Channeler's Spire
-        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
-        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
-    }
-}) -- Far'thana the Mad
-
 map.nodes[37897177] = Rare({
     id = 256925,
     quest = 93947, -- 94758
@@ -225,7 +212,28 @@ slr.nodes[46334094] = Rare({
     parent = map.id
 }) -- Rakshur the Bonegrinder
 
-map.nodes[48815326] = Rare({
+local RareElite = ns.Class('RareElite', Rare, {
+    rlabel = '(' .. ns.color.Gray(L['elite']) .. ')',
+    icon = 'star_skull_b',
+    scale = 1.6
+})
+
+ns.node.RareElite = RareElite
+
+map.nodes[53946272] = RareElite({
+    id = 256821,
+    quest = 93896, -- 94755
+    rewards = {
+        Achievement({id = 62130, criteria = 111890}),
+        Reputation({id = 2699, gain = 50, quest = 94755}),
+        Transmog({item = 264913, type = L['1h_sword']}), -- Focused Netherslicer
+        Transmog({item = 264912, type = L['staff']}), -- Void-Channeler's Spire
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    }
+}) -- Far'thana the Mad
+
+map.nodes[48815326] = RareElite({
     id = 256808,
     quest = 93895, -- 94763
     rewards = {
@@ -241,37 +249,28 @@ map.nodes[48815326] = Rare({
 -- Hardin Steellock @map 2444 28.35 57.11, Horde only?
 -- Gar'chak Skullcleave @map 2444 69.68 77.30, Alliance only?
 
-local RareElite = ns.Class('RareElite', Rare,
-    {icon = 'star_skull_b', scale = 1.6})
-
-ns.node.RareElite = RareElite
-
 map.nodes[30336652] = RareElite({
     id = 248791,
     fgroup = 'voidseer_orivane',
     quest = 94459,
     rewards = {
+        Transmog({item = 264556, type = L['mail']}), -- Voidforged Cinch
+        Transmog({item = 264628, type = L['polearm']}), -- Spear of Nothingness
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     },
-    pois = {ns.poi.Line({30006658, 30336652, 3067661})}
-}) -- Voidseer Orivane
-
-map.nodes[30186937] = RareElite({
-    id = 248791,
-    fgroup = 'voidseer_orivane',
-    quest = 94459,
-    rewards = {
-        Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
-        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
-    },
-    pois = {ns.poi.Line({30416974, 30266966, 30186937, 29896900})}
+    pois = {
+        ns.poi.Line({30006658, 30336652, 3067661}),
+        ns.poi.Line({30416974, 30266966, 30186937, 29896900})
+    }
 }) -- Voidseer Orivane
 
 map.nodes[29796787] = RareElite({
     id = 248068,
     quest = 94460,
     rewards = {
+        Transmog({item = 264531, type = L['cloth']}), -- Shadowthread Slippers
+        Transmog({item = 264588, type = L['cloak']}), -- Shawl of Cosmic Whispers
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
@@ -281,6 +280,8 @@ map.nodes[28847023] = RareElite({
     id = 248459,
     quest = 94458,
     rewards = {
+        Transmog({item = 264577, type = L['plate']}), -- Crystalforged Boots
+        Transmog({item = 264651, type = L['1h_mace']}), -- Resonating Traumatizer
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
@@ -290,6 +291,8 @@ map.nodes[28206600] = RareElite({
     id = 248700,
     quest = 94462,
     rewards = {
+        Transmog({item = 264596, type = L['cloak']}), -- Voidthread Veil
+        Transmog({item = 264634, type = L['staff']}), -- Spire of Flowing Void
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }
@@ -299,6 +302,7 @@ map.nodes[24806780] = RareElite({
     id = 248823,
     quest = 94463,
     rewards = {
+        Transmog({item = 264519, type = L['shield']}), -- Repurposed Voidwalker's Chestplate
         Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
         Mount({item = 260635, id = 2827}) -- Sanguine Harrower
     }

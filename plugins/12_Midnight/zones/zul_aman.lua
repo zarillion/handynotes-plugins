@@ -210,7 +210,15 @@ map.nodes[47682056] = Rare({
     }
 }) -- Depthborn Eelamental
 
-map.nodes[46394339] = Rare({
+local RareElite = ns.Class('RareElite', Rare, {
+    rlabel = '(' .. ns.color.Gray(L['elite']) .. ')',
+    icon = 'star_skull_b',
+    scale = 1.6
+})
+
+ns.node.RareElite = RareElite
+
+map.nodes[46394339] = RareElite({
     id = 245691,
     quest = 91072, -- 94709
     rewards = {
@@ -223,7 +231,7 @@ map.nodes[46394339] = Rare({
     }
 }) -- The Decaying Diamondback
 
-map.nodes[45294170] = Rare({
+map.nodes[45294170] = RareElite({
     id = 245692,
     quest = 91073, -- 94710
     rewards = {

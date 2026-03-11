@@ -121,19 +121,6 @@ map.nodes[64574794] = Rare({
     }
 }) -- Chlorokyll
 
-map.nodes[65553269] = Rare({
-    id = 250086,
-    quest = 92168, -- 94718
-    rewards = {
-        Achievement({id = 61264, criteria = 109045}),
-        Reputation({id = 2704, gain = 50, quest = 94718}),
-        Transmog({item = 264578, type = L['plate']}), -- Stumpy's Terrorplate
-        Transmog({item = 264635, type = L['staff']}), -- Stumpy's Stump
-        Spacer(), Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
-        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
-    }
-}) -- Stumpy
-
 map.nodes[56383299] = Rare({
     id = 250180,
     quest = 92170, -- 94719
@@ -187,19 +174,6 @@ map.nodes[36597516] = Rare({
     }
 }) -- Treetop
 
-map.nodes[28118181] = Rare({
-    id = 250317,
-    quest = 92190, -- 94723
-    rewards = {
-        Achievement({id = 61264, criteria = 109050}),
-        Reputation({id = 2704, gain = 50, quest = 94723}),
-        Transmog({item = 264591, type = L['cloak']}), -- Radiant Petalwing's Feather
-        Transmog({item = 264616, type = L['1h_sword']}), -- Lightblighted Sapdrinker
-        Spacer(), Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
-        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
-    }
-}) -- Oro'ohna
-
 map.nodes[27277032] = Rare({
     id = 250321,
     location = L['in_cave'],
@@ -227,7 +201,41 @@ map.nodes[39696070] = Rare({
     }
 }) -- Ahl'ua'huhi
 
-map.nodes[44201658] = Rare({
+local RareElite = ns.Class('RareElite', Rare, {
+    rlabel = '(' .. ns.color.Gray(L['elite']) .. ')',
+    icon = 'star_skull_b',
+    scale = 1.6
+})
+
+ns.node.RareElite = RareElite
+
+map.nodes[65553269] = RareElite({
+    id = 250086,
+    quest = 92168, -- 94718
+    rewards = {
+        Achievement({id = 61264, criteria = 109045}),
+        Reputation({id = 2704, gain = 50, quest = 94718}),
+        Transmog({item = 264578, type = L['plate']}), -- Stumpy's Terrorplate
+        Transmog({item = 264635, type = L['staff']}), -- Stumpy's Stump
+        Spacer(), Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
+    }
+}) -- Stumpy
+
+map.nodes[28118181] = RareElite({
+    id = 250317,
+    quest = 92190, -- 94723
+    rewards = {
+        Achievement({id = 61264, criteria = 109050}),
+        Reputation({id = 2704, gain = 50, quest = 94723}),
+        Transmog({item = 264591, type = L['cloak']}), -- Radiant Petalwing's Feather
+        Transmog({item = 264616, type = L['1h_sword']}), -- Lightblighted Sapdrinker
+        Spacer(), Section(L['shared_drops']), Mount({item = 246735, id = 2615}), -- Rootstalker Grimlynx
+        Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
+    }
+}) -- Oro'ohna
+
+map.nodes[44201658] = RareElite({
     id = 250358,
     quest = 92194, -- 94726
     rewards = {
