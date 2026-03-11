@@ -1,15 +1,15 @@
-# V141
+# v141
 
 * Added Stormarion assualt rares in Voidstorm.
 * Localization updates
 
-# V140
+# v140
 
 * Fixed location of Voidstorm Defense Spear Blacksmithing profession treasure.
 * Updated locations of Gulf of Memory Delve treasures.
 * Localization updates
 
-# V139
+# v139
 
 * Added Put a Pin in It achievement in Zul'Aman.
 * Updated some Glowing Moths in Harandar.
