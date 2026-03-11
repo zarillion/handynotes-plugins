@@ -77,13 +77,13 @@ L['altar_of_wisdom_note'] = 'Devuelve la {item:257054} al {npc:254116} después 
 ---------------------------------- VOIDSTORM ----------------------------------
 -------------------------------------------------------------------------------
 
-L['void_shielded_tomb_note'] = nil
+L['void_shielded_tomb_note'] = 'Bebe la {object:Poción de disociación} de la mesa cercana y corre al edificio opuesto para coger la {item:251519}. Úsala para abrir el cofre. \n\n' .. ns.color.Red('Requiere nivel 90')
 L['bloody_sack_note'] = 'Coge la {object:Carne goteando} de un montón de huesos cercanos para alimentar la {object:Mazmorra olvidada}.'
 L['malignant_chest_note'] = 'Activa los {object:Nodos malignos} de la cueva para desbloquear el cofre.'
 L['malignant_node'] = 'Nodos malignos'
-L['exaliburn_note'] = nil
+L['exaliburn_note'] = 'Bebe la {object:Poción de fuerza incuestionable} cercana y saca a Exaliburn.'
 L['voidhoarders_corpse'] = 'Cadáver de acaparador del Vacío'
-L['blackcore_note'] = nil
+L['blackcore_note'] = 'Mata {npc:248462} o {npc:248483} en el área marcada para conseguir 3x {item:248680} e interactúa con las {object:Lentes de singularidad} para invocar al raro.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ZUL'AMAN ----------------------------------
@@ -97,7 +97,7 @@ L['options_icons_song_seeker_desc'] = 'Muestra dónde están los buscacantos Som
 
 L['options_icons_spiritpaw_marathon'] = '{achievement:62202}'
 L['options_icons_spiritpaw_marathon_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:62202}.'
-L['spiritpaw_marathon_note'] = 'Habla con {npc:258938}, coge los {npc:250100} cercanos y llévalos a {dot:Pink} dentro del {location:Templo de Jan\'alai} en menos de 30 minutos. \n\n ' .. ns.color.Red('No montes o perderás el buff.')
+L['spiritpaw_marathon_note'] = 'Habla con {npc:258938}, coge los {npc:250100} cercanos y llévalos a {dot:Pink} dentro del {location:Templo de Jan\'alai} en menos de 30 minutos. \n\n' .. ns.color.Red('No montes o perderás el buff.')
 
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:62200}.'
@@ -107,7 +107,7 @@ L['abandoned_ritual_skull'] = 'Calavera de ritual abandonada'
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
 L['options_icons_put_a_pin_in_it_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:62199}.'
 L['kalika_note'] = 'Habla con {npc:258884}. Tras ello interactúa con el {object:Botón olvidado} que hay detrás de la {object:Estatua de jade} cercana.'
-L['songseeker_ikaja_note'] = nil
+L['songseeker_ikaja_note'] = 'Encima del templo.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
