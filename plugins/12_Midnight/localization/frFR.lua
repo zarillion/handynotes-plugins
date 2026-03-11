@@ -78,13 +78,13 @@ L['altar_of_wisdom_note'] = 'Rendez l\'{item:257054} à l\'{npc:254116} après a
 ---------------------------------- VOIDSTORM ----------------------------------
 -------------------------------------------------------------------------------
 
-L['void_shielded_tomb_note'] = nil
+L['void_shielded_tomb_note'] = 'Buvez la {object:Potion de dissociation} posée sur la table à proximité, puis courez vers le bâtiment d\'en face, récupérez la {item:251519} et utilisez-la pour déverrouiller le coffre. \n\n' .. ns.color.Red('Niveau 90 requis')
 L['bloody_sack_note'] = 'Ramassez de la {object:Viande dégoulinante} sur les tas d\'os à proximité pour nourrir l\'{object:Oubliette oubliée}.'
 L['malignant_chest_note'] = 'Activez les {object:Nœuds malveillants} dans la grotte pour déverrouiller le coffre.'
 L['malignant_node'] = 'Nœud malveillant'
-L['exaliburn_note'] = nil
+L['exaliburn_note'] = 'Buvez la {object:Potion de force incontestable} située à proximité, puis retirez Excalibrûle.'
 L['voidhoarders_corpse'] = 'Cadavre d’amasseur du Vide'
-L['blackcore_note'] = nil
+L['blackcore_note'] = 'Tuez {npc:248462} ou des {npc:248483} dans la zone indiquée jusqu\'à obtenir 3x {item:248680}, puis interagissez avec les {object:Lentilles de singularité} pour invoquer le rare.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ZUL'AMAN ----------------------------------
@@ -98,7 +98,7 @@ L['options_icons_song_seeker_desc'] = 'Afficher les emplacements des Cherche-Cha
 
 L['options_icons_spiritpaw_marathon'] = '{achievement:62202}'
 L['options_icons_spiritpaw_marathon_desc'] = 'Afficher les emplacements liés au haut-fait {achievement:62202}.'
-L['spiritpaw_marathon_note'] = 'Parlez avec {npc:258938}, puis récupérez les {npc:250100} à proximité et emmenez-les au point {dot:Pink} situé au {location:Temple de Jan’alai} dans un délai de 30 minutes. \n\n ' .. ns.color.Red('Ne chevauchez pas une monture, sous peine de perdre le buff.')
+L['spiritpaw_marathon_note'] = 'Parlez avec {npc:258938}, puis récupérez les {npc:250100} à proximité et emmenez-les au point {dot:Pink} situé au {location:Temple de Jan’alai} dans un délai de 30 minutes. \n\n' .. ns.color.Red('Ne chevauchez pas une monture, sous peine de perdre le buff.')
 
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = 'Afficher les emplacements des objets liés au haut-fait {achievement:62200}.'
@@ -108,7 +108,7 @@ L['abandoned_ritual_skull'] = 'Crâne rituel abandonné'
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
 L['options_icons_put_a_pin_in_it_desc'] = 'Affichez les emplacements liés au haut-fait {achievement:62199}.'
 L['kalika_note'] = 'Parlez à {npc:258884}, puis interagissez avec le {object:Bouton oublié} situé derrière la {object:Statue de jade} à proximité.'
-L['songseeker_ikaja_note'] = nil
+L['songseeker_ikaja_note'] = 'Au sommet du temple.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
