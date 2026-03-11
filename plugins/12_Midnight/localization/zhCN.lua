@@ -77,7 +77,7 @@ L['altar_of_wisdom_note'] = '与 {object:睿智祭坛} 互动后，将 {item:257
 ---------------------------------- VOIDSTORM ----------------------------------
 -------------------------------------------------------------------------------
 
-L['void_shielded_tomb_note'] = '饮用旁边桌子上的 {object:解离药水}，然后跑到对面的建筑，拾取 {item:251519} 后用它解锁宝箱。\n\n'.. ns.color.Red('需要90级')
+L['void_shielded_tomb_note'] = '饮用旁边桌子上的 {object:解离药水}，然后跑到对面的建筑，拾取 {item:251519} 后用它解锁宝箱。\n\n' .. ns.color.Red('需要90级')
 L['bloody_sack_note'] = '从附近的骨堆中收集 {object:滴水的肉}，以喂养 {object:被遗忘的密牢}。'
 L['malignant_chest_note'] = '激活洞穴中的 {object:怨毒节点} 以解锁宝箱。'
 L['malignant_node'] = '怨毒节点'
