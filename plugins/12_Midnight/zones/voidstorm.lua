@@ -249,7 +249,8 @@ map.nodes[48815326] = RareElite({
 slr.nodes[69687730] = RareElite({
     id = 257231,
     quest = 94461,
-    faction = 'alliance',
+    parent = map.id,
+    faction = 'Alliance',
     rewards = {
         Transmog({item = 264641, type = L['1h_axe']}), -- Sharpened Skullcleaver
         Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
@@ -260,7 +261,8 @@ slr.nodes[69687730] = RareElite({
 slr.nodes[28355711] = RareElite({
     id = 257199,
     quest = 94461,
-    faction = 'horde',
+    parent = map.id,
+    faction = 'Horde',
     rewards = {
         Transmog({item = 264615, type = L['1h_sword']}), -- Hardin's Backup Blade
         Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
