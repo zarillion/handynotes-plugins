@@ -77,9 +77,13 @@ L['altar_of_wisdom_note'] = '與 {object:智慧祭壇} 互動後，將 {item:257
 ---------------------------------- VOIDSTORM ----------------------------------
 -------------------------------------------------------------------------------
 
+L['void_shielded_tomb_note'] = nil
 L['bloody_sack_note'] = '從附近的骨堆收集 {object:滴水的肉} 以餵食 {npc:254756}。'
 L['malignant_chest_note'] = '啟動洞穴中的 {object:惡意節點} 以解鎖寶箱。'
 L['malignant_node'] = '惡意節點'
+L['exaliburn_note'] = nil
+L['voidhoarders_corpse'] = '虛無囤積者的屍體'
+L['blackcore_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- ZUL'AMAN ----------------------------------
@@ -103,6 +107,7 @@ L['abandoned_ritual_skull'] = '被遺棄的儀式顱骨'
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
 L['options_icons_put_a_pin_in_it_desc'] = nil
 L['kalika_note'] = nil
+L['songseeker_ikaja_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- 亞肯提納 ----------------------------------

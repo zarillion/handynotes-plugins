@@ -78,9 +78,13 @@ L['altar_of_wisdom_note'] = nil
 ---------------------------------- VOIDSTORM ----------------------------------
 -------------------------------------------------------------------------------
 
+L['void_shielded_tomb_note'] = nil
 L['bloody_sack_note'] = 'Interagiere mit der {object:Vergessenen Oubliette} und sammle dann {object:Triefendes Fleisch} von nahegelegenen Knochenhaufen, um die {object:Vergessene Oubliette} zu füttern.'
 L['malignant_chest_note'] = 'Aktiviere die {object:Heimtückischer Knoten} in der Höhle, um die Truhe zu öffnen.'
 L['malignant_node'] = 'Heimtückischer Knoten'
+L['exaliburn_note'] = nil
+L['voidhoarders_corpse'] = 'Leiche des Leerenhorters'
+L['blackcore_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- ZUL'AMAN ----------------------------------
@@ -104,6 +108,7 @@ L['abandoned_ritual_skull'] = 'Zurückgelassener Ritualschädel'
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
 L['options_icons_put_a_pin_in_it_desc'] = nil
 L['kalika_note'] = nil
+L['songseeker_ikaja_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------

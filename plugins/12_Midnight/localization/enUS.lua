@@ -77,9 +77,13 @@ L['altar_of_wisdom_note'] = 'Return {item:257054} to the {npc:254116} after Inte
 ---------------------------------- VOIDSTORM ----------------------------------
 -------------------------------------------------------------------------------
 
+L['void_shielded_tomb_note'] = 'Drink the {object:Potion of Dissociation} on the nearby table, then run to the opposite building, pick up {item:251519} and use it to unlock the chest. \n\n' .. ns.color.Red('Requires level 90')
 L['bloody_sack_note'] = 'Collect {object:Dripping Meat} from nearby bone piles to feed the {object:Forgotten Oubliette}.'
 L['malignant_chest_note'] = 'Activate the {object:Malignant Nodes} in the cave to unlock the chest.'
 L['malignant_node'] = 'Malignant Node'
+L['exaliburn_note'] = 'Drink the nearby {object:Potion of Unquestionable Strength}, then pull out the Exaliburn.'
+L['voidhoarders_corpse'] = 'Voidhoarder\'s Corpse'
+L['blackcore_note'] = 'Kill {npc:248462} or {npc:248483} within the marked area to obtain 3x {item:248680}, then interact with the {object:Singularity Lens} to summon the rare.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ZUL'AMAN ----------------------------------
@@ -93,7 +97,7 @@ L['options_icons_song_seeker_desc'] = 'Display the locations of the Song Seekers
 
 L['options_icons_spiritpaw_marathon'] = '{achievement:62202}'
 L['options_icons_spiritpaw_marathon_desc'] = 'Display the locations for the {achievement:62202} achievement.'
-L['spiritpaw_marathon_note'] = 'Speak with {npc:258938}, then pick up the nearby {npc:250100} and take them to the {dot:Pink} within the {location:Temple of Jan\'alai} within 30 minutes. \n\n ' .. ns.color.Red('Do not mount up or you will lose the buff.')
+L['spiritpaw_marathon_note'] = 'Speak with {npc:258938}, then pick up the nearby {npc:250100} and take them to the {dot:Pink} within the {location:Temple of Jan\'alai} within 30 minutes. \n\n' .. ns.color.Red('Do not mount up or you will lose the buff.')
 
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = 'Display the locations for the {achievement:62200} achievement.'
@@ -103,6 +107,7 @@ L['abandoned_ritual_skull'] = 'Abandoned Ritual Skull'
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
 L['options_icons_put_a_pin_in_it_desc'] = 'Display the locations for the {achievement:62199} achievement.'
 L['kalika_note'] = 'Speak with {npc:258884}, then interact with the {object:Forgotten Button} behind the nearby {object:Jade Statue}.'
+L['songseeker_ikaja_note'] = 'On top of the Temple.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------

@@ -77,9 +77,13 @@ L['altar_of_wisdom_note'] = 'Devuelve la {item:257054} al {npc:254116} después 
 ---------------------------------- VOIDSTORM ----------------------------------
 -------------------------------------------------------------------------------
 
+L['void_shielded_tomb_note'] = nil
 L['bloody_sack_note'] = 'Coge la {object:Carne goteando} de un montón de huesos cercanos para alimentar la {object:Mazmorra olvidada}.'
 L['malignant_chest_note'] = 'Activa los {object:Nodos malignos} de la cueva para desbloquear el cofre.'
 L['malignant_node'] = 'Nodos malignos'
+L['exaliburn_note'] = nil
+L['voidhoarders_corpse'] = 'Cadáver de acaparador del Vacío'
+L['blackcore_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- ZUL'AMAN ----------------------------------
@@ -103,6 +107,7 @@ L['abandoned_ritual_skull'] = 'Calavera de ritual abandonada'
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
 L['options_icons_put_a_pin_in_it_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:62199}.'
 L['kalika_note'] = 'Habla con {npc:258884}. Tras ello interactúa con el {object:Botón olvidado} que hay detrás de la {object:Estatua de jade} cercana.'
+L['songseeker_ikaja_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------

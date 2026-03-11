@@ -535,7 +535,7 @@ map.nodes[39175638] = Songseeker({
 }) -- Songseeker Dova
 
 map.nodes[55201810] = Songseeker({
-    location = 'On top of the Temple.', -- TODO: add localization line
+    location = L['songseeker_ikaja_note'],
     rewards = {Achievement({id = 61455, criteria = 109753})}
 }) -- Songseeker Ikaja
 

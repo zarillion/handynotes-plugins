@@ -78,9 +78,13 @@ L['altar_of_wisdom_note'] = 'Rendez l\'{item:257054} à l\'{npc:254116} après a
 ---------------------------------- VOIDSTORM ----------------------------------
 -------------------------------------------------------------------------------
 
+L['void_shielded_tomb_note'] = nil
 L['bloody_sack_note'] = 'Ramassez de la {object:Viande dégoulinante} sur les tas d\'os à proximité pour nourrir l\'{object:Oubliette oubliée}.'
 L['malignant_chest_note'] = 'Activez les {object:Nœuds malveillants} dans la grotte pour déverrouiller le coffre.'
 L['malignant_node'] = 'Nœud malveillant'
+L['exaliburn_note'] = nil
+L['voidhoarders_corpse'] = 'Cadavre d’amasseur du Vide'
+L['blackcore_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- ZUL'AMAN ----------------------------------
@@ -104,6 +108,7 @@ L['abandoned_ritual_skull'] = 'Crâne rituel abandonné'
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
 L['options_icons_put_a_pin_in_it_desc'] = 'Affichez les emplacements liés au haut-fait {achievement:62199}.'
 L['kalika_note'] = 'Parlez à {npc:258884}, puis interagissez avec le {object:Bouton oublié} situé derrière la {object:Statue de jade} à proximité.'
+L['songseeker_ikaja_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
