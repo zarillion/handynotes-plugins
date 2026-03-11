@@ -246,8 +246,27 @@ map.nodes[48815326] = RareElite({
     }
 }) -- Ravengerus
 
--- Hardin Steellock @map 2444 28.35 57.11, Horde only?
--- Gar'chak Skullcleave @map 2444 69.68 77.30, Alliance only?
+slr.nodes[69687730] = RareElite({
+    id = 257231,
+    quest = 94461,
+    faction = 'alliance',
+    rewards = {
+        Transmog({item = 264641, type = L['1h_axe']}), -- Sharpened Skullcleaver
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    }
+}) -- Gar'chak Skullcleave
+
+slr.nodes[28355711] = RareElite({
+    id = 257199,
+    quest = 94461,
+    faction = 'horde',
+    rewards = {
+        Transmog({item = 264615, type = L['1h_sword']}), -- Hardin's Backup Blade
+        Spacer(), Section(L['shared_drops']), Mount({item = 257085, id = 2751}), -- Augmented Stormray
+        Mount({item = 260635, id = 2827}) -- Sanguine Harrower
+    }
+}) -- Hardin Steellock
 
 map.nodes[30336652] = RareElite({
     id = 248791,
