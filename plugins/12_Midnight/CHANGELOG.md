@@ -1,3 +1,7 @@
+# v142
+
+* Localization updates
+
 # v141
 
 * Added Stormarion assualt rares in Voidstorm.
