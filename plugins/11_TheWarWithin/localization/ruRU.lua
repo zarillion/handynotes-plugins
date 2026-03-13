@@ -684,12 +684,12 @@ L['heka_tamos_note'] = 'Получите баффы от следующих об
 
 L['translocated_gorger_note'] = 'Собирайте по 1 {item:246240} на босса в неделю на отряд с редкого монстра во время {object:Нападение пожирателей} и объединяйте их, чтобы создать средство передвижения.'
 
-L['zo_turu_note_start'] = nil
-L['zo_turu_note_end'] = nil
-L['cartel_ba_dead_drop_label'] = nil
-L['cartel_ba_dead_drop_location'] = nil
-L['cartel_om_dead_drop_label'] = nil
-L['cartel_om_dead_drop_location'] = nil
-L['cartel_zo_dead_drop_label'] = nil
-L['cartel_zo_dead_drop_location'] = nil
-L['cartel_dead_drop_warning'] = nil
+L['zo_turu_note_start'] = 'Примкните к одному из трех картелей и найдите кодограммы, расположенные в {location:Манагорне Омега}.\n\n{item:249702}\n{item:249704}\n{item:249700}\n\n{note:Для каждой кодограммы требуется определенный картель.}'
+L['zo_turu_note_end'] = '\n\nКак только все предметы будут собраны, посетите {npc:245344}, чтобы завершить {quest:92082}.'
+L['cartel_ba_dead_drop_label'] = 'Кодограмма картеля Ба'
+L['cartel_ba_dead_drop_location'] = 'Сразу за {npc:233814} на правой тропе перед использованием {spell:1232528}, чтобы пересечь расщелину.'
+L['cartel_om_dead_drop_label'] = 'Кодограмма картеля Ом'
+L['cartel_om_dead_drop_location'] = 'На вершине скалы за зданием после {npc:237861}.'
+L['cartel_zo_dead_drop_label'] = 'Кодограмма картеля Зо'
+L['cartel_zo_dead_drop_location'] = 'Вдоль трубы, ведущей к первой мана-вентиляции перед {npc:247989}.'
+L['cartel_dead_drop_warning'] = '{note:Эта кодограмма недоступна, если {npc:247989} уже побежден в этом рейде.}'
