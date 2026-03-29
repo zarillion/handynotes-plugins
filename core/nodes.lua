@@ -474,7 +474,8 @@ end
 function Item:Render(tooltip, focusable)
     Node.Render(self, tooltip, focusable)
     GameTooltip_AddBlankLineToTooltip(tooltip)
-    EmbeddedItemTooltip_SetItemByID(tooltip.ItemTooltip, self.id)
+    -- EmbeddedItemTooltip_SetItemByID(tooltip.ItemTooltip, self.id)
+    tooltip:SetItemByID(self.id)
 end
 
 function Item.getters:label() return ('{item:%d}'):format(self.id) end
