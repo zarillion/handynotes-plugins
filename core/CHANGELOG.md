@@ -1,6 +1,10 @@
+# v143
+
+* Updated tooltip item function to avoid potential taint issue.
+
 # v137
 
-Updated primary TOC interface version to 12.0.1
+* Updated primary TOC interface version to 12.0.1
 
 # v132
 
