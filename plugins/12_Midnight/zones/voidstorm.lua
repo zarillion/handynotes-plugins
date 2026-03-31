@@ -605,7 +605,7 @@ slr.nodes[53745167] = PT.Leatherworking({
     id = 238592,
     parent = map.id
 }) -- Patterns: Beyond the Void
-map.nodes[41843821] = PT.Mining({quest = 89150, id = 238602}) -- Star Metal Deposit
+slr.nodes[34237605] = PT.Mining({quest = 89150, id = 238602, parent = map.id}) -- Star Metal Deposit
 slr.nodes[28733856] = PT.Mining({quest = 89148, id = 238600, parent = map.id}) -- Glimmering Void Pearl
 slr.nodes[54245159] = PT.Mining({quest = 89146, id = 238598, parent = map.id}) -- Lost Voidstorm Satchel
 slr.nodes[30486907] = PT.Mining({quest = 89144, id = 238596, parent = map.id}) -- Miner's Guide to Voidstorm
