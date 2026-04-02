@@ -8,6 +8,7 @@ local Class = ns.Class
 local Group = ns.Group
 
 local Collectible = ns.node.Collectible
+local Rare = ns.node.Rare
 
 local Achievement = ns.reward.Achievement
 local Reputation = ns.reward.Reputation
@@ -281,6 +282,18 @@ function Moth.getters:requires()
 end
 
 ns.node.Moth = Moth
+
+-------------------------------------------------------------------------------
+------------------------------- RARE ELITE ------------------------------------
+-------------------------------------------------------------------------------
+
+local RareElite = Class('RareElite', Rare, {
+    rlabel = '(' .. ns.color.Gray(L['elite']) .. ')',
+    icon = 'star_skull_b',
+    scale = 1.8
+})
+
+ns.node.RareElite = RareElite
 
 -------------------------------------------------------------------------------
 ------------------------------- MIDNIGHT SAFARI -------------------------------

@@ -9,6 +9,7 @@ local Map = ns.Map
 local LoreObject = ns.node.LoreObject
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
@@ -211,14 +212,6 @@ slr.nodes[46334094] = Rare({
     },
     parent = map.id
 }) -- Rakshur the Bonegrinder
-
-local RareElite = ns.Class('RareElite', Rare, {
-    rlabel = '(' .. ns.color.Gray(L['elite']) .. ')',
-    icon = 'star_skull_b',
-    scale = 1.6
-})
-
-ns.node.RareElite = RareElite
 
 map.nodes[53946272] = RareElite({
     id = 256821,

@@ -9,6 +9,7 @@ local Map = ns.Map
 local LoreObject = ns.node.LoreObject
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
@@ -200,14 +201,6 @@ map.nodes[39696070] = Rare({
         Mount({item = 252012, id = 2708}) -- Vibrant Petalwing
     }
 }) -- Ahl'ua'huhi
-
-local RareElite = ns.Class('RareElite', Rare, {
-    rlabel = '(' .. ns.color.Gray(L['elite']) .. ')',
-    icon = 'star_skull_b',
-    scale = 1.6
-})
-
-ns.node.RareElite = RareElite
 
 map.nodes[65553269] = RareElite({
     id = 250086,
