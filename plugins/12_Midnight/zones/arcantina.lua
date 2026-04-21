@@ -27,7 +27,7 @@ map.nodes[36575489] = CantinaItem({icon = 134757, id = 124640, quest = 92354}) -
 
 map.nodes[61875110] = CantinaItem({icon = 134301, id = 40195, quest = 92355}) -- Pygmy Oil
 map.nodes[33621257] = CantinaItem({icon = 134301, id = 40195, quest = 92356}) -- Pygmy Oil
-map.nodes[74746281] = CantinaItem({icon = 134301, id = 40195, quest = 32957}) -- Pygmy Oil - removed?
+map.nodes[74746281] = CantinaItem({icon = 134301, id = 40195, quest = 32357}) -- Pygmy Oil
 
 map.nodes[54494478] = CantinaItem({icon = 1033182, id = 112384, quest = 92358}) -- Reflecting Prism
 map.nodes[42224258] = CantinaItem({icon = 1033182, id = 112384, quest = 92359}) -- Reflecting Prism
