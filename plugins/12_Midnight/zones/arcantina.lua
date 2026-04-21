@@ -33,7 +33,7 @@ map.nodes[54494478] = CantinaItem({icon = 1033182, id = 112384, quest = 92358}) 
 map.nodes[42224258] = CantinaItem({icon = 1033182, id = 112384, quest = 92359}) -- Reflecting Prism
 map.nodes[79124579] = CantinaItem({icon = 1033182, id = 112384, quest = 92360}) -- Reflecting Prism
 
-map.nodes[35467845] = CantinaItem({icon = 134302, id = 6657, quest = 92361}) -- Savory Deviate Delight
+map.nodes[55807130] = CantinaItem({icon = 134302, id = 6657, quest = 92361}) -- Savory Deviate Delight
 map.nodes[35343007] = CantinaItem({icon = 134302, id = 6657, quest = 92362}) -- Savory Deviate Delight
 map.nodes[68055216] = CantinaItem({icon = 134302, id = 6657, quest = 92363}) -- Savory Deviate Delight
 
