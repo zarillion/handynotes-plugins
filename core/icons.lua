@@ -75,6 +75,7 @@ ns.icons = { -- name => path
     star_chest_y = {Icon('star_chest_yellow'), Glow('star_chest')},
 
     star_skull_b = {Icon('star_skull_blue'), Glow('star_skull')},
+    -- star_skull_p = {Icon('star_skull_purple'), Glow('star_skull')},
     star_skull_w = {Icon('star_skull_white'), Glow('star_skull')},
 
     war_mode_flags = {Icon('war_mode_flags'), nil},

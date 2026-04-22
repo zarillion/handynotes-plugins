@@ -614,6 +614,38 @@ function Rare:IsEnabled()
 end
 
 -------------------------------------------------------------------------------
+--------------------------------- RARE ELITE ----------------------------------
+-------------------------------------------------------------------------------
+
+local RareElite = Class('RareElite', Rare, {
+    rlabel = '(' .. ns.color.Gray(L['elite']) .. ')',
+    scale = 1.8
+})
+
+function RareElite.getters:icon()
+    if self:IsCollected() then
+        return 'star_skull_w'
+    elseif not self:IsCollected(ns.reward.Reputation) then
+        return 'star_skull_b'  -- Using star_skull_b as alternative for star_skull_p
+    else
+        return 'star_skull_b'
+    end
+end
+
+function RareElite.getters:label()
+    local label = NPC.getters.label(self)
+    if ns:GetOpt('show_npc_id') then
+        label = label .. ' (' .. ns.color.White(self.id) .. ')'
+    end
+    return label
+end
+
+function RareElite:IsEnabled()
+    if ns:GetOpt('hide_done_rares') and self:IsCollected() then return false end
+    return NPC.IsEnabled(self)
+end
+
+-------------------------------------------------------------------------------
 ------------------------------- SKYRIDING RACE --------------------------------
 -------------------------------------------------------------------------------
 
@@ -799,6 +831,7 @@ ns.node = {
     ProfessionTreasures = PT,
     Quest = Quest,
     Rare = Rare,
+    RareElite = RareElite,
     Treasure = Treasure,
     Vendor = Vendor
 }
