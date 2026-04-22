@@ -697,9 +697,10 @@ function Transmog:IsObtainable()
     -- They return an empty table even though you can get the item to drop.
     local _, _, _, ilvl, _, _, _, _, equipLoc = C_Item.GetItemInfo(self.item)
     if not (ilvl == 1 and equipLoc == 'INVTYPE_CLOAK' and self.isCosmetic) then
+        -- No longer checking specs since any class can drop transmog items
         -- Verify the item drops for any of the players specs
-        local specs = C_Item.GetItemSpecInfo(self.item)
-        if type(specs) == 'table' and #specs == 0 then return false end
+        -- local specs = C_Item.GetItemSpecInfo(self.item)
+        -- if type(specs) == 'table' and #specs == 0 then return false end
     end
     return true
 end
@@ -719,9 +720,11 @@ function Transmog:GetStatus()
     if not collected then
         if not self:IsLearnable() then
             status = Orange(L['unlearnable'])
-        elseif not self:IsObtainable() then
-            status = Orange(L['unobtainable'])
         end
+        -- Removed unobtainable check since any class can drop transmog items
+        -- elseif not self:IsObtainable() then
+        --     status = Orange(L['unobtainable'])
+        -- end
     end
 
     return status
