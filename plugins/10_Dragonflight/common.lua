@@ -9,7 +9,6 @@ local Group = ns.Group
 
 local Collectible = ns.node.Collectible
 local Node = ns.node.Node
-local Rare = ns.node.Rare
 local Vendor = ns.node.Vendor
 
 local Achievement = ns.reward.Achievement

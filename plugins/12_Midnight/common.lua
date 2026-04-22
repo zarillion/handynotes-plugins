@@ -8,7 +8,6 @@ local Class = ns.Class
 local Group = ns.Group
 
 local Collectible = ns.node.Collectible
-local Rare = ns.node.Rare
 
 local Achievement = ns.reward.Achievement
 local Reputation = ns.reward.Reputation
