@@ -718,9 +718,7 @@ function Transmog:GetStatus()
     local status = collected and Green(L['known']) or Red(L['missing'])
 
     if not collected then
-        if not self:IsLearnable() then
-            status = Orange(L['unlearnable'])
-        end
+        if not self:IsLearnable() then status = Orange(L['unlearnable']) end
         -- Removed unobtainable check since any class can drop transmog items
         -- elseif not self:IsObtainable() then
         --     status = Orange(L['unobtainable'])
