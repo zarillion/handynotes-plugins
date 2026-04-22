@@ -22,18 +22,18 @@ map.nodes[28433959] = CantinaItem({icon = 134721, id = 6662, quest = 92350}) -- 
 map.nodes[18534417] = CantinaItem({icon = 134721, id = 6662, quest = 92351}) -- Giant Growth Potion
 
 map.nodes[61315823] = CantinaItem({icon = 134757, id = 124640, quest = 92352}) -- Inky Black Potion
-map.nodes[39688083] = CantinaItem({icon = 134757, id = 124640, quest = 92553}) -- Inky Black Potion
+map.nodes[39688083] = CantinaItem({icon = 134757, id = 124640, quest = 92353}) -- Inky Black Potion
 map.nodes[36575489] = CantinaItem({icon = 134757, id = 124640, quest = 92354}) -- Inky Black Potion
 
 map.nodes[61875110] = CantinaItem({icon = 134301, id = 40195, quest = 92355}) -- Pygmy Oil
 map.nodes[33621257] = CantinaItem({icon = 134301, id = 40195, quest = 92356}) -- Pygmy Oil
-map.nodes[74746281] = CantinaItem({icon = 134301, id = 40195, quest = 32957}) -- Pygmy Oil - removed?
+map.nodes[74746281] = CantinaItem({icon = 134301, id = 40195, quest = 32357}) -- Pygmy Oil
 
 map.nodes[54494478] = CantinaItem({icon = 1033182, id = 112384, quest = 92358}) -- Reflecting Prism
 map.nodes[42224258] = CantinaItem({icon = 1033182, id = 112384, quest = 92359}) -- Reflecting Prism
 map.nodes[79124579] = CantinaItem({icon = 1033182, id = 112384, quest = 92360}) -- Reflecting Prism
 
-map.nodes[35467845] = CantinaItem({icon = 134302, id = 6657, quest = 92361}) -- Savory Deviate Delight
+map.nodes[55807130] = CantinaItem({icon = 134302, id = 6657, quest = 92361}) -- Savory Deviate Delight
 map.nodes[35343007] = CantinaItem({icon = 134302, id = 6657, quest = 92362}) -- Savory Deviate Delight
 map.nodes[68055216] = CantinaItem({icon = 134302, id = 6657, quest = 92363}) -- Savory Deviate Delight
 
