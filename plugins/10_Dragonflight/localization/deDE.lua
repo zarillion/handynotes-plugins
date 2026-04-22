@@ -6,7 +6,6 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_higher_ilvl'] = '{note:Dieser seltene Gegner kann Beute mit höherer Gegenstandsstufe fallen lassen!}'
 L['gem_cluster_note'] = 'Der benötigte Gegenstand kann auf Ruhmstufe 21 bei der {faction:Drachenschuppenexpedition} in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
 
 L['options_icons_bonus_boss'] = 'Bonus Elitegegner'

@@ -6,7 +6,6 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_higher_ilvl'] = '{note:¡Este raro puede soltar botín de un nivel superior!}'
 L['gem_cluster_note'] = 'El objeto requerido se puede obtener a Renombre 21 con la {faction:2507} en las {object:Mochila de explorador de expedición} y en las {object:Tierra revuelta}.'
 
 L['options_icons_bonus_boss'] = 'Élites de Bonificación'

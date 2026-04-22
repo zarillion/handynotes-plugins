@@ -6,7 +6,6 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_higher_ilvl'] = '{note:這個稀有有機會掉落高裝等的拾取!}'
 L['gem_cluster_note'] = '需要的物品可以在 {faction:2507} 名望21後, 在 {object:遠征隊斥侯包} 和{object:挖過的土} 找到.'
 
 L['options_icons_bonus_boss'] = '獎勵精英'

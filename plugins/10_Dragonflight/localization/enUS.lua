@@ -6,7 +6,6 @@ if not L then return end
 -------------------------------- DRAGON ISLES ---------------------------------
 -------------------------------------------------------------------------------
 
-L['elite_loot_higher_ilvl'] = '{note:This rare can drop higher ilvl loot!}'
 L['gem_cluster_note'] = 'The required item can be found at Renown 21 with the {faction:2507} in {object:Expedition Scout\'s Pack} and {object:Disturbed Dirt}.'
 
 L['options_icons_bonus_boss'] = 'Bonus Elites'
