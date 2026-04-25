@@ -626,7 +626,7 @@ function RareElite.getters:icon()
     if self:IsCollected() then
         return 'star_skull_w'
     elseif not self:IsCollected(ns.reward.Reputation) then
-        return 'star_skull_b' -- Using star_skull_b as alternative for star_skull_p
+        return 'star_skull_p
     else
         return 'star_skull_b'
     end
