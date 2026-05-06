@@ -83,7 +83,7 @@ map.nodes[54706018] = Rare({
     }
 }) -- Overfester Hydra
 
-map.nodes[36566408] = Rare({
+map.nodes[37706420] = Rare({
     id = 250582,
     quest = 92366, -- 92366/94685 ?
     rewards = {
