@@ -14,6 +14,7 @@ local Safari = ns.node.Safari
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
+local RenownedBeast = ns.node.RenownedBeast
 
 local Achievement = ns.reward.Achievement
 local Decor = ns.reward.Decor
@@ -702,3 +703,26 @@ local STORMARION_ASSAULT_AREA_POIS = {
 
 ns.hooks.areapoievent.Add(ns.groups.STORMARION_ASSAULT,
     STORMARION_ASSAULT_AREA_POIS)
+
+-------------------------------- RENOWNED BEASTS ---------------------------------
+
+map.nodes[54646534] = RenownedBeast({
+  label = 'Umbrafang',
+  quest = 88532,
+  rewards = {
+     ns.reward.Item({item = 238529}),
+     ns.reward.Item({item = 238528}),
+  },
+  requires = ns.requirement.Item(238655),
+})
+
+map.nodes[43078268] = RenownedBeast({
+  label = 'Netherscythe',
+  quest = 88524,
+  rewards = {
+     ns.reward.Item({item = 238529}),
+     ns.reward.Item({item = 238530}),
+     ns.reward.Item({item = 238528}),
+  },
+  requires = ns.requirement.Item(238656),
+})

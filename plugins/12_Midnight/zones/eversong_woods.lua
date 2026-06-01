@@ -15,6 +15,7 @@ local Safari = ns.node.Safari
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
+local RenownedBeast = ns.node.RenownedBeast
 
 local Achievement = ns.reward.Achievement
 local Decor = ns.reward.Decor
@@ -566,7 +567,7 @@ smc.nodes[38107699] = LoreObject({
     }
 }) -- Unfinished Sheet Music
 
--------------------------------- EVER PAINTIG ---------------------------------
+-------------------------------- EVER PAINTING ---------------------------------
 
 map.nodes[53967560] = Painting(111993) -- Sway of Red and Gold
 map.nodes[41805634] = Painting(112030) -- Lost Lamppost
@@ -612,3 +613,15 @@ iqd.nodes[51803150] = Safari.NetherFamiliar({
     pois = {POI({51803150, 49802930, 29002900, 43601560})}
 })
 iqd.nodes[43303030] = Safari.WrathfulWyrm({pois = {POI({43303030, 49302230})}})
+
+-------------------------------- RENOWNED BEASTS ---------------------------------
+
+map.nodes[42337962] = RenownedBeast({
+  label = 'Gloomclaw',
+  quest = 88545,
+  rewards = {
+    ns.reward.Item({item = 238529}),
+    ns.reward.Item({item = 238528}),
+  },
+  requires = ns.requirement.Item(238652),
+})
