@@ -477,7 +477,6 @@ ns.node.Safari = {
 local RenownedBeast = ns.Class('RenownedBeast', ns.node.Node, {
     icon = 5931379,
     group = ns.groups.RENOWNED_BEAST,
-    note = L['renowned_beast_note']
 })
 
 ns.node.RenownedBeast = RenownedBeast
