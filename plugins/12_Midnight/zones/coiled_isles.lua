@@ -35,13 +35,13 @@ local map = Map({id = 2512, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[00000000] = Rare({
-    id = 0,
+map.nodes[53777204] = Rare({
+    id = 264854,
     quest = 96491,
     rewards = {
         Achievement({id = 63358, criteria = 115279})
     }
-}) -- Farthik the Plunderer
+}) -- Farthik the Plunderer - click the chest to spawn/agro rare
 
 map.nodes[500006907] = Rare({
     id = 268049,
@@ -83,24 +83,24 @@ map.nodes[00000000] = Rare({
     }
 }) -- Szarith the Fanged
 
-map.nodes[00000000] = Rare({
-    id = 0,
+map.nodes[70174529] = Rare({
+    id = 258916,
     quest = 94856,
     rewards = {
         Achievement({id = 63358, criteria = 110172})
     }
 }) -- Garsecg
 
-map.nodes[00000000] = Rare({
+map.nodes[52064479] = Rare({
     id = 0,
     quest = 94860,
     rewards = {
         Achievement({id = 63358, criteria = 115283})
     }
-}) -- Nar'zira
+}) -- Nar'zira - coords maybe?
 
-map.nodes[00000000] = Rare({
-    id = 0,
+map.nodes[57216417] = Rare({
+    id = 257906,
     quest = 94619,
     rewards = {
         Achievement({id = 63358, criteria = 115285})
@@ -108,7 +108,7 @@ map.nodes[00000000] = Rare({
 }) -- Coin-Eye Skully
 
 map.nodes[70036344] = Rare({
-    id = 0,
+    id = 256631,
     quest = 93829,
     rewards = {
         Achievement({id = 63358, criteria = 115286})
@@ -123,7 +123,7 @@ map.nodes[71303138] = Rare({
     }
 }) -- Sss'alik
 
-map.nodes[00000000] = Rare({
+map.nodes[52053229] = Rare({
     id = 0,
     quest = 95452,
     rewards = {
@@ -149,14 +149,14 @@ map.nodes[45916628] = Treasure({
     }
 }) -- Fangbound Sack
 
-map.nodes[00000000] = Treasure({
+map.nodes[65440560] = Treasure({
     quest = 95907,
     rewards = {
         Achievement({id = 63359, criteria = 115290})
     }
 }) -- Sunken Diver's Chest
 
-map.nodes[00000000] = Treasure({
+map.nodes[67264846] = Treasure({
     quest = 95956,
     rewards = {
         Achievement({id = 63359, criteria = 115291})
@@ -170,12 +170,12 @@ map.nodes[00000000] = Treasure({
     }
 }) -- Profane Ritual Spoils
 
-map.nodes[00000000] = Treasure({
+map.nodes[70637663] = Treasure({
     quest = 95995,
     rewards = {
         Achievement({id = 63359, criteria = 115294})
     }
-}) -- Brine-Crusted Chest
+}) -- Brine-Crusted Chest / Ancient Amani Chest
 
 map.nodes[31438349] = Treasure({
     quest = 96985,
@@ -219,21 +219,21 @@ map.nodes[58144355] = Treasure({
     }
 }) -- Cracked Skull
 
-map.nodes[00000000] = Treasure({
+map.nodes[46862957] = Treasure({
     quest = 95596,
     rewards = {
         Achievement({id = 63359, criteria = 115296})
     }
 }) -- Damaged Loa Trinket
 
-map.nodes[00000000] = Treasure({
+map.nodes[64723664] = Treasure({
     quest = 95835,
     rewards = {
         Achievement({id = 63359, criteria = 115298})
     }
 }) -- Venomjade Necklace
 
-map.nodes[00000000] = Treasure({
+map.nodes[66952803] = Treasure({
     quest = 95836,
     rewards = {
         Achievement({id = 63359, criteria = 115299})
@@ -247,7 +247,7 @@ map.nodes[00000000] = Treasure({
     }
 }) -- Stinking Vessel
 
-map.nodes[00000000] = Treasure({
+map.nodes[49483198] = Treasure({
     quest = 95854,
     rewards = {
         Achievement({id = 63359, criteria = 115301})
@@ -261,12 +261,12 @@ map.nodes[00000000] = Treasure({
     }
 }) -- Smoldering Incense
 
-map.nodes[00000000] = Treasure({
+map.nodes[73485654] = Treasure({
     quest = 95558,
     rewards = {
         Achievement({id = 63359, criteria = 115308})
     }
-}) -- Crumbling Urn
+}) -- Crumbling Urn / Broken Amani Urn
 
 map.nodes[64917889] = Treasure({
     quest = 95591,
@@ -282,7 +282,7 @@ map.nodes[58194572] = Treasure({
     }
 }) -- Vul'zahn's Smuggled Treasure
 
-map.nodes[00000000] = Treasure({
+map.nodes[43952649] = Treasure({
     quest = 95727,
     rewards = {
         Achievement({id = 63359, criteria = 115297})
@@ -323,19 +323,19 @@ map.nodes[00000000] = SkyridingGlyph({
     }
 }) -- Gate of the Eastern Fang, the Coiled Isles
 
-map.nodes[00000000] = SkyridingGlyph({
+map.nodes[58944891] = SkyridingGlyph({
     rewards = {
         Achievement({id = 63395, criteria = 115771})
     }
 }) -- Tokka's Landing, the Coiled Isles
 
-map.nodes[00000000] = SkyridingGlyph({
+map.nodes[64126065] = SkyridingGlyph({
     rewards = {
         Achievement({id = 63395, criteria = 115772})
     }
 }) -- The Whispering Marsh, the Coiled Isles
 
-map.nodes[00000000] = SkyridingGlyph({
+map.nodes[70284816] = SkyridingGlyph({
     rewards = {
         Achievement({id = 63395, criteria = 115773})
     }
