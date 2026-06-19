@@ -5,6 +5,7 @@
   <Script file="zones\harandar.lua"/>
   <Script file="zones\voidstorm.lua"/>
   <Script file="zones\zul_aman.lua"/>
+  <Script file="zones\coiled_isles.lua"/>
   <!-- -->
   <Script file="zones\arcantina.lua"/>
   <Script file="zones\delves.lua"/>
