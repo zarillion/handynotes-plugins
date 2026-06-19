@@ -288,3 +288,73 @@ map.nodes[00000000] = Treasure({
         Achievement({id = 63359, criteria = 115297})
     }
 }) -- Zul'jan's Stash
+
+-------------------------------------------------------------------------------
+--------------------------- SKYRIDING GLYPHS --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[00000000] = SkyridingGlyph({
+    rewards = {
+        Achievement({id = 63395, criteria = 115491})
+    }
+}) -- The Fangs, the Coiled Isles
+
+map.nodes[00000000] = SkyridingGlyph({
+    rewards = {
+        Achievement({id = 63395, criteria = 115766})
+    }
+}) -- The Forum, the Coiled Isles
+
+map.nodes[00000000] = SkyridingGlyph({
+    rewards = {
+        Achievement({id = 63395, criteria = 115768})
+    }
+}) -- The Wreck of Sethralis's Scales, the Coiled Isles
+
+map.nodes[00000000] = SkyridingGlyph({
+    rewards = {
+        Achievement({id = 63395, criteria = 115769})
+    }
+}) -- Southern Island, the Coiled Isles
+
+map.nodes[00000000] = SkyridingGlyph({
+    rewards = {
+        Achievement({id = 63395, criteria = 115770})
+    }
+}) -- Gate of the Eastern Fang, the Coiled Isles
+
+map.nodes[00000000] = SkyridingGlyph({
+    rewards = {
+        Achievement({id = 63395, criteria = 115771})
+    }
+}) -- Tokka's Landing, the Coiled Isles
+
+map.nodes[00000000] = SkyridingGlyph({
+    rewards = {
+        Achievement({id = 63395, criteria = 115772})
+    }
+}) -- The Whispering Marsh, the Coiled Isles
+
+map.nodes[00000000] = SkyridingGlyph({
+    rewards = {
+        Achievement({id = 63395, criteria = 115773})
+    }
+}) -- The Wreck of Paku's Talon, the Coiled Isles
+
+map.nodes[00000000] = SkyridingGlyph({
+    rewards = {
+        Achievement({id = 63395, criteria = 115774})
+    }
+}) -- The Serpent's Tail, the Coiled Isles
+
+map.nodes[00000000] = SkyridingGlyph({
+    rewards = {
+        Achievement({id = 63395, criteria = 115775})
+    }
+}) -- Blistering Terrace, the Coiled Isles
+
+map.nodes[00000000] = SkyridingGlyph({
+    rewards = {
+        Achievement({id = 63395, criteria = 115776})
+    }
+}) -- Gate of the Serpent's Eye, the Coiled Isles
