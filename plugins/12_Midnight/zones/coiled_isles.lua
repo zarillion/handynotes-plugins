@@ -43,24 +43,24 @@ map.nodes[00000000] = Rare({
     }
 }) -- Farthik the Plunderer
 
-map.nodes[00000000] = Rare({
-    id = 0,
+map.nodes[500006907] = Rare({
+    id = 268049,
     quest = 97112,
     rewards = {
         Achievement({id = 63358, criteria = 115280})
     }
 }) -- Siltmouth
 
-map.nodes[00000000] = Rare({
-    id = 0,
+map.nodes[24897354] = Rare({
+    id = 268090,
     quest = 97122,
     rewards = {
         Achievement({id = 63358, criteria = 115784})
     }
 }) -- Kari'zah the Forgotten
 
-map.nodes[00000000] = Rare({
-    id = 0,
+map.nodes[31665672] = Rare({
+    id = 265237,
     quest = 96456,
     rewards = {
         Achievement({id = 63358, criteria = 115284})
@@ -107,15 +107,15 @@ map.nodes[00000000] = Rare({
     }
 }) -- Coin-Eye Skully
 
-map.nodes[00000000] = Rare({
+map.nodes[70036344] = Rare({
     id = 0,
     quest = 93829,
     rewards = {
         Achievement({id = 63358, criteria = 115286})
     }
-}) -- Big Mon
+}) -- Big Mon / Ancient Hulk -- patrols
 
-map.nodes[00000000] = Rare({
+map.nodes[71303138] = Rare({
     id = 0,
     quest = 95447,
     rewards = {
@@ -135,14 +135,14 @@ map.nodes[00000000] = Rare({
 ------------------------------- TREASURES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[00000000] = Treasure({
+map.nodes[71886666] = Treasure({
     quest = 94569,
     rewards = {
         Achievement({id = 63359, criteria = 115289})
     }
 }) -- Abandoned Amani Privateer's Cache
 
-map.nodes[00000000] = Treasure({
+map.nodes[45916628] = Treasure({
     quest = 95938,
     rewards = {
         Achievement({id = 63359, criteria = 115313})
@@ -177,7 +177,7 @@ map.nodes[00000000] = Treasure({
     }
 }) -- Brine-Crusted Chest
 
-map.nodes[00000000] = Treasure({
+map.nodes[31438349] = Treasure({
     quest = 96985,
     rewards = {
         Achievement({id = 63359, criteria = 115295})
@@ -205,14 +205,14 @@ map.nodes[00000000] = Treasure({
     }
 }) -- Jaktu's Cursed Blade
 
-map.nodes[00000000] = Treasure({
+map.nodes[68056590] = Treasure({
     quest = 95571,
     rewards = {
         Achievement({id = 63359, criteria = 115310})
     }
 }) -- Lost Spirit
 
-map.nodes[00000000] = Treasure({
+map.nodes[58144355] = Treasure({
     quest = 95594,
     rewards = {
         Achievement({id = 63359, criteria = 115312})
@@ -268,14 +268,14 @@ map.nodes[00000000] = Treasure({
     }
 }) -- Crumbling Urn
 
-map.nodes[00000000] = Treasure({
+map.nodes[64917889] = Treasure({
     quest = 95591,
     rewards = {
         Achievement({id = 63359, criteria = 115314})
     }
 }) -- Forgotten Mask
 
-map.nodes[00000000] = Treasure({
+map.nodes[58194572] = Treasure({
     quest = 95976,
     rewards = {
         Achievement({id = 63359, criteria = 115293})
@@ -293,7 +293,7 @@ map.nodes[00000000] = Treasure({
 --------------------------- SKYRIDING GLYPHS --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[00000000] = SkyridingGlyph({
+map.nodes[37416053] = SkyridingGlyph({
     rewards = {
         Achievement({id = 63395, criteria = 115491})
     }
@@ -305,7 +305,7 @@ map.nodes[00000000] = SkyridingGlyph({
     }
 }) -- The Forum, the Coiled Isles
 
-map.nodes[00000000] = SkyridingGlyph({
+map.nodes[28827523] = SkyridingGlyph({
     rewards = {
         Achievement({id = 63395, criteria = 115768})
     }
