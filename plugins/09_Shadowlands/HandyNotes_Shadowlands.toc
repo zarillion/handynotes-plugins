@@ -1,4 +1,4 @@
-## Interface: 120005
+﻿## Interface: 120007
 ## Title: HandyNotes: Shadowlands
 ## Version: 0
 ## Notes: Shadowlands Notes
