@@ -198,8 +198,7 @@ map.nodes[75376833] = Treasure({
     quest = 95164,
     rewards = {
         Achievement({id = 63359, criteria = 115306}),
-        Reputation({id = 2772, gain = 50, quest = 95164}),
-        Toy({item = 268504}) -- [Malfunctioning Staff]
+        Reputation({id = 2772, gain = 50, quest = 95164}), Toy({item = 268504}) -- [Malfunctioning Staff]
     }
 }) -- Malfunctioning Staff
 
@@ -215,8 +214,7 @@ map.nodes[60435946] = Treasure({
     quest = 95566,
     rewards = {
         Achievement({id = 63359, criteria = 115309}),
-        Reputation({id = 2772, gain = 50, quest = 95566}),
-        Toy({item = 277954})
+        Reputation({id = 2772, gain = 50, quest = 95566}), Toy({item = 277954})
     }
 }) -- Jaktu's Cursed Blade
 
@@ -227,9 +225,7 @@ map.nodes[68056590] = Treasure({
         Reputation({id = 2772, gain = 50, quest = 95571})
     },
     note = 'return the Forgotten Trinket to the lost spirit',
-    pois = {
-        POI({points = {70226450}, label = '{item:269935}'})
-    }
+    pois = {POI({points = {70226450}, label = '{item:269935}'})}
 }) -- Lost Spirit
 
 map.nodes[58144355] = Treasure({
