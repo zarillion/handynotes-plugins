@@ -41,97 +41,73 @@ local vault_map = Map({id = 2509, settings = true, parent = 2512})
 map.nodes[53777204] = Rare({
     id = 264854,
     quest = 96491,
-    rewards = {
-        Achievement({id = 63358, criteria = 115279})
-    }
+    rewards = {Achievement({id = 63358, criteria = 115279})}
 }) -- Farthik the Plunderer - click the chest to spawn/agro rare
 
 map.nodes[500006907] = Rare({
     id = 268049,
     quest = 97112,
-    rewards = {
-        Achievement({id = 63358, criteria = 115280})
-    }
+    rewards = {Achievement({id = 63358, criteria = 115280})}
 }) -- Siltmouth
 
 map.nodes[24897354] = Rare({
     id = 268090,
     quest = 97122,
-    rewards = {
-        Achievement({id = 63358, criteria = 115784})
-    }
+    rewards = {Achievement({id = 63358, criteria = 115784})}
 }) -- Kari'zah the Forgotten
 
 map.nodes[31665672] = Rare({
     id = 265237,
     quest = 96456,
-    rewards = {
-        Achievement({id = 63358, criteria = 115284})
-    }
+    rewards = {Achievement({id = 63358, criteria = 115284})}
 }) -- Lockjaw
 
 map.nodes[00000000] = Rare({
     id = 0,
     quest = 96464,
-    rewards = {
-        Achievement({id = 63358, criteria = 115281})
-    }
+    rewards = {Achievement({id = 63358, criteria = 115281})}
 }) -- Hisstara
 
 map.nodes[00000000] = Rare({
     id = 0,
     quest = 96030,
-    rewards = {
-        Achievement({id = 63358, criteria = 115282})
-    }
+    rewards = {Achievement({id = 63358, criteria = 115282})}
 }) -- Szarith the Fanged
 
 map.nodes[70174529] = Rare({
     id = 258916,
     quest = 94856,
-    rewards = {
-        Achievement({id = 63358, criteria = 110172})
-    }
+    rewards = {Achievement({id = 63358, criteria = 110172})}
 }) -- Garsecg
 
 map.nodes[52064479] = Rare({
     id = 0,
     quest = 94860,
-    rewards = {
-        Achievement({id = 63358, criteria = 115283})
-    }
+    rewards = {Achievement({id = 63358, criteria = 115283})}
 }) -- Nar'zira - coords maybe?
 
 map.nodes[57216417] = Rare({
     id = 257906,
     quest = 94619,
-    rewards = {
-        Achievement({id = 63358, criteria = 115285})
-    }
+    rewards = {Achievement({id = 63358, criteria = 115285})}
 }) -- Coin-Eye Skully
 
 map.nodes[70036344] = Rare({
     id = 256631,
     quest = 93829,
-    rewards = {
-        Achievement({id = 63358, criteria = 115286})
-    }
+    rewards = {Achievement({id = 63358, criteria = 115286})}
 }) -- Big Mon / Ancient Hulk -- patrols
 
 map.nodes[71303138] = Rare({
     id = 0,
     quest = 95447,
-    rewards = {
-        Achievement({id = 63358, criteria = 115287})
-    }
+    rewards = {Achievement({id = 63358, criteria = 115287})}
 }) -- Sss'alik
 
 map.nodes[52053229] = Rare({
     id = 0,
     quest = 95452,
-    rewards = {
-        Achievement({id = 63358, criteria = 115288})
-    }
+    rewards = {Achievement({id = 63358, criteria = 115288})}
 }) -- Destra
 
 -- Oppose the Foes (Rare Elite) - Achievement 63601
@@ -139,19 +115,19 @@ map.nodes[52053229] = Rare({
 vault_map.nodes[00000000] = RareElite({
     id = 0,
     quest = 0,
-    rewards = { Achievement({id = 63601, criteria = 116325}) }
+    rewards = {Achievement({id = 63601, criteria = 116325})}
 }) -- Congealed Malice
 
 vault_map.nodes[00000000] = RareElite({
     id = 0,
     quest = 0,
-    rewards = { Achievement({id = 63601, criteria = 116326}) }
+    rewards = {Achievement({id = 63601, criteria = 116326})}
 }) -- Khu'tulak
 
 vault_map.nodes[00000000] = RareElite({
     id = 0,
     quest = 0,
-    rewards = { Achievement({id = 63601, criteria = 116327}) }
+    rewards = {Achievement({id = 63601, criteria = 116327})}
 }) -- Susarikk
 
 -------------------------------------------------------------------------------
@@ -256,9 +232,7 @@ map.nodes[58144355] = Treasure({
 
 map.nodes[46862957] = Treasure({
     quest = 95596,
-    rewards = {
-        Achievement({id = 63359, criteria = 115296})
-    }
+    rewards = {Achievement({id = 63359, criteria = 115296})}
 }) -- Damaged Loa Trinket
 
 map.nodes[00000000] = Treasure({
@@ -338,69 +312,47 @@ map.nodes[00000000] = Treasure({
 -------------------------------------------------------------------------------
 
 map.nodes[37416053] = SkyridingGlyph({
-    rewards = {
-        Achievement({id = 63395, criteria = 115491})
-    }
+    rewards = {Achievement({id = 63395, criteria = 115491})}
 }) -- The Fangs, the Coiled Isles
 
 map.nodes[00000000] = SkyridingGlyph({
-    rewards = {
-        Achievement({id = 63395, criteria = 115766})
-    }
+    rewards = {Achievement({id = 63395, criteria = 115766})}
 }) -- The Forum, the Coiled Isles
 
 map.nodes[28827523] = SkyridingGlyph({
-    rewards = {
-        Achievement({id = 63395, criteria = 115768})
-    }
+    rewards = {Achievement({id = 63395, criteria = 115768})}
 }) -- The Wreck of Sethralis's Scales, the Coiled Isles
 
 map.nodes[00000000] = SkyridingGlyph({
-    rewards = {
-        Achievement({id = 63395, criteria = 115769})
-    }
+    rewards = {Achievement({id = 63395, criteria = 115769})}
 }) -- Southern Island, the Coiled Isles
 
 map.nodes[00000000] = SkyridingGlyph({
-    rewards = {
-        Achievement({id = 63395, criteria = 115770})
-    }
+    rewards = {Achievement({id = 63395, criteria = 115770})}
 }) -- Gate of the Eastern Fang, the Coiled Isles
 
 map.nodes[58944891] = SkyridingGlyph({
-    rewards = {
-        Achievement({id = 63395, criteria = 115771})
-    }
+    rewards = {Achievement({id = 63395, criteria = 115771})}
 }) -- Tokka's Landing, the Coiled Isles
 
 map.nodes[64126065] = SkyridingGlyph({
-    rewards = {
-        Achievement({id = 63395, criteria = 115772})
-    }
+    rewards = {Achievement({id = 63395, criteria = 115772})}
 }) -- The Whispering Marsh, the Coiled Isles
 
 map.nodes[70284816] = SkyridingGlyph({
-    rewards = {
-        Achievement({id = 63395, criteria = 115773})
-    }
+    rewards = {Achievement({id = 63395, criteria = 115773})}
 }) -- The Wreck of Paku's Talon, the Coiled Isles
 
 map.nodes[00000000] = SkyridingGlyph({
-    rewards = {
-        Achievement({id = 63395, criteria = 115774})
-    }
+    rewards = {Achievement({id = 63395, criteria = 115774})}
 }) -- The Serpent's Tail, the Coiled Isles
 
 map.nodes[00000000] = SkyridingGlyph({
-    rewards = {
-        Achievement({id = 63395, criteria = 115775})
-    }
+    rewards = {Achievement({id = 63395, criteria = 115775})}
 }) -- Blistering Terrace, the Coiled Isles
 
 map.nodes[43824419] = SkyridingGlyph({
-    rewards = {
-        Achievement({id = 63395, criteria = 115776})
-    }
+    rewards = {Achievement({id = 63395, criteria = 115776})}
 }) -- Gate of the Serpent's Eye, the Coiled Isles
 
 -------------------------------------------------------------------------------
@@ -409,62 +361,60 @@ map.nodes[43824419] = SkyridingGlyph({
 
 vault_map.nodes[49505659] = HonoredDead({
     quest = 98029,
-    rewards = { Achievement({id = 63610, criteria = 116407}) }
+    rewards = {Achievement({id = 63610, criteria = 116407})}
 }) -- To  daughter
 
 vault_map.nodes[00000000] = HonoredDead({
     quest = 98030,
-    rewards = { Achievement({id = 63610, criteria = 116408}) }
+    rewards = {Achievement({id = 63610, criteria = 116408})}
 }) -- To a lover
 
 vault_map.nodes[00000000] = HonoredDead({
     quest = 98031,
-    rewards = { Achievement({id = 63610, criteria = 116409}) }
+    rewards = {Achievement({id = 63610, criteria = 116409})}
 }) -- To parents
 
 vault_map.nodes[55624060] = HonoredDead({
     quest = 98032,
-    rewards = { Achievement({id = 63610, criteria = 116410}) }
-}) --To a dream
+    rewards = {Achievement({id = 63610, criteria = 116410})}
+}) -- To a dream
 
 vault_map.nodes[52913390] = HonoredDead({
     quest = 98033,
-    rewards = { Achievement({id = 63610, criteria = 116411}) }
+    rewards = {Achievement({id = 63610, criteria = 116411})}
 }) -- To a captain
 
 vault_map.nodes[00000000] = HonoredDead({
     quest = 98034,
-    rewards = { Achievement({id = 63610, criteria = 116412}) }
+    rewards = {Achievement({id = 63610, criteria = 116412})}
 }) -- To sons
 
 vault_map.nodes[45816179] = HonoredDead({
     quest = 98035,
-    rewards = {
-        Achievement({id = 63610, criteria = 116413})
-    }
+    rewards = {Achievement({id = 63610, criteria = 116413})}
 }) -- To Failure
 
 vault_map.nodes[00000000] = HonoredDead({
     quest = 98036,
-    rewards = { Achievement({id = 63610, criteria = 116414}) }
+    rewards = {Achievement({id = 63610, criteria = 116414})}
 }) -- To a father
 
 vault_map.nodes[00000000] = HonoredDead({
     quest = 98037,
-    rewards = { Achievement({id = 63610, criteria = 116415}) }
+    rewards = {Achievement({id = 63610, criteria = 116415})}
 }) -- To a sister
 
 vault_map.nodes[00000000] = HonoredDead({
     quest = 98038,
-    rewards = { Achievement({id = 63610, criteria = 116416}) }
+    rewards = {Achievement({id = 63610, criteria = 116416})}
 }) -- To Comrades
 
 vault_map.nodes[00000000] = HonoredDead({
     quest = 98039,
-    rewards = { Achievement({id = 63610, criteria = 116417}) }
+    rewards = {Achievement({id = 63610, criteria = 116417})}
 }) -- To a stranger
 
 vault_map.nodes[00000000] = HonoredDead({
     quest = 98040,
-    rewards = { Achievement({id = 63610, criteria = 116418}) }
+    rewards = {Achievement({id = 63610, criteria = 116418})}
 }) -- To a shield-bearer
