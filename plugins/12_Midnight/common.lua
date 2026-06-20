@@ -61,6 +61,12 @@ ns.groups.MIDNIGHT_LORE_HUNTER = Group('midnight_lore_hunter', 4549135, {
     achievement = 62104
 })
 
+ns.groups.THE_HONORED_DEAD = Group('the_honored_dead', 133740, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 63610
+})
+
 ns.groups.SAFARI = Group('safari', 2205238, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.COLLECTIBLE,
@@ -252,6 +258,14 @@ local GnomeAlone = Class('GnomeAlone', ns.node.Collectible,
     {icon = 133740, group = ns.groups.GNOME_ALONE})
 
 ns.node.GnomeAlone = GnomeAlone
+
+-------------------------------------------------------------------------------
+------------------------------- HONORED DEAD ----------------------------------
+-------------------------------------------------------------------------------
+
+local HonoredDead = Class('HonoredDead', ns.node.Collectible, {icon = 133740, group = ns.groups.THE_HONORED_DEAD})
+
+ns.node.HonoredDead = HonoredDead
 
 -------------------------------------------------------------------------------
 ------------------------------ PUT A PIN IN IT --------------------------------
