@@ -14,6 +14,8 @@ local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
 
+local HonoredDead = ns.node.HonoredDead
+
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
 local Item = ns.reward.Item
@@ -358,3 +360,77 @@ map.nodes[00000000] = SkyridingGlyph({
         Achievement({id = 63395, criteria = 115776})
     }
 }) -- Gate of the Serpent's Eye, the Coiled Isles
+
+-------------------------------------------------------------------------------
+------------------------------- THE HONORED DEAD ------------------------------
+-------------------------------------------------------------------------------
+
+-- Create vault subzone map (Vault of Atal'utek)
+local vault_map = Map({id = 2509, settings = true, parent = 2512})
+
+-- Criteria IDs for The Honored Dead (achievement 63610):
+-- 116407,116408,116409,116410,116411,116412,116413,116414,116415,116416,116417,116418
+
+-- To Failure (criteria 116413) - known coord and quest
+vault_map.nodes[45816179] = HonoredDead({
+    quest = 98035,
+    rewards = {
+        Achievement({id = 63610, criteria = 116413})
+    }
+}) -- To Failure
+
+-- Other criteria (placeholders for coords and quests)
+vault_map.nodes[00000000] = HonoredDead({
+    quest = 0, -- placeholder
+    rewards = { Achievement({id = 63610, criteria = 116407}) }
+}) -- Criteria 116407
+
+vault_map.nodes[00000000] = HonoredDead({
+    quest = 0,
+    rewards = { Achievement({id = 63610, criteria = 116408}) }
+}) -- Criteria 116408
+
+vault_map.nodes[00000000] = HonoredDead({
+    quest = 0,
+    rewards = { Achievement({id = 63610, criteria = 116409}) }
+}) -- Criteria 116409
+
+vault_map.nodes[00000000] = HonoredDead({
+    quest = 0,
+    rewards = { Achievement({id = 63610, criteria = 116410}) }
+}) -- Criteria 116410
+
+vault_map.nodes[00000000] = HonoredDead({
+    quest = 0,
+    rewards = { Achievement({id = 63610, criteria = 116411}) }
+}) -- Criteria 116411
+
+vault_map.nodes[00000000] = HonoredDead({
+    quest = 0,
+    rewards = { Achievement({id = 63610, criteria = 116412}) }
+}) -- Criteria 116412
+
+vault_map.nodes[00000000] = HonoredDead({
+    quest = 0,
+    rewards = { Achievement({id = 63610, criteria = 116414}) }
+}) -- Criteria 116414
+
+vault_map.nodes[00000000] = HonoredDead({
+    quest = 0,
+    rewards = { Achievement({id = 63610, criteria = 116415}) }
+}) -- Criteria 116415
+
+vault_map.nodes[00000000] = HonoredDead({
+    quest = 0,
+    rewards = { Achievement({id = 63610, criteria = 116416}) }
+}) -- Criteria 116416
+
+vault_map.nodes[00000000] = HonoredDead({
+    quest = 0,
+    rewards = { Achievement({id = 63610, criteria = 116417}) }
+}) -- Criteria 116417
+
+vault_map.nodes[00000000] = HonoredDead({
+    quest = 0,
+    rewards = { Achievement({id = 63610, criteria = 116418}) }
+}) -- Criteria 116418
