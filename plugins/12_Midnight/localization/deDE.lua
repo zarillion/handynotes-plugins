@@ -33,6 +33,10 @@ L['options_icons_profession_treasures_desc'] = 'Zeigt die Positionen der Schätz
 L['options_icons_safari'] = '{achievement:61091}'
 L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:61091} an.'
 
+L['options_icons_renowned_beast'] = 'Renowned Beasts'
+L['options_icons_renowned_beast_desc'] = 'Display locations of summonable daily beasts for Skinning'
+L['silverscale_note'] = 'Summoned below the bridge.'
+
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------
