@@ -403,7 +403,7 @@ vault_map.nodes[45816179] = HonoredDead({
     rewards = {Achievement({id = 63610, criteria = 116413})}
 }) -- To Failure
 
-vault_map.nodes[00000000] = HonoredDead({
+vault_map.nodes[46422397] = HonoredDead({
     quest = 98036,
     rewards = {Achievement({id = 63610, criteria = 116414})}
 }) -- To a father
