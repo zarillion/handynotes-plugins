@@ -32,6 +32,7 @@ local Path = ns.poi.Path
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2512, settings = true})
+local vault_map = Map({id = 2509, settings = true, parent = 2512})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -125,13 +126,34 @@ map.nodes[71303138] = Rare({
     }
 }) -- Sss'alik
 
-map.nodes[00000000] = Rare({
+map.nodes[52053229] = Rare({
     id = 0,
     quest = 95452,
     rewards = {
         Achievement({id = 63358, criteria = 115288})
     }
 }) -- Destra
+
+-- Oppose the Foes (Rare Elite) - Achievement 63601
+-- Criteria from screenshot: Congealed Malice - 116325, Khu'tulak - 116326, Susarikk - 116327
+
+vault_map.nodes[00000000] = RareElite({
+    id = 0,
+    quest = 0,
+    rewards = { Achievement({id = 63601, criteria = 116325}) }
+}) -- Congealed Malice
+
+vault_map.nodes[00000000] = RareElite({
+    id = 0,
+    quest = 0,
+    rewards = { Achievement({id = 63601, criteria = 116326}) }
+}) -- Khu'tulak
+
+vault_map.nodes[00000000] = RareElite({
+    id = 0,
+    quest = 0,
+    rewards = { Achievement({id = 63601, criteria = 116327}) }
+}) -- Susarikk
 
 -------------------------------------------------------------------------------
 ------------------------------- TREASURES ------------------------------------
@@ -140,88 +162,100 @@ map.nodes[00000000] = Rare({
 map.nodes[71886666] = Treasure({
     quest = 94569,
     rewards = {
-        Achievement({id = 63359, criteria = 115289})
+        Achievement({id = 63359, criteria = 115289}),
+        Reputation({id = 2772, gain = 50, quest = 94569})
     }
 }) -- Abandoned Amani Privateer's Cache
 
 map.nodes[45916628] = Treasure({
     quest = 95938,
     rewards = {
-        Achievement({id = 63359, criteria = 115313})
+        Achievement({id = 63359, criteria = 115313}),
+        Reputation({id = 2772, gain = 50, quest = 95938})
     }
 }) -- Fangbound Sack
 
 map.nodes[00000000] = Treasure({
     quest = 95907,
     rewards = {
-        Achievement({id = 63359, criteria = 115290})
+        Achievement({id = 63359, criteria = 115290}),
+        Reputation({id = 2772, gain = 50, quest = 95907})
     }
 }) -- Sunken Diver's Chest
 
 map.nodes[00000000] = Treasure({
     quest = 95956,
     rewards = {
-        Achievement({id = 63359, criteria = 115291})
+        Achievement({id = 63359, criteria = 115291}),
+        Reputation({id = 2772, gain = 50, quest = 95956})
     }
 }) -- Grave of Someone Forgotten
 
 map.nodes[00000000] = Treasure({
     quest = 95941,
     rewards = {
-        Achievement({id = 63359, criteria = 115292})
+        Achievement({id = 63359, criteria = 115292}),
+        Reputation({id = 2772, gain = 50, quest = 95941})
     }
 }) -- Profane Ritual Spoils
 
 map.nodes[00000000] = Treasure({
     quest = 95995,
     rewards = {
-        Achievement({id = 63359, criteria = 115294})
+        Achievement({id = 63359, criteria = 115294}),
+        Reputation({id = 2772, gain = 50, quest = 95995})
     }
 }) -- Brine-Crusted Chest
 
 map.nodes[31438349] = Treasure({
     quest = 96985,
     rewards = {
-        Achievement({id = 63359, criteria = 115295})
+        Achievement({id = 63359, criteria = 115295}),
+        Reputation({id = 2772, gain = 50, quest = 96985})
     }
 }) -- Posessed Vase
 
 map.nodes[00000000] = Treasure({
     quest = 95164,
     rewards = {
-        Achievement({id = 63359, criteria = 115306})
+        Achievement({id = 63359, criteria = 115306}),
+        Reputation({id = 2772, gain = 50, quest = 95164})
     }
 }) -- Malfunctioning Staff
 
 map.nodes[00000000] = Treasure({
     quest = 95563,
     rewards = {
-        Achievement({id = 63359, criteria = 115307})
+        Achievement({id = 63359, criteria = 115307}),
+        Reputation({id = 2772, gain = 50, quest = 95563})
     }
 }) -- Tarnished Amani Glaive
 
 map.nodes[00000000] = Treasure({
     quest = 95566,
     rewards = {
-        Achievement({id = 63359, criteria = 115309})
+        Achievement({id = 63359, criteria = 115309}),
+        Reputation({id = 2772, gain = 50, quest = 95566})
     }
 }) -- Jaktu's Cursed Blade
 
 map.nodes[68056590] = Treasure({
     quest = 95571,
     rewards = {
-        Achievement({id = 63359, criteria = 115310})
+        Achievement({id = 63359, criteria = 115310}),
+        Reputation({id = 2772, gain = 50, quest = 95571})
     }
 }) -- Lost Spirit
 
 map.nodes[58144355] = Treasure({
     quest = 95594,
     rewards = {
-        Achievement({id = 63359, criteria = 115312})
+        Achievement({id = 63359, criteria = 115312}),
+        Reputation({id = 2772, gain = 50, quest = 95594})
     }
 }) -- Cracked Skull
 
-map.nodes[00000000] = Treasure({
+map.nodes[46862957] = Treasure({
     quest = 95596,
     rewards = {
         Achievement({id = 63359, criteria = 115296})
@@ -231,63 +265,72 @@ map.nodes[00000000] = Treasure({
 map.nodes[00000000] = Treasure({
     quest = 95835,
     rewards = {
-        Achievement({id = 63359, criteria = 115298})
+        Achievement({id = 63359, criteria = 115298}),
+        Reputation({id = 2772, gain = 50, quest = 95835})
     }
 }) -- Venomjade Necklace
 
 map.nodes[00000000] = Treasure({
     quest = 95836,
     rewards = {
-        Achievement({id = 63359, criteria = 115299})
+        Achievement({id = 63359, criteria = 115299}),
+        Reputation({id = 2772, gain = 50, quest = 95836})
     }
 }) -- Ornate Bottle
 
 map.nodes[00000000] = Treasure({
     quest = 95841,
     rewards = {
-        Achievement({id = 63359, criteria = 115300})
+        Achievement({id = 63359, criteria = 115300}),
+        Reputation({id = 2772, gain = 50, quest = 95841})
     }
 }) -- Stinking Vessel
 
-map.nodes[00000000] = Treasure({
+map.nodes[49483198] = Treasure({
     quest = 95854,
     rewards = {
-        Achievement({id = 63359, criteria = 115301})
+        Achievement({id = 63359, criteria = 115301}),
+        Reputation({id = 2772, gain = 50, quest = 95854})
     }
 }) -- Waterlogged Basket
 
 map.nodes[00000000] = Treasure({
     quest = 95855,
     rewards = {
-        Achievement({id = 63359, criteria = 115302})
+        Achievement({id = 63359, criteria = 115302}),
+        Reputation({id = 2772, gain = 50, quest = 95855})
     }
 }) -- Smoldering Incense
 
 map.nodes[00000000] = Treasure({
     quest = 95558,
     rewards = {
-        Achievement({id = 63359, criteria = 115308})
+        Achievement({id = 63359, criteria = 115308}),
+        Reputation({id = 2772, gain = 50, quest = 95558})
     }
 }) -- Crumbling Urn
 
 map.nodes[64917889] = Treasure({
     quest = 95591,
     rewards = {
-        Achievement({id = 63359, criteria = 115314})
+        Achievement({id = 63359, criteria = 115314}),
+        Reputation({id = 2772, gain = 50, quest = 95591})
     }
 }) -- Forgotten Mask
 
 map.nodes[58194572] = Treasure({
     quest = 95976,
     rewards = {
-        Achievement({id = 63359, criteria = 115293})
+        Achievement({id = 63359, criteria = 115293}),
+        Reputation({id = 2772, gain = 50, quest = 95976})
     }
 }) -- Vul'zahn's Smuggled Treasure
 
 map.nodes[00000000] = Treasure({
     quest = 95727,
     rewards = {
-        Achievement({id = 63359, criteria = 115297})
+        Achievement({id = 63359, criteria = 115297}),
+        Reputation({id = 2772, gain = 50, quest = 95727})
     }
 }) -- Zul'jan's Stash
 
@@ -355,7 +398,7 @@ map.nodes[00000000] = SkyridingGlyph({
     }
 }) -- Blistering Terrace, the Coiled Isles
 
-map.nodes[00000000] = SkyridingGlyph({
+map.nodes[43824419] = SkyridingGlyph({
     rewards = {
         Achievement({id = 63395, criteria = 115776})
     }
@@ -365,13 +408,36 @@ map.nodes[00000000] = SkyridingGlyph({
 ------------------------------- THE HONORED DEAD ------------------------------
 -------------------------------------------------------------------------------
 
--- Create vault subzone map (Vault of Atal'utek)
-local vault_map = Map({id = 2509, settings = true, parent = 2512})
+vault_map.nodes[49505659] = HonoredDead({
+    quest = 98029,
+    rewards = { Achievement({id = 63610, criteria = 116407}) }
+}) -- To  daughter
 
--- Criteria IDs for The Honored Dead (achievement 63610):
--- 116407,116408,116409,116410,116411,116412,116413,116414,116415,116416,116417,116418
+vault_map.nodes[00000000] = HonoredDead({
+    quest = 98030,
+    rewards = { Achievement({id = 63610, criteria = 116408}) }
+}) -- To a lover
 
--- To Failure (criteria 116413) - known coord and quest
+vault_map.nodes[00000000] = HonoredDead({
+    quest = 98031,
+    rewards = { Achievement({id = 63610, criteria = 116409}) }
+}) -- To parents
+
+vault_map.nodes[55624060] = HonoredDead({
+    quest = 98032,
+    rewards = { Achievement({id = 63610, criteria = 116410}) }
+}) --To a dream
+
+vault_map.nodes[52913390] = HonoredDead({
+    quest = 98033,
+    rewards = { Achievement({id = 63610, criteria = 116411}) }
+}) -- To a captain
+
+vault_map.nodes[00000000] = HonoredDead({
+    quest = 98034,
+    rewards = { Achievement({id = 63610, criteria = 116412}) }
+}) -- To sons
+
 vault_map.nodes[45816179] = HonoredDead({
     quest = 98035,
     rewards = {
@@ -379,58 +445,27 @@ vault_map.nodes[45816179] = HonoredDead({
     }
 }) -- To Failure
 
--- Other criteria (placeholders for coords and quests)
 vault_map.nodes[00000000] = HonoredDead({
-    quest = 0, -- placeholder
-    rewards = { Achievement({id = 63610, criteria = 116407}) }
-}) -- Criteria 116407
-
-vault_map.nodes[00000000] = HonoredDead({
-    quest = 0,
-    rewards = { Achievement({id = 63610, criteria = 116408}) }
-}) -- Criteria 116408
-
-vault_map.nodes[00000000] = HonoredDead({
-    quest = 0,
-    rewards = { Achievement({id = 63610, criteria = 116409}) }
-}) -- Criteria 116409
-
-vault_map.nodes[00000000] = HonoredDead({
-    quest = 0,
-    rewards = { Achievement({id = 63610, criteria = 116410}) }
-}) -- Criteria 116410
-
-vault_map.nodes[00000000] = HonoredDead({
-    quest = 0,
-    rewards = { Achievement({id = 63610, criteria = 116411}) }
-}) -- Criteria 116411
-
-vault_map.nodes[00000000] = HonoredDead({
-    quest = 0,
-    rewards = { Achievement({id = 63610, criteria = 116412}) }
-}) -- Criteria 116412
-
-vault_map.nodes[00000000] = HonoredDead({
-    quest = 0,
+    quest = 98036,
     rewards = { Achievement({id = 63610, criteria = 116414}) }
-}) -- Criteria 116414
+}) -- To a father
 
 vault_map.nodes[00000000] = HonoredDead({
-    quest = 0,
+    quest = 98037,
     rewards = { Achievement({id = 63610, criteria = 116415}) }
-}) -- Criteria 116415
+}) -- To a sister
 
 vault_map.nodes[00000000] = HonoredDead({
-    quest = 0,
+    quest = 98038,
     rewards = { Achievement({id = 63610, criteria = 116416}) }
-}) -- Criteria 116416
+}) -- To Comrades
 
 vault_map.nodes[00000000] = HonoredDead({
-    quest = 0,
+    quest = 98039,
     rewards = { Achievement({id = 63610, criteria = 116417}) }
-}) -- Criteria 116417
+}) -- To a stranger
 
 vault_map.nodes[00000000] = HonoredDead({
-    quest = 0,
+    quest = 98040,
     rewards = { Achievement({id = 63610, criteria = 116418}) }
-}) -- Criteria 116418
+}) -- To a shield-bearer
