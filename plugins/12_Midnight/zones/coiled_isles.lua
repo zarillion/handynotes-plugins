@@ -20,6 +20,7 @@ local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
 local Item = ns.reward.Item
 local Transmog = ns.reward.Transmog
+local Toy = ns.reward.Toy
 local Reputation = ns.reward.Reputation
 local Section = ns.reward.Section
 local Spacer = ns.reward.Spacer
@@ -44,7 +45,7 @@ map.nodes[53777204] = Rare({
     rewards = {Achievement({id = 63358, criteria = 115279})}
 }) -- Farthik the Plunderer - click the chest to spawn/agro rare
 
-map.nodes[500006907] = Rare({
+map.nodes[50006907] = Rare({
     id = 268049,
     quest = 97112,
     rewards = {Achievement({id = 63358, criteria = 115280})}
@@ -62,8 +63,8 @@ map.nodes[31665672] = Rare({
     rewards = {Achievement({id = 63358, criteria = 115284})}
 }) -- Lockjaw
 
-map.nodes[00000000] = Rare({
-    id = 0,
+map.nodes[43855086] = Rare({
+    id = 265262,
     quest = 96464,
     rewards = {Achievement({id = 63358, criteria = 115281})}
 }) -- Hisstara
@@ -81,7 +82,7 @@ map.nodes[70174529] = Rare({
 }) -- Garsecg
 
 map.nodes[52064479] = Rare({
-    id = 0,
+    id = 258920,
     quest = 94860,
     rewards = {Achievement({id = 63358, criteria = 115283})}
 }) -- Nar'zira - coords maybe?
@@ -98,14 +99,14 @@ map.nodes[70036344] = Rare({
     rewards = {Achievement({id = 63358, criteria = 115286})}
 }) -- Big Mon / Ancient Hulk -- patrols
 
-map.nodes[71303138] = Rare({
-    id = 0,
+map.nodes[58534006] = Rare({
+    id = 261109,
     quest = 95447,
     rewards = {Achievement({id = 63358, criteria = 115287})}
 }) -- Sss'alik
 
 map.nodes[52053229] = Rare({
-    id = 0,
+    id = 261142,
     quest = 95452,
     rewards = {Achievement({id = 63358, criteria = 115288})}
 }) -- Destra
@@ -133,6 +134,9 @@ vault_map.nodes[00000000] = RareElite({
 -------------------------------------------------------------------------------
 ------------------------------- TREASURES ------------------------------------
 -------------------------------------------------------------------------------
+---
+---
+---
 
 map.nodes[71886666] = Treasure({
     quest = 94569,
@@ -150,7 +154,7 @@ map.nodes[45916628] = Treasure({
     }
 }) -- Fangbound Sack
 
-map.nodes[00000000] = Treasure({
+map.nodes[65440560] = Treasure({
     quest = 95907,
     rewards = {
         Achievement({id = 63359, criteria = 115290}),
@@ -158,7 +162,7 @@ map.nodes[00000000] = Treasure({
     }
 }) -- Sunken Diver's Chest
 
-map.nodes[00000000] = Treasure({
+map.nodes[67264846] = Treasure({
     quest = 95956,
     rewards = {
         Achievement({id = 63359, criteria = 115291}),
@@ -174,13 +178,13 @@ map.nodes[00000000] = Treasure({
     }
 }) -- Profane Ritual Spoils
 
-map.nodes[00000000] = Treasure({
+map.nodes[70637663] = Treasure({
     quest = 95995,
     rewards = {
         Achievement({id = 63359, criteria = 115294}),
         Reputation({id = 2772, gain = 50, quest = 95995})
     }
-}) -- Brine-Crusted Chest
+}) -- Brine-Crusted Chest / Anceint Amani Chest
 
 map.nodes[31438349] = Treasure({
     quest = 96985,
@@ -190,15 +194,16 @@ map.nodes[31438349] = Treasure({
     }
 }) -- Posessed Vase
 
-map.nodes[00000000] = Treasure({
+map.nodes[75376833] = Treasure({
     quest = 95164,
     rewards = {
         Achievement({id = 63359, criteria = 115306}),
-        Reputation({id = 2772, gain = 50, quest = 95164})
+        Reputation({id = 2772, gain = 50, quest = 95164}),
+        Toy({item = 268504}) -- [Malfunctioning Staff]
     }
 }) -- Malfunctioning Staff
 
-map.nodes[00000000] = Treasure({
+map.nodes[55213796] = Treasure({
     quest = 95563,
     rewards = {
         Achievement({id = 63359, criteria = 115307}),
@@ -206,11 +211,12 @@ map.nodes[00000000] = Treasure({
     }
 }) -- Tarnished Amani Glaive
 
-map.nodes[00000000] = Treasure({
+map.nodes[60435946] = Treasure({
     quest = 95566,
     rewards = {
         Achievement({id = 63359, criteria = 115309}),
-        Reputation({id = 2772, gain = 50, quest = 95566})
+        Reputation({id = 2772, gain = 50, quest = 95566}),
+        Toy({item = 277954})
     }
 }) -- Jaktu's Cursed Blade
 
@@ -219,6 +225,10 @@ map.nodes[68056590] = Treasure({
     rewards = {
         Achievement({id = 63359, criteria = 115310}),
         Reputation({id = 2772, gain = 50, quest = 95571})
+    },
+    note = 'return the Forgotten Trinket to the lost spirit',
+    pois = {
+        POI({points = {70226450}, label = '{item:269935}'})
     }
 }) -- Lost Spirit
 
@@ -232,7 +242,10 @@ map.nodes[58144355] = Treasure({
 
 map.nodes[46862957] = Treasure({
     quest = 95596,
-    rewards = {Achievement({id = 63359, criteria = 115296})}
+    rewards = {
+        Achievement({id = 63359, criteria = 115296}),
+        Reputation({id = 2772, gain = 50, quest = 95596})
+    }
 }) -- Damaged Loa Trinket
 
 map.nodes[00000000] = Treasure({
@@ -251,13 +264,13 @@ map.nodes[00000000] = Treasure({
     }
 }) -- Ornate Bottle
 
-map.nodes[00000000] = Treasure({
+map.nodes[53094310] = Treasure({
     quest = 95841,
     rewards = {
         Achievement({id = 63359, criteria = 115300}),
         Reputation({id = 2772, gain = 50, quest = 95841})
     }
-}) -- Stinking Vessel
+}) -- Stinking Vessel /Intact Vessel
 
 map.nodes[49483198] = Treasure({
     quest = 95854,
@@ -315,7 +328,7 @@ map.nodes[37416053] = SkyridingGlyph({
     rewards = {Achievement({id = 63395, criteria = 115491})}
 }) -- The Fangs, the Coiled Isles
 
-map.nodes[00000000] = SkyridingGlyph({
+map.nodes[26636314] = SkyridingGlyph({
     rewards = {Achievement({id = 63395, criteria = 115766})}
 }) -- The Forum, the Coiled Isles
 
@@ -323,11 +336,11 @@ map.nodes[28827523] = SkyridingGlyph({
     rewards = {Achievement({id = 63395, criteria = 115768})}
 }) -- The Wreck of Sethralis's Scales, the Coiled Isles
 
-map.nodes[00000000] = SkyridingGlyph({
+map.nodes[40559049] = SkyridingGlyph({
     rewards = {Achievement({id = 63395, criteria = 115769})}
 }) -- Southern Island, the Coiled Isles
 
-map.nodes[00000000] = SkyridingGlyph({
+map.nodes[45846493] = SkyridingGlyph({
     rewards = {Achievement({id = 63395, criteria = 115770})}
 }) -- Gate of the Eastern Fang, the Coiled Isles
 
@@ -343,11 +356,11 @@ map.nodes[70284816] = SkyridingGlyph({
     rewards = {Achievement({id = 63395, criteria = 115773})}
 }) -- The Wreck of Paku's Talon, the Coiled Isles
 
-map.nodes[00000000] = SkyridingGlyph({
+map.nodes[52013841] = SkyridingGlyph({
     rewards = {Achievement({id = 63395, criteria = 115774})}
 }) -- The Serpent's Tail, the Coiled Isles
 
-map.nodes[00000000] = SkyridingGlyph({
+map.nodes[42883059] = SkyridingGlyph({
     rewards = {Achievement({id = 63395, criteria = 115775})}
 }) -- Blistering Terrace, the Coiled Isles
 
