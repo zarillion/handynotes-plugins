@@ -31,8 +31,8 @@ local sgp = Map({id = 2506, settings = false}) -- Shadowguard Point
 
 -- local tor = Map({id = 2507, settings = false}) -- Torment's Rise ?
 
-local rog = Map({id = 0, settings = false}) -- The Ring of Glory (map ID needed)
-local gni = Map({id = 0, settings = false}) -- Gnarldor Isle (map ID needed)
+local rog = Map({id = 2633, settings = false}) -- The Ring of Glory
+local gni = Map({id = 2635, settings = false}) -- Gnarldor Isle
 
 -------------------------------------------------------------------------------
 
@@ -283,21 +283,21 @@ sgp.nodes[58264151] = SturdyChest({
 ------------------------------ THE RING OF GLORY ------------------------------
 -------------------------------------------------------------------------------
 
-rog.nodes[50005000] = SturdyChest({ -- coords needed
+rog.nodes[44162260] = SturdyChest({
     achievementID = 63171,
-    quest = 0, -- quest ID needed
+    quest = 96807,
     rlabel = ns.status.Gray('#1')
 })
 
-rog.nodes[50005001] = SturdyChest({ -- coords needed
+rog.nodes[25197374] = SturdyChest({
     achievementID = 63171,
-    quest = 0, -- quest ID needed
+    quest = 96803,
     rlabel = ns.status.Gray('#2')
 })
 
-rog.nodes[50005002] = SturdyChest({ -- coords needed
+rog.nodes[48569484] = SturdyChest({
     achievementID = 63171,
-    quest = 0, -- quest ID needed
+    quest = 96806,
     rlabel = ns.status.Gray('#3')
 })
 
@@ -305,19 +305,19 @@ rog.nodes[50005002] = SturdyChest({ -- coords needed
 -------------------------------- GNARLDOR ISLE --------------------------------
 -------------------------------------------------------------------------------
 
-gni.nodes[50005000] = SturdyChest({ -- coords needed
+gni.nodes[60446812] = SturdyChest({
     achievementID = 63170,
-    quest = 0, -- quest ID needed
+    quest = 96802,
     rlabel = ns.status.Gray('#1')
-})
+}) -- [Delver's Arcane Golem] mount drop random or fixed?
 
-gni.nodes[50005001] = SturdyChest({ -- coords needed
+gni.nodes[28433816] = SturdyChest({
     achievementID = 63170,
-    quest = 0, -- quest ID needed
+    quest = 96805,
     rlabel = ns.status.Gray('#2')
 })
 
-gni.nodes[50005002] = SturdyChest({ -- coords needed
+gni.nodes[10005002] = SturdyChest({ -- coords needed
     achievementID = 63170,
     quest = 0, -- quest ID needed
     rlabel = ns.status.Gray('#3')
