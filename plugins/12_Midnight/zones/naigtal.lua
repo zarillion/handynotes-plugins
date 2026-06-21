@@ -18,15 +18,17 @@ local Entrance = ns.poi.Entrance
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2600, settings = true})
+local vcr = Map({id = 2646, settings = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[28806290] = Rare({
+vcr.nodes[72607940] = Rare({
     id = 264569,
     quest = 96316,
     location = L['in_building'],
+    parent = map.id,
     rewards = {
         Achievement({id = 62883, criteria = 114009}), -- Showdown Slugger: Naigtal
         Achievement({id = 63348, criteria = 115253}), -- Heroic Slugger
@@ -148,37 +150,36 @@ map.nodes[48804740] = Rare({
 ------------------------------- TREASURES ------------------------------------
 -------------------------------------------------------------------------------
 
---[=[
-map.nodes[00000000] = Treasure({
-    -- Spawns randomly in Vilaldoun cave
+vcr.nodes[52905730] = Treasure({
+    label = L['ancient_crypt_reliquary'],
+    note = L['multiple_spawns'],
+    location = L['in_building'],
+    parent = map.id,
     rewards = {
         Transmog({item = 276292, type = L['offhand']}), -- Ancient Anchorite's Beacon
         Transmog({item = 276303, type = L['1h_sword']}), -- Blessed Blade of Taalvilor
         Transmog({item = 276285, type = L['1h_sword']}), -- Elonath's Defender's Sword
-        Transmog({item = 276302, type = L['1h_mace']}), -- Taalvilor Crystalsmith's Mace
-    }
+        Transmog({item = 276302, type = L['1h_mace']}) -- Taalvilor Crystalsmith's Mace
+    },
+    pois = {Entrance({28005060})}
 }) -- Ancient Crypt Reliquary
-]=]
-
---[=[
-map.nodes[00000000] = Treasure({
-    -- Spawns randomly throughout the zone
-}) -- Hal'hadar Pocket-Storage
-]=]
 
 map.nodes[26304710] = Treasure({
+    note = L['multiple_spawns'],
     rewards = {
         Transmog({item = 276296, type = L['leather']}) -- Soltian Wrangler's Grip
     }
 }) -- Squirming Mollusk
 
 map.nodes[76205070] = Treasure({
+    note = L['multiple_spawns'],
     rewards = {
         Transmog({item = 276296, type = L['leather']}) -- Soltian Wrangler's Grip
     }
 }) -- Squirming Mollusk
 
 map.nodes[78406880] = Treasure({
+    note = L['multiple_spawns'],
     rewards = {
         Transmog({item = 276296, type = L['leather']}) -- Soltian Wrangler's Grip
     }
@@ -205,10 +206,37 @@ map.nodes[68255161] = Treasure({
         Pet({item = 262768, id = 4965}) -- Sleepy Mandrake
     },
     pois = {
-        POI({points = {28906176}, icon = 134528, label = '{item:276365}', quest = 97091}), -- Highland Redcap
-        POI({points = {27914996}, icon = 134528, label = '{item:276366}', quest = 97092, location = L['in_building']}), -- Dusty Redcap
-        POI({points = {71423705}, icon = 134528, label = '{item:276367}', quest = 97093, location = L['in_cave']}), -- Marshy Redcap
-        POI({points = {78504000}, icon = 134528, label = '{item:276368}', quest = 97094}), -- Partially-Digested Redcap
-        POI({points = {95092667}, icon = 134528, label = '{item:276369}', quest = 97095}) -- Airy Redcap
+        POI({
+            points = {28906176},
+            icon = 134528,
+            label = '{item:276365}',
+            quest = 97091
+        }), -- Highland Redcap
+        POI({
+            points = {27914996},
+            icon = 134528,
+            label = '{item:276366}',
+            quest = 97092,
+            location = L['in_building']
+        }), -- Dusty Redcap
+        POI({
+            points = {71423705},
+            icon = 134528,
+            label = '{item:276367}',
+            quest = 97093,
+            location = L['in_cave']
+        }), -- Marshy Redcap
+        POI({
+            points = {78504000},
+            icon = 134528,
+            label = '{item:276368}',
+            quest = 97094
+        }), -- Partially-Digested Redcap
+        POI({
+            points = {95092667},
+            icon = 134528,
+            label = '{item:276369}',
+            quest = 97095
+        }) -- Airy Redcap
     }
 }) -- Sleepy Mandrake
