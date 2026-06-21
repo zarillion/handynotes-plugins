@@ -110,6 +110,11 @@ L['kalika_note'] = 'Speak with {npc:258884}, then interact with the {object:Forg
 L['songseeker_ikaja_note'] = 'On top of the Temple.'
 
 -------------------------------------------------------------------------------
+----------------------------------- NAIGTAL ------------------------------------
+
+L['sleepy_mandrake_note'] = 'Find and feed 5 unique Redcap mushrooms to the {npc:267910} in Sleeper\'s Grotto. Each mushroom has a different source in the zone.'
+
+-------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
 -------------------------------------------------------------------------------
 

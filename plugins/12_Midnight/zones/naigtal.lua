@@ -9,8 +9,10 @@ local Rare = ns.node.Rare
 local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 local Achievement = ns.reward.Achievement
+local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
 
+local POI = ns.poi.POI
 local Entrance = ns.poi.Entrance
 
 -------------------------------------------------------------------------------
@@ -49,7 +51,7 @@ map.nodes[45105540] = Rare({
     }
 }) -- Broxion <Contagious Anomaly>
 
-map.nodes[54004300] = RareElite({
+map.nodes[54604230] = RareElite({
     id = 264571,
     quest = 96317,
     rewards = {
@@ -84,7 +86,7 @@ map.nodes[68506220] = Rare({
     }
 }) -- Lomelith
 
-map.nodes[77703800] = Rare({
+map.nodes[77703830] = Rare({
     id = 263954,
     quest = 96207,
     rewards = {
@@ -181,3 +183,32 @@ map.nodes[78406880] = Treasure({
         Transmog({item = 276296, type = L['leather']}) -- Soltian Wrangler's Grip
     }
 }) -- Squirming Mollusk
+
+-------------------------------------------------------------------------------
+----------------------------- PET: SLEEPY MANDRAKE ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[68255161] = Treasure({
+    label = '{npc:267910}',
+    icon = 7467154,
+    location = L['in_cave'],
+    quest = {97091, 97092, 97093, 97094, 97095},
+    note = L['sleepy_mandrake_note'],
+    requires = {
+        ns.requirement.Item(276365), -- Highland Redcap
+        ns.requirement.Item(276366), -- Dusty Redcap
+        ns.requirement.Item(276367), -- Marshy Redcap
+        ns.requirement.Item(276368), -- Partially-Digested Redcap
+        ns.requirement.Item(276369) -- Airy Redcap
+    },
+    rewards = {
+        Pet({item = 262768, id = 4965}) -- Sleepy Mandrake
+    },
+    pois = {
+        POI({points = {28906176}, icon = 134528, label = '{item:276365}', quest = 97091}), -- Highland Redcap
+        POI({points = {27914996}, icon = 134528, label = '{item:276366}', quest = 97092, location = L['in_building']}), -- Dusty Redcap
+        POI({points = {71423705}, icon = 134528, label = '{item:276367}', quest = 97093, location = L['in_cave']}), -- Marshy Redcap
+        POI({points = {78504000}, icon = 134528, label = '{item:276368}', quest = 97094}), -- Partially-Digested Redcap
+        POI({points = {95092667}, icon = 134528, label = '{item:276369}', quest = 97095}) -- Airy Redcap
+    }
+}) -- Sleepy Mandrake
