@@ -24,6 +24,7 @@ local map = Map({id = 2600, settings = true})
 map.nodes[28806290] = Rare({
     id = 264569,
     quest = 96316,
+    location = L['in_building'],
     rewards = {
         Achievement({id = 62883, criteria = 114009}), -- Showdown Slugger: Naigtal
         Achievement({id = 63348, criteria = 115253}), -- Heroic Slugger
@@ -35,7 +36,7 @@ map.nodes[28806290] = Rare({
     pois = {Entrance({28005060})}
 }) -- Auredar's Chassis <The Vacant Vigilant>
 
-map.nodes[44205100] = Rare({
+map.nodes[45105540] = Rare({
     id = 263950,
     quest = 96206,
     rewards = {
@@ -96,7 +97,7 @@ map.nodes[77703800] = Rare({
     }
 }) -- Swalewing Matriarch
 
-map.nodes[56106140] = Rare({
+map.nodes[55206200] = Rare({
     id = 264576,
     quest = 96320,
     rewards = {
