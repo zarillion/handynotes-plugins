@@ -21,7 +21,7 @@ map.nodes[44605280] = Rare({
     id = 264866,
     rewards = {
         Achievement({id = 62881, criteria = 114000}), -- Showdown Slugger: Val
-        Achievement({id = 63348, criteria = 115262}), -- Heroic Slugger
+        Achievement({id = 63348, criteria = 115262}) -- Heroic Slugger
     }
 }) -- Krilkan
 
@@ -29,7 +29,7 @@ map.nodes[49707920] = Rare({
     id = 264865,
     rewards = {
         Achievement({id = 62881, criteria = 113998}), -- Showdown Slugger: Val
-        Achievement({id = 63348, criteria = 115260}), -- Heroic Slugger
+        Achievement({id = 63348, criteria = 115260}) -- Heroic Slugger
     }
 }) -- Mercilus
 
@@ -37,7 +37,7 @@ map.nodes[55206560] = Rare({
     id = 261965,
     rewards = {
         Achievement({id = 62881, criteria = 113995}), -- Showdown Slugger: Val
-        Achievement({id = 63348, criteria = 115257}), -- Heroic Slugger
+        Achievement({id = 63348, criteria = 115257}) -- Heroic Slugger
     }
 }) -- Sleet-Rune
 
@@ -45,7 +45,7 @@ map.nodes[29007380] = Rare({
     id = 264864,
     rewards = {
         Achievement({id = 62881, criteria = 113999}), -- Showdown Slugger: Val
-        Achievement({id = 63348, criteria = 115261}), -- Heroic Slugger
+        Achievement({id = 63348, criteria = 115261}) -- Heroic Slugger
     }
 }) -- Xirah
 
