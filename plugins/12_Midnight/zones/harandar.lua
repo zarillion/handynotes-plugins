@@ -774,7 +774,7 @@ map.nodes[61101950] = Safari.Waddles({})
 -------------------------------- RENOWNED BEASTS ---------------------------------
 
 map.nodes[66694772] = RenownedBeast({
-    label = 'Lumefin',
+    label = '{npc:245690}',
     quest = 88531,
     rewards = {ns.reward.Item({item = 238530})},
     requires = ns.requirement.Item(238654)

@@ -643,7 +643,7 @@ map.nodes[44903540] = Safari.SwampBiter({
 -------------------------------- RENOWNED BEASTS ---------------------------------
 
 map.nodes[47555372] = RenownedBeast({
-    label = 'Silverscale',
+    label = '{npc:245699}',
     quest = 88526,
     note = L['silverscale_note'],
     rewards = {ns.reward.Item({item = 238528})},
