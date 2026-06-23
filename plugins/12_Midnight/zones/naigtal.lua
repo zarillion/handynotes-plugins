@@ -176,7 +176,12 @@ map.nodes[24705500] = Collectible({
         Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
     },
     pois = {
-        POI({points = {26304710, 37302370, 61307210, 61507180, 72603130, 76205070, 78406880}, icon = 'chest_gy'}),
+        POI({
+            points = {
+                26304710, 37302370, 61307210, 61507180, 72603130, 76205070,
+                78406880
+            }
+        })
     }
 }) -- Squirming Mollusk
 

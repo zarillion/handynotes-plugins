@@ -1,4 +1,4 @@
-local ADDON_NAME, ns = ...
+﻿local ADDON_NAME, ns = ...
 local L = ns.NewLocale('zhTW')
 if not L then return end
 
@@ -114,6 +114,7 @@ L['songseeker_ikaja_note'] = nil
 
 L['sleepy_mandrake_note'] = nil
 L['ancient_crypt_reliquary'] = nil
+L['squirming_mollusk'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- 亞肯提納 ----------------------------------

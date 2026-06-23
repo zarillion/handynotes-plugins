@@ -114,6 +114,7 @@ L['songseeker_ikaja_note'] = '位于神庙顶层。'
 
 L['sleepy_mandrake_note'] = '在沉睡者洞穴中找到 {npc:267910}，喂给它5种不同的红伞菇即可获得此战斗宠物。'
 L['ancient_crypt_reliquary'] = '远古地穴圣匣'
+L['squirming_mollusk'] = '蠕动软体动物'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
@@ -130,4 +131,3 @@ L['sturdy_chest_suffix'] = '已找到坚固宝箱'
 
 L['gulf_of_memory_chest_note'] = '沿着树的根部向上攀爬以到达宝藏。'
 
-L['squirming_mollusk'] = '蠕动软体动物'
