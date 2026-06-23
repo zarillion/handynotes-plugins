@@ -168,6 +168,7 @@ vcr.nodes[52905730] = Collectible({
 }) -- Ancient Crypt Reliquary
 
 map.nodes[24705500] = Collectible({
+    label = L['squirming_mollusk'],
     note = L['multiple_spawns'],
     icon = 'chest_gy',
     group = ns.groups.TREASURE,

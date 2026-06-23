@@ -1,4 +1,4 @@
-local ADDON_NAME, ns = ...
+﻿local ADDON_NAME, ns = ...
 local L = ns.NewLocale('enUS')
 if not L then return end
 
@@ -114,6 +114,7 @@ L['songseeker_ikaja_note'] = 'On top of the Temple.'
 
 L['sleepy_mandrake_note'] = 'Find and feed 5 unique Redcap mushrooms to the {npc:267910} in Sleeper\'s Grotto. Each mushroom has a different source in the zone.'
 L['ancient_crypt_reliquary'] = 'Ancient Crypt Reliquary'
+L['squirming_mollusk'] = 'Squirming Mollusk'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
