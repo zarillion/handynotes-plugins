@@ -5,8 +5,8 @@ local ADDON_NAME, ns = ...
 local Map = ns.Map
 
 local Rare = ns.node.Rare
-local RareElite = ns.node.RareElite
-local Treasure = ns.node.Treasure
+-- local RareElite = ns.node.RareElite
+-- local Treasure = ns.node.Treasure
 local Achievement = ns.reward.Achievement
 
 -------------------------------------------------------------------------------
