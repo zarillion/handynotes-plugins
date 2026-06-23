@@ -168,6 +168,15 @@ vcr.nodes[52905730] = Collectible({
     pois = {Entrance({28005060})}
 }) -- Ancient Crypt Reliquary
 
+map.nodes[29802910] = Collectible({
+    label = L['spiked_shell'],
+    icon = 'chest_gy',
+    group = ns.groups.TREASURE,
+    rewards = {
+        Transmog({item = 235986, slot = L['cloak']}) -- Pointy Half-Shell
+    }
+}) -- Spiked Shell
+
 local SquirmingMollusk = Class('SquirmingMollusk', Collectible, {
     label = L['squirming_mollusk'],
     note = L['multiple_spawns'],
