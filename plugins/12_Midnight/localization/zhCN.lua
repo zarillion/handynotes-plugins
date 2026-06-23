@@ -132,4 +132,3 @@ L['sturdy_chest'] = '坚固宝箱'
 L['sturdy_chest_suffix'] = '已找到坚固宝箱'
 
 L['gulf_of_memory_chest_note'] = '沿着树的根部向上攀爬以到达宝藏。'
-
