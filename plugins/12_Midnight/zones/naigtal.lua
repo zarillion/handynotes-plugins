@@ -173,69 +173,9 @@ map.nodes[24705500] = Collectible({
     group = ns.groups.TREASURE,
     rewards = {
         Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
-    }
-}) -- Squirming Mollusk
-
-map.nodes[26304710] = Collectible({
-    note = L['multiple_spawns'],
-    icon = 'chest_gy',
-    group = ns.groups.TREASURE,
-    rewards = {
-        Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
-    }
-}) -- Squirming Mollusk
-
-map.nodes[37302370] = Collectible({
-    note = L['multiple_spawns'],
-    icon = 'chest_gy',
-    group = ns.groups.TREASURE,
-    rewards = {
-        Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
-    }
-}) -- Squirming Mollusk
-
-map.nodes[61307210] = Collectible({
-    note = L['multiple_spawns'],
-    icon = 'chest_gy',
-    group = ns.groups.TREASURE,
-    rewards = {
-        Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
-    }
-}) -- Squirming Mollusk
-
-map.nodes[61507180] = Collectible({
-    note = L['multiple_spawns'],
-    icon = 'chest_gy',
-    group = ns.groups.TREASURE,
-    rewards = {
-        Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
-    }
-}) -- Squirming Mollusk
-
-map.nodes[72603130] = Collectible({
-    note = L['multiple_spawns'],
-    icon = 'chest_gy',
-    group = ns.groups.TREASURE,
-    rewards = {
-        Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
-    }
-}) -- Squirming Mollusk
-
-map.nodes[76205070] = Collectible({
-    note = L['multiple_spawns'],
-    icon = 'chest_gy',
-    group = ns.groups.TREASURE,
-    rewards = {
-        Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
-    }
-}) -- Squirming Mollusk
-
-map.nodes[78406880] = Collectible({
-    note = L['multiple_spawns'],
-    icon = 'chest_gy',
-    group = ns.groups.TREASURE,
-    rewards = {
-        Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
+    },
+    pois = {
+        POI({points = {26304710, 37302370, 61307210, 61507180, 72603130, 76205070, 78406880}, icon = 'chest_gy'}),
     }
 }) -- Squirming Mollusk
 
