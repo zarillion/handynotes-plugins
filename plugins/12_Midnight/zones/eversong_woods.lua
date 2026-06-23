@@ -617,11 +617,8 @@ iqd.nodes[43303030] = Safari.WrathfulWyrm({pois = {POI({43303030, 49302230})}})
 -------------------------------- RENOWNED BEASTS ---------------------------------
 
 map.nodes[42337962] = RenownedBeast({
-  label = 'Gloomclaw',
-  quest = 88545,
-  rewards = {
-    ns.reward.Item({item = 238529}),
-    ns.reward.Item({item = 238528}),
-  },
-  requires = ns.requirement.Item(238652),
+    label = 'Gloomclaw',
+    quest = 88545,
+    rewards = {ns.reward.Item({item = 238529}), ns.reward.Item({item = 238528})},
+    requires = ns.requirement.Item(238652)
 })

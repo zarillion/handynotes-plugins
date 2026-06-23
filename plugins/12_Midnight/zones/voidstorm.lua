@@ -707,22 +707,18 @@ ns.hooks.areapoievent.Add(ns.groups.STORMARION_ASSAULT,
 -------------------------------- RENOWNED BEASTS ---------------------------------
 
 map.nodes[54646534] = RenownedBeast({
-  label = 'Umbrafang',
-  quest = 88532,
-  rewards = {
-     ns.reward.Item({item = 238529}),
-     ns.reward.Item({item = 238528}),
-  },
-  requires = ns.requirement.Item(238655),
+    label = 'Umbrafang',
+    quest = 88532,
+    rewards = {ns.reward.Item({item = 238529}), ns.reward.Item({item = 238528})},
+    requires = ns.requirement.Item(238655)
 })
 
 map.nodes[43078268] = RenownedBeast({
-  label = 'Netherscythe',
-  quest = 88524,
-  rewards = {
-     ns.reward.Item({item = 238529}),
-     ns.reward.Item({item = 238530}),
-     ns.reward.Item({item = 238528}),
-  },
-  requires = ns.requirement.Item(238656),
+    label = 'Netherscythe',
+    quest = 88524,
+    rewards = {
+        ns.reward.Item({item = 238529}), ns.reward.Item({item = 238530}),
+        ns.reward.Item({item = 238528})
+    },
+    requires = ns.requirement.Item(238656)
 })
