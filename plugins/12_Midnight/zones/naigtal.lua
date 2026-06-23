@@ -26,7 +26,7 @@ local vcr = Map({id = 2646, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-vcr.nodes[72607940] = Rare({
+vcr.nodes[73608340] = Rare({
     id = 264569,
     quest = 96316,
     location = L['in_building'],
@@ -190,7 +190,6 @@ local SquirmingMollusk = Class('SquirmingMollusk', Collectible, {
 map.nodes[24705500] = SquirmingMollusk()
 map.nodes[26304710] = SquirmingMollusk()
 map.nodes[37302370] = SquirmingMollusk()
-map.nodes[61307210] = SquirmingMollusk()
 map.nodes[61507180] = SquirmingMollusk()
 map.nodes[72603130] = SquirmingMollusk()
 map.nodes[76205070] = SquirmingMollusk()
