@@ -1,4 +1,4 @@
-﻿local ADDON_NAME, ns = ...
+local ADDON_NAME, ns = ...
 local L = ns.NewLocale('ruRU')
 if not L then return end
 -- Russian translation by ZamestoTV, Сстра (Ирина)
@@ -111,6 +111,7 @@ L['songseeker_ikaja_note'] = 'На вершине храма.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAIGTAL ------------------------------------
+-------------------------------------------------------------------------------
 
 L['sleepy_mandrake_note'] = nil
 L['ancient_crypt_reliquary'] = nil
