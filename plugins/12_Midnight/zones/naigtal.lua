@@ -1,4 +1,4 @@
--------------------------------------------------------------------------------
+﻿-------------------------------------------------------------------------------
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
@@ -167,12 +167,57 @@ vcr.nodes[52905730] = Collectible({
     pois = {Entrance({28005060})}
 }) -- Ancient Crypt Reliquary
 
+map.nodes[24705500] = Collectible({
+    note = L['multiple_spawns'],
+    icon = 'chest_gy',
+    group = ns.groups.TREASURE,
+    rewards = {
+        Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
+    }
+}) -- Squirming Mollusk
+
 map.nodes[26304710] = Collectible({
     note = L['multiple_spawns'],
     icon = 'chest_gy',
     group = ns.groups.TREASURE,
     rewards = {
-        Transmog({item = 276296, type = L['leather']}) -- Soltian Wrangler's Grip
+        Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
+    }
+}) -- Squirming Mollusk
+
+map.nodes[37302370] = Collectible({
+    note = L['multiple_spawns'],
+    icon = 'chest_gy',
+    group = ns.groups.TREASURE,
+    rewards = {
+        Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
+    }
+}) -- Squirming Mollusk
+
+map.nodes[61307210] = Collectible({
+    note = L['multiple_spawns'],
+    icon = 'chest_gy',
+    group = ns.groups.TREASURE,
+    rewards = {
+        Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
+    }
+}) -- Squirming Mollusk
+
+map.nodes[61507180] = Collectible({
+    note = L['multiple_spawns'],
+    icon = 'chest_gy',
+    group = ns.groups.TREASURE,
+    rewards = {
+        Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
+    }
+}) -- Squirming Mollusk
+
+map.nodes[72603130] = Collectible({
+    note = L['multiple_spawns'],
+    icon = 'chest_gy',
+    group = ns.groups.TREASURE,
+    rewards = {
+        Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
     }
 }) -- Squirming Mollusk
 
@@ -181,7 +226,7 @@ map.nodes[76205070] = Collectible({
     icon = 'chest_gy',
     group = ns.groups.TREASURE,
     rewards = {
-        Transmog({item = 276296, type = L['leather']}) -- Soltian Wrangler's Grip
+        Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
     }
 }) -- Squirming Mollusk
 
@@ -190,7 +235,7 @@ map.nodes[78406880] = Collectible({
     icon = 'chest_gy',
     group = ns.groups.TREASURE,
     rewards = {
-        Transmog({item = 276296, type = L['leather']}) -- Soltian Wrangler's Grip
+        Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
     }
 }) -- Squirming Mollusk
 
@@ -249,3 +294,4 @@ map.nodes[68255161] = Treasure({
         }) -- Airy Redcap
     }
 }) -- Sleepy Mandrake
+
