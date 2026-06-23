@@ -7,6 +7,7 @@ local Map = ns.Map
 
 local Rare = ns.node.Rare
 local RareElite = ns.node.RareElite
+local Class = ns.Class
 local Collectible = ns.node.Collectible
 local Treasure = ns.node.Treasure
 local Achievement = ns.reward.Achievement
@@ -167,23 +168,24 @@ vcr.nodes[52905730] = Collectible({
     pois = {Entrance({28005060})}
 }) -- Ancient Crypt Reliquary
 
-map.nodes[24705500] = Collectible({
+local SquirmingMollusk = Class('SquirmingMollusk', Collectible, {
     label = L['squirming_mollusk'],
     note = L['multiple_spawns'],
     icon = 'chest_gy',
     group = ns.groups.TREASURE,
     rewards = {
         Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
-    },
-    pois = {
-        POI({
-            points = {
-                26304710, 37302370, 61307210, 61507180, 72603130, 76205070,
-                78406880
-            }
-        })
     }
 }) -- Squirming Mollusk
+
+map.nodes[24705500] = SquirmingMollusk()
+map.nodes[26304710] = SquirmingMollusk()
+map.nodes[37302370] = SquirmingMollusk()
+map.nodes[61307210] = SquirmingMollusk()
+map.nodes[61507180] = SquirmingMollusk()
+map.nodes[72603130] = SquirmingMollusk()
+map.nodes[76205070] = SquirmingMollusk()
+map.nodes[78406880] = SquirmingMollusk()
 
 -------------------------------------------------------------------------------
 ----------------------------- PET: SLEEPY MANDRAKE ------------------------------
