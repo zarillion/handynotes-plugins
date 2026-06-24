@@ -37,7 +37,8 @@ vcr.nodes[73608340] = Rare({
         Transmog({item = 275167, type = L['plate']}), -- Intact Construct Plates
         Transmog({item = 275159, type = L['mail']}), -- Construct Manipulator Bracers
         Transmog({item = 275151, type = L['leather']}), -- Bands of Draenic Mourning
-        Transmog({item = 275143, type = L['cloth']}) -- Draeni Ceremonial Cuffs
+        Transmog({item = 275143, type = L['cloth']}), -- Draeni Ceremonial Cuffs
+        Transmog({item = 274873, type = L['staff']}) -- Funeral Attendant's Spire
     },
     pois = {Entrance({28005060})}
 }) -- Auredar's Chassis <The Vacant Vigilant>
@@ -64,7 +65,8 @@ map.nodes[54604230] = RareElite({
         Transmog({item = 275164, type = L['plate']}), -- Indomitable Mechanized Legplates
         Transmog({item = 275156, type = L['mail']}), -- Gear-Linked Leggings
         Transmog({item = 275148, type = L['leather']}), -- Reaver's Padded Trousers
-        Transmog({item = 275140, type = L['cloth']}) -- Leggings of Tainted Stuffing
+        Transmog({item = 275140, type = L['cloth']}), -- Leggings of Tainted Stuffing
+        Transmog({item = 276298, type = L['dagger']}) -- Forgotten Fel Shard Talon
     }
 }) -- Indomitable Mk XII <Blazing Reaver>
 
@@ -77,7 +79,9 @@ map.nodes[37606180] = Rare({
         Transmog({item = 275163, type = L['plate']}), -- Uarn's Reinforced Headplate
         Transmog({item = 275155, type = L['mail']}), -- Interminable Fungal Helmet
         Transmog({item = 275147, type = L['leather']}), -- Bioluminescent Swamp Mask
-        Transmog({item = 275139, type = L['cloth']}) -- Crown of Fungal Spores
+        Transmog({item = 275139, type = L['cloth']}), -- Crown of Fungal Spores
+        Transmog({item = 274876, type = L['shield']}), -- Reinforced Fungalhide Bulwark
+        Transmog({item = 274862, type = L['dagger']}) -- Corrupted Draenei Priest's Kris
     }
 }) -- Interminable Uarn <The Undying Stalk>
 
@@ -86,7 +90,9 @@ map.nodes[68506220] = Rare({
     quest = 96208,
     rewards = {
         Achievement({id = 62883, criteria = 114008}), -- Showdown Slugger: Naigtal
-        Achievement({id = 63348, criteria = 115252}) -- Heroic Slugger
+        Achievement({id = 63348, criteria = 115252}), -- Heroic Slugger
+        Transmog({item = 274819, type = L['cloak']}), -- Fungal Fold Frock
+        Transmog({item = 274860, type = L['1h_axe']}) -- Ancient Spore-Coated Axe
     }
 }) -- Lomelith
 
@@ -99,7 +105,8 @@ map.nodes[77703830] = Rare({
         Transmog({item = 275161, type = L['plate']}), -- Swamp-Resistant Stompers
         Transmog({item = 275153, type = L['mail']}), -- Flickering Scale Sabatons
         Transmog({item = 275145, type = L['leather']}), -- Swalewing Skin Footpads
-        Transmog({item = 275137, type = L['cloth']}) -- Flickering Soft-Steppers
+        Transmog({item = 275137, type = L['cloth']}), -- Flickering Soft-Steppers
+        Transmog({item = 274874, type = L['2h_sword']}) -- Flickering Wing Separator
     }
 }) -- Swalewing Matriarch
 
@@ -112,7 +119,8 @@ map.nodes[55206200] = Rare({
         Transmog({item = 275160, type = L['plate']}), -- Slaipaan's Carapace
         Transmog({item = 275152, type = L['mail']}), -- Burrower's Linked Hauberk
         Transmog({item = 275144, type = L['leather']}), -- Leafy-Hide Coat
-        Transmog({item = 275136, type = L['cloth']}) -- Leaf-Woven Blouse
+        Transmog({item = 275136, type = L['cloth']}), -- Leaf-Woven Blouse
+        Transmog({item = 274871, type = L['dagger']}) -- Giant Worm Piercer
     }
 }) -- Slaipaan
 
@@ -125,7 +133,8 @@ map.nodes[29701920] = Rare({
         Transmog({item = 275157, type = L['mail']}), -- Swampwalker's Spaulders
         Transmog({item = 275149, type = L['leather']}), -- Fungal Draped Epaulets
         Transmog({item = 275141, type = L['cloth']}), -- Spore-Speckled Shoulderpads
-        Transmog({item = 274864, type = L['1h_mace']}) -- Sporebloom Gavel
+        Transmog({item = 274864, type = L['1h_mace']}), -- Sporebloom Gavel
+        Transmog({item = 276298, type = L['dagger']}) -- Forgotten Fel Shard Talon
     }
 }) -- Warbringer Thal'kuur
 
@@ -134,7 +143,10 @@ map.nodes[70307640] = Rare({
     quest = 96319,
     rewards = {
         Achievement({id = 62883, criteria = 114010}), -- Showdown Slugger: Naigtal
-        Achievement({id = 63348, criteria = 115254}) -- Heroic Slugger
+        Achievement({id = 63348, criteria = 115254}), -- Heroic Slugger
+        Transmog({item = 274821, type = L['cloak']}), -- Drape of the Hal'hadar Assassin
+        Transmog({item = 274870, type = L['bow']}) -- Assassin's Void String Bow
+
     }
 }) -- Warp Agent Xi'grivr
 
@@ -145,7 +157,8 @@ map.nodes[48804740] = Rare({
         Transmog({item = 275166, type = L['plate']}), -- Voidwarped Greatbelt
         Transmog({item = 275158, type = L['mail']}), -- Voidwarped Scale Girdle
         Transmog({item = 275150, type = L['leather']}), -- Sporebat Leather Belt
-        Transmog({item = 275142, type = L['cloth']}) -- Voidwarped Sash
+        Transmog({item = 275142, type = L['cloth']}), -- Voidwarped Sash
+        Transmog({item = 274866, type = L['1h_sword']}) -- Voidwarped Edge
     }
 }) -- Voidwarped Sporebat
 
