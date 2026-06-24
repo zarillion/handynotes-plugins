@@ -114,7 +114,7 @@ L['songseeker_ikaja_note'] = 'Au sommet du temple.'
 ----------------------------------- NAIGTAL ------------------------------------
 -------------------------------------------------------------------------------
 
-L['sleepy_mandrake_note'] = nil
+L['sleepy_mandrake_note'] = 'Trouvez 5 Amanites différentes et donnez-les à la {npc:267910} dans la Grotte du Dormeur. Chaque Amanite se trouve à un endroit différent dans la zone.'
 L['ancient_crypt_reliquary'] = nil
 L['squirming_mollusk'] = nil
 L['spiked_shell'] = nil
