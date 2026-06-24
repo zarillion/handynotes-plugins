@@ -34,6 +34,7 @@ local Path = ns.poi.Path
 
 local map = Map({id = 2512, settings = true})
 local vault_map = Map({id = 2509, settings = true, parent = 2512})
+local vault_map2 = Map({id = 2613, settings = true, parent = 2509})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
@@ -69,8 +70,8 @@ map.nodes[43855086] = Rare({
     rewards = {Achievement({id = 63358, criteria = 115281})}
 }) -- Hisstara
 
-map.nodes[00000000] = Rare({
-    id = 0,
+vault_map2.nodes[38401769] = Rare({
+    id = 263456,
     quest = 96030,
     rewards = {Achievement({id = 63358, criteria = 115282})}
 }) -- Szarith the Fanged
@@ -381,82 +382,82 @@ map.nodes[43824419] = SkyridingGlyph({
 -------------------------------------------------------------------------------
 
 -- Student of Hissstory placeholder positions until live coordinates are confirmed.
-map.nodes[50005000] = LoreObject({
+map.nodes[10005000] = LoreObject({
     quest = 96946,
     rewards = {
-        Achievement({id = 63662, criteria = 231731}),
+        Achievement({id = 63662, criteria = 116702}),
         Reputation({id = 2772, gain = 250, quest = 96946})
     }
 }) -- Head Mason's Tablet
 
-map.nodes[50015001] = LoreObject({
+map.nodes[57358036] = LoreObject({
     quest = 96947,
     rewards = {
-        Achievement({id = 63662, criteria = 231732}),
+        Achievement({id = 63662, criteria = 116703}),
         Reputation({id = 2772, gain = 250, quest = 96947})
     }
 }) -- Amani Exile's Words
 
-map.nodes[50025002] = LoreObject({
+map.nodes[70006597] = LoreObject({
     quest = 96945,
     rewards = {
-        Achievement({id = 63662, criteria = 231733}),
+        Achievement({id = 63662, criteria = 116704}),
         Reputation({id = 2772, gain = 250, quest = 96945})
     }
 }) -- Worn Tablet
 
-map.nodes[50035003] = LoreObject({
+map.nodes[50756820] = LoreObject({
     quest = 98302,
     rewards = {
-        Achievement({id = 63662, criteria = 231734}),
+        Achievement({id = 63662, criteria = 116705}),
         Reputation({id = 2772, gain = 250, quest = 98302})
     }
 }) -- Abandoned Tablet
 
-map.nodes[50045004] = LoreObject({
+map.nodes[31628374] = LoreObject({
     quest = 98303,
     rewards = {
-        Achievement({id = 63662, criteria = 231735}),
+        Achievement({id = 63662, criteria = 116706}),
         Reputation({id = 2772, gain = 250, quest = 98303})
     }
 }) -- Message in a Bottle
 
-map.nodes[50055005] = LoreObject({
+map.nodes[45774793] = LoreObject({
     quest = 98304,
     rewards = {
-        Achievement({id = 63662, criteria = 231736}),
+        Achievement({id = 63662, criteria = 116707}),
         Reputation({id = 2772, gain = 250, quest = 98304})
     }
 }) -- Oily Black Stone
 
-map.nodes[50065006] = LoreObject({
+map.nodes[25026775] = LoreObject({
     quest = 98305,
     rewards = {
-        Achievement({id = 63662, criteria = 231737}),
+        Achievement({id = 63662, criteria = 116708}),
         Reputation({id = 2772, gain = 250, quest = 98305})
     }
 }) -- Forum Rules
 
-map.nodes[50075007] = LoreObject({
+map.nodes[10075007] = LoreObject({
     quest = 98306,
     rewards = {
-        Achievement({id = 63662, criteria = 231738}),
+        Achievement({id = 63662, criteria = 116709}),
         Reputation({id = 2772, gain = 250, quest = 98306})
     }
 }) -- Survival Journals
 
-map.nodes[50085008] = LoreObject({
+map.nodes[71944492] = LoreObject({
     quest = 98307,
     rewards = {
-        Achievement({id = 63662, criteria = 231739}),
+        Achievement({id = 63662, criteria = 116710}),
         Reputation({id = 2772, gain = 250, quest = 98307})
     }
 }) -- Zandalari Logbook
 
-map.nodes[50095009] = LoreObject({
+map.nodes[10095009] = LoreObject({
     quest = 98308,
     rewards = {
-        Achievement({id = 63662, criteria = 231740}),
+        Achievement({id = 63662, criteria = 116711}),
         Reputation({id = 2772, gain = 250, quest = 98308})
     }
 }) -- Profaned Plaque
@@ -470,12 +471,12 @@ vault_map.nodes[49505659] = HonoredDead({
     rewards = {Achievement({id = 63610, criteria = 116407})}
 }) -- To  daughter
 
-vault_map.nodes[00000000] = HonoredDead({
+vault_map.nodes[52214512] = HonoredDead({
     quest = 98030,
     rewards = {Achievement({id = 63610, criteria = 116408})}
 }) -- To a lover
 
-vault_map.nodes[00000000] = HonoredDead({
+vault_map.nodes[55314845] = HonoredDead({
     quest = 98031,
     rewards = {Achievement({id = 63610, criteria = 116409})}
 }) -- To parents
@@ -490,7 +491,7 @@ vault_map.nodes[52913390] = HonoredDead({
     rewards = {Achievement({id = 63610, criteria = 116411})}
 }) -- To a captain
 
-vault_map.nodes[00000000] = HonoredDead({
+vault_map.nodes[42914123] = HonoredDead({
     quest = 98034,
     rewards = {Achievement({id = 63610, criteria = 116412})}
 }) -- To sons
@@ -505,22 +506,22 @@ vault_map.nodes[46422397] = HonoredDead({
     rewards = {Achievement({id = 63610, criteria = 116414})}
 }) -- To a father
 
-vault_map.nodes[00000000] = HonoredDead({
+vault_map.nodes[46790751] = HonoredDead({
     quest = 98037,
     rewards = {Achievement({id = 63610, criteria = 116415})}
 }) -- To a sister
 
-vault_map.nodes[00000000] = HonoredDead({
+vault_map.nodes[38504766] = HonoredDead({
     quest = 98038,
     rewards = {Achievement({id = 63610, criteria = 116416})}
 }) -- To Comrades
 
-vault_map.nodes[00000000] = HonoredDead({
+vault_map.nodes[42573318] = HonoredDead({
     quest = 98039,
     rewards = {Achievement({id = 63610, criteria = 116417})}
-}) -- To a stranger
+}) -- To a stranger (below bridge)
 
-vault_map.nodes[00000000] = HonoredDead({
+vault_map.nodes[56042831] = HonoredDead({
     quest = 98040,
     rewards = {Achievement({id = 63610, criteria = 116418})}
 }) -- To a shield-bearer
