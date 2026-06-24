@@ -182,9 +182,20 @@ map.nodes[70637663] = Treasure({
     quest = 95995,
     rewards = {
         Achievement({id = 63359, criteria = 115294}),
-        Reputation({id = 2772, gain = 50, quest = 95995})
+        Reputation({id = 2772, gain = 50, quest = 95995}),
+        Toy({item = 274921}) -- [Pearl of Jubilation]
     }
 }) -- Brine-Crusted Chest / Anceint Amani Chest
+--- Baubling Clam - go search for baubling clams till you find [Luminescent Pearl]
+--- then go to 70587707 to place it {quest 96001},
+--- Nacretta {npc:263347} will come get the pearl and drop [Dropped Key]
+--- pickup the key quest:96002
+--- open treasure
+---
+--- 69588248
+--- 70968167
+--- 71898283
+--- 71338330
 
 map.nodes[31438349] = Treasure({
     quest = 96985,
@@ -363,6 +374,92 @@ map.nodes[42883059] = SkyridingGlyph({
 map.nodes[43824419] = SkyridingGlyph({
     rewards = {Achievement({id = 63395, criteria = 115776})}
 }) -- Gate of the Serpent's Eye, the Coiled Isles
+
+
+-------------------------------------------------------------------------------
+---------------------------- COILED ISLES LORE HUNTER --------------------------
+-------------------------------------------------------------------------------
+
+-- Student of Hissstory placeholder positions until live coordinates are confirmed.
+map.nodes[50005000] = LoreObject({
+    quest = 96946,
+    rewards = {
+        Achievement({id = 63662, criteria = 231731}),
+        Reputation({id = 2772, gain = 250, quest = 96946})
+    }
+}) -- Head Mason's Tablet
+
+map.nodes[50015001] = LoreObject({
+    quest = 96947,
+    rewards = {
+        Achievement({id = 63662, criteria = 231732}),
+        Reputation({id = 2772, gain = 250, quest = 96947})
+    }
+}) -- Amani Exile's Words
+
+map.nodes[50025002] = LoreObject({
+    quest = 96945,
+    rewards = {
+        Achievement({id = 63662, criteria = 231733}),
+        Reputation({id = 2772, gain = 250, quest = 96945})
+    }
+}) -- Worn Tablet
+
+map.nodes[50035003] = LoreObject({
+    quest = 98302,
+    rewards = {
+        Achievement({id = 63662, criteria = 231734}),
+        Reputation({id = 2772, gain = 250, quest = 98302})
+    }
+}) -- Abandoned Tablet
+
+map.nodes[50045004] = LoreObject({
+    quest = 98303,
+    rewards = {
+        Achievement({id = 63662, criteria = 231735}),
+        Reputation({id = 2772, gain = 250, quest = 98303})
+    }
+}) -- Message in a Bottle
+
+map.nodes[50055005] = LoreObject({
+    quest = 98304,
+    rewards = {
+        Achievement({id = 63662, criteria = 231736}),
+        Reputation({id = 2772, gain = 250, quest = 98304})
+    }
+}) -- Oily Black Stone
+
+map.nodes[50065006] = LoreObject({
+    quest = 98305,
+    rewards = {
+        Achievement({id = 63662, criteria = 231737}),
+        Reputation({id = 2772, gain = 250, quest = 98305})
+    }
+}) -- Forum Rules
+
+map.nodes[50075007] = LoreObject({
+    quest = 98306,
+    rewards = {
+        Achievement({id = 63662, criteria = 231738}),
+        Reputation({id = 2772, gain = 250, quest = 98306})
+    }
+}) -- Survival Journals
+
+map.nodes[50085008] = LoreObject({
+    quest = 98307,
+    rewards = {
+        Achievement({id = 63662, criteria = 231739}),
+        Reputation({id = 2772, gain = 250, quest = 98307})
+    }
+}) -- Zandalari Logbook
+
+map.nodes[50095009] = LoreObject({
+    quest = 98308,
+    rewards = {
+        Achievement({id = 63662, criteria = 231740}),
+        Reputation({id = 2772, gain = 250, quest = 98308})
+    }
+}) -- Profaned Plaque
 
 -------------------------------------------------------------------------------
 ------------------------------- THE HONORED DEAD ------------------------------
