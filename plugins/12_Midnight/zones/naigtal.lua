@@ -171,6 +171,7 @@ vcr.nodes[52905730] = Collectible({
     note = L['multiple_spawns'],
     location = L['in_building'],
     icon = 'chest_gy',
+    scale = 1.2,
     parent = map.id,
     group = ns.groups.TREASURE,
     rewards = {
@@ -184,7 +185,7 @@ vcr.nodes[52905730] = Collectible({
 
 map.nodes[29802910] = Collectible({
     label = L['spiked_shell'],
-    icon = 'chest_gy',
+    icon = 6361206,
     group = ns.groups.TREASURE,
     rewards = {
         Transmog({item = 235986, slot = L['cloak']}) -- Pointy Half-Shell
@@ -194,7 +195,7 @@ map.nodes[29802910] = Collectible({
 local SquirmingMollusk = Class('SquirmingMollusk', Collectible, {
     label = L['squirming_mollusk'],
     note = L['multiple_spawns'],
-    icon = 'chest_gy',
+    icon = 135602,
     group = ns.groups.TREASURE,
     rewards = {
         Transmog({item = 276296, type = L['fist']}) -- Soltian Wrangler's Grip
