@@ -256,7 +256,7 @@ map.nodes[46862957] = Treasure({
     }
 }) -- Damaged Loa Trinket
 
-map.nodes[00000000] = Treasure({
+map.nodes[64723665] = Treasure({
     quest = 95835,
     rewards = {
         Achievement({id = 63359, criteria = 115298}),
@@ -264,7 +264,7 @@ map.nodes[00000000] = Treasure({
     }
 }) -- Venomjade Necklace
 
-map.nodes[00000000] = Treasure({
+map.nodes[66912806] = Treasure({
     quest = 95836,
     rewards = {
         Achievement({id = 63359, criteria = 115299}),
@@ -296,7 +296,7 @@ map.nodes[00000000] = Treasure({
     }
 }) -- Smoldering Incense
 
-map.nodes[00000000] = Treasure({
+map.nodes[73445661] = Treasure({
     quest = 95558,
     rewards = {
         Achievement({id = 63359, criteria = 115308}),
@@ -320,7 +320,7 @@ map.nodes[58194572] = Treasure({
     }
 }) -- Vul'zahn's Smuggled Treasure
 
-map.nodes[00000000] = Treasure({
+map.nodes[43902654] = Treasure({
     quest = 95727,
     rewards = {
         Achievement({id = 63359, criteria = 115297}),
@@ -438,7 +438,7 @@ map.nodes[25026775] = LoreObject({
     }
 }) -- Forum Rules
 
-map.nodes[10075007] = LoreObject({
+map.nodes[34103645] = LoreObject({
     quest = 98306,
     rewards = {
         Achievement({id = 63662, criteria = 116709}),
@@ -454,7 +454,7 @@ map.nodes[71944492] = LoreObject({
     }
 }) -- Zandalari Logbook
 
-map.nodes[10095009] = LoreObject({
+map.nodes[32566366] = LoreObject({
     quest = 98308,
     rewards = {
         Achievement({id = 63662, criteria = 116711}),
