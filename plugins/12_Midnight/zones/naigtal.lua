@@ -124,7 +124,8 @@ map.nodes[29701920] = Rare({
         Transmog({item = 275165, type = L['plate']}), -- Petrified Mushroom Shoulderplates
         Transmog({item = 275157, type = L['mail']}), -- Swampwalker's Spaulders
         Transmog({item = 275149, type = L['leather']}), -- Fungal Draped Epaulets
-        Transmog({item = 275141, type = L['cloth']}) -- Spore-Speckled Shoulderpads
+        Transmog({item = 275141, type = L['cloth']}), -- Spore-Speckled Shoulderpads
+        Transmog({item = 274864, type = L['1h_mace']}) -- Sporebloom Gavel
     }
 }) -- Warbringer Thal'kuur
 
