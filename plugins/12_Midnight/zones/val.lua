@@ -10,6 +10,7 @@ local RareElite = ns.node.RareElite
 local Achievement = ns.reward.Achievement
 local Transmog = ns.reward.Transmog
 
+local Arrow = ns.poi.Arrow
 local Entrance = ns.poi.Entrance
 
 -------------------------------------------------------------------------------
@@ -25,7 +26,8 @@ map.nodes[42605830] = Rare({
     quest = 96372,
     rewards = {
         Achievement({id = 62881, criteria = 114000}), -- Showdown Slugger: Val
-        Achievement({id = 63348, criteria = 115262}) -- Heroic Slugger
+        Achievement({id = 63348, criteria = 115262}), -- Heroic Slugger
+        Transmog({item = 274851, type = L['mail']}) -- Glittering Frostscale Wraps
     }
 }) -- Krilkan
 
@@ -34,7 +36,8 @@ map.nodes[49707920] = Rare({
     quest = 96371,
     rewards = {
         Achievement({id = 62881, criteria = 113998}), -- Showdown Slugger: Val
-        Achievement({id = 63348, criteria = 115260}) -- Heroic Slugger
+        Achievement({id = 63348, criteria = 115260}), -- Heroic Slugger
+        Transmog({item = 274867, type = L['1h_sword']}) -- Inscribed Domanaar's Sword
     }
 }) -- Mercilus
 
@@ -54,7 +57,8 @@ map.nodes[28507450] = Rare({
     quest = 96370,
     rewards = {
         Achievement({id = 62881, criteria = 113999}), -- Showdown Slugger: Val
-        Achievement({id = 63348, criteria = 115261}) -- Heroic Slugger
+        Achievement({id = 63348, criteria = 115261}), -- Heroic Slugger
+        Transmog({item = 274875, type = L['offhand']}) -- Riftwalker's Lantern
     }
 }) -- Xirah
 
@@ -65,8 +69,11 @@ map.nodes[67204180] = RareElite({
     rewards = {
         Achievement({id = 62881, criteria = 113997}), -- Showdown Slugger: Val
         Achievement({id = 63348, criteria = 115259}), -- Heroic Slugger
-        Transmog({item = 274849, type = L['mail']}) -- Frostscale Spider's Monnion
-    }
+        Transmog({item = 274857, type = L['plate']}), -- Chitonous Broodmother's Spaulders
+        Transmog({item = 274849, type = L['mail']}), -- Frostscale Spider's Monnion
+        Transmog({item = 274833, type = L['cloth']}) -- Icy Spidersilk Mantle
+    },
+    pois = {Entrance({57204845})}
 }) -- Glacial Broodmother
 
 map.nodes[33304300] = Rare({
@@ -87,7 +94,7 @@ map.nodes[35305780] = Rare({
         Achievement({id = 62881, criteria = 114003}), -- Showdown Slugger: Val
         Achievement({id = 63348, criteria = 115265}) -- Heroic Slugger
     },
-    pois = {Entrance({43107140})}
+    pois = {Arrow({35305780, 43107140})}
 }) -- The Horror Below
 
 map.nodes[37907725] = Rare({
