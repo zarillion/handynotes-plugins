@@ -265,4 +265,3 @@ map.nodes[68255161] = Treasure({
         }) -- Airy Redcap
     }
 }) -- Sleepy Mandrake
-
