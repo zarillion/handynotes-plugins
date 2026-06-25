@@ -49,7 +49,8 @@ map.nodes[66808640] = Rare({
         Achievement({id = 62881, criteria = 113995}), -- Showdown Slugger: Val
         Achievement({id = 63348, criteria = 115257}), -- Heroic Slugger
         Transmog({item = 274828, type = L['cloth']}) -- Domanaar Subjugator's Vestments
-    }
+    },
+    pois = {Entrance({61707880})}
 }) -- Sleet-Rune
 
 map.nodes[28507450] = Rare({
