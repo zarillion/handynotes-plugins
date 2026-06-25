@@ -2,12 +2,15 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 local Map = ns.Map
 
 local Rare = ns.node.Rare
 local RareElite = ns.node.RareElite
--- local Treasure = ns.node.Treasure
 local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
+
+local Entrance = ns.poi.Entrance
 
 -------------------------------------------------------------------------------
 
@@ -35,11 +38,14 @@ map.nodes[49707920] = Rare({
     }
 }) -- Mercilus
 
-map.nodes[55206560] = Rare({
+map.nodes[66808640] = Rare({
     id = 261965,
+    quest = 95939,
+    location = L['in_cave'],
     rewards = {
         Achievement({id = 62881, criteria = 113995}), -- Showdown Slugger: Val
-        Achievement({id = 63348, criteria = 115257}) -- Heroic Slugger
+        Achievement({id = 63348, criteria = 115257}), -- Heroic Slugger
+        Transmog({item = 274828, type = L['cloth']}) -- Domanaar Subjugator's Vestments
     }
 }) -- Sleet-Rune
 
@@ -58,49 +64,52 @@ map.nodes[67204180] = RareElite({
     location = L['in_cave'],
     rewards = {
         Achievement({id = 62881, criteria = 113997}), -- Showdown Slugger: Val
-        Achievement({id = 63348, criteria = 115259}) -- Heroic Slugger
+        Achievement({id = 63348, criteria = 115259}), -- Heroic Slugger
+        Transmog({item = 274849, type = L['mail']}) -- Frostscale Spider's Monnion
     }
 }) -- Glacial Broodmother
 
---[=[
-map.nodes[00000000] = Rare({
+map.nodes[33304300] = Rare({
     id = 264868,
+    quest = 96373,
     rewards = {
         Achievement({id = 62881, criteria = 114001}), -- Showdown Slugger: Val
         Achievement({id = 63348, criteria = 115263}), -- Heroic Slugger
+        Transmog({item = 274837, type = L['leather']}) -- Corrupted Hide Boots
     }
 }) -- Opprimius
-]=]
 
---[=[
-map.nodes[00000000] = Rare({
+map.nodes[35305780] = Rare({
     id = 264870,
+    quest = 999999,
+    location = L['in_cave'],
     rewards = {
         Achievement({id = 62881, criteria = 114003}), -- Showdown Slugger: Val
-        Achievement({id = 63348, criteria = 115265}), -- Heroic Slugger
-    }
+        Achievement({id = 63348, criteria = 115265}) -- Heroic Slugger
+    },
+    pois = {Entrance({43107140})}
 }) -- The Horror Below
-]=]
 
---[=[
-map.nodes[00000000] = Rare({
+map.nodes[37907725] = Rare({
     id = 262421,
+    quest = 96088,
     rewards = {
         Achievement({id = 62881, criteria = 113996}), -- Showdown Slugger: Val
-        Achievement({id = 63348, criteria = 115258}), -- Heroic Slugger
+        Achievement({id = 63348, criteria = 115258}) -- Heroic Slugger
     }
 }) -- Atomus
-]=]
 
---[=[
-map.nodes[00000000] = Rare({
+map.nodes[23204140] = Rare({
     id = 264869,
+    quest = 96374,
+    location = L['in_cave'],
     rewards = {
         Achievement({id = 62881, criteria = 114002}), -- Showdown Slugger: Val
         Achievement({id = 63348, criteria = 115264}), -- Heroic Slugger
+        Transmog({item = 274856, type = L['plate']}), -- Felguard's Frozen Greaves
+        Transmog({item = 274840, type = L['leather']}) -- Pants of the Lost Legion
     }
 }) -- Nelgothar
-]=]
 
 --[=[
 map.nodes[00000000] = RareElite({
@@ -110,14 +119,4 @@ map.nodes[00000000] = RareElite({
         Achievement({id = 63348, criteria = 115266}), -- Heroic Slugger
     }
 }) -- Shadowguard Destroyer
-]=]
-
--------------------------------------------------------------------------------
-------------------------------- TREASURES ------------------------------------
--------------------------------------------------------------------------------
-
---[=[
-map.nodes[00000000] = Treasure({
-    -- Spawns randomly throughout the zone
-}) -- Dominaar Storage Vessel (random spawn)
 ]=]
