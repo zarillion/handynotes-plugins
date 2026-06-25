@@ -9,5 +9,7 @@
   <Script file="zones\arcantina.lua"/>
   <Script file="zones\delves.lua"/>
   <Script file="zones\abundance.lua"/>
+  <Script file="zones\naigtal.lua"/>
+  <Script file="zones\val.lua"/>
   <!-- -->
 </Ui>
