@@ -127,8 +127,8 @@ L['spiked_shell'] = nil
 ------------------------------------- VAL --------------------------------------
 -------------------------------------------------------------------------------
 
-L['enchanted_hilt'] = nil
-L['enchanted_hilt_note'] = nil
+L['enchanted_hilt'] = 'Garde enchantée'
+L['enchanted_hilt_note'] = 'Mode héroïque uniquement.\n\nCliquez sur la {object:Garde enchantée} pour obtenir {spell:1300397}, puis battez soit deux fois le Boss hors instance {npc:261072} ou deux monstres rares du haut-fait {achievement:62881} dans la zone. Retournez auprès de la Garde pour recevoir le trésor.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
