@@ -15,6 +15,7 @@ local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
 local Moth = ns.node.Moth
+local RenownedBeast = ns.node.RenownedBeast
 
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
@@ -769,3 +770,12 @@ map.nodes[41506980] = Safari.Silkcrawler({
     pois = {POI({41506980, 57804410, 39403380, 61902720, 48455859, 50462682})}
 })
 map.nodes[61101950] = Safari.Waddles({})
+
+-------------------------------- RENOWNED BEASTS ---------------------------------
+
+map.nodes[66694772] = RenownedBeast({
+    label = '{npc:245690}',
+    quest = 88531,
+    rewards = {ns.reward.Item({item = 238530})},
+    requires = ns.requirement.Item(238654)
+})

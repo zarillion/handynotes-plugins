@@ -18,6 +18,7 @@ local Songseeker = ns.node.Songseeker
 local SpiritpawMarathon = ns.node.SpiritpawMarathon
 local GnomeAlone = ns.node.GnomeAlone
 local PutAPinInIt = ns.node.PutAPinInIt
+local RenownedBeast = ns.node.RenownedBeast
 
 local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
@@ -637,4 +638,14 @@ map.nodes[48602360] = Safari.DragonhawkMosswing({
 map.nodes[42205450] = Safari.Pangolil({pois = {POI({42205450, 38695442})}})
 map.nodes[44903540] = Safari.SwampBiter({
     pois = {POI({44903540, 46803590, 51406510, 51406480, 47474984})}
+})
+
+-------------------------------- RENOWNED BEASTS ---------------------------------
+
+map.nodes[47555372] = RenownedBeast({
+    label = '{npc:245699}',
+    quest = 88526,
+    note = L['silverscale_note'],
+    rewards = {ns.reward.Item({item = 238528})},
+    requires = ns.requirement.Item(238653)
 })

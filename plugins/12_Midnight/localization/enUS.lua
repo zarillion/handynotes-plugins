@@ -32,6 +32,10 @@ L['options_icons_profession_treasures_desc'] = 'Display locations of treasures w
 L['options_icons_safari'] = '{achievement:61091}'
 L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievement:61091} achievement.'
 
+L['options_icons_renowned_beast'] = 'Renowned Beasts'
+L['options_icons_renowned_beast_desc'] = 'Display locations of summonable daily beasts for Skinning'
+L['silverscale_note'] = 'Summoned below the bridge.'
+
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------
