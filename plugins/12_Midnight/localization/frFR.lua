@@ -33,9 +33,9 @@ L['options_icons_profession_treasures_desc'] = 'Afficher les emplacements des tr
 L['options_icons_safari'] = '{achievement:61091}'
 L['options_icons_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:61091}.'
 
-L['options_icons_renowned_beast'] = 'Renowned Beasts'
-L['options_icons_renowned_beast_desc'] = 'Display locations of summonable daily beasts for Skinning'
-L['silverscale_note'] = 'Summoned below the bridge.'
+L['options_icons_renowned_beast'] = 'Bêtes de renom'
+L['options_icons_renowned_beast_desc'] = 'Afficher les emplacements des bêtes invoquables quotidiennement liées au Dépeçage'
+L['silverscale_note'] = 'Invoqué sous le pont.'
 
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
