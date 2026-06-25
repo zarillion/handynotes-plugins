@@ -119,6 +119,13 @@ L['squirming_mollusk'] = 'Squirming Mollusk'
 L['spiked_shell'] = 'Spiked Shell'
 
 -------------------------------------------------------------------------------
+------------------------------------- VAL --------------------------------------
+-------------------------------------------------------------------------------
+
+L['enchanted_hilt'] = 'Enchanted Hilt'
+L['enchanted_hilt_note'] = 'Heroic only.\n\nClick the {object:Enchanted Hilt} to gain {spell:1300397}, then defeat World Boss {npc:261072} or rares from {achievement:62881} in the zone twice. Return to the Hilt to receive the treasure.'
+
+-------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
 -------------------------------------------------------------------------------
 
