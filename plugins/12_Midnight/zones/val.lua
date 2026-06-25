@@ -5,7 +5,7 @@ local ADDON_NAME, ns = ...
 local Map = ns.Map
 
 local Rare = ns.node.Rare
--- local RareElite = ns.node.RareElite
+local RareElite = ns.node.RareElite
 -- local Treasure = ns.node.Treasure
 local Achievement = ns.reward.Achievement
 
@@ -17,8 +17,9 @@ local map = Map({id = 2599, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[44605280] = Rare({
+map.nodes[42605830] = Rare({
     id = 264866,
+    quest = 96372,
     rewards = {
         Achievement({id = 62881, criteria = 114000}), -- Showdown Slugger: Val
         Achievement({id = 63348, criteria = 115262}) -- Heroic Slugger
@@ -27,6 +28,7 @@ map.nodes[44605280] = Rare({
 
 map.nodes[49707920] = Rare({
     id = 264865,
+    quest = 96371,
     rewards = {
         Achievement({id = 62881, criteria = 113998}), -- Showdown Slugger: Val
         Achievement({id = 63348, criteria = 115260}) -- Heroic Slugger
@@ -41,23 +43,24 @@ map.nodes[55206560] = Rare({
     }
 }) -- Sleet-Rune
 
-map.nodes[29007380] = Rare({
+map.nodes[28507450] = Rare({
     id = 264864,
+    quest = 96370,
     rewards = {
         Achievement({id = 62881, criteria = 113999}), -- Showdown Slugger: Val
         Achievement({id = 63348, criteria = 115261}) -- Heroic Slugger
     }
 }) -- Xirah
 
---[=[
-map.nodes[00000000] = RareElite({
+map.nodes[67204180] = RareElite({
     id = 261716,
+    quest = 95559,
+    location = L['in_cave'],
     rewards = {
         Achievement({id = 62881, criteria = 113997}), -- Showdown Slugger: Val
-        Achievement({id = 63348, criteria = 115259}), -- Heroic Slugger
+        Achievement({id = 63348, criteria = 115259}) -- Heroic Slugger
     }
 }) -- Glacial Broodmother
-]=]
 
 --[=[
 map.nodes[00000000] = Rare({
