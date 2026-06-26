@@ -71,7 +71,8 @@ local function RenderPinTooltip(pin)
 
         -- location
         if pin.location then
-            GameTooltip:AddLine(ns.RenderLinks(pin.location, true), 1, 1, 1, true)
+            GameTooltip:AddLine(ns.RenderLinks(pin.location, true), 1, 1, 1,
+                true)
         end
 
         -- note
