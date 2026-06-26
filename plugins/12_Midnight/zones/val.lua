@@ -101,7 +101,7 @@ map.nodes[33304300] = Rare({
         Transmog({item = 274853, type = L['plate']}), -- Creature Crushers
         Transmog({item = 274845, type = L['mail']}), -- Greaves of Corrupted Scale
         Transmog({item = 274837, type = L['leather']}), -- Corrupted Hide Boots
-        Transmog({item = 274829, type = L['cloth']}) -- Creature Corruptor Slippers
+        Transmog({item = 274829, type = L['cloth']}), -- Creature Corruptor Slippers
         Transmog({item = 274863, type = L['1h_mace']}) -- Cudgel of the Twisted Reaper
     }
 }) -- Opprimius <Reaper of Beasts>
