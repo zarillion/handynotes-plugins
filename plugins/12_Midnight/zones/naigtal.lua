@@ -235,33 +235,38 @@ map.nodes[68255161] = Treasure({
             points = {28906176},
             icon = 134528,
             label = '{item:276365}',
-            quest = 97091
+            quest = 97091,
+            scale = 2
         }), -- Highland Redcap
         POI({
             points = {27914996},
             icon = 134528,
             label = '{item:276366}',
             quest = 97092,
-            location = L['in_building']
+            location = L['in_building'],
+            scale = 2
         }), -- Dusty Redcap
         POI({
             points = {71423705},
             icon = 134528,
             label = '{item:276367}',
             quest = 97093,
-            location = L['in_cave']
+            location = L['in_cave'],
+            scale = 2
         }), -- Marshy Redcap
         POI({
             points = {78504000},
             icon = 134528,
             label = '{item:276368}',
-            quest = 97094
+            quest = 97094,
+            scale = 2
         }), -- Partially-Digested Redcap
         POI({
             points = {95092667},
             icon = 134528,
             label = '{item:276369}',
-            quest = 97095
+            quest = 97095,
+            scale = 2
         }) -- Airy Redcap
     }
 }) -- Sleepy Mandrake

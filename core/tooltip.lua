@@ -69,6 +69,11 @@ local function RenderPinTooltip(pin)
         -- label
         GameTooltip:SetText(ns.RenderLinks(pin.label, true))
 
+        -- location
+        if pin.location then
+            GameTooltip:AddLine(ns.RenderLinks(pin.location, true), 1, 1, 1, true)
+        end
+
         -- note
         if pin.note and ns:GetOpt('show_notes') then
             GameTooltip:AddLine(ns.RenderLinks(pin.note), 1, 1, 1, true)
