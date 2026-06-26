@@ -1,7 +1,3 @@
-# v146
-
-* Single node fix.
-
 # v145
 
 * Added initial Naigtal and Val zones
