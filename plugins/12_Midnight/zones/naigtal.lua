@@ -94,7 +94,7 @@ map.nodes[68506220] = Rare({
         Transmog({item = 274819, type = L['cloak']}), -- Fungal Fold Frock
         Transmog({item = 274860, type = L['1h_axe']}) -- Ancient Spore-Coated Axe
     }
-}) -- Lomelith
+}) -- Lomelith <The Bogshaker>
 
 map.nodes[77703830] = Rare({
     id = 263954,
@@ -108,7 +108,7 @@ map.nodes[77703830] = Rare({
         Transmog({item = 275137, type = L['cloth']}), -- Flickering Soft-Steppers
         Transmog({item = 274874, type = L['2h_sword']}) -- Flickering Wing Separator
     }
-}) -- Swalewing Matriarch
+}) -- Swalewing Matriarch <The Manabog Apex>
 
 map.nodes[55206200] = Rare({
     id = 264576,
@@ -122,7 +122,7 @@ map.nodes[55206200] = Rare({
         Transmog({item = 275136, type = L['cloth']}), -- Leaf-Woven Blouse
         Transmog({item = 274871, type = L['dagger']}) -- Giant Worm Piercer
     }
-}) -- Slaipaan
+}) -- Slaipaan <The Fel-Gorged>
 
 map.nodes[29701920] = Rare({
     id = 267422,
@@ -136,7 +136,7 @@ map.nodes[29701920] = Rare({
         Transmog({item = 274864, type = L['1h_mace']}), -- Sporebloom Gavel
         Transmog({item = 276298, type = L['dagger']}) -- Forgotten Fel Shard Talon
     }
-}) -- Warbringer Thal'kuur
+}) -- Warbringer Thal'kuur <The Mutinied>
 
 map.nodes[70307640] = Rare({
     id = 264574,
@@ -148,7 +148,7 @@ map.nodes[70307640] = Rare({
         Transmog({item = 274870, type = L['bow']}) -- Assassin's Void String Bow
 
     }
-}) -- Warp Agent Xi'grivr
+}) -- Warp Agent Xi'grivr <Ky'veza's Second>
 
 map.nodes[48804740] = Rare({
     id = 265698,

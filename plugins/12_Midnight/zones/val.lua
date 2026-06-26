@@ -33,7 +33,7 @@ map.nodes[42605830] = Rare({
         Transmog({item = 274843, type = L['leather']}), -- Pincher-Proof Wristguards
         Transmog({item = 274835, type = L['cloth']}) -- Bands of Pincher Sinew
     }
-}) -- Krilkan
+}) -- Krilkan <The Crystal Bulwark>
 
 map.nodes[49707920] = Rare({
     id = 264865,
@@ -47,7 +47,7 @@ map.nodes[49707920] = Rare({
         Transmog({item = 274834, type = L['cloth']}), -- Cord of Domineering Resolve
         Transmog({item = 274867, type = L['1h_sword']}) -- Inscribed Domanaar's Sword
     }
-}) -- Mercilus
+}) -- Mercilus <The Unmerciful>
 
 map.nodes[66808640] = Rare({
     id = 261965,
@@ -63,7 +63,7 @@ map.nodes[66808640] = Rare({
         Transmog({item = 274869, type = L['warglaive']}) -- Void-Iced Warglaives
     },
     pois = {Entrance({61707880})}
-}) -- Sleet-Rune
+}) -- Sleet-Rune <The Void-Infused Watcher>
 
 map.nodes[28507450] = Rare({
     id = 264864,
@@ -74,7 +74,7 @@ map.nodes[28507450] = Rare({
         Transmog({item = 274820, type = L['cloak']}), -- Cloak of the Voracious Gorger
         Transmog({item = 274875, type = L['offhand']}) -- Riftwalker's Lantern
     }
-}) -- Xirah
+}) -- Xirah <Voracious Glutton>
 
 map.nodes[67204180] = RareElite({
     id = 261716,
@@ -90,7 +90,7 @@ map.nodes[67204180] = RareElite({
         Transmog({item = 274861, type = L['dagger']}) -- Frosty Broodmother's Fang
     },
     pois = {Entrance({57204845})}
-}) -- Glacial Broodmother
+}) -- Glacial Broodmother <Frost-Hive Alpha>
 
 map.nodes[33304300] = Rare({
     id = 264868,
@@ -102,8 +102,9 @@ map.nodes[33304300] = Rare({
         Transmog({item = 274845, type = L['mail']}), -- Greaves of Corrupted Scale
         Transmog({item = 274837, type = L['leather']}), -- Corrupted Hide Boots
         Transmog({item = 274829, type = L['cloth']}) -- Creature Corruptor Slippers
+        Transmog({item = 274863, type = L['1h_mace']}) -- Cudgel of the Twisted Reaper
     }
-}) -- Opprimius
+}) -- Opprimius <Reaper of Beasts>
 
 map.nodes[33505820] = Rare({
     id = 264870,
@@ -116,7 +117,7 @@ map.nodes[33505820] = Rare({
         Transmog({item = 274872, type = L['fist']}) -- Darkness' Horrific Barb
     },
     pois = {Arrow({33505820, 43107140})}
-}) -- The Horror Below
+}) -- The Horror Below <The Living Whisper>
 
 map.nodes[37907725] = Rare({
     id = 262421,
@@ -130,7 +131,7 @@ map.nodes[37907725] = Rare({
         Transmog({item = 274831, type = L['cloth']}), -- Portal Shaper's Circlet
         Transmog({item = 274868, type = L['1h_sword']}) -- Portal Master's Shortblade
     }
-}) -- Atomus
+}) -- Atomus <Portal Master>
 
 map.nodes[23204140] = Rare({
     id = 264869,
@@ -145,7 +146,7 @@ map.nodes[23204140] = Rare({
         Transmog({item = 274832, type = L['cloth']}) -- Fel-Tainted Trousers
     },
     pois = {Entrance({29303880})}
-}) -- Nelgothar
+}) -- Nelgothar <The Forgotten>
 
 map.nodes[35905980] = Rare({
     id = 265269,
@@ -177,5 +178,3 @@ map.nodes[70508430] = Collectible({
     },
     pois = {Entrance({61707880})}
 }) -- Ice Guardian's Sleetblade
-
--- Transmog({item = 274863, type = L['1h_mace']}) -- Cudgel of the Twisted Reaper
