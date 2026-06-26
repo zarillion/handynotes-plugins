@@ -1,3 +1,21 @@
+# v146
+
+* Single node fix.
+
+# v145
+
+* Added initial Naigtal and Val zones
+* Added Renowned Beasts for Midnight Skinning.
+
+# v144
+
+* Multiple node and reward updates.
+* Fixed a possible secret value access in the calendar event code.
+
+# v143
+
+* Fixed a tooltip warning.
+
 # v142
 
 * Localization updates
