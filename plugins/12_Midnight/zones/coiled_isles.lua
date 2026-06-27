@@ -128,9 +128,6 @@ vault_map.nodes[10001000] = RareElite({
 -------------------------------------------------------------------------------
 ------------------------------- TREASURES ------------------------------------
 -------------------------------------------------------------------------------
----
----
---- headache relief 57224843 npc 253837 apothecary Dezi
 
 map.nodes[71886666] = Treasure({
     quest = 94569,
@@ -309,6 +306,12 @@ map.nodes[58194572] = Treasure({
     rewards = {
         Achievement({id = 63359, criteria = 115293}),
         Reputation({id = 2772, gain = 50, quest = 95976})
+    },
+    note = L['vulzahn_smuggled_treasure_note'],
+    pois = {
+        POI({points = {57204845}, color = 'Blue', label = '{npc:253837}'}),
+        POI({points = {58044878}, color = 'Red', label = '{npc:262204}'}),
+        POI({points = {58164568}, color = 'Green', label = '{npc:263265}'})
     }
 }) -- Vul'zahn's Smuggled Treasure
 
@@ -527,11 +530,16 @@ map.nodes[71836484] = CoiledIsleSafari.PoisonedParasite({
 map.nodes[46204860] = CoiledIsleSafari.CursedSpawn({
     pois = {POI({46204860, 44104660, 45293450, 53443452, 54454229})}
 }) -- Cursed Spawn
+vault_map.nodes[40475058] = CoiledIsleSafari.CursedSpawn({
+    parent = map.id,
+    pois = {POI({40475058,53671980})}
+}) -- Cursed Spawn
 map.nodes[49835580] = CoiledIsleSafari.JaundicedSlitherer({
     pois = {POI({49835580, 47116346, 53783407})}
 }) -- Jaundiced Slitherer
-map.nodes[12001000] = CoiledIsleSafari.CausticWrithling({
-    pois = {POI({12001000})}
+vault_map.nodes[38923351] = CoiledIsleSafari.CausticWrithling({
+    parent = map.id,
+    pois = {POI({38923351,42263530})}
 }) -- Caustic Writhling
 map.nodes[12001000] =
     CoiledIsleSafari.NightfurKapara({pois = {POI({12001000})}}) -- Nightfur Kapara
@@ -541,5 +549,5 @@ map.nodes[12001000] = CoiledIsleSafari.SleekSnakebiter({
 map.nodes[72375502] = CoiledIsleSafari.SteadyCroakfrog({
     pois = {POI({72375502, 66085595, 68513886, 69124661})}
 }) -- Steady Croakfrog
-map.nodes[10001000] =
-    CoiledIsleSafari.AutumnSnapling({pois = {POI({10001000})}}) -- Autumn Snapling
+map.nodes[66306260] =
+    CoiledIsleSafari.AutumnSnapling({pois = {POI({66306260})}}) -- Autumn Snapling

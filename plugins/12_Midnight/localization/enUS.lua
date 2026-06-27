@@ -129,6 +129,7 @@ L['gulf_of_memory_chest_note'] = 'Walk up the roots of the tree to reach the tre
 -------------------------------------------------------------------------------
 
 L['lost_spirit_note'] = 'Return {item:269935} to {npc:261867}.'
+L['vulzahn_smuggled_treasure_note'] = '1. Get {item:271791} from {dot:Blue}{npc:253837}\n\n2. Give {item:271791} to {dot:Red}{npc:262204} to receive {item:271788}\n\n3. Give {item:271788} to {dot:Green}{npc:263265} to receive the {item:271792} to unlock the treasure'
 
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
 L['options_icons_coiled_isle_safari_desc'] = 'Display battle pet locations for the {achievement:62492} achievement.'

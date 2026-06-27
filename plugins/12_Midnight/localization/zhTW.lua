@@ -129,6 +129,7 @@ L['gulf_of_memory_chest_note'] = nil
 -------------------------------------------------------------------------------
 
 L['lost_spirit_note'] = '將 {item:269935} 交還給 {npc:261867}。'
+L['vulzahn_smuggled_treasure_note'] = '1. 從 {dot:Blue}{npc:253837} 取得 {item:271791}\n\n2. 將 {item:271791} 交給 {dot:Red}{npc:262204} 以獲得 {item:271788}\n\n3. 將 {item:271788} 交給 {dot:Green}{npc:263265} 以獲得 {item:271792} 並解鎖寶藏'
 
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
 L['options_icons_coiled_isle_safari_desc'] = '顯示成就 {achievement:62492} 所需的戰寵位置。'
