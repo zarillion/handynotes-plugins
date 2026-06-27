@@ -502,8 +502,10 @@ ns.node.Safari = {
 }
 
 -- The Coiled Isle Safari (achievement 62492)
-local CoiledIsleSafari = Class('CoiledIsleSafari', Collectible,
-    {icon = 'paw_g', group = ns.groups.COILED_ISLE_SAFARI})
+local CoiledIsleSafari = Class('CoiledIsleSafari', Collectible, {
+    icon = 'paw_g',
+    group = ns.groups.COILED_ISLE_SAFARI
+})
 
 ns.node.CoiledIsleSafari = {
 

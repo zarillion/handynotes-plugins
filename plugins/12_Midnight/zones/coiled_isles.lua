@@ -2,33 +2,22 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
-local L = ns.locale
 local Map = ns.Map
 
 local StudentOfHissstory = ns.node.StudentOfHissstory
-local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local RareElite = ns.node.RareElite
 local CoiledIsleSafari = ns.node.CoiledIsleSafari
 local SkyridingGlyph = ns.node.SkyridingGlyph
-local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
 
 local HonoredDead = ns.node.HonoredDead
 
 local Achievement = ns.reward.Achievement
-local Mount = ns.reward.Mount
-local Item = ns.reward.Item
-local Transmog = ns.reward.Transmog
 local Toy = ns.reward.Toy
 local Reputation = ns.reward.Reputation
-local Section = ns.reward.Section
-local Spacer = ns.reward.Spacer
-
-local Gray = ns.status.Gray
 
 local POI = ns.poi.POI
-local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
 
@@ -73,7 +62,10 @@ map.nodes[43855086] = Rare({
 vault_map2.nodes[38401769] = Rare({
     id = 263456,
     quest = 96030,
-    rewards = {Achievement({id = 63358, criteria = 115282})}
+    rewards = {
+        Achievement({id = 63358, criteria = 115282}),
+        Achievement({id = 62601, criteria = 113661})
+    }
 }) -- Szarith the Fanged
 
 map.nodes[70174529] = Rare({
@@ -183,8 +175,7 @@ map.nodes[70637663] = Treasure({
     quest = 95995,
     rewards = {
         Achievement({id = 63359, criteria = 115294}),
-        Reputation({id = 2772, gain = 50, quest = 95995}),
-        Toy({item = 274921}) -- [Pearl of Jubilation]
+        Reputation({id = 2772, gain = 50, quest = 95995}), Toy({item = 274921}) -- [Pearl of Jubilation]
     }
 }) -- Brine-Crusted Chest / Anceint Amani Chest
 --- Baubling Clam - go search for baubling clams till you find [Luminescent Pearl]
@@ -376,7 +367,6 @@ map.nodes[43824419] = SkyridingGlyph({
     rewards = {Achievement({id = 63395, criteria = 115776})}
 }) -- Gate of the Serpent's Eye, the Coiled Isles
 
-
 -------------------------------------------------------------------------------
 ---------------------------- COILED ISLES LORE HUNTER --------------------------
 -------------------------------------------------------------------------------
@@ -530,11 +520,23 @@ vault_map.nodes[56042831] = HonoredDead({
 ----------------------------------- SAFARI ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[20002000] = CoiledIsleSafari.PoisonedParasite({pois = {POI({12001000})}}) -- Poisoned Parasite
+map.nodes[71836484] = CoiledIsleSafari.PoisonedParasite({
+    pois = {POI({71836484})}
+}) -- Poisoned Parasite
 map.nodes[12001000] = CoiledIsleSafari.CursedSpawn({pois = {POI({12001000})}}) -- Cursed Spawn
-map.nodes[12001000] = CoiledIsleSafari.JaundicedSlitherer({pois = {POI({12001000})}}) -- Jaundiced Slitherer
-map.nodes[12001000] = CoiledIsleSafari.CausticWrithling({pois = {POI({12001000})}}) -- Caustic Writhling
-map.nodes[12001000] = CoiledIsleSafari.NightfurKapara({pois = {POI({12001000})}}) -- Nightfur Kapara
-map.nodes[12001000] = CoiledIsleSafari.SleekSnakebiter({pois = {POI({12001000})}}) -- Sleek Snakebiter
-map.nodes[10001000] = CoiledIsleSafari.SteadyCroakfrog({pois = {POI({10001000})}}) -- Steady Croakfrog
-map.nodes[10001000] = CoiledIsleSafari.AutumnSnapling({pois = {POI({10001000})}}) -- Autumn Snapling
+map.nodes[12001000] = CoiledIsleSafari.JaundicedSlitherer({
+    pois = {POI({12001000})}
+}) -- Jaundiced Slitherer
+map.nodes[12001000] = CoiledIsleSafari.CausticWrithling({
+    pois = {POI({12001000})}
+}) -- Caustic Writhling
+map.nodes[12001000] =
+    CoiledIsleSafari.NightfurKapara({pois = {POI({12001000})}}) -- Nightfur Kapara
+map.nodes[12001000] = CoiledIsleSafari.SleekSnakebiter({
+    pois = {POI({12001000})}
+}) -- Sleek Snakebiter
+map.nodes[72375502] = CoiledIsleSafari.SteadyCroakfrog({
+    pois = {POI({72375502, 66085595})}
+}) -- Steady Croakfrog
+map.nodes[10001000] =
+    CoiledIsleSafari.AutumnSnapling({pois = {POI({10001000})}}) -- Autumn Snapling
