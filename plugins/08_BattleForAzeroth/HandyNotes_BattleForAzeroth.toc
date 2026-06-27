@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Interface: 120100
 ## Title: HandyNotes: Battle for Azeroth
 ## Version: 0
@@ -12,18 +11,3 @@
 embeds.xml
 core\core.xml
 plugin.xml
-=======
-﻿## Interface: 120007
-## Title: HandyNotes: Battle for Azeroth
-## Version: 0
-## Notes: Battle for Azeroth Notes
-## OptionalDeps: Ace3
-## RequiredDeps: HandyNotes
-## X-Embeds: Ace3
-## SavedVariables: HandyNotes_BattleForAzerothDB
-## IconTexture: 2065570
-
-embeds.xml
-core\core.xml
-plugin.xml
->>>>>>> master
