@@ -1,3 +1,15 @@
+# v143
+
+* Added Coiled Isles zone support with rares, treasures, and skyriding glyph nodes.
+* Added Coiled Isle Safari achievement support ({achievement:62492}) with a separate group and node set.
+* Updated Student of Hissstory achievement handling and related node organization.
+* Added/updated Coiled Isles treasure rewards and reputation coverage.
+* Added localized treasure guidance updates across all Midnight locales, including Lost Spirit and Vul'zahn workflow notes.
+* Added color-coded POI guidance for multi-step treasure interactions.
+* Merged Vault of Atal'utek handling into Coiled Isles and removed legacy split zone files.
+* Updated Midnight patch/interface metadata and plugin wiring for new zone loading.
+* Updated multiple Midnight coordinates/POIs and performed formatting/cleanup passes.
+
 # v142
 
 * Localization updates
