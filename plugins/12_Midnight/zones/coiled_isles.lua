@@ -522,11 +522,11 @@ vault_map.nodes[56042831] = HonoredDead({
 -------------------------------------------------------------------------------
 
 map.nodes[71836484] = CoiledIsleSafari.PoisonedParasite({
-    pois = {POI({71836484,67924206})}
+    pois = {POI({71836484,67924206,43263985,})}
 }) -- Poisoned Parasite
-map.nodes[12001000] = CoiledIsleSafari.CursedSpawn({pois = {POI({12001000})}}) -- Cursed Spawn
+map.nodes[46204860] = CoiledIsleSafari.CursedSpawn({pois = {POI({46204860,44104660,45293450,53443452,54454229})}}) -- Cursed Spawn
 map.nodes[49835580] = CoiledIsleSafari.JaundicedSlitherer({
-    pois = {POI({49835580})}
+    pois = {POI({49835580, 47116346,53783407})}
 }) -- Jaundiced Slitherer
 map.nodes[12001000] = CoiledIsleSafari.CausticWrithling({
     pois = {POI({12001000})}
@@ -537,7 +537,7 @@ map.nodes[12001000] = CoiledIsleSafari.SleekSnakebiter({
     pois = {POI({12001000})}
 }) -- Sleek Snakebiter
 map.nodes[72375502] = CoiledIsleSafari.SteadyCroakfrog({
-    pois = {POI({72375502, 66085595,68513886})}
+    pois = {POI({72375502, 66085595,68513886,69124661})}
 }) -- Steady Croakfrog
 map.nodes[10001000] =
     CoiledIsleSafari.AutumnSnapling({pois = {POI({10001000})}}) -- Autumn Snapling
