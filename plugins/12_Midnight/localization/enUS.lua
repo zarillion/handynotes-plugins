@@ -128,6 +128,8 @@ L['gulf_of_memory_chest_note'] = 'Walk up the roots of the tree to reach the tre
 --------------------------------- COILED ISLES --------------------------------
 -------------------------------------------------------------------------------
 
+L['lost_spirit_note'] = 'Return {item:269935} to {npc:261867}.'
+
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
 L['options_icons_coiled_isle_safari_desc'] = 'Display battle pet locations for the {achievement:62492} achievement.'
 

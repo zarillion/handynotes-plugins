@@ -128,6 +128,8 @@ L['gulf_of_memory_chest_note'] = nil
 --------------------------------- COILED ISLES --------------------------------
 -------------------------------------------------------------------------------
 
+L['lost_spirit_note'] = '將 {item:269935} 交還給 {npc:261867}。'
+
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
 L['options_icons_coiled_isle_safari_desc'] = '顯示成就 {achievement:62492} 所需的戰寵位置。'
 

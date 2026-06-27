@@ -128,6 +128,8 @@ L['gulf_of_memory_chest_note'] = 'Sube por las raíces del árbol para llegar al
 --------------------------------- COILED ISLES --------------------------------
 -------------------------------------------------------------------------------
 
+L['lost_spirit_note'] = 'Devuelve {item:269935} a {npc:261867}.'
+
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
 L['options_icons_coiled_isle_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:62492}.'
 

@@ -2,6 +2,7 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local L = ns.locale
 local Map = ns.Map
 
 local StudentOfHissstory = ns.node.StudentOfHissstory
@@ -129,7 +130,7 @@ vault_map.nodes[10001000] = RareElite({
 -------------------------------------------------------------------------------
 ---
 ---
----
+--- headache relief 57224843 npc 253837 apothecary Dezi
 
 map.nodes[71886666] = Treasure({
     quest = 94569,
@@ -227,7 +228,7 @@ map.nodes[68056590] = Treasure({
         Achievement({id = 63359, criteria = 115310}),
         Reputation({id = 2772, gain = 50, quest = 95571})
     },
-    note = 'return the Forgotten Trinket to the lost spirit',
+    note = L['lost_spirit_note'],
     pois = {POI({points = {70226450}, label = '{item:269935}'})}
 }) -- Lost Spirit
 
@@ -521,11 +522,11 @@ vault_map.nodes[56042831] = HonoredDead({
 -------------------------------------------------------------------------------
 
 map.nodes[71836484] = CoiledIsleSafari.PoisonedParasite({
-    pois = {POI({71836484})}
+    pois = {POI({71836484,67924206})}
 }) -- Poisoned Parasite
 map.nodes[12001000] = CoiledIsleSafari.CursedSpawn({pois = {POI({12001000})}}) -- Cursed Spawn
-map.nodes[12001000] = CoiledIsleSafari.JaundicedSlitherer({
-    pois = {POI({12001000})}
+map.nodes[49835580] = CoiledIsleSafari.JaundicedSlitherer({
+    pois = {POI({49835580})}
 }) -- Jaundiced Slitherer
 map.nodes[12001000] = CoiledIsleSafari.CausticWrithling({
     pois = {POI({12001000})}
@@ -536,7 +537,7 @@ map.nodes[12001000] = CoiledIsleSafari.SleekSnakebiter({
     pois = {POI({12001000})}
 }) -- Sleek Snakebiter
 map.nodes[72375502] = CoiledIsleSafari.SteadyCroakfrog({
-    pois = {POI({72375502, 66085595})}
+    pois = {POI({72375502, 66085595,68513886})}
 }) -- Steady Croakfrog
 map.nodes[10001000] =
     CoiledIsleSafari.AutumnSnapling({pois = {POI({10001000})}}) -- Autumn Snapling

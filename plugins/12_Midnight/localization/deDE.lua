@@ -129,6 +129,8 @@ L['gulf_of_memory_chest_note'] = nil
 --------------------------------- COILED ISLES --------------------------------
 -------------------------------------------------------------------------------
 
+L['lost_spirit_note'] = 'Bringt {item:269935} zu {npc:261867} zurück.'
+
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
 L['options_icons_coiled_isle_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:62492} an.'
 
