@@ -149,8 +149,8 @@ L['gulf_of_memory_chest_note'] = 'Grimpez le long des racines de l\'arbre pour a
 --------------------------------- COILED ISLES --------------------------------
 -------------------------------------------------------------------------------
 
-L['lost_spirit_note'] = 'Retournez {item:269935} à {npc:261867}.'
-L['vulzahn_smuggled_treasure_note'] = '1. Obtenez {item:271791} auprès de {dot:Blue}{npc:253837}\n\n2. Donnez {item:271791} à {dot:Red}{npc:262204} pour recevoir {item:271788}\n\n3. Donnez {item:271788} à {dot:Green}{npc:263265} pour recevoir {item:271792} et déverrouiller le trésor'
+L['lost_spirit_note'] = 'Rapportez le {item:269935} à l\'{npc:261867}.'
+L['vulzahn_smuggled_treasure_note'] = '1. Obtenez une {item:271791} auprès de l\'{dot:Blue}{npc:253837}.\n\n2. Donnez la {item:271791} au {dot:Red}{npc:262204} pour recevoir un {item:271788}.\n\n3. Apportez le {item:271788} à {dot:Green}{npc:263265} pour recevoir la {item:271792} et déverrouiller le trésor.'
 
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
 L['options_icons_coiled_isle_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:62492}.'
