@@ -1,4 +1,4 @@
-﻿## Interface: 120007
+## Interface: 120100
 ## Title: HandyNotes: Battle for Azeroth
 ## Version: 0
 ## Notes: Battle for Azeroth Notes
