@@ -128,6 +128,9 @@ L['gulf_of_memory_chest_note'] = nil
 --------------------------------- COILED ISLES --------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
+L['options_icons_coiled_isle_safari_desc'] = '顯示成就 {achievement:62492} 所需的戰寵位置。'
+
 L['options_icons_student_of_hissstory'] = '{achievement:63662}'
 L['options_icons_student_of_hissstory_desc'] = '顯示 {achievement:63662} 成就的劇情物品位置。'
 

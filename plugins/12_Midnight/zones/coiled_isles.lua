@@ -9,7 +9,7 @@ local StudentOfHissstory = ns.node.StudentOfHissstory
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local RareElite = ns.node.RareElite
-local Safari = ns.node.Safari
+local CoiledIsleSafari = ns.node.CoiledIsleSafari
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Telescope = ns.node.Telescope
 local Treasure = ns.node.Treasure
@@ -114,19 +114,19 @@ map.nodes[52053229] = Rare({
 
 -- Oppose the Foes (Rare Elite) - Achievement 63601
 
-vault_map.nodes[00000000] = RareElite({
+vault_map.nodes[10001000] = RareElite({
     id = 0,
     quest = 0,
     rewards = {Achievement({id = 63601, criteria = 116325})}
 }) -- Congealed Malice
 
-vault_map.nodes[00000000] = RareElite({
+vault_map.nodes[10001000] = RareElite({
     id = 0,
     quest = 0,
     rewards = {Achievement({id = 63601, criteria = 116326})}
 }) -- Khu'tulak
 
-vault_map.nodes[00000000] = RareElite({
+vault_map.nodes[10001000] = RareElite({
     id = 0,
     quest = 0,
     rewards = {Achievement({id = 63601, criteria = 116327})}
@@ -171,7 +171,7 @@ map.nodes[67264846] = Treasure({
     }
 }) -- Grave of Someone Forgotten
 
-map.nodes[00000000] = Treasure({
+map.nodes[10001000] = Treasure({
     quest = 95941,
     rewards = {
         Achievement({id = 63359, criteria = 115292}),
@@ -288,7 +288,7 @@ map.nodes[49483198] = Treasure({
     }
 }) -- Waterlogged Basket
 
-map.nodes[00000000] = Treasure({
+map.nodes[10001000] = Treasure({
     quest = 95855,
     rewards = {
         Achievement({id = 63359, criteria = 115302}),
@@ -525,3 +525,16 @@ vault_map.nodes[56042831] = HonoredDead({
     quest = 98040,
     rewards = {Achievement({id = 63610, criteria = 116418})}
 }) -- To a shield-bearer
+
+-------------------------------------------------------------------------------
+----------------------------------- SAFARI ------------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[20002000] = CoiledIsleSafari.PoisonedParasite({pois = {POI({12001000})}}) -- Poisoned Parasite
+map.nodes[12001000] = CoiledIsleSafari.CursedSpawn({pois = {POI({12001000})}}) -- Cursed Spawn
+map.nodes[12001000] = CoiledIsleSafari.JaundicedSlitherer({pois = {POI({12001000})}}) -- Jaundiced Slitherer
+map.nodes[12001000] = CoiledIsleSafari.CausticWrithling({pois = {POI({12001000})}}) -- Caustic Writhling
+map.nodes[12001000] = CoiledIsleSafari.NightfurKapara({pois = {POI({12001000})}}) -- Nightfur Kapara
+map.nodes[12001000] = CoiledIsleSafari.SleekSnakebiter({pois = {POI({12001000})}}) -- Sleek Snakebiter
+map.nodes[10001000] = CoiledIsleSafari.SteadyCroakfrog({pois = {POI({10001000})}}) -- Steady Croakfrog
+map.nodes[10001000] = CoiledIsleSafari.AutumnSnapling({pois = {POI({10001000})}}) -- Autumn Snapling

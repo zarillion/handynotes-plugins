@@ -67,6 +67,12 @@ ns.groups.SAFARI = Group('safari', 2205238, {
     achievement = 61091
 })
 
+ns.groups.COILED_ISLE_SAFARI = Group('coiled_isle_safari', 2205238, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.COLLECTIBLE,
+    achievement = 62492
+})
+
 ------------------------------ EVERSONG WOODS ---------------------------------
 
 ns.groups.RUNESTONE_RUSH = Group('runestone_rush', 134423, {
@@ -493,4 +499,75 @@ ns.node.Safari = {
             Pet({id = 4891})
         }
     }) -- Wrathful Wyrm
+}
+
+-- The Coiled Isle Safari (achievement 62492)
+local CoiledIsleSafari = Class('CoiledIsleSafari', Collectible,
+    {icon = 'paw_g', group = ns.groups.COILED_ISLE_SAFARI})
+
+ns.node.CoiledIsleSafari = {
+
+    AutumnSnapling = Class('AutumnSnapling', CoiledIsleSafari, {
+        id = 262248,
+        rewards = {
+            Achievement({id = 62492, criteria = 113420, oneline = true}),
+            Pet({id = 5035})
+        }
+    }), -- Autumn Snapling
+
+    CausticWrithling = Class('CausticWrithling', CoiledIsleSafari, {
+        id = 262247,
+        rewards = {
+            Achievement({id = 62492, criteria = 113421, oneline = true}),
+            Pet({id = 5031})
+        }
+    }), -- Caustic Writhling
+
+    CursedSpawn = Class('CursedSpawn', CoiledIsleSafari, {
+        id = 262226,
+        rewards = {
+            Achievement({id = 62492, criteria = 113426, oneline = true}),
+            Pet({id = 5029})
+        }
+    }), -- Cursed Spawn
+
+    JaundicedSlitherer = Class('JaundicedSlitherer', CoiledIsleSafari, {
+        id = 262246,
+        rewards = {
+            Achievement({id = 62492, criteria = 113422, oneline = true}),
+            Pet({id = 5030})
+        }
+    }), -- Jaundiced Slitherer
+
+    NightfurKapara = Class('NightfurKapara', CoiledIsleSafari, {
+        id = 262245,
+        rewards = {
+            Achievement({id = 62492, criteria = 113423, oneline = true}),
+            Pet({id = 5032})
+        }
+    }), -- Nightfur Kapara
+
+    PoisonedParasite = Class('PoisonedParasite', CoiledIsleSafari, {
+        id = 262222,
+        rewards = {
+            Achievement({id = 62492, criteria = 113418, oneline = true}),
+            Pet({id = 5028})
+        }
+    }), -- Poisoned Parasite
+
+    SleekSnakebiter = Class('SleekSnakebiter', CoiledIsleSafari, {
+        id = 262244,
+        rewards = {
+            Achievement({id = 62492, criteria = 113424, oneline = true}),
+            Pet({id = 5033})
+        }
+    }), -- Sleek Snakebiter
+
+    SteadyCroakfrog = Class('SteadyCroakfrog', CoiledIsleSafari, {
+        id = 262243,
+        rewards = {
+            Achievement({id = 62492, criteria = 113425, oneline = true}),
+            Pet({id = 5034})
+        }
+    }) -- Steady Croakfrog
 }

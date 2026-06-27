@@ -129,6 +129,9 @@ L['gulf_of_memory_chest_note'] = 'Grimpez le long des racines de l\'arbre pour a
 --------------------------------- COILED ISLES --------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
+L['options_icons_coiled_isle_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:62492}.'
+
 L['options_icons_student_of_hissstory'] = '{achievement:63662}'
 L['options_icons_student_of_hissstory_desc'] = 'Afficher les emplacements des objets d\'histoire pour le haut-fait {achievement:63662}.'
 

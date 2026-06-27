@@ -128,6 +128,9 @@ L['gulf_of_memory_chest_note'] = 'Walk up the roots of the tree to reach the tre
 --------------------------------- COILED ISLES --------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
+L['options_icons_coiled_isle_safari_desc'] = 'Display battle pet locations for the {achievement:62492} achievement.'
+
 L['options_icons_student_of_hissstory'] = '{achievement:63662}'
 L['options_icons_student_of_hissstory_desc'] = 'Display lore object locations for the {achievement:63662} achievement.'
 

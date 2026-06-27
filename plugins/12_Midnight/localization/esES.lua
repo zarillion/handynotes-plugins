@@ -128,6 +128,9 @@ L['gulf_of_memory_chest_note'] = 'Sube por las raíces del árbol para llegar al
 --------------------------------- COILED ISLES --------------------------------
 -------------------------------------------------------------------------------
 
+L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
+L['options_icons_coiled_isle_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:62492}.'
+
 L['options_icons_student_of_hissstory'] = '{achievement:63662}'
 L['options_icons_student_of_hissstory_desc'] = 'Muestra dónde están los objetos de conocimiento para el logro {achievement:63662}.'
 
