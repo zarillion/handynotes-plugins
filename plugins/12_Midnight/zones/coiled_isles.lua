@@ -5,7 +5,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
-local LoreObject = ns.node.LoreObject
+local StudentOfHissstory = ns.node.StudentOfHissstory
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
 local RareElite = ns.node.RareElite
@@ -382,7 +382,7 @@ map.nodes[43824419] = SkyridingGlyph({
 -------------------------------------------------------------------------------
 
 -- Student of Hissstory placeholder positions until live coordinates are confirmed.
-map.nodes[10005000] = LoreObject({
+map.nodes[10005000] = StudentOfHissstory({
     quest = 96946,
     rewards = {
         Achievement({id = 63662, criteria = 116702}),
@@ -390,7 +390,7 @@ map.nodes[10005000] = LoreObject({
     }
 }) -- Head Mason's Tablet
 
-map.nodes[57358036] = LoreObject({
+map.nodes[57358036] = StudentOfHissstory({
     quest = 96947,
     rewards = {
         Achievement({id = 63662, criteria = 116703}),
@@ -398,7 +398,7 @@ map.nodes[57358036] = LoreObject({
     }
 }) -- Amani Exile's Words
 
-map.nodes[70006597] = LoreObject({
+map.nodes[70006597] = StudentOfHissstory({
     quest = 96945,
     rewards = {
         Achievement({id = 63662, criteria = 116704}),
@@ -406,7 +406,7 @@ map.nodes[70006597] = LoreObject({
     }
 }) -- Worn Tablet
 
-map.nodes[50756820] = LoreObject({
+map.nodes[50756820] = StudentOfHissstory({
     quest = 98302,
     rewards = {
         Achievement({id = 63662, criteria = 116705}),
@@ -414,7 +414,7 @@ map.nodes[50756820] = LoreObject({
     }
 }) -- Abandoned Tablet
 
-map.nodes[31628374] = LoreObject({
+map.nodes[31628374] = StudentOfHissstory({
     quest = 98303,
     rewards = {
         Achievement({id = 63662, criteria = 116706}),
@@ -422,7 +422,7 @@ map.nodes[31628374] = LoreObject({
     }
 }) -- Message in a Bottle
 
-map.nodes[45774793] = LoreObject({
+map.nodes[45774793] = StudentOfHissstory({
     quest = 98304,
     rewards = {
         Achievement({id = 63662, criteria = 116707}),
@@ -430,7 +430,7 @@ map.nodes[45774793] = LoreObject({
     }
 }) -- Oily Black Stone
 
-map.nodes[25026775] = LoreObject({
+map.nodes[25026775] = StudentOfHissstory({
     quest = 98305,
     rewards = {
         Achievement({id = 63662, criteria = 116708}),
@@ -438,7 +438,7 @@ map.nodes[25026775] = LoreObject({
     }
 }) -- Forum Rules
 
-map.nodes[34103645] = LoreObject({
+map.nodes[34103645] = StudentOfHissstory({
     quest = 98306,
     rewards = {
         Achievement({id = 63662, criteria = 116709}),
@@ -446,7 +446,7 @@ map.nodes[34103645] = LoreObject({
     }
 }) -- Survival Journals
 
-map.nodes[71944492] = LoreObject({
+map.nodes[71944492] = StudentOfHissstory({
     quest = 98307,
     rewards = {
         Achievement({id = 63662, criteria = 116710}),
@@ -454,7 +454,7 @@ map.nodes[71944492] = LoreObject({
     }
 }) -- Zandalari Logbook
 
-map.nodes[32566366] = LoreObject({
+map.nodes[32566366] = StudentOfHissstory({
     quest = 98308,
     rewards = {
         Achievement({id = 63662, criteria = 116711}),

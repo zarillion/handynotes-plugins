@@ -130,6 +130,12 @@ ns.groups.PUT_A_PIN_IN_IT = Group('put_a_pin_in_it', 5206188, {
 
 ----------------------------- THE COILED ISLES --------------------------------
 
+ns.groups.STUDENT_OF_HISSSTORY = Group('student_of_hissstory', 8032876, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 63662
+})
+
 ns.groups.THE_HONORED_DEAD = Group('the_honored_dead', 133740, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
@@ -183,6 +189,17 @@ local LoreObject = Class('LoreObject', Collectible, {
 })
 
 ns.node.LoreObject = LoreObject
+
+-------------------------------------------------------------------------------
+---------------------------- STUDENT OF HISSSTORY ----------------------------
+-------------------------------------------------------------------------------
+
+local StudentOfHissstory = Class('StudentOfHissstory', Collectible, {
+    icon = 8032876,
+    group = ns.groups.STUDENT_OF_HISSSTORY
+})
+
+ns.node.StudentOfHissstory = StudentOfHissstory
 
 -------------------------------------------------------------------------------
 ------------------------------- RUNESTONE RUSH --------------------------------
