@@ -309,6 +309,7 @@ function MinimapPinMixin:OnAcquired(poi, ...)
 
     self.label = poi.label
     self.note = poi.note
+    self.location = poi.location
 
     if GetCVar('rotateMinimap') == '1' then self:UpdateRotation() end
     HBDPins:AddMinimapIconMap(MinimapPinsKey, self, mapID, x, y, true)
@@ -421,6 +422,7 @@ function WorldMapPinMixin:OnAcquired(poi, ...)
 
     self.label = poi.label
     self.note = poi.note
+    self.location = poi.location
 
     if (w and h) then
         local x, y = poi:Draw(self, ...)

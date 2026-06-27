@@ -32,6 +32,10 @@ L['options_icons_profession_treasures_desc'] = 'Muestra dónde están los tesoro
 L['options_icons_safari'] = '{achievement:61091}'
 L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:61091}.'
 
+L['options_icons_renowned_beast'] = 'Renowned Beasts'
+L['options_icons_renowned_beast_desc'] = 'Display locations of summonable daily beasts for Skinning'
+L['silverscale_note'] = 'Summoned below the bridge.'
+
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------
@@ -108,6 +112,22 @@ L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
 L['options_icons_put_a_pin_in_it_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:62199}.'
 L['kalika_note'] = 'Habla con {npc:258884}. Tras ello interactúa con el {object:Botón olvidado} que hay detrás de la {object:Estatua de jade} cercana.'
 L['songseeker_ikaja_note'] = 'Encima del templo.'
+
+-------------------------------------------------------------------------------
+----------------------------------- NAIGTAL ------------------------------------
+-------------------------------------------------------------------------------
+
+L['sleepy_mandrake_note'] = nil
+L['ancient_crypt_reliquary'] = nil
+L['squirming_mollusk'] = nil
+L['spiked_shell'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------------- VAL --------------------------------------
+-------------------------------------------------------------------------------
+
+L['enchanted_hilt'] = nil
+L['enchanted_hilt_note'] = nil
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------

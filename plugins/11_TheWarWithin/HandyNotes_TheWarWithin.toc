@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Interface: 120100
 ## Title: HandyNotes: The War Within
 ## Version: 0
@@ -11,3 +12,18 @@
 embeds.xml
 core\core.xml
 plugin.xml
+=======
+﻿## Interface: 120007
+## Title: HandyNotes: The War Within
+## Version: 0
+## Notes: The War Within Notes
+## OptionalDeps: Ace3
+## RequiredDeps: HandyNotes
+## X-Embeds: Ace3
+## SavedVariables: HandyNotes_TheWarWithinDB
+## IconTexture: 5770811
+
+embeds.xml
+core\core.xml
+plugin.xml
+>>>>>>> master

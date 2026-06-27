@@ -33,6 +33,10 @@ L['options_icons_profession_treasures_desc'] = 'Afficher les emplacements des tr
 L['options_icons_safari'] = '{achievement:61091}'
 L['options_icons_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:61091}.'
 
+L['options_icons_renowned_beast'] = 'Bêtes de renom'
+L['options_icons_renowned_beast_desc'] = 'Afficher les emplacements des bêtes invoquables quotidiennement liées au Dépeçage'
+L['silverscale_note'] = 'Invoqué sous le pont.'
+
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------
@@ -109,6 +113,22 @@ L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
 L['options_icons_put_a_pin_in_it_desc'] = 'Affichez les emplacements liés au haut-fait {achievement:62199}.'
 L['kalika_note'] = 'Parlez à {npc:258884}, puis interagissez avec le {object:Bouton oublié} situé derrière la {object:Statue de jade} à proximité.'
 L['songseeker_ikaja_note'] = 'Au sommet du temple.'
+
+-------------------------------------------------------------------------------
+----------------------------------- NAIGTAL ------------------------------------
+-------------------------------------------------------------------------------
+
+L['sleepy_mandrake_note'] = 'Trouvez 5 Amanites différentes et donnez-les à la {npc:267910} dans la Grotte du Dormeur. Chaque Amanite se trouve à un endroit différent dans la zone.'
+L['ancient_crypt_reliquary'] = nil
+L['squirming_mollusk'] = nil
+L['spiked_shell'] = nil
+
+-------------------------------------------------------------------------------
+------------------------------------- VAL --------------------------------------
+-------------------------------------------------------------------------------
+
+L['enchanted_hilt'] = 'Garde enchantée'
+L['enchanted_hilt_note'] = 'Mode héroïque uniquement.\n\nCliquez sur la {object:Garde enchantée} pour obtenir {spell:1300397}, puis battez soit deux fois le Boss hors instance {npc:261072} ou deux monstres rares du haut-fait {achievement:62881} dans la zone. Retournez auprès de la Garde pour recevoir le trésor.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------

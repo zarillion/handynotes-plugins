@@ -67,10 +67,21 @@ ns.groups.SAFARI = Group('safari', 2205238, {
     achievement = 61091
 })
 
+<<<<<<< HEAD
 ns.groups.COILED_ISLE_SAFARI = Group('coiled_isle_safari', 2205238, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.COLLECTIBLE,
     achievement = 62492
+=======
+ns.groups.RENOWNED_BEAST = Group('renowned_beast', 5931379, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION,
+    IsEnabled = function(self)
+        -- Only display group for skinning players
+        if not ns.professions.SKINNING:HasProfession() then return false end
+        return ns.Group.IsEnabled(self)
+    end
+>>>>>>> master
 })
 
 ------------------------------ EVERSONG WOODS ---------------------------------
@@ -501,6 +512,7 @@ ns.node.Safari = {
     }) -- Wrathful Wyrm
 }
 
+<<<<<<< HEAD
 -- The Coiled Isle Safari (achievement 62492)
 local CoiledIsleSafari = Class('CoiledIsleSafari', Collectible, {
     icon = 'paw_g',
@@ -573,3 +585,15 @@ ns.node.CoiledIsleSafari = {
         }
     }) -- Steady Croakfrog
 }
+=======
+-------------------------------------------------------------------------------
+------------------------------- RENOWNED BEASTS -------------------------------
+-------------------------------------------------------------------------------
+
+local RenownedBeast = ns.Class('RenownedBeast', ns.node.Node, {
+    icon = 5931379,
+    group = ns.groups.RENOWNED_BEAST
+})
+
+ns.node.RenownedBeast = RenownedBeast
+>>>>>>> master

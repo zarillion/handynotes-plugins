@@ -32,6 +32,10 @@ L['options_icons_profession_treasures_desc'] = 'Display locations of treasures w
 L['options_icons_safari'] = '{achievement:61091}'
 L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievement:61091} achievement.'
 
+L['options_icons_renowned_beast'] = 'Renowned Beasts'
+L['options_icons_renowned_beast_desc'] = 'Display locations of summonable daily beasts for Skinning'
+L['silverscale_note'] = 'Summoned below the bridge.'
+
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
 -------------------------------------------------------------------------------
@@ -108,6 +112,22 @@ L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
 L['options_icons_put_a_pin_in_it_desc'] = 'Display the locations for the {achievement:62199} achievement.'
 L['kalika_note'] = 'Speak with {npc:258884}, then interact with the {object:Forgotten Button} behind the nearby {object:Jade Statue}.'
 L['songseeker_ikaja_note'] = 'On top of the Temple.'
+
+-------------------------------------------------------------------------------
+----------------------------------- NAIGTAL ------------------------------------
+-------------------------------------------------------------------------------
+
+L['sleepy_mandrake_note'] = 'Find and feed 5 unique Redcap mushrooms to the {npc:267910} in Sleeper\'s Grotto. Each mushroom has a different source in the zone.'
+L['ancient_crypt_reliquary'] = 'Ancient Crypt Reliquary'
+L['squirming_mollusk'] = 'Squirming Mollusk'
+L['spiked_shell'] = 'Spiked Shell'
+
+-------------------------------------------------------------------------------
+------------------------------------- VAL --------------------------------------
+-------------------------------------------------------------------------------
+
+L['enchanted_hilt'] = 'Enchanted Hilt'
+L['enchanted_hilt_note'] = 'Heroic only.\n\nClick the {object:Enchanted Hilt} to gain {spell:1300397}, then defeat World Boss {npc:261072} or rares from {achievement:62881} in the zone twice. Return to the Hilt to receive the treasure.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------

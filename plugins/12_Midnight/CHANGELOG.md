@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # v143
 
 * Added Coiled Isles zone support with rares, treasures, and skyriding glyph nodes.
@@ -9,6 +10,21 @@
 * Merged Vault of Atal'utek handling into Coiled Isles and removed legacy split zone files.
 * Updated Midnight patch/interface metadata and plugin wiring for new zone loading.
 * Updated multiple Midnight coordinates/POIs and performed formatting/cleanup passes.
+=======
+# v145
+
+* Added initial Naigtal and Val zones
+* Added Renowned Beasts for Midnight Skinning.
+
+# v144
+
+* Multiple node and reward updates.
+* Fixed a possible secret value access in the calendar event code.
+
+# v143
+
+* Fixed a tooltip warning.
+>>>>>>> master
 
 # v142
 

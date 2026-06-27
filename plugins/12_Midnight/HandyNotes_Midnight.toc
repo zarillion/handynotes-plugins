@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Interface: 120100
 ## Title: HandyNotes: Midnight
 ## Version: 0
@@ -11,3 +12,18 @@
 embeds.xml
 core\core.xml
 plugin.xml
+=======
+﻿## Interface: 120007
+## Title: HandyNotes: Midnight
+## Version: 0
+## Notes: Midnight Notes
+## OptionalDeps: Ace3
+## RequiredDeps: HandyNotes
+## X-Embeds: Ace3
+## SavedVariables: HandyNotes_MidnightDB
+## IconTexture: 236762
+
+embeds.xml
+core\core.xml
+plugin.xml
+>>>>>>> master

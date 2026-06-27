@@ -89,7 +89,7 @@ function POI:Draw(pin, xy)
     local t = ResetPin(pin)
 
     local size = (pin.minimap and 10 or (pin.parentHeight * 0.012))
-    size = size * ns:GetOpt('poi_scale') * (self.size or 1)
+    size = size * ns:GetOpt('poi_scale') * (self.size or self.scale or 1)
 
     local r, g, b, a = ns:GetColorOpt('poi_color')
     if self.icon then

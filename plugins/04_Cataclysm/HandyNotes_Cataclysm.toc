@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Interface: 120100
 ## Title: HandyNotes: Cataclysm
 ## Version: 0
@@ -11,3 +12,18 @@
 embeds.xml
 core\core.xml
 plugin.xml
+=======
+﻿## Interface: 120007
+## Title: HandyNotes: Cataclysm
+## Version: 0
+## Notes: Cataclysm Notes
+## OptionalDeps: Ace3
+## RequiredDeps: HandyNotes
+## X-Embeds: Ace3
+## SavedVariables: HandyNotes_CataclysmDB
+## IconTexture: 409545
+
+embeds.xml
+core\core.xml
+plugin.xml
+>>>>>>> master
