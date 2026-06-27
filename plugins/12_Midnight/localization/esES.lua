@@ -32,9 +32,9 @@ L['options_icons_profession_treasures_desc'] = 'Muestra dónde están los tesoro
 L['options_icons_safari'] = '{achievement:61091}'
 L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:61091}.'
 
-L['options_icons_renowned_beast'] = 'Renowned Beasts'
-L['options_icons_renowned_beast_desc'] = 'Display locations of summonable daily beasts for Skinning'
-L['silverscale_note'] = 'Summoned below the bridge.'
+L['options_icons_renowned_beast'] = 'Bestias de renombre'
+L['options_icons_renowned_beast_desc'] = 'Muestra dónde están las misiones diarias de invocación de mascotas para desollamiento.'
+L['silverscale_note'] = 'Invocado debajo del puente.'
 
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
@@ -117,17 +117,17 @@ L['songseeker_ikaja_note'] = 'Encima del templo.'
 ----------------------------------- NAIGTAL ------------------------------------
 -------------------------------------------------------------------------------
 
-L['sleepy_mandrake_note'] = nil
-L['ancient_crypt_reliquary'] = nil
-L['squirming_mollusk'] = nil
-L['spiked_shell'] = nil
+L['sleepy_mandrake_note'] = 'Encuentra y alimenta 5 setas rojas únicas al {npc:267910} en la Gruta del Durmiente. Cada seta tiene un origen diferente en la zona.'
+L['ancient_crypt_reliquary'] = 'Relicario de la cripta antigua'
+L['squirming_mollusk'] = 'Molusco retorcido'
+L['spiked_shell'] = 'Caparazón con púas'
 
 -------------------------------------------------------------------------------
 ------------------------------------- VAL --------------------------------------
 -------------------------------------------------------------------------------
 
-L['enchanted_hilt'] = nil
-L['enchanted_hilt_note'] = nil
+L['enchanted_hilt'] = 'Empuñadura encantada'
+L['enchanted_hilt_note'] = 'Sólo Heróico.\n\nHaz click en la {object:Empuñadura encantada} para conseguir {spell:1300397} y después derrotas al Boss del Mundo {npc:261072} o dos raros de la zona para el logro {achievement:62881}. Devuelve la empuñadura para recibir el tesoro.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
