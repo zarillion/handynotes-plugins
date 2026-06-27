@@ -123,3 +123,13 @@ L['sturdy_chest'] = '結實的箱子'
 L['sturdy_chest_suffix'] = '結實的箱子已發現'
 
 L['gulf_of_memory_chest_note'] = nil
+
+-------------------------------------------------------------------------------
+--------------------------------- COILED ISLES --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_student_of_hissstory'] = '{achievement:63662}'
+L['options_icons_student_of_hissstory_desc'] = '顯示 {achievement:63662} 成就的劇情物品位置。'
+
+L['options_icons_the_honored_dead'] = '{achievement:63610}'
+L['options_icons_the_honored_dead_desc'] = '顯示 {achievement:63610} 成就的位置。'

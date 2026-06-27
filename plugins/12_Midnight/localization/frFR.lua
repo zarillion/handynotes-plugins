@@ -124,3 +124,13 @@ L['sturdy_chest'] = 'Coffre solide'
 L['sturdy_chest_suffix'] = 'Coffre solide trouvé'
 
 L['gulf_of_memory_chest_note'] = 'Grimpez le long des racines de l\'arbre pour atteindre le trésor.'
+
+-------------------------------------------------------------------------------
+--------------------------------- COILED ISLES --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_student_of_hissstory'] = '{achievement:63662}'
+L['options_icons_student_of_hissstory_desc'] = 'Afficher les emplacements des objets d\'histoire pour le haut-fait {achievement:63662}.'
+
+L['options_icons_the_honored_dead'] = '{achievement:63610}'
+L['options_icons_the_honored_dead_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:63610}.'

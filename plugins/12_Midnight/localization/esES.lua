@@ -123,3 +123,13 @@ L['sturdy_chest'] = 'Cofre robusto'
 L['sturdy_chest_suffix'] = 'Cofre robusto encontrado'
 
 L['gulf_of_memory_chest_note'] = 'Sube por las raíces del árbol para llegar al tesoro.'
+
+-------------------------------------------------------------------------------
+--------------------------------- COILED ISLES --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_student_of_hissstory'] = '{achievement:63662}'
+L['options_icons_student_of_hissstory_desc'] = 'Muestra dónde están los objetos de conocimiento para el logro {achievement:63662}.'
+
+L['options_icons_the_honored_dead'] = '{achievement:63610}'
+L['options_icons_the_honored_dead_desc'] = 'Muestra dónde están las ubicaciones para el logro {achievement:63610}.'

@@ -123,3 +123,13 @@ L['sturdy_chest'] = 'Прочный сундук'
 L['sturdy_chest_suffix'] = 'Найден прочный сундук'
 
 L['gulf_of_memory_chest_note'] = 'Чтобы добраться до сокровища, нужно подняться по корням дерева.'
+
+-------------------------------------------------------------------------------
+--------------------------------- COILED ISLES --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_student_of_hissstory'] = '{achievement:63662}'
+L['options_icons_student_of_hissstory_desc'] = 'Отобразить местоположение объектов, связанных с достижением {achievement:63662}.'
+
+L['options_icons_the_honored_dead'] = '{achievement:63610}'
+L['options_icons_the_honored_dead_desc'] = 'Отобразить местоположения для достижения {achievement:63610}.'

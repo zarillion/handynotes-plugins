@@ -124,3 +124,13 @@ L['sturdy_chest'] = 'Robuste Truhe'
 L['sturdy_chest_suffix'] = 'robuste Truhen geöffnet'
 
 L['gulf_of_memory_chest_note'] = nil
+
+-------------------------------------------------------------------------------
+--------------------------------- COILED ISLES --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_student_of_hissstory'] = '{achievement:63662}'
+L['options_icons_student_of_hissstory_desc'] = 'Zeigt die Positionen der Geschichtsobjekte für den {achievement:63662} Erfolg an.'
+
+L['options_icons_the_honored_dead'] = '{achievement:63610}'
+L['options_icons_the_honored_dead_desc'] = 'Zeigt die Positionen für den {achievement:63610} Erfolg an.'

@@ -123,3 +123,13 @@ L['sturdy_chest'] = 'Sturdy Chest'
 L['sturdy_chest_suffix'] = 'Sturdy Chest found'
 
 L['gulf_of_memory_chest_note'] = 'Walk up the roots of the tree to reach the treasure.'
+
+-------------------------------------------------------------------------------
+--------------------------------- COILED ISLES --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_student_of_hissstory'] = '{achievement:63662}'
+L['options_icons_student_of_hissstory_desc'] = 'Display lore object locations for the {achievement:63662} achievement.'
+
+L['options_icons_the_honored_dead'] = '{achievement:63610}'
+L['options_icons_the_honored_dead_desc'] = 'Display the locations for the {achievement:63610} achievement.'

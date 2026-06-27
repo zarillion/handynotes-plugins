@@ -123,3 +123,13 @@ L['sturdy_chest'] = '坚固宝箱'
 L['sturdy_chest_suffix'] = '已找到坚固宝箱'
 
 L['gulf_of_memory_chest_note'] = '沿着树的根部向上攀爬以到达宝藏。'
+
+-------------------------------------------------------------------------------
+--------------------------------- COILED ISLES --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_student_of_hissstory'] = '{achievement:63662}'
+L['options_icons_student_of_hissstory_desc'] = '显示 {achievement:63662} 成就中剧情物品的位置。'
+
+L['options_icons_the_honored_dead'] = '{achievement:63610}'
+L['options_icons_the_honored_dead_desc'] = '显示 {achievement:63610} 成就的位置。'
