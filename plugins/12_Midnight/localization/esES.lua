@@ -148,8 +148,8 @@ L['gulf_of_memory_chest_note'] = 'Sube por las raíces del árbol para llegar al
 --------------------------------- COILED ISLES --------------------------------
 -------------------------------------------------------------------------------
 
-L['lost_spirit_note'] = 'Devuelve {item:269935} a {npc:261867}.'
-L['vulzahn_smuggled_treasure_note'] = '1. Consigue {item:271791} de {dot:Blue}{npc:253837}\n\n2. Entrega {item:271791} a {dot:Red}{npc:262204} para recibir {item:271788}\n\n3. Entrega {item:271788} a {dot:Green}{npc:263265} para recibir {item:271792} y desbloquear el tesoro'
+L['lost_spirit_note'] = 'Devuelve la {item:269935} a {npc:261867}.'
+L['vulzahn_smuggled_treasure_note'] = '1. Consigue la {item:271791} de {dot:Blue}{npc:253837}.\n\n2. Entrega la {item:271791} a {dot:Red}{npc:262204} para recibir un {item:271788}.\n\n3. Entrega el {item:271788} a {dot:Green}{npc:263265} para recibir la {item:271792} y desbloquear el tesoro.'
 
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
 L['options_icons_coiled_isle_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:62492}.'
