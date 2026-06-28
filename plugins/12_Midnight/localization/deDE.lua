@@ -150,6 +150,7 @@ L['gulf_of_memory_chest_note'] = nil
 -------------------------------------------------------------------------------
 
 L['lost_spirit_note'] = 'Bringt {item:269935} zu {npc:261867} zurück.'
+L['sunken_divers_chest_note'] = 'Tötet den nahegelegenen {npc:263081} und plündert 3x {item:271424}, kombiniert sie dann zu {item:271423}, um den Schatz freizuschalten.'
 L['vulzahn_smuggled_treasure_note'] = '1. Holt {item:271791} von {dot:Blue}{npc:253837}\n\n2. Gebt {item:271791} an {dot:Red}{npc:262204}, um {item:271788} zu erhalten\n\n3. Gebt {item:271788} an {dot:Green}{npc:263265}, um {item:271792} zu erhalten und den Schatz freizuschalten'
 
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'

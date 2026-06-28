@@ -29,6 +29,10 @@ local vault_map2 = Map({id = 2613, settings = true, parent = 2509})
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
+local b = CreateFrame("Button", "DeleteCursorItemButton")
+b:SetScript("OnClick", function()
+    DeleteCursorItem()
+end)
 
 map.nodes[53777204] = Rare({
     id = 264854,
@@ -150,7 +154,8 @@ map.nodes[65440560] = Treasure({
     rewards = {
         Achievement({id = 63359, criteria = 115290}),
         Reputation({id = 2772, gain = 50, quest = 95907})
-    }
+    },
+    note = L['sunken_divers_chest_note']
 }) -- Sunken Diver's Chest
 
 map.nodes[67264846] = Treasure({
