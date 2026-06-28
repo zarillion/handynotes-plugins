@@ -29,10 +29,8 @@ local vault_map2 = Map({id = 2613, settings = true, parent = 2509})
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
-local b = CreateFrame("Button", "DeleteCursorItemButton")
-b:SetScript("OnClick", function()
-    DeleteCursorItem()
-end)
+local b = CreateFrame('Button', 'DeleteCursorItemButton')
+b:SetScript('OnClick', function() DeleteCursorItem() end)
 
 map.nodes[53777204] = Rare({
     id = 264854,
@@ -135,12 +133,22 @@ vault_map.nodes[10001000] = RareElite({
 
 map.nodes[71886666] = Treasure({
     quest = 94569,
+    requires = {
+        ns.requirement.Profession(356, 2911, 1) -- Midnight Fishing
+    },
     rewards = {
         Achievement({id = 63359, criteria = 115289}),
-        Reputation({id = 2772, gain = 50, quest = 94569})
+        Reputation({id = 2772, gain = 50, quest = 94569}), Toy({item = 279054}) -- [Idol of Blue Water and Blue Sky]
     }
 }) -- Abandoned Amani Privateer's Cache
+-- Fish in {object:Grisly Cod Pool} 73416611 to get grisly morsel
+-- Feed it to {npc:258076} Hungry Dolphin which turns into helpful dolphin
+-- Search the area to find the treasue
 
+---72426839 broken urn - [Privateer's Teeth Half of Key]
+---73106697 waterlogged crate - [Privateer's Loop Half of Key]
+---Combine the two halds to get [Amani Privateer's Key] to unlock the treasue
+---
 map.nodes[45916628] = Treasure({
     quest = 95938,
     rewards = {
@@ -153,7 +161,7 @@ map.nodes[65440560] = Treasure({
     quest = 95907,
     rewards = {
         Achievement({id = 63359, criteria = 115290}),
-        Reputation({id = 2772, gain = 50, quest = 95907}),Toy({item = 279052}) -- [Ancient Amani Mask]
+        Reputation({id = 2772, gain = 50, quest = 95907}), Toy({item = 279052}) -- [Ancient Amani Mask]
     },
     note = L['sunken_divers_chest_note']
 }) -- Sunken Diver's Chest
@@ -530,26 +538,26 @@ vault_map.nodes[56042831] = HonoredDead({
 -------------------------------------------------------------------------------
 
 map.nodes[71836484] = CoiledIsleSafari.PoisonedParasite({
-    pois = {POI({71836484, 67924206, 43263985})}
+    pois = {POI({71836484, 67924206, 43263985, 65404980})}
 }) -- Poisoned Parasite
 map.nodes[46204860] = CoiledIsleSafari.CursedSpawn({
     pois = {POI({46204860, 44104660, 45293450, 53443452, 54454229})}
 }) -- Cursed Spawn
 vault_map.nodes[40475058] = CoiledIsleSafari.CursedSpawn({
     parent = map.id,
-    pois = {POI({40475058,53671980})}
+    pois = {POI({40475058, 53671980})}
 }) -- Cursed Spawn
 map.nodes[49835580] = CoiledIsleSafari.JaundicedSlitherer({
     pois = {POI({49835580, 47116346, 53783407})}
 }) -- Jaundiced Slitherer
 vault_map.nodes[38923351] = CoiledIsleSafari.CausticWrithling({
     parent = map.id,
-    pois = {POI({38923351,42263530})}
+    pois = {POI({38923351, 42263530})}
 }) -- Caustic Writhling
 map.nodes[12001000] =
     CoiledIsleSafari.NightfurKapara({pois = {POI({12001000})}}) -- Nightfur Kapara
-map.nodes[12001000] = CoiledIsleSafari.SleekSnakebiter({
-    pois = {POI({12001000})}
+map.nodes[65404980] = CoiledIsleSafari.SleekSnakebiter({
+    pois = {POI({65404980})}
 }) -- Sleek Snakebiter
 map.nodes[72375502] = CoiledIsleSafari.SteadyCroakfrog({
     pois = {POI({72375502, 66085595, 68513886, 69124661})}
