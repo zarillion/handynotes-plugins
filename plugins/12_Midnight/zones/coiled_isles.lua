@@ -153,7 +153,7 @@ map.nodes[65440560] = Treasure({
     quest = 95907,
     rewards = {
         Achievement({id = 63359, criteria = 115290}),
-        Reputation({id = 2772, gain = 50, quest = 95907})
+        Reputation({id = 2772, gain = 50, quest = 95907}),Toy({item = 279052}) -- [Ancient Amani Mask]
     },
     note = L['sunken_divers_chest_note']
 }) -- Sunken Diver's Chest
