@@ -150,7 +150,7 @@ L['gulf_of_memory_chest_note'] = 'Grimpez le long des racines de l\'arbre pour a
 -------------------------------------------------------------------------------
 
 L['lost_spirit_note'] = 'Rapportez le {item:269935} à l\'{npc:261867}.'
-L['sunken_divers_chest_note'] = 'Tuez le {npc:263081} à proximité et récupérez 3x {item:271424}, puis combinez-les pour créer {item:271423} afin de déverrouiller le trésor.'
+L['sunken_divers_chest_note'] = 'Tuez des {npc:263081} à proximité et récupérez 3x {item:271424}, puis combinez-les pour créer la {item:271423} afin de déverrouiller le trésor.'
 L['vulzahn_smuggled_treasure_note'] = '1. Obtenez une {item:271791} auprès de l\'{dot:Blue}{npc:253837}.\n\n2. Donnez la {item:271791} au {dot:Red}{npc:262204} pour recevoir un {item:271788}.\n\n3. Apportez le {item:271788} à {dot:Green}{npc:263265} pour recevoir la {item:271792} et déverrouiller le trésor.'
 
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
