@@ -179,8 +179,8 @@ map.nodes[43646738] = Treasure({
         Reputation({id = 2772, gain = 50, quest = 95941})
     }
 }) -- Profane Ritual Spoils
---Interact with the 4 {object:mysterious Trinket} on  alter in the correct order to unlock treasure
---back to river TR, TL, BR, BL?
+-- Interact with the 4 {object:mysterious Trinket} on  alter in the correct order to unlock treasure
+-- back to river TR, TL, BR, BL?
 
 map.nodes[70637663] = Treasure({
     quest = 95995,
@@ -562,5 +562,6 @@ map.nodes[65404980] = CoiledIsleSafari.SleekSnakebiter({
 map.nodes[72375502] = CoiledIsleSafari.SteadyCroakfrog({
     pois = {POI({72375502, 66085595, 68513886, 69124661, 63353290})}
 }) -- Steady Croakfrog
-map.nodes[66306260] =
-    CoiledIsleSafari.AutumnSnapling({pois = {POI({66306260,50297265})}}) -- Autumn Snapling
+map.nodes[66306260] = CoiledIsleSafari.AutumnSnapling({
+    pois = {POI({66306260, 50297265})}
+}) -- Autumn Snapling
