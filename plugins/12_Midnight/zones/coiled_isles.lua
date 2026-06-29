@@ -29,8 +29,6 @@ local vault_map2 = Map({id = 2613, settings = true, parent = 2509})
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
-local b = CreateFrame('Button', 'DeleteCursorItemButton')
-b:SetScript('OnClick', function() DeleteCursorItem() end)
 
 map.nodes[53777204] = Rare({
     id = 264854,
@@ -174,13 +172,15 @@ map.nodes[67264846] = Treasure({
     }
 }) -- Grave of Someone Forgotten
 
-map.nodes[10001000] = Treasure({
+map.nodes[43646738] = Treasure({
     quest = 95941,
     rewards = {
         Achievement({id = 63359, criteria = 115292}),
         Reputation({id = 2772, gain = 50, quest = 95941})
     }
 }) -- Profane Ritual Spoils
+--Interact with the 4 {object:mysterious Trinket} on  alter in the correct order to unlock treasure
+--back to river TR, TL, BR, BL?
 
 map.nodes[70637663] = Treasure({
     quest = 95995,
@@ -554,13 +554,13 @@ vault_map.nodes[38923351] = CoiledIsleSafari.CausticWrithling({
     parent = map.id,
     pois = {POI({38923351, 42263530})}
 }) -- Caustic Writhling
-map.nodes[12001000] =
-    CoiledIsleSafari.NightfurKapara({pois = {POI({12001000})}}) -- Nightfur Kapara
+map.nodes[61788199] =
+    CoiledIsleSafari.NightfurKapara({pois = {POI({61788199})}}) -- Nightfur Kapara
 map.nodes[65404980] = CoiledIsleSafari.SleekSnakebiter({
     pois = {POI({65404980})}
 }) -- Sleek Snakebiter
 map.nodes[72375502] = CoiledIsleSafari.SteadyCroakfrog({
-    pois = {POI({72375502, 66085595, 68513886, 69124661})}
+    pois = {POI({72375502, 66085595, 68513886, 69124661, 63353290})}
 }) -- Steady Croakfrog
 map.nodes[66306260] =
-    CoiledIsleSafari.AutumnSnapling({pois = {POI({66306260})}}) -- Autumn Snapling
+    CoiledIsleSafari.AutumnSnapling({pois = {POI({66306260,50297265})}}) -- Autumn Snapling
