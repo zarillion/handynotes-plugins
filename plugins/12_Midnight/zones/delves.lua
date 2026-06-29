@@ -311,15 +311,15 @@ gni.nodes[60446812] = SturdyChest({
     rlabel = ns.status.Gray('#1')
 }) -- [Delver's Arcane Golem] mount drop random or fixed?
 
-gni.nodes[28433816] = SturdyChest({
+gni.nodes[52414084] = SturdyChest({
     achievementID = 63170,
-    quest = 96805,
+    quest = 96804,
     rlabel = ns.status.Gray('#2')
 })
 
-gni.nodes[10005002] = SturdyChest({ -- coords needed
+gni.nodes[28433816] = SturdyChest({
     achievementID = 63170,
-    quest = 0, -- quest ID needed
+    quest = 96805,
     rlabel = ns.status.Gray('#3')
 })
 
