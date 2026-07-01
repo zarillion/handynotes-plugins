@@ -53,7 +53,7 @@ map.nodes[24897354] = Rare({
     quest = 97122,
     rewards = {
         Achievement({id = 63358, criteria = 115784}),
-        Reputation({id = 2772, gain = 50, quest = 97122})
+        Reputation({id = 2772, gain = 50, quest = 98346})
     }
 }) -- Kari'zah the Forgotten
 
@@ -62,7 +62,7 @@ map.nodes[31665672] = Rare({
     quest = 96456,
     rewards = {
         Achievement({id = 63358, criteria = 115284}),
-        Reputation({id = 2772, gain = 50, quest = 96456})
+        Reputation({id = 2772, gain = 50, quest = 98347})
     }
 }) -- Lockjaw
 
@@ -71,7 +71,7 @@ map.nodes[43855086] = Rare({
     quest = 96464,
     rewards = {
         Achievement({id = 63358, criteria = 115281}),
-        Reputation({id = 2772, gain = 50, quest = 96464})
+        Reputation({id = 2772, gain = 50, quest = 98348})
     }
 }) -- Hisstara
 
@@ -81,7 +81,7 @@ vault_map2.nodes[38401769] = Rare({
     rewards = {
         Achievement({id = 63358, criteria = 115282}),
         Achievement({id = 62601, criteria = 113661}),
-        Reputation({id = 2772, gain = 50, quest = 96030})
+        Reputation({id = 2772, gain = 50, quest = 98349})
     }
 }) -- Szarith the Fanged
 
@@ -108,7 +108,7 @@ map.nodes[57216417] = Rare({
     quest = 94619,
     rewards = {
         Achievement({id = 63358, criteria = 115285}),
-        Reputation({id = 2772, gain = 50, quest = 94619})
+        Reputation({id = 2772, gain = 50, quest = 98352})
     }
 }) -- Coin-Eye Skully
 
@@ -117,7 +117,7 @@ map.nodes[70036344] = Rare({
     quest = 93829,
     rewards = {
         Achievement({id = 63358, criteria = 115286}),
-        Reputation({id = 2772, gain = 50, quest = 93829})
+        Reputation({id = 2772, gain = 50, quest = 98353})
     }
 }) -- Big Mon / Ancient Hulk -- patrols
 
@@ -423,13 +423,13 @@ map.nodes[43824419] = SkyridingGlyph({
 -------------------------------------------------------------------------------
 
 -- Student of Hissstory placeholder positions until live coordinates are confirmed.
-map.nodes[10005000] = StudentOfHissstory({
+map.nodes[42436502] = StudentOfHissstory({
     quest = 96946,
     rewards = {
         Achievement({id = 63662, criteria = 116702}),
         Reputation({id = 2772, gain = 250, quest = 96946})
     }
-}) -- Head Mason's Tablet
+}) -- Head Mason's Tablet (inside the passage down to the valuts of atal'utek entrance@45696493)
 
 map.nodes[57358036] = StudentOfHissstory({
     quest = 96947,
@@ -594,7 +594,7 @@ map.nodes[65404980] = CoiledIsleSafari.SleekSnakebiter({
     pois = {POI({65404980, 60687795})}
 }) -- Sleek Snakebiter
 map.nodes[72375502] = CoiledIsleSafari.SteadyCroakfrog({
-    pois = {POI({72375502, 66085595, 68513886, 69124661, 63353290})}
+    pois = {POI({72375502, 66085595, 68513886, 69124661, 63353290, 65913312})}
 }) -- Steady Croakfrog
 map.nodes[66306260] = CoiledIsleSafari.AutumnSnapling({
     pois = {POI({66306260, 50297265})}
