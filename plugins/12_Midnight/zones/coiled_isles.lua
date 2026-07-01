@@ -33,31 +33,46 @@ local vault_map2 = Map({id = 2613, settings = true, parent = 2509})
 map.nodes[53777204] = Rare({
     id = 264854,
     quest = 96491,
-    rewards = {Achievement({id = 63358, criteria = 115279})}
+    rewards = {
+        Achievement({id = 63358, criteria = 115279}),
+        Reputation({id = 2772, gain = 50, quest = 98344})
+    }
 }) -- Farthik the Plunderer - click the chest to spawn/agro rare
 
 map.nodes[50006907] = Rare({
     id = 268049,
     quest = 97112,
-    rewards = {Achievement({id = 63358, criteria = 115280})}
+    rewards = {
+        Achievement({id = 63358, criteria = 115280}),
+        Reputation({id = 2772, gain = 50, quest = 98345})
+    }
 }) -- Siltmouth
 
 map.nodes[24897354] = Rare({
     id = 268090,
     quest = 97122,
-    rewards = {Achievement({id = 63358, criteria = 115784})}
+    rewards = {
+        Achievement({id = 63358, criteria = 115784}),
+        Reputation({id = 2772, gain = 50, quest = 97122})
+    }
 }) -- Kari'zah the Forgotten
 
 map.nodes[31665672] = Rare({
     id = 265237,
     quest = 96456,
-    rewards = {Achievement({id = 63358, criteria = 115284})}
+    rewards = {
+        Achievement({id = 63358, criteria = 115284}),
+        Reputation({id = 2772, gain = 50, quest = 96456})
+    }
 }) -- Lockjaw
 
 map.nodes[43855086] = Rare({
     id = 265262,
     quest = 96464,
-    rewards = {Achievement({id = 63358, criteria = 115281})}
+    rewards = {
+        Achievement({id = 63358, criteria = 115281}),
+        Reputation({id = 2772, gain = 50, quest = 96464})
+    }
 }) -- Hisstara
 
 vault_map2.nodes[38401769] = Rare({
@@ -65,44 +80,63 @@ vault_map2.nodes[38401769] = Rare({
     quest = 96030,
     rewards = {
         Achievement({id = 63358, criteria = 115282}),
-        Achievement({id = 62601, criteria = 113661})
+        Achievement({id = 62601, criteria = 113661}),
+        Reputation({id = 2772, gain = 50, quest = 96030})
     }
 }) -- Szarith the Fanged
 
 map.nodes[70174529] = Rare({
     id = 258916,
     quest = 94856,
-    rewards = {Achievement({id = 63358, criteria = 110172})}
+    rewards = {
+        Achievement({id = 63358, criteria = 110172}),
+        Reputation({id = 2772, gain = 50, quest = 98350})
+    }
 }) -- Garsecg
 
 map.nodes[52064479] = Rare({
     id = 258920,
     quest = 94860,
-    rewards = {Achievement({id = 63358, criteria = 115283})}
-}) -- Nar'zira - coords maybe?
+    rewards = {
+        Achievement({id = 63358, criteria = 115283}),
+        Reputation({id = 2772, gain = 50, quest = 98351})
+    }
+}) -- Nar'zira
 
 map.nodes[57216417] = Rare({
     id = 257906,
     quest = 94619,
-    rewards = {Achievement({id = 63358, criteria = 115285})}
+    rewards = {
+        Achievement({id = 63358, criteria = 115285}),
+        Reputation({id = 2772, gain = 50, quest = 94619})
+    }
 }) -- Coin-Eye Skully
 
 map.nodes[70036344] = Rare({
     id = 256631,
     quest = 93829,
-    rewards = {Achievement({id = 63358, criteria = 115286})}
+    rewards = {
+        Achievement({id = 63358, criteria = 115286}),
+        Reputation({id = 2772, gain = 50, quest = 93829})
+    }
 }) -- Big Mon / Ancient Hulk -- patrols
 
 map.nodes[58534006] = Rare({
     id = 261109,
     quest = 95447,
-    rewards = {Achievement({id = 63358, criteria = 115287})}
+    rewards = {
+        Achievement({id = 63358, criteria = 115287}),
+        Reputation({id = 2772, gain = 50, quest = 98354})
+    }
 }) -- Sss'alik
 
 map.nodes[52053229] = Rare({
     id = 261142,
     quest = 95452,
-    rewards = {Achievement({id = 63358, criteria = 115288})}
+    rewards = {
+        Achievement({id = 63358, criteria = 115288}),
+        Reputation({id = 2772, gain = 50, quest = 98355})
+    }
 }) -- Destra
 
 -- Oppose the Foes (Rare Elite) - Achievement 63601
@@ -541,7 +575,7 @@ map.nodes[71836484] = CoiledIsleSafari.PoisonedParasite({
     pois = {POI({71836484, 67924206, 43263985, 65404980})}
 }) -- Poisoned Parasite
 map.nodes[46204860] = CoiledIsleSafari.CursedSpawn({
-    pois = {POI({46204860, 44104660, 45293450, 53443452, 54454229})}
+    pois = {POI({46204860, 44104660, 45293450, 53443452, 54454229, 43322806})}
 }) -- Cursed Spawn
 vault_map.nodes[40475058] = CoiledIsleSafari.CursedSpawn({
     parent = map.id,
@@ -557,7 +591,7 @@ vault_map.nodes[38923351] = CoiledIsleSafari.CausticWrithling({
 map.nodes[61788199] =
     CoiledIsleSafari.NightfurKapara({pois = {POI({61788199})}}) -- Nightfur Kapara
 map.nodes[65404980] = CoiledIsleSafari.SleekSnakebiter({
-    pois = {POI({65404980})}
+    pois = {POI({65404980, 60687795})}
 }) -- Sleek Snakebiter
 map.nodes[72375502] = CoiledIsleSafari.SteadyCroakfrog({
     pois = {POI({72375502, 66085595, 68513886, 69124661, 63353290})}
