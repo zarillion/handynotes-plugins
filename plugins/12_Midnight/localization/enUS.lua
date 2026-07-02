@@ -158,5 +158,8 @@ L['options_icons_coiled_isle_safari_desc'] = 'Display battle pet locations for t
 L['options_icons_student_of_hissstory'] = '{achievement:63662}'
 L['options_icons_student_of_hissstory_desc'] = 'Display lore object locations for the {achievement:63662} achievement.'
 
+L['options_icons_soft_underbelly'] = '{achievement:62601}'
+L['options_icons_soft_underbelly_desc'] = 'Display locations for the {achievement:62601} achievement.'
+
 L['options_icons_the_honored_dead'] = '{achievement:63610}'
 L['options_icons_the_honored_dead_desc'] = 'Display the locations for the {achievement:63610} achievement.'

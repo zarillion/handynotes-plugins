@@ -158,5 +158,8 @@ L['options_icons_coiled_isle_safari_desc'] = 'Muestra dónde están las mascotas
 L['options_icons_student_of_hissstory'] = '{achievement:63662}'
 L['options_icons_student_of_hissstory_desc'] = 'Muestra dónde están los objetos de conocimiento para el logro {achievement:63662}.'
 
+L['options_icons_soft_underbelly'] = '{achievement:62601}'
+L['options_icons_soft_underbelly_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:62601}.'
+
 L['options_icons_the_honored_dead'] = '{achievement:63610}'
 L['options_icons_the_honored_dead_desc'] = 'Muestra dónde están las ubicaciones para el logro {achievement:63610}.'

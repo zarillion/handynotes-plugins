@@ -159,5 +159,8 @@ L['options_icons_coiled_isle_safari_desc'] = 'Zeigt die Positionen der Kampfhaus
 L['options_icons_student_of_hissstory'] = '{achievement:63662}'
 L['options_icons_student_of_hissstory_desc'] = 'Zeigt die Positionen der Geschichtsobjekte für den {achievement:63662} Erfolg an.'
 
+L['options_icons_soft_underbelly'] = '{achievement:62601}'
+L['options_icons_soft_underbelly_desc'] = 'Zeigt die Positionen für den {achievement:62601} Erfolg an.'
+
 L['options_icons_the_honored_dead'] = '{achievement:63610}'
 L['options_icons_the_honored_dead_desc'] = 'Zeigt die Positionen für den {achievement:63610} Erfolg an.'

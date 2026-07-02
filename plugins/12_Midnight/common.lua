@@ -152,6 +152,12 @@ ns.groups.STUDENT_OF_HISSSTORY = Group('student_of_hissstory', 8032876, {
     achievement = 63662
 })
 
+ns.groups.SOFT_UNDERBELLY = Group('soft_underbelly', 134306, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 62601
+})
+
 ns.groups.THE_HONORED_DEAD = Group('the_honored_dead', 133740, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
@@ -216,6 +222,17 @@ local StudentOfHissstory = Class('StudentOfHissstory', Collectible, {
 })
 
 ns.node.StudentOfHissstory = StudentOfHissstory
+
+-------------------------------------------------------------------------------
+------------------------------- SOFT UNDERBELLY -------------------------------
+-------------------------------------------------------------------------------
+
+local SoftUnderbelly = Class('SoftUnderbelly', Collectible, {
+    icon = 134306,
+    group = ns.groups.SOFT_UNDERBELLY
+})
+
+ns.node.SoftUnderbelly = SoftUnderbelly
 
 -------------------------------------------------------------------------------
 ------------------------------- RUNESTONE RUSH --------------------------------

@@ -6,6 +6,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local StudentOfHissstory = ns.node.StudentOfHissstory
+local SoftUnderbelly = ns.node.SoftUnderbelly
 local Rare = ns.node.Rare
 local RareElite = ns.node.RareElite
 local CoiledIsleSafari = ns.node.CoiledIsleSafari
@@ -29,6 +30,8 @@ local vault_map2 = Map({id = 2613, settings = true, parent = 2509})
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
+local b = CreateFrame('Button', 'DeleteCursorItemButton')
+b:SetScript('OnClick', function() DeleteCursorItem() end)
 
 map.nodes[53777204] = Rare({
     id = 264854,
@@ -324,7 +327,7 @@ map.nodes[49483198] = Treasure({
     }
 }) -- Waterlogged Basket
 
-map.nodes[10001000] = Treasure({
+map.nodes[29546723] = Treasure({
     quest = 95855,
     rewards = {
         Achievement({id = 63359, criteria = 115302}),
@@ -504,6 +507,40 @@ map.nodes[32566366] = StudentOfHissstory({
 }) -- Profaned Plaque
 
 -------------------------------------------------------------------------------
+------------------------------- SOFT UNDERBELLY ------------------------------
+-------------------------------------------------------------------------------
+
+vault_map2.nodes[38411769] = SoftUnderbelly({
+    id = 263456,
+    quest = 0,
+    rewards = {Achievement({id = 62601, criteria = 113661})}
+}) -- Szarith the Fanged (separate achievement node)
+
+vault_map2.nodes[10001000] = SoftUnderbelly({
+    id = 263371,
+    quest = 0,
+    rewards = {Achievement({id = 62601, criteria = 113558})}
+}) -- Priest of the First Rattle (placeholder location/quest)
+
+vault_map2.nodes[10002000] = SoftUnderbelly({
+    id = 263322,
+    quest = 0,
+    rewards = {Achievement({id = 62601, criteria = 113557})}
+}) -- Champion of the Scale (placeholder location/quest)
+
+vault_map2.nodes[10003000] = SoftUnderbelly({
+    id = 263335,
+    quest = 0,
+    rewards = {Achievement({id = 62601, criteria = 113556})}
+}) -- Guardian of the Sacrifice (placeholder location/quest)
+
+vault_map2.nodes[40006793] = SoftUnderbelly({
+    id = 263851,
+    quest = 0,
+    rewards = {Achievement({id = 62601, criteria = 113662})}
+}) -- Vserix the Sneaky (placeholder location/quest) also 47340609
+
+-------------------------------------------------------------------------------
 ------------------------------- THE HONORED DEAD ------------------------------
 -------------------------------------------------------------------------------
 
@@ -589,7 +626,7 @@ vault_map.nodes[38923351] = CoiledIsleSafari.CausticWrithling({
     pois = {POI({38923351, 42263530})}
 }) -- Caustic Writhling
 map.nodes[61788199] =
-    CoiledIsleSafari.NightfurKapara({pois = {POI({61788199})}}) -- Nightfur Kapara
+    CoiledIsleSafari.NightfurKapara({pois = {POI({61788199,62128425})}}) -- Nightfur Kapara
 map.nodes[65404980] = CoiledIsleSafari.SleekSnakebiter({
     pois = {POI({65404980, 60687795})}
 }) -- Sleek Snakebiter
