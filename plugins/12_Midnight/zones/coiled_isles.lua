@@ -30,8 +30,6 @@ local vault_map2 = Map({id = 2613, settings = true, parent = 2509})
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
-local b = CreateFrame('Button', 'DeleteCursorItemButton')
-b:SetScript('OnClick', function() DeleteCursorItem() end)
 
 map.nodes[53777204] = Rare({
     id = 264854,
