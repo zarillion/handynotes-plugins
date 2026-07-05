@@ -118,6 +118,7 @@ L['songseeker_ikaja_note'] = 'Encima del templo.'
 -------------------------------------------------------------------------------
 
 L['sleepy_mandrake_note'] = 'Encuentra y alimenta 5 setas rojas únicas al {npc:267910} en la Gruta del Durmiente. Cada seta tiene un origen diferente en la zona.'
+L['partially_digested_redcap_note'] = 'Loot de {npc:264340}, {npc:264315}, y raros similares en la zona.'
 L['ancient_crypt_reliquary'] = 'Relicario de la cripta antigua'
 L['squirming_mollusk'] = 'Molusco retorcido'
 L['spiked_shell'] = 'Caparazón con púas'
