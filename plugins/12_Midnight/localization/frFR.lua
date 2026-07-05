@@ -119,7 +119,7 @@ L['songseeker_ikaja_note'] = 'Au sommet du temple.'
 -------------------------------------------------------------------------------
 
 L['sleepy_mandrake_note'] = 'Trouvez 5 Amanites différentes et donnez-les à la {npc:267910} dans la Grotte du Dormeur. Chaque Amanite se trouve à un endroit différent dans la zone.'
-L['partially_digested_redcap_note'] = nil
+L['partially_digested_redcap_note'] = 'Peut être lâché par les {npc:264340}, {npc:264315}, et par les monstres rares {npc:263954}, {npc:264576}, {npc:263947}, {npc:263955}.'
 L['ancient_crypt_reliquary'] = 'Reliquaire de crypte antique'
 L['squirming_mollusk'] = 'Mollusque remuant'
 L['spiked_shell'] = 'Carapace d\'épines'
