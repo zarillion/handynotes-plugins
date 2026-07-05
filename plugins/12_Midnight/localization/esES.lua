@@ -117,18 +117,18 @@ L['songseeker_ikaja_note'] = 'Encima del templo.'
 ----------------------------------- NAIGTAL ------------------------------------
 -------------------------------------------------------------------------------
 
-L['sleepy_mandrake_note'] = nil
-L['partially_digested_redcap_note'] = nil
-L['ancient_crypt_reliquary'] = nil
-L['squirming_mollusk'] = nil
-L['spiked_shell'] = nil
+L['sleepy_mandrake_note'] = 'Encuentra y alimenta 5 setas rojas únicas al {npc:267910} en la Gruta del Durmiente. Cada seta tiene un origen diferente en la zona.'
+L['partially_digested_redcap_note'] = 'Loot de {npc:264340}, {npc:264315}, y raros similares en la zona.'
+L['ancient_crypt_reliquary'] = 'Relicario de la cripta antigua'
+L['squirming_mollusk'] = 'Molusco retorcido'
+L['spiked_shell'] = 'Caparazón con púas'
 
 -------------------------------------------------------------------------------
 ------------------------------------- VAL --------------------------------------
 -------------------------------------------------------------------------------
 
-L['enchanted_hilt'] = nil
-L['enchanted_hilt_note'] = nil
+L['enchanted_hilt'] = 'Empuñadura encantada'
+L['enchanted_hilt_note'] = 'Sólo Heróico.\n\nHaz click en la {object:Empuñadura encantada} para conseguir {spell:1300397} y después derrotas al Boss del Mundo {npc:261072} o dos raros de la zona para el logro {achievement:62881}. Devuelve la empuñadura para recibir el tesoro.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARCANTINA ----------------------------------
