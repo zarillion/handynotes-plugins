@@ -259,6 +259,7 @@ map.nodes[68255161] = Treasure({
             icon = 134528,
             label = '{item:276368}',
             quest = 97094,
+            note = L['partially_digested_redcap_note'],
             scale = 2
         }), -- Partially-Digested Redcap
         POI({
