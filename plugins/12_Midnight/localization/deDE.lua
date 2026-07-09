@@ -152,6 +152,7 @@ L['gulf_of_memory_chest_note'] = nil
 L['lost_spirit_note'] = 'Bringt {item:269935} zu {npc:261867} zurück.'
 L['sunken_divers_chest_note'] = 'Tötet den nahegelegenen {npc:263081} und plündert 3x {item:271424}, kombiniert sie dann zu {item:271423}, um den Schatz freizuschalten.'
 L['vulzahn_smuggled_treasure_note'] = '1. Holt {item:271791} von {dot:Blue}{npc:253837}\n\n2. Gebt {item:271791} an {dot:Red}{npc:262204}, um {item:271788} zu erhalten\n\n3. Gebt {item:271788} an {dot:Green}{npc:263265}, um {item:271792} zu erhalten und den Schatz freizuschalten'
+L['grave_of_someone_forgotten_note'] = '1. Sprecht mit {dot:Blue}{npc:263241}.\n\n2. Sprecht mit {dot:Red}{npc:263242}.\n\n3. Sprecht mit {dot:Green}{npc:263243}.\n\n4. Kehrt zum Grab zurueck und plundert es.'
 
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
 L['options_icons_coiled_isle_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:62492} an.'

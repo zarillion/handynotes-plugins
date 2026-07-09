@@ -151,6 +151,7 @@ L['gulf_of_memory_chest_note'] = nil
 L['lost_spirit_note'] = '將 {item:269935} 交還給 {npc:261867}。'
 L['sunken_divers_chest_note'] = '擊殺附近的 {npc:263081} 並拾取 3 個 {item:271424}，接著將其合成為 {item:271423} 以解鎖寶藏。'
 L['vulzahn_smuggled_treasure_note'] = '1. 從 {dot:Blue}{npc:253837} 取得 {item:271791}\n\n2. 將 {item:271791} 交給 {dot:Red}{npc:262204} 以獲得 {item:271788}\n\n3. 將 {item:271788} 交給 {dot:Green}{npc:263265} 以獲得 {item:271792} 並解鎖寶藏'
+L['grave_of_someone_forgotten_note'] = '1. 與 {dot:Blue}{npc:263241} 對話。\n\n2. 與 {dot:Red}{npc:263242} 對話。\n\n3. 與 {dot:Green}{npc:263243} 對話。\n\n4. 返回墳墓進行拾取。'
 
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
 L['options_icons_coiled_isle_safari_desc'] = '顯示成就 {achievement:62492} 所需的戰寵位置。'

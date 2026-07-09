@@ -203,7 +203,13 @@ map.nodes[67264846] = Treasure({
     quest = 95956,
     rewards = {
         Achievement({id = 63359, criteria = 115291}),
-        Reputation({id = 2772, gain = 50, quest = 95956})
+        Reputation({id = 2772, gain = 50, quest = 95956}), Toy({item = 279021}) -- [Forgotten Memento]
+    },
+    note = L['grave_of_someone_forgotten_note'],
+    pois = {
+        POI({points = {69045271}, color = 'Blue', label = '{npc:263241}'}),
+        POI({points = {70415839}, color = 'Red', label = '{npc:263242}'}),
+        POI({points = {66425723}, color = 'Green', label = '{npc:263243}'})
     }
 }) -- Grave of Someone Forgotten
 
@@ -623,8 +629,9 @@ vault_map.nodes[38923351] = CoiledIsleSafari.CausticWrithling({
     parent = map.id,
     pois = {POI({38923351, 42263530})}
 }) -- Caustic Writhling
-map.nodes[61788199] =
-    CoiledIsleSafari.NightfurKapara({pois = {POI({61788199,62128425})}}) -- Nightfur Kapara
+map.nodes[61788199] = CoiledIsleSafari.NightfurKapara({
+    pois = {POI({61788199, 62128425})}
+}) -- Nightfur Kapara
 map.nodes[65404980] = CoiledIsleSafari.SleekSnakebiter({
     pois = {POI({65404980, 60687795})}
 }) -- Sleek Snakebiter

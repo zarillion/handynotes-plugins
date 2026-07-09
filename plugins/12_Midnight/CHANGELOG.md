@@ -5,6 +5,8 @@
 * Added Coiled Isle Safari achievement support ({achievement:62492}) with a separate group and node set.
 * Updated Student of Hissstory achievement handling and related node organization.
 * Added/updated Coiled Isles treasure rewards and reputation coverage.
+* Added Soft Underbelly achievement support ({achievement:62601}) in Coiled Isles, including NPC criteria mapping updates.
+* Added Grave of Someone Forgotten guidance as a localized note with color-coded NPC POIs across Midnight locales.
 * Added localized treasure guidance updates across all Midnight locales, including Lost Spirit and Vul'zahn workflow notes.
 * Added color-coded POI guidance for multi-step treasure interactions.
 * Merged Vault of Atal'utek handling into Coiled Isles and removed legacy split zone files.

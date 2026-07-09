@@ -227,10 +227,8 @@ ns.node.StudentOfHissstory = StudentOfHissstory
 ------------------------------- SOFT UNDERBELLY -------------------------------
 -------------------------------------------------------------------------------
 
-local SoftUnderbelly = Class('SoftUnderbelly', Collectible, {
-    icon = 134306,
-    group = ns.groups.SOFT_UNDERBELLY
-})
+local SoftUnderbelly = Class('SoftUnderbelly', Collectible,
+    {icon = 134306, group = ns.groups.SOFT_UNDERBELLY})
 
 ns.node.SoftUnderbelly = SoftUnderbelly
 
