@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# v143
+# v146
 
 * Added Coiled Isles zone support with rares, treasures, and skyriding glyph nodes.
 * Added Coiled Isle Safari achievement support ({achievement:62492}) with a separate group and node set.
@@ -12,7 +11,7 @@
 * Merged Vault of Atal'utek handling into Coiled Isles and removed legacy split zone files.
 * Updated Midnight patch/interface metadata and plugin wiring for new zone loading.
 * Updated multiple Midnight coordinates/POIs and performed formatting/cleanup passes.
-=======
+
 # v145
 
 * Added initial Naigtal and Val zones
@@ -26,7 +25,6 @@
 # v143
 
 * Fixed a tooltip warning.
->>>>>>> master
 
 # v142
 
