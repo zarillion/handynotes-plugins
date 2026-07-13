@@ -1,3 +1,9 @@
+# v146
+
+* Small node tweaks
+* Localization updates
+* Add fix for potential secret values in NPC names
+
 # v145
 
 * Added initial Naigtal and Val zones
