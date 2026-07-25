@@ -142,39 +142,39 @@ L['share_a_drink_note'] = 'Achetez des {item:251039} auprès de {npc:250495} à 
 -------------------------------------------------------------------------------
 ------------------------------- RITUAL SITES ---------------------------------
 -------------------------------------------------------------------------------
-L['options_icons_ritual_site'] = nil
-L['options_icons_ritual_site_desc'] = nil
+L['options_icons_ritual_site'] = 'Sites rituels'
+L['options_icons_ritual_site_desc'] = 'Afficher les récompenses des {location:Sites rituels} dans les infobulles.'
 
-L['ritual_site_broken_throne'] = nil
-L['ritual_site_daggerspine_point'] = nil
+L['ritual_site_broken_throne'] = 'Site rituel : Trône brisé'
+L['ritual_site_daggerspine_point'] = 'Site rituel : Pointe des Daguéchines'
 
-L['broken_throne_entry_note'] = nil
-L['daggerspine_point_entry_note'] = nil
+L['broken_throne_entry_note'] = 'Le Trône brisé, également connu sous le nom d’Atal’Kaldan, est une ruine Amani prise d’assaut par la Lame du Crépuscule. Cliquez sur l\'{npc:260103} pour y entrer.\n\nAlterne chaque semaine avec le {location:Site rituel : Pointe des Daguéchines}.'
+L['daggerspine_point_entry_note'] = 'La Pointe des Daguéchines est une île revendiquée par les Nagas Daguéchine, elle était anciennement appelée l\'Île de Shalandis. Cliquez sur l\'{npc:260103} pour y entrer.\n\nAlterne chaque semaine avec le {location:Site rituel : Trône Brisé}.'
 
-L['chewed_meat'] = nil
-L['chewed_meat_note'] = nil
+L['chewed_meat'] = 'Viande mâchonnée'
+L['chewed_meat_note'] = 'Invoquez {spell:1286634} à l\'emplacement de la {object:Viande mâchonnée}. Vainquez l\'{npc:263381}. Une fois qu\'il sera devenu amical, donnez-lui 5x {item:242639} à manger.'
 
-L['ritual_circle'] = nil
-L['ritual_circle_note'] = nil
+L['ritual_circle'] = 'Cercle rituel'
+L['ritual_circle_note'] = 'Placez la {item:271999} et commencez le rituel pour invoquer l\'{npc:263527}.'
 
-L['updraft'] = nil
-L['void_tainted_nest'] = nil
-L['void_tainted_nest_note'] = nil
+L['updraft'] = 'Courant ascendant'
+L['void_tainted_nest'] = 'Nid corrompu par le Vide'
+L['void_tainted_nest_note'] = 'Vous devez monter sur l\'{spell:1286606} pour voir le Courant ascendant. Approchez-vous du courant pour vous envoler vers le nid.'
 
-L['chubs_note'] = nil
+L['chubs_note'] = 'Nourissez l\'{npc:263355} avec 1x {item:242639}.'
 
-L['rustling_fern'] = nil
-L['rustling_bush'] = nil
-L['rustling_fern_note'] = nil
-L['rustling_bush_note'] = nil
+L['rustling_fern'] = 'Fougère frémissante'
+L['rustling_bush'] = 'Buisson frémissant'
+L['rustling_fern_note'] = 'Trouvées au Niveau 3 ou supérieur. Cliquez sur des {object:Fougères frémissantes} jusqu\'à ce que le jeune lynx apparaisse (8 à 13 clics environ). Seulement 1 à 2 fougères trouvables par session.\nNécessite que la mascotte n\'ait pas déjà été apprise.'
+L['rustling_bush_note'] = 'Trouvés au Niveau 3 ou supérieur. Cliquez sur des {object:Buissons frémissants} jusqu\'à ce que le jeune lynx apparaisse (8 à 13 clics environ). Seulement 1 à 2 buissons trouvables par session.\nNécessite que la mascotte n\'ait pas déjà été apprise.'
 
-L['soggy_nest'] = nil
-L['soggy_nest_note'] = nil
+L['soggy_nest'] = 'Nid détrempé'
+L['soggy_nest_note'] = 'Requiert le {item:272128} pour attirer le {npc:263917}.\nLe {item:272128} peut également être obtenu en tuant des nagas dans la zone.'
 
-L['washed_up_kelp'] = nil
-L['washed_up_kelp_note'] = nil
+L['washed_up_kelp'] = 'Varech échoué'
+L['washed_up_kelp_note'] = 'Fouillez les {object:Varechs échoués} pour avoir une chance d\'attirer le {npc:263617}. Trouvables à plusieurs endroits dans la zone.'
 
-L['floating_egg_note'] = nil
+L['floating_egg_note'] = 'Un {npc:263805} qui descend la rivière à la dérive. Attrapez-le pendant son trajet.'
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
 
