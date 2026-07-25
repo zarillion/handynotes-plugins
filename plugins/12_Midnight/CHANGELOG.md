@@ -1,3 +1,8 @@
+# v147
+
+* Added ritual sites
+* Localization updates
+
 # v146
 
 * Small node tweaks
