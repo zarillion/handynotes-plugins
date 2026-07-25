@@ -479,10 +479,8 @@ ns.node.Safari = {
 ------------------------------- RENOWNED BEASTS -------------------------------
 -------------------------------------------------------------------------------
 
-local RenownedBeast = Class('RenownedBeast', ns.node.Node, {
-    icon = 5931379,
-    group = ns.groups.RENOWNED_BEAST
-})
+local RenownedBeast = Class('RenownedBeast', ns.node.Node,
+    {icon = 5931379, group = ns.groups.RENOWNED_BEAST})
 
 ns.node.RenownedBeast = RenownedBeast
 

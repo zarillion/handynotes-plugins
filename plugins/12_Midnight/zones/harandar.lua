@@ -627,8 +627,7 @@ map.nodes[66166169] = ns.node.NPC({
     icon = 1670851,
     id = 247220,
     rewards = {
-        Achievement({id = 61939, criteria = {id = 1, qty = true}}),
-        Spacer(),
+        Achievement({id = 61939, criteria = {id = 1, qty = true}}), Spacer(),
         Achievement({id = 61943, criteria = 111433, oneline = true}),
         Achievement({id = 62325, criteria = 112532, oneline = true}),
         Achievement({id = 62326, criteria = 112536, oneline = true}),
