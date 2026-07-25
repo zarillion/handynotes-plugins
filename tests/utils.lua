@@ -28,4 +28,23 @@ local function Code()
     return io.popen(cmd):lines()
 end
 
-return {FileExists = FileExists, Code = Code, Locales = Locales}
+local function AllLuaFiles()
+    local cmd = 'find ../core ../plugins -name "*.lua"'
+    return io.popen(cmd):lines()
+end
+
+local function FileLines(file)
+    local f = io.open(file, 'r')
+    if not f then return function() end end
+    local lines = {}
+    for line in f:lines() do lines[#lines + 1] = line end
+    f:close()
+    local i = 0
+    return function()
+        i = i + 1
+        if lines[i] then return i, lines[i] end
+    end
+end
+
+return {FileExists = FileExists, Code = Code, Locales = Locales,
+    AllLuaFiles = AllLuaFiles, FileLines = FileLines}
