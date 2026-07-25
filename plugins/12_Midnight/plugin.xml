@@ -11,5 +11,7 @@
   <Script file="zones\abundance.lua"/>
   <Script file="zones\naigtal.lua"/>
   <Script file="zones\val.lua"/>
+  <Script file="zones\broken_throne.lua"/>
+  <Script file="zones\daggerspine_point.lua"/>
   <!-- -->
 </Ui>

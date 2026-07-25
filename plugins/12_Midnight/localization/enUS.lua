@@ -137,6 +137,45 @@ L['enchanted_hilt_note'] = 'Heroic only.\n\nClick the {object:Enchanted Hilt} to
 L['share_a_drink_note'] = 'Purchase {item:251039} from {npc:250495} in the Arcantina and share it with all races.'
 
 -------------------------------------------------------------------------------
+-------------------------------- RITUAL SITES --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_ritual_site'] = 'Ritual Sites'
+L['options_icons_ritual_site_desc'] = 'Display {location:Ritual Site} rewards on tooltips.'
+
+L['ritual_site_broken_throne'] = 'Ritual Site: Broken Throne'
+L['ritual_site_daggerspine_point'] = 'Ritual Site: Daggerspine Point'
+
+L['broken_throne_entry_note'] = 'The Broken Throne also known as Atal\'Kaldan, is an Amani ruin taken over by the Twilight\'s Blade. Click {npc:260103} to enter.\n\nAlternates weekly with {location:Ritual Site: Daggerspine Point}.'
+L['daggerspine_point_entry_note'] = 'Daggerspine Point is an island claimed by the Daggerspine naga, formerly named Shalandis Isle. Click {npc:260103} to enter.\n\nAlternates weekly with {location:Ritual Site: Broken Throne}.'
+
+L['chewed_meat'] = 'Chewed Meat'
+L['chewed_meat_note'] = 'Summon {spell:1286634} at {object:Chewed Meat}. Defeat {npc:263381}. Once it turns friendly, feed it 5x {item:242639}.'
+
+L['ritual_circle'] = 'Ritual Circle'
+L['ritual_circle_note'] = 'Place the Misplaced Ritual Candle and begin the ritual to summon the {npc:263527}.'
+
+L['updraft'] = 'Updraft'
+L['updraft_note'] = 'Ride the {npc:263527} and step into the Updraft at the pillar corner to be flown to the nest.'
+L['void_tainted_nest'] = 'Void-Tainted Nest'
+L['void_tainted_nest_note'] = 'Must be mounted on {spell:1286606} to see the Updraft. Step into it to fly to the nest.'
+
+L['chubs_note'] = 'Purchase from {npc:263355} for 1x {item:242639}.'
+
+L['rustling_fern'] = 'Rustling Fern'
+L['rustling_bush'] = 'Rustling Bush'
+L['rustling_fern_note'] = 'Found in Tier 3 or higher. Click {object:Rustling Ferns} until the kitten appears (8-13 clicks). Only 1-2 available per run.\nRequires the pet not already learned.'
+L['rustling_bush_note'] = 'Found in Tier 3 or higher. Click {object:Rustling Bushes} until the kitten appears (8-13 clicks). Only 1-2 available per run.\nRequires the pet not already learned.'
+
+L['soggy_nest'] = 'Soggy Nest'
+L['soggy_nest_note'] = 'Requires {item:272128} to attract {npc:263917}.\n{item:272128} also drops from naga in the zone.'
+
+L['washed_up_kelp'] = 'Washed Up Kelp'
+L['washed_up_kelp_note'] = 'Search through {object:Washed Up Kelp} for a chance to attract the {npc:263617}. Found at multiple locations in the zone.'
+
+L['floating_egg_note'] = '{npc:263805} floating down the river. Catch it along its path.'
+
+-------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
 

@@ -137,6 +137,44 @@ L['enchanted_hilt_note'] = 'Только в героическом режиме.
 L['share_a_drink_note'] = 'Приобретите {item:251039} у {npc:250495} в Тайной таверне и поделитесь им со всеми расами.'
 
 -------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+------------------------------- RITUAL SITES ---------------------------------
+-------------------------------------------------------------------------------
+L['options_icons_ritual_site'] = nil
+L['options_icons_ritual_site_desc'] = nil
+
+L['ritual_site_broken_throne'] = nil
+L['ritual_site_daggerspine_point'] = nil
+
+L['broken_throne_entry_note'] = nil
+L['daggerspine_point_entry_note'] = nil
+
+L['chewed_meat'] = nil
+L['chewed_meat_note'] = nil
+
+L['ritual_circle'] = nil
+L['ritual_circle_note'] = nil
+
+L['updraft'] = nil
+L['updraft_note'] = nil
+L['void_tainted_nest'] = nil
+L['void_tainted_nest_note'] = nil
+
+L['chubs_note'] = nil
+
+L['rustling_fern'] = nil
+L['rustling_bush'] = nil
+L['rustling_fern_note'] = nil
+L['rustling_bush_note'] = nil
+
+L['soggy_nest'] = nil
+L['soggy_nest_note'] = nil
+
+L['washed_up_kelp'] = nil
+L['washed_up_kelp_note'] = nil
+
+L['floating_egg_note'] = nil
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
 
