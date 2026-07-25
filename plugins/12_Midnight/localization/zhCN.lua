@@ -156,7 +156,6 @@ L['ritual_circle'] = '仪式法阵'
 L['ritual_circle_note'] = '将放错位置的仪式蜡烛放置在合适的位置，开始仪式召唤 {npc:263527}。'
 
 L['updraft'] = '上升气流'
-L['updraft_note'] = '骑乘 {npc:263527} 站到柱子角落的上升气流中，被气流带到鸟巢。'
 L['void_tainted_nest'] = '虚空侵染的巢穴'
 L['void_tainted_nest_note'] = '需骑乘 {spell:1286606} 才能看到上升气流，站进去飞到巢穴。'
 

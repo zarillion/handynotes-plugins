@@ -156,7 +156,6 @@ L['ritual_circle'] = 'Ritual Circle'
 L['ritual_circle_note'] = 'Place the Misplaced Ritual Candle and begin the ritual to summon the {npc:263527}.'
 
 L['updraft'] = 'Updraft'
-L['updraft_note'] = 'Ride the {npc:263527} and step into the Updraft at the pillar corner to be flown to the nest.'
 L['void_tainted_nest'] = 'Void-Tainted Nest'
 L['void_tainted_nest_note'] = 'Must be mounted on {spell:1286606} to see the Updraft. Step into it to fly to the nest.'
 

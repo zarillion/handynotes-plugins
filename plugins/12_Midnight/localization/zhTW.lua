@@ -157,7 +157,6 @@ L['ritual_circle'] = nil
 L['ritual_circle_note'] = nil
 
 L['updraft'] = nil
-L['updraft_note'] = nil
 L['void_tainted_nest'] = nil
 L['void_tainted_nest_note'] = nil
 
