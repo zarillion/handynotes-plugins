@@ -137,43 +137,44 @@ L['enchanted_hilt_note'] = 'Sólo Heróico.\n\nHaz click en la {object:Empuñadu
 L['share_a_drink_note'] = 'Compra una {item:251039} al {npc:250495} en la Arcantina y compártela con todas las razas.'
 
 -------------------------------------------------------------------------------
+------------------------------- RITUAL SITES ----------------------------------
 -------------------------------------------------------------------------------
+
+L['options_icons_ritual_site'] = 'Lugares de ritual'
+L['options_icons_ritual_site_desc'] = 'Mostrar las recompensas de {location:Lugares de ritual} en las descripciones.'
+
+L['ritual_site_broken_throne'] = 'Lugares de ritual: Trono Destrozado'
+L['ritual_site_daggerspine_point'] = 'Lugares de ritual: Punto de Espinadaga'
+
+L['broken_throne_entry_note'] = 'Trono Destrozado, también conocido como Atal\'Kaldan, es una ruina Amani tomada durante la Hoja Crepuscular. Haz click en el {npc:260103} para entrar.\n\nSe alterna semanalmente con {location:Lugares de ritual: Punto de Espinadaga}.'
+L['daggerspine_point_entry_note'] = 'Punto de Espinadaga es una isla tomada por las nagas Espinadaga, llamada formalmente Shalandis Isle. Haz click en el {npc:260103} para entrar.\n\nSe alterna semanalmente con {location:Lugares de ritual: Trono Destrozado}.'
+
+L['chewed_meat'] = 'Carne mordisqueada'
+L['chewed_meat_note'] = 'Invoca a {spell:1286634} en la {object:Carne mordisqueada}. Derrota al {npc:263381}. Una vez que se vuelva amigable, aliméntalo con 5x {item:242639}.'
+
+L['ritual_circle'] = 'Círculo ritual'
+L['ritual_circle_note'] = 'Coloca la {item:271999} y comienza el ritual para invocar a la {npc:263527}.'
+
+L['updraft'] = 'Corriente ascendente'
+L['void_tainted_nest'] = 'Nido contaminado del Vacío'
+L['void_tainted_nest_note'] = 'Tienes que estar montado en la {spell:1286606} para ver la Corriente ascendente. Salta en ella para volar al nido.'
+
+L['chubs_note'] = 'Alimenta al {npc:263355} con 1x {item:242639}.'
+
+L['rustling_fern'] = 'Helecho siseante'
+L['rustling_bush'] = 'Arbusto siseante'
+L['rustling_fern_note'] = 'Encontrado en el nivel 3 o superior. Haz click en {object:Helecho siseante} hasta que en uno aparezca el gatito (8-13 clicks). Solo hay 1 o 2 disponibles por batida.\nRequiere que la mascota aún no se haya aprendido.'
+L['rustling_bush_note'] = 'Encontrado en el nivel 3 o superior. Haz click en {object:Arbusto siseante} hasta que en uno aparezca el gatito (8-13 clicks). Solo hay 1 o 2 disponibles por batida.\nRequiere que la mascota aún no se haya aprendido.'
+
+L['soggy_nest'] = 'Nido empapado'
+L['soggy_nest_note'] = 'Requiere {item:272128} para atraer al {npc:263917}.\n{item:272128} cae de las nagas de la zona.'
+
+L['washed_up_kelp'] = 'Alga arrastrada a la orilla'
+L['washed_up_kelp_note'] = 'Busca a través de {object:Alga arrastrada a la orilla} para tener una oportunidad de atraer al {npc:263617}. Hay en múltiples sitios de la zona.'
+
+L['floating_egg_note'] = 'El {npc:263805} está flotando río abajo. Atrápalo en su camino.'
+
 -------------------------------------------------------------------------------
-------------------------------- RITUAL SITES ---------------------------------
--------------------------------------------------------------------------------
-L['options_icons_ritual_site'] = nil
-L['options_icons_ritual_site_desc'] = nil
-
-L['ritual_site_broken_throne'] = nil
-L['ritual_site_daggerspine_point'] = nil
-
-L['broken_throne_entry_note'] = nil
-L['daggerspine_point_entry_note'] = nil
-
-L['chewed_meat'] = nil
-L['chewed_meat_note'] = nil
-
-L['ritual_circle'] = nil
-L['ritual_circle_note'] = nil
-
-L['updraft'] = nil
-L['void_tainted_nest'] = nil
-L['void_tainted_nest_note'] = nil
-
-L['chubs_note'] = nil
-
-L['rustling_fern'] = nil
-L['rustling_bush'] = nil
-L['rustling_fern_note'] = nil
-L['rustling_bush_note'] = nil
-
-L['soggy_nest'] = nil
-L['soggy_nest_note'] = nil
-
-L['washed_up_kelp'] = nil
-L['washed_up_kelp_note'] = nil
-
-L['floating_egg_note'] = nil
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
 
