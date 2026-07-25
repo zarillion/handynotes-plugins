@@ -35,7 +35,7 @@ map.nodes[55103870] = Rare({
 -------------------------------------------------------------------------------
 
 map.nodes[30006310] = RitualCollectible({
-    icon = 'chest_gy',
+    icon = 2766227,
     label = L['soggy_nest'],
     note = L['soggy_nest_note'],
     requires = ns.requirement.Item(272128), -- Soggy Lynx Toy
@@ -46,7 +46,7 @@ map.nodes[30006310] = RitualCollectible({
 
 -- Washed Up Kelp (Void-Touched Snapdragon mount)
 map.nodes[38006360] = RitualCollectible({
-    icon = 'chest_gy',
+    icon = 2027958,
     label = L['washed_up_kelp'],
     note = L['washed_up_kelp_note'],
     rewards = {
@@ -62,7 +62,7 @@ map.nodes[38006360] = RitualCollectible({
 
 -- Floating Egg
 map.nodes[55804560] = RitualCollectible({
-    icon = 'chest_gy',
+    icon = 6703754,
     label = '{npc:263805}',
     note = L['floating_egg_note'],
     rewards = {
@@ -77,7 +77,7 @@ map.nodes[55804560] = RitualCollectible({
 
 -- Void-Touched Lynx Kitten (shared across both ritual sites, Tier 3+)
 map.nodes[41804970] = RitualCollectible({
-    icon = 'chest_gy',
+    icon = 7390433,
     label = L['rustling_bush'],
     note = L['rustling_bush_note'],
     rewards = {

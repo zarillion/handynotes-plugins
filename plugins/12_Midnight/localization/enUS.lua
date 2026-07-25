@@ -153,7 +153,7 @@ L['chewed_meat'] = 'Chewed Meat'
 L['chewed_meat_note'] = 'Summon {spell:1286634} at {object:Chewed Meat}. Defeat {npc:263381}. Once it turns friendly, feed it 5x {item:242639}.'
 
 L['ritual_circle'] = 'Ritual Circle'
-L['ritual_circle_note'] = 'Place the Misplaced Ritual Candle and begin the ritual to summon the {npc:263527}.'
+L['ritual_circle_note'] = 'Place {item:271999} and begin the ritual to summon {npc:263527}.'
 
 L['updraft'] = 'Updraft'
 L['void_tainted_nest'] = 'Void-Tainted Nest'

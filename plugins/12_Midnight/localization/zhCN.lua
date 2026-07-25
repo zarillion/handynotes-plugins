@@ -153,7 +153,7 @@ L['chewed_meat'] = '碎烂的肉'
 L['chewed_meat_note'] = '在 {object:碎烂的肉} 处召唤 {spell:1286634}，击败 {npc:263381} 后喂食5个 {item:242639}。'
 
 L['ritual_circle'] = '仪式法阵'
-L['ritual_circle_note'] = '将放错位置的仪式蜡烛放置在合适的位置，开始仪式召唤 {npc:263527}。'
+L['ritual_circle_note'] = '将 {item:271999} 放置在合适的位置，开始仪式召唤 {npc:263527}。'
 
 L['updraft'] = '上升气流'
 L['void_tainted_nest'] = '虚空侵染的巢穴'

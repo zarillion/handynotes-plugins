@@ -22,7 +22,7 @@ local zulaman = ns.maps[2437]
 -------------------------------------------------------------------------------
 
 map.nodes[55803880] = RitualCollectible({
-    icon = 'chest_gy',
+    icon = 7263309,
     label = L['chewed_meat'],
     note = L['chewed_meat_note'],
     rewards = {
@@ -31,7 +31,7 @@ map.nodes[55803880] = RitualCollectible({
 }) -- Chewed Meat
 
 map.nodes[50604730] = RitualCollectible({
-    icon = 'chest_gy',
+    icon = 135664,
     label = L['ritual_circle'],
     note = L['ritual_circle_note'],
     requires = ns.requirement.Item(271999), -- Misplaced Ritual Candle
@@ -44,7 +44,7 @@ map.nodes[50604730] = RitualCollectible({
 }) -- Ritual Circle
 
 map.nodes[45806480] = RitualCollectible({
-    icon = 'chest_gy',
+    icon = 7210236,
     label = L['void_tainted_nest'],
     note = L['void_tainted_nest_note'],
     rewards = {
@@ -58,7 +58,7 @@ map.nodes[45806480] = RitualCollectible({
 -------------------------------------------------------------------------------
 
 map.nodes[55804960] = RitualCollectible({
-    icon = 'chest_gy',
+    icon = 7523130,
     label = '{spell:1286634}',
     note = L['chubs_note'],
     rewards = {
@@ -72,7 +72,7 @@ map.nodes[55804960] = RitualCollectible({
 
 -- Void-Touched Lynx Kitten (shared across both ritual sites, Tier 3+)
 map.nodes[40906760] = RitualCollectible({
-    icon = 'chest_gy',
+    icon = 7390433,
     label = L['rustling_fern'],
     note = L['rustling_fern_note'],
     rewards = {
