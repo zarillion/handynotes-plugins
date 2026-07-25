@@ -32,9 +32,9 @@ L['options_icons_profession_treasures_desc'] = 'Отображение мест�
 L['options_icons_safari'] = '{achievement:61091}'
 L['options_icons_safari_desc'] = 'Отображение местоположения боевых питомцев для {achievement:61091}.'
 
-L['options_icons_renowned_beast'] = 'Renowned Beasts'
-L['options_icons_renowned_beast_desc'] = 'Display locations of summonable daily beasts for Skinning'
-L['silverscale_note'] = 'Summoned below the bridge.'
+L['options_icons_renowned_beast'] = 'Знаменитые звери'
+L['options_icons_renowned_beast_desc'] = 'Отображать места появления призываемых ежедневных зверей для Снятия шкур'
+L['silverscale_note'] = 'Призывается под мостом.'
 
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS --------------------------------
@@ -137,43 +137,44 @@ L['enchanted_hilt_note'] = 'Только в героическом режиме.
 L['share_a_drink_note'] = 'Приобретите {item:251039} у {npc:250495} в Тайной таверне и поделитесь им со всеми расами.'
 
 -------------------------------------------------------------------------------
+-------------------------------- RITUAL SITES --------------------------------
 -------------------------------------------------------------------------------
+
+L['options_icons_ritual_site'] = 'Место проведения ритуалов'
+L['options_icons_ritual_site_desc'] = 'Отображать награды за {location:Места проведения ритуалов} во всплывающих подсказках.'
+
+L['ritual_site_broken_throne'] = 'Место проведения ритуалов: Разрушенный трон'
+L['ritual_site_daggerspine_point'] = 'Место проведения ритуалов: Высота Пронзающего Гребня'
+
+L['broken_throne_entry_note'] = 'Разрушенный трон, также известный как Атал\'Калдан, - это руины Амани, захваченные Сумеречным Клинком. Нажмите на {npc:260103}, чтобы войти.\n\nЧередуется каждую неделю с {location:Место проведения ритуалов: Высота Пронзающего Гребня}.'
+L['daggerspine_point_entry_note'] = 'Высота Пронзающего Гребня - это остров, захваченный нагами из племени Пронзающего Гребня, ранее именовавшийся островом Шаландис. Нажмите на {npc:260103}, чтобы войти.\n\nЧередуется каждую неделю с {location:Место проведения ритуалов: Разрушенный трон}.'
+
+L['chewed_meat'] = 'Пожеванное мясо'
+L['chewed_meat_note'] = 'Призовите {spell:1286634} у {object:Пожеванного мяса}. Победите {npc:263381}. Как только он станет дружелюбным, скормите ему 5x {item:242639}.'
+
+L['ritual_circle'] = 'Ритуальный круг'
+L['ritual_circle_note'] = 'Разместите {item:271999} и начните ритуал, чтобы призвать {npc:263527}.'
+
+L['updraft'] = 'Восходящий поток'
+L['void_tainted_nest'] = 'Оскверненное Бездной гнездо'
+L['void_tainted_nest_note'] = 'Необходимо находиться верхом на {spell:1286606}, чтобы увидеть восходящий поток. Шагните в него, чтобы долететь до гнезда.'
+
+L['chubs_note'] = 'Купите у {npc:263355} за 1x {item:242639}.'
+
+L['rustling_fern'] = 'Шуршащий папоротник'
+L['rustling_bush'] = 'Шуршащий куст'
+L['rustling_fern_note'] = 'Можно найти на 3-м ур. или выше. Нажимайте на {object:Шуршащий папоротник}, пока не появится котенок (8-13 нажатий). Доступно всего 1-2 за прохождение.\nТребуется, чтобы питомец еще не был изучен.'
+L['rustling_bush_note'] = 'Можно найти на 3-м ур. или выше. Нажимайте на {object:Шуршащий куст}, пока не появится котенок (8-13 нажатий). Доступно всего 1-2 за прохождение.\nТребуется, чтобы питомец еще не был изучен.'
+
+L['soggy_nest'] = 'Промокшее гнездо'
+L['soggy_nest_note'] = 'Требуется {item:272128}, чтобы приманить {npc:263917}.\n{item:272128} также выпадает из наг в этой зоне.'
+
+L['washed_up_kelp'] = 'Выброшенные на берег водоросли'
+L['washed_up_kelp_note'] = 'Обыщите {object:Выброшенные на берег водоросли}, чтобы с некоторой вероятностью приманить {npc:263617}. Можно найти в нескольких местах этой зоны.'
+
+L['floating_egg_note'] = '{npc:263805} плывет по течению реки. Поймайте его на пути следования.'
+
 -------------------------------------------------------------------------------
-------------------------------- RITUAL SITES ---------------------------------
--------------------------------------------------------------------------------
-L['options_icons_ritual_site'] = nil
-L['options_icons_ritual_site_desc'] = nil
-
-L['ritual_site_broken_throne'] = nil
-L['ritual_site_daggerspine_point'] = nil
-
-L['broken_throne_entry_note'] = nil
-L['daggerspine_point_entry_note'] = nil
-
-L['chewed_meat'] = nil
-L['chewed_meat_note'] = nil
-
-L['ritual_circle'] = nil
-L['ritual_circle_note'] = nil
-
-L['updraft'] = nil
-L['void_tainted_nest'] = nil
-L['void_tainted_nest_note'] = nil
-
-L['chubs_note'] = nil
-
-L['rustling_fern'] = nil
-L['rustling_bush'] = nil
-L['rustling_fern_note'] = nil
-L['rustling_bush_note'] = nil
-
-L['soggy_nest'] = nil
-L['soggy_nest_note'] = nil
-
-L['washed_up_kelp'] = nil
-L['washed_up_kelp_note'] = nil
-
-L['floating_egg_note'] = nil
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
 
