@@ -21,8 +21,8 @@ local function CheckSeparator(line, lineNum, file)
     if line ~= SEP then
         for i = 1, LINE_LEN do
             if line:sub(i, i) ~= SEP:sub(i, i) then
-                error(string.format(
-                    '%s:%d: separator mismatch at pos %d', file, lineNum, i))
+                error(string.format('%s:%d: separator mismatch at pos %d', file,
+                    lineNum, i))
             end
         end
     end
@@ -30,14 +30,13 @@ end
 
 local function CheckHeaderText(line, lineNum, file)
     if #line ~= LINE_LEN then
-        error(string.format('%s:%d: header len=%d, expected %d', file,
-            lineNum, #line, LINE_LEN))
+        error(string.format('%s:%d: header len=%d, expected %d', file, lineNum,
+            #line, LINE_LEN))
     end
 
     local _, _, text = line:find('^--%-+ (.+) %-+$')
     if not text then
-        error(string.format('%s:%d: malformed header: %s', file, lineNum,
-            line))
+        error(string.format('%s:%d: malformed header: %s', file, lineNum, line))
     end
 
     local textLen = #text + 2 -- spaces around text
@@ -69,8 +68,8 @@ local function CheckHeaderText(line, lineNum, file)
 
     if leftDashes + textLen + rightDashes ~= BODY_LEN then
         error(string.format(
-            '%s:%d: dash mismatch L=%d R=%d text=%d total=%d expected=%d',
-            file, lineNum, leftDashes, rightDashes, textLen,
+            '%s:%d: dash mismatch L=%d R=%d text=%d total=%d expected=%d', file,
+            lineNum, leftDashes, rightDashes, textLen,
             leftDashes + textLen + rightDashes, BODY_LEN))
     end
 
@@ -102,13 +101,10 @@ function TestHeaders:testAllHeaders()
             for line in f:lines() do
                 lineNum = lineNum + 1
                 if line:match('^--%-{10,}$') then
-                    local ok, err = pcall(CheckSeparator, line, lineNum,
-                        file)
+                    local ok, err = pcall(CheckSeparator, line, lineNum, file)
                     if not ok then errors[#errors + 1] = err end
-                elseif #line >= 20 and
-                    line:match('^--%-{10,} .+ %-{10,}$') then
-                    local ok, err = pcall(CheckHeaderText, line, lineNum,
-                        file)
+                elseif #line >= 20 and line:match('^--%-{10,} .+ %-{10,}$') then
+                    local ok, err = pcall(CheckHeaderText, line, lineNum, file)
                     if not ok then errors[#errors + 1] = err end
                 end
             end
