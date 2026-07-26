@@ -97,8 +97,12 @@ TestHeaders = {}
 
 function TestHeaders:testAllHeaders()
     local errors = {}
+    local fileCount = 0
+    local lineCount = 0
     for file in utils.AllLuaFiles() do
+        fileCount = fileCount + 1
         for lineNum, line in utils.FileLines(file) do
+            lineCount = lineCount + 1
             -- Separator: -- followed by at least 10 dashes
             if line:match('^--%-{10,}$') then
                 local ok, err = pcall(CheckSeparator, line, lineNum, file)
@@ -111,6 +115,9 @@ function TestHeaders:testAllHeaders()
         end
     end
 
+    if fileCount == 0 then
+        error('no files scanned - AllLuaFiles returned nothing', 0)
+    end
     if #errors > 0 then
         local msg = table.concat(errors, '\n')
         error(msg, 0)
