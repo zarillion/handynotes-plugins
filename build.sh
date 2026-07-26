@@ -82,6 +82,7 @@ function run-linter() {
 function run-tests() {
     (cd tests && lua test_class.lua ${VERBOSE:-})
     (cd tests && lua test_locales.lua ${VERBOSE:-})
+    (cd tests && lua test_headers.lua ${VERBOSE:-})
 }
 
 function run-formatter() {
