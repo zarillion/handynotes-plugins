@@ -89,27 +89,6 @@ end
 --------------------------- LINE ITERATOR (sans utils) ------------------------
 -------------------------------------------------------------------------------
 
-local function EachHeaderLine(file)
-    local f = io.open(file, 'r')
-    if not f then return function() end end
-    local i = 0
-    return function()
-        local line = f:read('*l')
-        i = i + 1
-        if line then
-            return i, line
-        else
-            f:close()
-        end
-    end
-end
-
--------------------------------------------------------------------------------
------------------------------ HEADER PATTERN TEST -----------------------------
--------------------------------------------------------------------------------
-
-TestHeaders = {}
-
 function TestHeaders:testAllHeaders()
     local errors = {}
     for file in utils.Code() do
