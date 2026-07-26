@@ -452,7 +452,7 @@ end
 function WorldMapPinMixin:OnMouseLeave() GameTooltip:Hide() end
 
 -------------------------------------------------------------------------------
------------------------------- HANDYNOTES HOOKS -------------------------------
+------------------------------- HANDYNOTES HOOKS ------------------------------
 -------------------------------------------------------------------------------
 
 -- HandyNotes removes its data provider from the world map when the global

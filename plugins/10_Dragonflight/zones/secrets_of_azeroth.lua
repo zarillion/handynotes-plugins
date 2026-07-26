@@ -176,7 +176,7 @@ val.nodes[64605370] = SecretsOfAzeroth({
     }
 }) -- Fangli Clue
 
------------- THUNDERSPINE NEST <==> THOUGHT CALCULATING APPARATUS -------------
+------------- THUNDERSPINE NEST <==> THOUGHT CALCULATING APPARATUS ------------
 
 local Erugosa = Class('Erugosa', SecretsOfAzeroth, {
     label = '{npc:185556}',
@@ -296,7 +296,7 @@ val.nodes[46109447] = SecretsOfAzeroth({
     }
 }) -- Hungering Tyranha
 
---------------------- BAR TAB <==> CRYSTAL OCULAR LENSES ----------------------
+---------------------- BAR TAB <==> CRYSTAL OCULAR LENSES ---------------------
 
 val.nodes[39046182] = SecretsOfAzeroth({
     label = '{npc:198586}',
@@ -1294,7 +1294,7 @@ for num, part in ipairs(MJJ_PARTS) do
 end
 
 -------------------------------------------------------------------------------
----------------------------- COMMUNITY RUMOR MILL -----------------------------
+----------------------------- COMMUNITY RUMOR MILL ----------------------------
 -------------------------------------------------------------------------------
 
 local BURIED_SATCHELS = {
@@ -1434,7 +1434,7 @@ local BURIED_SATCHELS = {
     }
 }
 
--------------------------- BURIED SATCHEL LIST NODE ---------------------------
+--------------------------- BURIED SATCHEL LIST NODE --------------------------
 
 local BuriedSatchelList = Class('BuriedSatchelList', SecretsOfAzeroth, {
     label = '{item:208142}',
@@ -1469,7 +1469,7 @@ end
 
 val.nodes[87002100] = BuriedSatchelList()
 
----------------------------- BURIED SATCHEL NODES -----------------------------
+----------------------------- BURIED SATCHEL NODES ----------------------------
 
 local BuriedSatchel = Class('BuriedSatchel', SecretsOfAzeroth, {
     label = '{item:208142}',

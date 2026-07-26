@@ -3,7 +3,7 @@ local L = ns.NewLocale('deDE')
 if not L then return end
 -- German translation by Dathwada EU-Eredar
 -------------------------------------------------------------------------------
--------------------------------- DRAGON ISLES ---------------------------------
+--------------------------------- DRAGON ISLES --------------------------------
 -------------------------------------------------------------------------------
 
 L['gem_cluster_note'] = 'Der benötigte Gegenstand kann auf Ruhmstufe 21 bei der {faction:Drachenschuppenexpedition} in Expeditionsspäherpacks und in Bewegte Erde enthalten sein.'
@@ -200,7 +200,7 @@ L['options_icons_just_one_more_thing'] = '{achievement:19792}'
 L['options_icons_just_one_more_thing_desc'] = 'Zeigt die Positionen der Weltquests für den Erfolg {achievement:19792} an.'
 
 -------------------------------------------------------------------------------
-------------------------------- THE AZURE SPAN --------------------------------
+-------------------------------- THE AZURE SPAN -------------------------------
 -------------------------------------------------------------------------------
 
 L['bisquis_note'] = 'Kocht beim gemeinschaftlichen Festmahl in {location:Iskaara} eine legendäre Suppe und besiegt dann {npc:197557}.\n\nNächstes Festmahl: {note:%s}'
@@ -328,7 +328,7 @@ L['meat_storage_location_b'] = 'In der Nähe einer Höhle hinter {npc:187192}.'
 L['meat_storage_location_c'] = 'In einer kleinen Höhle hinter {npc:197130} und {npc:186226}.'
 
 -------------------------------------------------------------------------------
------------------- FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
+------------------- FORBIDDEN REACH (DRACTHYR STARTING ZONE) ------------------
 -------------------------------------------------------------------------------
 
 L['bag_of_enchanted_wind'] = 'Tasche mit verzaubertem Wind'
@@ -471,7 +471,7 @@ L['overgrown_fishing_bench'] = 'Überwucherte Fischbank'
 L['overgrown_fishing_bench_note'] = 'Ein zugewachsener Felsen, schwer zu erkennen.'
 
 -------------------------------------------------------------------------------
------------------------------- OHN'AHRAN PLAINS -------------------------------
+------------------------------- OHN'AHRAN PLAINS ------------------------------
 -------------------------------------------------------------------------------
 
 L['eaglemaster_niraak_note'] = 'Töte {npc:186295} und {npc:186299} in der Nähe, um den seltenen Gegner erscheinen zu lassen.'
@@ -693,7 +693,7 @@ L['ominous_portal_label'] = 'Ominöses Portal'
 L['ominous_portal_note'] = 'Alle 30 Minuten erscheint ein {object:Ominöses Portal}.\n\n5 Minuten später wird {npc:214984} mehrere Bosse erscheinen lassen. Besiege den {npc:215141}, {npc:215147} und {npc:215146} für eine Chance auf die Belohnungen.\n\n{note:Es gibt keine tägliche Beutesperre.}'
 
 -------------------------------------------------------------------------------
------------------------------- THE WAKING SHORE -------------------------------
+------------------------------- THE WAKING SHORE ------------------------------
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = 'Der Kriegstrupp der Qalashi reist auf ihrem {npc:192737} zu diesem Turm.'
@@ -872,7 +872,7 @@ L['rusted_signal_horn'] = 'Rostiges Signalhorn'
 L['rusted_signal_horn_note'] = 'Auf der obersten Ebene.'
 
 -------------------------------------------------------------------------------
-------------------------------- Zaralek Cavern --------------------------------
+-------------------------------- Zaralek Cavern -------------------------------
 -------------------------------------------------------------------------------
 
 L['in_deepflayer_nest'] = 'Im {location:Tiefenschindernest}.'
@@ -952,7 +952,7 @@ L['chipped_grub_pot'] = 'Gesprungener Essenstopf'
 L['chipped_grub_pot_note'] = 'Oben auf dem Turm.'
 
 -------------------------------------------------------------------------------
-------------------------------- Emerald Dream ---------------------------------
+-------------------------------- Emerald Dream --------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
@@ -1132,7 +1132,7 @@ L['alarashinu_note_stage6'] = 'Plündere die {npc:213381}, um {item:210961} zu e
 L['alarashinu_note_end'] = 'Nachdem du die Kriegsgleve erhalten hast und du zurück zu {npc:213029} kehrst, hat er einen Bonusdialog für dich.'
 
 -------------------------------------------------------------------------------
------------------------------ SECRETS OF AZEROTH ------------------------------
+------------------------------ SECRETS OF AZEROTH -----------------------------
 -------------------------------------------------------------------------------
 
 -- Secrets of Azeroth: Clue 1

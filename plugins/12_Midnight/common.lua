@@ -18,7 +18,7 @@ local Pet = ns.reward.Pet
 ns.expansion = 12
 
 -------------------------------------------------------------------------------
------------------------------------ GROUPS ------------------------------------
+------------------------------------ GROUPS -----------------------------------
 -------------------------------------------------------------------------------
 
 ns.groups.DELVE_REWARDS = Group('delve_rewards', 4203076, {
@@ -82,7 +82,7 @@ ns.groups.RITUAL_SITE = Group('ritual_site', 132299, {
     type = ns.group_types.EXPANSION
 })
 
------------------------------- EVERSONG WOODS ---------------------------------
+-------------------------------- EVERSONG WOODS -------------------------------
 
 ns.groups.RUNESTONE_RUSH = Group('runestone_rush', 134423, {
     defaults = ns.GROUP_HIDDEN,
@@ -96,7 +96,7 @@ ns.groups.EVER_PAINTING = Group('ever_painting', 7549082, {
     achievement = 62185
 })
 
---------------------------------- HARANDAR ------------------------------------
+----------------------------------- HARANDAR ----------------------------------
 ---
 ns.groups.GLOWING_MOTH = Group('glowing_moth', 1003597, {
     defaults = ns.GROUP_HIDDEN,
@@ -111,7 +111,7 @@ ns.groups.MORE_THAN_JUST_THIER_ROOTS = Group('more_than_just_thier_roots',
         achievement = 62188
     })
 
---------------------------------- ZUL'AMAN ------------------------------------
+----------------------------------- ZUL'AMAN ----------------------------------
 
 ns.groups.FROG_PRINCESS = Group('frog_princess', 2399262, {
     defaults = ns.GROUP_HIDDEN,
@@ -191,7 +191,7 @@ local LoreObject = Class('LoreObject', Collectible, {
 ns.node.LoreObject = LoreObject
 
 -------------------------------------------------------------------------------
-------------------------------- RUNESTONE RUSH --------------------------------
+-------------------------------- RUNESTONE RUSH -------------------------------
 -------------------------------------------------------------------------------
 
 local RuneStone = Class('RuneStone', Collectible,
@@ -220,7 +220,7 @@ end
 ns.node.EverPainting = Painting
 
 -------------------------------------------------------------------------------
-------------------------- MORE THAN JUST THIER ROOTS --------------------------
+-------------------------- MORE THAN JUST THIER ROOTS -------------------------
 -------------------------------------------------------------------------------
 
 local MoreThanJustThierRoots = Class('MoreThanJustThierRoots', Collectible, {
@@ -240,7 +240,7 @@ local FrogPrincess = Class('frog_princess', Collectible,
 ns.node.FrogPrincess = FrogPrincess
 
 -------------------------------------------------------------------------------
--------------------------------- SONG SEEKER ----------------------------------
+--------------------------------- SONG SEEKER ---------------------------------
 -------------------------------------------------------------------------------
 
 local Songseeker = Class('Songseeker', Collectible,
@@ -249,7 +249,7 @@ local Songseeker = Class('Songseeker', Collectible,
 ns.node.Songseeker = Songseeker
 
 -------------------------------------------------------------------------------
----------------------------- SPIRITPAW MARATHON -------------------------------
+------------------------------ SPIRITPAW MARATHON -----------------------------
 -------------------------------------------------------------------------------
 
 local SpiritpawMarathon = Class('SpiritpawMarathon', Collectible, {
@@ -260,7 +260,7 @@ local SpiritpawMarathon = Class('SpiritpawMarathon', Collectible, {
 ns.node.SpiritpawMarathon = SpiritpawMarathon
 
 -------------------------------------------------------------------------------
--------------------------------- GNOME ALONE ----------------------------------
+--------------------------------- GNOME ALONE ---------------------------------
 -------------------------------------------------------------------------------
 
 local GnomeAlone = Class('GnomeAlone', Collectible,
@@ -269,7 +269,7 @@ local GnomeAlone = Class('GnomeAlone', Collectible,
 ns.node.GnomeAlone = GnomeAlone
 
 -------------------------------------------------------------------------------
------------------------------- PUT A PIN IN IT --------------------------------
+------------------------------- PUT A PIN IN IT -------------------------------
 -------------------------------------------------------------------------------
 
 local PutAPinInIt = Class('PutAPinInIt', Collectible,
@@ -278,7 +278,7 @@ local PutAPinInIt = Class('PutAPinInIt', Collectible,
 ns.node.PutAPinInIt = PutAPinInIt
 
 -------------------------------------------------------------------------------
-------------------------------- DUST 'EM OFF ----------------------------------
+--------------------------------- DUST 'EM OFF --------------------------------
 -------------------------------------------------------------------------------
 
 local Moth = Class('Moth', Collectible, {
@@ -485,7 +485,7 @@ local RenownedBeast = Class('RenownedBeast', ns.node.Node,
 ns.node.RenownedBeast = RenownedBeast
 
 -------------------------------------------------------------------------------
--------------------------------- RITUAL SITES --------------------------------
+--------------------------------- RITUAL SITES --------------------------------
 -------------------------------------------------------------------------------
 
 local RitualCollectible = Class('RitualCollectible', Collectible, {

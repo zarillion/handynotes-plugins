@@ -574,7 +574,7 @@ map.nodes[24606320] = Vendor({
     }
 }) -- Greexit Coarsebub <Discount Fashion>
 
------------------------- GOBLIN CARTEL QUARTERMASTERS -------------------------
+------------------------- GOBLIN CARTEL QUARTERMASTERS ------------------------
 
 map.nodes[39152219] = Vendor({
     id = 231406,
@@ -669,7 +669,7 @@ map.nodes[30723890] = Vendor({
 }) -- Sitch Lowdown <Darkfuse Solutions Quartermaster>
 
 -------------------------------------------------------------------------------
------------------------------ S.C.R.A.P. REWARDS ------------------------------
+------------------------------ S.C.R.A.P. REWARDS -----------------------------
 -------------------------------------------------------------------------------
 
 local function GetScrapRewards(criteriaID)
@@ -809,7 +809,7 @@ map.nodes[65611420] = UndermineLoreBook({
 }) -- Misplaced Work Order
 
 -------------------------------------------------------------------------------
---------------------- ACHIEVEMENT: YOU'RE MY FRIEND NOW -----------------------
+---------------------- ACHIEVEMENT: YOU'RE MY FRIEND NOW ----------------------
 -------------------------------------------------------------------------------
 
 local YoureMyFriendNow = Class('youre_my_friend_now', Collectible, {
@@ -869,7 +869,7 @@ map.nodes[41313863] = DiscardedCan()
 map.nodes[48995316] = DiscardedCan()
 
 -------------------------------------------------------------------------------
------------------------------ WORLDSOUL MEMORIES ------------------------------
+------------------------------ WORLDSOUL MEMORIES -----------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[43251438] = WorldsoulMemory({areaPoiID = 8200}) -- Early Cartel Wars
@@ -879,7 +879,7 @@ map.nodes[58196864] = WorldsoulMemory({areaPoiID = 8201}) -- Kaja'mite Contact
 -------------------------------- MISCELLANEOUS --------------------------------
 -------------------------------------------------------------------------------
 
----------------------------- UNDERMINE UNDERSHIRT -----------------------------
+----------------------------- UNDERMINE UNDERSHIRT ----------------------------
 
 map.nodes[33085816] = Collectible({
     label = L['sewer_cheese_label'],
@@ -905,7 +905,7 @@ map.nodes[63231691] = Collectible({
     rewards = {Transmog({item = 237130})} -- Undermine Undershirt
 }) -- Pix Xizzix
 
------------------- RECIPE: AUTHENTIC UNDERMINE CLAM CHOWDER -------------------
+------------------- RECIPE: AUTHENTIC UNDERMINE CLAM CHOWDER ------------------
 
 map.nodes[38058868] = Collectible({
     label = L['undermine_clam_chowder_label'],

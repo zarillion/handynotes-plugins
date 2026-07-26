@@ -37,7 +37,7 @@ L['options_icons_renowned_beast_desc'] = 'Display locations of summonable daily 
 L['silverscale_note'] = 'Summoned below the bridge.'
 
 -------------------------------------------------------------------------------
--------------------------------- EVERSONG WOODS --------------------------------
+-------------------------------- EVERSONG WOODS -------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_ever_painting'] = '{achievement:62185}'
@@ -52,7 +52,7 @@ L['triple_locked_safebox_note'] = 'Requires 3 Hidden Safebox Keys. Grab the purp
 L['incomplete_book_of_sonnets'] = 'Incomplete Book of Sonnets'
 
 -------------------------------------------------------------------------------
------------------------------------ HARANDAR -----------------------------------
+----------------------------------- HARANDAR ----------------------------------
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = 'Glowing Moth'
@@ -90,7 +90,7 @@ L['voidhoarders_corpse'] = 'Voidhoarder\'s Corpse'
 L['blackcore_note'] = 'Kill {npc:248462} or {npc:248483} within the marked area to obtain 3x {item:248680}, then interact with the {object:Singularity Lens} to summon the rare.'
 
 -------------------------------------------------------------------------------
----------------------------------- ZUL'AMAN ----------------------------------
+----------------------------------- ZUL'AMAN ----------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_frog_princess'] = '{achievement:62201}'
@@ -114,7 +114,7 @@ L['kalika_note'] = 'Speak with {npc:258884}, then interact with the {object:Forg
 L['songseeker_ikaja_note'] = 'On top of the Temple.'
 
 -------------------------------------------------------------------------------
------------------------------------ NAIGTAL ------------------------------------
+----------------------------------- NAIGTAL -----------------------------------
 -------------------------------------------------------------------------------
 
 L['sleepy_mandrake_note'] = 'Find and feed 5 unique Redcap mushrooms to the {npc:267910} in Sleeper\'s Grotto. Each mushroom has a different source in the zone.'
@@ -124,7 +124,7 @@ L['squirming_mollusk'] = 'Squirming Mollusk'
 L['spiked_shell'] = 'Spiked Shell'
 
 -------------------------------------------------------------------------------
-------------------------------------- VAL --------------------------------------
+------------------------------------- VAL -------------------------------------
 -------------------------------------------------------------------------------
 
 L['enchanted_hilt'] = 'Enchanted Hilt'
@@ -137,7 +137,7 @@ L['enchanted_hilt_note'] = 'Heroic only.\n\nClick the {object:Enchanted Hilt} to
 L['share_a_drink_note'] = 'Purchase {item:251039} from {npc:250495} in the Arcantina and share it with all races.'
 
 -------------------------------------------------------------------------------
--------------------------------- RITUAL SITES --------------------------------
+--------------------------------- RITUAL SITES --------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_ritual_site'] = 'Ritual Sites'
@@ -175,7 +175,7 @@ L['washed_up_kelp_note'] = 'Search through {object:Washed Up Kelp} for a chance 
 L['floating_egg_note'] = '{npc:263805} floating down the river. Catch it along its path.'
 
 -------------------------------------------------------------------------------
------------------------------------ DELVES ------------------------------------
+------------------------------------ DELVES -----------------------------------
 -------------------------------------------------------------------------------
 
 L['sturdy_chest'] = 'Sturdy Chest'

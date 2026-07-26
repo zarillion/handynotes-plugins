@@ -38,7 +38,7 @@ L['options_icons_renowned_beast_desc'] = 'Afficher les emplacements des bêtes i
 L['silverscale_note'] = 'Invoqué sous le pont.'
 
 -------------------------------------------------------------------------------
--------------------------------- EVERSONG WOODS --------------------------------
+-------------------------------- EVERSONG WOODS -------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_ever_painting'] = '{achievement:62185}'
@@ -53,7 +53,7 @@ L['triple_locked_safebox_note'] = 'Requiert 3x clés de coffre-fort cachées. Pr
 L['incomplete_book_of_sonnets'] = 'Livret de sonnets incomplet'
 
 -------------------------------------------------------------------------------
------------------------------------ HARANDAR -----------------------------------
+----------------------------------- HARANDAR ----------------------------------
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = 'Phalène luminescent'
@@ -91,7 +91,7 @@ L['voidhoarders_corpse'] = 'Cadavre d’amasseur du Vide'
 L['blackcore_note'] = 'Tuez {npc:248462} ou des {npc:248483} dans la zone indiquée jusqu\'à obtenir 3x {item:248680}, puis interagissez avec les {object:Lentilles de singularité} pour invoquer le rare.'
 
 -------------------------------------------------------------------------------
----------------------------------- ZUL'AMAN ----------------------------------
+----------------------------------- ZUL'AMAN ----------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_frog_princess'] = '{achievement:62201}'
@@ -115,7 +115,7 @@ L['kalika_note'] = 'Parlez à {npc:258884}, puis interagissez avec le {object:Bo
 L['songseeker_ikaja_note'] = 'Au sommet du temple.'
 
 -------------------------------------------------------------------------------
------------------------------------ NAIGTAL ------------------------------------
+----------------------------------- NAIGTAL -----------------------------------
 -------------------------------------------------------------------------------
 
 L['sleepy_mandrake_note'] = 'Trouvez 5 Amanites différentes et donnez-les à la {npc:267910} dans la Grotte du Dormeur. Chaque Amanite se trouve à un endroit différent dans la zone.'
@@ -125,7 +125,7 @@ L['squirming_mollusk'] = 'Mollusque remuant'
 L['spiked_shell'] = 'Carapace d\'épines'
 
 -------------------------------------------------------------------------------
-------------------------------------- VAL --------------------------------------
+------------------------------------- VAL -------------------------------------
 -------------------------------------------------------------------------------
 
 L['enchanted_hilt'] = 'Garde enchantée'
@@ -140,7 +140,7 @@ L['share_a_drink_note'] = 'Achetez des {item:251039} auprès de {npc:250495} à 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
-------------------------------- RITUAL SITES ---------------------------------
+--------------------------------- RITUAL SITES --------------------------------
 -------------------------------------------------------------------------------
 L['options_icons_ritual_site'] = 'Sites rituels'
 L['options_icons_ritual_site_desc'] = 'Afficher les récompenses des {location:Sites rituels} dans les infobulles.'
@@ -175,7 +175,7 @@ L['washed_up_kelp'] = 'Varech échoué'
 L['washed_up_kelp_note'] = 'Fouillez les {object:Varechs échoués} pour avoir une chance d\'attirer le {npc:263617}. Trouvables à plusieurs endroits dans la zone.'
 
 L['floating_egg_note'] = 'Un {npc:263805} qui descend la rivière à la dérive. Attrapez-le pendant son trajet.'
------------------------------------ DELVES ------------------------------------
+------------------------------------ DELVES -----------------------------------
 -------------------------------------------------------------------------------
 
 L['sturdy_chest'] = 'Coffre solide'

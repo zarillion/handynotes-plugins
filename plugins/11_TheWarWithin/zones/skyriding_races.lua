@@ -21,7 +21,7 @@ local Undermine = ns.maps[2346]
 local Dornogal = ns.maps[2339]
 
 -------------------------------------------------------------------------------
--------------------------------- ISLE OF DORN ---------------------------------
+--------------------------------- ISLE OF DORN --------------------------------
 -------------------------------------------------------------------------------
 
 local function IsleOfDorn_Rewards(a)
@@ -178,7 +178,7 @@ local RINGING_DEEPS_POIS = {
 ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, RINGING_DEEPS_POIS)
 
 -------------------------------------------------------------------------------
---------------------------------- HALLOWFALL ----------------------------------
+---------------------------------- HALLOWFALL ---------------------------------
 -------------------------------------------------------------------------------
 
 local function Hallowfall_Rewards(a)
@@ -348,7 +348,7 @@ local function Undermine_Skyrocketing_Rewards(a, b)
     return rewards
 end
 
--------------------------------- SKYROCKETING ---------------------------------
+--------------------------------- SKYROCKETING --------------------------------
 
 Undermine.nodes[39042868] = SkyridingRace({
     label = '{quest:85071}',
@@ -379,7 +379,7 @@ local SKYROCKETING_POIS = {
 
 ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, SKYROCKETING_POIS)
 
--------------------------------- BREAKNECKING ---------------------------------
+--------------------------------- BREAKNECKING --------------------------------
 
 local function Undermine_Breaknecking_Rewards(a, b)
     local rewards = {

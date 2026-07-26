@@ -8,7 +8,7 @@ local SkyridingRace = ns.node.SkyridingRace
 
 local Achievement = ns.reward.Achievement
 
----------------------------------- KALIMDOR -----------------------------------
+----------------------------------- KALIMDOR ----------------------------------
 
 local Felwood = ns.maps[77] or Map({id = 77, settings = true})
 local Winterspring = ns.maps[83] or Map({id = 83, settings = true})
@@ -43,7 +43,7 @@ local Badlands = ns.maps[15] or Map({id = 15, settings = true})
 local RedridgeMountains = ns.maps[49] or Map({id = 49, settings = true})
 
 -------------------------------------------------------------------------------
----------------------------------- KALIMDOR -----------------------------------
+----------------------------------- KALIMDOR ----------------------------------
 -------------------------------------------------------------------------------
 
 local function Kalimdor_Rewards(c)

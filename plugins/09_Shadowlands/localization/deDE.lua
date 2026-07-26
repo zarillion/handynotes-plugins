@@ -21,7 +21,7 @@ L['options_icons_safari'] = '{achievement:14867}'
 L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:14867} an.'
 
 -------------------------------------------------------------------------------
---------------------------------- ARDENWEALD ----------------------------------
+---------------------------------- ARDENWEALD ---------------------------------
 -------------------------------------------------------------------------------
 
 L['deifir_note'] = 'Reite auf {npc:164238} und verwende die Fähigkeiten {spell:319566} und {spell:319575}, um ihn zu verlangsamen und zu betäuben.'
@@ -386,7 +386,7 @@ L['options_icons_nest_materials_desc'] = 'Zeigt die Positionen von Nestern aus u
 L['options_icons_nest_materials'] = 'Nest aus ungewöhnlichen Materialien (tägliche)'
 
 -------------------------------------------------------------------------------
---------------------------------- MALDRAXXUS ----------------------------------
+---------------------------------- MALDRAXXUS ---------------------------------
 -------------------------------------------------------------------------------
 
 L['chelicerae_note'] = 'Zerstöre {npc:159885}, um {npc:159886} angreifen zu können.'
@@ -501,7 +501,7 @@ L['options_icons_crypt_couture_desc'] = 'Zeigt die Positionen der Verkleidung de
 L['soulshape_saurid_note'] = 'In einer kleinen Höhle. Visiere {npc:182105} an und verbeuge dich vor ihm ({emote:/verbeugen}).'
 
 -------------------------------------------------------------------------------
---------------------------------- REVENDRETH ----------------------------------
+---------------------------------- REVENDRETH ---------------------------------
 -------------------------------------------------------------------------------
 
 L['amalgamation_of_filth_note'] = 'Wenn die Weltquest {wq:Drecksarbeit: Abrisstrupp} verfügbar ist, klicke auf die Abfallkiste und verwende {spell:324115} nahe des Wassers.'

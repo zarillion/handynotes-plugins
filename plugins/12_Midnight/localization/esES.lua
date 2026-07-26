@@ -37,7 +37,7 @@ L['options_icons_renowned_beast_desc'] = 'Display locations of summonable daily 
 L['silverscale_note'] = 'Summoned below the bridge.'
 
 -------------------------------------------------------------------------------
--------------------------------- EVERSONG WOODS --------------------------------
+-------------------------------- EVERSONG WOODS -------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_ever_painting'] = '{achievement:62185}'
@@ -52,7 +52,7 @@ L['triple_locked_safebox_note'] = 'Requiere 3 llaves ocultas de caja fuerte. Cog
 L['incomplete_book_of_sonnets'] = 'Libro de sonetos incompleto.'
 
 -------------------------------------------------------------------------------
------------------------------------ HARANDAR -----------------------------------
+----------------------------------- HARANDAR ----------------------------------
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = 'Polilla resplandeciente'
@@ -90,7 +90,7 @@ L['voidhoarders_corpse'] = 'Cadáver de acaparador del Vacío'
 L['blackcore_note'] = 'Mata {npc:248462} o {npc:248483} en el área marcada para conseguir 3x {item:248680} e interactúa con las {object:Lentes de singularidad} para invocar al raro.'
 
 -------------------------------------------------------------------------------
----------------------------------- ZUL'AMAN ----------------------------------
+----------------------------------- ZUL'AMAN ----------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_frog_princess'] = '{achievement:62201}'
@@ -114,7 +114,7 @@ L['kalika_note'] = 'Habla con {npc:258884}. Tras ello interactúa con el {object
 L['songseeker_ikaja_note'] = 'Encima del templo.'
 
 -------------------------------------------------------------------------------
------------------------------------ NAIGTAL ------------------------------------
+----------------------------------- NAIGTAL -----------------------------------
 -------------------------------------------------------------------------------
 
 L['sleepy_mandrake_note'] = 'Encuentra y alimenta 5 setas rojas únicas al {npc:267910} en la Gruta del Durmiente. Cada seta tiene un origen diferente en la zona.'
@@ -124,7 +124,7 @@ L['squirming_mollusk'] = 'Molusco retorcido'
 L['spiked_shell'] = 'Caparazón con púas'
 
 -------------------------------------------------------------------------------
-------------------------------------- VAL --------------------------------------
+------------------------------------- VAL -------------------------------------
 -------------------------------------------------------------------------------
 
 L['enchanted_hilt'] = 'Empuñadura encantada'
@@ -137,7 +137,7 @@ L['enchanted_hilt_note'] = 'Sólo Heróico.\n\nHaz click en la {object:Empuñadu
 L['share_a_drink_note'] = 'Compra una {item:251039} al {npc:250495} en la Arcantina y compártela con todas las razas.'
 
 -------------------------------------------------------------------------------
-------------------------------- RITUAL SITES ----------------------------------
+--------------------------------- RITUAL SITES --------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_ritual_site'] = 'Lugares de ritual'
@@ -175,7 +175,7 @@ L['washed_up_kelp_note'] = 'Busca a través de {object:Alga arrastrada a la oril
 L['floating_egg_note'] = 'El {npc:263805} está flotando río abajo. Atrápalo en su camino.'
 
 -------------------------------------------------------------------------------
------------------------------------ DELVES ------------------------------------
+------------------------------------ DELVES -----------------------------------
 -------------------------------------------------------------------------------
 
 L['sturdy_chest'] = 'Cofre robusto'

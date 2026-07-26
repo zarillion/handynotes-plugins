@@ -438,7 +438,7 @@ L['slave_camp'] = 'Ouvrez toutes les cages à proximité.'
 L['unsealed_tomb'] = 'Protégez {npc:152439} des vagues de monstres.'
 
 -------------------------------------------------------------------------------
------------------------------------- VALE -------------------------------------
+------------------------------------- VALE ------------------------------------
 -------------------------------------------------------------------------------
 
 L['vale_intro_note'] = 'Terminez la suite de quêtes d\'introduction pour débloquer les rares, les trésors et les quêtes d\'assaut au {location:Val de l’Éternel printemps}.'
@@ -565,7 +565,7 @@ L['options_icons_visions_misc'] = 'Divers'
 L['options_icons_visions_misc_desc'] = 'Afficher les emplacements des rares, jouets, potions et éthériens à l\'intérieur des visions horrifiques.'
 
 -------------------------------------------------------------------------------
------------------------------------ VOLDUN ------------------------------------
+------------------------------------ VOLDUN -----------------------------------
 -------------------------------------------------------------------------------
 
 L['bloodwing_bonepicker_note'] = 'Ramassez l\'{npc:136390} au sommet pour invoquer le vautour.'

@@ -4,7 +4,7 @@ local L = ns.NewLocale('deDE')
 if not L then return end
 
 -------------------------------------------------------------------------------
--------------------------------- ACROSS ZONES ---------------------------------
+--------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
 L['edge_of_reality'] = 'Rand der Realität'
@@ -161,7 +161,7 @@ L['options_icons_prove_your_strength'] = '{achievement:9402}'
 L['options_icons_prove_your_strength_desc'] = 'Zeigt die Positionen der zu plündernden Gegenstände von Gegnern für den Erfolg {achievement:9402} an.'
 
 -------------------------------------------------------------------------------
------------------------------------- NAGRAND ----------------------------------
+----------------------------------- NAGRAND -----------------------------------
 -------------------------------------------------------------------------------
 
 L['fangler_note'] = 'Verwende die Angelrute.'
@@ -338,7 +338,7 @@ L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
 L['options_icons_you_have_been_rylakinated_desc'] = 'Zeigt die Positionen von Rylak für den Erfolg {achievement:9481} an.'
 
 -------------------------------------------------------------------------------
-------------------------------- SPIRES OF ARAK --------------------------------
+-------------------------------- SPIRES OF ARAK -------------------------------
 -------------------------------------------------------------------------------
 
 L['abandoned_mining_pick_treasure'] = 'Liegen gelassene Spitzhacke'
@@ -423,7 +423,7 @@ L['options_icons_king_of_the_monsters'] = '{achievement:9601}'
 L['options_icons_king_of_the_monsters_desc'] = 'Zeigt die Position seltener Gegner für den Erfolg {achievement:9601} an.'
 
 -------------------------------------------------------------------------------
------------------------------------- TALADOR ----------------------------------
+----------------------------------- TALADOR -----------------------------------
 -------------------------------------------------------------------------------
 
 L['wandering_vindicator_note'] = 'Nachdem du ihn besiegt hast, ziehe sein Schwert aus dem Stein.'
@@ -510,7 +510,7 @@ L['options_icons_wingmen'] = '{achievement:9499}'
 L['options_icons_wingmen_desc'] = 'Zeigt Positionen zum Sammeln für den Erfolg {achievement:9499} an.'
 
 -------------------------------------------------------------------------------
---------------------------------- TANAAN JUNGLE -------------------------------
+-------------------------------- TANAAN JUNGLE --------------------------------
 -------------------------------------------------------------------------------
 
 L['deathtalon_note'] = '{yell:Schattenfürst Iskar schreit: Hinter dem Schleier wartet nur der Tod!}'

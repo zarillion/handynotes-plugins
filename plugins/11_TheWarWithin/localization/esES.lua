@@ -3,7 +3,7 @@ local L = ns.NewLocale('esES')
 if not L then return end
 -- Spanish Translation by Krovikan EU-Minahonda
 -------------------------------------------------------------------------------
---------------------------------- KHAZ ALGAR ----------------------------------
+---------------------------------- KHAZ ALGAR ---------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_delve_rewards'] = 'Recompensas de Profundidades'
@@ -29,7 +29,7 @@ L['last_architect_note'] = 'Completa los enigmas diarios para conseguir decoraci
 L['neighborhood_riddle'] = 'Ubicación del tesoro'
 
 -------------------------------------------------------------------------------
--------------------------------- ISLE OF DORN ---------------------------------
+--------------------------------- ISLE OF DORN --------------------------------
 -------------------------------------------------------------------------------
 
 L['alunira_note'] = 'Recoge 10x {item:224025} de los enemigos de la {location:Isla de Dorn} y combínalos en un {item:224026} para quitarle {spell:451570}.'
@@ -149,7 +149,7 @@ L['options_icons_for_the_collective'] = '{achievement:40630}'
 L['options_icons_for_the_collective_desc'] = 'Muestra dónde están los {npc:228056} para el logro {achievement:40630}.'
 
 -------------------------------------------------------------------------------
---------------------------------- HALLOWFALL ----------------------------------
+---------------------------------- HALLOWFALL ---------------------------------
 -------------------------------------------------------------------------------
 
 L['arathi_loremaster_note'] = 'Habla con {npc:221630} dentro de {location:Mereldar} y responde varias preguntas correctamente para recibir la {item:225659}.\n\nPuedes encontrar las respuestas en los libros que hay por alrededor de {location:Santificación}.'
@@ -335,7 +335,7 @@ L['arathi_prisoner_suffix'] = 'Prisioneros arathi rescatados'
 L['arathi_prisoner_note'] = 'Libera {npc:222119} envueltos en telarañas.'
 
 -------------------------------------------------------------------------------
------------------------------------ DELVES ------------------------------------
+------------------------------------ DELVES -----------------------------------
 -------------------------------------------------------------------------------
 
 L['sturdy_chest'] = 'Cofre robusto'
@@ -361,7 +361,7 @@ L['tuk_chest_3_note'] = '{note:Sólo disponible en las variantes de la historia 
 L['sss_chest_2_location'] = 'A través de la viga metálica.'
 
 -------------------------------------------------------------------------------
---------------------------------- SIREN ISLE ----------------------------------
+---------------------------------- SIREN ISLE ---------------------------------
 -------------------------------------------------------------------------------
 
 L['the_drowned_lair_note'] = 'Contribuye con {currency:3090} para la {location:Guarida Sumergida} en el {object:Mapa de mando de la Isla de la Sirena} para abrir esta cueva y hacer aparecer el raro.'
@@ -420,7 +420,7 @@ L['stone_carvers_scamseax_note'] = 'Recoge un {object:Citrino radiante} ({dot:Ye
 L['marmaduke_note'] = '1. Recoge el {item:233027} del último piso de la posada {location:Sal y Chabolas} y llévalo a {npc:234365}.\n\n{note:{npc:234365} se pasea entre el acantilado y la {location:Marisma de Derrelicto}.}\n\n2. Tras darle el juguete, vuelve a la {location:Marisma de Derrelicto} y completa la misión {quest:86261} para conseguir {item:233056}.'
 
 -------------------------------------------------------------------------------
------------------------------ SECRETS OF AZEROTH ------------------------------
+------------------------------ SECRETS OF AZEROTH -----------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_secrets_of_azeroth'] = 'Secretos de Azeroth'
@@ -449,7 +449,7 @@ L['mysterious_bones_note'] = 'Coge los {item:228772} ocultos detrás de {npc:715
 L['crates_found'] = 'cajones encontrados'
 
 -------------------------------------------------------------------------------
-------------------------------- RATT'S REVENGE --------------------------------
+-------------------------------- RATT'S REVENGE -------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_ratts_revenge'] = '{achievement:40967}'

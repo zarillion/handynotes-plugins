@@ -3,7 +3,7 @@ local L = ns.NewLocale('esES')
 if not L then return end
 -- Spanish Translation by Krovikan EU-Minahonda
 -------------------------------------------------------------------------------
--------------------------------- DRAGON ISLES ---------------------------------
+--------------------------------- DRAGON ISLES --------------------------------
 -------------------------------------------------------------------------------
 
 L['gem_cluster_note'] = 'El objeto requerido se puede obtener a Renombre 21 con la {faction:2507} en las {object:Mochila de explorador de expedición} y en las {object:Tierra revuelta}.'
@@ -200,7 +200,7 @@ L['options_icons_just_one_more_thing'] = '{achievement:19792}'
 L['options_icons_just_one_more_thing_desc'] = 'Muestra el progreso para cada criterio del logro {achievement:19792}.'
 
 -------------------------------------------------------------------------------
-------------------------------- THE AZURE SPAN --------------------------------
+-------------------------------- THE AZURE SPAN -------------------------------
 -------------------------------------------------------------------------------
 
 L['bisquis_note'] = 'Cocina una sopa legendaria en el festín comunitario de {location:Iskaara} y luego derrota a {npc:197557}.\n\nSiguiente festín: {note:%s}'
@@ -327,7 +327,7 @@ L['meat_storage_location_b'] = 'Cerca de una cueva detrás de {npc:187192}.'
 L['meat_storage_location_c'] = 'En una cueva pequeña detrás de {npc:197130} y {npc:186226}.'
 
 -------------------------------------------------------------------------------
------------------- FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
+------------------- FORBIDDEN REACH (DRACTHYR STARTING ZONE) ------------------
 -------------------------------------------------------------------------------
 
 L['bag_of_enchanted_wind'] = 'Bolsa de vientos encantados'
@@ -471,7 +471,7 @@ L['overgrown_fishing_bench'] = 'Banco de pesca cubierto de maleza'
 L['overgrown_fishing_bench_note'] = 'Una roca cubierta de maleza. Difícil de ver.'
 
 -------------------------------------------------------------------------------
------------------------------- OHN'AHRAN PLAINS -------------------------------
+------------------------------- OHN'AHRAN PLAINS ------------------------------
 -------------------------------------------------------------------------------
 
 L['eaglemaster_niraak_note'] = 'Mata a los {npc:186295} cercanos y a los {npc:186299} para hacer aparecer al raro.'
@@ -691,7 +691,7 @@ L['ominous_portal_label'] = 'Portal ominoso'
 L['ominous_portal_note'] = 'Cada 30 minutos aparecerá un {object:Portal ominoso}.\n\n5 minutos después, aparecerá {npc:214984} e invocará algunos bosses. Derrota al {npc:215141}, a {npc:215147}, y a {npc:215146} para tus probabilidades de las recompensas.\n\n{note:Se puede repetir varias veces al día para conseguir botín.}'
 
 -------------------------------------------------------------------------------
------------------------------- THE WAKING SHORE -------------------------------
+------------------------------- THE WAKING SHORE ------------------------------
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = 'El {object:Destacamento de guerra qalashi} viaja encima de su {npc:192737} a esta torre.'
@@ -871,7 +871,7 @@ L['rusted_signal_horn'] = 'Cuerno de Señalización Oxidado'
 L['rusted_signal_horn_note'] = 'En el último piso.'
 
 -------------------------------------------------------------------------------
-------------------------------- Zaralek Cavern --------------------------------
+-------------------------------- Zaralek Cavern -------------------------------
 -------------------------------------------------------------------------------
 
 L['in_deepflayer_nest'] = 'Dentro del {location:Nido de los Despellejadores}.'
@@ -951,7 +951,7 @@ L['chipped_grub_pot'] = 'Caldero de manduca partido'
 L['chipped_grub_pot_note'] = 'En lo alto de la torre.'
 
 -------------------------------------------------------------------------------
-------------------------------- Emerald Dream ---------------------------------
+-------------------------------- Emerald Dream --------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
@@ -1131,7 +1131,7 @@ L['alarashinu_note_stage6'] = 'Despoja la {npc:213381} y recibirás {item:210961
 L['alarashinu_note_end'] = 'Vuelve a {npc:213029}, tiene un diálogo adicional después de obtener esta guja de guerra.'
 
 -------------------------------------------------------------------------------
------------------------------ SECRETS OF AZEROTH ------------------------------
+------------------------------ SECRETS OF AZEROTH -----------------------------
 -------------------------------------------------------------------------------
 
 -- Secrets of Azeroth: Clue 1

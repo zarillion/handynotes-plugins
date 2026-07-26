@@ -3,7 +3,7 @@ local L = ns.NewLocale('enUS')
 if not L then return end
 
 -------------------------------------------------------------------------------
--------------------------------- DRAGON ISLES ---------------------------------
+--------------------------------- DRAGON ISLES --------------------------------
 -------------------------------------------------------------------------------
 
 L['gem_cluster_note'] = 'The required item can be found at Renown 21 with the {faction:2507} in {object:Expedition Scout\'s Pack} and {object:Disturbed Dirt}.'
@@ -200,7 +200,7 @@ L['options_icons_just_one_more_thing'] = '{achievement:19792}'
 L['options_icons_just_one_more_thing_desc'] = 'Display progress for each criteria for {achievement:19792} achievement.'
 
 -------------------------------------------------------------------------------
-------------------------------- THE AZURE SPAN --------------------------------
+-------------------------------- THE AZURE SPAN -------------------------------
 -------------------------------------------------------------------------------
 
 L['bisquis_note'] = 'Cook Legendary soup at the Community Feast in {location:Iskaara}, then defeat {npc:197557}.\n\nNext Feast: {note:%s}'
@@ -327,7 +327,7 @@ L['meat_storage_location_b'] = 'Near a cave behind {npc:187192}.'
 L['meat_storage_location_c'] = 'In a small cave behind the {npc:197130} and {npc:186226}.'
 
 -------------------------------------------------------------------------------
------------------- FORBIDDEN REACH (DRACTHYR STARTING ZONE) -------------------
+------------------- FORBIDDEN REACH (DRACTHYR STARTING ZONE) ------------------
 -------------------------------------------------------------------------------
 
 L['bag_of_enchanted_wind'] = 'Bag of Enchanted Wind'
@@ -471,7 +471,7 @@ L['overgrown_fishing_bench'] = 'Overgrown Fishing Bench'
 L['overgrown_fishing_bench_note'] = 'An overgrown rock, hard to see.'
 
 -------------------------------------------------------------------------------
------------------------------- OHN'AHRAN PLAINS -------------------------------
+------------------------------- OHN'AHRAN PLAINS ------------------------------
 -------------------------------------------------------------------------------
 
 L['eaglemaster_niraak_note'] = 'Kill nearby {npc:186295s} and {npc:186299s} to spawn the rare.'
@@ -691,7 +691,7 @@ L['ominous_portal_label'] = 'Ominous Portal'
 L['ominous_portal_note'] = 'Every 30 minutes an {object:Ominous Portal} will spawn.\n\n5 minutes later {npc:214984} will spawn several bosses. Defeat {npc:215141}, {npc:215147}, and {npc:215146} for your chance at the rewards.\n\n{note:There is no daily loot lockout.}'
 
 -------------------------------------------------------------------------------
------------------------------- THE WAKING SHORE -------------------------------
+------------------------------- THE WAKING SHORE ------------------------------
 -------------------------------------------------------------------------------
 
 L['brundin_the_dragonbane_note'] = 'The Qalashi War Party travels on their {npc:192737} to this tower.'
@@ -871,7 +871,7 @@ L['rusted_signal_horn'] = 'Rusted Signal Horn'
 L['rusted_signal_horn_note'] = 'On the top floor.'
 
 -------------------------------------------------------------------------------
-------------------------------- Zaralek Cavern --------------------------------
+-------------------------------- Zaralek Cavern -------------------------------
 -------------------------------------------------------------------------------
 
 L['in_deepflayer_nest'] = 'Within {location:Deepflayer Nest}'
@@ -951,7 +951,7 @@ L['chipped_grub_pot'] = 'Chipped Grub Pot'
 L['chipped_grub_pot_note'] = 'On the top of the tower.'
 
 -------------------------------------------------------------------------------
-------------------------------- Emerald Dream ---------------------------------
+-------------------------------- Emerald Dream --------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_emerald_dream_safari'] = '{achievement:19401}'
@@ -1131,7 +1131,7 @@ L['alarashinu_note_stage6'] = 'Loot {npc:213381} and receive {item:210961}.'
 L['alarashinu_note_end'] = 'Return to {npc:213029}, and he has a bonus dialog after you get this warglaive.'
 
 -------------------------------------------------------------------------------
------------------------------ SECRETS OF AZEROTH ------------------------------
+------------------------------ SECRETS OF AZEROTH -----------------------------
 -------------------------------------------------------------------------------
 
 -- Secrets of Azeroth: Clue 1

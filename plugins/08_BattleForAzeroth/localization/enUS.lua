@@ -437,7 +437,7 @@ L['slave_camp'] = 'Open all of the nearby cages.'
 L['unsealed_tomb'] = 'Protect {npc:152439} from waves of mobs.'
 
 -------------------------------------------------------------------------------
------------------------------------- VALE -------------------------------------
+------------------------------------- VALE ------------------------------------
 -------------------------------------------------------------------------------
 
 L['vale_intro_note'] = 'Complete the introductory quest chain to unlock rares, treasures and assault quests in the {location:Vale of Eternal Blossoms}.'
@@ -564,7 +564,7 @@ L['options_icons_visions_misc'] = 'Miscellaneous'
 L['options_icons_visions_misc_desc'] = 'Display rare, toy, potion and ethereal locations inside horrific visions.'
 
 -------------------------------------------------------------------------------
------------------------------------ VOLDUN ------------------------------------
+------------------------------------ VOLDUN -----------------------------------
 -------------------------------------------------------------------------------
 
 L['bloodwing_bonepicker_note'] = 'Collect the {npc:136390} at the summit to summon the vulture.'

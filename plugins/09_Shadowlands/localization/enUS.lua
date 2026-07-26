@@ -21,7 +21,7 @@ L['options_icons_safari'] = '{achievement:14867}'
 L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievement:14867} achievement.'
 
 -------------------------------------------------------------------------------
---------------------------------- ARDENWEALD ----------------------------------
+---------------------------------- ARDENWEALD ---------------------------------
 -------------------------------------------------------------------------------
 
 L['deifir_note'] = 'Ride the rare around in a circle and use {spell:319566} and {spell:319575} to slow and stun him.'
@@ -381,7 +381,7 @@ L['options_icons_nest_materials_desc'] = 'Display the locations of {object:Nest 
 L['options_icons_nest_materials'] = 'Nest of Unusual Materials'
 
 -------------------------------------------------------------------------------
---------------------------------- MALDRAXXUS ----------------------------------
+---------------------------------- MALDRAXXUS ---------------------------------
 -------------------------------------------------------------------------------
 
 L['chelicerae_note'] = 'Destroy the {npc:159885} to activate the rare.'
@@ -495,7 +495,7 @@ L['options_icons_crypt_couture_desc'] = 'Necrotic Acolyte disguise customization
 L['soulshape_saurid_note'] = 'In a small cave. Target the {npc:182105} and {emote:/bow}'
 
 -------------------------------------------------------------------------------
---------------------------------- REVENDRETH ----------------------------------
+---------------------------------- REVENDRETH ---------------------------------
 -------------------------------------------------------------------------------
 
 L['amalgamation_of_filth_note'] = 'When the world quest {wq:Dirty Job: Demolition Detail} is available click on a {object:Rubbish Box} and use {spell:324115} into the water.'

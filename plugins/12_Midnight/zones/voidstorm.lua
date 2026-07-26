@@ -474,7 +474,7 @@ map.nodes[24827001] = Treasure({
 -- 64457565 Oceanic Vortex
 -- fishing pool, looted Abundant Token (currency 3376)
 -- Lost Shadowstep Supplies 39306383 (quest 91308)
----------------------------- MIDNIGHT LORE HUNTER -----------------------------
+----------------------------- MIDNIGHT LORE HUNTER ----------------------------
 
 map.nodes[40485863] = LoreObject({
     quest = 94395,
@@ -659,7 +659,7 @@ map.nodes[49278746] = SkyridingGlyph({
 }) -- The Gorging Pit, Voidstorm
 
 -------------------------------------------------------------------------------
--------------------------------- SAFARI ---------------------------------------
+------------------------------------ SAFARI -----------------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[40803860] = Safari.DevouringRunt({
@@ -674,7 +674,7 @@ map.nodes[31104390] = Safari.Blistercreepling({
 map.nodes[63307370] = Safari.RiftbladeFamiliar({})
 
 -------------------------------------------------------------------------------
--------------------------- STORMARION ASSUALT ---------------------------------
+------------------------------ STORMARION ASSUALT -----------------------------
 -------------------------------------------------------------------------------
 
 local maps = {
@@ -704,7 +704,7 @@ local STORMARION_ASSAULT_AREA_POIS = {
 ns.hooks.areapoievent.Add(ns.groups.STORMARION_ASSAULT,
     STORMARION_ASSAULT_AREA_POIS)
 
--------------------------------- RENOWNED BEASTS ---------------------------------
+------------------------------- RENOWNED BEASTS -------------------------------
 
 map.nodes[54646534] = RenownedBeast({
     label = '{npc:247096}',

@@ -91,7 +91,7 @@ L['stash_of_gems'] = 'Planque de gemmes'
 L['stash_of_gems_note'] = 'Contient environ 7 or et des gemmes.'
 
 -------------------------------------------------------------------------------
--------------------------------- Krasarang Wilds ------------------------------
+------------------------------- Krasarang Wilds -------------------------------
 -------------------------------------------------------------------------------
 
 L['equipment_locker'] = 'Placard d’équipement'
@@ -104,14 +104,14 @@ L['forgotten_lockbox'] = 'Coffret oublié'
 L['forgotten_lockbox_note'] = 'Dans la taverne au deuxième étage.\nContient environ 10 or.'
 
 -------------------------------------------------------------------------------
--------------------------- Vale of Eternal Blossoms ---------------------------
+--------------------------- Vale of Eternal Blossoms --------------------------
 -------------------------------------------------------------------------------
 
 L['guolai_halls'] = 'Dans les {location:Salles de Guo-Lai}'
 L['guolai_cache'] = 'Trouvez une {item:87779} et ouvrez une {object:Cache antique de Guo-Lai}.'
 
 -------------------------------------------------------------------------------
-------------------------------- Kun Lai Summit --------------------------------
+-------------------------------- Kun Lai Summit -------------------------------
 -------------------------------------------------------------------------------
 
 L['lost_adventurers_belongings'] = 'Affaires de l’aventurier perdu' -- wowhead.com/object=213774

@@ -806,7 +806,7 @@ dor.nodes[50006188] = Collectible({
 }) -- Flat Earthen
 
 -------------------------------------------------------------------------------
------------------------------ WORLDSOUL MEMORIES ------------------------------
+------------------------------ WORLDSOUL MEMORIES -----------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[51262924] = ns.node.WorldsoulMemory({areaPoiID = 7838}) -- The Worldcarvers
@@ -844,7 +844,7 @@ dor.nodes[60960531] = ns.node.Node({
     }
 }) -- Tome of Polymorph: Mosswool
 
------------------------ ARADAN: STORMROOK SPIRIT BEAST ------------------------
+------------------------ ARADAN: STORMROOK SPIRIT BEAST -----------------------
 
 local rookeryLanding = ns.maps[2315] or Map({id = 2315, settings = false})
 local stormsRoost = ns.maps[2316] or Map({id = 2316, settings = false})

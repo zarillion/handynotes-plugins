@@ -597,7 +597,7 @@ map.nodes[57962229] = Treasure({
 }) -- Statue of Anzu
 
 -------------------------------------------------------------------------------
----------------------------- ARCHAEOLOGY TREASURE -----------------------------
+----------------------------- ARCHAEOLOGY TREASURE ----------------------------
 -------------------------------------------------------------------------------
 
 local ArchaeologyTreasure = Class('ArchaeologyTreasure', Treasure, {
@@ -685,7 +685,7 @@ map.nodes[53315552] = OfferingToTheRavenMother({quest = 36403}) -- Offering to t
 map.nodes[60986387] = OfferingToTheRavenMother({quest = 36410}) -- Offering to the Raven Mother
 
 -------------------------------------------------------------------------------
-------------------------- SHRINE OF TEROKK TREASURES --------------------------
+-------------------------- SHRINE OF TEROKK TREASURES -------------------------
 -------------------------------------------------------------------------------
 
 local ElixirOfShadowSight = Class('ElixirOfShadowSight', Treasure, {
@@ -784,7 +784,7 @@ map.nodes[54128361] = Collectible({
 }) -- Pirate Pepe
 
 -------------------------------------------------------------------------------
-------------------------- WOULD YOU LIKE A PAMPHLET? --------------------------
+-------------------------- WOULD YOU LIKE A PAMPHLET? -------------------------
 -------------------------------------------------------------------------------
 
 local ForbiddenTome = Collectible({

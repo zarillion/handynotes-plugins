@@ -5,7 +5,7 @@ if not L then return end
 local Gold = ns.color.Gold
 
 -------------------------------------------------------------------------------
-------------------------------- ANTORAN WASTES --------------------------------
+-------------------------------- ANTORAN WASTES -------------------------------
 -------------------------------------------------------------------------------
 
 L['commander_texlaz_note'] = 'No longer requires {quest:48831} world quest to be active. Take the green portal.'
@@ -39,7 +39,7 @@ L['lights_judgement_treasure_note'] = 'Activate {item:151830} at the {npc:121365
 L['shroud_of_arcane_echoes_treasures_note'] = 'Activate {item:151912} at the {npc:121365} aboard the {npc:126426}.\n\nUse {item:151912} unlock the treasure.\n\n{note:"Will only open to one wielding the power that echoes that of the Augari."}'
 
 -------------------------------------------------------------------------------
------------------------------------ AZSUNA ------------------------------------
+------------------------------------ AZSUNA -----------------------------------
 -------------------------------------------------------------------------------
 
 L['arcavellus_note'] = 'Kill {npc:90242s} and {npc:90243s} until the rare appears.'
@@ -85,7 +85,7 @@ L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
 L['options_icons_higher_dimensional_learning_desc'] = 'Display book locations for {achievement:11175} achievement.'
 
 -------------------------------------------------------------------------------
--------------------------------- BROKEN SHORE ---------------------------------
+--------------------------------- BROKEN SHORE --------------------------------
 -------------------------------------------------------------------------------
 
 L['bringing_home_the_beacon_note'] = 'While under {npc:127264}, you will be buffed with {spell:240640}.\n\nKill demons to loot various |cFFFFFD00Sentinax Beacons|r.'
@@ -111,7 +111,7 @@ The Portals will then spawn Elite Mobs that have a higher chance of dropping {it
 ]]
 
 -------------------------------------------------------------------------------
----------------------------------- DALARAN ------------------------------------
+----------------------------------- DALARAN -----------------------------------
 -------------------------------------------------------------------------------
 
 -- Midnight tz per region: US=>PST, KR=>KST, EU=>CET, TW=>CST, CN=>CST
@@ -144,7 +144,7 @@ L['options_icons_void_seeped_cache'] = 'Void-Seeped Cache'
 L['options_icons_void_seeped_cache_desc'] = 'Display possible locations for {object:Void-Seeped Caches} (daily chests).'
 
 -------------------------------------------------------------------------------
--------------------------------- HIGHMOUNTAIN ---------------------------------
+--------------------------------- HIGHMOUNTAIN --------------------------------
 -------------------------------------------------------------------------------
 
 L['odrogg_note'] = 'You think you can best my snails?'
@@ -166,7 +166,7 @@ L['totally_safe_treasure_chest'] = 'Totally Safe Treasure Chest'
 L['rocfeather_kite_note'] = 'Combine {item:131809}, {item:131926} and {item:131927} with {item:131810}, to get the {item:131811}.'
 
 -------------------------------------------------------------------------------
--------------------------------- KROKUUN --------------------------------------
+----------------------------------- KROKUUN -----------------------------------
 -------------------------------------------------------------------------------
 
 L['eredar_war_supplies'] = 'Eredar War Supplies'
@@ -176,7 +176,7 @@ L['options_icons_eredar_war_supplies'] = 'Eredar War Supplies'
 L['options_icons_eredar_war_supplies_desc'] = 'Display possible locations for {object:Eredar War Supplies} (daily chests).'
 
 -------------------------------------------------------------------------------
---------------------------------- STORMHEIM -----------------------------------
+---------------------------------- STORMHEIM ----------------------------------
 -------------------------------------------------------------------------------
 L['to_stormheim'] = 'Portal to Stormheim'
 L['to_helheim'] = 'Portal to Helheim'
@@ -195,7 +195,7 @@ L['forsaken_deathsquad'] = 'Forsaken Deathsquad'
 L['worgen_stalkers'] = 'Worgen Stalkers'
 
 -------------------------------------------------------------------------------
----------------------------------- SURAMAR ------------------------------------
+----------------------------------- SURAMAR -----------------------------------
 -------------------------------------------------------------------------------
 
 L['varenne_note'] = 'I must get back to my cooking!'
@@ -211,7 +211,7 @@ L['dusty_coffer'] = 'Dusty Coffer'
 L['protected_treasure_chest'] = 'Protected Treasure Chest'
 
 -------------------------------------------------------------------------------
---------------------------------- VAL'SHARA -----------------------------------
+---------------------------------- VAL'SHARA ----------------------------------
 -------------------------------------------------------------------------------
 
 L['anthydas_note'] = 'Loot the treasure chest on the second floor of the building next to the sink.'

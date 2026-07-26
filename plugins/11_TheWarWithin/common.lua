@@ -16,7 +16,7 @@ local Achievement = ns.reward.Achievement
 ns.expansion = 11
 
 -------------------------------------------------------------------------------
------------------------------------ GROUPS ------------------------------------
+------------------------------------ GROUPS -----------------------------------
 -------------------------------------------------------------------------------
 
 ns.groups.DELVE_REWARDS = Group('delve_rewards', 4203076, {
@@ -312,7 +312,7 @@ local FlightMaster = Class('FlightMaster', Collectible, {
 ns.node.FlightMaster = FlightMaster
 
 -------------------------------------------------------------------------------
--------------------- ACHIEVEMENT: FIGHTER OF THE NIGHTMAN ---------------------
+--------------------- ACHIEVEMENT: FIGHTER OF THE NIGHTMAN --------------------
 -------------------------------------------------------------------------------
 
 local SuspiciousDocument = Collectible({
@@ -326,7 +326,7 @@ local SuspiciousDocument = Collectible({
 ns.node.SuspiciousDocument = SuspiciousDocument
 
 -------------------------------------------------------------------------------
------------------------------ WORLDSOUL MEMORIES ------------------------------
+------------------------------ WORLDSOUL MEMORIES -----------------------------
 -------------------------------------------------------------------------------
 
 local WORLDSOUL_AREA_POIS = {
