@@ -176,4 +176,8 @@ files["tests/test_locales.lua"] = {
         'format',
     }
 }
+
+files["tests/test_headers.lua"] = {
+    globals = {'TestHeaders'}
+}
 -- LuaFormatter on

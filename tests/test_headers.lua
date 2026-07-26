@@ -91,7 +91,6 @@ TestHeaders = {}
 function TestHeaders:testAllHeaders()
     local errors = {}
     for file in utils.AllLuaFiles() do
-        local filepath = file:match('^%.%./(.+)$') or file
         for lineNum, line in utils.FileLines(file) do
             -- Separator: -- followed by at least 10 dashes
             if line:match('^--%-{10,}$') then
