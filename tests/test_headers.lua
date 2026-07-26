@@ -86,8 +86,10 @@ local function CheckHeaderText(line, lineNum, file)
 end
 
 -------------------------------------------------------------------------------
---------------------------- LINE ITERATOR (sans utils) ------------------------
+----------------------------- HEADER PATTERN TEST -----------------------------
 -------------------------------------------------------------------------------
+
+TestHeaders = {}
 
 function TestHeaders:testAllHeaders()
     local errors = {}
