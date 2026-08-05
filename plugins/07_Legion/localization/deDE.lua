@@ -6,7 +6,7 @@ if not L then return end
 local Gold = ns.color.Gold
 
 -------------------------------------------------------------------------------
-------------------------------- ANTORAN WASTES --------------------------------
+-------------------------------- ANTORAN WASTES -------------------------------
 -------------------------------------------------------------------------------
 
 L['commander_texlaz_note'] = 'Benötigt nicht länger die Weltquest {quest:48831}. Nimm das grüne Portal.'
@@ -40,7 +40,7 @@ L['lights_judgement_treasure_note'] = 'Wähle beim {npc:121365} an Bord der {npc
 L['shroud_of_arcane_echoes_treasures_note'] = 'Wähle beim {npc:121365} an Bord der {npc:126426} die Macht {item:151912} aus.\n\nBenutze den {item:151912}, um an den Schatz zu gelangen.'
 
 -------------------------------------------------------------------------------
------------------------------------ AZSUNA ------------------------------------
+------------------------------------ AZSUNA -----------------------------------
 -------------------------------------------------------------------------------
 
 L['arcavellus_note'] = 'Töte {npc:90242} und {npc:90243}, bis der seltene Gegner erscheint.'
@@ -89,7 +89,7 @@ L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
 L['options_icons_higher_dimensional_learning_desc'] = 'Zeigt die Position der Kapitel für den Erfolg {achievement:11175} an.'
 
 -------------------------------------------------------------------------------
--------------------------------- BROKEN SHORE ---------------------------------
+--------------------------------- BROKEN SHORE --------------------------------
 -------------------------------------------------------------------------------
 
 L['bringing_home_the_beacon_note'] = [[
@@ -119,7 +119,7 @@ Bei den Portalen erscheinen dann Elite Gegner, diese haben eine höhere chance {
 ]]
 
 -------------------------------------------------------------------------------
----------------------------------- DALARAN ------------------------------------
+----------------------------------- DALARAN -----------------------------------
 -------------------------------------------------------------------------------
 
 local tz = ({'PST', 'KST', 'MEZ', 'CST', 'CST'})[GetCurrentRegion()] or UNKNOWN
@@ -151,7 +151,7 @@ L['options_icons_void_seeped_cache'] = 'Leerendurchtränkte Truhe'
 L['options_icons_void_seeped_cache_desc'] = 'Zeigt mögliche Orte für {object:Leerendurchtränkte Truhen} an. (tägliche Truhen) an.'
 
 -------------------------------------------------------------------------------
--------------------------------- HIGHMOUNTAIN ---------------------------------
+--------------------------------- HIGHMOUNTAIN --------------------------------
 -------------------------------------------------------------------------------
 
 L['odrogg_note'] = 'Ihr glaubt, Ihr könnt meinen Schnecken bezwingen?'
@@ -173,7 +173,7 @@ L['totally_safe_treasure_chest'] = 'Vollkommen sichere Schatztruhe'
 L['rocfeather_kite_note'] = 'Kombiniere {item:131809}, {item:131926} und {item:131927} mit dem {item:131810}, um einen {item:131811} zu erhalten.'
 
 -------------------------------------------------------------------------------
--------------------------------- KROKUUN --------------------------------------
+----------------------------------- KROKUUN -----------------------------------
 -------------------------------------------------------------------------------
 
 L['eredar_war_supplies'] = nil
@@ -183,7 +183,7 @@ L['options_icons_eredar_war_supplies'] = nil
 L['options_icons_eredar_war_supplies_desc'] = nil
 
 -------------------------------------------------------------------------------
---------------------------------- STORMHEIM -----------------------------------
+---------------------------------- STORMHEIM ----------------------------------
 -------------------------------------------------------------------------------
 L['to_stormheim'] = 'Portal nach Sturmheim'
 L['to_helheim'] = 'Portal nach Helheim'
@@ -202,7 +202,7 @@ L['forsaken_deathsquad'] = 'Todesschwadron der Verlassenen'
 L['worgen_stalkers'] = 'Worgenpirscher'
 
 -------------------------------------------------------------------------------
----------------------------------- SURAMAR ------------------------------------
+----------------------------------- SURAMAR -----------------------------------
 -------------------------------------------------------------------------------
 
 L['varenne_note'] = 'Ich muss mich wieder meiner Kochkunst widmen!'
@@ -218,7 +218,7 @@ L['dusty_coffer'] = 'Staubige Truhe'
 L['protected_treasure_chest'] = 'Geschützte Schatztruhe'
 
 -------------------------------------------------------------------------------
---------------------------------- VAL'SHARA -----------------------------------
+---------------------------------- VAL'SHARA ----------------------------------
 -------------------------------------------------------------------------------
 
 L['anthydas_note'] = 'Plündere die Schatztruhe im zweiten Stock des Gebäudes neben der Spüle.'

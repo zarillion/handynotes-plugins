@@ -38,7 +38,7 @@ L['options_icons_renowned_beast_desc'] = 'Display locations of summonable daily 
 L['silverscale_note'] = 'Summoned below the bridge.'
 
 -------------------------------------------------------------------------------
--------------------------------- EVERSONG WOODS --------------------------------
+-------------------------------- EVERSONG WOODS -------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_ever_painting'] = '{achievement:62185}'
@@ -53,7 +53,7 @@ L['triple_locked_safebox_note'] = 'Nehme die {object:Brennende Fackel} neben der
 L['incomplete_book_of_sonnets'] = 'Unvollständiges Buch der Sonnete'
 
 -------------------------------------------------------------------------------
------------------------------------ HARANDAR -----------------------------------
+----------------------------------- HARANDAR ----------------------------------
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = 'Leuchtende Motte'
@@ -91,7 +91,7 @@ L['voidhoarders_corpse'] = 'Leiche des Leerenhorters'
 L['blackcore_note'] = nil
 
 -------------------------------------------------------------------------------
----------------------------------- ZUL'AMAN ----------------------------------
+----------------------------------- ZUL'AMAN ----------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_frog_princess'] = '{achievement:62201}'
@@ -115,16 +115,17 @@ L['kalika_note'] = nil
 L['songseeker_ikaja_note'] = nil
 
 -------------------------------------------------------------------------------
------------------------------------ NAIGTAL ------------------------------------
+----------------------------------- NAIGTAL -----------------------------------
 -------------------------------------------------------------------------------
 
 L['sleepy_mandrake_note'] = nil
+L['partially_digested_redcap_note'] = nil
 L['ancient_crypt_reliquary'] = nil
 L['squirming_mollusk'] = nil
 L['spiked_shell'] = nil
 
 -------------------------------------------------------------------------------
-------------------------------------- VAL --------------------------------------
+------------------------------------- VAL -------------------------------------
 -------------------------------------------------------------------------------
 
 L['enchanted_hilt'] = nil
@@ -137,7 +138,44 @@ L['enchanted_hilt_note'] = nil
 L['share_a_drink_note'] = 'Kaufe {item:251039} von {npc:250495} in der Arcantina und teile ihn mit allen Rassen.'
 
 -------------------------------------------------------------------------------
------------------------------------ DELVES ------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+--------------------------------- RITUAL SITES --------------------------------
+-------------------------------------------------------------------------------
+L['options_icons_ritual_site'] = nil
+L['options_icons_ritual_site_desc'] = nil
+
+L['ritual_site_broken_throne'] = nil
+L['ritual_site_daggerspine_point'] = nil
+
+L['broken_throne_entry_note'] = nil
+L['daggerspine_point_entry_note'] = nil
+
+L['chewed_meat'] = nil
+L['chewed_meat_note'] = nil
+
+L['ritual_circle'] = nil
+L['ritual_circle_note'] = nil
+
+L['updraft'] = nil
+L['void_tainted_nest'] = nil
+L['void_tainted_nest_note'] = nil
+
+L['chubs_note'] = nil
+
+L['rustling_fern'] = nil
+L['rustling_bush'] = nil
+L['rustling_fern_note'] = nil
+L['rustling_bush_note'] = nil
+
+L['soggy_nest'] = nil
+L['soggy_nest_note'] = nil
+
+L['washed_up_kelp'] = nil
+L['washed_up_kelp_note'] = nil
+
+L['floating_egg_note'] = nil
+------------------------------------ DELVES -----------------------------------
 -------------------------------------------------------------------------------
 
 L['sturdy_chest'] = 'Robuste Truhe'

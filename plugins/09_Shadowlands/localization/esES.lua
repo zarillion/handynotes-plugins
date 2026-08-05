@@ -21,7 +21,7 @@ L['options_icons_safari'] = '{achievement:14867}'
 L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:14867}.'
 
 -------------------------------------------------------------------------------
---------------------------------- ARDENWEALD ----------------------------------
+---------------------------------- ARDENWEALD ---------------------------------
 -------------------------------------------------------------------------------
 
 L['deifir_note'] = 'Monta en {npc:164238} que va dando vueltas en círculos y usa {spell:319566} y {spell:319575} para frenarlo o aturdirlo respectivamente.'
@@ -381,7 +381,7 @@ L['options_icons_nest_materials_desc'] = 'Muestra dónde están los {object:Nido
 L['options_icons_nest_materials'] = 'Nidos de materiales inusuales'
 
 -------------------------------------------------------------------------------
---------------------------------- MALDRAXXUS ----------------------------------
+---------------------------------- MALDRAXXUS ---------------------------------
 -------------------------------------------------------------------------------
 
 L['chelicerae_note'] = 'Destruye las {npc:159885} para activar a la {npc:159886}.'
@@ -495,7 +495,7 @@ L['options_icons_crypt_couture_desc'] = 'Muestra dónde están las personalizaci
 L['soulshape_saurid_note'] = 'En una cueva pequeña. Selecciona el {npc:182105} y teclea {emote:/reverencia}.'
 
 -------------------------------------------------------------------------------
---------------------------------- REVENDRETH ----------------------------------
+---------------------------------- REVENDRETH ---------------------------------
 -------------------------------------------------------------------------------
 
 L['amalgamation_of_filth_note'] = 'Cuando esté disponible la misión del mundo {wq:Trabajo sucio: equipo de demolición} haz click en una {object:Caja de basura} y usa {spell:324115} en el agua.'

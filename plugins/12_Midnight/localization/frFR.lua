@@ -38,7 +38,7 @@ L['options_icons_renowned_beast_desc'] = 'Afficher les emplacements des bêtes i
 L['silverscale_note'] = 'Invoqué sous le pont.'
 
 -------------------------------------------------------------------------------
--------------------------------- EVERSONG WOODS --------------------------------
+-------------------------------- EVERSONG WOODS -------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_ever_painting'] = '{achievement:62185}'
@@ -53,7 +53,7 @@ L['triple_locked_safebox_note'] = 'Requiert 3x clés de coffre-fort cachées. Pr
 L['incomplete_book_of_sonnets'] = 'Livret de sonnets incomplet'
 
 -------------------------------------------------------------------------------
------------------------------------ HARANDAR -----------------------------------
+----------------------------------- HARANDAR ----------------------------------
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = 'Phalène luminescent'
@@ -91,7 +91,7 @@ L['voidhoarders_corpse'] = 'Cadavre d’amasseur du Vide'
 L['blackcore_note'] = 'Tuez {npc:248462} ou des {npc:248483} dans la zone indiquée jusqu\'à obtenir 3x {item:248680}, puis interagissez avec les {object:Lentilles de singularité} pour invoquer le rare.'
 
 -------------------------------------------------------------------------------
----------------------------------- ZUL'AMAN ----------------------------------
+----------------------------------- ZUL'AMAN ----------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_frog_princess'] = '{achievement:62201}'
@@ -115,16 +115,17 @@ L['kalika_note'] = 'Parlez à {npc:258884}, puis interagissez avec le {object:Bo
 L['songseeker_ikaja_note'] = 'Au sommet du temple.'
 
 -------------------------------------------------------------------------------
------------------------------------ NAIGTAL ------------------------------------
+----------------------------------- NAIGTAL -----------------------------------
 -------------------------------------------------------------------------------
 
 L['sleepy_mandrake_note'] = 'Trouvez 5 Amanites différentes et donnez-les à la {npc:267910} dans la Grotte du Dormeur. Chaque Amanite se trouve à un endroit différent dans la zone.'
+L['partially_digested_redcap_note'] = 'Peut être lâché par les {npc:264340}, {npc:264315}, et par les monstres rares {npc:263954}, {npc:264576}, {npc:263947}, {npc:263955}.'
 L['ancient_crypt_reliquary'] = 'Reliquaire de crypte antique'
 L['squirming_mollusk'] = 'Mollusque remuant'
 L['spiked_shell'] = 'Carapace d\'épines'
 
 -------------------------------------------------------------------------------
-------------------------------------- VAL --------------------------------------
+------------------------------------- VAL -------------------------------------
 -------------------------------------------------------------------------------
 
 L['enchanted_hilt'] = 'Garde enchantée'
@@ -137,7 +138,44 @@ L['enchanted_hilt_note'] = 'Mode héroïque uniquement.\n\nCliquez sur la {objec
 L['share_a_drink_note'] = 'Achetez des {item:251039} auprès de {npc:250495} à l\'Arcantina et partagez-les avec chaque race.'
 
 -------------------------------------------------------------------------------
------------------------------------ DELVES ------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+--------------------------------- RITUAL SITES --------------------------------
+-------------------------------------------------------------------------------
+L['options_icons_ritual_site'] = 'Sites rituels'
+L['options_icons_ritual_site_desc'] = 'Afficher les récompenses des {location:Sites rituels} dans les infobulles.'
+
+L['ritual_site_broken_throne'] = 'Site rituel : Trône brisé'
+L['ritual_site_daggerspine_point'] = 'Site rituel : Pointe des Daguéchines'
+
+L['broken_throne_entry_note'] = 'Le Trône brisé, également connu sous le nom d’Atal’Kaldan, est une ruine Amani prise d’assaut par la Lame du Crépuscule. Cliquez sur l\'{npc:260103} pour y entrer.\n\nAlterne chaque semaine avec le {location:Site rituel : Pointe des Daguéchines}.'
+L['daggerspine_point_entry_note'] = 'La Pointe des Daguéchines est une île revendiquée par les Nagas Daguéchine, elle était anciennement appelée l\'Île de Shalandis. Cliquez sur l\'{npc:260103} pour y entrer.\n\nAlterne chaque semaine avec le {location:Site rituel : Trône Brisé}.'
+
+L['chewed_meat'] = 'Viande mâchonnée'
+L['chewed_meat_note'] = 'Invoquez {spell:1286634} à l\'emplacement de la {object:Viande mâchonnée}. Vainquez l\'{npc:263381}. Une fois qu\'il sera devenu amical, donnez-lui 5x {item:242639} à manger.'
+
+L['ritual_circle'] = 'Cercle rituel'
+L['ritual_circle_note'] = 'Placez la {item:271999} et commencez le rituel pour invoquer l\'{npc:263527}.'
+
+L['updraft'] = 'Courant ascendant'
+L['void_tainted_nest'] = 'Nid corrompu par le Vide'
+L['void_tainted_nest_note'] = 'Vous devez monter sur l\'{spell:1286606} pour voir le Courant ascendant. Approchez-vous du courant pour vous envoler vers le nid.'
+
+L['chubs_note'] = 'Nourissez l\'{npc:263355} avec 1x {item:242639}.'
+
+L['rustling_fern'] = 'Fougère frémissante'
+L['rustling_bush'] = 'Buisson frémissant'
+L['rustling_fern_note'] = 'Trouvées au Niveau 3 ou supérieur. Cliquez sur des {object:Fougères frémissantes} jusqu\'à ce que le jeune lynx apparaisse (8 à 13 clics environ). Seulement 1 à 2 fougères trouvables par session.\nNécessite que la mascotte n\'ait pas déjà été apprise.'
+L['rustling_bush_note'] = 'Trouvés au Niveau 3 ou supérieur. Cliquez sur des {object:Buissons frémissants} jusqu\'à ce que le jeune lynx apparaisse (8 à 13 clics environ). Seulement 1 à 2 buissons trouvables par session.\nNécessite que la mascotte n\'ait pas déjà été apprise.'
+
+L['soggy_nest'] = 'Nid détrempé'
+L['soggy_nest_note'] = 'Requiert le {item:272128} pour attirer le {npc:263917}.\nLe {item:272128} peut également être obtenu en tuant des nagas dans la zone.'
+
+L['washed_up_kelp'] = 'Varech échoué'
+L['washed_up_kelp_note'] = 'Fouillez les {object:Varechs échoués} pour avoir une chance d\'attirer le {npc:263617}. Trouvables à plusieurs endroits dans la zone.'
+
+L['floating_egg_note'] = 'Un {npc:263805} qui descend la rivière à la dérive. Attrapez-le pendant son trajet.'
+------------------------------------ DELVES -----------------------------------
 -------------------------------------------------------------------------------
 
 L['sturdy_chest'] = 'Coffre solide'

@@ -104,10 +104,10 @@ Valdrakken.nodes[27004760] = SkyridingVendor({
 })
 
 -------------------------------------------------------------------------------
--------------------------------- DRAGON ISLES ---------------------------------
+--------------------------------- DRAGON ISLES --------------------------------
 -------------------------------------------------------------------------------
 
---------------------------------- AZURE SPAN ----------------------------------
+---------------------------------- AZURE SPAN ---------------------------------
 
 local DragonRacersPurse = {
     Spacer(), Section(_G.WORLD_QUEST_REWARD_FILTERS_TITLE),
@@ -722,7 +722,7 @@ local WAKING_SHORSE_POIS = {
 ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, WAKING_SHORSE_POIS,
     {showNote = true, showSublabel = true})
 
-------------------------------- ZARALEK CAVERN --------------------------------
+-------------------------------- ZARALEK CAVERN -------------------------------
 
 local function ZaralekCavern_Rewards(b, c, r, s) -- basic, challenge, reverse challenge, storm race
     local rewards = {
@@ -936,7 +936,7 @@ ns.hooks.skyridingrace.Add(ns.groups.SKYRIDING_RACE, EMERALD_DREAM_POIS,
     {showNote = true, showSublabel = true})
 
 -------------------------------------------------------------------------------
----------------------------------- KALIMDOR -----------------------------------
+----------------------------------- KALIMDOR ----------------------------------
 -------------------------------------------------------------------------------
 
 local KalimdorCup = Class('KalimdorCup', SkyridingRace)

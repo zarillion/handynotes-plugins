@@ -3,7 +3,7 @@ local L = ns.NewLocale('esES')
 if not L then return end
 -- Spanish Translation by Krovikan EU-Minahonda
 -------------------------------------------------------------------------------
------------------------------------- GEAR -------------------------------------
+------------------------------------- GEAR ------------------------------------
 -------------------------------------------------------------------------------
 
 L['bag'] = 'Bolsa'
@@ -38,7 +38,7 @@ L['cloak'] = 'Capa'
 L['trinket'] = 'Abalorio'
 
 -------------------------------------------------------------------------------
----------------------------------- TOOLTIPS -----------------------------------
+----------------------------------- TOOLTIPS ----------------------------------
 -------------------------------------------------------------------------------
 
 L['activation_unknown'] = '¡Activación desconocida!'
@@ -76,7 +76,7 @@ L['quest_repeatable'] = 'Misión repetible'
 L['achievement'] = 'Logro'
 L['decor_owned'] = 'Conseguido: %s'
 
----------------------------------- LOCATION -----------------------------------
+----------------------------------- LOCATION ----------------------------------
 L['in_cave'] = 'En una cueva.'
 L['in_small_cave'] = 'En una cueva pequeña.'
 L['in_water_cave'] = 'En una cueva submarina.'
@@ -84,7 +84,7 @@ L['in_waterfall_cave'] = 'En una cueva detrás de una cascada.'
 L['in_water'] = 'Bajo el agua.'
 L['in_building'] = 'En el edificio.'
 
------------------------------------- TIME -------------------------------------
+------------------------------------- TIME ------------------------------------
 L['now'] = 'Ahora'
 L['hourly'] = 'Horaria'
 L['daily'] = 'Diaria'
@@ -114,7 +114,7 @@ L['follower_type_follower'] = 'Seguidor'
 L['follower_type_champion'] = 'Campeón'
 L['follower_type_companion'] = 'Compañero'
 
---------------------------------- REPUTATION ----------------------------------
+---------------------------------- REPUTATION ---------------------------------
 L['rep_honored'] = 'Honorable'
 L['rep_revered'] = 'Reverenciado'
 L['rep_exalted'] = 'Exaltado'
@@ -238,7 +238,7 @@ L['options_icons_treasures'] = 'Tesoros'
 L['options_icons_vendors_desc'] = 'Muestra dónde están los vendedores.'
 L['options_icons_vendors'] = 'Vendedores'
 
----------------------------------- FOCUS ---------------------------------
+------------------------------------ FOCUS ------------------------------------
 
 L['options_focus_settings'] = 'Lugares de interés'
 L['options_poi_color'] = 'Color de los lugares de interés'
@@ -248,7 +248,7 @@ L['options_path_color_desc'] = 'Establece el color para los caminos cuando un ic
 L['options_reset_poi_colors'] = 'Resetear colores'
 L['options_reset_poi_colors_desc'] = 'Establece los colores de encima a sus valores por defecto.'
 
----------------------------------- TOOLTIP ---------------------------------
+----------------------------------- TOOLTIP -----------------------------------
 
 L['options_tooltip_settings'] = 'Descripción'
 L['options_toggle_show_loot'] = 'Mostrar el botín'

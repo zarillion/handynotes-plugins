@@ -3,7 +3,7 @@ local L = ns.NewLocale('enUS')
 if not L then return end
 
 -------------------------------------------------------------------------------
--------------------------------- ACROSS ZONES ---------------------------------
+--------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
 L['edge_of_reality'] = 'Edge of Reality'
@@ -160,7 +160,7 @@ L['options_icons_prove_your_strength'] = '{achievement:9402}'
 L['options_icons_prove_your_strength_desc'] = 'Display drop locations for {achievement:9402} achievement.'
 
 -------------------------------------------------------------------------------
------------------------------------- NAGRAND ----------------------------------
+----------------------------------- NAGRAND -----------------------------------
 -------------------------------------------------------------------------------
 
 L['fangler_note'] = 'Use the fishing rod.'
@@ -337,7 +337,7 @@ L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
 L['options_icons_you_have_been_rylakinated_desc'] = 'Display {npc:85357} locations for {achievement:9481} achievement.'
 
 -------------------------------------------------------------------------------
-------------------------------- SPIRES OF ARAK --------------------------------
+-------------------------------- SPIRES OF ARAK -------------------------------
 -------------------------------------------------------------------------------
 
 L['abandoned_mining_pick_treasure'] = 'Abandoned Mining Pick'
@@ -422,7 +422,7 @@ L['options_icons_king_of_the_monsters'] = '{achievement:9601}'
 L['options_icons_king_of_the_monsters_desc'] = 'Display rare locations for {achievement:9601} achievement.'
 
 -------------------------------------------------------------------------------
------------------------------------- TALADOR ----------------------------------
+----------------------------------- TALADOR -----------------------------------
 -------------------------------------------------------------------------------
 
 L['wandering_vindicator_note'] = 'After defeating him, you need to loot his sword from the stone.'
@@ -509,7 +509,7 @@ L['options_icons_wingmen'] = '{achievement:9499}'
 L['options_icons_wingmen_desc'] = 'Display farm locations for {achievement:9499} achievement.'
 
 -------------------------------------------------------------------------------
---------------------------------- TANAAN JUNGLE -------------------------------
+-------------------------------- TANAAN JUNGLE --------------------------------
 -------------------------------------------------------------------------------
 
 L['deathtalon_note'] = '{yell:Shadow Lord Iskar yells: Behind the veil, all you find is death!}'

@@ -515,7 +515,7 @@ map.nodes[37414789] = Telescope({
     criteria = 111575,
     repfaction = 2710
 })
----------------------------- MIDNIGHT LORE HUNTER -----------------------------
+----------------------------- MIDNIGHT LORE HUNTER ----------------------------
 
 -- note: from all zones in Midnight. move node to the zone when you find it there.
 
@@ -567,7 +567,7 @@ smc.nodes[38107699] = LoreObject({
     }
 }) -- Unfinished Sheet Music
 
--------------------------------- EVER PAINTING ---------------------------------
+-------------------------------- EVER PAINTING --------------------------------
 
 map.nodes[53967560] = Painting(111993) -- Sway of Red and Gold
 map.nodes[41805634] = Painting(112030) -- Lost Lamppost
@@ -577,7 +577,7 @@ map.nodes[46086429] = Painting(112033) -- Babble and Brook
 map.nodes[39007822] = Painting(112034) -- Memories of Ghosts
 map.nodes[42626263] = Painting(112035) -- Elrendar's Song
 
--------------------------------- RUNESTONE RUSH ---------------------------------
+-------------------------------- RUNESTONE RUSH -------------------------------
 
 map.nodes[47405860] = RuneStone(111480) -- Elrendar River Runestone (Sapmaw the Infestor)
 map.nodes[38405580] = RuneStone(111481) -- Ath'ran Runestone (Commander Viskaj)
@@ -586,7 +586,7 @@ map.nodes[41007380] = RuneStone(111483) -- Sanctum of the Moon Runestone (Comman
 map.nodes[40601360] = RuneStone(111484) -- Sunstrider Isle Runestone (Claw of the Void)
 
 -------------------------------------------------------------------------------
--------------------------------- SAFARI ---------------------------------------
+------------------------------------ SAFARI -----------------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[39307950] = Safari.VibrantManaling({
@@ -614,7 +614,7 @@ iqd.nodes[51803150] = Safari.NetherFamiliar({
 })
 iqd.nodes[43303030] = Safari.WrathfulWyrm({pois = {POI({43303030, 49302230})}})
 
--------------------------------- RENOWNED BEASTS ---------------------------------
+------------------------------- RENOWNED BEASTS -------------------------------
 
 map.nodes[42337962] = RenownedBeast({
     label = '{npc:245688}',

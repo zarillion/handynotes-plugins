@@ -90,7 +90,7 @@ L['stash_of_gems'] = 'Alijo de gemas'
 L['stash_of_gems_note'] = 'Contiene unos 7 de oro y gemas.'
 
 -------------------------------------------------------------------------------
--------------------------------- Krasarang Wilds ------------------------------
+------------------------------- Krasarang Wilds -------------------------------
 -------------------------------------------------------------------------------
 
 L['equipment_locker'] = 'Armario de equipo'
@@ -103,14 +103,14 @@ L['forgotten_lockbox'] = 'Arcón olvidado'
 L['forgotten_lockbox_note'] = 'En el segundo piso de la taberna.\nContiene unos 10 de oro.'
 
 -------------------------------------------------------------------------------
--------------------------- Vale of Eternal Blossoms ---------------------------
+--------------------------- Vale of Eternal Blossoms --------------------------
 -------------------------------------------------------------------------------
 
 L['guolai_halls'] = 'En las {location:Salas de Guo-Lai}.'
 L['guolai_cache'] = 'Encuentra una {item:87779} y abre un {object:Alijo de Guo-Lai antiguo}.'
 
 -------------------------------------------------------------------------------
-------------------------------- Kun Lai Summit --------------------------------
+-------------------------------- Kun Lai Summit -------------------------------
 -------------------------------------------------------------------------------
 
 L['lost_adventurers_belongings'] = 'Pertenencias del aventurero perdido'

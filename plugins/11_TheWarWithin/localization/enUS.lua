@@ -3,7 +3,7 @@ local L = ns.NewLocale('enUS')
 if not L then return end
 
 -------------------------------------------------------------------------------
---------------------------------- KHAZ ALGAR ----------------------------------
+---------------------------------- KHAZ ALGAR ---------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_delve_rewards'] = 'Delve Rewards'
@@ -29,7 +29,7 @@ L['last_architect_note'] = 'Complete daily riddles to earn decorations.'
 L['neighborhood_riddle'] = 'Treasure Location'
 
 -------------------------------------------------------------------------------
--------------------------------- ISLE OF DORN ---------------------------------
+--------------------------------- ISLE OF DORN --------------------------------
 -------------------------------------------------------------------------------
 
 L['alunira_note'] = 'Collect 10x {item:224025} from mobs on the {location:Isle of Dorn} and combine them into a {item:224026} to remove her {spell:451570}.'
@@ -149,7 +149,7 @@ L['options_icons_for_the_collective'] = '{achievement:40630}'
 L['options_icons_for_the_collective_desc'] = 'Display {npc:228056} locations for {achievement:40630}.'
 
 -------------------------------------------------------------------------------
---------------------------------- HALLOWFALL ----------------------------------
+---------------------------------- HALLOWFALL ---------------------------------
 -------------------------------------------------------------------------------
 
 L['arathi_loremaster_note'] = 'Speak with {npc:221630} within {location:Mereldar} and answer several questions correctly to receive {item:225659}.\n\nAnswers can be found within books located around {location:Hallowfall}.'
@@ -335,7 +335,7 @@ L['arathi_prisoner_suffix'] = 'Arathi prisoners saved'
 L['arathi_prisoner_note'] = 'Free webbed-wrapped {npc:222119}.'
 
 -------------------------------------------------------------------------------
------------------------------------ DELVES ------------------------------------
+------------------------------------ DELVES -----------------------------------
 -------------------------------------------------------------------------------
 
 L['sturdy_chest'] = 'Sturdy Chest'
@@ -361,7 +361,7 @@ L['tuk_chest_3_note'] = '{note:Only available in the "Runaway Evolution" and "We
 L['sss_chest_2_location'] = 'Across the metal beam.'
 
 -------------------------------------------------------------------------------
---------------------------------- SIREN ISLE ----------------------------------
+---------------------------------- SIREN ISLE ---------------------------------
 -------------------------------------------------------------------------------
 
 L['the_drowned_lair_note'] = 'Contribute {currency:3090} to {location:The Drowned Lair} at the {object:Siren Isle Command Map} to open this cave and spawn the rare.'
@@ -420,7 +420,7 @@ L['stone_carvers_scamseax_note'] = 'Collect a {object:Radiant Citrine} ({dot:Yel
 L['marmaduke_note'] = '1. Collect the {item:233027} from the top floor of the {location:Salt and Shanty} inn and bring it to {npc:234365}.\n\n{note:{npc:234365} patrols between the cliff and the {location:Flotsam Shoal}.}\n\n2. After giving him the toy, head back to {location:Flotsam Shoal} and complete {quest:86261} to receive {item:233056}.'
 
 -------------------------------------------------------------------------------
------------------------------ SECRETS OF AZEROTH ------------------------------
+------------------------------ SECRETS OF AZEROTH -----------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets of Azeroth'
@@ -449,7 +449,7 @@ L['mysterious_bones_note'] = 'Collect the {item:228772} hidden behind {npc:71533
 L['crates_found'] = 'crates found'
 
 -------------------------------------------------------------------------------
-------------------------------- RATT'S REVENGE --------------------------------
+-------------------------------- RATT'S REVENGE -------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_ratts_revenge'] = '{achievement:40967}'

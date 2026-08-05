@@ -4,7 +4,7 @@ if not L then return end
 -- German translation by Dathwada EU-Eredar
 
 -------------------------------------------------------------------------------
---------------------------------- KHAZ ALGAR ----------------------------------
+---------------------------------- KHAZ ALGAR ---------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_delve_rewards'] = 'Tiefen'
@@ -30,7 +30,7 @@ L['last_architect_note'] = 'Schließe tägliche Rätsel ab, um Dekorationen zu e
 L['neighborhood_riddle'] = 'Schatzfundort'
 
 -------------------------------------------------------------------------------
--------------------------------- ISLE OF DORN ---------------------------------
+--------------------------------- ISLE OF DORN --------------------------------
 -------------------------------------------------------------------------------
 
 L['alunira_note'] = 'Sammle 10x {item:224025} von Gegnern auf der {location:Insel von Dorn} und kombiniere diese zu einem {item:224026}, um den Schwächungszauber {spell:451570} zu entfernen.'
@@ -151,7 +151,7 @@ L['options_icons_for_the_collective'] = '{achievement:40630}'
 L['options_icons_for_the_collective_desc'] = 'Zeigt die Positionen von {npc:228056} für den Erfolg {achievement:40630} an.'
 
 -------------------------------------------------------------------------------
---------------------------------- HALLOWFALL ----------------------------------
+---------------------------------- HALLOWFALL ---------------------------------
 -------------------------------------------------------------------------------
 
 L['arathi_loremaster_note'] = 'Sprich mit {npc:221630} in {location:Mereldar} und beantworte mehrere Fragen richtig, um die {item:225659} zu erhalten.\n\nDie Antworten findest du in den Büchern, die in ganz {location:Heilsturz} verteilt sind.'
@@ -336,7 +336,7 @@ L['arathi_prisoner_suffix'] = 'gefangene Arathi gerettet'
 L['arathi_prisoner_note'] = 'Rette {npc:222119} aus Spinnennetzen während der Weltquest {wq:Spezialauftrag: Besser als Nachsicht}.'
 
 -------------------------------------------------------------------------------
------------------------------------ DELVES ------------------------------------
+------------------------------------ DELVES -----------------------------------
 -------------------------------------------------------------------------------
 
 L['sturdy_chest'] = 'Robuste Truhe'
@@ -362,7 +362,7 @@ L['tuk_chest_3_note'] = '{note:Nur in den Geschichtenvariantionen "Ausreißersev
 L['sss_chest_2_location'] = 'Auf dem Metallträger.'
 
 -------------------------------------------------------------------------------
---------------------------------- SIREN ISLE ----------------------------------
+---------------------------------- SIREN ISLE ---------------------------------
 -------------------------------------------------------------------------------
 
 L['the_drowned_lair_note'] = 'Steuere {currency:3090} dem {location:Versunkener Hort} an der {object:Schlachtkarte der Sireneninsel} bei, damit sich diese Höhle öffnet und der seltenen Gegner erscheint.'
@@ -421,7 +421,7 @@ L['stone_carvers_scamseax_note'] = 'Sammle den {object:Strahlender Citrin} ({dot
 L['marmaduke_note'] = '1. Sammle das {item:233027} in der oberen Etage des {location:Salz & Seemannslied} Gasthauses und bringe es zu {npc:234365}.\n\n{note:{npc:234365} patrouilliert zwischen den Klippen und der {location:Treibgutbank}.}\n\n2. Nachdem du ihm das Spielzeug gegeben hast, gehe zurück zur {location:Treibgutbank} und schließe die Quest {quest:86261} ab, um das Haustier {item:233056} zu erhalten.'
 
 -------------------------------------------------------------------------------
------------------------------ SECRETS OF AZEROTH ------------------------------
+------------------------------ SECRETS OF AZEROTH -----------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_secrets_of_azeroth'] = 'Geheimnisse von Azeroth'
@@ -450,7 +450,7 @@ L['mysterious_bones_note'] = 'In einer Höhle.\n\nLass einen deiner Hunde (z. B.
 L['crates_found'] = 'Feierkisten gefunden'
 
 -------------------------------------------------------------------------------
-------------------------------- RATT'S REVENGE --------------------------------
+-------------------------------- RATT'S REVENGE -------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_ratts_revenge'] = '{achievement:40967}'

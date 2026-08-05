@@ -87,7 +87,7 @@ L['stash_of_gems'] = 'Edelsteinkästchen'
 L['stash_of_gems_note'] = 'Enthält ca. 7 Gold und Edelsteine.'
 
 -------------------------------------------------------------------------------
--------------------------------- Krasarang Wilds ------------------------------
+------------------------------- Krasarang Wilds -------------------------------
 -------------------------------------------------------------------------------
 
 L['equipment_locker'] = 'Ausrüstungsspind'
@@ -100,14 +100,14 @@ L['forgotten_lockbox'] = 'Vergessene Schließkassette'
 L['forgotten_lockbox_note'] = 'In der Taverne auf der zweiten Ebene.\nEnthält ca. 10 Gold.'
 
 -------------------------------------------------------------------------------
--------------------------- Vale of Eternal Blossoms ---------------------------
+--------------------------- Vale of Eternal Blossoms --------------------------
 -------------------------------------------------------------------------------
 
 L['guolai_halls'] = 'In den {location:Guo-Lai-Hallen}'
 L['guolai_cache'] = 'Finde einen {item:87779} und öffne eine {object:uralte Guo-Lai-Truhe}.'
 
 -------------------------------------------------------------------------------
-------------------------------- Kun Lai Summit --------------------------------
+-------------------------------- Kun Lai Summit -------------------------------
 -------------------------------------------------------------------------------
 
 L['lost_adventurers_belongings'] = 'Besitztümer des verschollenen Abenteurers'

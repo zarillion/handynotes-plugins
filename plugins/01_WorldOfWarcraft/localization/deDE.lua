@@ -3,7 +3,7 @@ local L = ns.NewLocale('deDE')
 if not L then return end
 -- German translation by Dathwada EU-Eredar
 -------------------------------------------------------------------------------
------------------------------------ COMMON ------------------------------------
+------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
 L['anniversary_note'] = '{note:Nur während des jährlichen Geburtstags von WoW verfügbar!}'
@@ -23,7 +23,7 @@ L['bl_rare_note'] = 'Alle seltenen Gegner in {location:Verwüstete Lande} könne
 L['takk_note'] = 'Springt Buchstäblich von Punkt zu Punkt (gegen den Uhrzeigersinn).'
 
 -------------------------------------------------------------------------------
------------------------------ ZUL'GURUB (10.0.7) ------------------------------
+------------------------------ ZUL'GURUB (10.0.7) -----------------------------
 -------------------------------------------------------------------------------
 
 L['zg_unlock_note_01'] = '1. {dot:Blue} Sammle das {item:203735} aus dem geistergefüllten Raum unter {npc:52148} im {location:Altar des Blutgottes}.'

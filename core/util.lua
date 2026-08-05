@@ -1,7 +1,7 @@
 local ADDON_NAME, ns = ...
 
 -------------------------------------------------------------------------------
------------------------------- DATAMINE TOOLTIP -------------------------------
+------------------------------- DATAMINE TOOLTIP ------------------------------
 -------------------------------------------------------------------------------
 
 local NameResolver = {cache = {}, prepared = {}}
@@ -36,7 +36,12 @@ function NameResolver:Resolve(link)
         local tooltipData = C_TooltipInfo.GetHyperlink(link)
         if tooltipData then
             local line = tooltipData.lines and tooltipData.lines[1]
-            if line then name = line.leftText or UNKNOWN end
+            if line then
+                name = line.leftText or UNKNOWN
+                -- 11.x+: NPC names from tooltips can be secret values;
+                -- these can't be compared or cached, fall back to UNKNOWN
+                if issecretvalue(name) then name = UNKNOWN end
+            end
         end
         if name == UNKNOWN then
             ns.Debug('NameResolver returned UNKNOWN')
@@ -209,7 +214,7 @@ local function RenderLinks(str, nameOnly)
 end
 
 -------------------------------------------------------------------------------
--------------------------------- PLAYER FUNCTIONS -----------------------------
+------------------------------- PLAYER FUNCTIONS ------------------------------
 -------------------------------------------------------------------------------
 
 local function PlayerHasItem(item, count)
@@ -239,7 +244,7 @@ local function GetDatabaseTable(...)
 end
 
 -------------------------------------------------------------------------------
------------------------------- LOCALE FUNCTIONS -------------------------------
+------------------------------- LOCALE FUNCTIONS ------------------------------
 -------------------------------------------------------------------------------
 
 --[[
@@ -271,7 +276,7 @@ local function NewLocale(locale)
 end
 
 -------------------------------------------------------------------------------
------------------------------- TABLE CONVERTERS -------------------------------
+------------------------------- TABLE CONVERTERS ------------------------------
 -------------------------------------------------------------------------------
 
 local function AsTable(value, class)
@@ -294,7 +299,7 @@ local function AsIDTable(value)
 end
 
 -------------------------------------------------------------------------------
----------------------------- REPUTATION FORMATTER -----------------------------
+----------------------------- REPUTATION FORMATTER ----------------------------
 -------------------------------------------------------------------------------
 
 local REP_LEVELS = {3000, 6000, 12000, 21000}

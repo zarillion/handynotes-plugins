@@ -400,7 +400,7 @@ map.nodes[42748014] = SkyridingGlyph({
     rewards = {Achievement({id = 61581, criteria = 110363})}
 }) -- Spiritpaw Burrow
 
----------------------------- MIDNIGHT LORE HUNTER -----------------------------
+----------------------------- MIDNIGHT LORE HUNTER ----------------------------
 
 map.nodes[30178466] = LoreObject({
     quest = 94632,
@@ -484,7 +484,7 @@ map.nodes[41854163] = Telescope({
     repfaction = 2696
 })
 
-------------------------- THE FROG AND THE PRINCESS ----------------------------
+-------------------------- THE FROG AND THE PRINCESS --------------------------
 
 map.nodes[31702263] = FrogPrincess({
     rewards = {Achievement({id = 62201, criteria = 112041})}
@@ -533,7 +533,7 @@ map.nodes[55201810] = Songseeker({
     rewards = {Achievement({id = 61455, criteria = 109753})}
 }) -- Songseeker Ikaja
 
-------------------------- SPIRITPAW MARATHON ----------------------------
+------------------------------ SPIRITPAW MARATHON -----------------------------
 
 map.nodes[32292240] = SpiritpawMarathon({
     label = '{achievement:62202}',
@@ -546,7 +546,7 @@ map.nodes[32292240] = SpiritpawMarathon({
     }
 }) -- Speak with Feevra (Achievement seems buggy not displaying on map)
 
----------------------------- GNOME ALONE -------------------------------
+--------------------------------- GNOME ALONE ---------------------------------
 
 map.nodes[54873241] = GnomeAlone({
     rewards = {
@@ -584,7 +584,7 @@ map.nodes[34791716] = GnomeAlone({
     }
 })
 
--------------------------- PUT A PIN IN IT -----------------------------
+------------------------------- PUT A PIN IN IT -------------------------------
 
 map.nodes[59247109] = PutAPinInIt({
     label = '{npc:258933}', -- Chu'ke
@@ -614,7 +614,7 @@ map.nodes[37809011] = PutAPinInIt({
 })
 
 -------------------------------------------------------------------------------
--------------------------------- SAFARI ---------------------------------------
+------------------------------------ SAFARI -----------------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[49608160] = Safari.AkilFledgling({
@@ -640,7 +640,7 @@ map.nodes[44903540] = Safari.SwampBiter({
     pois = {POI({44903540, 46803590, 51406510, 51406480, 47474984})}
 })
 
--------------------------------- RENOWNED BEASTS ---------------------------------
+------------------------------- RENOWNED BEASTS -------------------------------
 
 map.nodes[47555372] = RenownedBeast({
     label = '{npc:245699}',

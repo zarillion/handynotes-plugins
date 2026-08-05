@@ -3,7 +3,7 @@ local L = ns.NewLocale('enUS')
 if not L then return end
 
 -------------------------------------------------------------------------------
------------------------------------ COMMON ------------------------------------
+------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
 L['anniversary_note'] = '{note:Only available during the yearly anniversary event!}'
@@ -23,7 +23,7 @@ L['bl_rare_note'] = 'All rares in {location:Blasted Lands} can drop either {item
 L['takk_note'] = 'Literally Leaps from Spot to Spot (Counterclockwise)'
 
 -------------------------------------------------------------------------------
------------------------------ ZUL'GURUB (10.0.7) ------------------------------
+------------------------------ ZUL'GURUB (10.0.7) -----------------------------
 -------------------------------------------------------------------------------
 
 L['zg_unlock_note_01'] = '1. {dot:Blue} Collect the {item:203735} from the ghost-filled room below {npc:52148} in the {location:Altar of Blood}.'

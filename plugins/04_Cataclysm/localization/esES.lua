@@ -3,7 +3,7 @@ local L = ns.NewLocale('esES')
 if not L then return end
 -- Spanish Translation by Krovikan EU-Minahonda
 -------------------------------------------------------------------------------
------------------------------------ COMMON ------------------------------------
+------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_safari'] = 'Safari de Kalimdor / Reinos del Este'
@@ -99,7 +99,7 @@ L['options_icons_fireside_chat_desc'] = 'Muestra dónde están los NPC para el l
 L['options_icons_molten_flow_master_desc'] = 'Muestra dónde hacer el logro {achievement:5871}.'
 
 -------------------------------------------------------------------------------
----------------------------------- DEEPHOLM -----------------------------------
+----------------------------------- DEEPHOLM ----------------------------------
 -------------------------------------------------------------------------------
 
 L['portal_to_therazane'] = 'Portal al {location:Trono de Therazane}'
@@ -142,7 +142,7 @@ L['options_icons_rock_lover_desc'] = 'Muestra dónde está y el camino a {npc:49
 L['options_icons_whale_shark_desc'] = 'Muestra dónde está el {npc:40728} para el logro {achievement:4975}.'
 
 -------------------------------------------------------------------------------
------------------------------ TWILIGHT HIGHLANDS ------------------------------
+------------------------------ TWILIGHT HIGHLANDS -----------------------------
 -------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------

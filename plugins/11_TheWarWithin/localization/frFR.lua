@@ -4,7 +4,7 @@ if not L then return end
 -- French translation by Lightuky EU-Khaz Modan
 
 -------------------------------------------------------------------------------
---------------------------------- KHAZ ALGAR ----------------------------------
+---------------------------------- KHAZ ALGAR ---------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_delve_rewards'] = 'Récompenses des Gouffres'
@@ -30,7 +30,7 @@ L['last_architect_note'] = 'Résolvez des énigmes quotidiennes pour obtenir des
 L['neighborhood_riddle'] = 'Emplacement du trésor'
 
 -------------------------------------------------------------------------------
--------------------------------- ISLE OF DORN ---------------------------------
+--------------------------------- ISLE OF DORN --------------------------------
 -------------------------------------------------------------------------------
 
 L['alunira_note'] = 'Récupérez 10x {item:224025} sur des monstres de {location:L\'île de Dorn} et combinez-les en un {item:224026} pour retirer son {spell:451570}.'
@@ -150,7 +150,7 @@ L['options_icons_for_the_collective'] = '{achievement:40630}'
 L['options_icons_for_the_collective_desc'] = 'Afficher les emplacements des {npc:228056} pour le haut-fait {achievement:40630}.'
 
 -------------------------------------------------------------------------------
---------------------------------- HALLOWFALL ----------------------------------
+---------------------------------- HALLOWFALL ---------------------------------
 -------------------------------------------------------------------------------
 
 L['arathi_loremaster_note'] = 'Parlez à {npc:221630} situé à {location:Mereldar} et répondez correctement à plusieurs questions pour recevoir la {item:225659}.\n\nLes réponses se trouvent dans des livres répartis dans la zone de {location:Sainte-Chute}.'
@@ -334,7 +334,7 @@ L['arathi_prisoner_suffix'] = 'Prisonniers arathi sauvés'
 L['arathi_prisoner_note'] = 'Libérez les {npc:222119} enveloppés de toiles.'
 
 -------------------------------------------------------------------------------
------------------------------------ DELVES ------------------------------------
+------------------------------------ DELVES -----------------------------------
 -------------------------------------------------------------------------------
 
 L['sturdy_chest'] = 'Coffre solide'
@@ -360,7 +360,7 @@ L['tuk_chest_3_note'] = '{note:Disponible uniquement pendant les variantes d’h
 L['sss_chest_2_location'] = 'Sur la poutre métallique.'
 
 -------------------------------------------------------------------------------
---------------------------------- SIREN ISLE ----------------------------------
+---------------------------------- SIREN ISLE ---------------------------------
 -------------------------------------------------------------------------------
 
 L['the_drowned_lair_note'] = 'Contribuez à l\'événement {location:L\'antre Englouti} sur la {object:Carte de commandement de l\'île aux Sirènes} grâce à vos {currency:3090} pour ouvrir cette grotte et faire apparaître le rare.'
@@ -419,7 +419,7 @@ L['stone_carvers_scamseax_note'] = 'Ramassez une {object:Citrine radieuse} ({dot
 L['marmaduke_note'] = '1. Ramassez le {item:233027} au dernier étage de l\'auberge {location:Le Bloc de sel} et apportez-le à {npc:234365}.\n\n{note:{npc:234365} patrouille entre la falaise et le {location:Brisants des Débris}.}\n\n2. Après lui avoir donné le jouet, retournez au {location:Brisants des Débris} et complétez la quête {quest:86261} pour recevoir {item:233056}.'
 
 -------------------------------------------------------------------------------
------------------------------ SECRETS OF AZEROTH ------------------------------
+------------------------------ SECRETS OF AZEROTH -----------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_secrets_of_azeroth'] = 'Secrets d\'Azeroth'
@@ -448,7 +448,7 @@ L['mysterious_bones_note'] = 'Ramassez les {item:228772} cachés derrière {npc:
 L['crates_found'] = 'caisses trouvées'
 
 -------------------------------------------------------------------------------
-------------------------------- RATT'S REVENGE --------------------------------
+-------------------------------- RATT'S REVENGE -------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_ratts_revenge'] = '{achievement:40967}'

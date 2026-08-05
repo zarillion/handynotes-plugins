@@ -434,7 +434,7 @@ L['slave_camp'] = 'Öffne alle Käfige in der Nähe.'
 L['unsealed_tomb'] = 'Beschütze {npc:152439} vor Wellen von Gegnern.'
 
 -------------------------------------------------------------------------------
------------------------------------- VALE -------------------------------------
+------------------------------------- VALE ------------------------------------
 -------------------------------------------------------------------------------
 
 L['vale_intro_note'] = 'Schließe die Einführungsquestreihe ab, um im Tal der Ewigen Blüten seltene Gegner, Schätze und Angriffsquests freizuschalten.'
@@ -561,7 +561,7 @@ L['options_icons_visions_misc'] = 'Sonstiges'
 L['options_icons_visions_misc_desc'] = 'Zeigt die Seltenen Gegner, Spielzeugen, Fläschchen und Astralen in Verstörenden Visionen an.'
 
 -------------------------------------------------------------------------------
------------------------------------ VOLDUN ------------------------------------
+------------------------------------ VOLDUN -----------------------------------
 -------------------------------------------------------------------------------
 
 L['bloodwing_bonepicker_note'] = 'Sammel {npc:136390} am Gipfel, um {npc:136393} erscheinen zu lassen.'

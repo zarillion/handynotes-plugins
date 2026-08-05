@@ -21,7 +21,6 @@ local Achievement = ns.reward.Achievement
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Section = ns.reward.Section
--- local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 local Reputation = ns.reward.Reputation
@@ -381,7 +380,7 @@ map.nodes[70565090] = PT.Tailoring({quest = 89078, id = 238612}) -- A Child's St
 map.nodes[69765105] = PT.Tailoring({quest = 89081, id = 238615}) -- Wooden Weaving Sword
 
 -------------------------------------------------------------------------------
------------------------------ HARANDAR GLYPH HUNTER ---------------------------
+---------------------------- HARANDAR GLYPH HUNTER ----------------------------
 -------------------------------------------------------------------------------
 map.nodes[60244436] = SkyridingGlyph({
     rewards = {Achievement({id = 61582, criteria = 110364})}
@@ -453,7 +452,7 @@ map.nodes[68162597] = Telescope({
     criteria = 111584,
     repfaction = 2704
 })
----------------------------- MIDNIGHT LORE HUNTER -----------------------------
+----------------------------- MIDNIGHT LORE HUNTER ----------------------------
 
 map.nodes[33336084] = LoreObject({
     quest = 93556,
@@ -628,8 +627,7 @@ map.nodes[66166169] = ns.node.NPC({
     icon = 1670851,
     id = 247220,
     rewards = {
-        Achievement({id = 61939, criteria = {id = 1, qty = true}}),
-        ns.reward.Spacer(),
+        Achievement({id = 61939, criteria = {id = 1, qty = true}}), Spacer(),
         Achievement({id = 61943, criteria = 111433, oneline = true}),
         Achievement({id = 62325, criteria = 112532, oneline = true}),
         Achievement({id = 62326, criteria = 112536, oneline = true}),
@@ -639,7 +637,7 @@ map.nodes[66166169] = ns.node.NPC({
     }
 })
 
--------------------------------- MORE THAN JUST THEIR ROOTS --------------------------------
+-------------------------- MORE THAN JUST THEIR ROOTS -------------------------
 
 local MoreThanJustThierRoots = ns.node.MoreThanJustThierRoots
 
@@ -751,7 +749,7 @@ w
 [40493470] = {vignette=7386, label="Ways of the Roots: Pruning"}, 93486
 ]] --
 -------------------------------------------------------------------------------
--------------------------------- SAFARI ---------------------------------------
+------------------------------------ SAFARI -----------------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[72806790] = Safari.AzureSporebat({
@@ -771,7 +769,7 @@ map.nodes[41506980] = Safari.Silkcrawler({
 })
 map.nodes[61101950] = Safari.Waddles({})
 
--------------------------------- RENOWNED BEASTS ---------------------------------
+------------------------------- RENOWNED BEASTS -------------------------------
 
 map.nodes[66694772] = RenownedBeast({
     label = '{npc:245690}',

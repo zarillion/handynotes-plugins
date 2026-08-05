@@ -22,7 +22,7 @@ local map = Map({id = 646, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
------------------------------ PORTAL STONE RARES ------------------------------
+------------------------------ PORTAL STONE RARES -----------------------------
 
 local SentinaxArea = {
     Path({ns.poi.Circle({origin = 43434092, radius = 1.5, segments = 12})}),
@@ -120,7 +120,7 @@ map.nodes[15505400] = Rare({
     pois = SentinaxArea
 }) -- Than'otalion
 
------------------------- UNSTABLE NETHER PORTAL RARES -------------------------
+------------------------- UNSTABLE NETHER PORTAL RARES ------------------------
 
 -- map.nodes[17505400] = Rare({id = 121077}) -- Lambent Felhunter
 -- map.nodes[19505400] = Rare({id = 121092}) -- Anomalous Observer
@@ -133,7 +133,7 @@ map.nodes[15505400] = Rare({
 -- map.nodes[17505700] = Rare({id = 121068}) -- Volatile Imp
 -- map.nodes[19505700] = Rare({id = 121088}) -- Warped Voidlord
 
--------------------------------- WORLD BOSSES ---------------------------------
+--------------------------------- WORLD BOSSES --------------------------------
 
 map.nodes[60006200] = Rare({
     id = 121124,
@@ -555,7 +555,7 @@ map.nodes[58927298] = HiddenWyrmtongueCache({note = L['in_water']})
 map.nodes[61923303] = HiddenWyrmtongueCache()
 
 -------------------------------------------------------------------------------
--------------------------- BRINGING HOME THE BEACON ---------------------------
+--------------------------- BRINGING HOME THE BEACON --------------------------
 -------------------------------------------------------------------------------
 
 local Sentinax = Class('Sentinax', Collectible, {

@@ -4,7 +4,7 @@ local L = ns.NewLocale('frFR')
 if not L then return end
 
 -------------------------------------------------------------------------------
------------------------------------ COMMON ------------------------------------
+------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
 L['anniversary_note'] = '{note:Disponible uniquement lors de l\'événement anniversaire annuel !}'
@@ -24,7 +24,7 @@ L['bl_rare_note'] = 'Tous les monstres rares dans les {location:Terres foudroyé
 L['takk_note'] = 'Bondit littéralement d\'un endroit à l\'autre (dans le sens inverse des aiguilles d\'une montre)'
 
 -------------------------------------------------------------------------------
------------------------------ ZUL'GURUB (10.0.7) ------------------------------
+------------------------------ ZUL'GURUB (10.0.7) -----------------------------
 -------------------------------------------------------------------------------
 
 L['zg_unlock_note_01'] = '1. {dot:Blue} Récupérez le {item:203735} dans la salle remplie de fantômes sous {npc:52148} à l\'{location:Autel de sang}.'

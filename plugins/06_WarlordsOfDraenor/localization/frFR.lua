@@ -4,7 +4,7 @@ local L = ns.NewLocale('frFR')
 if not L then return end
 
 -------------------------------------------------------------------------------
--------------------------------- ACROSS ZONES ---------------------------------
+--------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
 L['edge_of_reality'] = 'Frontière du réel'
@@ -160,7 +160,7 @@ L['options_icons_prove_your_strength'] = '{achievement:9402}'
 L['options_icons_prove_your_strength_desc'] = 'Afficher les emplacements de drop pour le haut-fait {achievement:9402}'
 
 -------------------------------------------------------------------------------
------------------------------------- NAGRAND ----------------------------------
+----------------------------------- NAGRAND -----------------------------------
 -------------------------------------------------------------------------------
 
 L['fangler_note'] = 'Utilisez la canne à pêche'
@@ -334,7 +334,7 @@ L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
 L['options_icons_you_have_been_rylakinated_desc'] = 'Afficher les emplacements des Rylaks pour le haut-fait {achievement:9481}'
 
 -------------------------------------------------------------------------------
-------------------------------- SPIRES OF ARAK --------------------------------
+-------------------------------- SPIRES OF ARAK -------------------------------
 -------------------------------------------------------------------------------
 
 L['abandoned_mining_pick_treasure'] = 'Pioche de mineur abandonnée'
@@ -417,7 +417,7 @@ L['options_icons_king_of_the_monsters'] = '{achievement:9601}'
 L['options_icons_king_of_the_monsters_desc'] = 'Afficher les emplacements des rares pour le haut-fait {achievement:9601}.'
 
 -------------------------------------------------------------------------------
------------------------------------- TALADOR ----------------------------------
+----------------------------------- TALADOR -----------------------------------
 -------------------------------------------------------------------------------
 
 L['wandering_vindicator_note'] = 'Après l’avoir vaincu, vous devez récupérer son épée dans la pierre.'
@@ -504,7 +504,7 @@ L['options_icons_wingmen'] = '{achievement:9499}'
 L['options_icons_wingmen_desc'] = 'Afficher les emplacements des farming pour le haut-fait {achievement:9499}'
 
 -------------------------------------------------------------------------------
---------------------------------- TANAAN JUNGLE -------------------------------
+-------------------------------- TANAAN JUNGLE --------------------------------
 -------------------------------------------------------------------------------
 
 L['deathtalon_note'] = '{yell:Seigneur de l’ombre Iskar crie: Au-delà du voile, on ne trouve que la mort !}'

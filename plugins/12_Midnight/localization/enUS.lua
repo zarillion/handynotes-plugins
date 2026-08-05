@@ -37,7 +37,7 @@ L['options_icons_renowned_beast_desc'] = 'Display locations of summonable daily 
 L['silverscale_note'] = 'Summoned below the bridge.'
 
 -------------------------------------------------------------------------------
--------------------------------- EVERSONG WOODS --------------------------------
+-------------------------------- EVERSONG WOODS -------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_ever_painting'] = '{achievement:62185}'
@@ -52,7 +52,7 @@ L['triple_locked_safebox_note'] = 'Requires 3 Hidden Safebox Keys. Grab the purp
 L['incomplete_book_of_sonnets'] = 'Incomplete Book of Sonnets'
 
 -------------------------------------------------------------------------------
------------------------------------ HARANDAR -----------------------------------
+----------------------------------- HARANDAR ----------------------------------
 -------------------------------------------------------------------------------
 
 L['glowing_moth'] = 'Glowing Moth'
@@ -90,7 +90,7 @@ L['voidhoarders_corpse'] = 'Voidhoarder\'s Corpse'
 L['blackcore_note'] = 'Kill {npc:248462} or {npc:248483} within the marked area to obtain 3x {item:248680}, then interact with the {object:Singularity Lens} to summon the rare.'
 
 -------------------------------------------------------------------------------
----------------------------------- ZUL'AMAN ----------------------------------
+----------------------------------- ZUL'AMAN ----------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_frog_princess'] = '{achievement:62201}'
@@ -114,16 +114,17 @@ L['kalika_note'] = 'Speak with {npc:258884}, then interact with the {object:Forg
 L['songseeker_ikaja_note'] = 'On top of the Temple.'
 
 -------------------------------------------------------------------------------
------------------------------------ NAIGTAL ------------------------------------
+----------------------------------- NAIGTAL -----------------------------------
 -------------------------------------------------------------------------------
 
 L['sleepy_mandrake_note'] = 'Find and feed 5 unique Redcap mushrooms to the {npc:267910} in Sleeper\'s Grotto. Each mushroom has a different source in the zone.'
+L['partially_digested_redcap_note'] = 'Dropped by {npc:264340}, {npc:264315}, and similar rares within the zone.'
 L['ancient_crypt_reliquary'] = 'Ancient Crypt Reliquary'
 L['squirming_mollusk'] = 'Squirming Mollusk'
 L['spiked_shell'] = 'Spiked Shell'
 
 -------------------------------------------------------------------------------
-------------------------------------- VAL --------------------------------------
+------------------------------------- VAL -------------------------------------
 -------------------------------------------------------------------------------
 
 L['enchanted_hilt'] = 'Enchanted Hilt'
@@ -136,7 +137,45 @@ L['enchanted_hilt_note'] = 'Heroic only.\n\nClick the {object:Enchanted Hilt} to
 L['share_a_drink_note'] = 'Purchase {item:251039} from {npc:250495} in the Arcantina and share it with all races.'
 
 -------------------------------------------------------------------------------
------------------------------------ DELVES ------------------------------------
+--------------------------------- RITUAL SITES --------------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_ritual_site'] = 'Ritual Sites'
+L['options_icons_ritual_site_desc'] = 'Display {location:Ritual Site} rewards on tooltips.'
+
+L['ritual_site_broken_throne'] = 'Ritual Site: Broken Throne'
+L['ritual_site_daggerspine_point'] = 'Ritual Site: Daggerspine Point'
+
+L['broken_throne_entry_note'] = 'The Broken Throne also known as Atal\'Kaldan, is an Amani ruin taken over by the Twilight\'s Blade. Click {npc:260103} to enter.\n\nAlternates weekly with {location:Ritual Site: Daggerspine Point}.'
+L['daggerspine_point_entry_note'] = 'Daggerspine Point is an island claimed by the Daggerspine naga, formerly named Shalandis Isle. Click {npc:260103} to enter.\n\nAlternates weekly with {location:Ritual Site: Broken Throne}.'
+
+L['chewed_meat'] = 'Chewed Meat'
+L['chewed_meat_note'] = 'Summon {spell:1286634} at {object:Chewed Meat}. Defeat {npc:263381}. Once it turns friendly, feed it 5x {item:242639}.'
+
+L['ritual_circle'] = 'Ritual Circle'
+L['ritual_circle_note'] = 'Place {item:271999} and begin the ritual to summon {npc:263527}.'
+
+L['updraft'] = 'Updraft'
+L['void_tainted_nest'] = 'Void-Tainted Nest'
+L['void_tainted_nest_note'] = 'Must be mounted on {spell:1286606} to see the Updraft. Step into it to fly to the nest.'
+
+L['chubs_note'] = 'Purchase from {npc:263355} for 1x {item:242639}.'
+
+L['rustling_fern'] = 'Rustling Fern'
+L['rustling_bush'] = 'Rustling Bush'
+L['rustling_fern_note'] = 'Found in Tier 3 or higher. Click {object:Rustling Ferns} until the kitten appears (8-13 clicks). Only 1-2 available per run.\nRequires the pet not already learned.'
+L['rustling_bush_note'] = 'Found in Tier 3 or higher. Click {object:Rustling Bushes} until the kitten appears (8-13 clicks). Only 1-2 available per run.\nRequires the pet not already learned.'
+
+L['soggy_nest'] = 'Soggy Nest'
+L['soggy_nest_note'] = 'Requires {item:272128} to attract {npc:263917}.\n{item:272128} also drops from naga in the zone.'
+
+L['washed_up_kelp'] = 'Washed Up Kelp'
+L['washed_up_kelp_note'] = 'Search through {object:Washed Up Kelp} for a chance to attract the {npc:263617}. Found at multiple locations in the zone.'
+
+L['floating_egg_note'] = '{npc:263805} floating down the river. Catch it along its path.'
+
+-------------------------------------------------------------------------------
+------------------------------------ DELVES -----------------------------------
 -------------------------------------------------------------------------------
 
 L['sturdy_chest'] = 'Sturdy Chest'

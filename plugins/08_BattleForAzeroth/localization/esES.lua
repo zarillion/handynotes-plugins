@@ -437,7 +437,7 @@ L['slave_camp'] = 'Abre todos las jaulas cercanas.'
 L['unsealed_tomb'] = 'Protege a {npc:152439} de las oleadas de enemigos.'
 
 -------------------------------------------------------------------------------
------------------------------------- VALE -------------------------------------
+------------------------------------- VALE ------------------------------------
 -------------------------------------------------------------------------------
 
 L['vale_intro_note'] = 'Completa la cadena de misiones introductorias para desbloquear los raros, tesoros y misiones de asalto en el {location:Valle de la Flor Eterna}.'
@@ -564,7 +564,7 @@ L['options_icons_visions_misc'] = 'Miscelánea'
 L['options_icons_visions_misc_desc'] = 'Muestra dónde están los raros, juguetes, pociones y del etéreo dentro de las visiones horripilantes.'
 
 -------------------------------------------------------------------------------
------------------------------------ VOLDUN ------------------------------------
+------------------------------------ VOLDUN -----------------------------------
 -------------------------------------------------------------------------------
 
 L['bloodwing_bonepicker_note'] = 'Recoge el {npc:136390} en la cumbre para invocar al buitre {npc:136393}.'

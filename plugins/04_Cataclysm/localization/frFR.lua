@@ -4,7 +4,7 @@ local L = ns.NewLocale('frFR')
 if not L then return end
 
 -------------------------------------------------------------------------------
------------------------------------ COMMON ------------------------------------
+------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
 L['options_icons_safari'] = 'Safari en Kalimdor / dans les Royaumes de l\'Est'
@@ -100,7 +100,7 @@ L['options_icons_fireside_chat_desc'] = 'Afficher les emplacements des PNJs pour
 L['options_icons_molten_flow_master_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:5871}.'
 
 -------------------------------------------------------------------------------
----------------------------------- DEEPHOLM -----------------------------------
+----------------------------------- DEEPHOLM ----------------------------------
 -------------------------------------------------------------------------------
 
 L['portal_to_therazane'] = 'Portail vers le Trône de Therazane'
@@ -143,7 +143,7 @@ L['options_icons_rock_lover_desc'] = 'Afficher l\'emplacement et le trajet vers 
 L['options_icons_whale_shark_desc'] = 'Afficher les emplacements du {npc:40728} pour le haut-fait {achievement:4975}.'
 
 -------------------------------------------------------------------------------
------------------------------ TWILIGHT HIGHLANDS ------------------------------
+------------------------------ TWILIGHT HIGHLANDS -----------------------------
 -------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------

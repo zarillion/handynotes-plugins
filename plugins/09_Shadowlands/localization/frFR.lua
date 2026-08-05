@@ -22,7 +22,7 @@ L['options_icons_safari'] = '{achievement:14867}'
 L['options_icons_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:14867}.'
 
 -------------------------------------------------------------------------------
---------------------------------- ARDENWEALD ----------------------------------
+---------------------------------- ARDENWEALD ---------------------------------
 -------------------------------------------------------------------------------
 
 L['deifir_note'] = 'Faites tourner le rare en cercle et utilisez {spell:319566}  et {spell:319575} pour le ralentir et l\'étourdir.'
@@ -378,7 +378,7 @@ L['options_icons_nest_materials_desc'] = 'Afficher les emplacements des {object:
 L['options_icons_nest_materials'] = 'Tas de matériaux inhabituels'
 
 -------------------------------------------------------------------------------
---------------------------------- MALDRAXXUS ----------------------------------
+---------------------------------- MALDRAXXUS ---------------------------------
 -------------------------------------------------------------------------------
 
 L['chelicerae_note'] = 'Détruisez {npc:159885} pour activer le rare.'
@@ -490,7 +490,7 @@ L['options_icons_crypt_couture_desc'] = 'Afficher les emplacements des customisa
 L['soulshape_saurid_note'] = 'Dans une petite grotte. Ciblez le {npc:182105} et tapez {emote:/bow}'
 
 -------------------------------------------------------------------------------
---------------------------------- REVENDRETH ----------------------------------
+---------------------------------- REVENDRETH ---------------------------------
 -------------------------------------------------------------------------------
 
 L['amalgamation_of_filth_note'] = 'Quand l\'expédition {wq:Sale boulot : équipe de démolition} est disponible, cliquez sur une {object:Caisse de déchets} et utilisez {spell:324115} dans l\'eau.'

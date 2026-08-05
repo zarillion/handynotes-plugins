@@ -3,7 +3,7 @@ local L = ns.NewLocale('esES')
 if not L then return end
 -- Spanish Translation by Krovikan EU-Minahonda
 -------------------------------------------------------------------------------
--------------------------------- ACROSS ZONES ---------------------------------
+--------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
 L['edge_of_reality'] = 'Acantilado de la Realidad'
@@ -160,7 +160,7 @@ L['options_icons_prove_your_strength'] = '{achievement:9402}'
 L['options_icons_prove_your_strength_desc'] = 'Muestra dónde están los botines para el logro {achievement:9402}.'
 
 -------------------------------------------------------------------------------
------------------------------------- NAGRAND ----------------------------------
+----------------------------------- NAGRAND -----------------------------------
 -------------------------------------------------------------------------------
 
 L['fangler_note'] = 'Usa la caña de pescar.'
@@ -337,7 +337,7 @@ L['options_icons_you_have_been_rylakinated'] = '{achievement:9481}'
 L['options_icons_you_have_been_rylakinated_desc'] = 'Muestra dónde están los {npc:85357} para el logro {achievement:9481}.'
 
 -------------------------------------------------------------------------------
-------------------------------- SPIRES OF ARAK --------------------------------
+-------------------------------- SPIRES OF ARAK -------------------------------
 -------------------------------------------------------------------------------
 
 L['abandoned_mining_pick_treasure'] = 'Pico de minero abandonado'
@@ -422,7 +422,7 @@ L['options_icons_king_of_the_monsters'] = '{achievement:9601}'
 L['options_icons_king_of_the_monsters_desc'] = 'Muestra dónde están los raros para el logro {achievement:9601}.'
 
 -------------------------------------------------------------------------------
------------------------------------- TALADOR ----------------------------------
+----------------------------------- TALADOR -----------------------------------
 -------------------------------------------------------------------------------
 
 L['wandering_vindicator_note'] = 'Tras derrotarlo, has de recoger la espada que hay junto a una piedra.'
@@ -509,7 +509,7 @@ L['options_icons_wingmen'] = '{achievement:9499}'
 L['options_icons_wingmen_desc'] = 'Muestra dónde están los sitios de recolección para el logro {achievement:9499}.'
 
 -------------------------------------------------------------------------------
---------------------------------- TANAAN JUNGLE -------------------------------
+-------------------------------- TANAAN JUNGLE --------------------------------
 -------------------------------------------------------------------------------
 
 L['deathtalon_note'] = '{yell:Señor de las Sombras Iskar grita: ¡Tras el velo, todo lo que encontraréis es muerte!}'

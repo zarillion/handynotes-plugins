@@ -3,7 +3,7 @@ local L = ns.NewLocale('esMX')
 if not L then return end
 
 -------------------------------------------------------------------------------
------------------------------------- GEAR -------------------------------------
+------------------------------------- GEAR ------------------------------------
 -------------------------------------------------------------------------------
 
 L['bag'] = nil
@@ -38,7 +38,7 @@ L['cloak'] = 'Capa'
 L['trinket'] = 'Abalorio'
 
 -------------------------------------------------------------------------------
----------------------------------- TOOLTIPS -----------------------------------
+----------------------------------- TOOLTIPS ----------------------------------
 -------------------------------------------------------------------------------
 
 L['activation_unknown'] = nil
@@ -76,7 +76,7 @@ L['quest_repeatable'] = nil
 L['achievement'] = nil
 L['decor_owned'] = nil
 
----------------------------------- LOCATION -----------------------------------
+----------------------------------- LOCATION ----------------------------------
 L['in_cave'] = 'En una cueva.'
 L['in_small_cave'] = 'En una cueva pequeña.'
 L['in_water_cave'] = 'En una cueva submarina.'
@@ -84,7 +84,7 @@ L['in_waterfall_cave'] = nil
 L['in_water'] = 'Bajo el agua.'
 L['in_building'] = nil
 
------------------------------------- TIME -------------------------------------
+------------------------------------- TIME ------------------------------------
 L['now'] = 'Ahora'
 L['hourly'] = nil
 L['daily'] = nil
@@ -114,7 +114,7 @@ L['follower_type_follower'] = nil
 L['follower_type_champion'] = nil
 L['follower_type_companion'] = nil
 
---------------------------------- REPUTATION ----------------------------------
+---------------------------------- REPUTATION ---------------------------------
 L['rep_honored'] = nil
 L['rep_revered'] = nil
 L['rep_exalted'] = nil
@@ -248,7 +248,7 @@ L['options_path_color_desc'] = nil
 L['options_reset_poi_colors'] = nil
 L['options_reset_poi_colors_desc'] = nil
 
----------------------------------- TOOLTIP ---------------------------------
+----------------------------------- TOOLTIP -----------------------------------
 
 L['options_tooltip_settings'] = 'Tooltip'
 L['options_toggle_show_loot'] = 'Mostrar el botín'

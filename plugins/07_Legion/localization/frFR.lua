@@ -6,7 +6,7 @@ if not L then return end
 local Gold = ns.color.Gold
 
 -------------------------------------------------------------------------------
-------------------------------- ANTORAN WASTES --------------------------------
+-------------------------------- ANTORAN WASTES -------------------------------
 -------------------------------------------------------------------------------
 
 L['commander_texlaz_note'] = 'Ne nécessite plus que l\'expédition {quest:48831} soit active. Prenez le portail vert.'
@@ -40,7 +40,7 @@ L['lights_judgement_treasure_note'] = 'Activez {item:151830} au {npc:121365} à 
 L['shroud_of_arcane_echoes_treasures_note'] = 'Activez {item:151912} au {npc:121365} à bord du {npc:126426}.\n\nUtiliser {item:151912} déverrouille le trésor.\n\n{note:"Ne s\'ouvrira qu\'à celui maniant le pouvoir faisant echo à celui des Augari."}'
 
 -------------------------------------------------------------------------------
------------------------------------ AZSUNA ------------------------------------
+------------------------------------ AZSUNA -----------------------------------
 -------------------------------------------------------------------------------
 
 L['arcavellus_note'] = 'Tuez des {npc:90242s} et {npc:90243s} jusqu\'à ce que le rare apparaisse.'
@@ -86,7 +86,7 @@ L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
 L['options_icons_higher_dimensional_learning_desc'] = 'Afficher les emplacements des livres pour le haut-fait {achievement:11175}.'
 
 -------------------------------------------------------------------------------
--------------------------------- BROKEN SHORE ---------------------------------
+--------------------------------- BROKEN SHORE --------------------------------
 -------------------------------------------------------------------------------
 
 L['bringing_home_the_beacon_note'] = 'Tant que vous serez sous le {npc:127264}, vous serez buffé par {spell:240640}.\n\nTuez des démons pour récupérer différentes {object:Balises du Sentinax}.'
@@ -112,7 +112,7 @@ Les Portails feront apparaître des Monstres Élites qui auront plus de chances 
 ]]
 
 -------------------------------------------------------------------------------
----------------------------------- DALARAN ------------------------------------
+----------------------------------- DALARAN -----------------------------------
 -------------------------------------------------------------------------------
 
 -- Midnight tz per region: US=>PST, KR=>KST, EU=>CET, TW=>CST, CN=>CST
@@ -145,7 +145,7 @@ L['options_icons_void_seeped_cache'] = 'Cache infiltrée par le Vide'
 L['options_icons_void_seeped_cache_desc'] = 'Afficher les emplacements possibles pour les {object:Caches infiltrées par le Vide} (coffres journaliers).'
 
 -------------------------------------------------------------------------------
--------------------------------- HIGHMOUNTAIN ---------------------------------
+--------------------------------- HIGHMOUNTAIN --------------------------------
 -------------------------------------------------------------------------------
 
 L['odrogg_note'] = 'Vous pensez que vous pouvez battre mes escargots ?'
@@ -167,7 +167,7 @@ L['totally_safe_treasure_chest'] = 'Coffre au trésor dénué de tout danger'
 L['rocfeather_kite_note'] = 'Combinez une {item:131809}, une {item:131926} et une {item:131927} avec un {item:131810}, pour obtenir le {item:131811}.'
 
 -------------------------------------------------------------------------------
--------------------------------- KROKUUN --------------------------------------
+----------------------------------- KROKUUN -----------------------------------
 -------------------------------------------------------------------------------
 
 L['eredar_war_supplies'] = 'Fournitures de guerre érédars'
@@ -177,7 +177,7 @@ L['options_icons_eredar_war_supplies'] = 'Fournitures de guerre érédars'
 L['options_icons_eredar_war_supplies_desc'] = 'Afficher les emplacements possibles pour les {object:Fournitures de guerre érédars} (coffres journaliers).'
 
 -------------------------------------------------------------------------------
---------------------------------- STORMHEIM -----------------------------------
+---------------------------------- STORMHEIM ----------------------------------
 -------------------------------------------------------------------------------
 L['to_stormheim'] = 'Portail vers Tornheim'
 L['to_helheim'] = 'Portail vers Helheim'
@@ -196,7 +196,7 @@ L['forsaken_deathsquad'] = 'Escadron de la mort réprouvé'
 L['worgen_stalkers'] = 'Traqueurs worgens'
 
 -------------------------------------------------------------------------------
----------------------------------- SURAMAR ------------------------------------
+----------------------------------- SURAMAR -----------------------------------
 -------------------------------------------------------------------------------
 
 L['varenne_note'] = 'Je dois retourner à ma cuisine !'
@@ -212,7 +212,7 @@ L['dusty_coffer'] = 'Coffre poussiéreux'
 L['protected_treasure_chest'] = 'Coffre au trésor protégé'
 
 -------------------------------------------------------------------------------
---------------------------------- VAL'SHARA -----------------------------------
+---------------------------------- VAL'SHARA ----------------------------------
 -------------------------------------------------------------------------------
 
 L['anthydas_note'] = 'Récupérez le coffre au trésor au deuxième étage du bâtiment à côté de l\'évier.'

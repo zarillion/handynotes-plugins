@@ -3,7 +3,7 @@ local L = ns.NewLocale('esES')
 if not L then return end
 -- Spanish Translation by Krovikan EU-Minahonda
 -------------------------------------------------------------------------------
------------------------------------ COMMON ------------------------------------
+------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
 L['anniversary_note'] = '{note:¡Sólo está disponible durante el evento anual de aniversario!}'
@@ -23,7 +23,7 @@ L['bl_rare_note'] = 'Todos los raros de {location:Las Tierras Devastadas} pueden
 L['takk_note'] = 'Literalmente salta de un lugar a otro (en sentido antihorario).'
 
 -------------------------------------------------------------------------------
------------------------------ ZUL'GURUB (10.0.7) ------------------------------
+------------------------------ ZUL'GURUB (10.0.7) -----------------------------
 -------------------------------------------------------------------------------
 
 L['zg_unlock_note_01'] = '1. {dot:Blue} Coge la {item:203735} de la habitación llena de fantasmas debajo de {npc:52148} en el {location:Altar del Dios de la Sangre}.'

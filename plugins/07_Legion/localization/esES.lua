@@ -5,7 +5,7 @@ if not L then return end
 local Gold = ns.color.Gold
 -- Spanish Translation by Krovikan EU-Minahonda
 -------------------------------------------------------------------------------
-------------------------------- ANTORAN WASTES --------------------------------
+-------------------------------- ANTORAN WASTES -------------------------------
 -------------------------------------------------------------------------------
 
 L['commander_texlaz_note'] = 'Ya no requiere que la misión del mundo {quest:48831} esté activa. Coge el portal verde.'
@@ -39,7 +39,7 @@ L['lights_judgement_treasure_note'] = 'Activa la {item:151830} en el {npc:121365
 L['shroud_of_arcane_echoes_treasures_note'] = 'Activa el {item:151912} en el {npc:121365} a bordo del {npc:126426}.\n\nUsa el {item:151912} para desbloquear el tesoro.\n\n{note:"Sólo se abrirá a alguien que ejerza el poder que se haga eco del Augari."}'
 
 -------------------------------------------------------------------------------
------------------------------------ AZSUNA ------------------------------------
+------------------------------------ AZSUNA -----------------------------------
 -------------------------------------------------------------------------------
 
 L['arcavellus_note'] = 'Mata las {npc:90242} y las {npc:90243} hasta que aparezca {npc:90244}.'
@@ -85,7 +85,7 @@ L['options_icons_higher_dimensional_learning'] = '{achievement:11175}'
 L['options_icons_higher_dimensional_learning_desc'] = 'Muestra dónde están los libros para el logro {achievement:11175}.'
 
 -------------------------------------------------------------------------------
--------------------------------- BROKEN SHORE ---------------------------------
+--------------------------------- BROKEN SHORE --------------------------------
 -------------------------------------------------------------------------------
 
 L['bringing_home_the_beacon_note'] = 'Mientras estés bajo el {npc:127264}, tendrás el buff {spell:240640}.\n\nMata demonios para despojar varias {object:Baliza del Sentinax}.'
@@ -111,7 +111,7 @@ Los portales harán aparecer enemigos Élite que tienen una probabilidad más al
 ]]
 
 -------------------------------------------------------------------------------
----------------------------------- DALARAN ------------------------------------
+----------------------------------- DALARAN -----------------------------------
 -------------------------------------------------------------------------------
 
 -- Midnight tz per region: US=>PST, KR=>KST, EU=>CET, TW=>CST, CN=>CST
@@ -144,7 +144,7 @@ L['options_icons_void_seeped_cache'] = 'Alijo calado de Vacío'
 L['options_icons_void_seeped_cache_desc'] = 'Muestra dónde pueden estar los {object:Alijo calado de Vacío} (cofres diarios).'
 
 -------------------------------------------------------------------------------
--------------------------------- HIGHMOUNTAIN ---------------------------------
+--------------------------------- HIGHMOUNTAIN --------------------------------
 -------------------------------------------------------------------------------
 
 L['odrogg_note'] = '¿Crees que puedes superar a mis caracoles?'
@@ -166,7 +166,7 @@ L['totally_safe_treasure_chest'] = 'Arqueta totalmente segura'
 L['rocfeather_kite_note'] = 'Combina {item:131809}, {item:131926} y {item:131927} con {item:131810}, para conseguir la {item:131811}.'
 
 -------------------------------------------------------------------------------
--------------------------------- KROKUUN --------------------------------------
+----------------------------------- KROKUUN -----------------------------------
 -------------------------------------------------------------------------------
 
 L['eredar_war_supplies'] = 'Suministros bélicos eredar'
@@ -176,7 +176,7 @@ L['options_icons_eredar_war_supplies'] = 'Suministros bélicos Eredar'
 L['options_icons_eredar_war_supplies_desc'] = 'Muestra dónde pueden estar los {object:Suministros bélicos eredar} (cofres diarios).'
 
 -------------------------------------------------------------------------------
---------------------------------- STORMHEIM -----------------------------------
+---------------------------------- STORMHEIM ----------------------------------
 -------------------------------------------------------------------------------
 L['to_stormheim'] = 'Portal a Tormenheim'
 L['to_helheim'] = 'Portal a Helheim'
@@ -195,7 +195,7 @@ L['forsaken_deathsquad'] = 'Escuadrón de la muerte renegado'
 L['worgen_stalkers'] = 'Acechadores huargen'
 
 -------------------------------------------------------------------------------
----------------------------------- SURAMAR ------------------------------------
+----------------------------------- SURAMAR -----------------------------------
 -------------------------------------------------------------------------------
 
 L['varenne_note'] = '¡Tengo que seguir cocinando!'
@@ -211,7 +211,7 @@ L['dusty_coffer'] = 'Arca polvorienta'
 L['protected_treasure_chest'] = 'Arqueta protegida'
 
 -------------------------------------------------------------------------------
---------------------------------- VAL'SHARA -----------------------------------
+---------------------------------- VAL'SHARA ----------------------------------
 -------------------------------------------------------------------------------
 
 L['anthydas_note'] = 'Despoja el cofre del tesoro del segundo piso del edificio, junto al fregadero.'

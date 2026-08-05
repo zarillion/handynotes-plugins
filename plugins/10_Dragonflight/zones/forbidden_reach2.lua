@@ -926,7 +926,7 @@ dragonskullIsland.nodes[51466065] = SMALLTREASURE
 dragonskullIsland.nodes[69933512] = SMALLTREASURE
 
 -------------------------------------------------------------------------------
------------------- WYRMHOLE GENERATOR - SIGNAL TRANSMITTER --------------------
+------------------- WYRMHOLE GENERATOR - SIGNAL TRANSMITTER -------------------
 -------------------------------------------------------------------------------
 
 map.nodes[31822621] = SignalTransmitter({quest = 73143}) -- Caldera of the Menders
@@ -1025,7 +1025,7 @@ map.nodes[29265268] = Collectible({
 
 ns.hooks.areapoi.Add(ns.groups.ZSKERA_VAULTS, {[7414] = ZSKERA_VAULTS_REWARDS})
 
------------------------- RENEWED PROTO-DRAKE: ANTLERS -------------------------
+------------------------- RENEWED PROTO-DRAKE: ANTLERS ------------------------
 
 map.nodes[28268000] = Collectible({
     label = '{item:204278}',
@@ -1041,7 +1041,7 @@ map.nodes[28268000] = Collectible({
     }
 }) -- Neltharion's Toolkit
 
----------------------- RATCIPE: DEVIOUSLY DEVILVED EGGS -----------------------
+----------------------- RATCIPE: DEVIOUSLY DEVILVED EGGS ----------------------
 
 local RecipeRat = Class('RecipeRat', Collectible, {
     label = '{npc:202982}',
@@ -1065,7 +1065,7 @@ end
 
 map.nodes[28267800] = RecipeRat()
 
----------------------------- MOUNT: MOSSY MAMMOTH -----------------------------
+----------------------------- MOUNT: MOSSY MAMMOTH ----------------------------
 
 local MossyMammoth = Class('MossyMammoth', Collectible, {
     label = '{item:192790}',
@@ -1153,7 +1153,7 @@ map.nodes[54573460] = Flag({quest = 73699})
 map.nodes[36903792] = Flag({quest = 73700})
 
 -------------------------------------------------------------------------------
---------------------------- LIBRARIAN OF THE REACH ----------------------------
+---------------------------- LIBRARIAN OF THE REACH ---------------------------
 -------------------------------------------------------------------------------
 
 local LibraryBook = Class('LibraryBook', Collectible,
@@ -1259,7 +1259,7 @@ dragonskullIsland.nodes[56317256] = MysteriousWritings({
 })
 
 -------------------------------------------------------------------------------
---------------------------- WHILE WE WERE SLEEPING ----------------------------
+---------------------------- WHILE WE WERE SLEEPING ---------------------------
 -------------------------------------------------------------------------------
 
 local ScalecommanderItem = Class('scalecommander_item', Collectible, {
@@ -1319,7 +1319,7 @@ map.nodes[55393586] = ScalecommanderItem({
 }) -- Sending Stone: Initial Report
 
 -------------------------------------------------------------------------------
----------------------------------- CLUED IN -----------------------------------
+----------------------------------- CLUED IN ----------------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[55424648] = ns.node.CluedIn({

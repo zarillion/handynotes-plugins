@@ -18,7 +18,7 @@ local Pet = ns.reward.Pet
 ns.expansion = 12
 
 -------------------------------------------------------------------------------
------------------------------------ GROUPS ------------------------------------
+------------------------------------ GROUPS -----------------------------------
 -------------------------------------------------------------------------------
 
 ns.groups.DELVE_REWARDS = Group('delve_rewards', 4203076, {
@@ -83,7 +83,12 @@ ns.groups.RENOWNED_BEAST = Group('renowned_beast', 5931379, {
     end
 })
 
------------------------------- EVERSONG WOODS ---------------------------------
+ns.groups.RITUAL_SITE = Group('ritual_site', 132299, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.EXPANSION
+})
+
+-------------------------------- EVERSONG WOODS -------------------------------
 
 ns.groups.RUNESTONE_RUSH = Group('runestone_rush', 134423, {
     defaults = ns.GROUP_HIDDEN,
@@ -97,7 +102,7 @@ ns.groups.EVER_PAINTING = Group('ever_painting', 7549082, {
     achievement = 62185
 })
 
---------------------------------- HARANDAR ------------------------------------
+----------------------------------- HARANDAR ----------------------------------
 ---
 ns.groups.GLOWING_MOTH = Group('glowing_moth', 1003597, {
     defaults = ns.GROUP_HIDDEN,
@@ -112,7 +117,7 @@ ns.groups.MORE_THAN_JUST_THIER_ROOTS = Group('more_than_just_thier_roots',
         achievement = 62188
     })
 
---------------------------------- ZUL'AMAN ------------------------------------
+----------------------------------- ZUL'AMAN ----------------------------------
 
 ns.groups.FROG_PRINCESS = Group('frog_princess', 2399262, {
     defaults = ns.GROUP_HIDDEN,
@@ -233,14 +238,14 @@ local SoftUnderbelly = Class('SoftUnderbelly', Collectible,
 ns.node.SoftUnderbelly = SoftUnderbelly
 
 -------------------------------------------------------------------------------
-------------------------------- RUNESTONE RUSH --------------------------------
+-------------------------------- RUNESTONE RUSH -------------------------------
 -------------------------------------------------------------------------------
 
 local RuneStone = Class('RuneStone', Collectible,
     {icon = 134423, group = ns.groups.RUNESTONE_RUSH})
 
 function RuneStone:Initialize(criteria)
-    ns.node.Collectible.Initialize(self)
+    Collectible.Initialize(self)
     self.rewards = {Achievement({id = 61961, criteria = criteria})}
 end
 
@@ -254,7 +259,7 @@ local Painting = Class('Painting', Collectible,
     {icon = 7549082, group = ns.groups.EVER_PAINTING})
 
 function Painting:Initialize(criteria, location)
-    ns.node.Collectible.Initialize(self)
+    Collectible.Initialize(self)
     self.location = location or nil
     self.rewards = {Achievement({id = 62185, criteria = criteria})}
 end
@@ -262,7 +267,7 @@ end
 ns.node.EverPainting = Painting
 
 -------------------------------------------------------------------------------
-------------------------- MORE THAN JUST THIER ROOTS --------------------------
+-------------------------- MORE THAN JUST THIER ROOTS -------------------------
 -------------------------------------------------------------------------------
 
 local MoreThanJustThierRoots = Class('MoreThanJustThierRoots', Collectible, {
@@ -282,7 +287,7 @@ local FrogPrincess = Class('frog_princess', Collectible,
 ns.node.FrogPrincess = FrogPrincess
 
 -------------------------------------------------------------------------------
--------------------------------- SONG SEEKER ----------------------------------
+--------------------------------- SONG SEEKER ---------------------------------
 -------------------------------------------------------------------------------
 
 local Songseeker = Class('Songseeker', Collectible,
@@ -291,10 +296,10 @@ local Songseeker = Class('Songseeker', Collectible,
 ns.node.Songseeker = Songseeker
 
 -------------------------------------------------------------------------------
----------------------------- SPIRITPAW MARATHON -------------------------------
+------------------------------ SPIRITPAW MARATHON -----------------------------
 -------------------------------------------------------------------------------
 
-local SpiritpawMarathon = Class('SpiritpawMarathon', ns.node.Collectible, {
+local SpiritpawMarathon = Class('SpiritpawMarathon', Collectible, {
     icon = 4891426,
     group = ns.groups.SPIRITPAW_MARATHON
 })
@@ -302,16 +307,16 @@ local SpiritpawMarathon = Class('SpiritpawMarathon', ns.node.Collectible, {
 ns.node.SpiritpawMarathon = SpiritpawMarathon
 
 -------------------------------------------------------------------------------
--------------------------------- GNOME ALONE ----------------------------------
+--------------------------------- GNOME ALONE ---------------------------------
 -------------------------------------------------------------------------------
 
-local GnomeAlone = Class('GnomeAlone', ns.node.Collectible,
+local GnomeAlone = Class('GnomeAlone', Collectible,
     {icon = 133740, group = ns.groups.GNOME_ALONE})
 
 ns.node.GnomeAlone = GnomeAlone
 
 -------------------------------------------------------------------------------
-------------------------------- HONORED DEAD ----------------------------------
+--------------------------------- HONORED DEAD --------------------------------
 -------------------------------------------------------------------------------
 
 local HonoredDead = Class('HonoredDead', ns.node.Collectible,
@@ -320,19 +325,19 @@ local HonoredDead = Class('HonoredDead', ns.node.Collectible,
 ns.node.HonoredDead = HonoredDead
 
 -------------------------------------------------------------------------------
------------------------------- PUT A PIN IN IT --------------------------------
+------------------------------- PUT A PIN IN IT -------------------------------
 -------------------------------------------------------------------------------
 
-local PutAPinInIt = Class('PutAPinInIt', ns.node.Collectible,
+local PutAPinInIt = Class('PutAPinInIt', Collectible,
     {icon = 5206188, group = ns.groups.PUT_A_PIN_IN_IT})
 
 ns.node.PutAPinInIt = PutAPinInIt
 
 -------------------------------------------------------------------------------
-------------------------------- DUST 'EM OFF ----------------------------------
+--------------------------------- DUST 'EM OFF --------------------------------
 -------------------------------------------------------------------------------
 
-local Moth = Class('Moth', ns.node.Collectible, {
+local Moth = Class('Moth', Collectible, {
     label = L['glowing_moth'],
     icon = 1003597,
     group = ns.groups.GLOWING_MOTH,
@@ -602,9 +607,19 @@ ns.node.CoiledIsleSafari = {
 ------------------------------- RENOWNED BEASTS -------------------------------
 -------------------------------------------------------------------------------
 
-local RenownedBeast = ns.Class('RenownedBeast', ns.node.Node, {
-    icon = 5931379,
-    group = ns.groups.RENOWNED_BEAST
-})
+local RenownedBeast = Class('RenownedBeast', ns.node.Node,
+    {icon = 5931379, group = ns.groups.RENOWNED_BEAST})
 
 ns.node.RenownedBeast = RenownedBeast
+
+-------------------------------------------------------------------------------
+--------------------------------- RITUAL SITES --------------------------------
+-------------------------------------------------------------------------------
+
+local RitualCollectible = Class('RitualCollectible', Collectible, {
+    icon = 132299,
+    label = L['options_icons_ritual_site'],
+    group = ns.groups.RITUAL_SITE
+})
+
+ns.node.RitualCollectible = RitualCollectible

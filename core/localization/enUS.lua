@@ -3,7 +3,7 @@ local L = ns.NewLocale('enUS')
 if not L then return end
 
 -------------------------------------------------------------------------------
------------------------------------- GEAR -------------------------------------
+------------------------------------- GEAR ------------------------------------
 -------------------------------------------------------------------------------
 
 L['bag'] = 'Bag'
@@ -38,7 +38,7 @@ L['cloak'] = 'Cloak'
 L['trinket'] = 'Trinket'
 
 -------------------------------------------------------------------------------
----------------------------------- TOOLTIPS -----------------------------------
+----------------------------------- TOOLTIPS ----------------------------------
 -------------------------------------------------------------------------------
 
 L['activation_unknown'] = 'Activation unknown!'
@@ -76,7 +76,7 @@ L['quest_repeatable'] = 'Repeatable Quest'
 L['achievement'] = 'Achievement'
 L['decor_owned'] = 'Owned: %s'
 
----------------------------------- LOCATION -----------------------------------
+----------------------------------- LOCATION ----------------------------------
 L['in_cave'] = 'In a cave.'
 L['in_small_cave'] = 'In a small cave.'
 L['in_water_cave'] = 'In an underwater cave.'
@@ -84,7 +84,7 @@ L['in_waterfall_cave'] = 'In a cave behind a waterfall.'
 L['in_water'] = 'In the water.'
 L['in_building'] = 'In the building.'
 
------------------------------------- TIME -------------------------------------
+------------------------------------- TIME ------------------------------------
 L['now'] = 'Now'
 L['hourly'] = 'Hourly'
 L['daily'] = 'Daily'
@@ -114,7 +114,7 @@ L['follower_type_follower'] = 'Follower'
 L['follower_type_champion'] = 'Champion'
 L['follower_type_companion'] = 'Companion'
 
---------------------------------- REPUTATION ----------------------------------
+---------------------------------- REPUTATION ---------------------------------
 L['rep_honored'] = 'Honored'
 L['rep_revered'] = 'Revered'
 L['rep_exalted'] = 'Exalted'
