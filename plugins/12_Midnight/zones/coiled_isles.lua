@@ -6,9 +6,9 @@ local L = ns.locale
 local Map = ns.Map
 
 local StudentOfHissstory = ns.node.StudentOfHissstory
-local SoftUnderbelly = ns.node.SoftUnderbelly
+-- local SoftUnderbelly = ns.node.SoftUnderbelly
 local Rare = ns.node.Rare
-local RareElite = ns.node.RareElite
+-- local RareElite = ns.node.RareElite
 local CoiledIsleSafari = ns.node.CoiledIsleSafari
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Treasure = ns.node.Treasure
@@ -141,7 +141,7 @@ map.nodes[52053229] = Rare({
 }) -- Destra
 
 -- Oppose the Foes (Rare Elite) - Achievement 63601
-
+--[[
 vault_map.nodes[10001000] = RareElite({
     id = 0,
     quest = 0,
@@ -159,7 +159,7 @@ vault_map.nodes[10001000] = RareElite({
     quest = 0,
     rewards = {Achievement({id = 63601, criteria = 116327})}
 }) -- Susarikk
-
+]] --
 -------------------------------------------------------------------------------
 ------------------------------- TREASURES ------------------------------------
 -------------------------------------------------------------------------------
@@ -513,7 +513,7 @@ map.nodes[32566366] = StudentOfHissstory({
 -------------------------------------------------------------------------------
 ------------------------------- SOFT UNDERBELLY ------------------------------
 -------------------------------------------------------------------------------
-
+--[[
 vault_map2.nodes[38411769] = SoftUnderbelly({
     id = 263456,
     quest = 0,
@@ -543,7 +543,7 @@ vault_map2.nodes[40006793] = SoftUnderbelly({
     quest = 0,
     rewards = {Achievement({id = 62601, criteria = 113662})}
 }) -- Vserix the Sneaky (placeholder location/quest) also 47340609
-
+]] --
 -------------------------------------------------------------------------------
 ------------------------------- THE HONORED DEAD ------------------------------
 -------------------------------------------------------------------------------
