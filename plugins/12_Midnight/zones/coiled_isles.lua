@@ -247,7 +247,7 @@ map.nodes[31438349] = Treasure({
         Achievement({id = 63359, criteria = 115295}),
         Reputation({id = 2772, gain = 50, quest = 96985})
     }
-}) -- Posessed Vase
+}) -- Possessed Vase
 
 map.nodes[75376833] = Treasure({
     quest = 95164,
