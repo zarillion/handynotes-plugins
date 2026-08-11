@@ -31,6 +31,9 @@ local sgp = Map({id = 2506, settings = false}) -- Shadowguard Point
 
 -- local tor = Map({id = 2507, settings = false}) -- Torment's Rise ?
 
+local rog = Map({id = 2633, settings = false}) -- The Ring of Glory
+local gni = Map({id = 2635, settings = false}) -- Gnarldor Isle
+
 -------------------------------------------------------------------------------
 
 local SturdyChestCriteria = {
@@ -277,6 +280,50 @@ sgp.nodes[58264151] = SturdyChest({
 })
 
 -------------------------------------------------------------------------------
+------------------------------ THE RING OF GLORY ------------------------------
+-------------------------------------------------------------------------------
+
+rog.nodes[44162260] = SturdyChest({
+    achievementID = 63171,
+    quest = 96807,
+    rlabel = ns.status.Gray('#1')
+})
+
+rog.nodes[25197374] = SturdyChest({
+    achievementID = 63171,
+    quest = 96803,
+    rlabel = ns.status.Gray('#2')
+})
+
+rog.nodes[48569484] = SturdyChest({
+    achievementID = 63171,
+    quest = 96806,
+    rlabel = ns.status.Gray('#3')
+})
+
+-------------------------------------------------------------------------------
+-------------------------------- GNARLDOR ISLE --------------------------------
+-------------------------------------------------------------------------------
+
+gni.nodes[60446812] = SturdyChest({
+    achievementID = 63170,
+    quest = 96802,
+    rlabel = ns.status.Gray('#1')
+}) -- [Delver's Arcane Golem] mount drop random or fixed?
+
+gni.nodes[52414084] = SturdyChest({
+    achievementID = 63170,
+    quest = 96804,
+    rlabel = ns.status.Gray('#2')
+})
+
+gni.nodes[28433816] = SturdyChest({
+    achievementID = 63170,
+    quest = 96805,
+    rlabel = ns.status.Gray('#3')
+})
+
+-------------------------------------------------------------------------------
 -------------------------------- DELVE REWARDS --------------------------------
 -------------------------------------------------------------------------------
 local maps = {
@@ -287,7 +334,8 @@ local maps = {
     ns.maps[2405], -- Voidstorm
     ns.maps[2444], -- Slayer's Rise
     ns.maps[2437], -- Zul'Aman
-    ns.maps[2536] -- Atal'Aman
+    ns.maps[2536], -- Atal'Aman
+    ns.maps[2512] -- The Coiled Isle
 }
 
 for _, m in pairs(maps) do
@@ -367,6 +415,14 @@ local DELVE_REWARDS = {
         Achievement({id = 61716, oneline = true, criteria = {110944}}), -- Midnight Delver Healer III
         Achievement({id = 61719, oneline = true, criteria = {110974}}) -- Midnight Delver Tank III
     },
+    ['the_ring_of_glory'] = {
+        Achievement({id = 63171, criteria = SturdyChestCriteria}), -- The Ring of Glory Discoveries
+        Achievement({id = 63436, criteria = {115865, 115866, 115867}}) -- The Ring of Glory Stories
+    },
+    ['gnarldor_isle'] = {
+        Achievement({id = 63170, criteria = SturdyChestCriteria}), -- Gnarldor Isle Discoveries
+        Achievement({id = 63437, criteria = {115862, 115863, 115864}}) -- Gnarldor Isle Stories
+    },
     ['torments_rise'] = {
         Achievement({id = 61797, criteria = {111080, 111081}}) -- My Shady Nemesis
     }
@@ -398,7 +454,15 @@ local DELVE_AREA_POIS = {
     [8436] = DELVE_REWARDS['the_gulf_of_memory'],
 
     -- NEMESIS DELVES -----------------------------------------------------------
-    [8445] = DELVE_REWARDS['torments_rise']
+    [8445] = DELVE_REWARDS['torments_rise'],
+
+    -- 12.1 DELVES -------------------------------------------------------------
+    [8761] = DELVE_REWARDS['gnarldor_isle'],
+    [8759] = DELVE_REWARDS['gnarldor_isle'],
+    [8760] = DELVE_REWARDS['gnarldor_isle'],
+    [8764] = DELVE_REWARDS['the_ring_of_glory'],
+    [8762] = DELVE_REWARDS['the_ring_of_glory'],
+    [8763] = DELVE_REWARDS['the_ring_of_glory']
 
 }
 

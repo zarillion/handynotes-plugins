@@ -182,3 +182,24 @@ L['sturdy_chest'] = 'Robuste Truhe'
 L['sturdy_chest_suffix'] = 'robuste Truhen geöffnet'
 
 L['gulf_of_memory_chest_note'] = nil
+
+-------------------------------------------------------------------------------
+--------------------------------- COILED ISLES --------------------------------
+-------------------------------------------------------------------------------
+
+L['lost_spirit_note'] = 'Bringt {item:269935} zu {npc:261867} zurück.'
+L['sunken_divers_chest_note'] = 'Tötet den nahegelegenen {npc:263081} und plündert 3x {item:271424}, kombiniert sie dann zu {item:271423}, um den Schatz freizuschalten.'
+L['vulzahn_smuggled_treasure_note'] = '1. Holt {item:271791} von {dot:Blue}{npc:253837}\n\n2. Gebt {item:271791} an {dot:Red}{npc:262204}, um {item:271788} zu erhalten\n\n3. Gebt {item:271788} an {dot:Green}{npc:263265}, um {item:271792} zu erhalten und den Schatz freizuschalten'
+L['grave_of_someone_forgotten_note'] = '1. Sprecht mit {dot:Blue}{npc:263241}.\n\n2. Sprecht mit {dot:Red}{npc:263242}.\n\n3. Sprecht mit {dot:Green}{npc:263243}.\n\n4. Kehrt zum Grab zurueck und plundert es.'
+
+L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
+L['options_icons_coiled_isle_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:62492} an.'
+
+L['options_icons_student_of_hissstory'] = '{achievement:63662}'
+L['options_icons_student_of_hissstory_desc'] = 'Zeigt die Positionen der Geschichtsobjekte für den {achievement:63662} Erfolg an.'
+
+L['options_icons_soft_underbelly'] = '{achievement:62601}'
+L['options_icons_soft_underbelly_desc'] = 'Zeigt die Positionen für den {achievement:62601} Erfolg an.'
+
+L['options_icons_the_honored_dead'] = '{achievement:63610}'
+L['options_icons_the_honored_dead_desc'] = 'Zeigt die Positionen für den {achievement:63610} Erfolg an.'

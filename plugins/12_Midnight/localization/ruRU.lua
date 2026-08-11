@@ -182,3 +182,24 @@ L['sturdy_chest'] = 'Прочный сундук'
 L['sturdy_chest_suffix'] = 'Найден прочный сундук'
 
 L['gulf_of_memory_chest_note'] = 'Чтобы добраться до сокровища, нужно подняться по корням дерева.'
+
+-------------------------------------------------------------------------------
+--------------------------------- COILED ISLES --------------------------------
+-------------------------------------------------------------------------------
+
+L['lost_spirit_note'] = 'Верните {item:269935} к {npc:261867}.'
+L['sunken_divers_chest_note'] = 'Убейте ближайшего {npc:263081} и добудьте 3x {item:271424}, затем объедините их в {item:271423}, чтобы открыть сокровище.'
+L['vulzahn_smuggled_treasure_note'] = '1. Получите {item:271791} у {dot:Blue}{npc:253837}\n\n2. Передайте {item:271791} {dot:Red}{npc:262204}, чтобы получить {item:271788}\n\n3. Передайте {item:271788} {dot:Green}{npc:263265}, чтобы получить {item:271792} и открыть сокровище'
+L['grave_of_someone_forgotten_note'] = '1. Поговорите с {dot:Blue}{npc:263241}.\n\n2. Поговорите с {dot:Red}{npc:263242}.\n\n3. Поговорите с {dot:Green}{npc:263243}.\n\n4. Вернитесь к могиле и обыщите ее.'
+
+L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
+L['options_icons_coiled_isle_safari_desc'] = 'Отображение местоположения боевых питомцев для {achievement:62492}.'
+
+L['options_icons_student_of_hissstory'] = '{achievement:63662}'
+L['options_icons_student_of_hissstory_desc'] = 'Отобразить местоположение объектов, связанных с достижением {achievement:63662}.'
+
+L['options_icons_soft_underbelly'] = '{achievement:62601}'
+L['options_icons_soft_underbelly_desc'] = 'Отобразить местоположения для достижения {achievement:62601}.'
+
+L['options_icons_the_honored_dead'] = '{achievement:63610}'
+L['options_icons_the_honored_dead_desc'] = 'Отобразить местоположения для достижения {achievement:63610}.'

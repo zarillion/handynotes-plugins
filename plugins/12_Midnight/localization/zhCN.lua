@@ -182,3 +182,24 @@ L['sturdy_chest'] = '坚固宝箱'
 L['sturdy_chest_suffix'] = '已找到坚固宝箱'
 
 L['gulf_of_memory_chest_note'] = '沿着树的根部向上攀爬以到达宝藏。'
+
+-------------------------------------------------------------------------------
+--------------------------------- COILED ISLES --------------------------------
+-------------------------------------------------------------------------------
+
+L['lost_spirit_note'] = '将 {item:269935} 交还给 {npc:261867}。'
+L['sunken_divers_chest_note'] = '击杀附近的 {npc:263081} 并拾取3个 {item:271424}，然后将其组合成 {item:271423} 以解锁宝藏。'
+L['vulzahn_smuggled_treasure_note'] = '1. 从 {dot:Blue}{npc:253837} 获取 {item:271791}\n\n2. 将 {item:271791} 交给 {dot:Red}{npc:262204} 以获得 {item:271788}\n\n3. 将 {item:271788} 交给 {dot:Green}{npc:263265} 以获得 {item:271792} 并解锁宝藏'
+L['grave_of_someone_forgotten_note'] = '1. 与 {dot:Blue}{npc:263241} 对话。\n\n2. 与 {dot:Red}{npc:263242} 对话。\n\n3. 与 {dot:Green}{npc:263243} 对话。\n\n4. 返回墓穴进行拾取。'
+
+L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
+L['options_icons_coiled_isle_safari_desc'] = '显示 {achievement:62492} 成就中战斗宠物的位置。'
+
+L['options_icons_student_of_hissstory'] = '{achievement:63662}'
+L['options_icons_student_of_hissstory_desc'] = '显示 {achievement:63662} 成就中剧情物品的位置。'
+
+L['options_icons_soft_underbelly'] = '{achievement:62601}'
+L['options_icons_soft_underbelly_desc'] = '显示 {achievement:62601} 成就的位置。'
+
+L['options_icons_the_honored_dead'] = '{achievement:63610}'
+L['options_icons_the_honored_dead_desc'] = '显示 {achievement:63610} 成就的位置。'

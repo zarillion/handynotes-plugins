@@ -32,9 +32,9 @@ L['options_icons_profession_treasures_desc'] = 'Muestra dónde están los tesoro
 L['options_icons_safari'] = '{achievement:61091}'
 L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:61091}.'
 
-L['options_icons_renowned_beast'] = 'Renowned Beasts'
-L['options_icons_renowned_beast_desc'] = 'Display locations of summonable daily beasts for Skinning'
-L['silverscale_note'] = 'Summoned below the bridge.'
+L['options_icons_renowned_beast'] = 'Bestias de renombre'
+L['options_icons_renowned_beast_desc'] = 'Muestra dónde están las misiones diarias de invocación de mascotas para desollamiento.'
+L['silverscale_note'] = 'Invocado debajo del puente.'
 
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS -------------------------------
@@ -182,3 +182,24 @@ L['sturdy_chest'] = 'Cofre robusto'
 L['sturdy_chest_suffix'] = 'Cofre robusto encontrado'
 
 L['gulf_of_memory_chest_note'] = 'Sube por las raíces del árbol para llegar al tesoro.'
+
+-------------------------------------------------------------------------------
+--------------------------------- COILED ISLES --------------------------------
+-------------------------------------------------------------------------------
+
+L['lost_spirit_note'] = 'Devuelve la {item:269935} a {npc:261867}.'
+L['sunken_divers_chest_note'] = 'Mata a {npc:263081} en las cercanías y despoja 3x {item:271424}. Después combínalos para crear la {item:271423} para poder desbloquear el tesoro.'
+L['vulzahn_smuggled_treasure_note'] = '1. Consigue la {item:271791} de {dot:Blue}{npc:253837}.\n\n2. Entrega la {item:271791} a {dot:Red}{npc:262204} para recibir un {item:271788}.\n\n3. Entrega el {item:271788} a {dot:Green}{npc:263265} para recibir la {item:271792} y desbloquear el tesoro.'
+L['grave_of_someone_forgotten_note'] = '1. Habla con {dot:Blue}{npc:263241}.\n\n2. Habla con {dot:Red}{npc:263242}.\n\n3. Habla con {dot:Green}{npc:263243}.\n\n4. Vuelve a la tumba para saquearla.'
+
+L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
+L['options_icons_coiled_isle_safari_desc'] = 'Muestra dónde están las mascotas de combate para el logro {achievement:62492}.'
+
+L['options_icons_student_of_hissstory'] = '{achievement:63662}'
+L['options_icons_student_of_hissstory_desc'] = 'Muestra dónde están los objetos de conocimiento para el logro {achievement:63662}.'
+
+L['options_icons_soft_underbelly'] = '{achievement:62601}'
+L['options_icons_soft_underbelly_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:62601}.'
+
+L['options_icons_the_honored_dead'] = '{achievement:63610}'
+L['options_icons_the_honored_dead_desc'] = 'Muestra dónde están las ubicaciones para el logro {achievement:63610}.'

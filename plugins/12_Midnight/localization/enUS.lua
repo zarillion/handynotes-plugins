@@ -182,3 +182,24 @@ L['sturdy_chest'] = 'Sturdy Chest'
 L['sturdy_chest_suffix'] = 'Sturdy Chest found'
 
 L['gulf_of_memory_chest_note'] = 'Walk up the roots of the tree to reach the treasure.'
+
+-------------------------------------------------------------------------------
+--------------------------------- COILED ISLES --------------------------------
+-------------------------------------------------------------------------------
+
+L['lost_spirit_note'] = 'Return {item:269935} to {npc:261867}.'
+L['sunken_divers_chest_note'] = 'Kill the nearby {npc:263081} and loot 3 {item:271424}, then combine them to create {item:271423} to unlock the treasure.'
+L['vulzahn_smuggled_treasure_note'] = '1. Get {item:271791} from {dot:Blue}{npc:253837}\n\n2. Give {item:271791} to {dot:Red}{npc:262204} to receive {item:271788}\n\n3. Give {item:271788} to {dot:Green}{npc:263265} to receive {item:271792} and unlock the treasure.'
+L['grave_of_someone_forgotten_note'] = '1. Speak with {dot:Blue}{npc:263241}.\n\n2. Speak with {dot:Red}{npc:263242}.\n\n3. Speak with {dot:Green}{npc:263243}.\n\n4. Return to the grave to loot it.'
+
+L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
+L['options_icons_coiled_isle_safari_desc'] = 'Display battle pet locations for the {achievement:62492} achievement.'
+
+L['options_icons_student_of_hissstory'] = '{achievement:63662}'
+L['options_icons_student_of_hissstory_desc'] = 'Display lore object locations for the {achievement:63662} achievement.'
+
+L['options_icons_soft_underbelly'] = '{achievement:62601}'
+L['options_icons_soft_underbelly_desc'] = 'Display locations for the {achievement:62601} achievement.'
+
+L['options_icons_the_honored_dead'] = '{achievement:63610}'
+L['options_icons_the_honored_dead_desc'] = 'Display the locations for the {achievement:63610} achievement.'

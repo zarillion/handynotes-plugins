@@ -67,6 +67,12 @@ ns.groups.SAFARI = Group('safari', 2205238, {
     achievement = 61091
 })
 
+ns.groups.COILED_ISLE_SAFARI = Group('coiled_isle_safari', 2205238, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.COLLECTIBLE,
+    achievement = 62492
+})
+
 ns.groups.RENOWNED_BEAST = Group('renowned_beast', 5931379, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.EXPANSION,
@@ -142,6 +148,27 @@ ns.groups.PUT_A_PIN_IN_IT = Group('put_a_pin_in_it', 5206188, {
     type = ns.group_types.ACHIEVEMENT,
     achievement = 62199
 })
+
+----------------------------- THE COILED ISLES --------------------------------
+
+ns.groups.STUDENT_OF_HISSSTORY = Group('student_of_hissstory', 8032876, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 63662
+})
+
+ns.groups.SOFT_UNDERBELLY = Group('soft_underbelly', 134306, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 62601
+})
+
+ns.groups.THE_HONORED_DEAD = Group('the_honored_dead', 133740, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 63610
+})
+
 -------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------
@@ -189,6 +216,26 @@ local LoreObject = Class('LoreObject', Collectible, {
 })
 
 ns.node.LoreObject = LoreObject
+
+-------------------------------------------------------------------------------
+---------------------------- STUDENT OF HISSSTORY ----------------------------
+-------------------------------------------------------------------------------
+
+local StudentOfHissstory = Class('StudentOfHissstory', Collectible, {
+    icon = 8032876,
+    group = ns.groups.STUDENT_OF_HISSSTORY
+})
+
+ns.node.StudentOfHissstory = StudentOfHissstory
+
+-------------------------------------------------------------------------------
+------------------------------- SOFT UNDERBELLY -------------------------------
+-------------------------------------------------------------------------------
+
+local SoftUnderbelly = Class('SoftUnderbelly', Collectible,
+    {icon = 134306, group = ns.groups.SOFT_UNDERBELLY})
+
+ns.node.SoftUnderbelly = SoftUnderbelly
 
 -------------------------------------------------------------------------------
 -------------------------------- RUNESTONE RUSH -------------------------------
@@ -267,6 +314,15 @@ local GnomeAlone = Class('GnomeAlone', Collectible,
     {icon = 133740, group = ns.groups.GNOME_ALONE})
 
 ns.node.GnomeAlone = GnomeAlone
+
+-------------------------------------------------------------------------------
+--------------------------------- HONORED DEAD --------------------------------
+-------------------------------------------------------------------------------
+
+local HonoredDead = Class('HonoredDead', ns.node.Collectible,
+    {icon = 133740, group = ns.groups.THE_HONORED_DEAD})
+
+ns.node.HonoredDead = HonoredDead
 
 -------------------------------------------------------------------------------
 ------------------------------- PUT A PIN IN IT -------------------------------
@@ -475,6 +531,78 @@ ns.node.Safari = {
     }) -- Wrathful Wyrm
 }
 
+-- The Coiled Isle Safari (achievement 62492)
+local CoiledIsleSafari = Class('CoiledIsleSafari', Collectible, {
+    icon = 'paw_g',
+    group = ns.groups.COILED_ISLE_SAFARI
+})
+
+ns.node.CoiledIsleSafari = {
+
+    AutumnSnapling = Class('AutumnSnapling', CoiledIsleSafari, {
+        id = 262248,
+        rewards = {
+            Achievement({id = 62492, criteria = 113420, oneline = true}),
+            Pet({id = 5035})
+        }
+    }), -- Autumn Snapling
+
+    CausticWrithling = Class('CausticWrithling', CoiledIsleSafari, {
+        id = 262247,
+        rewards = {
+            Achievement({id = 62492, criteria = 113421, oneline = true}),
+            Pet({id = 5031})
+        }
+    }), -- Caustic Writhling
+
+    CursedSpawn = Class('CursedSpawn', CoiledIsleSafari, {
+        id = 262226,
+        rewards = {
+            Achievement({id = 62492, criteria = 113426, oneline = true}),
+            Pet({id = 5029})
+        }
+    }), -- Cursed Spawn
+
+    JaundicedSlitherer = Class('JaundicedSlitherer', CoiledIsleSafari, {
+        id = 262246,
+        rewards = {
+            Achievement({id = 62492, criteria = 113422, oneline = true}),
+            Pet({id = 5030})
+        }
+    }), -- Jaundiced Slitherer
+
+    NightfurKapara = Class('NightfurKapara', CoiledIsleSafari, {
+        id = 262245,
+        rewards = {
+            Achievement({id = 62492, criteria = 113423, oneline = true}),
+            Pet({id = 5032})
+        }
+    }), -- Nightfur Kapara
+
+    PoisonedParasite = Class('PoisonedParasite', CoiledIsleSafari, {
+        id = 262222,
+        rewards = {
+            Achievement({id = 62492, criteria = 113418, oneline = true}),
+            Pet({id = 5028})
+        }
+    }), -- Poisoned Parasite
+
+    SleekSnakebiter = Class('SleekSnakebiter', CoiledIsleSafari, {
+        id = 262244,
+        rewards = {
+            Achievement({id = 62492, criteria = 113424, oneline = true}),
+            Pet({id = 5033})
+        }
+    }), -- Sleek Snakebiter
+
+    SteadyCroakfrog = Class('SteadyCroakfrog', CoiledIsleSafari, {
+        id = 262243,
+        rewards = {
+            Achievement({id = 62492, criteria = 113425, oneline = true}),
+            Pet({id = 5034})
+        }
+    }) -- Steady Croakfrog
+}
 -------------------------------------------------------------------------------
 ------------------------------- RENOWNED BEASTS -------------------------------
 -------------------------------------------------------------------------------
