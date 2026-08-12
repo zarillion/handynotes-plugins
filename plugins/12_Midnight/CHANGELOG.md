@@ -1,6 +1,6 @@
 # v149
 
-*Fix multiple coordinates
+* Fix multiple coordinates
 
 # v148
 
