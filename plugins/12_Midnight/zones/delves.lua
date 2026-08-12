@@ -317,7 +317,7 @@ gni.nodes[52414084] = SturdyChest({
     rlabel = ns.status.Gray('#2')
 })
 
-gni.nodes[28433816] = SturdyChest({
+gni.nodes[28674169] = SturdyChest({
     achievementID = 63170,
     quest = 96805,
     rlabel = ns.status.Gray('#3')

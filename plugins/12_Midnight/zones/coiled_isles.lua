@@ -583,7 +583,7 @@ vault_map.nodes[45816179] = HonoredDead({
     rewards = {Achievement({id = 63610, criteria = 116413})}
 }) -- To Failure
 
-vault_map.nodes[46422397] = HonoredDead({
+vault_map.nodes[47222877] = HonoredDead({
     quest = 98036,
     rewards = {Achievement({id = 63610, criteria = 116414})}
 }) -- To a father
@@ -603,7 +603,7 @@ vault_map.nodes[42573318] = HonoredDead({
     rewards = {Achievement({id = 63610, criteria = 116417})}
 }) -- To a stranger (below bridge)
 
-vault_map.nodes[56042831] = HonoredDead({
+vault_map.nodes[56492288] = HonoredDead({
     quest = 98040,
     rewards = {Achievement({id = 63610, criteria = 116418})}
 }) -- To a shield-bearer
@@ -619,14 +619,12 @@ map.nodes[46204860] = CoiledIsleSafari.CursedSpawn({
     pois = {POI({46204860, 44104660, 45293450, 53443452, 54454229, 43322806})}
 }) -- Cursed Spawn
 vault_map.nodes[40475058] = CoiledIsleSafari.CursedSpawn({
-    parent = map.id,
     pois = {POI({40475058, 53671980})}
 }) -- Cursed Spawn
 map.nodes[49835580] = CoiledIsleSafari.JaundicedSlitherer({
     pois = {POI({49835580, 47116346, 53783407})}
 }) -- Jaundiced Slitherer
 vault_map.nodes[38923351] = CoiledIsleSafari.CausticWrithling({
-    parent = map.id,
     pois = {POI({38923351, 42263530})}
 }) -- Caustic Writhling
 map.nodes[61788199] = CoiledIsleSafari.NightfurKapara({
