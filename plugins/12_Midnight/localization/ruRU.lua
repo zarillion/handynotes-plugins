@@ -191,6 +191,13 @@ L['lost_spirit_note'] = 'Верните {item:269935} к {npc:261867}.'
 L['sunken_divers_chest_note'] = 'Убейте ближайшего {npc:263081} и добудьте 3x {item:271424}, затем объедините их в {item:271423}, чтобы открыть сокровище.'
 L['vulzahn_smuggled_treasure_note'] = '1. Получите {item:271791} у {dot:Blue}{npc:253837}\n\n2. Передайте {item:271791} {dot:Red}{npc:262204}, чтобы получить {item:271788}\n\n3. Передайте {item:271788} {dot:Green}{npc:263265}, чтобы получить {item:271792} и открыть сокровище'
 L['grave_of_someone_forgotten_note'] = '1. Поговорите с {dot:Blue}{npc:263241}.\n\n2. Поговорите с {dot:Red}{npc:263242}.\n\n3. Поговорите с {dot:Green}{npc:263243}.\n\n4. Вернитесь к могиле и обыщите ее.'
+L['profane_ritual_spoils_note'] = 'Встаньте лицом к статуе и нажимайте на {npc:263187} в таком порядке: верхний правый, верхний левый, нижний правый, нижний левый, чтобы открыть сокровище.'
+L['abandoned_amani_privateers_cache_note'] = nil
+L['grisly_cod_pool'] = nil
+L['waterlogged_crate'] = nil
+L['broken_urn'] = nil
+L['brine_crusted_chest_note'] = nil
+L['bubbling_clam'] = nil
 
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
 L['options_icons_coiled_isle_safari_desc'] = 'Отображение местоположения боевых питомцев для {achievement:62492}.'

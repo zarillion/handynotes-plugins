@@ -191,6 +191,13 @@ L['lost_spirit_note'] = 'Rapportez le {item:269935} à l\'{npc:261867}.'
 L['sunken_divers_chest_note'] = 'Tuez des {npc:263081} à proximité et récupérez 3x {item:271424}, puis combinez-les pour créer la {item:271423} afin de déverrouiller le trésor.'
 L['vulzahn_smuggled_treasure_note'] = '1. Obtenez une {item:271791} auprès de l\'{dot:Blue}{npc:253837}.\n\n2. Donnez la {item:271791} au {dot:Red}{npc:262204} pour recevoir un {item:271788}.\n\n3. Apportez le {item:271788} à {dot:Green}{npc:263265} pour recevoir la {item:271792} et déverrouiller le trésor.'
 L['grave_of_someone_forgotten_note'] = '1. Parlez a {dot:Blue}{npc:263241}.\n\n2. Parlez a {dot:Red}{npc:263242}.\n\n3. Parlez a {dot:Green}{npc:263243}.\n\n4. Retournez a la tombe pour la piller.'
+L['profane_ritual_spoils_note'] = 'Face à la statue, cliquez sur les {npc:263187} dans cet ordre : en haut à droite, en haut à gauche, en bas à droite, en bas à gauche pour ouvrir le trésor.'
+L['abandoned_amani_privateers_cache_note'] = nil
+L['grisly_cod_pool'] = nil
+L['waterlogged_crate'] = nil
+L['broken_urn'] = nil
+L['brine_crusted_chest_note'] = nil
+L['bubbling_clam'] = nil
 
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
 L['options_icons_coiled_isle_safari_desc'] = 'Afficher les emplacements des mascottes pour le haut-fait {achievement:62492}.'

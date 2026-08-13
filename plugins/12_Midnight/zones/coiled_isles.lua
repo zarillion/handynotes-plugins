@@ -18,6 +18,11 @@ local HonoredDead = ns.node.HonoredDead
 local Achievement = ns.reward.Achievement
 local Toy = ns.reward.Toy
 local Reputation = ns.reward.Reputation
+local Transmog = ns.reward.Transmog
+local Decor = ns.reward.Decor
+local Mount = ns.reward.Mount
+local Section = ns.reward.Section
+local Spacer = ns.reward.Spacer
 
 local POI = ns.poi.POI
 
@@ -36,7 +41,9 @@ map.nodes[53777204] = Rare({
     quest = 96491,
     rewards = {
         Achievement({id = 63358, criteria = 115279}),
-        Reputation({id = 2772, gain = 50, quest = 98344})
+        Reputation({id = 2772, gain = 50, quest = 98344}), Spacer(),
+        Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Farthik the Plunderer - click the chest to spawn/agro rare
 
@@ -45,7 +52,10 @@ map.nodes[50006907] = Rare({
     quest = 97112,
     rewards = {
         Achievement({id = 63358, criteria = 115280}),
-        Reputation({id = 2772, gain = 50, quest = 98345})
+        Reputation({id = 2772, gain = 50, quest = 98345}),
+        Transmog({item = 280704, type = L['leather']}), -- Siltmouth's Venom Waders
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Siltmouth
 
@@ -54,7 +64,11 @@ map.nodes[24897354] = Rare({
     quest = 97122,
     rewards = {
         Achievement({id = 63358, criteria = 115784}),
-        Reputation({id = 2772, gain = 50, quest = 98346})
+        Reputation({id = 2772, gain = 50, quest = 98346}),
+        Transmog({item = 280694, type = L['1h_sword']}), -- Blade of the Forgotten
+        Transmog({item = 280711, type = L['mail']}), -- Pitted Specter Shackles
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Kari'zah the Forgotten
 
@@ -63,7 +77,10 @@ map.nodes[31665672] = Rare({
     quest = 96456,
     rewards = {
         Achievement({id = 63358, criteria = 115284}),
-        Reputation({id = 2772, gain = 50, quest = 98347})
+        Reputation({id = 2772, gain = 50, quest = 98347}),
+        Transmog({item = 280708, type = L['leather']}), -- Venom-Shelled Sash
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Lockjaw
 
@@ -72,7 +89,10 @@ map.nodes[43855086] = Rare({
     quest = 96464,
     rewards = {
         Achievement({id = 63358, criteria = 115281}),
-        Reputation({id = 2772, gain = 50, quest = 98348})
+        Reputation({id = 2772, gain = 50, quest = 98348}),
+        Transmog({item = 280702, type = L['cloth']}), -- Mantle of the Riser
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Hisstara
 
@@ -82,7 +102,9 @@ vault_map2.nodes[38401769] = Rare({
     rewards = {
         Achievement({id = 63358, criteria = 115282}),
         Achievement({id = 62601, criteria = 113661}),
-        Reputation({id = 2772, gain = 50, quest = 98349})
+        Reputation({id = 2772, gain = 50, quest = 98349}), Spacer(),
+        Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Szarith the Fanged
 
@@ -91,7 +113,11 @@ map.nodes[70174529] = Rare({
     quest = 94856,
     rewards = {
         Achievement({id = 63358, criteria = 110172}),
-        Reputation({id = 2772, gain = 50, quest = 98350})
+        Reputation({id = 2772, gain = 50, quest = 98350}),
+        Transmog({item = 280710, type = L['mail']}), -- Garsecg's Barnacled Girdle
+        Transmog({item = 280714, type = L['plate']}), -- Hull Render Hauberk
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Garsecg
 
@@ -100,7 +126,10 @@ map.nodes[52064479] = Rare({
     quest = 94860,
     rewards = {
         Achievement({id = 63358, criteria = 115283}),
-        Reputation({id = 2772, gain = 50, quest = 98351})
+        Reputation({id = 2772, gain = 50, quest = 98351}),
+        Transmog({item = 280693, type = L['staff']}), -- Staff of All-Knowing
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Nar'zira
 
@@ -109,7 +138,9 @@ map.nodes[57216417] = Rare({
     quest = 94619,
     rewards = {
         Achievement({id = 63358, criteria = 115285}),
-        Reputation({id = 2772, gain = 50, quest = 98352})
+        Reputation({id = 2772, gain = 50, quest = 98352}), Spacer(),
+        Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Coin-Eye Skully
 
@@ -118,7 +149,10 @@ map.nodes[70036344] = Rare({
     quest = 93829,
     rewards = {
         Achievement({id = 63358, criteria = 115286}),
-        Reputation({id = 2772, gain = 50, quest = 98353})
+        Reputation({id = 2772, gain = 50, quest = 98353}),
+        Transmog({item = 280689, type = L['polearm']}), -- Big Mon's Big Spear
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Big Mon / Ancient Hulk -- patrols
 
@@ -127,7 +161,11 @@ map.nodes[58534006] = Rare({
     quest = 95447,
     rewards = {
         Achievement({id = 63358, criteria = 115287}),
-        Reputation({id = 2772, gain = 50, quest = 98354})
+        Reputation({id = 2772, gain = 50, quest = 98354}),
+        Transmog({item = 280706, type = L['leather']}), -- Sss'alik's Rotting Claws
+        Transmog({item = 276052, type = L['bow']}), -- Venomshot Greatbow
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Sss'alik
 
@@ -136,7 +174,10 @@ map.nodes[52053229] = Rare({
     quest = 95452,
     rewards = {
         Achievement({id = 63358, criteria = 115288}),
-        Reputation({id = 2772, gain = 50, quest = 98355})
+        Reputation({id = 2772, gain = 50, quest = 98355}),
+        Transmog({item = 280712, type = L['plate']}), -- Bracers of the Sleeping Hydra
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Destra
 
@@ -171,22 +212,22 @@ map.nodes[71886666] = Treasure({
     },
     rewards = {
         Achievement({id = 63359, criteria = 115289}),
-        Reputation({id = 2772, gain = 50, quest = 94569}), Toy({item = 279054}) -- [Idol of Blue Water and Blue Sky]
+        Reputation({id = 2772, gain = 50, quest = 94569}), Toy({item = 279054}) -- Idol of Blue Water and Blue Sky
+    },
+    note = L['abandoned_amani_privateers_cache_note'],
+    pois = {
+        POI({points = {73416611}, color = 'Blue', label = L['grisly_cod_pool']}),
+        POI({points = {73106697}, color = 'Red', label = L['waterlogged_crate']}),
+        POI({points = {72426839}, color = 'Green', label = L['broken_urn']})
     }
 }) -- Abandoned Amani Privateer's Cache
--- Fish in {object:Grisly Cod Pool} 73416611 to get grisly morsel
--- Feed it to {npc:258076} Hungry Dolphin which turns into helpful dolphin
--- Search the area to find the treasue
 
----72426839 broken urn - [Privateer's Teeth Half of Key]
----73106697 waterlogged crate - [Privateer's Loop Half of Key]
----Combine the two halds to get [Amani Privateer's Key] to unlock the treasue
----
 map.nodes[45916628] = Treasure({
     quest = 95938,
     rewards = {
         Achievement({id = 63359, criteria = 115313}),
-        Reputation({id = 2772, gain = 50, quest = 95938})
+        Reputation({id = 2772, gain = 50, quest = 95938}),
+        Transmog({item = 281571, type = L['offhand']}) -- Focus of Fangs
     }
 }) -- Fangbound Sack
 
@@ -194,7 +235,7 @@ map.nodes[65440560] = Treasure({
     quest = 95907,
     rewards = {
         Achievement({id = 63359, criteria = 115290}),
-        Reputation({id = 2772, gain = 50, quest = 95907}), Toy({item = 279052}) -- [Ancient Amani Mask]
+        Reputation({id = 2772, gain = 50, quest = 95907}), Toy({item = 279052}) -- Ancient Amani Mask
     },
     note = L['sunken_divers_chest_note']
 }) -- Sunken Diver's Chest
@@ -203,7 +244,7 @@ map.nodes[67264846] = Treasure({
     quest = 95956,
     rewards = {
         Achievement({id = 63359, criteria = 115291}),
-        Reputation({id = 2772, gain = 50, quest = 95956}), Toy({item = 279021}) -- [Forgotten Memento]
+        Reputation({id = 2772, gain = 50, quest = 95956}), Toy({item = 279021}) -- Forgotten Memento
     },
     note = L['grave_of_someone_forgotten_note'],
     pois = {
@@ -217,29 +258,27 @@ map.nodes[43646738] = Treasure({
     quest = 95941,
     rewards = {
         Achievement({id = 63359, criteria = 115292}),
-        Reputation({id = 2772, gain = 50, quest = 95941})
-    }
+        Reputation({id = 2772, gain = 50, quest = 95941}),
+        Transmog({item = 281567, type = L['staff']}) -- Profane Ritual Staff
+    },
+    note = L['profane_ritual_spoils_note']
 }) -- Profane Ritual Spoils
--- Interact with the 4 {object:mysterious Trinket} on  alter in the correct order to unlock treasure
--- back to river TR, TL, BR, BL?
 
 map.nodes[70637663] = Treasure({
     quest = 95995,
     rewards = {
         Achievement({id = 63359, criteria = 115294}),
-        Reputation({id = 2772, gain = 50, quest = 95995}), Toy({item = 274921}) -- [Pearl of Jubilation]
+        Reputation({id = 2772, gain = 50, quest = 95995}), Toy({item = 274921}) -- Pearl of Jubilation
+    },
+    note = L['brine_crusted_chest_note'],
+    pois = {
+        POI({
+            points = {69588248, 70968167, 71898283, 71338330},
+            color = 'Blue',
+            label = L['bubbling_clam']
+        }), POI({points = {70587707}, color = 'Red', label = '{npc:263347}'})
     }
 }) -- Brine-Crusted Chest / Anceint Amani Chest
---- Baubling Clam - go search for baubling clams till you find [Luminescent Pearl]
---- then go to 70587707 to place it {quest 96001},
---- Nacretta {npc:263347} will come get the pearl and drop [Dropped Key]
---- pickup the key quest:96002
---- open treasure
----
---- 69588248
---- 70968167
---- 71898283
---- 71338330
 
 map.nodes[31438349] = Treasure({
     quest = 96985,
@@ -253,7 +292,7 @@ map.nodes[75376833] = Treasure({
     quest = 95164,
     rewards = {
         Achievement({id = 63359, criteria = 115306}),
-        Reputation({id = 2772, gain = 50, quest = 95164}), Toy({item = 268504}) -- [Malfunctioning Staff]
+        Reputation({id = 2772, gain = 50, quest = 95164}), Toy({item = 268504}) -- Malfunctioning Staff
     }
 }) -- Malfunctioning Staff
 
@@ -269,7 +308,7 @@ map.nodes[60435946] = Treasure({
     quest = 95566,
     rewards = {
         Achievement({id = 63359, criteria = 115309}),
-        Reputation({id = 2772, gain = 50, quest = 95566}), Toy({item = 277954})
+        Reputation({id = 2772, gain = 50, quest = 95566}), Toy({item = 277954}) -- Jaktu's Cursed Blade
     }
 }) -- Jaktu's Cursed Blade
 
@@ -277,7 +316,8 @@ map.nodes[68056590] = Treasure({
     quest = 95571,
     rewards = {
         Achievement({id = 63359, criteria = 115310}),
-        Reputation({id = 2772, gain = 50, quest = 95571})
+        Reputation({id = 2772, gain = 50, quest = 95571}),
+        Decor({item = 244345}) -- Forgotten Amani Urn
     },
     note = L['lost_spirit_note'],
     pois = {POI({points = {70226450}, label = '{item:269935}'})}
@@ -303,7 +343,8 @@ map.nodes[64723665] = Treasure({
     quest = 95835,
     rewards = {
         Achievement({id = 63359, criteria = 115298}),
-        Reputation({id = 2772, gain = 50, quest = 95835})
+        Reputation({id = 2772, gain = 50, quest = 95835}),
+        Decor({item = 271175}) -- Venomjade Necklace
     }
 }) -- Venomjade Necklace
 
@@ -319,7 +360,8 @@ map.nodes[53094310] = Treasure({
     quest = 95841,
     rewards = {
         Achievement({id = 63359, criteria = 115300}),
-        Reputation({id = 2772, gain = 50, quest = 95841})
+        Reputation({id = 2772, gain = 50, quest = 95841}),
+        Decor({item = 281580}) -- Pungent Atal'Utek Shroom
     }
 }) -- Stinking Vessel /Intact Vessel
 
@@ -327,7 +369,8 @@ map.nodes[49483198] = Treasure({
     quest = 95854,
     rewards = {
         Achievement({id = 63359, criteria = 115301}),
-        Reputation({id = 2772, gain = 50, quest = 95854})
+        Reputation({id = 2772, gain = 50, quest = 95854}),
+        Transmog({item = 281569, type = L['cloak']}) -- Quiver of the Drowned Marksman
     }
 }) -- Waterlogged Basket
 
@@ -335,7 +378,8 @@ map.nodes[29546723] = Treasure({
     quest = 95855,
     rewards = {
         Achievement({id = 63359, criteria = 115302}),
-        Reputation({id = 2772, gain = 50, quest = 95855})
+        Reputation({id = 2772, gain = 50, quest = 95855}),
+        Transmog({item = 281570, type = L['staff']}) -- Amani Incense Stick
     }
 }) -- Smoldering Incense
 
@@ -343,7 +387,8 @@ map.nodes[73445661] = Treasure({
     quest = 95558,
     rewards = {
         Achievement({id = 63359, criteria = 115308}),
-        Reputation({id = 2772, gain = 50, quest = 95558})
+        Reputation({id = 2772, gain = 50, quest = 95558}),
+        Decor({item = 281582}) -- Atal'Utek Ivy
     }
 }) -- Crumbling Urn
 
@@ -359,7 +404,8 @@ map.nodes[58194572] = Treasure({
     quest = 95976,
     rewards = {
         Achievement({id = 63359, criteria = 115293}),
-        Reputation({id = 2772, gain = 50, quest = 95976})
+        Reputation({id = 2772, gain = 50, quest = 95976}),
+        Transmog({item = 281568, type = L['polearm']}) -- Vul'zahn's Smuggled Spear
     },
     note = L['vulzahn_smuggled_treasure_note'],
     pois = {
@@ -373,7 +419,8 @@ map.nodes[43902654] = Treasure({
     quest = 95727,
     rewards = {
         Achievement({id = 63359, criteria = 115297}),
-        Reputation({id = 2772, gain = 50, quest = 95727})
+        Reputation({id = 2772, gain = 50, quest = 95727}),
+        Transmog({item = 281566, type = L['1h_axe']}) -- Amani Warrior's Cleaver
     }
 }) -- Zul'jan's Stash
 

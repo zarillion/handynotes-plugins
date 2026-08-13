@@ -191,6 +191,13 @@ L['lost_spirit_note'] = 'Bringt {item:269935} zu {npc:261867} zurück.'
 L['sunken_divers_chest_note'] = 'Tötet den nahegelegenen {npc:263081} und plündert 3x {item:271424}, kombiniert sie dann zu {item:271423}, um den Schatz freizuschalten.'
 L['vulzahn_smuggled_treasure_note'] = '1. Holt {item:271791} von {dot:Blue}{npc:253837}\n\n2. Gebt {item:271791} an {dot:Red}{npc:262204}, um {item:271788} zu erhalten\n\n3. Gebt {item:271788} an {dot:Green}{npc:263265}, um {item:271792} zu erhalten und den Schatz freizuschalten'
 L['grave_of_someone_forgotten_note'] = '1. Sprecht mit {dot:Blue}{npc:263241}.\n\n2. Sprecht mit {dot:Red}{npc:263242}.\n\n3. Sprecht mit {dot:Green}{npc:263243}.\n\n4. Kehrt zum Grab zurueck und plundert es.'
+L['profane_ritual_spoils_note'] = 'Blickt zur Statue und klickt die {npc:263187} in dieser Reihenfolge an: oben rechts, oben links, unten rechts, unten links, um den Schatz zu öffnen.'
+L['abandoned_amani_privateers_cache_note'] = nil
+L['grisly_cod_pool'] = nil
+L['waterlogged_crate'] = nil
+L['broken_urn'] = nil
+L['brine_crusted_chest_note'] = nil
+L['bubbling_clam'] = nil
 
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
 L['options_icons_coiled_isle_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:62492} an.'
