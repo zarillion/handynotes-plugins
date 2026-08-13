@@ -1,6 +1,11 @@
 # v149
 
 * Fixed multiple coordinates
+* Added Coiled Isles treasure transmog and housing decor rewards.
+* Added Coiled Isles rare transmog drops and shared mounts: Ruby Writhe, Topaz Skyfang.
+* Added Profane Ritual Spoils, Abandoned Amani Privateer's Cache, and Brine-Crusted Chest guidance notes.
+* Fixed Grave of Someone Forgotten NPC interaction order.
+* Localization updates
 
 # v148
 
