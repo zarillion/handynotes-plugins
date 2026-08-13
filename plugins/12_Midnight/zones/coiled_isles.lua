@@ -41,8 +41,9 @@ map.nodes[53777204] = Rare({
     quest = 96491,
     rewards = {
         Achievement({id = 63358, criteria = 115279}),
-        Reputation({id = 2772, gain = 50, quest = 98344}), Spacer(),
-        Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Reputation({id = 2772, gain = 50, quest = 98344}),
+        Transmog({item = 280692, type = L['1h_mace']}), -- Plunderer's Pummeler
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Farthik the Plunderer - click the chest to spawn/agro rare
@@ -248,9 +249,9 @@ map.nodes[67264846] = Treasure({
     },
     note = L['grave_of_someone_forgotten_note'],
     pois = {
-        POI({points = {69045271}, color = 'Blue', label = '{npc:263241}'}),
         POI({points = {70415839}, color = 'Red', label = '{npc:263242}'}),
-        POI({points = {66425723}, color = 'Green', label = '{npc:263243}'})
+        POI({points = {66425723}, color = 'Green', label = '{npc:263243}'}),
+        POI({points = {69045271}, color = 'Blue', label = '{npc:263241}'})
     }
 }) -- Grave of Someone Forgotten
 
