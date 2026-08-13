@@ -12,6 +12,7 @@ local Rare = ns.node.Rare
 local CoiledIsleSafari = ns.node.CoiledIsleSafari
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Treasure = ns.node.Treasure
+local Node = ns.node.Node
 
 local HonoredDead = ns.node.HonoredDead
 
@@ -203,7 +204,7 @@ vault_map.nodes[10001000] = RareElite({
 }) -- Susarikk
 ]] --
 -------------------------------------------------------------------------------
-------------------------------- TREASURES ------------------------------------
+---------------------------------- TREASURES ----------------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[71886666] = Treasure({
@@ -426,7 +427,7 @@ map.nodes[43902654] = Treasure({
 }) -- Zul'jan's Stash
 
 -------------------------------------------------------------------------------
---------------------------- SKYRIDING GLYPHS --------------------------------
+------------------------------- SKYRIDING GLYPHS ------------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[37416053] = SkyridingGlyph({
@@ -474,7 +475,7 @@ map.nodes[43824419] = SkyridingGlyph({
 }) -- Gate of the Serpent's Eye, the Coiled Isles
 
 -------------------------------------------------------------------------------
----------------------------- COILED ISLES LORE HUNTER --------------------------
+--------------------------- COILED ISLES LORE HUNTER --------------------------
 -------------------------------------------------------------------------------
 
 -- Student of Hissstory placeholder positions until live coordinates are confirmed.
@@ -559,7 +560,7 @@ map.nodes[32566366] = StudentOfHissstory({
 }) -- Profaned Plaque
 
 -------------------------------------------------------------------------------
-------------------------------- SOFT UNDERBELLY ------------------------------
+------------------------------- SOFT UNDERBELLY -------------------------------
 -------------------------------------------------------------------------------
 --[[
 vault_map2.nodes[38411769] = SoftUnderbelly({
@@ -657,7 +658,7 @@ vault_map.nodes[56492288] = HonoredDead({
 }) -- To a shield-bearer
 
 -------------------------------------------------------------------------------
------------------------------------ SAFARI ------------------------------------
+------------------------------------ SAFARI -----------------------------------
 -------------------------------------------------------------------------------
 
 map.nodes[71836484] = CoiledIsleSafari.PoisonedParasite({
@@ -687,3 +688,15 @@ map.nodes[72375502] = CoiledIsleSafari.SteadyCroakfrog({
 map.nodes[66306260] = CoiledIsleSafari.AutumnSnapling({
     pois = {POI({66306260, 50297265})}
 }) -- Autumn Snapling
+
+------------------------------- PARENT MAP ENTRY ------------------------------
+-------------------------------------------------------------------------------
+
+vault_map.nodes[47301120] = Node({
+    label = C_Map.GetMapInfo(vault_map2.id).name,
+    note = L['poi_entrance_label'],
+    icon = 'peg_yw',
+    scale = 2,
+    OnClick = function() WorldMapFrame:SetMapID(vault_map2.id) end,
+    clabel = L['change_map']
+}) -- entrance to the Underbelly

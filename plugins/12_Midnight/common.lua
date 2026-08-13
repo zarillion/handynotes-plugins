@@ -149,7 +149,7 @@ ns.groups.PUT_A_PIN_IN_IT = Group('put_a_pin_in_it', 5206188, {
     achievement = 62199
 })
 
------------------------------ THE COILED ISLES --------------------------------
+------------------------------- THE COILED ISLES ------------------------------
 
 ns.groups.STUDENT_OF_HISSSTORY = Group('student_of_hissstory', 8032876, {
     defaults = ns.GROUP_HIDDEN,
@@ -218,7 +218,7 @@ local LoreObject = Class('LoreObject', Collectible, {
 ns.node.LoreObject = LoreObject
 
 -------------------------------------------------------------------------------
----------------------------- STUDENT OF HISSSTORY ----------------------------
+----------------------------- STUDENT OF HISSSTORY ----------------------------
 -------------------------------------------------------------------------------
 
 local StudentOfHissstory = Class('StudentOfHissstory', Collectible, {
