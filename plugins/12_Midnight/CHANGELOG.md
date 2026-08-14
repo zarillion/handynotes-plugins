@@ -1,3 +1,8 @@
+# v150
+
+* Added The Underbelly entrance node in the Vaults of Atal'Utek.
+* Added 12.1 story criteria to delve rewards.
+
 # v149
 
 * Fixed multiple coordinates

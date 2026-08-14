@@ -347,7 +347,7 @@ local DELVE_REWARDS = {
 
     ['the_grudge_pit'] = {
         Achievement({id = 61897, criteria = SturdyChestCriteria}), -- The Grudge Pit Discoveries
-        Achievement({id = 61724, criteria = {110982, 110983, 110984}}), -- The Grudge Pit Stories
+        Achievement({id = 61724, criteria = {110982, 110983, 110984, 116109}}), -- The Grudge Pit Stories
         Achievement({id = 61713, oneline = true, criteria = {110909}}), -- Midnight Delver Damage Dealer III
         Achievement({id = 61716, oneline = true, criteria = {110939}}), -- Midnight Delver Healer III
         Achievement({id = 61719, oneline = true, criteria = {110969}}) -- Midnight Delver Tank III
@@ -361,42 +361,42 @@ local DELVE_REWARDS = {
     },
     ['collegiate_calamity'] = {
         Achievement({id = 61894, criteria = SturdyChestCriteria}), -- Collegiate Calamity Discoveries
-        Achievement({id = 61726, criteria = {110994, 110995, 110996}}), -- Collegiate Calamity Stories
+        Achievement({id = 61726, criteria = {110994, 110995, 110996, 116104}}), -- Collegiate Calamity Stories
         Achievement({id = 61713, oneline = true, criteria = {110912}}), -- Midnight Delver Damage Dealer III
         Achievement({id = 61716, oneline = true, criteria = {110942}}), -- Midnight Delver Healer III
         Achievement({id = 61719, oneline = true, criteria = {110972}}) -- Midnight Delver Tank III
     },
     ['parhelion_plaza'] = {
         Achievement({id = 61893, criteria = SturdyChestCriteria}), -- Parhelion Plaza Discoveries
-        Achievement({id = 61725, criteria = {110985, 110986, 110987}}), -- Parhelion Plaza Stories
+        Achievement({id = 61725, criteria = {110985, 110986, 110987, 116106}}), -- Parhelion Plaza Stories
         Achievement({id = 61713, oneline = true, criteria = {110910}}), -- Midnight Delver Damage Dealer III
         Achievement({id = 61716, oneline = true, criteria = {110940}}), -- Midnight Delver Healer III
         Achievement({id = 61719, oneline = true, criteria = {110970}}) -- Midnight Delver Tank III
     },
     ['the_shadow_enclave'] = {
         Achievement({id = 61892, criteria = SturdyChestCriteria}), -- The Shadow Enclave Discoveries
-        Achievement({id = 61727, criteria = {111003, 111004, 111005}}), -- The Shadow Enclave Stories
+        Achievement({id = 61727, criteria = {111003, 111004, 111005, 116105}}), -- The Shadow Enclave Stories
         Achievement({id = 61713, oneline = true, criteria = {110906}}), -- Midnight Delver Damage Dealer III
         Achievement({id = 61716, oneline = true, criteria = {110937}}), -- Midnight Delver Healer III
         Achievement({id = 61719, oneline = true, criteria = {110967}}) -- Midnight Delver Tank III
     },
     ['twilight_crypts'] = {
         Achievement({id = 61896, criteria = SturdyChestCriteria}), -- Twilight Crypts Discoveries
-        Achievement({id = 61730, criteria = {111006, 111007, 111008}}), -- Twilight Crypts Stories
+        Achievement({id = 61730, criteria = {111006, 111007, 111008, 116108}}), -- Twilight Crypts Stories
         Achievement({id = 61713, oneline = true, criteria = {110915}}), -- Midnight Delver Damage Dealer III
         Achievement({id = 61716, oneline = true, criteria = {110945}}), -- Midnight Delver Healer III
         Achievement({id = 61719, oneline = true, criteria = {110975}}) -- Midnight Delver Tank III
     },
     ['atalaman'] = {
         Achievement({id = 61863, criteria = SturdyChestCriteria}), -- Atal'aman Discoveries
-        Achievement({id = 61729, criteria = {111000, 111001, 111002}}), -- Atal'aman Stories
+        Achievement({id = 61729, criteria = {111000, 111001, 111002, 116107}}), -- Atal'aman Stories
         Achievement({id = 61713, oneline = true, criteria = {110908}}), -- Midnight Delver Damage Dealer III
         Achievement({id = 61716, oneline = true, criteria = {110938}}), -- Midnight Delver Healer III
         Achievement({id = 61719, oneline = true, criteria = {110968}}) -- Midnight Delver Tank III
     },
     ['shadowguard_point'] = {
         Achievement({id = 61900, criteria = SturdyChestCriteria}), -- Shadowguard Point Discoveries
-        Achievement({id = 61733, criteria = {110991, 110992, 110993}}), -- Shadowguard Point Stories
+        Achievement({id = 61733, criteria = {110991, 110992, 110993, 116110}}), -- Shadowguard Point Stories
         Achievement({id = 61713, oneline = true, criteria = {110905}}), -- Midnight Delver Damage Dealer III
         Achievement({id = 61716, oneline = true, criteria = {110936}}), -- Midnight Delver Healer III
         Achievement({id = 61719, oneline = true, criteria = {110966}}) -- Midnight Delver Tank III
