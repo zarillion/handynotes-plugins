@@ -1,3 +1,7 @@
+# v151
+
+* Localization updates
+
 # v150
 
 * Added The Underbelly entrance node in the Vaults of Atal'Utek.
