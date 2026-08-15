@@ -98,6 +98,7 @@ map.nodes[43855086] = Rare({
         Reputation({id = 2772, gain = 50, quest = 98348}),
         Transmog({item = 276026, type = L['leather']}), -- Shadowclaw Legguards
         Transmog({item = 280702, type = L['cloth']}), -- Mantle of the Riser
+        Transmog({item = 280691, type = L['dagger']}), -- Dagger of the Slithering Ritual
         Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
@@ -111,6 +112,7 @@ vault_map2.nodes[38401769] = Rare({
         Achievement({id = 62601, criteria = 113661}),
         Reputation({id = 2772, gain = 50, quest = 98349}),
         Transmog({item = 280701, type = L['cloth']}), -- Waistwrap of the Fanged
+        Transmog({item = 280698, type = L['2h_sword']}), -- Szarith's Underbelly Slicer
         Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
@@ -176,6 +178,7 @@ map.nodes[58534006] = Rare({
         Achievement({id = 63358, criteria = 115287}),
         Reputation({id = 2772, gain = 50, quest = 98354}),
         Transmog({item = 280706, type = L['leather']}), -- Sss'alik's Rotting Claws
+        Transmog({item = 280700, type = L['cloth']}), -- Armbands of the Rotten Claw
         Transmog({item = 276052, type = L['bow']}), -- Venomshot Greatbow
         Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
@@ -189,6 +192,7 @@ map.nodes[52053229] = Rare({
         Achievement({id = 63358, criteria = 115288}),
         Reputation({id = 2772, gain = 50, quest = 98355}),
         Transmog({item = 280712, type = L['plate']}), -- Bracers of the Sleeping Hydra
+        Transmog({item = 280709, type = L['mail']}), -- Triple Threat Pauldrons
         Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
