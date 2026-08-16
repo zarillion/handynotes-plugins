@@ -212,5 +212,5 @@ L['options_icons_the_honored_dead'] = '{achievement:63610}'
 L['options_icons_the_honored_dead_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:63610}.'
 
 L['options_icons_mysterious_mixing'] = '{achievement:63432}'
-L['options_icons_mysterious_mixing_desc'] = nil
-L['mysterious_mixing_note'] = nil
+L['options_icons_mysterious_mixing_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:63432}.'
+L['mysterious_mixing_note'] = 'Terminez la quête journalière {quest:97016} donnée par {npc:263327} afin de pouvoir fabriquer des offrandes :\n\n{note:Les ingrédients sont obtenables dans les {object:Jarres canope fissurées}, {object:Babioles en venin coagulé}, et {object:Carapaces chantantes} que l\'on trouve sur l\'île, ou achetés directement à l\'hôtel des ventes.}'
