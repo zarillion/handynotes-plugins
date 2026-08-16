@@ -1,5 +1,7 @@
 # v152
 
+* Added pet reward from Big'Mon rare in The Coiled Isle.
+* Updated notes for Vul'zahn Smuggled Treasure and Grave of Someone Forgotten to better reflect the steps required.
 * Localization updates
 
 # v151

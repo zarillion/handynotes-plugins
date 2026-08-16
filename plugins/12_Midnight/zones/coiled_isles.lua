@@ -20,6 +20,7 @@ local MysteriousMixing = ns.node.MysteriousMixing
 
 local Achievement = ns.reward.Achievement
 local Toy = ns.reward.Toy
+local Pet = ns.reward.Pet
 local Reputation = ns.reward.Reputation
 local Transmog = ns.reward.Transmog
 local Decor = ns.reward.Decor
@@ -168,6 +169,7 @@ map.nodes[70036344] = Rare({
         Reputation({id = 2772, gain = 50, quest = 98353}),
         Transmog({item = 280689, type = L['polearm']}), -- Big Mon's Big Spear
         Transmog({item = 280713, type = L['plate']}), -- Big Mon's Buckle
+        Pet({item = 280540, id = 5137}), -- L/g il' mon,
         Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
