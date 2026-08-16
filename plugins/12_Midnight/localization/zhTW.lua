@@ -213,4 +213,3 @@ L['options_icons_the_honored_dead_desc'] = '顯示 {achievement:63610} 成就的
 L['options_icons_mysterious_mixing'] = '{achievement:63432}'
 L['options_icons_mysterious_mixing_desc'] = nil
 L['mysterious_mixing_note'] = nil
-

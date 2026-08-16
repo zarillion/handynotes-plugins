@@ -640,4 +640,3 @@ local RitualCollectible = Class('RitualCollectible', Collectible, {
 })
 
 ns.node.RitualCollectible = RitualCollectible
-

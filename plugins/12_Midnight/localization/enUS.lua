@@ -214,4 +214,3 @@ L['options_icons_the_honored_dead_desc'] = 'Display the locations for the {achie
 L['options_icons_mysterious_mixing'] = '{achievement:63432}'
 L['options_icons_mysterious_mixing_desc'] = 'Display the {achievement:63432} locations.'
 L['mysterious_mixing_note'] = 'Complete the {quest:97016} daily for {npc:263327} to craft offerings:\n\n{note:Ingredients can be obtained from the {object:Cracked Canopic Jar}, {object:Venom-Clotted Bauble}, and {object:Singing Shell} around the isle, or bought at the auction house.}'
-

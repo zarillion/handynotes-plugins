@@ -843,4 +843,3 @@ ns.reward = {
     Transmog = Transmog,
     Reputation = Reputation
 }
-

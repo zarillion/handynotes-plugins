@@ -749,4 +749,3 @@ vault_map.nodes[47301120] = Node({
     OnClick = function() WorldMapFrame:SetMapID(vault_map2.id) end,
     clabel = L['change_map']
 }) -- entrance to the Underbelly
-
