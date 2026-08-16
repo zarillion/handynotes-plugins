@@ -1,3 +1,8 @@
+# v152
+
+* Added Mysterious Mix Master achievement support ({achievement:63432}) with Ofi the Sly and offering mix recipes.
+* Added missing Coiled to Strike rare transmog drops.
+
 # v151
 
 * Localization updates
