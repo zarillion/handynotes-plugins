@@ -206,11 +206,11 @@ L['options_icons_student_of_hissstory'] = '{achievement:63662}'
 L['options_icons_student_of_hissstory_desc'] = 'Отобразить местоположение объектов, связанных с достижением {achievement:63662}.'
 
 L['options_icons_soft_underbelly'] = '{achievement:62601}'
-L['options_icons_soft_underbelly_desc'] = 'Отобразить местоположения для достижения {achievement:62601}.'
+L['options_icons_soft_underbelly_desc'] = 'Отображает места для {achievement:62601}.'
 
 L['options_icons_the_honored_dead'] = '{achievement:63610}'
-L['options_icons_the_honored_dead_desc'] = 'Отобразить местоположения для достижения {achievement:63610}.'
+L['options_icons_the_honored_dead_desc'] = 'Отображает места для {achievement:63610}.'
 
 L['options_icons_mysterious_mixing'] = '{achievement:63432}'
-L['options_icons_mysterious_mixing_desc'] = nil
-L['mysterious_mixing_note'] = nil
+L['options_icons_mysterious_mixing_desc'] = 'Отображает места для {achievement:63432}.'
+L['mysterious_mixing_note'] = 'Выполняйте ежедневное задание {quest:97016} у {npc:263327}, чтобы создавать подношения:\n\n{note:Ингредиенты можно получить из {object:Треснувшей канопы}, {object:Безделушки в сгустках яда} и {object:Поющей ракушки} по всему острову или купить на аукционе.}'
