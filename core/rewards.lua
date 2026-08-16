@@ -158,6 +158,14 @@ function Achievement:Initialize(attrs)
     self.criteria = ns.AsIDTable(self.criteria)
 end
 
+function Achievement:Prepare()
+    if self.criteria then
+        for _, c in ipairs(self.criteria) do
+            if c.note then ns.PrepareLinks(c.note) end
+        end
+    end
+end
+
 function Achievement:IsObtained()
     local _, _, _, completed, _, _, _, _, _, _, _, _, earnedByMe =
         GetAchievementInfo(self.id)
@@ -219,6 +227,7 @@ function Achievement:GetLines()
             end
             note = note and (note .. '  ' .. status) or status
         end
+        if note then note = ns.RenderLinks(note) end
 
         return ctext, note, r, g, b
     end
@@ -834,3 +843,4 @@ ns.reward = {
     Transmog = Transmog,
     Reputation = Reputation
 }
+

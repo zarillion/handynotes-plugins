@@ -16,6 +16,8 @@ local Node = ns.node.Node
 
 local HonoredDead = ns.node.HonoredDead
 
+local MysteriousMixing = ns.node.MysteriousMixing
+
 local Achievement = ns.reward.Achievement
 local Toy = ns.reward.Toy
 local Reputation = ns.reward.Reputation
@@ -609,6 +611,38 @@ vault_map2.nodes[40006793] = SoftUnderbelly({
 }) -- Vserix the Sneaky (placeholder location/quest) also 47340609
 ]] --
 -------------------------------------------------------------------------------
+------------------------------ MYSTERIOUS MIXING ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[57404870] = MysteriousMixing({
+    id = 254599,
+    quest = 97016,
+    questDeps = 97026,
+    requires = ns.requirement.Reputation(2772, 3, true),
+    note = L['mysterious_mixing_note'],
+    rewards = {
+        Achievement({
+            id = 63432,
+            criteria = {
+                {id = 115810, note = '3x {item:276117}'},
+                {id = 115811, note = '1x {item:276126} + 2x {item:276117}'},
+                {id = 115812, note = '1x {item:276124} + 2x {item:276117}'},
+                {id = 115815, note = '3x {item:276126}'},
+                {id = 115814, note = '2x {item:276126} + 1x {item:276117}'},
+                {id = 115816, note = '1x {item:276124} + 2x {item:276126}'},
+                {id = 115819, note = '3x {item:276124}'},
+                {id = 115817, note = '2x {item:276124} + 1x {item:276117}'},
+                {id = 115818, note = '2x {item:276124} + 1x {item:276126}'},
+                {
+                    id = 115813,
+                    note = '1x {item:276124} + 1x {item:276126} + 1x {item:276117}'
+                }
+            }
+        })
+    }
+}) -- Ofi the Sly (Tokka's Landing)
+
+-------------------------------------------------------------------------------
 ------------------------------- THE HONORED DEAD ------------------------------
 -------------------------------------------------------------------------------
 
@@ -715,3 +749,4 @@ vault_map.nodes[47301120] = Node({
     OnClick = function() WorldMapFrame:SetMapID(vault_map2.id) end,
     clabel = L['change_map']
 }) -- entrance to the Underbelly
+

@@ -210,3 +210,8 @@ L['options_icons_soft_underbelly_desc'] = '显示 {achievement:62601} 成就的�
 
 L['options_icons_the_honored_dead'] = '{achievement:63610}'
 L['options_icons_the_honored_dead_desc'] = '显示 {achievement:63610} 成就的位置。'
+
+L['options_icons_mysterious_mixing'] = '{achievement:63432}'
+L['options_icons_mysterious_mixing_desc'] = '显示 {achievement:63432} 成就的位置。'
+L['mysterious_mixing_note'] = '完成 {npc:263327} 的 {quest:97016} 日常，以调配所需的供奉：\n\n{note:材料可从地图中的 {object:开裂的骨灰罐}、{object:毒液凝结的小饰品}、{object:吟歌海螺} 中获取，或从拍卖行购买。}'
+

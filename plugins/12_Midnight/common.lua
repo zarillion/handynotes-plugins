@@ -169,6 +169,12 @@ ns.groups.THE_HONORED_DEAD = Group('the_honored_dead', 133740, {
     achievement = 63610
 })
 
+ns.groups.MYSTERIOUS_MIXING = Group('mysterious_mixing', 133778, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 63432
+})
+
 -------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------
@@ -323,6 +329,17 @@ local HonoredDead = Class('HonoredDead', ns.node.Collectible,
     {icon = 133740, group = ns.groups.THE_HONORED_DEAD})
 
 ns.node.HonoredDead = HonoredDead
+
+-------------------------------------------------------------------------------
+------------------------------ MYSTERIOUS MIXING ------------------------------
+-------------------------------------------------------------------------------
+
+local MysteriousMixing = Class('MysteriousMixing', ns.node.Collectible, {
+    icon = 133778,
+    group = ns.groups.MYSTERIOUS_MIXING
+})
+
+ns.node.MysteriousMixing = MysteriousMixing
 
 -------------------------------------------------------------------------------
 ------------------------------- PUT A PIN IN IT -------------------------------
@@ -623,3 +640,4 @@ local RitualCollectible = Class('RitualCollectible', Collectible, {
 })
 
 ns.node.RitualCollectible = RitualCollectible
+

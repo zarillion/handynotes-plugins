@@ -210,3 +210,8 @@ L['options_icons_soft_underbelly_desc'] = 'Muestra todas las ubicaciones para el
 
 L['options_icons_the_honored_dead'] = '{achievement:63610}'
 L['options_icons_the_honored_dead_desc'] = 'Muestra dónde están las ubicaciones para el logro {achievement:63610}.'
+
+L['options_icons_mysterious_mixing'] = '{achievement:63432}'
+L['options_icons_mysterious_mixing_desc'] = nil
+L['mysterious_mixing_note'] = nil
+
