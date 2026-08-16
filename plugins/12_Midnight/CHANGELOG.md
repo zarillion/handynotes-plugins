@@ -1,3 +1,7 @@
+# v152
+
+* Localization updates
+
 # v151
 
 * Added Mysterious Mix Master achievement support ({achievement:63432}) with Ofi the Sly and offering mix recipes.
