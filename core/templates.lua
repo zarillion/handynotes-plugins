@@ -331,6 +331,15 @@ function WorldMapOptionsButtonMixin:InitializeDropDown(level)
                 end
             }, 2)
             LibDD:UIDropDownMenu_AddButton({
+                text = L['options_shared_appearances'],
+                isNotRadio = true,
+                keepShownOnClick = true,
+                checked = ns:GetOpt('transmog_shared_appearances'),
+                func = function(button, option)
+                    ns:SetOpt('transmog_shared_appearances', button.checked)
+                end
+            }, 2)
+            LibDD:UIDropDownMenu_AddButton({
                 text = L['options_claimed_rep_rewards'],
                 isNotRadio = true,
                 keepShownOnClick = true,
