@@ -782,9 +782,10 @@ function Interval:Initialize(attrs)
 
     local region_initial = {
         [1] = self.initial.us,
-        [2] = self.initial.kr or self.initial.tw,
+        [2] = self.initial.kr,
         [3] = self.initial.eu,
-        [4] = self.initial.cn
+        [4] = self.initial.tw,
+        [5] = self.initial.cn
     } -- https://warcraft.wiki.gg/wiki/API_GetCurrentRegion
 
     if self.id then
