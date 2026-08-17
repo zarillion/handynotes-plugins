@@ -156,7 +156,9 @@ map.nodes[57216417] = Rare({
         Achievement({id = 63358, criteria = 115285}),
         Reputation({id = 2772, gain = 50, quest = 98352}),
         Transmog({item = 280695, type = L['1h_axe']}), -- Skully's Skullcleaver
-        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Spacer(), Section(L['shared_drops']),
+        Transmog({item = 276053, type = L['warglaive']}), -- Snakehunter's Warglaive
+        Mount({item = 276803, id = 3061}), -- Ruby Writhe
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Coin-Eye Skully
@@ -184,7 +186,9 @@ map.nodes[58534006] = Rare({
         Transmog({item = 280706, type = L['leather']}), -- Sss'alik's Rotting Claws
         Transmog({item = 280700, type = L['cloth']}), -- Armbands of the Rotten Claw
         Transmog({item = 276052, type = L['bow']}), -- Venomshot Greatbow
-        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Spacer(), Section(L['shared_drops']),
+        Transmog({item = 276053, type = L['warglaive']}), -- Snakehunter's Warglaive
+        Mount({item = 276803, id = 3061}), -- Ruby Writhe
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Sss'alik
