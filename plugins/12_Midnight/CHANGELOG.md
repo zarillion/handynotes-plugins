@@ -4,6 +4,9 @@
 * Added live countdown timers to Ritual Site portal nodes.
 * Added pet reward from Big'Mon rare in The Coiled Isle.
 * Added transmog shared-appearances option (enabled by default) for reward collection checks.
+* Fixed interval timers using the wrong region anchors for CN and TW realms.
+* Event and spawn timers now display server time regardless of the player's timezone.
+* Countdowns display seconds during the last minute.
 * Updated notes for Vul'zahn Smuggled Treasure and Grave of Someone Forgotten to better reflect the steps required.
 * Localization updates
 

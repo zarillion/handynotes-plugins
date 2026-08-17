@@ -1300,7 +1300,7 @@ ns.node.WarSupply = WarSupply
 -------------------------------------------------------------------------------
 ---------------------------------- INTERVALS ----------------------------------
 -------------------------------------------------------------------------------
-ns.Intervals = {}
+ns.Intervals = ns.Intervals or {}
 
 local Interval = Class('Interval', ns.Interval, {
     format_12hrs = L['time_format_12hrs'],

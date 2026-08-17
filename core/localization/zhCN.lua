@@ -85,7 +85,6 @@ L['in_water'] = '在水中。'
 L['in_building'] = '在建筑里面。'
 
 ------------------------------------- TIME ------------------------------------
-L['now'] = '现在'
 L['starts_in'] = '距开始：'
 L['time_remaining'] = '剩余时间：'
 L['next_time'] = '下一次：'
@@ -93,8 +92,8 @@ L['hourly'] = '每小时'
 L['daily'] = '每日'
 L['weekly'] = '每周'
 
-L['time_format_12hrs'] = '%m/%d - %I:%M %p 本地时间'
-L['time_format_24hrs'] = '%m/%d - %H:%M 本地时间'
+L['time_format_12hrs'] = '%m/%d - %I:%M %p 服务器时间'
+L['time_format_24hrs'] = '%m/%d - %H:%M 服务器时间'
 
 ----------------------------------- REWARDS -----------------------------------
 L['decor'] = '装饰'

@@ -64,18 +64,22 @@ function BeledarsSpawn.getters:note()
             L['time_format_24hrs']
 
     local timeLeft = (GetQuestResetTime() + 3660) % 10800
-    local nextSpawn = timeLeft + time()
 
-    local spawnsIn = timeLeft <= 60 and L['now'] or
-                         SecondsToTime(timeLeft, true, true)
+    -- base the spawn epoch on the server clock (not the machine clock) so
+    -- the display follows server time even if the client clock drifts
+    local serverNow = GetServerTime()
+    local nextSpawn = timeLeft + serverNow
+
+    local spawnsIn = ns.FormatCountdown(timeLeft)
 
     local color = ns.color.Orange
     if timeLeft < 1800 then color = ns.color.Yellow end -- 30 mins
     if timeLeft < 600 then color = ns.color.Green end -- 10 mins
     spawnsIn = color(spawnsIn)
 
+    -- shift by the server's timezone so date() renders the server wall clock
     return format(L['beledars_spawn_note'], spawnsIn,
-        date(timeFormat, nextSpawn))
+        date(timeFormat, ns.ServerClockEpoch(nextSpawn)))
 end
 
 map.nodes[25004500] = BeledarsSpawn()

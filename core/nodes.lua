@@ -777,6 +777,61 @@ local Vendor = Class('Vendor', Collectible,
 
 local Interval = Class('Interval')
 
+-- Read Blizzard's localized unit abbreviations from GlobalStrings so the
+-- widget countdown parser works in every locale.
+local function AbbrForms(globalName, fallback)
+    local abbr = _G[globalName]
+    if type(abbr) ~= 'string' or abbr == '' then return {fallback} end
+    local singular, plural = abbr:match('|4([^:]+):([^;]*);')
+    if singular then
+        local forms = {singular}
+        if plural ~= '' and plural ~= singular then forms[2] = plural end
+        return forms
+    end
+    local cleaned = abbr:gsub('%%.', ''):gsub('^%s+', ''):gsub('%s+$', '')
+    return {cleaned}
+end
+
+local DAY_FORMS = AbbrForms('DAYS_ABBR', 'Day')
+local HOUR_FORMS = AbbrForms('HOURS_ABBR', 'Hr')
+local MIN_FORMS = AbbrForms('MINUTES_ABBR', 'Min')
+local SEC_FORMS = AbbrForms('SECONDS_ABBR', 'Sec')
+
+-- SecondsToTime drops the seconds unit, so sub-minute durations render as an
+-- empty string. Show seconds explicitly during the last minute instead.
+local function FormatCountdown(secs)
+    if secs < 60 then
+        if secs <= 0 then return '0' .. SEC_FORMS[1] end
+        return SecondsToTime(secs, false, true)
+    end
+    return SecondsToTime(secs, true, true)
+end
+
+ns.FormatCountdown = FormatCountdown
+
+-- Seconds between the machine's wall clock and UTC (its timezone offset).
+-- time() returns the UTC epoch, so the offset falls out of comparing it with
+-- the local date components; clock skew affects both equally and cancels.
+local function MachineTimezoneOffset()
+    local localDate = date('*t')
+    local offset = localDate.hour * 3600 + localDate.min * 60 + localDate.sec -
+                       (time() % 86400)
+    if offset > 43200 then offset = offset - 86400 end
+    if offset < -43200 then offset = offset + 86400 end
+    return offset
+end
+
+-- Shift a server epoch so date() renders the server's wall clock instead of
+-- the machine's local time, no matter which timezone the player is in (e.g.
+-- playing from abroad). C_DateAndTime.GetServerTimeLocal() returns the server
+-- time offset by the server's timezone, independent of the machine's.
+local function ServerClockEpoch(serverEpoch)
+    return serverEpoch + C_DateAndTime.GetServerTimeLocal() - GetServerTime() -
+               MachineTimezoneOffset()
+end
+
+ns.ServerClockEpoch = ServerClockEpoch
+
 function Interval:Initialize(attrs)
     if attrs then for k, v in pairs(attrs) do self[k] = v end end
 
@@ -814,8 +869,7 @@ function Interval:GetText()
 
     local NextSpawn, TimeLeft = self:Next()
 
-    local SpawnsIn = TimeLeft <= 60 and L['now'] or
-                         SecondsToTime(TimeLeft, true, true)
+    local SpawnsIn = FormatCountdown(TimeLeft)
 
     if self.yellow and self.green then
         local color = ns.color.Orange
@@ -824,7 +878,8 @@ function Interval:GetText()
         SpawnsIn = color(SpawnsIn)
     end
 
-    local text = format('%s (%s)', SpawnsIn, date(TimeFormat, NextSpawn))
+    local text = format('%s (%s)', SpawnsIn,
+        date(TimeFormat, ServerClockEpoch(NextSpawn)))
     if self.text then text = format(self.text, text) end
     ns.PrepareLinks(text)
     return text
@@ -902,26 +957,6 @@ local function StripEscapes(text)
     text = text:gsub('|4([^:]+):[^;]*;', '%1')
     return text
 end
-
--- Read Blizzard's localized unit abbreviations from GlobalStrings so the
--- widget countdown parser works in every locale.
-local function AbbrForms(globalName, fallback)
-    local abbr = _G[globalName]
-    if type(abbr) ~= 'string' or abbr == '' then return {fallback} end
-    local singular, plural = abbr:match('|4([^:]+):([^;]*);')
-    if singular then
-        local forms = {singular}
-        if plural ~= '' and plural ~= singular then forms[2] = plural end
-        return forms
-    end
-    local cleaned = abbr:gsub('%%.', ''):gsub('^%s+', ''):gsub('%s+$', '')
-    return {cleaned}
-end
-
-local DAY_FORMS = AbbrForms('DAYS_ABBR', 'Day')
-local HOUR_FORMS = AbbrForms('HOURS_ABBR', 'Hr')
-local MIN_FORMS = AbbrForms('MINUTES_ABBR', 'Min')
-local SEC_FORMS = AbbrForms('SECONDS_ABBR', 'Sec')
 
 -- Escape Lua pattern metacharacters for literal matching (UTF-8 safe).
 local function EscapePattern(s)
@@ -1060,6 +1095,8 @@ function LiveEvent:GetText()
         end
         local nextIn = nextTime and (nextTime - GetServerTime()) or 0
 
+        local nextClock = nextTime and ServerClockEpoch(nextTime)
+
         -- cycle fraction: orange (far), yellow (soon), green (very soon)
         local nextColor = ns.color.Orange
         if period > 0 then
@@ -1070,10 +1107,10 @@ function LiveEvent:GetText()
         -- not started: countdown + next start time
         if notStarted then
             text = format('%s %s\n%s %s', EVENT_STARTS_IN,
-                nextColor(SecondsToTime(nextIn, true, true)), EVENT_NEXT,
-                ns.color.Orange(date(TimeFormat, nextTime)))
+                nextColor(FormatCountdown(nextIn)), EVENT_NEXT,
+                ns.color.Orange(date(TimeFormat, nextClock)))
         else
-            local SpawnsIn = SecondsToTime(TimeLeft, true, true)
+            local SpawnsIn = FormatCountdown(TimeLeft)
 
             local color = ns.color.Orange
             if TimeLeft < yellow then color = ns.color.Yellow end
@@ -1082,7 +1119,7 @@ function LiveEvent:GetText()
 
             if nextTime then
                 text = format('%s %s\n%s %s', EVENT_TIME_LEFT, SpawnsIn,
-                    EVENT_NEXT, ns.color.Orange(date(TimeFormat, nextTime)))
+                    EVENT_NEXT, ns.color.Orange(date(TimeFormat, nextClock)))
             else
                 text = format('%s %s', EVENT_TIME_LEFT, SpawnsIn)
             end

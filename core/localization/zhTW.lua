@@ -85,7 +85,6 @@ L['in_water'] = '在水下.'
 L['in_building'] = '在建築內.'
 
 ------------------------------------- TIME ------------------------------------
-L['now'] = '現在'
 L['starts_in'] = nil
 L['time_remaining'] = nil
 L['next_time'] = nil
@@ -93,8 +92,8 @@ L['hourly'] = '每小時'
 L['daily'] = '每日'
 L['weekly'] = '每週'
 
-L['time_format_12hrs'] = '%m/%d - %I:%M %p 本地時間'
-L['time_format_24hrs'] = '%m/%d - %H:%M 本地時間'
+L['time_format_12hrs'] = '%m/%d - %I:%M %p 伺服器時間'
+L['time_format_24hrs'] = '%m/%d - %H:%M 伺服器時間'
 
 ----------------------------------- REWARDS -----------------------------------
 L['decor'] = '房屋裝飾'

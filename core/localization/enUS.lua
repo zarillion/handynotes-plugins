@@ -85,7 +85,6 @@ L['in_water'] = 'In the water.'
 L['in_building'] = 'In the building.'
 
 ------------------------------------- TIME ------------------------------------
-L['now'] = 'Now'
 L['starts_in'] = 'Starts In:'
 L['time_remaining'] = 'Time Remaining:'
 L['next_time'] = 'Next:'
@@ -93,8 +92,8 @@ L['hourly'] = 'Hourly'
 L['daily'] = 'Daily'
 L['weekly'] = 'Weekly'
 
-L['time_format_12hrs'] = '%B %d - %I:%M %p local time'
-L['time_format_24hrs'] = '%B %d - %H:%M local time'
+L['time_format_12hrs'] = '%B %d - %I:%M %p server time'
+L['time_format_24hrs'] = '%B %d - %H:%M server time'
 
 ----------------------------------- REWARDS -----------------------------------
 L['decor'] = 'Housing Decor'

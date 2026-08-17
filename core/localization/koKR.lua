@@ -85,7 +85,6 @@ L['in_water'] = '물 속에 있음.'
 L['in_building'] = nil
 
 ------------------------------------- TIME ------------------------------------
-L['now'] = nil
 L['starts_in'] = nil
 L['time_remaining'] = nil
 L['next_time'] = nil

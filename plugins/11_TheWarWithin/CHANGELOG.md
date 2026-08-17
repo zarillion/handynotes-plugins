@@ -1,3 +1,9 @@
+# v152
+
+* Fixed interval timers using the wrong region anchors for CN and TW realms.
+* Beledar's Spawn timer now displays server time and uses the server clock.
+* Countdowns display seconds during the last minute.
+
 # v148
 
 * Bump toc to 120100
