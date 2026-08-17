@@ -840,7 +840,7 @@ ns.Intervals = ns.Intervals or {}
 -- tooltip labels come from core localization
 local EVENT_TIME_LEFT = L['time_remaining'] or 'Time Remaining:'
 local EVENT_STARTS_IN = L['starts_in'] or 'Starts In:'
-local EVENT_NEXT = L['next_time'] or 'Next: %s'
+local EVENT_NEXT = L['next_time'] or 'Next:'
 
 local scheduled = {} -- areaPoiID -> {startTime = ..., endTime = ..., duration = ..., nextStart = ...}
 local hasScheduler = C_EventScheduler ~= nil
@@ -1068,9 +1068,9 @@ function LiveEvent:GetText()
 
         -- not started: countdown + next start time
         if notStarted then
-            text = format('%s %s\n%s', EVENT_STARTS_IN,
-                nextColor(SecondsToTime(nextIn, true, true)), format(EVENT_NEXT,
-                    ns.color.Orange(date(TimeFormat, nextTime))))
+            text = format('%s %s\n%s %s', EVENT_STARTS_IN,
+                nextColor(SecondsToTime(nextIn, true, true)), EVENT_NEXT,
+                ns.color.Orange(date(TimeFormat, nextTime)))
         else
             local SpawnsIn = SecondsToTime(TimeLeft, true, true)
 
@@ -1080,8 +1080,8 @@ function LiveEvent:GetText()
             SpawnsIn = color(SpawnsIn)
 
             if nextTime then
-                text = format('%s %s\n%s', EVENT_TIME_LEFT, SpawnsIn, format(
-                    EVENT_NEXT, ns.color.Orange(date(TimeFormat, nextTime))))
+                text = format('%s %s\n%s %s', EVENT_TIME_LEFT, SpawnsIn,
+                    EVENT_NEXT, ns.color.Orange(date(TimeFormat, nextTime)))
             else
                 text = format('%s %s', EVENT_TIME_LEFT, SpawnsIn)
             end
