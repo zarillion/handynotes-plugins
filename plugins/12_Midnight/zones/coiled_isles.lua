@@ -8,7 +8,7 @@ local Map = ns.Map
 local StudentOfHissstory = ns.node.StudentOfHissstory
 -- local SoftUnderbelly = ns.node.SoftUnderbelly
 local Rare = ns.node.Rare
--- local RareElite = ns.node.RareElite
+local RareElite = ns.node.RareElite
 local CoiledIsleSafari = ns.node.CoiledIsleSafari
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Treasure = ns.node.Treasure
@@ -201,6 +201,69 @@ map.nodes[52053229] = Rare({
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Destra
+
+-------------------------------------------------------------------------------
+-------------------------------- CURSE SURGES --------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[26406480] = RareElite({
+    id = 255088,
+    quest = 93718,
+    areaPOI = 8936,
+    rewards = {
+        Achievement({id = 63390, criteria = 115368}),
+        Reputation({id = 2772, gain = 50, quest = 96966}),
+        Transmog({item = 276172, type = L['cloth']}), -- Headdress of Mutagenesis
+        Transmog({item = 276166, type = L['warglaive']}) -- Twin-Headed Twinblade
+    }
+}) -- Looming Mutagenitor
+
+map.nodes[45202840] = RareElite({
+    id = 257863,
+    quest = 93676,
+    areaPOI = 8938,
+    rewards = {
+        Achievement({id = 63390, criteria = 115369}),
+        Reputation({id = 2772, gain = 50, quest = 96967}),
+        Transmog({item = 276173, type = L['plate']}), -- Clutchguard Sandals
+        Transmog({item = 276175, type = L['cloak']}) -- Broodmother's Embrace
+    }
+}) -- Vassti, the Exalted Broodmother
+
+map.nodes[71203130] = RareElite({
+    id = 258254,
+    quest = 93715,
+    areaPOI = 8939,
+    rewards = {
+        Achievement({id = 63390, criteria = 115370}),
+        Reputation({id = 2772, gain = 50, quest = 96968}),
+        Transmog({item = 276168, type = L['offhand']}) -- Fang of Ss'akrithos
+    }
+}) -- Ss'akrithos
+
+map.nodes[67207740] = RareElite({
+    id = 255927,
+    quest = 93722,
+    areaPOI = 8937,
+    rewards = {
+        Achievement({id = 63390, criteria = 115371}),
+        Reputation({id = 2772, gain = 50, quest = 96969}),
+        Transmog({item = 276178, type = L['leather']}), -- Venom Lancer's Gauntlets
+        Transmog({item = 276167, type = L['polearm']}) -- Ori'kassi's Lance
+    }
+}) -- Venom Lancer Ori'kassi
+
+map.nodes[46906220] = RareElite({
+    id = 255087,
+    quest = 93673,
+    areaPOI = 8940,
+    rewards = {
+        Achievement({id = 63390, criteria = 111353}),
+        Reputation({id = 2772, gain = 50, quest = 96970}),
+        Transmog({item = 276174, type = L['mail']}), -- Leviathan's Oozing Scalemail
+        Transmog({item = 276169, type = L['shield']}) -- Malformed Barrier
+    }
+}) -- Malformed Leviathan
 
 -- Oppose the Foes (Rare Elite) - Achievement 63601
 --[[

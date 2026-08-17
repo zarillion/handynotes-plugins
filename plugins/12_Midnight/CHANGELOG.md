@@ -1,5 +1,7 @@
 # v152
 
+* Added Curse Surge event rare nodes in The Coiled Isle with live countdown timers (remaining time and next event).
+* Added live countdown timers to Ritual Site portal nodes.
 * Added pet reward from Big'Mon rare in The Coiled Isle.
 * Updated notes for Vul'zahn Smuggled Treasure and Grave of Someone Forgotten to better reflect the steps required.
 * Localization updates

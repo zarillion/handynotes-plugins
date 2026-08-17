@@ -100,6 +100,7 @@ eversong.nodes[21006600] = Node({
     icon = 'portal_pp',
     scale = 2,
     group = ns.groups.RITUAL_SITE,
+    areaPOI = 8615, -- Ritual Site: Daggerspine Point
     OnClick = function() WorldMapFrame:SetMapID(2594) end,
     clabel = L['change_map']
 }) -- Curious Obelisk (always-visible entry)
