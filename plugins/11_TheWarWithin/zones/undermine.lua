@@ -75,9 +75,9 @@ map.nodes[37684448] = Rare({
         Transmog({item = 235328, slot = L['leather']}), -- Boots of the Silver Tongue
         Transmog({item = 235355, slot = L['staff']}), -- Gossi-blin's Baton
         Spacer(), Section(L['shared_drops']),
-        Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235320, slot = L['mail']}), -- S.1.Z.Z.L.E.S.T.E.P Boots
         Transmog({item = 235327, slot = L['leather']}), -- Mend-and-Match Shoulderpads
+        Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235347, slot = L['dagger']}) -- 100% Sharp Glimmerblade
     }
 }) -- Tally Doublespeak
@@ -92,9 +92,9 @@ map.nodes[36877815] = Rare({
         Transmog({item = 235306, slot = L['cloth']}), -- Ooze-fused Mantle
         Transmog({item = 235329, slot = L['leather']}), -- Cowl of Acidic Mire
         Spacer(), Section(L['shared_drops']),
-        Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235320, slot = L['mail']}), -- S.1.Z.Z.L.E.S.T.E.P Boots
         Transmog({item = 235327, slot = L['leather']}), -- Mend-and-Match Shoulderpads
+        Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235347, slot = L['dagger']}) -- 100% Sharp Glimmerblade
     }
 }) -- V.V. Goosworth and Slimesby
@@ -108,9 +108,9 @@ map.nodes[54015023] = Rare({
         Transmog({item = 235317, slot = L['plate']}), -- Chestplate of the Ultimatum
         Transmog({item = 235353, slot = L['1h_axe']}), -- Debtsmasher Axe
         Spacer(), Section(L['shared_drops']),
-        Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235320, slot = L['mail']}), -- S.1.Z.Z.L.E.S.T.E.P Boots
         Transmog({item = 235327, slot = L['leather']}), -- Mend-and-Match Shoulderpads
+        Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235347, slot = L['dagger']}) -- 100% Sharp Glimmerblade
     }
 }) -- Thwack
@@ -123,9 +123,9 @@ map.nodes[41922563] = Rare({
         Reputation({id = 2653, gain = 20, quest = 84922}), -- The Cartels of Undermine
         Transmog({item = 235356, slot = L['offhand']}), -- Sapper's Spark Reactor
         Spacer(), Section(L['shared_drops']),
-        Transmog({item = 235300, slot = L['cloak']}), -- Cloak of Mecha Shards
         Transmog({item = 235315, slot = L['plate']}), -- Rocketstep Boots
         Transmog({item = 235322, slot = L['mail']}), -- Junkyard Clawguards
+        Transmog({item = 235300, slot = L['cloak']}), -- Cloak of Mecha Shards
         Transmog({item = 235351, slot = L['1h_sword']}) -- Hypersteel CX4 Greatsword
     }
 }) -- S.A.L.
@@ -151,9 +151,9 @@ map.nodes[42227735] = Rare({
         Transmog({item = 235304, slot = L['cloth']}), -- Gutter Rat Mask
         Transmog({item = 235348, slot = L['dagger']}), -- Back Alley Shank
         Spacer(), Section(L['shared_drops']),
-        Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235320, slot = L['mail']}), -- S.1.Z.Z.L.E.S.T.E.P Boots
         Transmog({item = 235327, slot = L['leather']}), -- Mend-and-Match Shoulderpads
+        Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235347, slot = L['dagger']}) -- 100% Sharp Glimmerblade
     }
 }) -- Candy Stickemup
@@ -178,9 +178,9 @@ map.nodes[41354357] = Rare({
         Transmog({item = 235307, slot = L['cloth']}), -- Smoketrail Belt
         Transmog({item = 235314, slot = L['plate']}), -- Knightrider's Steelfists
         Spacer(), Section(L['shared_drops']),
-        Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235320, slot = L['mail']}), -- S.1.Z.Z.L.E.S.T.E.P Boots
         Transmog({item = 235327, slot = L['leather']}), -- Mend-and-Match Shoulderpads
+        Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235347, slot = L['dagger']}) -- 100% Sharp Glimmerblade
     }
 }) -- Swigs Farsight
@@ -208,9 +208,9 @@ map.nodes[63354975] = Rare({
         Transmog({item = 235313, slot = L['plate']}), -- Shockproof Helm
         Transmog({item = 235354, slot = L['polearm']}), -- Scrapblaster Lance
         Spacer(), Section(L['shared_drops']),
-        Transmog({item = 235300, slot = L['cloak']}), -- Cloak of Mecha Shards
         Transmog({item = 235315, slot = L['plate']}), -- Rocketstep Boots
         Transmog({item = 235322, slot = L['mail']}), -- Junkyard Clawguards
+        Transmog({item = 235300, slot = L['cloak']}), -- Cloak of Mecha Shards
         Transmog({item = 235351, slot = L['1h_sword']}) -- Hypersteel CX4 Greatsword
     },
     pois = {Path({63574989, 64085016, 64005291})}
@@ -225,9 +225,9 @@ map.nodes[52354107] = Rare({
         Reputation({id = 2653, gain = 50, quest = 84895}), -- The Cartels of Undermine
         Transmog({item = 235349, slot = L['1h_mace']}), -- Shadowfume Club
         Spacer(), Section(L['shared_drops']),
-        Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235320, slot = L['mail']}), -- S.1.Z.Z.L.E.S.T.E.P Boots
         Transmog({item = 235327, slot = L['leather']}), -- Mend-and-Match Shoulderpads
+        Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235347, slot = L['dagger']}) -- 100% Sharp Glimmerblade
     }
 }) -- Slugger the Smart
@@ -242,9 +242,9 @@ map.nodes[58488643] = Rare({
         Transmog({item = 235311, slot = L['plate']}), -- Rocket-Powered Shoulderguards
         Transmog({item = 235357, slot = L['shield']}), -- Bulletscar Barricade
         Spacer(), Section(L['shared_drops']),
-        Transmog({item = 235300, slot = L['cloak']}), -- Cloak of Mecha Shards
         Transmog({item = 235315, slot = L['plate']}), -- Rocketstep Boots
         Transmog({item = 235322, slot = L['mail']}), -- Junkyard Clawguards
+        Transmog({item = 235300, slot = L['cloak']}), -- Cloak of Mecha Shards
         Transmog({item = 235351, slot = L['1h_sword']}) -- Hypersteel CX4 Greatsword
     }
 }) -- Chief Foreman Gutso
@@ -258,9 +258,9 @@ map.nodes[60580989] = Rare({
         Transmog({item = 235312, slot = L['plate']}), -- Snooty's Aviator Bindings
         Transmog({item = 235316, slot = L['plate']}), -- Whirly-Giggle Windwhir Wrap
         Spacer(), Section(L['shared_drops']),
-        Transmog({item = 235300, slot = L['cloak']}), -- Cloak of Mecha Shards
         Transmog({item = 235315, slot = L['plate']}), -- Rocketstep Boots
         Transmog({item = 235322, slot = L['mail']}), -- Junkyard Clawguards
+        Transmog({item = 235300, slot = L['cloak']}), -- Cloak of Mecha Shards
         Transmog({item = 235351, slot = L['1h_sword']}) -- Hypersteel CX4 Greatsword
     },
     vignette = 6597
@@ -280,9 +280,9 @@ map.nodes[40002232] = Rare({
         Transmog({item = 235835, type = L['cloak']}), -- Braided Wire Wrap
         Transmog({item = 235836, type = L['2h_sword']}), -- Gas-Powered Chainblade
         Spacer(), Section(L['shared_drops']),
-        Transmog({item = 235300, slot = L['cloak']}), -- Cloak of Mecha Shards
         Transmog({item = 235315, slot = L['plate']}), -- Rocketstep Boots
         Transmog({item = 235322, slot = L['mail']}), -- Junkyard Clawguards
+        Transmog({item = 235300, slot = L['cloak']}), -- Cloak of Mecha Shards
         Transmog({item = 235351, slot = L['1h_sword']}) -- Hypersteel CX4 Greatsword
     },
     sublabel = format(L['requires_ally'], 2673) -- Bilgewater Cartel
@@ -302,9 +302,9 @@ map.nodes[32027652] = Rare({
         Transmog({item = 235823, type = L['leather']}), -- Scrap-Plated Pants
         Transmog({item = 235824, type = L['gun']}), -- Flame Sputterer
         Spacer(), Section(L['shared_drops']),
-        Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235320, slot = L['mail']}), -- S.1.Z.Z.L.E.S.T.E.P Boots
         Transmog({item = 235327, slot = L['leather']}), -- Mend-and-Match Shoulderpads
+        Transmog({item = 235310, slot = L['cloth']}), -- Flashy Patchwork Trousers
         Transmog({item = 235347, slot = L['dagger']}) -- 100% Sharp Glimmerblade
     },
     sublabel = format(L['requires_ally'], 2677) -- Steamwheedle Cartel

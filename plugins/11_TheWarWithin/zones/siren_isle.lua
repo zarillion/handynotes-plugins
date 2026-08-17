@@ -17,6 +17,8 @@ local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
+local Section = ns.reward.Section
+local Spacer = ns.reward.Spacer
 
 local Circle = ns.poi.Circle
 local Entrance = ns.poi.Entrance
@@ -93,8 +95,8 @@ map.nodes[45992076] = Collectible({
                 70798, -- Gunnlod the Sea-Drinker
                 70795 -- Shardsong
             }
-        }), Toy({item = 235017}), -- Glittering Vault Shard
-        Mount({item = 232639, id = 2322}) -- Thrayir, Eyes of the Siren
+        }), Mount({item = 232639, id = 2322}), -- Thrayir, Eyes of the Siren
+        Spacer(), Section(L['shared_drops']), Toy({item = 235017}) -- Glittering Vault Shard
     },
     storm = 3
 }) -- The Forgotten Vault
@@ -195,7 +197,7 @@ tfv.nodes[66465635] = Rare({
     quest = 84797, -- hidden, also 85956 (on kill)
     rewards = {
         Achievement({id = 41046, criteria = 70798}), --
-        Toy({item = 235017}) -- Glittering Vault Shard
+        Spacer(), Section(L['shared_drops']), Toy({item = 235017}) -- Glittering Vault Shard
     },
     vignette = 6527
 }) -- Gunnlod the Sea-Drinker
@@ -205,7 +207,7 @@ tfv.nodes[28072475] = Rare({
     quest = 86779, -- hidden
     rewards = {
         Achievement({id = 41046, criteria = 70795}), --
-        Toy({item = 235017}) -- Glittering Vault Shard
+        Spacer(), Section(L['shared_drops']), Toy({item = 235017}) -- Glittering Vault Shard
     },
     vignette = 6666
 }) -- Shardsong
@@ -300,8 +302,8 @@ tfv.nodes[37967648] = Rare({
     id = 231368,
     quest = 85406, -- hidden
     rewards = {
-        Toy({item = 235017}), -- Glittering Vault Shard
-        Item({item = 232571}) -- Whirling Runekey
+        Item({item = 232571}), -- Whirling Runekey
+        Spacer(), Section(L['shared_drops']), Toy({item = 235017}) -- Glittering Vault Shard
     },
     storm = 1,
     vignette = 6619

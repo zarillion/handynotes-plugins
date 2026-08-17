@@ -21,6 +21,8 @@ local Pet = ns.reward.Pet
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 local Reputation = ns.reward.Reputation
+local Section = ns.reward.Section
+local Spacer = ns.reward.Spacer
 
 local Circle = ns.poi.Circle
 local Entrance = ns.poi.Entrance
@@ -74,6 +76,7 @@ map.nodes[70722147] = Rare({
         Reputation({id = 2605, gain = 50, quest = 84073}),
         Reputation({id = 2607, gain = 50, quest = 84073}),
         Transmog({item = 221212, type = L['mail']}), -- Death Burrower Handguards
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 221237, type = L['offhand']}) -- Lamentable Vagrant's Lantern
     },
     pois = {Entrance({70102201})} -- Entrance
@@ -88,6 +91,7 @@ cot.nodes[30755599] = Rare({
         Reputation({id = 2605, gain = 50, quest = 84069}),
         Reputation({id = 2607, gain = 50, quest = 84069}),
         Transmog({item = 221214, type = L['mail']}), -- Chitin Chain Headpiece
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 221240, type = L['1h_sword']}), -- Nerubian Stagshell Gouger
         Transmog({item = 221252, type = L['2h_sword']}) -- Nerubian Slayer's Claymore
     },
@@ -103,9 +107,10 @@ map.nodes[64560668] = Rare({
         Reputation({id = 2605, gain = 50, quest = 84081}),
         Reputation({id = 2607, gain = 50, quest = 84081}),
         Transmog({item = 223923, type = L['plate']}), -- Gilded Cryptlord's Sabatons
+        Spacer(), Section(L['shared_drops']),
+        Transmog({item = 223917, type = L['cloak']}), -- Nerubian Covert's Cloak
         Transmog({item = 223916, type = L['polearm']}), -- Nerubian Cutthroat's Reach
-        Transmog({item = 223915, type = L['dagger']}), -- Nerubian Orator's Stiletto
-        Transmog({item = 223917, type = L['cloak']}) -- Nerubian Covert's Cloak
+        Transmog({item = 223915, type = L['dagger']}) -- Nerubian Orator's Stiletto
     },
     pois = {Path({64500582, 64650782})}
 }) -- Deepcrawler Tx'kesh
@@ -119,6 +124,7 @@ map.nodes[58036210] = Rare({
         Reputation({id = 2605, gain = 50, quest = 84076}),
         Reputation({id = 2607, gain = 50, quest = 84076}),
         Transmog({item = 221243, type = L['cloth']}), -- Slippers of Delirium
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 221255, type = L['dagger']}), -- Sharpened Scalepiercer
         Transmog({item = 221248, type = L['1h_axe']}) -- Deep Terror Carver
     }
@@ -146,9 +152,10 @@ akl.nodes[65198283] = Rare({
         Reputation({id = 2605, gain = 50, quest = 84079}),
         Reputation({id = 2607, gain = 50, quest = 84079}),
         Transmog({item = 223941, type = L['plate']}), -- Nerubian Cultivator's Girdle
+        Spacer(), Section(L['shared_drops']),
+        Transmog({item = 223917, type = L['cloak']}), -- Nerubian Covert's Cloak
         Transmog({item = 223916, type = L['polearm']}), -- Nerubian Cutthroat's Reach
-        Transmog({item = 223915, type = L['dagger']}), -- Nerubian Orator's Stiletto
-        Transmog({item = 223917, type = L['cloak']}) -- Nerubian Covert's Cloak
+        Transmog({item = 223915, type = L['dagger']}) -- Nerubian Orator's Stiletto
     },
     pois = {
         Path({
@@ -168,9 +175,10 @@ akl.nodes[67438318] = Rare({
         Reputation({id = 2605, gain = 50, quest = 84077}),
         Reputation({id = 2607, gain = 50, quest = 84077}),
         Transmog({item = 223950, type = L['leather']}), -- Corruption Sifter's Treads
+        Spacer(), Section(L['shared_drops']),
+        Transmog({item = 223917, type = L['cloak']}), -- Nerubian Covert's Cloak
         Transmog({item = 223916, type = L['polearm']}), -- Nerubian Cutthroat's Reach
-        Transmog({item = 223915, type = L['dagger']}), -- Nerubian Orator's Stiletto
-        Transmog({item = 223917, type = L['cloak']}) -- Nerubian Covert's Cloak
+        Transmog({item = 223915, type = L['dagger']}) -- Nerubian Orator's Stiletto
     },
     parent = map.id
 }) -- Jix'ak the Crazed
@@ -184,9 +192,10 @@ map.nodes[62400703] = Rare({ -- renamed by Blizzard?
         Reputation({id = 2605, gain = 50, quest = 84082}),
         Reputation({id = 2607, gain = 50, quest = 84082}),
         Transmog({item = 223939, type = L['cloth']}), -- Esteemed Nerubian's Mantle
+        Spacer(), Section(L['shared_drops']),
+        Transmog({item = 223917, type = L['cloak']}), -- Nerubian Covert's Cloak
         Transmog({item = 223916, type = L['polearm']}), -- Nerubian Cutthroat's Reach
-        Transmog({item = 223915, type = L['dagger']}), -- Nerubian Orator's Stiletto
-        Transmog({item = 223917, type = L['cloak']}) -- Nerubian Covert's Cloak
+        Transmog({item = 223915, type = L['dagger']}) -- Nerubian Orator's Stiletto
     },
     pois = {Path({62870495, 62610615, 62400703, 62070804, 61830851, 61160787})}
 
@@ -201,6 +210,7 @@ map.nodes[63152530] = Rare({
         Reputation({id = 2605, gain = 50, quest = 84071}),
         Reputation({id = 2607, gain = 50, quest = 84071}),
         Transmog({item = 221206, type = L['plate']}), -- Reinforced Chitin Chestpiece
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
         Transmog({item = 221240, type = L['1h_sword']}) -- Nerubian Stagshell Gouger
     },
@@ -222,6 +232,7 @@ map.nodes[66496197] = Rare({
         Reputation({id = 2605, gain = 50, quest = 84075}),
         Reputation({id = 2607, gain = 50, quest = 84075}),
         Transmog({item = 221217, type = L['cloth']}), -- Nerubian Bomber's Leggings
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
         Transmog({item = 221240, type = L['1h_sword']}) -- Nerubian Stagshell Gouger
     },
@@ -245,6 +256,7 @@ map.nodes[69986923] = Rare({
         Reputation({id = 2605, gain = 50, quest = 84074}),
         Reputation({id = 2607, gain = 50, quest = 84074}),
         Transmog({item = 221227, type = L['leather']}), -- Monstrous Fungal Cord
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 221253, type = L['fist']}), -- Cultivator's Plant Puncher
         Transmog({item = 221250, type = L['1h_sword']}) -- Creeping Lasher Machete
     }
@@ -310,6 +322,7 @@ map.nodes[64590352] = Rare({
         Reputation({id = 2605, gain = 50, quest = 84080}),
         Reputation({id = 2607, gain = 50, quest = 84080}),
         Transmog({item = 223930, type = L['mail']}), -- Monstrous Chain Pincers
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 221240, type = L['1h_sword']}), -- Nerubian Stagshell Gouger
         Transmog({item = 221252, type = L['2h_sword']}) -- Nerubian Slayer's Claymore
     }
@@ -345,9 +358,10 @@ cotl.nodes[67525826] = Rare({
         Reputation({id = 2601, gain = 50, quest = 84070}),
         Reputation({id = 2605, gain = 50, quest = 84070}),
         Reputation({id = 2607, gain = 50, quest = 84070}),
-        Transmog({item = 221239, type = L['gun']}), -- Spider Blasting Blunderbuss
         Transmog({item = 221221, type = L['plate']}), -- Venomous Lurker's Greathelm
-        Transmog({item = 221506, type = L['cloak']}) -- Arachnid's Web-Sown Guise
+        Spacer(), Section(L['shared_drops']),
+        Transmog({item = 221506, type = L['cloak']}), -- Arachnid's Web-Sown Guise
+        Transmog({item = 221239, type = L['gun']}) -- Spider Blasting Blunderbuss
     }
 }) -- Xishorr
 
@@ -361,10 +375,11 @@ map.nodes[63479504] = Rare({
         Reputation({id = 2601, gain = 50, quest = 85167}),
         Reputation({id = 2605, gain = 50, quest = 85167}),
         Reputation({id = 2607, gain = 50, quest = 85167}),
+        Transmog({item = 225998, type = L['cloak']}), -- Earthen Adventurer's Cloak
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 221247, type = L['crossbow']}), -- Cavernous Critter Shooter
         Transmog({item = 221246, type = L['staff']}), -- Fierce Beast Staff
-        Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
-        Transmog({item = 225998, type = L['cloak']}) -- Earthen Adventurer's Cloak
+        Transmog({item = 221251, type = L['2h_axe']}) -- Bestial Underground Cleaver
     },
     pois = {Entrance({65309350})} -- Entrance
 }) -- The One Left
@@ -384,10 +399,10 @@ map.nodes[62816618] = Rare({
     rewards = {
         Reputation({id = 2601, gain = 50, quest = 85166}),
         Reputation({id = 2605, gain = 50, quest = 85166}),
-        Reputation({id = 2607, gain = 50, quest = 85166}),
+        Reputation({id = 2607, gain = 50, quest = 85166}), BloodVial(),
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 221240, type = L['1h_sword']}), -- Nerubian Stagshell Gouger
-        Transmog({item = 221252, type = L['2h_sword']}), -- Nerubian Slayer's Claymore
-        BloodVial()
+        Transmog({item = 221252, type = L['2h_sword']}) -- Nerubian Slayer's Claymore
     } -- starts the questchain to get the Siesbarg mount.
 }) -- Tka'ktath
 

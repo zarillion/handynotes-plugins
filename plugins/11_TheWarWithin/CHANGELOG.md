@@ -1,3 +1,7 @@
+# v153
+
+* Shared rare drops are now grouped into a dedicated tooltip section, sorted by armor type.
+
 # v152
 
 * Fixed interval timers using the wrong region anchors for CN and TW realms.

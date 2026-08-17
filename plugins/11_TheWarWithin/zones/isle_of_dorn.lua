@@ -23,6 +23,7 @@ local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
 local Reputation = ns.reward.Reputation
 local Section = ns.reward.Section
+local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -114,6 +115,7 @@ map.nodes[63984054] = Rare({ -- get path
         Achievement({id = 40435, criteria = 68223}),
         Reputation({id = 2590, gain = 150, quest = 84034}),
         Transmog({item = 221244, slot = L['mail']}), -- Flamekeeper's Footpads
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 221249, slot = L['1h_mace']}) -- Kobold Rodent Squasher
     }
 }) -- Flamekeeper Graz
@@ -124,9 +126,10 @@ map.nodes[53527998] = Rare({
     rewards = {
         Achievement({id = 40435, criteria = 68217}),
         Reputation({id = 2590, gain = 150, quest = 84028}),
+        Transmog({item = 221222, type = L['cloth']}), -- Water-Imbued Spaulders
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 221248, type = L['1h_axe']}), -- Deep Terror Carver
-        Transmog({item = 221255, type = L['dagger']}), -- Sharpened Scalepiercer
-        Transmog({item = 221222, type = L['cloth']}) -- Water-Imbued Spaulders
+        Transmog({item = 221255, type = L['dagger']}) -- Sharpened Scalepiercer
     }
 }) -- Gar'loc
 
@@ -137,6 +140,7 @@ map.nodes[48212701] = Rare({
         Achievement({id = 40435, criteria = 68220}),
         Reputation({id = 2590, gain = 150, quest = 84031}),
         Transmog({item = 221210, slot = L['plate']}), -- Grips of the Earth
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 221507, slot = L['cloak']}), -- Earth Golem's Wrap
         Transmog({item = 221254, slot = L['polearm']}) -- Earthshatter Lance
     }
@@ -149,6 +153,7 @@ map.nodes[73004009] = Rare({
         Achievement({id = 40435, criteria = 68231}),
         Reputation({id = 2590, gain = 150, quest = 84039}),
         Transmog({item = 223948, slot = L['plate']}), -- Stubborn Wolf's Greathelm
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
         Transmog({item = 221247, type = L['crossbow']}), -- Cavernous Critter Shooter
         Transmog({item = 221246, type = L['staff']}) -- Fierce Beast Staff
@@ -162,6 +167,7 @@ map.nodes[50876975] = Rare({
         Achievement({id = 40435, criteria = 68216}),
         Reputation({id = 2590, gain = 150, quest = 84026}),
         Transmog({item = 221213, slot = L['cloth']}), -- Shawl of the Plagued
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 221251, type = L['2h_axe']}), -- Bestial Underground Cleaver
         Transmog({item = 221247, type = L['crossbow']}), -- Cavernous Critter Shooter
         Transmog({item = 221246, type = L['staff']}) -- Fierce Beast Staff
@@ -206,6 +212,7 @@ map.nodes[74422804] = Rare({
         Achievement({id = 40435, criteria = 68221}),
         Reputation({id = 2590, gain = 150, quest = 84032}),
         Transmog({item = 221224, slot = L['plate']}), -- Bouldershell Waistguard
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 221248, type = L['1h_axe']}), -- Deep Terror Carver
         Transmog({item = 221255, type = L['dagger']}) -- Sharpened Scalepiercer
     }
@@ -231,6 +238,7 @@ map.nodes[69853850] = Rare({
         Achievement({id = 40435, criteria = 68230}),
         Reputation({id = 2590, gain = 150, quest = 84038}),
         Transmog({item = 223929, slot = L['cloth']}), -- Honey Sweetener's Squeezers
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 223920, slot = L['shield']}) -- Slime Deflecting Stopper
     }
 }) -- Sweetspark the Oozeful
@@ -266,8 +274,9 @@ map.nodes[57122241] = Rare({
         Achievement({id = 40435, criteria = 68222}),
         Reputation({id = 2590, gain = 150, quest = 84033}),
         Transmog({item = 221219, slot = L['leather']}), -- Silkwing Trousers
-        Transmog({item = 221239, slot = L['gun']}), -- Spider Blasting Blunderbuss
-        Transmog({item = 221506, slot = L['cloak']}) -- Arachnid's Web-Sown Guise
+        Spacer(), Section(L['shared_drops']),
+        Transmog({item = 221506, slot = L['cloak']}), -- Arachnid's Web-Sown Guise
+        Transmog({item = 221239, slot = L['gun']}) -- Spider Blasting Blunderbuss
     }
 }) -- Twice-Stinger the Wretched
 
