@@ -60,6 +60,11 @@ function Node:Initialize(attrs)
             error('group attribute must be a Group class instance: ' .. group)
         end
     end
+
+    -- live event countdown (see ns.Intervals.LiveEvent below)
+    if self.areaPOI then
+        self.interval = ns.Intervals.LiveEvent({areaPoiID = self.areaPOI})
+    end
 end
 
 --[[
@@ -337,12 +342,19 @@ function Node:Render(tooltip, focusable)
         tooltip:AddLine(ns.RenderLinks(self.location), 1, 1, 1, true)
     end
 
-    -- adds text if the node spawns in a specific rotation
+    -- adds text if the node spawns in a specific rotation (live event
+    -- timers hide the line entirely when no event data is available)
     if self.interval then
-        if self.requires or self.sublabel or self.location then
-            GameTooltip_AddBlankLineToTooltip(tooltip)
+        local intervalText = self.interval:GetText()
+        if intervalText then
+            if self.requires or self.sublabel or self.location or
+                IsInstance(self.interval, ns.Intervals.LiveEvent) then
+                GameTooltip_AddBlankLineToTooltip(tooltip)
+            end
+            for line in intervalText:gmatch('[^\n]+') do
+                tooltip:AddLine(ns.RenderLinks(line), 1, 1, 1, true)
+            end
         end
-        tooltip:AddLine(ns.RenderLinks(self.interval:GetText()), 1, 1, 1, true)
     end
 
     -- additional text for the node to describe how to interact with the
@@ -816,6 +828,276 @@ function Interval:GetText()
     ns.PrepareLinks(text)
     return text
 end
+
+-------------------------------------------------------------------------------
+-------------------------------- LIVE EVENT -----------------------------------
+-------------------------------------------------------------------------------
+-- Server-driven event timer: any node with an `areaPOI` attribute gets one
+-- automatically via Node:Initialize. Without event data GetText() returns
+-- nil and the line is hidden.
+ns.Intervals = ns.Intervals or {}
+
+-- tooltip labels come from core localization
+local EVENT_TIME_LEFT = L['time_remaining'] or 'Time Remaining:'
+local EVENT_STARTS_IN = L['starts_in'] or 'Starts In:'
+local EVENT_NEXT = L['next_time'] or 'Next: %s'
+
+local scheduled = {} -- areaPoiID -> {startTime = ..., endTime = ..., duration = ..., nextStart = ...}
+local hasScheduler = C_EventScheduler ~= nil
+local hasAreaPOI = C_AreaPoiInfo ~= nil
+
+local function RefreshEvents()
+    wipe(scheduled)
+    if not (hasScheduler and C_EventScheduler.HasData and
+        C_EventScheduler.HasData() and C_EventScheduler.GetScheduledEvents) then
+        return
+    end
+    local now = GetServerTime()
+    for _, ev in ipairs(C_EventScheduler.GetScheduledEvents() or {}) do
+        if ev.areaPoiID and ev.endTime and ev.endTime > now then
+            -- cyclic events repeat; keep the nearest window
+            local cur = scheduled[ev.areaPoiID]
+            if not cur or ev.endTime < cur.endTime then
+                scheduled[ev.areaPoiID] = {
+                    startTime = ev.startTime,
+                    endTime = ev.endTime,
+                    duration = ev.duration or
+                        (ev.startTime and ev.endTime - ev.startTime)
+                }
+            end
+            -- remember the next start after this window (the event's cycle)
+            if ev.startTime and ev.startTime > now then
+                local s = scheduled[ev.areaPoiID]
+                local windowStart = s.startTime or ev.startTime
+                if ev.startTime > windowStart then
+                    if not s.nextStart or ev.startTime < s.nextStart then
+                        s.nextStart = ev.startTime
+                    end
+                end
+            end
+        end
+    end
+end
+
+if hasScheduler then
+    local frame = CreateFrame('Frame')
+    frame:RegisterEvent('PLAYER_ENTERING_WORLD')
+    frame:RegisterEvent('EVENT_SCHEDULER_UPDATE')
+    frame:RegisterEvent('AREA_POIS_UPDATED')
+    frame:SetScript('OnEvent', function(_, event)
+        if event == 'PLAYER_ENTERING_WORLD' and C_EventScheduler.RequestEvents then
+            C_EventScheduler.RequestEvents()
+        end
+        RefreshEvents()
+    end)
+end
+
+-- Strip Blizzard chat-escape codes and plural forms from widget text.
+local function StripEscapes(text)
+    text = text:gsub('|c%x%x%x%x%x%x%x%x', '')
+    text = text:gsub('|cn[%w_]+:', '')
+    text = text:gsub('|r', '')
+    text = text:gsub('|n', ' ')
+    text = text:gsub('|4([^:]+):[^;]*;', '%1')
+    return text
+end
+
+-- Read Blizzard's localized unit abbreviations from GlobalStrings so the
+-- widget countdown parser works in every locale.
+local function AbbrForms(globalName, fallback)
+    local abbr = _G[globalName]
+    if type(abbr) ~= 'string' or abbr == '' then return {fallback} end
+    local singular, plural = abbr:match('|4([^:]+):([^;]*);')
+    if singular then
+        local forms = {singular}
+        if plural ~= '' and plural ~= singular then forms[2] = plural end
+        return forms
+    end
+    local cleaned = abbr:gsub('%%.', ''):gsub('^%s+', ''):gsub('%s+$', '')
+    return {cleaned}
+end
+
+local DAY_FORMS = AbbrForms('DAYS_ABBR', 'Day')
+local HOUR_FORMS = AbbrForms('HOURS_ABBR', 'Hr')
+local MIN_FORMS = AbbrForms('MINUTES_ABBR', 'Min')
+local SEC_FORMS = AbbrForms('SECONDS_ABBR', 'Sec')
+
+-- Escape Lua pattern metacharacters for literal matching (UTF-8 safe).
+local function EscapePattern(s)
+    return s:gsub('[%^%$%(%)%%%.%[%]%*%+%-%?]', '%%%0')
+end
+
+-- Number directly before a unit word: "6 Std. 8 Min." parses the 8, not the 6.
+local function NumBeforeUnit(text, forms)
+    for _, form in ipairs(forms) do
+        local num = text:match('(%d+)%s*' .. EscapePattern(form))
+        if num then return tonumber(num) end
+    end
+    return nil
+end
+
+-- Parse a rendered countdown using Blizzard's localized unit strings.
+local function ParseTimeLeft(text)
+    if type(text) ~= 'string' then return nil end
+    text = StripEscapes(text)
+
+    local d = NumBeforeUnit(text, DAY_FORMS)
+    local h = NumBeforeUnit(text, HOUR_FORMS)
+    local m = NumBeforeUnit(text, MIN_FORMS)
+    local s = NumBeforeUnit(text, SEC_FORMS)
+
+    if not (d or h or m or s) then return nil end
+    return (d or 0) * 86400 + (h or 0) * 3600 + (m or 0) * 60 + (s or 0)
+end
+
+-- Some events only expose their countdown as a "Time Left" widget on the
+-- POI's tooltip widget set.
+local function WidgetSecondsLeft(areaPoiID)
+    if not (hasScheduler and C_EventScheduler.GetEventUiMapID and hasAreaPOI and
+        C_AreaPoiInfo.GetAreaPOIInfo and C_UIWidgetManager and
+        C_UIWidgetManager.GetAllWidgetsBySetID and
+        C_UIWidgetManager.GetTextWithStateWidgetVisualizationInfo) then
+        return nil
+    end
+    local mapID = C_EventScheduler.GetEventUiMapID(areaPoiID)
+    if not mapID then return nil end
+    local info = C_AreaPoiInfo.GetAreaPOIInfo(mapID, areaPoiID)
+    if not (info and info.tooltipWidgetSet) then return nil end
+    local widgets =
+        C_UIWidgetManager.GetAllWidgetsBySetID(info.tooltipWidgetSet) or {}
+    for _, w in ipairs(widgets) do
+        local vis = C_UIWidgetManager.GetTextWithStateWidgetVisualizationInfo(
+            w.widgetID)
+        local secs = vis and vis.text and ParseTimeLeft(vis.text)
+        if secs then return secs end
+    end
+    return nil
+end
+
+local function EventSecondsLeft(areaPoiID)
+    -- timed map event POI: real remaining time
+    if hasAreaPOI and C_AreaPoiInfo.IsAreaPOITimed and
+        C_AreaPoiInfo.IsAreaPOITimed(areaPoiID) and
+        C_AreaPoiInfo.GetAreaPOISecondsLeft then
+        local left = C_AreaPoiInfo.GetAreaPOISecondsLeft(areaPoiID)
+        if left then return left end
+    end
+    -- widget-text fallback
+    local left = WidgetSecondsLeft(areaPoiID)
+    if left then return left end
+    -- scheduled event window end
+    local sched = scheduled[areaPoiID]
+    if sched and sched.endTime then
+        local left = sched.endTime - GetServerTime()
+        if left > 0 then return left end
+    end
+    return nil
+end
+
+-- the scheduled event's window duration (color base)
+local function LiveEvent_GetDuration(areaPoiID)
+    local sched = scheduled[areaPoiID]
+    return sched and sched.duration
+end
+
+local LiveEvent = Class('LiveEvent', Interval, {
+    format_12hrs = L['time_format_12hrs'],
+    format_24hrs = L['time_format_24hrs']
+})
+
+-- Interval:Initialize reads self.initial (hardcoded spawn epochs), which
+-- LiveEvent does not use; only copy the attrs.
+function LiveEvent:Initialize(attrs)
+    if attrs then for k, v in pairs(attrs) do self[k] = v end end
+end
+
+function LiveEvent:Next()
+    if not self.areaPoiID then return false end
+    local now = GetServerTime()
+    -- not started yet: next occurrence is the window start, not its end
+    local sched = scheduled[self.areaPoiID]
+    if sched and sched.startTime and sched.startTime > now then
+        return sched.startTime, sched.startTime - now
+    end
+    local left = EventSecondsLeft(self.areaPoiID)
+    if not left then return false end
+    return now + left, left
+end
+
+function LiveEvent:GetText()
+    local TimeFormat = ns:GetOpt('use_standard_time') and self.format_12hrs or
+                           self.format_24hrs
+
+    local NextSpawn, TimeLeft = self:Next()
+
+    local text
+    if NextSpawn then
+        local sched = scheduled[self.areaPoiID]
+        local notStarted = sched and sched.startTime and sched.startTime >
+                               GetServerTime()
+
+        local duration = LiveEvent_GetDuration(self.areaPoiID) or 0
+
+        -- time remaining: <10% window red, <30% yellow, else orange
+        local yellow = duration * 0.3
+        local red = duration * 0.1
+
+        -- event cycle: next start minus this start (fall back to duration)
+        local period = 0
+        if sched and sched.startTime then
+            period = ((sched.nextStart or sched.endTime) or 0) - sched.startTime
+        end
+        if period <= 0 then period = duration end
+
+        -- the upcoming start when not started; otherwise the next window's
+        -- start (weekly ritual sites report a single window -- no next)
+        local nextTime
+        if notStarted then
+            nextTime = NextSpawn
+        else
+            nextTime = sched and sched.nextStart
+        end
+        local nextIn = nextTime and (nextTime - GetServerTime()) or 0
+
+        -- cycle fraction: orange (far), yellow (soon), green (very soon)
+        local nextColor = ns.color.Orange
+        if period > 0 then
+            if nextIn < period * 0.3 then nextColor = ns.color.Yellow end
+            if nextIn < period * 0.1 then nextColor = ns.color.Green end
+        end
+
+        -- not started: countdown + next start time
+        if notStarted then
+            text = format('%s %s\n%s', EVENT_STARTS_IN,
+                nextColor(SecondsToTime(nextIn, true, true)), format(EVENT_NEXT,
+                    ns.color.Orange(date(TimeFormat, nextTime))))
+        else
+            local SpawnsIn = SecondsToTime(TimeLeft, true, true)
+
+            local color = ns.color.Orange
+            if TimeLeft < yellow then color = ns.color.Yellow end
+            if TimeLeft < red then color = ns.color.Red end
+            SpawnsIn = color(SpawnsIn)
+
+            if nextTime then
+                text = format('%s %s\n%s', EVENT_TIME_LEFT, SpawnsIn, format(
+                    EVENT_NEXT, ns.color.Orange(date(TimeFormat, nextTime))))
+            else
+                text = format('%s %s', EVENT_TIME_LEFT, SpawnsIn)
+            end
+        end
+    else
+        -- no event schedule data for this areaPOI: hide the timer line
+        -- entirely (the node renders as if it had no interval)
+        return nil
+    end
+
+    if self.text then text = format(self.text, text) end
+    ns.PrepareLinks(text)
+    return text
+end
+
+ns.Intervals.LiveEvent = LiveEvent
 
 -------------------------------------------------------------------------------
 

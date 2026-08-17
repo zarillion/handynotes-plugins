@@ -86,6 +86,9 @@ L['in_building'] = 'In the building.'
 
 ------------------------------------- TIME ------------------------------------
 L['now'] = 'Now'
+L['starts_in'] = 'Starts In:'
+L['time_remaining'] = 'Time Remaining:'
+L['next_time'] = 'Next: %s'
 L['hourly'] = 'Hourly'
 L['daily'] = 'Daily'
 L['weekly'] = 'Weekly'

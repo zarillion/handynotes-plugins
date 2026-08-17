@@ -59,6 +59,12 @@ ns.node.Node({
   - List of requirements that need to be met for the node.
 - `rewards` ([Reward](rewards.html))
   - List of rewards that are offered by the node.
+- `areaPOI` (int)
+  - `areaPoiID` of a server-scheduled event. Nodes with this property get a
+    live countdown in their tooltip (time remaining while the event is
+    running, next start time otherwise). Requires the event scheduler
+    (`C_EventScheduler`); on clients without event data the countdown line
+    is hidden.
 
 ### Optional Visibility Properties <!-- omit from toc -->
 

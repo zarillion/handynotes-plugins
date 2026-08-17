@@ -86,6 +86,9 @@ L['in_building'] = 'A l\'intérieur du bâtiment.'
 
 ------------------------------------- TIME ------------------------------------
 L['now'] = 'Maintenant'
+L['starts_in'] = nil
+L['time_remaining'] = nil
+L['next_time'] = nil
 L['hourly'] = 'Une fois par heure'
 L['daily'] = 'Quotidiennement'
 L['weekly'] = 'Hebdomadaire'

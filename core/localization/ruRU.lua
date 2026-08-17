@@ -86,6 +86,9 @@ L['in_building'] = 'В здании.'
 
 ------------------------------------- TIME ------------------------------------
 L['now'] = 'Сейчас'
+L['starts_in'] = nil
+L['time_remaining'] = nil
+L['next_time'] = nil
 L['hourly'] = 'Ежечасно'
 L['daily'] = 'Ежедневно'
 L['weekly'] = 'Раз в неделю'

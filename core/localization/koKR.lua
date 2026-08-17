@@ -86,6 +86,9 @@ L['in_building'] = nil
 
 ------------------------------------- TIME ------------------------------------
 L['now'] = nil
+L['starts_in'] = nil
+L['time_remaining'] = nil
+L['next_time'] = nil
 L['hourly'] = '한시간단위'
 L['daily'] = '일간'
 L['weekly'] = '주간'

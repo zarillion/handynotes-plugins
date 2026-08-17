@@ -86,6 +86,9 @@ L['in_building'] = nil
 
 ------------------------------------- TIME ------------------------------------
 L['now'] = 'Ahora'
+L['starts_in'] = nil
+L['time_remaining'] = nil
+L['next_time'] = nil
 L['hourly'] = nil
 L['daily'] = nil
 L['weekly'] = 'Semanal'
