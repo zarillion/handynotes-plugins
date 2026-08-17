@@ -189,8 +189,8 @@ L['gulf_of_memory_chest_note'] = '沿着树的根部向上攀爬以到达宝藏�
 
 L['lost_spirit_note'] = '将 {item:269935} 交还给 {npc:261867}。'
 L['sunken_divers_chest_note'] = '击杀附近的 {npc:263081} 并拾取3个 {item:271424}，然后将其组合成 {item:271423} 以解锁宝藏。'
-L['vulzahn_smuggled_treasure_note'] = '1. 从 {dot:Blue}{npc:253837} 获取 {item:271791}\n\n2. 将 {item:271791} 交给 {dot:Red}{npc:262204} 以获得 {item:271788}\n\n3. 将 {item:271788} 交给 {dot:Green}{npc:263265} 以获得 {item:271792} 并解锁宝藏'
-L['grave_of_someone_forgotten_note'] = '1. 与 {dot:Red}{npc:263242} 对话。\n\n2. 与 {dot:Green}{npc:263243} 对话。\n\n3. 与 {dot:Blue}{npc:263241} 对话。\n\n4. 返回墓穴进行拾取。'
+L['vulzahn_smuggled_treasure_note'] = '1. 与宝藏旁的 {dot:Green}{npc:263265} 对话。\n\n2. 与 {dot:Red}{npc:262204} 对话。\n\n3. 从 {dot:Blue}{npc:253837} 获取 {item:271791}。\n\n4. 将 {item:271791} 交给 {dot:Red}{npc:262204} 以获得 {item:271788}。\n\n5. 将 {item:271788} 交给 {dot:Green}{npc:263265} 以获得 {item:271792}，解锁宝藏。'
+L['grave_of_someone_forgotten_note'] = '1. 与 {object:无名坟墓} 互动。\n\n2. 与 {dot:Red}{npc:263242} 对话。\n\n3. 与 {dot:Green}{npc:263243} 对话。\n\n4. 与 {dot:Blue}{npc:263241} 对话。\n\n5. 返回 {object:无名坟墓} 进行拾取。'
 L['profane_ritual_spoils_note'] = '面向雕像，按照右上、左上、右下、左下的顺序点击 {npc:263187} 即可开启宝藏。'
 L['abandoned_amani_privateers_cache_note'] = '1. 在 {dot:Blue}{object:可怖鳕鱼群} 钓到 {item:265525}，喂给水下的 {npc:258076}。\n\n2. 跟随海豚收集 {dot:Red}{object:浸水的箱子} 中的 {item:265610} 和 {dot:Green}{object:破损的瓮} 中的 {item:265603}。\n\n3. 右键其中一半合成 {item:265602}，开启宝藏。\n\n{note:全程保持在水下，浮出水面海豚就会游走。}'
 L['grisly_cod_pool'] = '可怖鳕鱼群'
