@@ -24,6 +24,7 @@ local Item = ns.reward.Item
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
 local Recipe = ns.reward.Recipe
+local Spacer = ns.reward.Spacer
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
@@ -81,7 +82,7 @@ map.nodes[56247389] = Rare({
         Transmog({item = 205318, slot = L['plate']}), -- Guardian Golems Legplates
         Transmog({item = 205309, slot = L['mail']}), -- Loyal Attendant's Gaze
         DC.WindingSlitherdrake.PlatedBrow, --
-        Item({item = 200071}) -- Sacred Tuskarr Totem
+        Spacer(), Section(L['shared_drops']), Item({item = 200071}) -- Sacred Tuskarr Totem
     },
     pois = {POI({56937305})} -- Entrance
 }) -- Alcanon
@@ -94,10 +95,10 @@ map.nodes[48367509] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59185}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59492}), -- Cavern Clawbbering
-        Pet({item = 205154, id = 3548}), -- Aquapo
         Transmog({item = 205306, slot = L['mail']}), -- Aquiferous Raiment
         Transmog({item = 205295, slot = L['cloth']}), -- Sediment Sifters
-        Item({item = 192055}) -- Dragon Isle Artifact
+        Pet({item = 205154, id = 3548}), -- Aquapo
+        Spacer(), Section(L['shared_drops']), Item({item = 192055}) -- Dragon Isle Artifact
     }
 }) -- Aquifon
 
@@ -124,10 +125,10 @@ map.nodes[48372384] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59212}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59494}), -- Cavern Clawbbering
-        Transmog({item = 205332, slot = L['1h_mace']}), -- Fist of the Demolisher
         Transmog({item = 205315, slot = L['plate']}), -- Colossian Cuirass
+        Transmog({item = 205332, slot = L['1h_mace']}), -- Fist of the Demolisher
         DC.RenewedProtoDrake.ShortSpikedCrest, --
-        Item({item = 200071}) -- Sacred Tuskarr Totem
+        Spacer(), Section(L['shared_drops']), Item({item = 200071}) -- Sacred Tuskarr Totem
     }
 }) -- Colossian
 
@@ -167,11 +168,11 @@ map.nodes[41921857] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59190}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59497}), -- Cavern Clawbbering
-        Transmog({item = 205331, slot = L['1h_axe']}), -- Zskorran Cleaver
         Transmog({item = 205321, slot = L['plate']}), -- Brimstone Bracers
         Transmog({item = 205291, slot = L['cloak']}), -- Garrison General's Cape
+        Transmog({item = 205331, slot = L['1h_axe']}), -- Zskorran Cleaver
         DC.WindingSlitherdrake.CurledHorns, --
-        Item({item = 192055}) -- Dragon Isle Artifact
+        Spacer(), Section(L['shared_drops']), Item({item = 192055}) -- Dragon Isle Artifact
     },
     pois = {POI({42491885})} -- Entrance
 }) -- General Zskorro
@@ -212,9 +213,9 @@ map.nodes[28515115] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59206}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59500}), -- Cavern Clawbbering
-        Toy({item = 205419}), -- Jrumm's Drum
         Transmog({item = 205304, slot = L['leather']}), -- Snareguard Sash
         Transmog({item = 205299, slot = L['cloth']}), -- Rudiment Cuffs
+        Toy({item = 205419}), -- Jrumm's Drum
         DC.WindingSlitherdrake.Ears --
         -- Currency({id = 2245}) -- Flightstones
     }
@@ -228,9 +229,9 @@ map.nodes[42226524] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59199}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59501}), -- Cavern Clawbbering
-        Mount({item = 205203, id = 1732}), -- Cobalt Shalewing
         Transmog({item = 205298, slot = L['cloth']}), -- Belt of Floating Stone
         Transmog({item = 205292, slot = L['cloak']}), -- Kairoktra's Mane
+        Mount({item = 205203, id = 1732}), -- Cobalt Shalewing
         DC.WindingSlitherdrake.SmallFinnedTail, --
         Pet({item = 205147, id = 3541}) -- Ridged Shalewing
         -- Currency({id = 2245}) -- Flightstones
@@ -248,7 +249,7 @@ map.nodes[59593949] = Rare({
         Transmog({item = 205319, slot = L['plate']}), -- Deepflayer Shoulderguards
         Transmog({item = 205310, slot = L['mail']}), -- Legguards of Kaprachu
         DC.WindingSlitherdrake.HeavyScales, --
-        Item({item = 192055}) -- Dragon Isle Artifact
+        Spacer(), Section(L['shared_drops']), Item({item = 192055}) -- Dragon Isle Artifact
     }
 }) -- Kaprachu
 
@@ -294,8 +295,8 @@ map.nodes[40753817] = Rare({
         Transmog({item = 205311, slot = L['mail']}), -- Magmascale Pauldrons
         Transmog({item = 205300, slot = L['leather']}), -- Magma Waders
         DC.WindingSlitherdrake.ImpalerHorns, --
-        Item({item = 192055}) -- Dragon Isle Artifact
         -- Currency({id = 2245}) -- Flightstones
+        Spacer(), Section(L['shared_drops']), Item({item = 192055}) -- Dragon Isle Artifact
     }
 }) -- Magmanesha
 
@@ -310,7 +311,7 @@ map.nodes[55841899] = Rare({
         Achievement({id = 18100, criteria = 59506}), -- Cavern Clawbbering
         Transmog({item = 205322, slot = L['leather']}), -- Algeth'ar Exile's Frock
         DC.WindingSlitherdrake.ClusterHorns, --
-        Item({item = 192055}) -- Dragon Isle Artifact
+        Spacer(), Section(L['shared_drops']), Item({item = 192055}) -- Dragon Isle Artifact
     },
     pois = {POI({52921886})} -- Entrance
 }) -- Professor Gastrinax
@@ -323,8 +324,8 @@ map.nodes[36205300] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59205}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59507}), -- Cavern Clawbbering
-        Transmog({item = 205294, slot = L['cloth']}), -- Sandals of Molten Scorn
         Transmog({item = 205301, slot = L['leather']}), -- Hardened Lava Handwraps
+        Transmog({item = 205294, slot = L['cloth']}), -- Sandals of Molten Scorn
         DC.WindingSlitherdrake.CurledCheekHorn --
         -- Currency({id = 2245}) -- Flightstones
     }
@@ -339,11 +340,11 @@ map.nodes[53106421] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59187}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59508}), -- Cavern Clawbbering
-        Transmog({item = 205326, slot = L['dagger']}), -- Crystalweb Chelicera
         Transmog({item = 205305, slot = L['leather']}), -- Zaralek Arachnid Armbands
         Transmog({item = 205290, slot = L['cloak']}), -- Greatcloak of Spun Marrow
+        Transmog({item = 205326, slot = L['dagger']}), -- Crystalweb Chelicera
         DC.WindingSlitherdrake.HairyCrest, --
-        Item({item = 192055}) -- Dragon Isle Artifact
+        Spacer(), Section(L['shared_drops']), Item({item = 192055}) -- Dragon Isle Artifact
     },
     pois = {POI({54556605})} -- Entrance
 }) -- Spinmarrow
@@ -356,9 +357,9 @@ map.nodes[38424650] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59208}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59509}), -- Cavern Clawbbering
-        Transmog({item = 205328, slot = L['2h_sword']}), -- Earthen Emissasry's Edge
         Transmog({item = 205314, slot = L['plate']}), -- Greathelm of the Emissary
         Transmog({item = 205312, slot = L['mail']}), -- Subterrax's Stout Waistguard
+        Transmog({item = 205328, slot = L['2h_sword']}), -- Earthen Emissasry's Edge
         DC.WindingSlitherdrake.AntlerHorns, --
         Item({item = 199906}) -- Titan Relic
     }
@@ -387,8 +388,8 @@ map.nodes[38867151] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59210}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59511}), -- Cavern Clawbbering
-        Transmog({item = 205327, slot = L['dagger']}), -- Shard of the Veridian King
         Transmog({item = 205316, slot = L['plate']}), -- Crystal Stompers
+        Transmog({item = 205327, slot = L['dagger']}), -- Shard of the Veridian King
         DC.WindingSlitherdrake.SplitJawHorns
     }
 }) -- Viridian King

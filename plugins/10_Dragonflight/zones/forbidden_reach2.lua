@@ -60,9 +60,9 @@ map.nodes[58174826] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58458}), -- Champion of the Forbidden Reach
-        Mount({item = 192772, id = 1619}), -- Ancient Salamanther
         Pet({item = 193364, id = 3291}), -- Scruffles
         Item({item = 204276}), -- Untapped Forbidden Knowledge
+        Spacer(), Section(L['shared_drops']), Mount({item = 192772, id = 1619}), -- Ancient Salamanther
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
@@ -76,7 +76,7 @@ map.nodes[28303794] = Rare({
     location = L['in_water_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58459}), -- Champion of the Forbidden Reach
-        Item({item = 202196}), -- Zskera Vault Key
+        Spacer(), Section(L['shared_drops']), Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
     pois = {POI({27184089})} -- Entrance
@@ -88,7 +88,7 @@ map.nodes[41021436] = Rare({
     quest = 73100,
     rewards = {
         Achievement({id = 17525, criteria = 58460}), -- Champion of the Forbidden Reach
-        Item({item = 202196}), -- Zskera Vault Key
+        Spacer(), Section(L['shared_drops']), Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
 }) -- Ishyra
@@ -100,7 +100,7 @@ map.nodes[47722071] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58461}), -- Champion of the Forbidden Reach
-        Item({item = 202196}), -- Zskera Vault Key
+        Spacer(), Section(L['shared_drops']), Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
     pois = {POI({46961955})} -- Entrance
@@ -128,7 +128,7 @@ map.nodes[43736121] = Rare({
     rewards = {
         Achievement({id = 17525, criteria = 58463}), -- Champion of the Forbidden Reach
         Pet({item = 193374, id = 3293}), -- Ashenwing
-        Item({item = 202196}), -- Zskera Vault Key
+        Spacer(), Section(L['shared_drops']), Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
     pois = {
@@ -142,7 +142,7 @@ map.nodes[44727943] = Rare({
     quest = 73152,
     rewards = {
         Achievement({id = 17525, criteria = 58464}), -- Champion of the Forbidden Reach
-        Item({item = 202196}), -- Zskera Vault Key
+        Spacer(), Section(L['shared_drops']), Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
 }) -- Galakhad
@@ -153,7 +153,7 @@ map.nodes[43949052] = Rare({
     quest = 73154,
     rewards = {
         Achievement({id = 17525, criteria = 58465}), -- Champion of the Forbidden Reach
-        Item({item = 202196}), -- Zskera Vault Key
+        Spacer(), Section(L['shared_drops']), Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
 }) -- Grugoth the Hullcrusher
@@ -165,8 +165,8 @@ map.nodes[59695883] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58466}), -- Champion of the Forbidden Reach
-        Mount({item = 192772, id = 1619}), -- Ancient Salamanther
         DC.WindborneVelocidrake.PlatedNeck, --
+        Spacer(), Section(L['shared_drops']), Mount({item = 192772, id = 1619}), -- Ancient Salamanther
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
@@ -180,7 +180,7 @@ map.nodes[72986738] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 17525, criteria = 58467}), -- Champion of the Forbidden Reach
-        Item({item = 202196}), -- Zskera Vault Key
+        Spacer(), Section(L['shared_drops']), Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
     pois = {POI({70776649, 72086535, 71006875, 71906968})} -- Entrances
@@ -194,7 +194,7 @@ map.nodes[67924531] = Rare({
     note = L['mad_eye_carrey_note'],
     rewards = {
         Achievement({id = 17525, criteria = 58468}), -- Champion of the Forbidden Reach
-        Item({item = 202196}), -- Zskera Vault Key
+        Spacer(), Section(L['shared_drops']), Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
     pois = {POI({69024597})} -- Entrance
@@ -208,7 +208,7 @@ map.nodes[61723400] = Rare({
     rewards = {
         Achievement({id = 17525, criteria = 58469}), -- Champion of the Forbidden Reach
         DC.WindborneVelocidrake.WhiteHorns, --
-        Item({item = 202196}), -- Zskera Vault Key
+        Spacer(), Section(L['shared_drops']), Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
 }) -- Wyrmslayer Angvardi
@@ -233,9 +233,9 @@ map.nodes[36731223] = Rare({
     quest = 73366,
     rewards = {
         Achievement({id = 17525, criteria = 58471}), -- Champion of the Forbidden Reach
-        Mount({item = 192772, id = 1619}), -- Ancient Salamanther
-        Item({item = 202196}), -- Zskera Vault Key
-        DC.WindborneVelocidrake.ShriekerPattern, Currency({id = 2118}) -- Elemental Overflow
+        DC.WindborneVelocidrake.ShriekerPattern, Currency({id = 2118}), -- Elemental Overflow
+        Spacer(), Section(L['shared_drops']), Mount({item = 192772, id = 1619}), -- Ancient Salamanther
+        Item({item = 202196}) -- Zskera Vault Key
     }
 }) -- "Captain" Ookbeard
 

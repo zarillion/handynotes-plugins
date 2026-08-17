@@ -1,3 +1,11 @@
+# v152
+
+* Fixed interval timers using the wrong region anchors for CN and TW realms.
+* Fixed an error when displaying live event nodes (grand hunts).
+* Event and spawn timers now display server time regardless of the player's timezone.
+* Countdowns display seconds during the last minute.
+* Shared rare drops are now grouped into a dedicated tooltip section, sorted by armor type.
+
 # v148
 
 * Bump toc to 120100

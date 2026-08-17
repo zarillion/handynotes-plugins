@@ -239,9 +239,9 @@ map.nodes[40685084] = Rare({
     quest = 78211,
     rewards = {
         Achievement({id = 19316, criteria = 62943}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208363, slot = L['warglaive']}), -- Twinfang of the  Clan
         Transmog({item = 208342, slot = L['plate']}), -- Girdle of Nature's Fury
         Transmog({item = 208336, slot = L['mail']}), -- Legguards of the Dreamsaber
+        Transmog({item = 208363, slot = L['warglaive']}), -- Twinfang of the  Clan
         DG.Feral.KeenEyedDreamsaber -- Mark of the Keen-Eyed Dreamsaber
     },
     pois = {
@@ -259,9 +259,9 @@ map.nodes[41107328] = Rare({
     location = L['in_small_cave'],
     rewards = {
         -- Achievement({id = 19316, criteria = 62946}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208379, slot = L['1h_axe']}), -- Keevah's Extended Claw
         Transmog({item = 208339, slot = L['plate']}), -- Saber's Stone Pauldrons
         Transmog({item = 208343, slot = L['cloth']}), -- Matriarch's Flowery Band
+        Transmog({item = 208379, slot = L['1h_axe']}), -- Keevah's Extended Claw
         DG.Travel.DreamtalonMatriarch -- Mark of the Dreamtalon Matriarch
     }
 }) -- Matriarch Keevah
@@ -292,8 +292,8 @@ map.nodes[40467258] = Rare({
     location = L['in_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62942}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208380, slot = L['1h_axe']}), -- Moragh's Kneading Claw
         Transmog({item = 208329, slot = L['cloth']}), -- Warm Grasp of the Dream
+        Transmog({item = 208380, slot = L['1h_axe']}), -- Moragh's Kneading Claw
         DG.Guardian.VerdantBristlebruin -- Mark of the Verdant Bristlebruin
     },
     pois = {POI({38817158})} -- Entrance
@@ -328,8 +328,8 @@ map.nodes[44473929] = Rare({
     location = L['in_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62951}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208359, slot = L['offhand']}), -- Nightclaw's Bauble
         Transmog({item = 208322, slot = L['plate']}), -- Treads of the Nightclaw
+        Transmog({item = 208359, slot = L['offhand']}), -- Nightclaw's Bauble
         DG.Travel.SableDreamtalon -- Mark of the Sable Dreamtalon
     },
     pois = {
