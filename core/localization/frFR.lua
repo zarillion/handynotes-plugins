@@ -86,9 +86,9 @@ L['in_building'] = 'A l\'intérieur du bâtiment.'
 
 ------------------------------------- TIME ------------------------------------
 L['now'] = 'Maintenant'
-L['starts_in'] = nil
-L['time_remaining'] = nil
-L['next_time'] = nil
+L['starts_in'] = 'Commence dans :'
+L['time_remaining'] = 'Temps restant :'
+L['next_time'] = 'Prochain dans :'
 L['hourly'] = 'Une fois par heure'
 L['daily'] = 'Quotidiennement'
 L['weekly'] = 'Hebdomadaire'
@@ -225,8 +225,8 @@ L['options_transmog_rewards'] = 'Afficher les transmos en récompense'
 L['options_transmog_rewards_desc'] = 'Afficher les transmos en récompenses dans les infobulles et suivre leur état de possession.'
 L['options_all_transmog_rewards'] = 'Afficher les transmos plus obtenables en récompense'
 L['options_all_transmog_rewards_desc'] = 'Afficher les transmos en récompenses pouvant être obtenus par d\'autres classes.'
-L['options_shared_appearances'] = nil
-L['options_shared_appearances_desc'] = nil
+L['options_shared_appearances'] = 'Les apparences partagées par plusieurs objects sont considérées comme connues'
+L['options_shared_appearances_desc'] = 'Lorsque cette option est activée, le fait d\'obtenir une apparence partagée par autre objet marquera cette récompense comme ayant été récupérée.'
 L['options_rep_rewards'] = 'Afficher les récompenses de réputation'
 L['options_rep_rewards_desc'] = 'Afficher les récompenses de réputation dans les infobulles et suivre l\'état de leur acquisition.'
 L['options_claimed_rep_rewards'] = 'Afficher les récompenses de réputation réclamées'
