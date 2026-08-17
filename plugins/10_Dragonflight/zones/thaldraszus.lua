@@ -71,12 +71,12 @@ map.nodes[59075874] = RareElite({
     note = L['ancient_protector_note'],
     rewards = {
         Achievement({id = 16679, criteria = 56158}),
+        DC.WindborneVelocidrake.SpikedBack, DC.HighlandDrake.StripedPattern,
+        DC.HighlandDrake.CrestedBrow, Spacer(), Section(L['shared_drops']),
+        Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
         Transmog({item = 200138, slot = L['polearm']}), -- Ancient Dancer's Longspear
         Transmog({item = 200299, slot = L['1h_sword']}), -- Strange Clockwork Gladius
-        Transmog({item = 200303, slot = L['staff']}), -- Dreamweaver Acolyte's Staff
-        Transmog({item = 200758, slot = L['plate']}), -- Breastplate of Storied Antiquity
-        DC.WindborneVelocidrake.SpikedBack, DC.HighlandDrake.StripedPattern,
-        DC.HighlandDrake.CrestedBrow
+        Transmog({item = 200303, slot = L['staff']}) -- Dreamweaver Acolyte's Staff
     },
     pois = {POI({60755543, 60736211, 59225648, 59266104})} -- Titanic Reactors
 }) -- Ancient Protector
@@ -342,8 +342,8 @@ map.nodes[50404840] = Rare({
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
         Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
-        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200165, slot = L['shield']}), -- Aegis of Scales
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200232, slot = L['warglaive']}) -- Raptor Talonglaive
     },
     pois = {
@@ -609,11 +609,12 @@ tpf.nodes[53536521] = Rare({
     vignette = 5566,
     quest = 74554,
     rewards = {
+        DC.HighlandDrake.FinnedBack, DC.CliffsideWylderdrake.FinnedCheek,
+        Transmog({item = 201447, slot = L['1h_sword']}), -- Primal Revenant's Breezeblade
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
         Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
-        Transmog({item = 200135, slot = L['2h_sword']}), -- Corroded Greatsword
-        Transmog({item = 201447, slot = L['1h_sword']}), -- Primal Revenant's Breezeblade
-        DC.HighlandDrake.FinnedBack, DC.CliffsideWylderdrake.FinnedCheek
+        Transmog({item = 200135, slot = L['2h_sword']}) -- Corroded Greatsword
     }
 }) -- Avalantus
 
@@ -623,10 +624,11 @@ tpf.nodes[46884248] = Rare({
     quest = 74553,
     rewards = {
         Transmog({item = 203668, slot = L['mail']}), -- Earhshaping Grips
-        Transmog({item = 200199, slot = L['mail']}), -- Elements' Burden
-        Transmog({item = 200292, slot = L['plate']}), -- Cragforge Pauldrons
         DC.RenewedProtoDrake.HeavyHorns, DC.WindborneVelocidrake.ClusterHorns,
-        DC.CliffsideWylderdrake.BlackHorns, DC.WindborneVelocidrake.ClubTail
+        DC.CliffsideWylderdrake.BlackHorns, DC.WindborneVelocidrake.ClubTail,
+        Spacer(), Section(L['shared_drops']),
+        Transmog({item = 200292, slot = L['plate']}), -- Cragforge Pauldrons
+        Transmog({item = 200199, slot = L['mail']}) -- Elements' Burden
     }
 }) -- Shapemaster Za'lani
 

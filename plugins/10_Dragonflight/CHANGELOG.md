@@ -1,3 +1,7 @@
+# v153
+
+* Elite rares now group their shared drops into a dedicated tooltip section, sorted by armor type like regular rares.
+
 # v152
 
 * Fixed interval timers using the wrong region anchors for CN and TW realms.

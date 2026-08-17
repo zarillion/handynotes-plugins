@@ -497,10 +497,11 @@ map.nodes[55033405] = RareElite({
     note = L['spellwrought_snowman_note'],
     rewards = {
         Achievement({id = 16678, criteria = 56124}), -- Adventurer of The Azure Span
-        Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
         Transmog({item = 200211, slot = L['cloth']}), -- Snowman's Icy Gaze
-        Transmog({item = 200245, slot = L['2h_mace']}), -- Leviathan Lure
-        DC.CliffsideWylderdrake.FinnedCheek, DC.HighlandDrake.FinnedBack
+        DC.CliffsideWylderdrake.FinnedCheek, DC.HighlandDrake.FinnedBack,
+        Spacer(), Section(L['shared_drops']),
+        Transmog({item = 200187, slot = L['staff']}), -- Rod of Glacial Force
+        Transmog({item = 200245, slot = L['2h_mace']}) -- Leviathan Lure
     },
     pois = {
         POI({

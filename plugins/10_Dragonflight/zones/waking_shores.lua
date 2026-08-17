@@ -110,17 +110,18 @@ map.nodes[28635882] = RareElite({
     quest = 74040,
     rewards = {
         Achievement({id = 16676, criteria = 56059}),
-        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
-        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
-        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
-        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth,
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead, Spacer(),
+        Section(L['shared_drops']),
         Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
-        Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
-        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth,
-        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead
+        Transmog({item = 200252, slot = L['gun']}) -- Molten Flak Cannon
     }
 }) -- Battlehorn Pyrhus
 
@@ -152,11 +153,12 @@ map.nodes[26847642] = RareElite({
     note = L['captain_lancer_note'],
     rewards = {
         Achievement({id = 16676, criteria = 56050}),
-        Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
         Transmog({item = 200286, slot = L['polearm']}), -- Dragonbane Lance
-        Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
         DC.CliffsideWylderdrake.BluntSpikedTail,
-        DC.CliffsideWylderdrake.HornedNose
+        DC.CliffsideWylderdrake.HornedNose, Spacer(),
+        Section(L['shared_drops']),
+        Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
+        Transmog({item = 200169, slot = L['1h_mace']}) -- Protector's Molten Cudgel
     }
 }) -- Captain Lancer
 
@@ -190,18 +192,20 @@ map.nodes[29935074] = RareElite({
     location = L['in_cave'],
     rewards = {
         Achievement({id = 16676, criteria = 56060}), --
-        Transmog({item = 200199, slot = L['mail']}), -- Elements' Burden
-        Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
-        Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
-        Transmog({item = 200292, slot = L['plate']}), -- Cragforge Pauldrons
-        Transmog({item = 200293, slot = L['warglaive']}), -- Primal Scion's Twinblade
-        Transmog({item = 200294, slot = L['mail']}), -- Primal Chain Hauberk
-        Transmog({item = 200313, slot = L['cloak']}), -- Earthen Protoscale Drape
-        Transmog({item = 200439, slot = L['offhand']}), -- Earthpact Scepter
-        Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
-        Toy({item = 200198}), -- Primalist Prison
         DC.RenewedProtoDrake.HeavyHorns, DC.WindborneVelocidrake.ClubTail,
-        DC.WindborneVelocidrake.ClusterHorns, DC.CliffsideWylderdrake.BlackHorns
+        DC.WindborneVelocidrake.ClusterHorns,
+        DC.CliffsideWylderdrake.BlackHorns, Spacer(),
+        Section(L['shared_drops']),
+        Transmog({item = 200292, slot = L['plate']}), -- Cragforge Pauldrons
+        Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
+        Transmog({item = 200199, slot = L['mail']}), -- Elements' Burden
+        Transmog({item = 200294, slot = L['mail']}), -- Primal Chain Hauberk
+        Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
+        Transmog({item = 200313, slot = L['cloak']}), -- Earthen Protoscale Drape
+        Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
+        Transmog({item = 200293, slot = L['warglaive']}), -- Primal Scion's Twinblade
+        Transmog({item = 200439, slot = L['offhand']}), -- Earthpact Scepter
+        Toy({item = 200198}) -- Primalist Prison
     },
     pois = {POI({29335248, 30535144})}
 }) -- Char
@@ -214,17 +218,18 @@ map.nodes[31785474] = RareElite({
     rewards = {
         Achievement({id = 16676, criteria = 56053}),
         Achievement({id = 16496, criteria = 56053}), -- Obsidian Champion
+        DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth,
+        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead, Spacer(),
+        Section(L['shared_drops']),
+        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
+        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
+        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
         Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
-        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
-        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
-        Transmog({item = 200195, slot = L['plate']}), -- Thunderscale Legguards
         Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
-        Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth,
-        DC.CliffsideWylderdrake.HeadMane, DC.HighlandDrake.ManedHead,
         Toy({item = 200249}) -- Mage's Chewed Wand
     },
     pois = {POI({27735660})} -- Sabellian
@@ -274,6 +279,7 @@ map.nodes[21626478] = RareElite({
     rewards = {
         Achievement({id = 16676, criteria = 56049}),
         Transmog({item = 200167, slot = L['1h_axe']}), -- Regurgitated Stone Handaxe
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}) -- Molten Flak Cannon
         -- DC.RenewedProtoDrake.ImpalerHorns -- needs review, is not in wowhead drops
@@ -288,13 +294,14 @@ map.nodes[33127632] = RareElite({
     rewards = {
         Achievement({id = 16676, criteria = 56048}),
         Achievement({id = 16446, criteria = 55394, note = L['pretty_neat_note']}),
-        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
-        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
-        Transmog({item = 200256, slot = L['offhand']}), -- Darkmaul Soul Horn
+        DC.CliffsideWylderdrake.HornedJaw, DC.RenewedProtoDrake.WhiteHorns,
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane, Spacer(),
+        Section(L['shared_drops']),
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
         Transmog({item = 200310, slot = L['cloak']}), -- Stole of the Iron Phantom
-        DC.CliffsideWylderdrake.HornedJaw, DC.RenewedProtoDrake.WhiteHorns,
-        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Transmog({item = 200256, slot = L['offhand']}) -- Darkmaul Soul Horn
     }
 }) -- Forgotten Gryphon
 
@@ -362,14 +369,14 @@ map.nodes[22207649] = RareElite({
     rewards = {
         Achievement({id = 16676, criteria = 56047}),
         Transmog({item = 200192, slot = L['1h_mace']}), -- Handheld Geyser
+        DC.CliffsideWylderdrake.FinnedNeck,
+        DC.WindborneVelocidrake.LargeHeadFin, DC.RenewedProtoDrake.ImpalerHorns,
+        DC.HighlandDrake.ToothyMouth, Spacer(), Section(L['shared_drops']),
+        Transmog({item = 200435, slot = L['cloth']}), -- Brackish Breeches
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
         Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
-        Transmog({item = 200151, slot = L['1h_sword']}), -- Seamist Blade
-        Transmog({item = 200435, slot = L['cloth']}), -- Brackish Breeches
-        DC.CliffsideWylderdrake.FinnedNeck,
-        DC.WindborneVelocidrake.LargeHeadFin, DC.RenewedProtoDrake.ImpalerHorns,
-        DC.HighlandDrake.ToothyMouth
+        Transmog({item = 200151, slot = L['1h_sword']}) -- Seamist Blade
     }
 }) -- Massive Magmashell
 
@@ -381,10 +388,11 @@ map.nodes[32805248] = RareElite({
     rewards = {
         Achievement({id = 16676, criteria = 56988}),
         Achievement({id = 16496, criteria = 56988}), -- Obsidian Champion
-        Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
-        Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
+        DC.WindborneVelocidrake.ClubTail, DC.CliffsideWylderdrake.BlackHorns,
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
-        DC.WindborneVelocidrake.ClubTail, DC.CliffsideWylderdrake.BlackHorns
+        Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
+        Transmog({item = 200246, slot = L['staff']}) -- Lost Delving Lamp
     },
     pois = {POI({32245246})} -- Igys the Believer
 }) -- Morchok
@@ -450,10 +458,11 @@ map.nodes[24005896] = RareElite({
     note = L['obsidian_throne_rare_note'],
     rewards = {
         Achievement({id = 16676, criteria = 56061}),
-        Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
-        Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
         DC.CliffsideWylderdrake.BluntSpikedTail,
-        DC.CliffsideWylderdrake.HornedNose
+        DC.CliffsideWylderdrake.HornedNose, Spacer(),
+        Section(L['shared_drops']),
+        Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
+        Transmog({item = 200169, slot = L['1h_mace']}) -- Protector's Molten Cudgel
     },
     pois = {POI({27226096})} -- Entrance
 }) -- Rasnar the War Ender
@@ -464,11 +473,12 @@ map.nodes[30736110] = RareElite({
     quest = 74052,
     rewards = {
         Achievement({id = 16676, criteria = 56057}),
-        Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
+        DC.CliffsideWylderdrake.HornedNose,
+        DC.CliffsideWylderdrake.BluntSpikedTail, Spacer(),
+        Section(L['shared_drops']),
         Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
-        DC.CliffsideWylderdrake.HornedNose,
-        DC.CliffsideWylderdrake.BluntSpikedTail
+        Transmog({item = 200169, slot = L['1h_mace']}) -- Protector's Molten Cudgel
     }
 }) -- Rohzor Forgesmash
 
@@ -497,14 +507,14 @@ map.nodes[23755724] = RareElite({
     rewards = {
         Achievement({id = 16676, criteria = 56054}),
         Achievement({id = 16496, criteria = 56054}), -- Obsidian Champion
-        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane, Spacer(),
+        Section(L['shared_drops']), Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
         Transmog({item = 200174, slot = L['leather']}), -- Bonesigil Shoulderguards
-        Transmog({item = 200186, slot = L['mail']}), -- Amberquill Shroud
-        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
-        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
         Transmog({item = 200442, slot = L['leather']}), -- Basilisk Hide Jerkin
-        Toy({item = 200249}), -- Mage's Chewed Wand
-        DC.HighlandDrake.ManedHead, DC.CliffsideWylderdrake.HeadMane
+        Transmog({item = 200193, slot = L['cloth']}), -- Manafrond Sandals
+        Transmog({item = 200131, slot = L['dagger']}), -- Reclaimed Survivalist's Dagger
+        Transmog({item = 200232, slot = L['warglaive']}), -- Raptor Talonglaive
+        Toy({item = 200249}) -- Mage's Chewed Wand
     },
     pois = {
         POI({
@@ -620,10 +630,11 @@ map.nodes[33525576] = RareElite({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 16676, criteria = 56058}),
-        Transmog({item = 200246, slot = L['staff']}), -- Lost Delving Lamp
+        DC.WindborneVelocidrake.ClubTail, DC.CliffsideWylderdrake.BlackHorns,
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
         Transmog({item = 200244, slot = L['leather']}), -- Enchanted Muckstompers
-        DC.WindborneVelocidrake.ClubTail, DC.CliffsideWylderdrake.BlackHorns
+        Transmog({item = 200246, slot = L['staff']}) -- Lost Delving Lamp
     }
 }) -- Turboris
 
@@ -634,12 +645,13 @@ map.nodes[30025534] = RareElite({
     note = L['worldcarver_atir_note'],
     rewards = {
         Achievement({id = 16676, criteria = 56052}),
-        Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
         Transmog({item = 200213, slot = L['plate']}), -- Lava-Splattered Breastplate
+        DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth,
+        Spacer(), Section(L['shared_drops']),
+        Transmog({item = 200683, slot = L['plate']}), -- Legguards of the Deep Strata
         Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
         Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
-        Transmog({item = 200252, slot = L['gun']}), -- Molten Flak Cannon
-        DC.RenewedProtoDrake.ImpalerHorns, DC.HighlandDrake.ToothyMouth
+        Transmog({item = 200252, slot = L['gun']}) -- Molten Flak Cannon
     }
 }) -- Worldcarver A'tir
 
