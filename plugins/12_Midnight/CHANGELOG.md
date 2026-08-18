@@ -1,3 +1,15 @@
+# v153
+
+* Live event tooltips now color-code the remaining time and refresh automatically when the timer window changes.
+* Interval tooltips now show time remaining and next spawn on two lines, like live events.
+* Timer icons now enlarge during the final 30 minutes (yellow) and 10 minutes (green) before a spawn, capped for longer cycles.
+* Interval icons stay enlarged for 3 minutes after a spawn.
+* Event and spawn timers now follow Blizzard's time display options (Use Local Time and the 12/24-hour clock).
+* Timer tooltips label each time as local or server time, matching Blizzard's setting.
+* Fixed rare node icons not enlarging during their timer window.
+* Added a note to Curse Surge elites about the 45-minute event rotation and cross-realm grouping.
+* Localization updates
+
 # v152
 
 * Added Curse Surge event rare nodes in The Coiled Isle with live countdown timers (remaining time and next event).
