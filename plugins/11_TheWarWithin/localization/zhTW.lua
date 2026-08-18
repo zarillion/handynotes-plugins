@@ -1,4 +1,4 @@
-local ADDON_NAME, ns = ...
+﻿local ADDON_NAME, ns = ...
 local L = ns.NewLocale('zhTW')
 if not L then return end
 
@@ -220,7 +220,7 @@ L['furball_location'] = nil
 L['dander_location'] = nil
 L['gobbo_location'] = nil
 
-L['beledars_spawn_note'] = '此稀有會於固定時間在數個位置之一出現.\n\n下次刷新時間:\n{note:%s (%s)}'
+L['beledars_spawn_note'] = '此稀有會於固定時間在數個位置之一出現.\n\n%s\n%s'
 L['croakit_note'] = nil
 L['deathtide_note'] = nil
 L['murkshade_note'] = nil

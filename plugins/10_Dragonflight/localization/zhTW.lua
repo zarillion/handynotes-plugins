@@ -84,7 +84,7 @@ L['signal_transmitter_note'] = '{note:需要點機械心靈 10點\n需要點新�
 L['options_icons_signal_transmitter'] = '龍洞產生器信號發送器'
 L['options_icons_signal_transmitter_desc'] = '顯示 {item:198156} 所需的 {object:關閉的信號發送器} 位置.'
 
-L['rare_14h'] = '此稀有和其他稀有們共用一個14小時的循環, 每30分鐘會重生一隻稀有.\n\n下個可能的重生時間是: {note:%s}'
+L['rare_14h'] = '此稀有和其他稀有們共用一個14小時的循環, 每30分鐘會重生一隻稀有.\n\n%s'
 L['spawns_at_night'] = '{note:僅在晚上重生 (伺服器時間 18:30 之後)}'
 
 L['elemental_storm'] = '元素風暴'
@@ -203,9 +203,9 @@ L['options_icons_just_one_more_thing_desc'] = nil
 -------------------------------- THE AZURE SPAN -------------------------------
 -------------------------------------------------------------------------------
 
-L['bisquis_note'] = '在 {location:伊斯凱拉} 的集體盛宴煮出傳奇級後打敗 {npc:197557}.'
+L['bisquis_note'] = '在 {location:伊斯凱拉} 的集體盛宴煮出傳奇級後打敗 {npc:197557}.\n\n%s'
 L['blightfur_note'] = '和 {npc:193633} 交談來召喚稀有.'
-L['brackenhide_rare_note'] = '這些稀有會有10分鐘的間隔以 {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} 的順序刷新.'
+L['brackenhide_rare_note'] = '這些稀有會有10分鐘的間隔以 {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} 的順序刷新.\n\n%s'
 L['fisherman_tinnak_note'] = '收集{object:破損的釣魚竿}, {object:破損的捕漁網} 和 {object:舊魚叉}來召喚稀有.'
 L['frostpaw_note'] = '在取得 {object:木頭錘子} 後, 你有20秒可以在 {object:樹樁} 上打 {object:痛扁豺狼人}, 並刷新稀有.'
 L['sharpfang_note'] = '幫助 {npc:192747} 打敗 {npc:192748} 來刷新稀有.'
@@ -563,7 +563,7 @@ L['options_icons_nokhud_do_it_desc'] = '顯示成就 {achievement:16583} 有用�
 
 L['chest_of_the_flood'] = '洪流寶箱'
 
-L['aylaag_camp_note'] = '{faction:艾拉格氏族} 每3天又3小時 (75小時) 移動到另外一個營地, 跟著他們並在路上保護他們.'
+L['aylaag_camp_note'] = '{faction:艾拉格氏族} 每3天又3小時 (75小時) 移動到另外一個營地, 跟著他們並在路上保護他們.\n\n%s'
 
 L['clan_chest'] = '氏族箱子'
 L['options_icons_clan_chest'] = '氏族箱子'

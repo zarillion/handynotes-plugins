@@ -953,19 +953,16 @@ function Interval:GetText()
     if TimeLeft < self:Threshold('green', 0.1) then color = ns.color.Green end
     SpawnsIn = color(SpawnsIn)
 
-    -- next spawn line, split out from the countdown like the live events
+    -- next spawn line, like the live events
     local timeLine = EVENT_NEXT .. ' ' ..
                          ns.color
                              .Orange(
             date(TimeFormat, ServerClockEpoch(NextSpawn)))
 
-    -- the countdown label is shared with the live events instead of being
-    -- spelled out in every template; templates just hold the %s placeholder
+    -- countdown label shared with live events; templates hold the %s
     local text
     if self.text then
-        -- templates with two placeholders (countdown, spawn time), like the
-        -- beledar note, take the values directly; single-%s templates get
-        -- the countdown and the next-spawn line below it
+        -- two-%s templates take both values; single-%s gets the line below
         local _, placeholders = self.text:gsub('%%s', '')
         if placeholders > 1 then
             text = format(self.text, EVENT_NEXT .. ' ' .. SpawnsIn, timeLine)

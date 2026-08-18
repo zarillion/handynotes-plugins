@@ -84,7 +84,7 @@ L['signal_transmitter_note'] = '{note:Requiere 10 puntos en Mente mecánica\nReq
 L['options_icons_signal_transmitter'] = 'Transmisores de generador de agujeros de vermis'
 L['options_icons_signal_transmitter_desc'] = 'Muestra dónde están los {object:Transmisor desactivado} para los {item:198156}.'
 
-L['rare_14h'] = 'Este raro está en una rotación de 14 horas junto con otros raros. Hay una aparición rara cada 30 minutos.\n\nPróxima aparición: {note:%s}'
+L['rare_14h'] = 'Este raro está en una rotación de 14 horas junto con otros raros. Hay una aparición rara cada 30 minutos.\n\n%s'
 L['spawns_at_night'] = '{note:Sólo aparece por la noche. (Después de las 18:30 hora del servidor)}'
 
 L['elemental_storm'] = 'Tormenta elemental'
@@ -203,9 +203,9 @@ L['options_icons_just_one_more_thing_desc'] = 'Muestra el progreso para cada cri
 -------------------------------- THE AZURE SPAN -------------------------------
 -------------------------------------------------------------------------------
 
-L['bisquis_note'] = 'Cocina una sopa legendaria en el festín comunitario de {location:Iskaara} y luego derrota a {npc:197557}.\n\nSiguiente festín: {note:%s}'
+L['bisquis_note'] = 'Cocina una sopa legendaria en el festín comunitario de {location:Iskaara} y luego derrota a {npc:197557}.\n\n%s'
 L['blightfur_note'] = 'Habla con {npc:193633} para hacer aparecer al raro.'
-L['brackenhide_rare_note'] = 'Estos raros aparecen en una rotación fija en el siguiente orden: {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} con una diferencia de 10 minutos.\n\nSiguiente aparición posible: {note:%s}'
+L['brackenhide_rare_note'] = 'Estos raros aparecen en una rotación fija en el siguiente orden: {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} con una diferencia de 10 minutos.\n\n%s'
 L['fisherman_tinnak_note'] = 'Recoge la {object:Caña de pescar rota}, la {object:Red de pesca rasgada} y el {object:Arpón viejo} para hacer aparecer al raro.'
 L['frostpaw_note'] = 'Después de coger el {object:Martillo de madera}, tienes 20 segundos para golpear el {object:Machacagnolls} en el {object:Tocón}, y hacer aparecer al raro.'
 L['sharpfang_note'] = 'Ayuda a {npc:192747} a derrotar a los {npc:192748} para hacer aparecer al raro.'
@@ -562,7 +562,7 @@ L['options_icons_nokhud_do_it_desc'] = 'Muestra información de ayuda para compl
 
 L['chest_of_the_flood'] = 'Cofre de la inundación'
 
-L['aylaag_camp_note'] = 'El {faction:Clan Aylaag} se mueve de un campamento a otro cada 3 días y 3 horas (75 horas). Síguelos y defiéndelos durante su marcha.'
+L['aylaag_camp_note'] = 'El {faction:Clan Aylaag} se mueve de un campamento a otro cada 3 días y 3 horas (75 horas). Síguelos y defiéndelos durante su marcha.\n\n%s'
 
 L['clan_chest'] = 'Cofre de clan'
 L['options_icons_clan_chest'] = 'Cofres de clan'

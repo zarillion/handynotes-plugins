@@ -84,7 +84,7 @@ L['signal_transmitter_note'] = '{note:需要10点机械头脑\n需要30点新奇
 L['options_icons_signal_transmitter'] = '龙洞发生器信号发射机'
 L['options_icons_signal_transmitter_desc'] = '显示 {item:198156} 的 {object:关闭的信号发射机} 的位置。'
 
-L['rare_14h'] = '此稀有与其他稀有构成14小时的循环，每30分钟出现一个稀有。\n\n下次出现：{note:%s}'
+L['rare_14h'] = '此稀有与其他稀有构成14小时的循环，每30分钟出现一个稀有。\n\n%s'
 L['spawns_at_night'] = '{note:只可能在夜间出现。（服务器时间18:30之后）}'
 
 L['elemental_storm'] = '元素风暴'
@@ -203,9 +203,9 @@ L['options_icons_just_one_more_thing_desc'] = '显示 {achievement:19792} 的成
 -------------------------------- THE AZURE SPAN -------------------------------
 -------------------------------------------------------------------------------
 
-L['bisquis_note'] = '在 {location:伊斯卡拉} 的社区盛宴烹饪出传说品质的汤，然后击败 {npc:197557}。\n\n下次宴会：{note:%s}'
+L['bisquis_note'] = '在 {location:伊斯卡拉} 的社区盛宴烹饪出传说品质的汤，然后击败 {npc:197557}。\n\n%s'
 L['blightfur_note'] = '和 {npc:193633} 交谈开始召唤稀有。'
-L['brackenhide_rare_note'] = '这些稀有以10分钟计时按固定轮次 {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} 出现。\n\n下次可能出现：{note:%s}'
+L['brackenhide_rare_note'] = '这些稀有以10分钟计时按固定轮次 {npc:197344} > {npc:197353} > {npc:197354} > {npc:197356} 出现。\n\n%s'
 L['fisherman_tinnak_note'] = '收集 {object:破损的鱼竿}，{object:扯烂的渔网} 和 {object:旧鱼叉} 后稀有出现。'
 L['frostpaw_note'] = '拿上 {object:木槌} 后有20秒的时间去打 {object:树桩} 上的 {object:打豺狼人}，之后稀有出现。'
 L['sharpfang_note'] = '帮助 {npc:192747} 击败 {npc:192748} 后稀有出现。'
@@ -562,7 +562,7 @@ L['options_icons_nokhud_do_it_desc'] = '显示 {achievement:16583} 成就中有�
 
 L['chest_of_the_flood'] = '洪水宝箱'
 
-L['aylaag_camp_note'] = '{faction:艾拉格氏族} 每3天3小时（75小时）移动到另一个营地，跟随并在途中保护他们。\n\n下次移动：{note:%s}'
+L['aylaag_camp_note'] = '{faction:艾拉格氏族} 每3天3小时（75小时）移动到另一个营地，跟随并在途中保护他们。\n\n%s'
 
 L['clan_chest'] = '氏族宝箱'
 L['options_icons_clan_chest'] = '氏族宝箱'

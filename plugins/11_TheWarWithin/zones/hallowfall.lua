@@ -42,9 +42,24 @@ local map = Map({id = 2215, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
+-- 3-hour cycle phased off the daily quest reset clock (first spawn 61 min
+-- after reset); window thresholds come from the core defaults.
+local BeledarInterval = Class('BeledarInterval', ns.Interval, {
+    initial = {}, -- no fixed epoch; the reset clock phases Next()
+    interval = 10800, -- 3 hours, phased off the daily quest reset clock
+    text = L['beledars_spawn_note']
+})
+
+function BeledarInterval:Next()
+    local now = GetServerTime()
+    local timeLeft = (GetQuestResetTime() + 3660) % self.interval
+    return now + timeLeft, timeLeft
+end
+
 local BeledarsSpawn = Class('BeledarsSpawn', Rare, {
     id = 207802,
     quest = 81763, -- 85164
+    interval = BeledarInterval(),
     rewards = {
         Achievement({id = 40851, criteria = 69716}),
         Mount({item = 223315, id = 2192}),
@@ -59,30 +74,6 @@ local BeledarsSpawn = Class('BeledarsSpawn', Rare, {
         })
     }
 }) -- Beledar's Spawn
-
-function BeledarsSpawn.getters:note()
-    local timeFormat =
-        ns:GetOpt('use_standard_time') and L['time_format_12hrs'] or
-            L['time_format_24hrs']
-
-    local timeLeft = (GetQuestResetTime() + 3660) % 10800
-
-    -- base the spawn epoch on the server clock (not the machine clock) so
-    -- the display follows server time even if the client clock drifts
-    local serverNow = GetServerTime()
-    local nextSpawn = timeLeft + serverNow
-
-    local spawnsIn = ns.FormatCountdown(timeLeft)
-
-    local color = ns.color.Orange
-    if timeLeft < 1800 then color = ns.color.Yellow end -- 30 mins
-    if timeLeft < 600 then color = ns.color.Green end -- 10 mins
-    spawnsIn = color(spawnsIn)
-
-    -- shift by the server's timezone so date() renders the server wall clock
-    return format(L['beledars_spawn_note'], spawnsIn,
-        date(timeFormat, ns.ServerClockEpoch(nextSpawn)))
-end
 
 map.nodes[25004500] = BeledarsSpawn()
 

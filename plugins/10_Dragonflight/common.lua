@@ -1302,12 +1302,7 @@ ns.node.WarSupply = WarSupply
 -------------------------------------------------------------------------------
 ns.Intervals = ns.Intervals or {}
 
-local Interval = Class('Interval', ns.Interval, {
-    format_12hrs = L['time_format_12hrs'],
-    format_24hrs = L['time_format_24hrs']
-})
-
-ns.Intervals.Interval14h = Class('Interval14h', Interval, {
+ns.Intervals.Interval14h = Class('Interval14h', ns.Interval, {
     initial = {
         eu = 1676237400,
         us = 1677335400,
@@ -1316,26 +1311,22 @@ ns.Intervals.Interval14h = Class('Interval14h', Interval, {
     }, -- initial spawn time of the first rare to calculate other rares
     offset = 1800, -- time between rares
     interval = 50400, -- inverval of a single rare
-    yellow = 14400,
-    green = 1800,
     text = L['rare_14h']
 })
 
-ns.Intervals.BrackenhideInterval = Class('BrackenhideInterval', Interval, {
+ns.Intervals.BrackenhideInterval = Class('BrackenhideInterval', ns.Interval, {
     initial = {
         us = 1672531800,
         eu = 1672531200,
-        cn = 1672560600,
+        cn = 1672561200,
         tw = 1677162000
     },
     offset = 600,
     interval = 2400,
-    yellow = 1200,
-    green = 600,
     text = L['brackenhide_rare_note']
 })
 
-ns.Intervals.FeastInterval = Class('FeastInterval', Interval, {
+ns.Intervals.FeastInterval = Class('FeastInterval', ns.Interval, {
     initial = {
         us = 1677164400,
         eu = 1677168000,
@@ -1345,12 +1336,10 @@ ns.Intervals.FeastInterval = Class('FeastInterval', Interval, {
     offset = 5400,
     interval = 5400,
     id = 0,
-    yellow = 3600,
-    green = 600,
     text = L['bisquis_note']
 })
 
-ns.Intervals.AylaagCampInterval = Class('AylaagCampInterval', Interval, {
+ns.Intervals.AylaagCampInterval = Class('AylaagCampInterval', ns.Interval, {
     initial = {
         us = 1677456000,
         eu = 1677502800,
@@ -1360,8 +1349,6 @@ ns.Intervals.AylaagCampInterval = Class('AylaagCampInterval', Interval, {
     offset = 270000,
     interval = 810000,
     id = 0,
-    yellow = 7200,
-    green = 1800,
     text = L['aylaag_camp_note']
 })
 

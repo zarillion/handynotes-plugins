@@ -1,4 +1,4 @@
-local ADDON_NAME, ns = ...
+﻿local ADDON_NAME, ns = ...
 local L = ns.NewLocale('frFR')
 if not L then return end
 -- French translation by Lightuky EU-Khaz Modan
@@ -221,7 +221,7 @@ L['furball_location'] = 'À l\'intérieur du bâtiment en ruine.'
 L['dander_location'] = 'À l\'extérieur.'
 L['gobbo_location'] = 'À l\'intérieur du bâtiment, sur le lit.'
 
-L['beledars_spawn_note'] = 'Ce rare apparaît à un de ces endroits à intervalle fixe.\n\nProchaine apparition dans:\n{note:%s (%s)}'
+L['beledars_spawn_note'] = 'Ce rare apparaît à un de ces endroits à intervalle fixe.\n\n%s\n%s'
 L['croakit_note'] = 'Pêchez 10x {item:211474} au sein du {object:Banc de mérous sombrœil} proche (ou achetez-les à l\'hôtel des ventes) et lancez-les vers lui pour le rendre attaquable.'
 L['deathtide_note'] = 'Récupérez une {item:220122} {dot:Red} et un {item:220124} {dot:Green}. Combinez-les en l\'{item:220123} utilisée pour invoquer le rare à l\'{object:Autel menaçant}.'
 L['murkshade_note'] = 'Interagissez avec la {npc:218455}.'
