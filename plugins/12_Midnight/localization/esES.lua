@@ -214,4 +214,4 @@ L['options_icons_the_honored_dead_desc'] = 'Muestra dónde están las ubicacione
 L['options_icons_mysterious_mixing'] = '{achievement:63432}'
 L['options_icons_mysterious_mixing_desc'] = 'Muestra dónde están las ubicaciones para el logro {achievement:63432}.'
 L['mysterious_mixing_note'] = 'Completa la misión diaria {quest:97016} de {npc:263327} para crear ofrendas:\n\n{note:Los ingredientes se pueden conseguir de {object:Vaso canope agrietado}, {object:Adorno con coágulos venenosos}, y {object:Caparazón cantarín} a lo largo de la isla, o comprarse en la Casa de apuestas.}'
-L['curse_surge_note'] = 'Los eventos de Surgimiento Maldito rotan cada 45 minutos.\n\n{note:Si te lo perdiste, forma grupo con jugadores de otros reinos — el evento puede seguir activo en otros reinos.}'
+L['curse_surge_note'] = 'Los eventos de Oleada Maldita rotan cada 45 minutos.\n\n{note:Si te lo perdiste, forma grupo con jugadores de otros reinos — el evento puede seguir activo en otros reinos.}'
