@@ -75,6 +75,19 @@ for this node.
 function Node:GetDisplayInfo(mapID, minimap)
     local icon = ns.GetIconPath(self.icon)
     local scale = self.scale * self.group[1]:GetScale(mapID) -- Get scale/alpha form first (main) group
+    -- timer nodes enlarge while inside their timer window: 2.5x in the
+    -- green/red tiers, 1.8x in the yellow tier (interval nodes have no red
+    -- tier: their green window is 2.5x, the yellow window 1.8x)
+    if self.interval then
+        local isLive = IsInstance(self.interval, ns.Intervals.LiveEvent)
+        if (isLive and self.interval:IsSoon()) or
+            (not isLive and self.interval:IsGreen()) then
+            scale = 2.5 * self.group[1]:GetScale(mapID)
+        elseif (isLive and self.interval:IsYellow()) or
+            (not isLive and self.interval:IsSoon()) then
+            scale = 1.8 * self.group[1]:GetScale(mapID)
+        end
+    end
     local alpha = self.alpha * self.group[1]:GetAlpha(mapID)
 
     if not minimap and WorldMapFrame.isMaximized and
@@ -314,7 +327,6 @@ function Node:Render(tooltip, focusable)
         tooltip:AddLine(ns.RenderLinks('Poi ID: ' .. self.areaPOI), 0.58, 0.43,
             0.84)
     end
-
     -- optional text directly under label
     if self.sublabel then
         tooltip:AddLine(ns.RenderLinks(self.sublabel, true), 1, 1, 1)
@@ -342,28 +354,41 @@ function Node:Render(tooltip, focusable)
         tooltip:AddLine(ns.RenderLinks(self.location), 1, 1, 1, true)
     end
 
-    -- adds text if the node spawns in a specific rotation (live event
-    -- timers hide the line entirely when no event data is available)
-    if self.interval then
-        local intervalText = self.interval:GetText()
-        if intervalText then
-            if self.requires or self.sublabel or self.location or
-                IsInstance(self.interval, ns.Intervals.LiveEvent) then
-                GameTooltip_AddBlankLineToTooltip(tooltip)
-            end
-            for line in intervalText:gmatch('[^\n]+') do
-                tooltip:AddLine(ns.RenderLinks(line), 1, 1, 1, true)
-            end
-        end
-    end
-
     -- additional text for the node to describe how to interact with the
-    -- object or summon the rare
+    -- object or summon the rare; rendered before the interval timers so
+    -- live events line up with the old interval nodes. Blank line only
+    -- when the node already has text above, otherwise it hugs the label.
     if self.note and ns:GetOpt('show_notes') then
-        if self.requires or self.sublabel or self.location or self.interval then
+        if self.requires or self.sublabel or self.location then
             GameTooltip_AddBlankLineToTooltip(tooltip)
         end
         tooltip:AddLine(ns.RenderLinks(self.note), 1, 1, 1, true)
+    end
+
+    -- adds text if the node spawns in a specific rotation (live event
+    -- timers hide the line entirely when no event data is available);
+    -- always separated from the heading by a blank line. Paragraph breaks
+    -- in the text (\n\n in the note templates) render as blank lines too,
+    -- so the whole text is split on \n instead of skipping empty lines.
+    if self.interval then
+        local intervalText = self.interval:GetText()
+        if intervalText then
+            GameTooltip_AddBlankLineToTooltip(tooltip)
+            local lines = {}
+            for line in (intervalText .. '\n'):gmatch('(.-)\n') do
+                lines[#lines + 1] = line
+            end
+            if #lines > 0 and lines[#lines] == '' then
+                lines[#lines] = nil -- trailing break added by the .. '\n'
+            end
+            for i, line in ipairs(lines) do
+                if line == '' then
+                    GameTooltip_AddBlankLineToTooltip(tooltip)
+                else
+                    tooltip:AddLine(ns.RenderLinks(line), 1, 1, 1, true)
+                end
+            end
+        end
     end
 
     -- all rewards (achievements, pets, mounts, toys, quests) that can be
@@ -775,7 +800,19 @@ local Vendor = Class('Vendor', Collectible,
 -------------------------------- Interval Class -------------------------------
 -------------------------------------------------------------------------------
 
-local Interval = Class('Interval')
+-- tooltip labels come from core localization
+local EVENT_TIME_LEFT = L['time_remaining'] or 'Time Remaining:'
+local EVENT_STARTS_IN = L['starts_in'] or 'Starts In:'
+local EVENT_NEXT = L['next_time'] or 'Next:'
+
+local Interval = Class('Interval', nil, {
+    format_12hrs = L['time_format_12hrs'],
+    format_24hrs = L['time_format_24hrs'],
+    -- window thresholds: values below 1 are fractions of the cycle,
+    -- larger values are explicit seconds
+    yellow = 0.3,
+    green = 0.1
+})
 
 -- Read Blizzard's localized unit abbreviations from GlobalStrings so the
 -- widget countdown parser works in every locale.
@@ -863,6 +900,46 @@ function Interval:Next()
     return NextSpawn, TimeLeft
 end
 
+-- Threshold in seconds: class values below 1 are fractions of the cycle,
+-- larger values are explicit seconds.
+function Interval:Threshold(field, fallback)
+    local value = self[field]
+    if value and value < 1 then return value * self.interval end
+    return value or self.interval * fallback
+end
+
+-- True while the next spawn is inside the yellow (soon) window.
+function Interval:IsSoon()
+    local _, TimeLeft = self:Next()
+    local threshold = self:Threshold('yellow', 0.3)
+    return TimeLeft and threshold and TimeLeft < threshold
+end
+
+-- Interval nodes have no third tier: their yellow state is IsSoon itself and
+-- the green window is IsGreen, rendered at 1.8x and 2.5x in GetDisplayInfo.
+function Interval:IsYellow() return false end
+
+-- True while the next spawn is inside the green window.
+function Interval:IsGreen()
+    local _, TimeLeft = self:Next()
+    local threshold = self:Threshold('green', 0.1)
+    return TimeLeft and threshold and TimeLeft < threshold
+end
+
+-- Next moment the yellow or green window starts or ends (drives the
+-- scale-1.8/2.5 refresh), or nil when no spawn is scheduled.
+function Interval:NextBoundaryChange()
+    local NextSpawn = self:Next()
+    if not NextSpawn then return nil end
+    local now = GetServerTime()
+    local threshold = self:Threshold('yellow', 0.3)
+    local enterYellow = NextSpawn - threshold
+    if enterYellow > now then return enterYellow end
+    local enterGreen = NextSpawn - self:Threshold('green', 0.1)
+    if enterGreen > now then return enterGreen end
+    return NextSpawn -- already inside the window: leaving it is the change
+end
+
 function Interval:GetText()
     local TimeFormat = ns:GetOpt('use_standard_time') and self.format_12hrs or
                            self.format_24hrs
@@ -871,16 +948,34 @@ function Interval:GetText()
 
     local SpawnsIn = FormatCountdown(TimeLeft)
 
-    if self.yellow and self.green then
-        local color = ns.color.Orange
-        if TimeLeft < self.yellow then color = ns.color.Yellow end
-        if TimeLeft < self.green then color = ns.color.Green end
-        SpawnsIn = color(SpawnsIn)
-    end
+    local color = ns.color.Orange
+    if TimeLeft < self:Threshold('yellow', 0.3) then color = ns.color.Yellow end
+    if TimeLeft < self:Threshold('green', 0.1) then color = ns.color.Green end
+    SpawnsIn = color(SpawnsIn)
 
-    local text = format('%s (%s)', SpawnsIn,
-        date(TimeFormat, ServerClockEpoch(NextSpawn)))
-    if self.text then text = format(self.text, text) end
+    -- next spawn line, split out from the countdown like the live events
+    local timeLine = EVENT_NEXT .. ' ' ..
+                         ns.color
+                             .Orange(
+            date(TimeFormat, ServerClockEpoch(NextSpawn)))
+
+    -- the countdown label is shared with the live events instead of being
+    -- spelled out in every template; templates just hold the %s placeholder
+    local text
+    if self.text then
+        -- templates with two placeholders (countdown, spawn time), like the
+        -- beledar note, take the values directly; single-%s templates get
+        -- the countdown and the next-spawn line below it
+        local _, placeholders = self.text:gsub('%%s', '')
+        if placeholders > 1 then
+            text = format(self.text, EVENT_NEXT .. ' ' .. SpawnsIn, timeLine)
+        else
+            text = format(self.text, EVENT_NEXT .. ' ' .. SpawnsIn) .. '\n' ..
+                       timeLine
+        end
+    else
+        text = format('%s %s\n%s', EVENT_NEXT, SpawnsIn, timeLine)
+    end
     ns.PrepareLinks(text)
     return text
 end
@@ -892,11 +987,6 @@ end
 -- automatically via Node:Initialize. Without event data GetText() returns
 -- nil and the line is hidden.
 ns.Intervals = ns.Intervals or {}
-
--- tooltip labels come from core localization
-local EVENT_TIME_LEFT = L['time_remaining'] or 'Time Remaining:'
-local EVENT_STARTS_IN = L['starts_in'] or 'Starts In:'
-local EVENT_NEXT = L['next_time'] or 'Next:'
 
 local scheduled = {} -- areaPoiID -> {startTime = ..., endTime = ..., duration = ..., nextStart = ...}
 local hasScheduler = C_EventScheduler ~= nil
@@ -1037,8 +1127,9 @@ local function LiveEvent_GetDuration(areaPoiID)
 end
 
 local LiveEvent = Class('LiveEvent', Interval, {
-    format_12hrs = L['time_format_12hrs'],
-    format_24hrs = L['time_format_24hrs']
+    -- tier thresholds as fractions of the cycle/window duration
+    yellow = 0.3, -- yellow tooltip text (before start / while running)
+    green = 0.1 -- green text before start, red text while running
 })
 
 -- Interval:Initialize reads self.initial (hardcoded spawn epochs), which
@@ -1060,6 +1151,93 @@ function LiveEvent:Next()
     return now + left, left
 end
 
+-- True while the node is enlarged: green text before the event starts (10%
+-- of the cycle), then for the first 5 minutes after it starts, then again
+-- during the last 10% of the window (red text).
+function LiveEvent:IsSoon()
+    local now = GetServerTime()
+    local sched = scheduled[self.areaPoiID]
+    if sched and sched.startTime and sched.startTime > now then
+        local period = ((sched.nextStart or sched.endTime) or 0) -
+                           sched.startTime
+        if period <= 0 then period = sched.duration or 0 end
+        return period > 0 and sched.startTime - now < period * self.green
+    end
+    local left = EventSecondsLeft(self.areaPoiID)
+    local duration = LiveEvent_GetDuration(self.areaPoiID) or 0
+    if not left or duration <= 0 then return false end
+    -- last 10% of the running window (matches the red tooltip text)
+    if left < duration * self.green then return true end
+    -- first 5 minutes after the window starts (no tooltip color change)
+    local windowDur = sched and sched.startTime and sched.endTime and
+                          (sched.endTime - sched.startTime) or 0
+    return windowDur > 0 and left > windowDur - 300 and left <= windowDur
+end
+
+-- True while the tooltip shows yellow text: 30%-10% of the cycle before the
+-- start, 30%-10% of the window while running (drives the 1.8x scale tier).
+function LiveEvent:IsYellow()
+    local now = GetServerTime()
+    local sched = scheduled[self.areaPoiID]
+    if sched and sched.startTime and sched.startTime > now then
+        local period = ((sched.nextStart or sched.endTime) or 0) -
+                           sched.startTime
+        if period <= 0 then period = sched.duration or 0 end
+        local nextIn = sched.startTime - now
+        return
+            period > 0 and nextIn < period * self.yellow and nextIn >= period *
+                self.green
+    end
+    local left = EventSecondsLeft(self.areaPoiID)
+    local duration = LiveEvent_GetDuration(self.areaPoiID) or 0
+    return left and duration > 0 and left < duration * self.yellow and left >=
+               duration * self.green
+end
+
+-- Next moment the enlarged state changes (drives the scale-1.8/2.5 refresh):
+-- the yellow window entry when idle, the green window entry, the window start
+-- when already inside it, the end of the 5-minute post-start hold, the yellow
+-- window entry while running, the red window entry, or the window end.
+function LiveEvent:NextBoundaryChange()
+    local now = GetServerTime()
+    local sched = scheduled[self.areaPoiID]
+    if sched and sched.startTime and sched.startTime > now then
+        local period = ((sched.nextStart or sched.endTime) or 0) -
+                           sched.startTime
+        if period <= 0 then period = sched.duration or 0 end
+        if period > 0 then
+            local nextIn = sched.startTime - now
+            -- next state change: enter yellow, enter green, or the window
+            -- start
+            if nextIn > period * self.yellow then
+                return sched.startTime - period * self.yellow
+            end
+            if nextIn > period * self.green then
+                return sched.startTime - period * self.green
+            end
+            return sched.startTime -- inside the green window: leaving it is the change
+        end
+    end
+    local left = EventSecondsLeft(self.areaPoiID)
+    local duration = LiveEvent_GetDuration(self.areaPoiID) or 0
+    if left and duration > 0 then
+        local endTime = now + left
+        local windowDur = sched and sched.startTime and sched.endTime and
+                              (sched.endTime - sched.startTime) or 0
+        if windowDur > 0 and left > windowDur - 300 and left <= windowDur then
+            return endTime - (windowDur - 300) -- post-start hold ends here
+        end
+        if left > duration * self.yellow then
+            return endTime - duration * self.yellow -- hold over: entering yellow is the change
+        end
+        if left > duration * self.green then
+            return endTime - duration * self.green -- yellow over: entering red is the change
+        end
+        return endTime -- inside the red window: refresh when it ends
+    end
+    return nil
+end
+
 function LiveEvent:GetText()
     local TimeFormat = ns:GetOpt('use_standard_time') and self.format_12hrs or
                            self.format_24hrs
@@ -1075,8 +1253,8 @@ function LiveEvent:GetText()
         local duration = LiveEvent_GetDuration(self.areaPoiID) or 0
 
         -- time remaining: <10% window red, <30% yellow, else orange
-        local yellow = duration * 0.3
-        local red = duration * 0.1
+        local yellow = duration * self.yellow
+        local red = duration * self.green
 
         -- event cycle: next start minus this start (fall back to duration)
         local period = 0
@@ -1100,8 +1278,12 @@ function LiveEvent:GetText()
         -- cycle fraction: orange (far), yellow (soon), green (very soon)
         local nextColor = ns.color.Orange
         if period > 0 then
-            if nextIn < period * 0.3 then nextColor = ns.color.Yellow end
-            if nextIn < period * 0.1 then nextColor = ns.color.Green end
+            if nextIn < period * self.yellow then
+                nextColor = ns.color.Yellow
+            end
+            if nextIn < period * self.green then
+                nextColor = ns.color.Green
+            end
         end
 
         -- not started: countdown + next start time

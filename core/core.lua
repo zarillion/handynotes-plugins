@@ -290,4 +290,33 @@ function Addon:RefreshImmediate()
     self:SendMessage('HandyNotes_NotifyUpdate', ADDON_NAME)
     ns.MinimapDataProvider:RefreshAllData()
     ns.WorldMapDataProvider:RefreshAllData()
+    self:ScheduleTimerRefresh()
+end
+
+-- Refresh at the next yellow boundary so scale-2.5 updates without polling.
+function Addon:ScheduleTimerRefresh()
+    if self._timerRefreshTimer then
+        self:CancelTimer(self._timerRefreshTimer)
+        self._timerRefreshTimer = nil
+    end
+
+    local now = GetServerTime()
+    local nearest
+    for _, map in pairs(ns.maps) do
+        for _, node in pairs(map.nodes or {}) do
+            local interval = node.interval
+            if interval and interval.NextBoundaryChange then
+                local change = interval:NextBoundaryChange()
+                if change and change > now and (not nearest or change < nearest) then
+                    nearest = change
+                end
+            end
+        end
+    end
+
+    -- retry shortly when no zone data is loaded yet (startup order)
+    self._timerRefreshTimer = self:ScheduleTimer(function()
+        self._timerRefreshTimer = nil
+        self:Refresh()
+    end, nearest and nearest - now + 0.5 or 60)
 end
