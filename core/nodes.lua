@@ -807,11 +807,7 @@ local EVENT_NEXT = L['next_time'] or 'Next:'
 
 local Interval = Class('Interval', nil, {
     format_12hrs = L['time_format_12hrs'],
-    format_24hrs = L['time_format_24hrs'],
-    -- window thresholds: values below 1 are fractions of the cycle,
-    -- larger values are explicit seconds
-    yellow = 0.3,
-    green = 0.1
+    format_24hrs = L['time_format_24hrs']
 })
 
 -- Read Blizzard's localized unit abbreviations from GlobalStrings so the
@@ -906,42 +902,40 @@ function Interval:Next()
     return NextSpawn, TimeLeft
 end
 
--- Threshold in seconds: class values below 1 are fractions of the cycle,
--- larger values are explicit seconds.
-function Interval:Threshold(field, fallback)
-    local value = self[field]
-    if value and value < 1 then return value * self.interval end
-    return value or self.interval * fallback
+-- 30/10 min yellow/green-red windows, capped at a fraction of the cycle.
+function Interval:Threshold(field, cycle)
+    if field == 'yellow' then
+        return math.min(1800, (cycle or self.interval) * 0.3)
+    end
+    return math.min(600, (cycle or self.interval) * 0.1)
 end
 
--- True while the next spawn is inside the yellow (soon) window.
+-- True inside the yellow (soon) window.
 function Interval:IsSoon()
     local _, TimeLeft = self:Next()
-    local threshold = self:Threshold('yellow', 0.3)
+    local threshold = self:Threshold('yellow', self.interval)
     return TimeLeft and threshold and TimeLeft < threshold
 end
 
--- Interval nodes have no third tier: their yellow state is IsSoon itself and
--- the green window is IsGreen, rendered at 1.8x and 2.5x in GetDisplayInfo.
+-- No third tier: IsSoon is the yellow state, IsGreen the green window.
 function Interval:IsYellow() return false end
 
--- True while the next spawn is inside the green window.
+-- True inside the green window.
 function Interval:IsGreen()
     local _, TimeLeft = self:Next()
-    local threshold = self:Threshold('green', 0.1)
+    local threshold = self:Threshold('green', self.interval)
     return TimeLeft and threshold and TimeLeft < threshold
 end
 
--- Next moment the yellow or green window starts or ends (drives the
--- scale-1.8/2.5 refresh), or nil when no spawn is scheduled.
+-- Next yellow/green boundary (drives the scale refresh), nil without a spawn.
 function Interval:NextBoundaryChange()
     local NextSpawn = self:Next()
     if not NextSpawn then return nil end
     local now = GetServerTime()
-    local threshold = self:Threshold('yellow', 0.3)
+    local threshold = self:Threshold('yellow', self.interval)
     local enterYellow = NextSpawn - threshold
     if enterYellow > now then return enterYellow end
-    local enterGreen = NextSpawn - self:Threshold('green', 0.1)
+    local enterGreen = NextSpawn - self:Threshold('green', self.interval)
     if enterGreen > now then return enterGreen end
     return NextSpawn -- already inside the window: leaving it is the change
 end
@@ -955,8 +949,12 @@ function Interval:GetText()
     local SpawnsIn = FormatCountdown(TimeLeft)
 
     local color = ns.color.Orange
-    if TimeLeft < self:Threshold('yellow', 0.3) then color = ns.color.Yellow end
-    if TimeLeft < self:Threshold('green', 0.1) then color = ns.color.Green end
+    if TimeLeft < self:Threshold('yellow', self.interval) then
+        color = ns.color.Yellow
+    end
+    if TimeLeft < self:Threshold('green', self.interval) then
+        color = ns.color.Green
+    end
     SpawnsIn = color(SpawnsIn)
 
     -- next spawn line, like the live events
@@ -1128,11 +1126,7 @@ local function LiveEvent_GetDuration(areaPoiID)
     return sched and sched.duration
 end
 
-local LiveEvent = Class('LiveEvent', Interval, {
-    -- tier thresholds as fractions of the cycle/window duration
-    yellow = 0.3, -- yellow tooltip text (before start / while running)
-    green = 0.1 -- green text before start, red text while running
-})
+local LiveEvent = Class('LiveEvent', Interval, {})
 
 -- Interval:Initialize reads self.initial (hardcoded spawn epochs), which
 -- LiveEvent does not use; only copy the attrs.
@@ -1163,13 +1157,14 @@ function LiveEvent:IsSoon()
         local period = ((sched.nextStart or sched.endTime) or 0) -
                            sched.startTime
         if period <= 0 then period = sched.duration or 0 end
-        return period > 0 and sched.startTime - now < period * self.green
+        return period > 0 and sched.startTime - now <
+                   self:Threshold('green', period)
     end
     local left = EventSecondsLeft(self.areaPoiID)
     local duration = LiveEvent_GetDuration(self.areaPoiID) or 0
     if not left or duration <= 0 then return false end
-    -- last 10% of the running window (matches the red tooltip text)
-    if left < duration * self.green then return true end
+    -- inside the red window (matches the red tooltip text)
+    if left < self:Threshold('green', duration) then return true end
     -- first 5 minutes after the window starts (no tooltip color change)
     local windowDur = sched and sched.startTime and sched.endTime and
                           (sched.endTime - sched.startTime) or 0
@@ -1186,14 +1181,14 @@ function LiveEvent:IsYellow()
                            sched.startTime
         if period <= 0 then period = sched.duration or 0 end
         local nextIn = sched.startTime - now
-        return
-            period > 0 and nextIn < period * self.yellow and nextIn >= period *
-                self.green
+        return period > 0 and nextIn < self:Threshold('yellow', period) and
+                   nextIn >= self:Threshold('green', period)
     end
     local left = EventSecondsLeft(self.areaPoiID)
     local duration = LiveEvent_GetDuration(self.areaPoiID) or 0
-    return left and duration > 0 and left < duration * self.yellow and left >=
-               duration * self.green
+    return
+        left and duration > 0 and left < self:Threshold('yellow', duration) and
+            left >= self:Threshold('green', duration)
 end
 
 -- Next moment the enlarged state changes (drives the scale-1.8/2.5 refresh):
@@ -1211,12 +1206,10 @@ function LiveEvent:NextBoundaryChange()
             local nextIn = sched.startTime - now
             -- next state change: enter yellow, enter green, or the window
             -- start
-            if nextIn > period * self.yellow then
-                return sched.startTime - period * self.yellow
-            end
-            if nextIn > period * self.green then
-                return sched.startTime - period * self.green
-            end
+            local yellow = self:Threshold('yellow', period)
+            if nextIn > yellow then return sched.startTime - yellow end
+            local green = self:Threshold('green', period)
+            if nextIn > green then return sched.startTime - green end
             return sched.startTime -- inside the green window: leaving it is the change
         end
     end
@@ -1229,12 +1222,10 @@ function LiveEvent:NextBoundaryChange()
         if windowDur > 0 and left > windowDur - 300 and left <= windowDur then
             return endTime - (windowDur - 300) -- post-start hold ends here
         end
-        if left > duration * self.yellow then
-            return endTime - duration * self.yellow -- hold over: entering yellow is the change
-        end
-        if left > duration * self.green then
-            return endTime - duration * self.green -- yellow over: entering red is the change
-        end
+        local yellow = self:Threshold('yellow', duration)
+        if left > yellow then return endTime - yellow end -- hold over: entering yellow is the change
+        local green = self:Threshold('green', duration)
+        if left > green then return endTime - green end -- yellow over: entering red is the change
         return endTime -- inside the red window: refresh when it ends
     end
     return nil
@@ -1254,9 +1245,9 @@ function LiveEvent:GetText()
 
         local duration = LiveEvent_GetDuration(self.areaPoiID) or 0
 
-        -- time remaining: <10% window red, <30% yellow, else orange
-        local yellow = duration * self.yellow
-        local red = duration * self.green
+        -- time remaining: red window, then yellow, else orange
+        local yellow = self:Threshold('yellow', duration)
+        local red = self:Threshold('green', duration)
 
         -- event cycle: next start minus this start (fall back to duration)
         local period = 0
@@ -1280,10 +1271,10 @@ function LiveEvent:GetText()
         -- cycle fraction: orange (far), yellow (soon), green (very soon)
         local nextColor = ns.color.Orange
         if period > 0 then
-            if nextIn < period * self.yellow then
+            if nextIn < self:Threshold('yellow', period) then
                 nextColor = ns.color.Yellow
             end
-            if nextIn < period * self.green then
+            if nextIn < self:Threshold('green', period) then
                 nextColor = ns.color.Green
             end
         end
