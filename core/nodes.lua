@@ -930,11 +930,16 @@ end
 -- No third tier: IsSoon is the yellow state, IsGreen the green window.
 function Interval:IsYellow() return false end
 
--- True inside the green window.
+-- True inside the green window, or during the first 3 minutes right after a
+-- spawn (the icon stays enlarged; the tooltip text keeps its normal color).
 function Interval:IsGreen()
     local _, TimeLeft = self:Next()
     local threshold = self:Threshold('green', self.interval)
-    return TimeLeft and threshold and TimeLeft < threshold
+    if TimeLeft and threshold and TimeLeft < threshold then return true end
+    -- post-spawn hold: TimeLeft counts down to the *next* spawn, so the
+    -- current spawn was one interval ago; hold for the first 3 minutes
+    return TimeLeft and self.interval and TimeLeft > self.interval - 180 and
+               TimeLeft <= self.interval
 end
 
 -- Next yellow/green boundary (drives the scale refresh), nil without a spawn.
@@ -947,6 +952,9 @@ function Interval:NextBoundaryChange()
     if enterYellow > now then return enterYellow end
     local enterGreen = NextSpawn - self:Threshold('green', self.interval)
     if enterGreen > now then return enterGreen end
+    -- leaving the 3-minute post-spawn hold
+    local holdEnd = NextSpawn - self.interval + 180
+    if holdEnd > now then return holdEnd end
     return NextSpawn -- already inside the window: leaving it is the change
 end
 
