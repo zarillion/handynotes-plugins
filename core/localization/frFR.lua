@@ -87,7 +87,7 @@ L['in_building'] = 'A l\'intérieur du bâtiment.'
 ------------------------------------- TIME ------------------------------------
 L['starts_in'] = 'Commence dans :'
 L['time_remaining'] = 'Temps restant :'
-L['next_time'] = 'Prochain dans :'
+L['next_time'] = 'Prochain :'
 L['hourly'] = 'Une fois par heure'
 L['daily'] = 'Quotidiennement'
 L['weekly'] = 'Hebdomadaire'
