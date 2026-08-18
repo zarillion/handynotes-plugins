@@ -7,9 +7,9 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['netherwing_egg'] = '{item:32506}'
-L['mordenai_note'] = nil
-L['not_so_friendly_skies_note'] = nil
-L['netherwing_egg_note'] = nil
+L['mordenai_note'] = '{npc:22113} comienza la cadena de misiones para conseguir reputación con {faction:1015}. De Odiado a Neutral para desbloquear misiones repetibles en la isla del sur.'
+L['not_so_friendly_skies_note'] = 'Este es un buen lugar para farmear la {item:32509}. Un {npc:23188} aparece regularmente al norte encima del edificio y vuela directamente sobre ti para ser asesinado por un ataque a distancia.'
+L['netherwing_egg_note'] = 'Llévaselo a {npc:23141} para ganar 250 de reputación.'
 L['options_icons_netherwing_eggs'] = '{achievement:898}'
 L['options_icons_netherwing_eggs_desc'] = 'Muestra dónde están los {item:32506} para el logro {achievement:898}.'
 
