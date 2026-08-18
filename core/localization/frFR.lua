@@ -92,8 +92,10 @@ L['hourly'] = 'Une fois par heure'
 L['daily'] = 'Quotidiennement'
 L['weekly'] = 'Hebdomadaire'
 
-L['time_format_12hrs'] = '%I:%M %p - %d/%m heure du serveur'
-L['time_format_24hrs'] = '%H:%M - %d/%m heure du serveur'
+L['time_format_12hrs'] = '%I:%M %p - %d/%m'
+L['time_format_24hrs'] = '%H:%M - %d/%m'
+L['local_time'] = 'heure locale'
+L['server_time'] = 'heure du serveur'
 
 ----------------------------------- REWARDS -----------------------------------
 L['decor'] = 'Élément de décoration intérieure'

@@ -75,17 +75,17 @@ for this node.
 function Node:GetDisplayInfo(mapID, minimap)
     local icon = ns.GetIconPath(self.icon)
     local scale = self.scale * self.group[1]:GetScale(mapID) -- Get scale/alpha form first (main) group
-    -- timer nodes enlarge while inside their timer window: 2.5x in the
-    -- green/red tiers, 1.8x in the yellow tier (interval nodes have no red
-    -- tier: their green window is 2.5x, the yellow window 1.8x)
+    -- timer nodes enlarge while inside their timer window: 2.5x the default
+    -- scale in the green/red tiers, 1.8x in the yellow tier (interval nodes
+    -- have no red tier: their green window is 2.5x, the yellow window 1.8x)
     if self.interval then
         local isLive = IsInstance(self.interval, ns.Intervals.LiveEvent)
         if (isLive and self.interval:IsSoon()) or
             (not isLive and self.interval:IsGreen()) then
-            scale = 2.5 * self.group[1]:GetScale(mapID)
+            scale = self.scale * 2.5 * self.group[1]:GetScale(mapID)
         elseif (isLive and self.interval:IsYellow()) or
             (not isLive and self.interval:IsSoon()) then
-            scale = 1.8 * self.group[1]:GetScale(mapID)
+            scale = self.scale * 1.8 * self.group[1]:GetScale(mapID)
         end
     end
     local alpha = self.alpha * self.group[1]:GetAlpha(mapID)
@@ -324,8 +324,11 @@ function Node:Render(tooltip, focusable)
     end
     -- optional text directly under sublabel/label for development notes
     if self.areaPOI and _G['HandyNotes_ZarPluginsDevelopment'] then
+        local _, scale = self:GetDisplayInfo(0, true)
         tooltip:AddLine(ns.RenderLinks('Poi ID: ' .. self.areaPOI), 0.58, 0.43,
             0.84)
+        tooltip:AddLine(ns.RenderLinks('scale: ' .. ('%.2f'):format(scale)),
+            0.58, 0.43, 0.84)
     end
     -- optional text directly under label
     if self.sublabel then
@@ -810,6 +813,13 @@ local Interval = Class('Interval', nil, {
     format_24hrs = L['time_format_24hrs']
 })
 
+-- Timezone label appended to the clock lines in tooltips; follows the
+-- use_server_time option so the label can never contradict the value.
+local function TimezoneSuffix()
+    if ns:GetOpt('use_server_time') then return L['server_time'] end
+    return L['local_time']
+end
+
 -- Read Blizzard's localized unit abbreviations from GlobalStrings so the
 -- widget countdown parser works in every locale.
 local function AbbrForms(globalName, fallback)
@@ -957,10 +967,12 @@ function Interval:GetText()
     end
     SpawnsIn = color(SpawnsIn)
 
-    -- next spawn line, like the live events
+    -- next spawn line, like the live events; the timezone label follows the
+    -- use_server_time option so it can't contradict the displayed value
     local timeLine = EVENT_NEXT .. ' ' ..
                          ns.color
-                             .Orange(date(TimeFormat, DisplayEpoch(NextSpawn)))
+                             .Orange(date(TimeFormat, DisplayEpoch(NextSpawn)) ..
+                             ' ' .. TimezoneSuffix())
 
     -- countdown label shared with live events; templates hold the %s
     local text
@@ -1283,7 +1295,8 @@ function LiveEvent:GetText()
         if notStarted then
             text = format('%s %s\n%s %s', EVENT_STARTS_IN,
                 nextColor(FormatCountdown(nextIn)), EVENT_NEXT,
-                ns.color.Orange(date(TimeFormat, nextClock)))
+                ns.color.Orange(date(TimeFormat, nextClock) .. ' ' ..
+                    TimezoneSuffix()))
         else
             local SpawnsIn = FormatCountdown(TimeLeft)
 
@@ -1294,7 +1307,9 @@ function LiveEvent:GetText()
 
             if nextTime then
                 text = format('%s %s\n%s %s', EVENT_TIME_LEFT, SpawnsIn,
-                    EVENT_NEXT, ns.color.Orange(date(TimeFormat, nextClock)))
+                    EVENT_NEXT,
+                    ns.color.Orange(date(TimeFormat, nextClock) .. ' ' ..
+                        TimezoneSuffix()))
             else
                 text = format('%s %s', EVENT_TIME_LEFT, SpawnsIn)
             end

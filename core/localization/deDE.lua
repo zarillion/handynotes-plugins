@@ -94,6 +94,8 @@ L['weekly'] = 'Wöchentlich'
 
 L['time_format_12hrs'] = '%d.%m - %I:%M %p'
 L['time_format_24hrs'] = '%d.%m - %H:%M'
+L['local_time'] = 'Ortszeit'
+L['server_time'] = 'Serverzeit'
 
 ----------------------------------- REWARDS -----------------------------------
 L['decor'] = 'Behausungsdekoration'

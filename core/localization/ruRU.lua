@@ -92,8 +92,10 @@ L['hourly'] = 'Ежечасно'
 L['daily'] = 'Ежедневно'
 L['weekly'] = 'Раз в неделю'
 
-L['time_format_12hrs'] = '%e.%m - %I:%M %p Время сервера'
-L['time_format_24hrs'] = '%e.%m - %H:%M Время сервера'
+L['time_format_12hrs'] = '%e.%m - %I:%M %p'
+L['time_format_24hrs'] = '%e.%m - %H:%M'
+L['local_time'] = 'Местное время'
+L['server_time'] = 'Время сервера'
 
 ----------------------------------- REWARDS -----------------------------------
 L['decor'] = 'Декор для дома'

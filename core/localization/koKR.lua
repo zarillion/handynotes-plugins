@@ -94,6 +94,8 @@ L['weekly'] = '주간'
 
 L['time_format_12hrs'] = nil
 L['time_format_24hrs'] = nil
+L['local_time'] = '현지 시간'
+L['server_time'] = '서버 시간'
 
 ----------------------------------- REWARDS -----------------------------------
 L['decor'] = '하우징 장식'

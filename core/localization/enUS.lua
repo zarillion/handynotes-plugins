@@ -92,8 +92,10 @@ L['hourly'] = 'Hourly'
 L['daily'] = 'Daily'
 L['weekly'] = 'Weekly'
 
-L['time_format_12hrs'] = '%B %d - %I:%M %p server time'
-L['time_format_24hrs'] = '%B %d - %H:%M server time'
+L['time_format_12hrs'] = '%B %d - %I:%M %p'
+L['time_format_24hrs'] = '%B %d - %H:%M'
+L['local_time'] = 'local time'
+L['server_time'] = 'server time'
 
 ----------------------------------- REWARDS -----------------------------------
 L['decor'] = 'Housing Decor'

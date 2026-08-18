@@ -92,8 +92,10 @@ L['hourly'] = '每小时'
 L['daily'] = '每日'
 L['weekly'] = '每周'
 
-L['time_format_12hrs'] = '%m/%d - %I:%M %p 服务器时间'
-L['time_format_24hrs'] = '%m/%d - %H:%M 服务器时间'
+L['time_format_12hrs'] = '%m/%d - %I:%M %p'
+L['time_format_24hrs'] = '%m/%d - %H:%M'
+L['local_time'] = '本地时间'
+L['server_time'] = '服务器时间'
 
 ----------------------------------- REWARDS -----------------------------------
 L['decor'] = '装饰'
