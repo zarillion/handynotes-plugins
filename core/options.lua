@@ -25,6 +25,7 @@ ns.optionDefaults = {
         -- tooltip
         show_loot = true,
         show_notes = true,
+        interval_enlarged = true,
         show_npc_id = false,
 
         -- rewards
@@ -390,12 +391,19 @@ ns.options = {
                     desc = L['options_toggle_show_notes_desc'],
                     order = 52
                 },
+                interval_enlarged = {
+                    type = 'toggle',
+                    arg = 'interval_enlarged',
+                    name = L['options_toggle_interval_enlarged'],
+                    desc = L['options_toggle_interval_enlarged_desc'],
+                    order = 53
+                },
                 show_npc_id = {
                     type = 'toggle',
                     arg = 'show_npc_id',
                     name = L['options_toggle_show_npc_id'],
                     desc = L['options_toggle_show_npc_id_desc'],
-                    order = 53
+                    order = 54
                 }
             }
         },

@@ -78,7 +78,7 @@ function Node:GetDisplayInfo(mapID, minimap)
     -- timer nodes enlarge while inside their timer window: 2.5x the default
     -- scale in the green/red tiers, 1.8x in the yellow tier (interval nodes
     -- have no red tier: their green window is 2.5x, the yellow window 1.8x)
-    if self.interval then
+    if self.interval and ns:GetOpt('interval_enlarged') then
         local isLive = IsInstance(self.interval, ns.Intervals.LiveEvent)
         if (isLive and self.interval:IsSoon()) or
             (not isLive and self.interval:IsGreen()) then
