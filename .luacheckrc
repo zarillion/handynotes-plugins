@@ -75,6 +75,7 @@ read_globals = {
     'GetContainerNumSlots',
     'GetCurrentRegion',
     'GetCVar',
+    'GetCVarBool',
     'GetFactionDataByID', -- 11.0
     'GetFactionInfoByID', -- 10.2.7
     'GetGameTime',

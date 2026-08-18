@@ -813,11 +813,11 @@ local Interval = Class('Interval', nil, {
     format_24hrs = L['time_format_24hrs']
 })
 
--- Timezone label appended to the clock lines in tooltips; follows the
--- use_server_time option so the label can never contradict the value.
+-- Timezone label appended to the clock lines in tooltips; follows Blizzard's
+-- Use Local Time option so the label can never contradict the value.
 local function TimezoneSuffix()
-    if ns:GetOpt('use_server_time') then return L['server_time'] end
-    return L['local_time']
+    if GetCVarBool('timeMgrUseLocalTime') then return L['local_time'] end
+    return L['server_time']
 end
 
 -- Read Blizzard's localized unit abbreviations from GlobalStrings so the
@@ -875,11 +875,19 @@ end
 
 ns.ServerClockEpoch = ServerClockEpoch
 
--- date() epoch: local time or server clock per option.
+-- date() epoch: local or server clock, following Blizzard's Use Local Time
+-- option (timeMgrUseLocalTime: 0 = server time, 1 = local time).
 local function DisplayEpoch(serverEpoch)
-    if ns:GetOpt('use_server_time') then return ServerClockEpoch(serverEpoch) end
-    return serverEpoch
+    if GetCVarBool('timeMgrUseLocalTime') then return serverEpoch end
+    return ServerClockEpoch(serverEpoch)
 end
+
+-- Refresh when the player toggles Blizzard's time display options.
+ns.addon:RegisterEvent('CVAR_UPDATE', function(_, varname)
+    if varname == 'TIMEMGRUSELOCALTIME' or varname == 'TIMEMGRUSEMILITARYTIME' then
+        ns.addon:Refresh()
+    end
+end)
 
 function Interval:Initialize(attrs)
     if attrs then for k, v in pairs(attrs) do self[k] = v end end
@@ -959,8 +967,10 @@ function Interval:NextBoundaryChange()
 end
 
 function Interval:GetText()
-    local TimeFormat = ns:GetOpt('use_standard_time') and self.format_12hrs or
-                           self.format_24hrs
+    -- clock format follows Blizzard's time format option
+    -- (timeMgrUseMilitaryTime: 0 = 12-hour clock, 1 = 24-hour clock)
+    local TimeFormat = GetCVarBool('timeMgrUseMilitaryTime') and
+                           self.format_24hrs or self.format_12hrs
 
     local NextSpawn, TimeLeft = self:Next()
 
@@ -975,12 +985,11 @@ function Interval:GetText()
     end
     SpawnsIn = color(SpawnsIn)
 
-    -- next spawn line, like the live events; the timezone label follows the
-    -- use_server_time option so it can't contradict the displayed value
-    local timeLine = EVENT_NEXT .. ' ' ..
-                         ns.color
-                             .Orange(date(TimeFormat, DisplayEpoch(NextSpawn)) ..
-                             ' ' .. TimezoneSuffix())
+    -- next spawn line, like the live events; the timezone label follows
+    -- Blizzard's Use Local Time option so it can't contradict the value
+    local clockText = date(TimeFormat, DisplayEpoch(NextSpawn)) .. ' ' ..
+                          TimezoneSuffix()
+    local timeLine = EVENT_NEXT .. ' ' .. ns.color.Orange(clockText)
 
     -- countdown label shared with live events; templates hold the %s
     local text
@@ -1252,8 +1261,10 @@ function LiveEvent:NextBoundaryChange()
 end
 
 function LiveEvent:GetText()
-    local TimeFormat = ns:GetOpt('use_standard_time') and self.format_12hrs or
-                           self.format_24hrs
+    -- clock format follows Blizzard's time format option
+    -- (timeMgrUseMilitaryTime: 0 = 12-hour clock, 1 = 24-hour clock)
+    local TimeFormat = GetCVarBool('timeMgrUseMilitaryTime') and
+                           self.format_24hrs or self.format_12hrs
 
     local NextSpawn, TimeLeft = self:Next()
 
@@ -1301,10 +1312,11 @@ function LiveEvent:GetText()
 
         -- not started: countdown + next start time
         if notStarted then
+            local clockText = date(TimeFormat, nextClock) .. ' ' ..
+                                  TimezoneSuffix()
             text = format('%s %s\n%s %s', EVENT_STARTS_IN,
                 nextColor(FormatCountdown(nextIn)), EVENT_NEXT,
-                ns.color.Orange(date(TimeFormat, nextClock) .. ' ' ..
-                    TimezoneSuffix()))
+                ns.color.Orange(clockText))
         else
             local SpawnsIn = FormatCountdown(TimeLeft)
 
@@ -1314,10 +1326,10 @@ function LiveEvent:GetText()
             SpawnsIn = color(SpawnsIn)
 
             if nextTime then
+                local clockText = date(TimeFormat, nextClock) .. ' ' ..
+                                      TimezoneSuffix()
                 text = format('%s %s\n%s %s', EVENT_TIME_LEFT, SpawnsIn,
-                    EVENT_NEXT,
-                    ns.color.Orange(date(TimeFormat, nextClock) .. ' ' ..
-                        TimezoneSuffix()))
+                    EVENT_NEXT, ns.color.Orange(clockText))
             else
                 text = format('%s %s', EVENT_TIME_LEFT, SpawnsIn)
             end
