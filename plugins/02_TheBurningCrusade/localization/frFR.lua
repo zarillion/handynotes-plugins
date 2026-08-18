@@ -7,9 +7,9 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['netherwing_egg'] = '{item:32506}'
-L['mordenai_note'] = nil
-L['not_so_friendly_skies_note'] = nil
-L['netherwing_egg_note'] = nil
+L['mordenai_note'] = '{npc:22113} démarre la suite de quêtes permettant de faire passer votre réputation auprès de l\'{faction:1015} de Détesté à Neutre, et ainsi débloquer les quêtes répétables sur l\'île située au sud.'
+L['not_so_friendly_skies_note'] = 'Cet endroit est idéal pour farmer les {item:32509}. Un {npc:23188} apparaît régulièrement au nord, au-dessus du bâtiment, et passe directement au-dessus de vous, ce qui vous permet de le tuer avec une attaque à distance.'
+L['netherwing_egg_note'] = 'Apportez-le à {npc:23141} pour gagner 250 points de réputation.'
 L['options_icons_netherwing_eggs'] = '{achievement:898}'
 L['options_icons_netherwing_eggs_desc'] = 'Afficher les emplacements des {item:32506} pour le haut-fait {achievement:898}.'
 
