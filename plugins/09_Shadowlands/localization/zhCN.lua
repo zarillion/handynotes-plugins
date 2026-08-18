@@ -439,7 +439,7 @@ L['giant_cache_of_epic_treasure'] = '巨大的史诗财宝箱'
 L['spinebug_note'] = [[
 快看！{spell:343124}！勇敢的冒险家快过去，这肯定不是诡计。等一下，那是卡拉赞的音乐吗？{npc:174663} 在这里干嘛…？
 
-{spell:343163}!
+{spell:343163}！
 ]]
 
 L['oonar_sorrowbane_note'] = [[
@@ -966,7 +966,7 @@ L['requisites_originator_note'] = [[
 · {spell:366667} = 附魔材料和金币
 · {spell:366668} = 心能
 · {spell:366669} = 密文
-· {spell:366670} = 源生微粒和 {item:189179} （几率）
+· {spell:366670} = 源生微粒和 {item:189179}（几率）
 · {spell:366671} = 密文/微粒/心能
 · {spell:366672} = 密文装备
 ]]

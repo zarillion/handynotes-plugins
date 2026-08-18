@@ -7,6 +7,9 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['netherwing_egg'] = '{item:32506}'
+L['mordenai_note'] = nil
+L['not_so_friendly_skies_note'] = nil
+L['netherwing_egg_note'] = nil
 L['options_icons_netherwing_eggs'] = '{achievement:898}'
 L['options_icons_netherwing_eggs_desc'] = 'Zeigt mögliche Positionen für {item:32506} für den Erfolg {achievement:898} an.'
 

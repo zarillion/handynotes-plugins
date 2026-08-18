@@ -176,7 +176,7 @@ L['options_icon_settings'] = '图标设置'
 L['options_scale'] = '缩放'
 L['options_scale_desc'] = '1 = 100%'
 L['options_opacity'] = '透明度'
-L['options_opacity_desc'] = '0 = 透明, 1 = 不透明'
+L['options_opacity_desc'] = '0 = 透明，1 = 不透明'
 
 ---------------------------------- VISIBILITY ---------------------------------
 

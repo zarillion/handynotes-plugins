@@ -7,6 +7,9 @@ if not L then return end
 -------------------------------------------------------------------------------
 
 L['netherwing_egg'] = '{item:32506}'
+L['mordenai_note'] = '{npc:22113} starts the questline to get your reputation of {faction:1015} from Hated to Neutral to unlock repeatable quests on the island to the south.'
+L['not_so_friendly_skies_note'] = 'This is a good spot to farm the {item:32509}. A {npc:23188} spawns regularly to the north above the building and flys directly over you to be killed by a range attack.'
+L['netherwing_egg_note'] = 'Bring it to {npc:23141} to gain 250 reputation.'
 L['options_icons_netherwing_eggs'] = '{achievement:898}'
 L['options_icons_netherwing_eggs_desc'] = 'Display the location of {item:32506} for {achievement:898} achievement.'
 

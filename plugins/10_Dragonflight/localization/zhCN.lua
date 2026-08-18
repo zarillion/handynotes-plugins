@@ -152,21 +152,21 @@ L['fyrakk_assault_label'] = '菲莱克突袭'
 L['fyrakk_secured_shipment'] = '夺得的货物'
 
 L['shadowflame_forge_label'] = '暗影烈焰熔炉'
-L['shadowflame_forge_note'] = '制作如下配方时需要:\n{spell:408282}'
+L['shadowflame_forge_note'] = '制作如下配方时需要：\n{spell:408282}'
 L['shadowflame_blacksmithing_anvil_label'] = '暗影烈焰锻造铁砧'
-L['shadowflame_blacksmithing_anvil_note'] = '制作如下配方时需要:\n{spell:408288}\n{spell:408326}\n{spell:408283}\n{spell:408052}'
+L['shadowflame_blacksmithing_anvil_note'] = '制作如下配方时需要：\n{spell:408288}\n{spell:408326}\n{spell:408283}\n{spell:408052}'
 L['shadowflame_leatherworking_table_label'] = '暗影烈焰制皮桌'
-L['shadowflame_leatherworking_table_note'] = '制作如下配方时需要:\n{spell:406275}'
+L['shadowflame_leatherworking_table_note'] = '制作如下配方时需要：\n{spell:406275}'
 L['shadowflame_incantation_table_label'] = '暗影烈焰法咒桌'
-L['shadowflame_incantation_table_note'] = '制作如下配方时需要:\n{spell:405076}'
+L['shadowflame_incantation_table_note'] = '制作如下配方时需要：\n{spell:405076}'
 L['altar_of_decay_label'] = '腐朽祭坛'
-L['altar_of_decay_note'] = '制作如下配方时需要:\n{spell:110423}: \n腐朽图样\n腐朽注能材料\n\n{spell:264211}: \n毒素药水\n毒素瓶剂\n{spell:405879}'
+L['altar_of_decay_note'] = '制作如下配方时需要：\n{spell:110423}：\n腐朽图样\n腐朽注能材料\n\n{spell:264211}：\n毒素药水\n毒素瓶剂\n{spell:405879}'
 L['azure_loom_label'] = '碧蓝织布机'
-L['azure_loom_note'] = '制作如下配方时需要:\n{spell:376556}'
+L['azure_loom_note'] = '制作如下配方时需要：\n{spell:376556}'
 L['temporal_loom_label'] = '时光织布机'
-L['temporal_loom_note'] = '制作如下配方时需要:\n{spell:376557}'
+L['temporal_loom_note'] = '制作如下配方时需要：\n{spell:376557}'
 L['earthwarders_forge_label'] = '大地守护者的熔炉'
-L['earthwarders_forge_note'] = '制作如下配方时需要:\n{spell:367713}'
+L['earthwarders_forge_note'] = '制作如下配方时需要：\n{spell:367713}'
 
 L['dreamsurge_sublabel'] = '{note:只在 {location:梦涌} 在此区域处于活动状态时可用。}'
 L['celestine_vendor_note'] = '用 {item:207026} 兑换坐骑，玩具，宠物和幻化装备。'
@@ -191,7 +191,7 @@ L['clued_in_note'] = '{npc:210079} 于事件 {note:盛大发掘}，以及世界�
 L['options_icons_clued_in'] = '{achievement:19787}'
 L['options_icons_clued_in_desc'] = '显示成就 {achievement:19787} 中 {npc:210079} 的位置。'
 
-L['goggle_wobble_note'] = '在引导任务线或世界任务 {wq:科技占卜：……} 期间，穿戴 {item:202247} 的同时与 {npc:207763} {emote:/跳舞}({emote:/dance})。'
+L['goggle_wobble_note'] = '在引导任务线或世界任务 {wq:科技占卜：……} 期间，穿戴 {item:202247} 的同时与 {npc:207763} {emote:/跳舞}（{emote:/dance}）。'
 L['options_icons_goggle_wobble'] = '{achievement:19791}'
 L['options_icons_goggle_wobble_desc'] = '显示成就 {achievement:19791} 中 {npc:207763} 的位置。'
 
@@ -679,12 +679,12 @@ L['naszuro_thaldraszus_peak'] = '第二高的山峰上。'
 L['naszuro_temporal_conflux'] = '在龙雕像的头上。'
 
 L['revival_catalyst_label'] = '复苏化生'
-L['revival_catalyst_note'] = '将非套装装备转换为同等物品等级和装备槽套装装备。\n\n{currency:2912}: %d/%d'
+L['revival_catalyst_note'] = '将非套装装备转换为同等物品等级和装备槽套装装备。\n\n{currency:2912}：%d/%d'
 
 L['provisioner_aristta_note'] = '用 {currency:2657} 兑换幻化和坐骑。'
 
-L['investigators_pocketwatch_note_a'] = '1. 从 {location:纪元边界} 的 {location:万时旅店} 楼上的 {npc:204990} ({dot:Green}) 借用 {item:208449}。\n\n{note:必须之前已完成她的任务链。}'
-L['investigators_pocketwatch_note_b'] = '2. 在 {location:纪元边界} 的 {location:万时旅店} 楼下的 {npc:203769} ({dot:Blue}) 附近使用 {item:208449} 并从 {npc:207463} 购买 {item:208448}。\n\n{note:{item:208448} 的持续时间为30秒。快点！}'
+L['investigators_pocketwatch_note_a'] = '1. 从 {location:纪元边界} 的 {location:万时旅店} 楼上的 {npc:204990}（{dot:Green}）借用 {item:208449}。\n\n{note:必须之前已完成她的任务链。}'
+L['investigators_pocketwatch_note_b'] = '2. 在 {location:纪元边界} 的 {location:万时旅店} 楼下的 {npc:203769}（{dot:Blue}）附近使用 {item:208449} 并从 {npc:207463} 购买 {item:208448}。\n\n{note:{item:208448} 的持续时间为30秒。快点！}'
 L['investigators_pocketwatch_note_c'] = '3. 快速到达瀑布并喝 {item:208448}。与新可见的 {object:时润时钟} 交互以出现 {npc:201664}。'
 
 L['ominous_portal_label'] = '{npc:214985}'
@@ -996,7 +996,7 @@ L['snuggle_buddy_note'] = '在一艘小船里。'
 
 L['dreamseed_soil_label'] = '梦境之种壤土'
 L['dreamseed_soil_note'] = [[
-{currency:2650} 的捐献进度, 决定了在 {object:梦境之种秘宝} 中 {object:翡翠花蕾奖励} 的品质和找到 {item:210059} 的几率。
+{currency:2650} 的捐献进度，决定了在 {object:梦境之种秘宝} 中 {object:翡翠花蕾奖励} 的品质和找到 {item:210059} 的几率。
 
 {item:210224}（捐献 {currency:2650} 至少1次）
 {item:210225}（进度50%）
@@ -1078,7 +1078,7 @@ L['prismatic_note_5'] = '5. 将 {npc:奇娜} 放生回 {location:圣泉中庭} �
 L['options_icons_druid_glyph'] = '德鲁伊印记'
 L['options_icons_druid_glyph_desc'] = '显示 {note:德鲁伊印记} 的位置。'
 
-L['elianna_vendor_note'] = '完成 {location:翡翠梦境} 中的各项活动会奖励 %s (隐藏货币)。\n\n%s 达到7,000时可以从 {npc:211209} 处，解锁任务 {quest:78598}，奖励1个 {currency:2777}。\n\n用 {currency:2777} 来购买宠物和坐骑。'
+L['elianna_vendor_note'] = '完成 {location:翡翠梦境} 中的各项活动会奖励 %s（隐藏货币）。\n\n%s 达到7,000时可以从 {npc:211209} 处，解锁任务 {quest:78598}，奖励1个 {currency:2777}。\n\n用 {currency:2777} 来购买宠物和坐骑。'
 L['dream_energy_name'] = '梦境能量'
 L['dream_energy_info'] = '%s：%d/%d (%.1f%%)'
 
@@ -1105,17 +1105,17 @@ L['thorn_beast_bear'] = '{item:%d}（{npc:熊}）'
 L['thornbeast_disclaimer'] = '{note:注意：每种野兽的 {item:%s} 虽同名但不一样。}'
 
 L['thorn_laden_heart_note_1'] = '从 {location:翡翠梦境} 的任意 {npc:梦麋}、{npc:梦刃豹} 或 {npc:鬃罴} 三类野兽身上拾取到3种不同的 {item:209860}。'
-L['thorn_laden_heart_note_2'] = '获得一种野兽的 {item:209860} 之后, 去 {location:库尔提拉斯} 的 {location:德鲁斯瓦}, 找一只名唤 {npc:140044} 的母鹿。'
+L['thorn_laden_heart_note_2'] = '获得一种野兽的 {item:209860} 之后，去 {location:库尔提拉斯} 的 {location:德鲁斯瓦}，找一只名唤 {npc:140044} 的母鹿。'
 
 L['athainne_note_1'] = '{note:{npc:140044} 夜晚与 {npc:129771} 一起漫步，白天在 {location:奥尔法的兽穴} 休憩。}\n\n请求 {npc:140044} 祝福 {item:209860} 来制造 {item:209863}。'
-L['athainne_note_2'] = '得到 {item:209863} 之后, 去 {location:奥尔法的兽穴} 向 {npc:141159}求助。'
+L['athainne_note_2'] = '得到 {item:209863} 之后，去 {location:奥尔法的兽穴} 向 {npc:141159}求助。'
 
 L['ulfar_note_1'] = '请求 {npc:149386} 使用 {item:209863} 来制作 {item:209866}。'
 L['ulfar_note_2'] = '获得 {item:209866} 之后，回 {location:翡翠梦境}，为转化仪式找到合适的目标。'
 
-L['thorn_stag_note'] = '1. 杀死 {npc:210976}，对尸体使用 {item:209866}。梦麋重生为 {npc:210984} {npc:<荆生幽魂>}。\n\n2. 对其施放 {spell:1515}。\n\n3. {npc:210984} 有三种颜色(黑, 褐, 绿)。'
-L['thorn_saber_note'] = '1. 杀死 {npc:210975}，对尸体使用 {item:209867}。梦刃豹重生为 {npc:210981} {npc:<荆生幽魂>}。\n\n2. 对其施放 {spell:1515}。\n\n3. {npc:210981} 有三种颜色(黑, 绿, 灰)。'
-L['thorn_bear_note'] = '1. 杀死 {npc:210977}，对尸体使用 {item:209868}。鬃罴重生为 {npc:210988} {npc:<荆生幽魂>}。\n\n2. 对其施放 {spell:1515}。\n\n3. {npc:210988} 有三种颜色(褐, 暗, 绿)。'
+L['thorn_stag_note'] = '1. 杀死 {npc:210976}，对尸体使用 {item:209866}。梦麋重生为 {npc:210984} {npc:<荆生幽魂>}。\n\n2. 对其施放 {spell:1515}。\n\n3. {npc:210984} 有三种颜色（黑，褐，绿）。'
+L['thorn_saber_note'] = '1. 杀死 {npc:210975}，对尸体使用 {item:209867}。梦刃豹重生为 {npc:210981} {npc:<荆生幽魂>}。\n\n2. 对其施放 {spell:1515}。\n\n3. {npc:210981} 有三种颜色（黑，绿，灰）。'
+L['thorn_bear_note'] = '1. 杀死 {npc:210977}，对尸体使用 {item:209868}。鬃罴重生为 {npc:210988} {npc:<荆生幽魂>}。\n\n2. 对其施放 {spell:1515}。\n\n3. {npc:210988} 有三种颜色（褐，暗，绿）。'
 
 L['nahqi_note'] = '要对 {npc:210908} 施放 {spell:1515}，需要 {item:211314}。这来自于 {item:210061}。\n\n{npc:210908} {npc:<愈合余烬>} 围绕在 {location:阿梅达希尔} 高空 {note:逆时针} 绕圈缓慢飞翔，一圈下来耗时 17:30。 \n它的刷新时间最少30分钟。\n\n{note:这是只{npc:灵魂兽}。只有兽王猎人能驯服。}'
 
