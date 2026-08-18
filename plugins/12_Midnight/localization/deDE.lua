@@ -214,3 +214,4 @@ L['options_icons_the_honored_dead_desc'] = 'Zeigt die Positionen für den {achie
 L['options_icons_mysterious_mixing'] = '{achievement:63432}'
 L['options_icons_mysterious_mixing_desc'] = nil
 L['mysterious_mixing_note'] = nil
+L['curse_surge_note'] = 'Cursed-Surge-Ereignisse wechseln alle 45 Minuten.\n\n{note:Wenn du es verpasst hast, gruppiere dich realmübergreifend — auf anderen Realms läuft das Ereignis möglicherweise noch.}'

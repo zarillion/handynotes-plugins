@@ -213,3 +213,4 @@ L['options_icons_the_honored_dead_desc'] = '顯示 {achievement:63610} 成就的
 L['options_icons_mysterious_mixing'] = '{achievement:63432}'
 L['options_icons_mysterious_mixing_desc'] = nil
 L['mysterious_mixing_note'] = nil
+L['curse_surge_note'] = '詛咒狂潮事件每 45 分鐘輪換一次。\n\n{note:如果未完成，可跨服組隊完成——其他伺服器的事件可能仍在進行中。}'

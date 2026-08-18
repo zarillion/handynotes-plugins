@@ -214,6 +214,7 @@ map.nodes[26406480] = RareElite({
     id = 255088,
     quest = 93718,
     areaPOI = 8936,
+    note = L['curse_surge_note'],
     rewards = {
         Achievement({id = 63390, criteria = 115368}),
         Reputation({id = 2772, gain = 50, quest = 96966}),
@@ -229,6 +230,7 @@ map.nodes[45202840] = RareElite({
     id = 257863,
     quest = 93676,
     areaPOI = 8938,
+    note = L['curse_surge_note'],
     rewards = {
         Achievement({id = 63390, criteria = 115369}),
         Reputation({id = 2772, gain = 50, quest = 96967}),
@@ -244,6 +246,7 @@ map.nodes[71203130] = RareElite({
     id = 258254,
     quest = 93715,
     areaPOI = 8939,
+    note = L['curse_surge_note'],
     rewards = {
         Achievement({id = 63390, criteria = 115370}),
         Reputation({id = 2772, gain = 50, quest = 96968}),
@@ -258,6 +261,7 @@ map.nodes[67207740] = RareElite({
     id = 255927,
     quest = 93722,
     areaPOI = 8937,
+    note = L['curse_surge_note'],
     rewards = {
         Achievement({id = 63390, criteria = 115371}),
         Reputation({id = 2772, gain = 50, quest = 96969}),
@@ -273,6 +277,7 @@ map.nodes[46906220] = RareElite({
     id = 255087,
     quest = 93673,
     areaPOI = 8940,
+    note = L['curse_surge_note'],
     rewards = {
         Achievement({id = 63390, criteria = 111353}),
         Reputation({id = 2772, gain = 50, quest = 96970}),
