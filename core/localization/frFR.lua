@@ -261,6 +261,8 @@ L['options_toggle_show_notes'] = 'Montrer les Notes'
 L['options_toggle_show_notes_desc'] = 'Ajouter des notes utiles à l\'infobulle lorsqu\'elles sont disponibles'
 L['options_toggle_use_standard_time'] = 'Utiliser l\'horloge de 12 heures'
 L['options_toggle_use_standard_time_desc'] = 'Utiliser l\'horloge de 12 heures (ex : 8:00 PM) à la place de l\'horloge de 24 heures (ex : 20:00) dans les infobulles.'
+L['options_toggle_use_server_time'] = 'Utiliser l\'heure du serveur'
+L['options_toggle_use_server_time_desc'] = 'Affiche les heures dans le fuseau horaire du serveur au lieu de votre heure locale dans les infobulles.'
 L['options_toggle_show_npc_id'] = 'Afficher l\'ID du PNJ'
 L['options_toggle_show_npc_id_desc'] = 'Afficher L\'ID des PNJs afin d\'être utilisés par les addons de détection de rares.'
 

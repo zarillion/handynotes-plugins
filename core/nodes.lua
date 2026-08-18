@@ -869,6 +869,12 @@ end
 
 ns.ServerClockEpoch = ServerClockEpoch
 
+-- date() epoch: local time or server clock per option.
+local function DisplayEpoch(serverEpoch)
+    if ns:GetOpt('use_server_time') then return ServerClockEpoch(serverEpoch) end
+    return serverEpoch
+end
+
 function Interval:Initialize(attrs)
     if attrs then for k, v in pairs(attrs) do self[k] = v end end
 
@@ -956,8 +962,7 @@ function Interval:GetText()
     -- next spawn line, like the live events
     local timeLine = EVENT_NEXT .. ' ' ..
                          ns.color
-                             .Orange(
-            date(TimeFormat, ServerClockEpoch(NextSpawn)))
+                             .Orange(date(TimeFormat, DisplayEpoch(NextSpawn)))
 
     -- countdown label shared with live events; templates hold the %s
     local text
@@ -1270,7 +1275,7 @@ function LiveEvent:GetText()
         end
         local nextIn = nextTime and (nextTime - GetServerTime()) or 0
 
-        local nextClock = nextTime and ServerClockEpoch(nextTime)
+        local nextClock = nextTime and DisplayEpoch(nextTime)
 
         -- cycle fraction: orange (far), yellow (soon), green (very soon)
         local nextColor = ns.color.Orange
