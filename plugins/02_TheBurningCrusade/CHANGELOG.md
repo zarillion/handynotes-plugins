@@ -1,3 +1,7 @@
+# v154
+
+* Localization updates: esES, frFR
+
 # v148
 
 * Bump toc to 120100

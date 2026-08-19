@@ -1,3 +1,11 @@
+# v154
+
+* Added a toggle to control whether timer and interval icons enlarge during their spawn window.
+* Confirmed Ruby Writhe mount drops on Curse Surge elites in The Coiled Isle.
+* Updated Sss'alik's POI in The Coiled Isle.
+* Removed Snakehunter's Warglaive from shared drops in The Coiled Isle.
+* Localization updates
+
 # v153
 
 * Live event tooltips now color-code the remaining time and refresh automatically when the timer window changes.

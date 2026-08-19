@@ -1,3 +1,8 @@
+# v154
+
+* Added a toggle to control whether timer and interval icons enlarge during their spawn window.
+* Localization updates
+
 # v153
 
 * Shared rare drops are now grouped into a dedicated tooltip section, sorted by armor type.
