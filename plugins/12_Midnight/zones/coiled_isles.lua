@@ -156,8 +156,7 @@ map.nodes[57216417] = Rare({
         Achievement({id = 63358, criteria = 115285}),
         Reputation({id = 2772, gain = 50, quest = 98352}),
         Transmog({item = 280695, type = L['1h_axe']}), -- Skully's Skullcleaver
-        Spacer(), Section(L['shared_drops']),
-        Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Coin-Eye Skully
@@ -185,8 +184,7 @@ map.nodes[57304040] = Rare({
         Transmog({item = 280706, type = L['leather']}), -- Sss'alik's Rotting Claws
         Transmog({item = 280700, type = L['cloth']}), -- Armbands of the Rotten Claw
         Transmog({item = 276052, type = L['bow']}), -- Venomshot Greatbow
-        Spacer(), Section(L['shared_drops']),
-        Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Sss'alik
@@ -218,8 +216,7 @@ map.nodes[26406480] = RareElite({
         Reputation({id = 2772, gain = 50, quest = 96966}),
         Transmog({item = 276172, type = L['cloth']}), -- Headdress of Mutagenesis
         Transmog({item = 276166, type = L['warglaive']}), -- Twin-Headed Twinblade
-        Spacer(), Section(L['shared_drops']),
-        Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Looming Mutagenitor
@@ -234,8 +231,7 @@ map.nodes[45202840] = RareElite({
         Reputation({id = 2772, gain = 50, quest = 96967}),
         Transmog({item = 276173, type = L['plate']}), -- Clutchguard Sandals
         Transmog({item = 276175, type = L['cloak']}), -- Broodmother's Embrace
-        Spacer(), Section(L['shared_drops']),
-        Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Vassti, the Exalted Broodmother
@@ -249,8 +245,7 @@ map.nodes[71203130] = RareElite({
         Achievement({id = 63390, criteria = 115370}),
         Reputation({id = 2772, gain = 50, quest = 96968}),
         Transmog({item = 276168, type = L['offhand']}), -- Fang of Ss'akrithos
-        Spacer(), Section(L['shared_drops']),
-        Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Ss'akrithos
@@ -265,8 +260,7 @@ map.nodes[67207740] = RareElite({
         Reputation({id = 2772, gain = 50, quest = 96969}),
         Transmog({item = 276178, type = L['leather']}), -- Venom Lancer's Gauntlets
         Transmog({item = 276167, type = L['polearm']}), -- Ori'kassi's Lance
-        Spacer(), Section(L['shared_drops']),
-        Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Venom Lancer Ori'kassi
@@ -281,8 +275,7 @@ map.nodes[46906220] = RareElite({
         Reputation({id = 2772, gain = 50, quest = 96970}),
         Transmog({item = 276174, type = L['mail']}), -- Leviathan's Oozing Scalemail
         Transmog({item = 276169, type = L['shield']}), -- Malformed Barrier
-        Spacer(), Section(L['shared_drops']),
-        Mount({item = 276803, id = 3061}), -- Ruby Writhe
+        Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
 }) -- Malformed Leviathan
