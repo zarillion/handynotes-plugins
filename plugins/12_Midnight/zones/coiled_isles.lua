@@ -183,7 +183,6 @@ map.nodes[57304040] = Rare({
         Reputation({id = 2772, gain = 50, quest = 98354}),
         Transmog({item = 280706, type = L['leather']}), -- Sss'alik's Rotting Claws
         Transmog({item = 280700, type = L['cloth']}), -- Armbands of the Rotten Claw
-        Transmog({item = 276052, type = L['bow']}), -- Venomshot Greatbow
         Spacer(), Section(L['shared_drops']), Mount({item = 276803, id = 3061}), -- Ruby Writhe
         Mount({item = 276549, id = 3051}) -- Topaz Skyfang
     }
