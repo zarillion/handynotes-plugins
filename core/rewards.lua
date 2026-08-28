@@ -808,7 +808,7 @@ function Decor:Initialize(attrs)
         if not self.id then
             error('Decor() reward requires an decor id or item to be set')
         end
-        self.itemLink = C_HousingDecor.GetDecorName(self.id)
+        self.itemLink = C_HousingDecor.GetDecorName(self.id) or L['retrieving']
         self.itemIcon = 7252953 -- C_HousingDecor.GetDecorIcon(self.id)
     end
 end
