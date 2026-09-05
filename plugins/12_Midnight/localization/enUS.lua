@@ -180,6 +180,9 @@ L['floating_egg_note'] = '{npc:263805} floating down the river. Catch it along i
 
 L['sturdy_chest'] = 'Sturdy Chest'
 L['sturdy_chest_suffix'] = 'Sturdy Chest found'
+L['ancient_chest'] = 'Ancient Chest'
+L['ancient_chest_suffix'] = 'Ancient Chest found'
+L['mislaid_oddity'] = 'Mislaid Oddity'
 
 L['gulf_of_memory_chest_note'] = 'Walk up the roots of the tree to reach the treasure.'
 

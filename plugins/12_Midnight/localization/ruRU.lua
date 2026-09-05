@@ -180,6 +180,8 @@ L['floating_egg_note'] = '{npc:263805} плывет по течению реки
 
 L['sturdy_chest'] = 'Прочный сундук'
 L['sturdy_chest_suffix'] = 'Найден прочный сундук'
+L['ancient_chest'] = 'Древний сундук'
+L['ancient_chest_suffix'] = 'Найден древний сундук'
 
 L['gulf_of_memory_chest_note'] = 'Чтобы добраться до сокровища, нужно подняться по корням дерева.'
 

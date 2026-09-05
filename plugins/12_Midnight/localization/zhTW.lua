@@ -179,6 +179,8 @@ L['floating_egg_note'] = nil
 
 L['sturdy_chest'] = '結實的箱子'
 L['sturdy_chest_suffix'] = '結實的箱子已發現'
+L['ancient_chest'] = '遠古寶箱'
+L['ancient_chest_suffix'] = '已發現遠古寶箱'
 
 L['gulf_of_memory_chest_note'] = '沿著樹根向上走即可到達寶藏。'
 

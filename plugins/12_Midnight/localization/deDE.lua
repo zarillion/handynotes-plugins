@@ -180,6 +180,8 @@ L['floating_egg_note'] = nil
 
 L['sturdy_chest'] = 'Robuste Truhe'
 L['sturdy_chest_suffix'] = 'robuste Truhen geöffnet'
+L['ancient_chest'] = 'Alte Truhe'
+L['ancient_chest_suffix'] = 'Alte Truhe geöffnet'
 
 L['gulf_of_memory_chest_note'] = nil
 

@@ -180,6 +180,8 @@ L['floating_egg_note'] = 'El {npc:263805} está flotando río abajo. Atrápalo e
 
 L['sturdy_chest'] = 'Cofre robusto'
 L['sturdy_chest_suffix'] = 'Cofre robusto encontrado'
+L['ancient_chest'] = 'Cofre antiguo'
+L['ancient_chest_suffix'] = 'Cofre antiguo encontrado'
 
 L['gulf_of_memory_chest_note'] = 'Sube por las raíces del árbol para llegar al tesoro.'
 
