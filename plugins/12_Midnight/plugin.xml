@@ -14,5 +14,6 @@
   <Script file="zones\val.lua"/>
   <Script file="zones\broken_throne.lua"/>
   <Script file="zones\daggerspine_point.lua"/>
+  <Script file="zones\labyrinth_of_kindo_jan.lua"/>
   <!-- -->
 </Ui>

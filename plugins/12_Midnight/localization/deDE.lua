@@ -183,6 +183,8 @@ L['floating_egg_note'] = 'Das {npc:263805} treibt den Fluss hinunter. Schnapp es
 
 L['sturdy_chest'] = 'Robuste Truhe'
 L['sturdy_chest_suffix'] = 'robuste Truhen geöffnet'
+L['ancient_chest'] = 'Alte Truhe'
+L['ancient_chest_suffix'] = 'Alte Truhe geöffnet'
 
 L['gulf_of_memory_chest_note'] = 'Steige die Wurzeln des Baumes hinauf, um den Schatz zu erreichen.'
 
