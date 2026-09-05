@@ -11,10 +11,6 @@ local Achievement = ns.reward.Achievement
 
 -------------------------------------------------------------------------------
 
-local LABYRINTH_REWARDS = {
-    Achievement({id = 63727, oneline = true})
-}
-
 local AncientChestCriteria = {
     id = 1,
     qty = true,
@@ -97,10 +93,20 @@ for index = 1, 10 do
     })
 end
 
+-------------------------------------------------------------------------------
+-------------------------------- DELVE REWARDS --------------------------------
+-------------------------------------------------------------------------------
+
+local DELVE_REWARDS = {
+    ['labyrinth_of_kindo_jan'] = {
+        Achievement({id = 63727, oneline = true}) -- Treasures Upon Treasures
+    }
+}
+
 local DELVE_AREA_POIS = {
-    [9035] = {rewards = LABYRINTH_REWARDS},
-    [9036] = {rewards = LABYRINTH_REWARDS},
-    [9037] = {rewards = LABYRINTH_REWARDS}
+    [9035] = DELVE_REWARDS['labyrinth_of_kindo_jan'],
+    [9036] = DELVE_REWARDS['labyrinth_of_kindo_jan'],
+    [9037] = DELVE_REWARDS['labyrinth_of_kindo_jan']
 }
 
 ns.hooks.delve.Add(ns.groups.DELVE_REWARDS, DELVE_AREA_POIS)
