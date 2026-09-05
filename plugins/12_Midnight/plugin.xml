@@ -7,7 +7,7 @@
   <Script file="zones\zul_aman.lua"/>
   <Script file="zones\coiled_isles.lua"/>
   <!-- -->
-  <!-- <Script file="zones\arcantina.lua"/> -->
+  <Script file="zones\arcantina.lua"/>
   <Script file="zones\delves.lua"/>
   <Script file="zones\abundance.lua"/>
   <Script file="zones\naigtal.lua"/>
