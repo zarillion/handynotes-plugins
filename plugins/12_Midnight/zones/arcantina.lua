@@ -57,3 +57,20 @@ map.nodes[62736680] = ns.node.Collectible({
 }) -- Share a Drink
 
 -------------------------------------------------------------------------------
+
+map.nodes[42004900] = ns.node.Collectible({
+    icon = 466729,
+    label = '{achievement:61083}',
+    note = L['highly_decorated_note'],
+    rewards = {
+        ns.reward.Achievement({
+            id = 61083,
+            criteria = {
+                117459, 108608, 108609, 108610, 108611, 108612, 108613, 108614,
+                108615, 108616, 108617
+            }
+        })
+    }
+}) -- Highly Decorated
+
+-------------------------------------------------------------------------------

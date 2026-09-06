@@ -135,6 +135,7 @@ L['enchanted_hilt_note'] = 'Heroic only.\n\nClick the {object:Enchanted Hilt} to
 -------------------------------------------------------------------------------
 
 L['share_a_drink_note'] = 'Purchase {item:251039} from {npc:250495} in the Arcantina and share it with all races.'
+L['highly_decorated_note'] = 'Complete the rotating relic quests, then collect and place their decorations in the Arcantina.'
 
 -------------------------------------------------------------------------------
 --------------------------------- RITUAL SITES --------------------------------
