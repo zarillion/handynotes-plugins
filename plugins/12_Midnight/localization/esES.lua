@@ -107,10 +107,10 @@ L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:62200}.'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
-L['options_icons_hexmask_desc'] = nil
-L['thundering_hexmask'] = nil
-L['fiery_hexmask'] = nil
-L['frozen_hexmask'] = nil
+L['options_icons_hexmask_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:63720}.'
+L['thundering_hexmask'] = nil -- WIP
+L['fiery_hexmask'] = nil -- WIP
+L['frozen_hexmask'] = nil -- WIP
 
 L['abandoned_ritual_skull'] = 'Calavera de ritual abandonada'
 
