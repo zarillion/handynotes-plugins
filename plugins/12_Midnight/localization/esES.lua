@@ -135,7 +135,7 @@ L['enchanted_hilt_note'] = 'Sólo Heróico.\n\nHaz click en la {object:Empuñadu
 -------------------------------------------------------------------------------
 
 L['share_a_drink_note'] = 'Compra una {item:251039} al {npc:250495} en la Arcantina y compártela con todas las razas.'
-L['highly_decorated_note'] = nil
+L['highly_decorated_note'] = 'Completa las misiones de reliquias rotativas y exhibe sus decoraciones en la Arcantina.'
 
 -------------------------------------------------------------------------------
 --------------------------------- RITUAL SITES --------------------------------
