@@ -106,6 +106,12 @@ L['spiritpaw_marathon_note'] = '和 {npc:258938} 交谈，然后抱起附近的 
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = '显示 {achievement:62200} 成就中的位置。'
 
+L['options_icons_hexmask'] = '{achievement:63720}'
+L['options_icons_hexmask_desc'] = nil
+L['thundering_hexmask'] = nil
+L['fiery_hexmask'] = nil
+L['frozen_hexmask'] = nil
+
 L['abandoned_ritual_skull'] = '被遗弃的仪式颅骨'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'

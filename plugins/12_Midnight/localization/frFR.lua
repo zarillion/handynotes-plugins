@@ -107,6 +107,12 @@ L['spiritpaw_marathon_note'] = 'Parlez avec {npc:258938}, puis récupérez les {
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = 'Afficher les emplacements des objets liés au haut-fait {achievement:62200}.'
 
+L['options_icons_hexmask'] = '{achievement:63720}'
+L['options_icons_hexmask_desc'] = nil
+L['thundering_hexmask'] = nil
+L['fiery_hexmask'] = nil
+L['frozen_hexmask'] = nil
+
 L['abandoned_ritual_skull'] = 'Crâne rituel abandonné'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'

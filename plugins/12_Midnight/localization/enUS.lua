@@ -106,6 +106,12 @@ L['spiritpaw_marathon_note'] = 'Speak with {npc:258938}, then pick up the nearby
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = 'Display the locations for the {achievement:62200} achievement.'
 
+L['options_icons_hexmask'] = '{achievement:63720}'
+L['options_icons_hexmask_desc'] = 'Display the locations for the {achievement:63720} achievement.'
+L['thundering_hexmask'] = 'Thundering Hexmask'
+L['fiery_hexmask'] = 'Fiery Hexmask'
+L['frozen_hexmask'] = 'Frozen Hexmask'
+
 L['abandoned_ritual_skull'] = 'Abandoned Ritual Skull'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'

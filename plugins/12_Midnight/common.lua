@@ -143,6 +143,12 @@ ns.groups.GNOME_ALONE = Group('gnome_alone', 133740, {
     achievement = 62200
 })
 
+ns.groups.HEXMASK = Group('hexmask', 135462, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 63720
+})
+
 ns.groups.PUT_A_PIN_IN_IT = Group('put_a_pin_in_it', 5206188, {
     defaults = ns.GROUP_HIDDEN,
     type = ns.group_types.ACHIEVEMENT,
@@ -320,6 +326,11 @@ local GnomeAlone = Class('GnomeAlone', Collectible,
     {icon = 133740, group = ns.groups.GNOME_ALONE})
 
 ns.node.GnomeAlone = GnomeAlone
+
+local Hexmask = Class('Hexmask', Collectible,
+    {icon = 135462, group = ns.groups.HEXMASK})
+
+ns.node.Hexmask = Hexmask
 
 -------------------------------------------------------------------------------
 --------------------------------- HONORED DEAD --------------------------------

@@ -107,6 +107,12 @@ L['spiritpaw_marathon_note'] = 'Sprich mit {npc:258938}.'
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = nil
 
+L['options_icons_hexmask'] = '{achievement:63720}'
+L['options_icons_hexmask_desc'] = nil
+L['thundering_hexmask'] = nil
+L['fiery_hexmask'] = nil
+L['frozen_hexmask'] = nil
+
 L['abandoned_ritual_skull'] = 'Zurückgelassener Ritualschädel'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'

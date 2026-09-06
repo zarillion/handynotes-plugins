@@ -106,6 +106,12 @@ L['spiritpaw_marathon_note'] = 'Habla con {npc:258938}, coge los {npc:250100} ce
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:62200}.'
 
+L['options_icons_hexmask'] = '{achievement:63720}'
+L['options_icons_hexmask_desc'] = nil
+L['thundering_hexmask'] = nil
+L['fiery_hexmask'] = nil
+L['frozen_hexmask'] = nil
+
 L['abandoned_ritual_skull'] = 'Calavera de ritual abandonada'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'

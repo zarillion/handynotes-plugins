@@ -106,6 +106,12 @@ L['spiritpaw_marathon_note'] = 'Поговорите с {npc:258938}, затем
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = 'Отобразить местоположения достижения {achievement:62200}.'
 
+L['options_icons_hexmask'] = '{achievement:63720}'
+L['options_icons_hexmask_desc'] = nil
+L['thundering_hexmask'] = nil
+L['fiery_hexmask'] = nil
+L['frozen_hexmask'] = nil
+
 L['abandoned_ritual_skull'] = 'Брошенный ритуальный череп'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
