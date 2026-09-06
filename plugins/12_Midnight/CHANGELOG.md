@@ -1,3 +1,11 @@
+# v155
+
+* Disabled Arcantina daily object nodes removed in 12.1 (may return later); Explorer Pepe and Share a Drink remain active.
+* Added Highly Decorated achievement in Arcantina.
+* Removed Venomshot Greatbow from Sss'alik's transmog drops in The Coiled Isle.
+* Fixed a crash with Decor rewards when housing data is not loaded.
+* Localization updates
+
 # v154
 
 * Added a toggle to control whether timer and interval icons enlarge during their spawn window.

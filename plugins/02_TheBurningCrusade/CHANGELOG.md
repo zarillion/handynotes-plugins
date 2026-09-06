@@ -1,3 +1,7 @@
+# v155
+
+* Localization updates: ruRU
+
 # v154
 
 * Localization updates: esES, frFR

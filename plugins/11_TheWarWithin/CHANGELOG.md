@@ -1,3 +1,8 @@
+# v155
+
+* Fixed a crash with Decor rewards when housing data is not loaded.
+* Localization updates: ruRU
+
 # v154
 
 * Added a toggle to control whether timer and interval icons enlarge during their spawn window.
