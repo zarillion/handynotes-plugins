@@ -136,7 +136,7 @@ L['enchanted_hilt_note'] = 'Mode héroïque uniquement.\n\nCliquez sur la {objec
 -------------------------------------------------------------------------------
 
 L['share_a_drink_note'] = 'Achetez des {item:251039} auprès de {npc:250495} à l\'Arcantina et partagez-les avec chaque race.'
-L['highly_decorated_note'] = nil
+L['highly_decorated_note'] = 'Terminez les quêtes de reliques en rotation temporaire, puis récupérez leurs objets de décorations liés et placez-les à l’Arcantina.'
 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
