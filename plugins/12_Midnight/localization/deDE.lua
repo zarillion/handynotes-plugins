@@ -183,9 +183,6 @@ L['floating_egg_note'] = 'Das {npc:263805} treibt den Fluss hinunter. Schnapp es
 
 L['sturdy_chest'] = 'Robuste Truhe'
 L['sturdy_chest_suffix'] = 'robuste Truhen geöffnet'
-L['ancient_chest'] = 'Alte Truhe'
-L['ancient_chest_suffix'] = 'Alte Truhe geöffnet'
-
 L['gulf_of_memory_chest_note'] = 'Steige die Wurzeln des Baumes hinauf, um den Schatz zu erreichen.'
 
 -------------------------------------------------------------------------------
@@ -224,6 +221,10 @@ L['curse_surge_note'] = 'Fluchwellen-Ereignisse wechseln alle %d Minuten.\n\n{no
 -------------------------------------------------------------------------------
 ----------------------------- LABYRINTH OF KINDO'JAN --------------------------
 -------------------------------------------------------------------------------
+
+L['ancient_chest'] = 'Alte Truhe'
+L['ancient_chest_suffix'] = 'Alte Truhe geöffnet'
+L['mislaid_oddity'] = 'Verlegte Kuriosität'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = nil

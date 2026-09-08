@@ -181,9 +181,6 @@ L['floating_egg_note'] = '{npc:263805} 會順著河流漂下。沿著它的路�
 
 L['sturdy_chest'] = '結實的箱子'
 L['sturdy_chest_suffix'] = '結實的箱子已發現'
-L['ancient_chest'] = '遠古寶箱'
-L['ancient_chest_suffix'] = '已發現遠古寶箱'
-
 L['gulf_of_memory_chest_note'] = '沿著樹根向上走即可到達寶藏。'
 
 -------------------------------------------------------------------------------
@@ -222,6 +219,10 @@ L['curse_surge_note'] = '詛咒狂潮事件每 %d 分鐘輪換一次。\n\n{note
 -------------------------------------------------------------------------------
 ----------------------------- LABYRINTH OF KINDO'JAN --------------------------
 -------------------------------------------------------------------------------
+
+L['ancient_chest'] = '遠古寶箱'
+L['ancient_chest_suffix'] = '已發現遠古寶箱'
+L['mislaid_oddity'] = '遺失的奇物'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = nil
