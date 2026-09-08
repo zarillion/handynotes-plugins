@@ -106,12 +106,6 @@ L['spiritpaw_marathon_note'] = 'Habla con {npc:258938}, coge los {npc:250100} ce
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:62200}.'
 
-L['options_icons_hexmask'] = '{achievement:63720}'
-L['options_icons_hexmask_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:63720}.'
-L['thundering_hexmask'] = nil -- WIP
-L['fiery_hexmask'] = nil -- WIP
-L['frozen_hexmask'] = nil -- WIP
-
 L['abandoned_ritual_skull'] = 'Calavera de ritual abandonada'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
@@ -223,3 +217,14 @@ L['options_icons_mysterious_mixing'] = '{achievement:63432}'
 L['options_icons_mysterious_mixing_desc'] = 'Muestra dónde están las ubicaciones para el logro {achievement:63432}.'
 L['mysterious_mixing_note'] = 'Completa la misión diaria {quest:97016} de {npc:263327} para crear ofrendas:\n\n{note:Los ingredientes se pueden conseguir de {object:Vaso canope agrietado}, {object:Adorno con coágulos venenosos}, y {object:Caparazón cantarín} a lo largo de la isla, o comprarse en la Casa de apuestas.}'
 L['curse_surge_note'] = 'Los eventos de Oleada Maldita rotan cada 45 minutos.\n\n{note:Si te lo perdiste, forma grupo con jugadores de otros reinos — el evento puede seguir activo en otros reinos.}'
+
+-------------------------------------------------------------------------------
+----------------------------- LABYRINTH OF KINDO'JAN --------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_hexmask'] = '{achievement:63720}'
+L['options_icons_hexmask_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:63720}.'
+L['thundering_hexmask'] = nil -- WIP
+L['fiery_hexmask'] = nil -- WIP
+L['frozen_hexmask'] = nil -- WIP
+L['c_underneath_bridge'] = 'Debajo del puente.'

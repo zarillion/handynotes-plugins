@@ -107,12 +107,6 @@ L['spiritpaw_marathon_note'] = 'Sprich mit {npc:258938}.'
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = nil
 
-L['options_icons_hexmask'] = '{achievement:63720}'
-L['options_icons_hexmask_desc'] = nil
-L['thundering_hexmask'] = nil
-L['fiery_hexmask'] = nil
-L['frozen_hexmask'] = nil
-
 L['abandoned_ritual_skull'] = 'Zurückgelassener Ritualschädel'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
@@ -223,3 +217,14 @@ L['options_icons_mysterious_mixing'] = '{achievement:63432}'
 L['options_icons_mysterious_mixing_desc'] = nil
 L['mysterious_mixing_note'] = nil
 L['curse_surge_note'] = 'Cursed-Surge-Ereignisse wechseln alle 45 Minuten.\n\n{note:Wenn du es verpasst hast, gruppiere dich realmübergreifend — auf anderen Realms läuft das Ereignis möglicherweise noch.}'
+
+-------------------------------------------------------------------------------
+----------------------------- LABYRINTH OF KINDO'JAN --------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_hexmask'] = '{achievement:63720}'
+L['options_icons_hexmask_desc'] = nil
+L['thundering_hexmask'] = nil
+L['fiery_hexmask'] = nil
+L['frozen_hexmask'] = nil
+L['c_underneath_bridge'] = 'Unter der Brücke.'

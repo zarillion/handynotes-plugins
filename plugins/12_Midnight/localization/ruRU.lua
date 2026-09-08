@@ -106,12 +106,6 @@ L['spiritpaw_marathon_note'] = 'Поговорите с {npc:258938}, затем
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = 'Отобразить местоположения достижения {achievement:62200}.'
 
-L['options_icons_hexmask'] = '{achievement:63720}'
-L['options_icons_hexmask_desc'] = nil
-L['thundering_hexmask'] = nil
-L['fiery_hexmask'] = nil
-L['frozen_hexmask'] = nil
-
 L['abandoned_ritual_skull'] = 'Брошенный ритуальный череп'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
@@ -223,3 +217,14 @@ L['options_icons_mysterious_mixing'] = '{achievement:63432}'
 L['options_icons_mysterious_mixing_desc'] = 'Отображает места для {achievement:63432}.'
 L['mysterious_mixing_note'] = 'Выполняйте ежедневное задание {quest:97016} у {npc:263327}, чтобы создавать подношения:\n\n{note:Ингредиенты можно получить из {object:Треснувшей канопы}, {object:Безделушки в сгустках яда} и {object:Поющей ракушки} по всему острову или купить на аукционе.}'
 L['curse_surge_note'] = 'События Проклятые натиски сменяются каждые 45 минут.\n\n{note:Если вы пропустили событие, ищите межсерверную группу - на других серверах оно еще может быть активно.}'
+
+-------------------------------------------------------------------------------
+----------------------------- LABYRINTH OF KINDO'JAN --------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_hexmask'] = '{achievement:63720}'
+L['options_icons_hexmask_desc'] = nil
+L['thundering_hexmask'] = nil
+L['fiery_hexmask'] = nil
+L['frozen_hexmask'] = nil
+L['c_underneath_bridge'] = 'Под мостом.'

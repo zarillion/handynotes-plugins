@@ -106,12 +106,6 @@ L['spiritpaw_marathon_note'] = '和 {npc:258938} 交谈，然后抱起附近的 
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = '显示 {achievement:62200} 成就中的位置。'
 
-L['options_icons_hexmask'] = '{achievement:63720}'
-L['options_icons_hexmask_desc'] = nil
-L['thundering_hexmask'] = nil
-L['fiery_hexmask'] = nil
-L['frozen_hexmask'] = nil
-
 L['abandoned_ritual_skull'] = '被遗弃的仪式颅骨'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
@@ -223,3 +217,14 @@ L['options_icons_mysterious_mixing'] = '{achievement:63432}'
 L['options_icons_mysterious_mixing_desc'] = '显示 {achievement:63432} 成就的位置。'
 L['mysterious_mixing_note'] = '完成 {npc:263327} 的 {quest:97016} 日常，以调配所需的供奉：\n\n{note:材料可从地图中的 {object:开裂的骨灰罐}、{object:毒液凝结的小饰品}、{object:吟歌海螺} 中获取，或从拍卖行购买。}'
 L['curse_surge_note'] = '诅咒狂潮事件每 45 分钟轮换一次。\n\n{note:如果未完成，可跨服组队完成——其他服务器的事件可能仍在进行中。}'
+
+-------------------------------------------------------------------------------
+----------------------------- LABYRINTH OF KINDO'JAN --------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_hexmask'] = '{achievement:63720}'
+L['options_icons_hexmask_desc'] = nil
+L['thundering_hexmask'] = nil
+L['fiery_hexmask'] = nil
+L['frozen_hexmask'] = nil
+L['c_underneath_bridge'] = '在桥下。'

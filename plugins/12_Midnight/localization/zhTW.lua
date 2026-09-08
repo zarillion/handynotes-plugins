@@ -106,12 +106,6 @@ L['spiritpaw_marathon_note'] = '與 {npc:258938} 交談，然後抱起附近的 
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = '顯示 {achievement:62200} 成就的手稿位置。'
 
-L['options_icons_hexmask'] = '{achievement:63720}'
-L['options_icons_hexmask_desc'] = nil
-L['thundering_hexmask'] = nil
-L['fiery_hexmask'] = nil
-L['frozen_hexmask'] = nil
-
 L['abandoned_ritual_skull'] = '被遺棄的儀式顱骨'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
@@ -222,3 +216,14 @@ L['options_icons_mysterious_mixing'] = '{achievement:63432}'
 L['options_icons_mysterious_mixing_desc'] = nil
 L['mysterious_mixing_note'] = nil
 L['curse_surge_note'] = '詛咒狂潮事件每 45 分鐘輪換一次。\n\n{note:如果未完成，可跨服組隊完成——其他伺服器的事件可能仍在進行中。}'
+
+-------------------------------------------------------------------------------
+----------------------------- LABYRINTH OF KINDO'JAN --------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_hexmask'] = '{achievement:63720}'
+L['options_icons_hexmask_desc'] = nil
+L['thundering_hexmask'] = nil
+L['fiery_hexmask'] = nil
+L['frozen_hexmask'] = nil
+L['c_underneath_bridge'] = '在橋下。'

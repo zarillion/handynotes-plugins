@@ -106,12 +106,6 @@ L['spiritpaw_marathon_note'] = 'Speak with {npc:258938}, then pick up the nearby
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = 'Display the locations for the {achievement:62200} achievement.'
 
-L['options_icons_hexmask'] = '{achievement:63720}'
-L['options_icons_hexmask_desc'] = 'Display the locations for the {achievement:63720} achievement.'
-L['thundering_hexmask'] = 'Thundering Hexmask'
-L['fiery_hexmask'] = 'Fiery Hexmask'
-L['frozen_hexmask'] = 'Frozen Hexmask'
-
 L['abandoned_ritual_skull'] = 'Abandoned Ritual Skull'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
@@ -224,3 +218,14 @@ L['options_icons_mysterious_mixing'] = '{achievement:63432}'
 L['options_icons_mysterious_mixing_desc'] = 'Display the {achievement:63432} locations.'
 L['mysterious_mixing_note'] = 'Complete the {quest:97016} daily for {npc:263327} to craft offerings:\n\n{note:Ingredients can be obtained from the {object:Cracked Canopic Jar}, {object:Venom-Clotted Bauble}, and {object:Singing Shell} around the isle, or bought at the auction house.}'
 L['curse_surge_note'] = 'Cursed Surge events rotate every 45 minutes.\n\n{note:If you missed it, group up cross-realm — other realms may still have the event running.}'
+
+-------------------------------------------------------------------------------
+----------------------------- LABYRINTH OF KINDO'JAN --------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_hexmask'] = '{achievement:63720}'
+L['options_icons_hexmask_desc'] = 'Display the locations for the {achievement:63720} achievement.'
+L['thundering_hexmask'] = 'Thundering Hexmask'
+L['fiery_hexmask'] = 'Fiery Hexmask'
+L['frozen_hexmask'] = 'Frozen Hexmask'
+L['c_underneath_bridge'] = 'Underneath the bridge.'
