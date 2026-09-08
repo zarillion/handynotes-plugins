@@ -180,10 +180,6 @@ L['floating_egg_note'] = 'El {npc:263805} está flotando río abajo. Atrápalo e
 
 L['sturdy_chest'] = 'Cofre robusto'
 L['sturdy_chest_suffix'] = 'Cofre robusto encontrado'
-L['ancient_chest'] = 'Cofre antiguo'
-L['ancient_chest_suffix'] = 'Cofre antiguo encontrado'
-L['mislaid_oddity'] = 'Mislaid Oddity' -- WIP
-
 L['gulf_of_memory_chest_note'] = 'Sube por las raíces del árbol para llegar al tesoro.'
 
 -------------------------------------------------------------------------------
@@ -222,6 +218,10 @@ L['curse_surge_note'] = 'Los eventos de Oleada Maldita rotan cada 45 minutos.\n\
 -------------------------------------------------------------------------------
 ----------------------------- LABYRINTH OF KINDO'JAN --------------------------
 -------------------------------------------------------------------------------
+
+L['ancient_chest'] = 'Cofre antiguo'
+L['ancient_chest_suffix'] = 'Cofre antiguo encontrado'
+L['mislaid_oddity'] = 'Rareza extraviada'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:63720}.'

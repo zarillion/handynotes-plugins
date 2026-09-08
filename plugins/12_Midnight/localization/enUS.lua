@@ -180,9 +180,6 @@ L['floating_egg_note'] = '{npc:263805} floating down the river. Catch it along i
 
 L['sturdy_chest'] = 'Sturdy Chest'
 L['sturdy_chest_suffix'] = 'Sturdy Chest found'
-L['ancient_chest'] = 'Ancient Chest'
-L['ancient_chest_suffix'] = 'Ancient Chest found'
-L['mislaid_oddity'] = 'Mislaid Oddity'
 
 L['gulf_of_memory_chest_note'] = 'Walk up the roots of the tree to reach the treasure.'
 
@@ -222,6 +219,9 @@ L['curse_surge_note'] = 'Cursed Surge events rotate every 45 minutes.\n\n{note:I
 -------------------------------------------------------------------------------
 ----------------------------- LABYRINTH OF KINDO'JAN --------------------------
 -------------------------------------------------------------------------------
+L['ancient_chest'] = 'Ancient Chest'
+L['ancient_chest_suffix'] = 'Ancient Chest found'
+L['mislaid_oddity'] = 'Mislaid Oddity'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Display the locations for the {achievement:63720} achievement.'

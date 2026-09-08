@@ -180,9 +180,6 @@ L['floating_egg_note'] = 'Un {npc:263805} qui descend la rivière à la dérive.
 
 L['sturdy_chest'] = 'Coffre solide'
 L['sturdy_chest_suffix'] = 'Coffre solide trouvé'
-L['ancient_chest'] = 'Coffre ancien'
-L['ancient_chest_suffix'] = 'Coffre ancien trouvé'
-
 L['gulf_of_memory_chest_note'] = 'Grimpez le long des racines de l\'arbre pour atteindre le trésor.'
 
 -------------------------------------------------------------------------------
@@ -221,6 +218,10 @@ L['curse_surge_note'] = 'Les événements de Vague de malédiction alternent tou
 -------------------------------------------------------------------------------
 ----------------------------- LABYRINTH OF KINDO'JAN --------------------------
 -------------------------------------------------------------------------------
+
+L['ancient_chest'] = 'Coffre ancien'
+L['ancient_chest_suffix'] = 'Coffre ancien trouvé'
+L['mislaid_oddity'] = 'Curiosité égarée'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = nil

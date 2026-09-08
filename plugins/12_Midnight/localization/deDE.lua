@@ -180,9 +180,6 @@ L['floating_egg_note'] = nil
 
 L['sturdy_chest'] = 'Robuste Truhe'
 L['sturdy_chest_suffix'] = 'robuste Truhen geöffnet'
-L['ancient_chest'] = 'Alte Truhe'
-L['ancient_chest_suffix'] = 'Alte Truhe geöffnet'
-
 L['gulf_of_memory_chest_note'] = nil
 
 -------------------------------------------------------------------------------
@@ -221,6 +218,10 @@ L['curse_surge_note'] = 'Cursed-Surge-Ereignisse wechseln alle 45 Minuten.\n\n{n
 -------------------------------------------------------------------------------
 ----------------------------- LABYRINTH OF KINDO'JAN --------------------------
 -------------------------------------------------------------------------------
+
+L['ancient_chest'] = 'Alte Truhe'
+L['ancient_chest_suffix'] = 'Alte Truhe geöffnet'
+L['mislaid_oddity'] = 'Verlegte Kuriosität'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = nil

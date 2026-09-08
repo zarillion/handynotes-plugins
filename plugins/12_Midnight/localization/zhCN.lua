@@ -180,9 +180,6 @@ L['floating_egg_note'] = '{npc:263805} 顺河漂流。在沿途抓住它。'
 
 L['sturdy_chest'] = '坚固宝箱'
 L['sturdy_chest_suffix'] = '已找到坚固宝箱'
-L['ancient_chest'] = '远古宝箱'
-L['ancient_chest_suffix'] = '已找到远古宝箱'
-
 L['gulf_of_memory_chest_note'] = '沿着树的根部向上攀爬以到达宝藏。'
 
 -------------------------------------------------------------------------------
@@ -221,6 +218,10 @@ L['curse_surge_note'] = '诅咒狂潮事件每 45 分钟轮换一次。\n\n{note
 -------------------------------------------------------------------------------
 ----------------------------- LABYRINTH OF KINDO'JAN --------------------------
 -------------------------------------------------------------------------------
+
+L['ancient_chest'] = '远古宝箱'
+L['ancient_chest_suffix'] = '已找到远古宝箱'
+L['mislaid_oddity'] = '遗失的奇物'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = nil

@@ -57,18 +57,20 @@ AddAncientChest(22142959, 98621, '#8')
 AddAncientChest(40582027, 98625, '#9')
 AddAncientChest(68243410, 98628, '#10')
 AddAncientChest(67892768, 98629, '#11')
-AddAncientChest(72396593, 98637, '#12')
-AddAncientChest(40754541, 98648, '#13', L['c_underneath_bridge'])
-AddAncientChest(47674001, 98649, '#14')
-AddAncientChest(45954837, 98650, '#15')
-AddAncientChest(38968406, 00000, '#16') -- TODO: replace with the quest ID
-AddAncientChest(37798415, 00000, '#17') -- TODO: replace with the quest ID
-AddAncientChest(26623258, 00000, '#18') -- TODO: replace with the quest ID
-AddAncientChest(27663544, 00000, '#19') -- TODO: replace with the quest ID
-AddAncientChest(65624202, 00000, '#20') -- TODO: replace with the quest ID
-AddAncientChest(63714301, 00000, '#21') -- TODO: replace with the quest ID
-AddAncientChest(66005161, 00000, '#22') -- TODO: replace with the quest ID
-AddAncientChest(67435174, 00000, '#23') -- TODO: replace with the quest ID
+AddAncientChest(81315501, 98633, '#12')
+AddAncientChest(72396593, 98637, '#13')
+AddAncientChest(69257109, 98638, '#14')
+AddAncientChest(40754541, 98648, '#15', L['c_underneath_bridge'])
+AddAncientChest(47674001, 98649, '#16')
+AddAncientChest(45954837, 98650, '#17')
+AddAncientChest(38968406, 00000, '#18') -- TODO: replace with the quest ID
+AddAncientChest(37798415, 00000, '#19') -- TODO: replace with the quest ID
+AddAncientChest(26623258, 00000, '#20') -- TODO: replace with the quest ID
+AddAncientChest(27663544, 00000, '#21') -- TODO: replace with the quest ID
+AddAncientChest(65624202, 00000, '#22') -- TODO: replace with the quest ID
+AddAncientChest(63714301, 00000, '#23') -- TODO: replace with the quest ID
+AddAncientChest(66005161, 00000, '#24') -- TODO: replace with the quest ID
+AddAncientChest(67435174, 00000, '#25') -- TODO: replace with the quest ID
 
 -- Mislaid Oddities for Treasures Upon Treasures (63727): Random spawns
 -- 22362295 - Mislaid Oddity
