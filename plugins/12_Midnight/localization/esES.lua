@@ -182,6 +182,7 @@ L['sturdy_chest'] = 'Cofre robusto'
 L['sturdy_chest_suffix'] = 'Cofre robusto encontrado'
 L['ancient_chest'] = 'Cofre antiguo'
 L['ancient_chest_suffix'] = 'Cofre antiguo encontrado'
+L['mislaid_oddity'] = 'Mislaid Oddity'
 
 L['gulf_of_memory_chest_note'] = 'Sube por las raíces del árbol para llegar al tesoro.'
 
