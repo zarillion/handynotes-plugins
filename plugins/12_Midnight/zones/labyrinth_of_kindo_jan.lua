@@ -90,7 +90,6 @@ AddAncientChest(67435174, 00000, '#26', 'PH #26') -- TODO: replace with the ques
 -- 59032004 - Mislaid Oddity
 -- 59832070 - Mislaid Oddity
 
-
 local function AddHexmask(coordinate, label)
     map.nodes[coordinate] = Hexmask({
         label = label,
@@ -101,7 +100,7 @@ end
 AddHexmask(18401777, L['thundering_hexmask'])
 AddHexmask(56791654, L['fiery_hexmask'])
 AddHexmask(58482171, L['frozen_hexmask'])
---50348261
+-- 50348261
 
 -------------------------------------------------------------------------------
 -------------------------------- DELVE REWARDS --------------------------------
