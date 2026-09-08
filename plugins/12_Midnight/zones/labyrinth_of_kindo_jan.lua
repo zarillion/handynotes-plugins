@@ -12,12 +12,6 @@ local Achievement = ns.reward.Achievement
 
 -------------------------------------------------------------------------------
 
-local AncientChestCriteria = {
-    id = 1,
-    qty = true,
-    suffix = L['ancient_chest_suffix']
-}
-
 local AncientChest = Class('AncientChest', Treasure, {
     icon = 'chest_yw',
     label = L['ancient_chest'],
@@ -27,7 +21,11 @@ local AncientChest = Class('AncientChest', Treasure, {
             return {
                 Achievement({
                     id = self.achievementID,
-                    criteria = AncientChestCriteria
+                    criteria = {
+                        id = 1,
+                        qty = true,
+                        suffix = L['ancient_chest_suffix']
+                    }
                 })
             }
         end
@@ -49,7 +47,7 @@ local function AddAncientChest(coordinate, quest, rlabel, note)
 end
 
 AddAncientChest(46886438, 97131, '#1')
-AddAncientChest(36916986, 98602, '#2')
+AddAncientChest(36966986, 98602, '#2')
 AddAncientChest(21776859, 98607, '#3')
 AddAncientChest(29987475, 98608, '#4')
 AddAncientChest(13853511, 98611, '#5')
@@ -60,7 +58,7 @@ AddAncientChest(40582027, 98625, '#9')
 AddAncientChest(68243410, 98628, '#10')
 AddAncientChest(67892768, 98629, '#11')
 AddAncientChest(72396593, 98637, '#12')
-AddAncientChest(40754541, 98648, '#13', 'under the bridge')
+AddAncientChest(40754541, 98648, '#13', L['c_underneath_bridge'])
 AddAncientChest(47674001, 98649, '#14')
 AddAncientChest(45954837, 98650, '#15')
 AddAncientChest(38968406, 00000, '#16') -- TODO: replace with the quest ID
@@ -86,9 +84,7 @@ AddAncientChest(67435174, 00000, '#23') -- TODO: replace with the quest ID
 local function AddHexmask(coordinate, label)
     map.nodes[coordinate] = Hexmask({
         label = label,
-        rewards = {
-            Achievement({id = 63720, criteria = 1, oneline = true})
-        }
+        rewards = {Achievement({id = 63720, criteria = 1, oneline = true})}
     })
 end
 
@@ -102,9 +98,13 @@ AddHexmask(58482171, L['frozen_hexmask'])
 
 local DELVE_REWARDS = {
     ['labyrinth_of_kindo_jan'] = {
-        Achievement({id = 63727, oneline = true}), -- Treasures Upon Treasures
-        Achievement({id = 63720, oneline = true}), -- Happy Hexmask Collector
-        Achievement({id = 63717, oneline = true}) -- Kindo'jan's Labyrinth Discoveries
+        Achievement({id = 63717, criteria = {id = 1, qty = true}}), -- Kindo'jan's Labyrinth Discoveries
+        Achievement({id = 63728, criteria = {id = 1, qty = true}}), -- A Few More Can't Hurt
+        Achievement({id = 63723, criteria = {id = 1, qty = true}}), -- My Labyrinth
+        Achievement({id = 63719, criteria = {id = 1, qty = true}}), -- Lock and Key Master
+        Achievement({id = 63721, oneline = true}), -- The Labyrinth of Kindo'Jan
+        Achievement({id = 63722, oneline = true}), -- Who's Labyrinth
+        Achievement({id = 63720, oneline = true}) -- Happy Hexmask Collector
     }
 }
 

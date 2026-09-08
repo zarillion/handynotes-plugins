@@ -108,12 +108,6 @@ L['spiritpaw_marathon_note'] = 'Sprich mit {npc:258938}.'
 L['options_icons_gnome_alone'] = '{achievement:62200}'
 L['options_icons_gnome_alone_desc'] = 'Zeigt die Positionen der Schriftstücke für den Erfolg {achievement:62200} an.'
 
-L['options_icons_hexmask'] = '{achievement:63720}'
-L['options_icons_hexmask_desc'] = nil
-L['thundering_hexmask'] = nil
-L['fiery_hexmask'] = nil
-L['frozen_hexmask'] = nil
-
 L['abandoned_ritual_skull'] = 'Zurückgelassener Ritualschädel'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
@@ -226,3 +220,14 @@ L['options_icons_mysterious_mixing'] = '{achievement:63432}'
 L['options_icons_mysterious_mixing_desc'] = 'Zeigt die Positionen für den {achievement:63432} Erfolg an.'
 L['mysterious_mixing_note'] = 'Schließe die tägliche Quest {quest:97016} für {npc:263327} ab, um Opfergaben herzustellen:\n\n{Hinweis: Die Zutaten erhältst du aus der {object: Beschädigten Kanope}, dem {object: Giftgeronnenen Schmuckstück} und der {object: Singenden Muschel}, die auf der Insel zu finden sind, oder du kannst sie im Auktionshaus kaufen.}'
 L['curse_surge_note'] = 'Fluchwellen-Ereignisse wechseln alle %d Minuten.\n\n{note:Wenn du es verpasst hast, gruppiere dich realmübergreifend — auf anderen Realms läuft das Ereignis möglicherweise noch.}'
+
+-------------------------------------------------------------------------------
+----------------------------- LABYRINTH OF KINDO'JAN --------------------------
+-------------------------------------------------------------------------------
+
+L['options_icons_hexmask'] = '{achievement:63720}'
+L['options_icons_hexmask_desc'] = nil
+L['thundering_hexmask'] = nil
+L['fiery_hexmask'] = nil
+L['frozen_hexmask'] = nil
+L['c_underneath_bridge'] = 'Unter der Brücke.'
