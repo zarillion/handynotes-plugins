@@ -48,29 +48,30 @@ end
 
 AddAncientChest(46886438, 97131, '#1')
 AddAncientChest(36966986, 98602, '#2')
-AddAncientChest(21776859, 98607, '#3')
-AddAncientChest(29987475, 98608, '#4')
-AddAncientChest(13853511, 98611, '#5')
-AddAncientChest(26444032, 98612, '#6')
-AddAncientChest(28692312, 98620, '#7')
-AddAncientChest(22142959, 98621, '#8')
-AddAncientChest(40582027, 98625, '#9')
-AddAncientChest(68243410, 98628, '#10')
-AddAncientChest(67892768, 98629, '#11')
-AddAncientChest(81315501, 98633, '#12')
-AddAncientChest(72396593, 98637, '#13')
-AddAncientChest(69257109, 98638, '#14')
-AddAncientChest(40754541, 98648, '#15', L['c_underneath_bridge'])
-AddAncientChest(47674001, 98649, '#16')
-AddAncientChest(45954837, 98650, '#17')
-AddAncientChest(38968406, 00000, '#18') -- TODO: replace with the quest ID
-AddAncientChest(37798415, 00000, '#19') -- TODO: replace with the quest ID
-AddAncientChest(26623258, 00000, '#20') -- TODO: replace with the quest ID
-AddAncientChest(27663544, 00000, '#21') -- TODO: replace with the quest ID
-AddAncientChest(65624202, 00000, '#22') -- TODO: replace with the quest ID
-AddAncientChest(63714301, 00000, '#23') -- TODO: replace with the quest ID
-AddAncientChest(66005161, 00000, '#24') -- TODO: replace with the quest ID
-AddAncientChest(67435174, 00000, '#25') -- TODO: replace with the quest ID
+AddAncientChest(38768342, 98605, '#3')
+AddAncientChest(38038346, 98606, '#4')
+AddAncientChest(21776859, 98607, '#5')
+AddAncientChest(29987475, 98608, '#6')
+AddAncientChest(13853511, 98611, '#7')
+AddAncientChest(26444032, 98612, '#8')
+AddAncientChest(28692312, 98620, '#9')
+AddAncientChest(22142959, 98621, '#10')
+AddAncientChest(46091111, 98624, '#11')
+AddAncientChest(40582027, 98625, '#12')
+AddAncientChest(68243410, 98628, '#13')
+AddAncientChest(67892768, 98629, '#14')
+AddAncientChest(81315501, 98633, '#15')
+AddAncientChest(72396593, 98637, '#16')
+AddAncientChest(69257109, 98638, '#17')
+AddAncientChest(40754541, 98648, '#18', L['c_underneath_bridge'])
+AddAncientChest(47674001, 98649, '#19')
+AddAncientChest(45954837, 98650, '#20')
+AddAncientChest(26623258, 00000, '#21', 'PH #21') -- TODO: replace with the quest ID
+AddAncientChest(27663544, 00000, '#22', 'PH #22') -- TODO: replace with the quest ID
+AddAncientChest(65624202, 00000, '#23', 'PH #23') -- TODO: replace with the quest ID
+AddAncientChest(63714301, 00000, '#24', 'PH #24') -- TODO: replace with the quest ID
+AddAncientChest(66005161, 00000, '#25', 'PH #25') -- TODO: replace with the quest ID
+AddAncientChest(67435174, 00000, '#26', 'PH #26') -- TODO: replace with the quest ID
 
 -- Mislaid Oddities for Treasures Upon Treasures (63727): Random spawns
 -- 22362295 - Mislaid Oddity
@@ -82,6 +83,13 @@ AddAncientChest(67435174, 00000, '#25') -- TODO: replace with the quest ID
 -- 41576995 - Mislaid Oddity
 -- 37727541 - Mislaid Oddity
 -- 58126731 - Mislaid Oddity
+-- 25866169 - Mislaid Oddity
+-- 37502166 - Mislaid Oddity
+-- 39341333 - Mislaid Oddity
+-- 57302124 - Mislaid Oddity
+-- 59032004 - Mislaid Oddity
+-- 59832070 - Mislaid Oddity
+
 
 local function AddHexmask(coordinate, label)
     map.nodes[coordinate] = Hexmask({
@@ -93,6 +101,7 @@ end
 AddHexmask(18401777, L['thundering_hexmask'])
 AddHexmask(56791654, L['fiery_hexmask'])
 AddHexmask(58482171, L['frozen_hexmask'])
+--50348261
 
 -------------------------------------------------------------------------------
 -------------------------------- DELVE REWARDS --------------------------------
