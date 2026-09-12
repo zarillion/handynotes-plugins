@@ -167,7 +167,7 @@ L['rustling_bush'] = '沙沙响的草丛'
 L['rustling_fern_note'] = '需要3级或更高难度。点击 {object:沙沙作响的蕨类} 直至小猫出现（8-13次点击）。每次副本仅1-2个可用。\n需要尚未学会此宠物。'
 L['rustling_bush_note'] = '需要3级或更高难度。点击 {object:沙沙响的草丛} 直至小猫出现（8-13次点击）。每次副本仅1-2个可用。\n需要尚未学会此宠物。'
 
-L['soggy_nest'] = '湿透的巢穴'
+L['soggy_nest'] = '湿漉漉的巢穴'
 L['soggy_nest_note'] = '需 {item:272128} 吸引 {npc:263917}。\n{item:272128} 由区域纳迦掉落。'
 
 L['washed_up_kelp'] = '冲刷上岸的海藻'
