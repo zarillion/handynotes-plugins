@@ -1,3 +1,7 @@
+# v156
+
+* Localization updates
+
 # v155
 
 * Disabled Arcantina daily object nodes removed in 12.1 (may return later); Explorer Pepe and Share a Drink remain active.
