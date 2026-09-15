@@ -1,3 +1,7 @@
+# v157
+
+* Localization updates
+
 # v156
 
 * Added Ensorcelled Cryptid node for the J'imothy pet in Silvermoon City.
