@@ -3,9 +3,11 @@
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
 
+local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
+local Collectible = ns.node.Collectible
 local LoreObject = ns.node.LoreObject
 local Painting = ns.node.EverPainting
 local PT = ns.node.ProfessionTreasures
@@ -351,6 +353,19 @@ smc.nodes[37805238] = Treasure({
         POI({39818047, label = '{item:265835}'}) -- Lost Page 3
     }
 }) -- Incomplete Book of Sonnets
+
+local EnsorcelledCryptid = Class('EnsorcelledCryptid', Collectible, {
+    label = '{npc:273760}',
+    note = L['ensorcelled_cryptid_note'],
+    icon = 8284165,
+    scale = 1.3,
+    group = ns.groups.TREASURE,
+    rewards = {Pet({item = 282417, id = 5164})} -- J'imothy
+}) -- Ensorcelled Cryptid
+
+smc.nodes[28764675] = EnsorcelledCryptid()
+smc.nodes[51675375] = EnsorcelledCryptid()
+smc.nodes[58154206] = EnsorcelledCryptid()
 
 -------------------------------------------------------------------------------
 ----------------------------- PROFESSION TREASURES ----------------------------

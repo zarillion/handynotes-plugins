@@ -50,6 +50,7 @@ L['on_flying_platform'] = '在飞行平台上'
 L['gift_of_the_phoenix_note'] = '从凤凰身上收集5个余烬，这些凤凰在使用凤凰之赐后出现。'
 L['triple_locked_safebox_note'] = '需要3个隐藏的保险箱钥匙。从箱子旁边的紫色火把处获取它们。'
 L['incomplete_book_of_sonnets'] = '未完成十四行诗集'
+L['ensorcelled_cryptid_note'] = '点击 {npc:273760} 并保持在附近躲避奥术漩涡，耗尽 {spell:1313802} 的100层后与 {npc:273775} 互动，即可获得 {item:282417}。\n\n它会在约10分钟后于三个刷新点之一重新出现。'
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR ----------------------------------
@@ -215,4 +216,4 @@ L['options_icons_the_honored_dead_desc'] = '显示 {achievement:63610} 成就的
 L['options_icons_mysterious_mixing'] = '{achievement:63432}'
 L['options_icons_mysterious_mixing_desc'] = '显示 {achievement:63432} 成就的位置。'
 L['mysterious_mixing_note'] = '完成 {npc:263327} 的 {quest:97016} 日常，以调配所需的供奉：\n\n{note:材料可从地图中的 {object:开裂的骨灰罐}、{object:毒液凝结的小饰品}、{object:吟歌海螺} 中获取，或从拍卖行购买。}'
-L['curse_surge_note'] = '诅咒狂潮事件每 45 分钟轮换一次。\n\n{note:如果未完成，可跨服组队完成——其他服务器的事件可能仍在进行中。}'
+L['curse_surge_note'] = '诅咒狂潮事件每%d分钟轮换一次。\n\n{note:如果未完成，可跨服组队完成——其他服务器的事件可能仍在进行中。}'

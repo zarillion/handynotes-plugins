@@ -50,6 +50,7 @@ L['on_flying_platform'] = '在飛行平台上。'
 L['gift_of_the_phoenix_note'] = '在使用「鳳凰之賜」後，收集 5 個從重生鳳凰掉落的餘燼。'
 L['triple_locked_safebox_note'] = '需要 3 把隱藏的保險箱鑰匙。拿起寶箱旁邊的紫色火把來讓它們顯現。'
 L['incomplete_book_of_sonnets'] = '未完成的十四行詩集'
+L['ensorcelled_cryptid_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR ----------------------------------
@@ -214,4 +215,4 @@ L['options_icons_the_honored_dead_desc'] = '顯示 {achievement:63610} 成就的
 L['options_icons_mysterious_mixing'] = '{achievement:63432}'
 L['options_icons_mysterious_mixing_desc'] = nil
 L['mysterious_mixing_note'] = nil
-L['curse_surge_note'] = '詛咒狂潮事件每 45 分鐘輪換一次。\n\n{note:如果未完成，可跨服組隊完成——其他伺服器的事件可能仍在進行中。}'
+L['curse_surge_note'] = '詛咒狂潮事件每 %d 分鐘輪換一次。\n\n{note:如果未完成，可跨服組隊完成——其他伺服器的事件可能仍在進行中。}'

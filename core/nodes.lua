@@ -1163,6 +1163,22 @@ function LiveEvent:Initialize(attrs)
     if attrs then for k, v in pairs(attrs) do self[k] = v end end
 end
 
+-- The event's cycle in seconds: the start of one window to the start of the
+-- next. Nil until the schedule reports a second window, so callers that need
+-- a number fall back to the window duration or their own default.
+function LiveEvent:GetCycle()
+    local sched = scheduled[self.areaPoiID]
+    if not (sched and sched.startTime) then return nil end
+    local period = ((sched.nextStart or sched.endTime) or 0) - sched.startTime
+    return period > 0 and period or nil
+end
+
+-- Length of one window in seconds: how long the event stays at this spot
+-- before the rotation moves on (Blizzard's own duration). On a rotation that
+-- hands over back to back this is also the gap between two spawns, while
+-- GetCycle() is a full lap of every spot. Nil without schedule data.
+function LiveEvent:GetDuration() return LiveEvent_GetDuration(self.areaPoiID) end
+
 function LiveEvent:Next()
     if not self.areaPoiID then return false end
     local now = GetServerTime()
@@ -1183,9 +1199,7 @@ function LiveEvent:IsSoon()
     local now = GetServerTime()
     local sched = scheduled[self.areaPoiID]
     if sched and sched.startTime and sched.startTime > now then
-        local period = ((sched.nextStart or sched.endTime) or 0) -
-                           sched.startTime
-        if period <= 0 then period = sched.duration or 0 end
+        local period = self:GetCycle() or sched.duration or 0
         return period > 0 and sched.startTime - now <
                    self:Threshold('green', period)
     end
@@ -1206,9 +1220,7 @@ function LiveEvent:IsYellow()
     local now = GetServerTime()
     local sched = scheduled[self.areaPoiID]
     if sched and sched.startTime and sched.startTime > now then
-        local period = ((sched.nextStart or sched.endTime) or 0) -
-                           sched.startTime
-        if period <= 0 then period = sched.duration or 0 end
+        local period = self:GetCycle() or sched.duration or 0
         local nextIn = sched.startTime - now
         return period > 0 and nextIn < self:Threshold('yellow', period) and
                    nextIn >= self:Threshold('green', period)
@@ -1228,9 +1240,7 @@ function LiveEvent:NextBoundaryChange()
     local now = GetServerTime()
     local sched = scheduled[self.areaPoiID]
     if sched and sched.startTime and sched.startTime > now then
-        local period = ((sched.nextStart or sched.endTime) or 0) -
-                           sched.startTime
-        if period <= 0 then period = sched.duration or 0 end
+        local period = self:GetCycle() or sched.duration or 0
         if period > 0 then
             local nextIn = sched.startTime - now
             -- next state change: enter yellow, enter green, or the window
@@ -1281,11 +1291,7 @@ function LiveEvent:GetText()
         local red = self:Threshold('green', duration)
 
         -- event cycle: next start minus this start (fall back to duration)
-        local period = 0
-        if sched and sched.startTime then
-            period = ((sched.nextStart or sched.endTime) or 0) - sched.startTime
-        end
-        if period <= 0 then period = duration end
+        local period = self:GetCycle() or duration
 
         -- the upcoming start when not started; otherwise the next window's
         -- start (weekly ritual sites report a single window -- no next)

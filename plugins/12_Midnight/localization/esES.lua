@@ -50,6 +50,7 @@ L['on_flying_platform'] = 'En una plataforma voladora.'
 L['gift_of_the_phoenix_note'] = 'Atrapa 5 cenizas de los fénix que aparecen después de usar el Regalo del Fénix.'
 L['triple_locked_safebox_note'] = 'Requiere 3 llaves ocultas de caja fuerte. Coge la antorcha morada al lado del cofre para verlas.'
 L['incomplete_book_of_sonnets'] = 'Libro de sonetos incompleto.'
+L['ensorcelled_cryptid_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR ----------------------------------
@@ -215,4 +216,4 @@ L['options_icons_the_honored_dead_desc'] = 'Muestra dónde están las ubicacione
 L['options_icons_mysterious_mixing'] = '{achievement:63432}'
 L['options_icons_mysterious_mixing_desc'] = 'Muestra dónde están las ubicaciones para el logro {achievement:63432}.'
 L['mysterious_mixing_note'] = 'Completa la misión diaria {quest:97016} de {npc:263327} para crear ofrendas:\n\n{note:Los ingredientes se pueden conseguir de {object:Vaso canope agrietado}, {object:Adorno con coágulos venenosos}, y {object:Caparazón cantarín} a lo largo de la isla, o comprarse en la Casa de apuestas.}'
-L['curse_surge_note'] = 'Los eventos de Oleada Maldita rotan cada 45 minutos.\n\n{note:Si te lo perdiste, forma grupo con jugadores de otros reinos — el evento puede seguir activo en otros reinos.}'
+L['curse_surge_note'] = 'Los eventos de Oleada Maldita rotan cada %d minutos.\n\n{note:Si te lo perdiste, forma grupo con jugadores de otros reinos — el evento puede seguir activo en otros reinos.}'

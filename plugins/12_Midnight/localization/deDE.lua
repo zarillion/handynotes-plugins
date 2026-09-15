@@ -51,6 +51,7 @@ L['on_flying_platform'] = 'Auf einer fliegenden Plattform.'
 L['gift_of_the_phoenix_note'] = 'Klicke den Schatz an und fange 5 mal eine Glut, die der erschienene {npc:255241} fallen lässt.'
 L['triple_locked_safebox_note'] = 'Nehme die {object:Brennende Fackel} neben der Truhe, um die drei benötigten Truhenschlüssel sehen zu können. Sammle die Schlüssel ein, um die Truhe öffnen zu können.'
 L['incomplete_book_of_sonnets'] = 'Unvollständiges Buch der Sonnete'
+L['ensorcelled_cryptid_note'] = nil
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR ----------------------------------
@@ -216,4 +217,4 @@ L['options_icons_the_honored_dead_desc'] = 'Zeigt die Positionen für den {achie
 L['options_icons_mysterious_mixing'] = '{achievement:63432}'
 L['options_icons_mysterious_mixing_desc'] = 'Zeigt die Positionen für den {achievement:63432} Erfolg an.'
 L['mysterious_mixing_note'] = 'Schließe die tägliche Quest {quest:97016} für {npc:263327} ab, um Opfergaben herzustellen:\n\n{Hinweis: Die Zutaten erhältst du aus der {object: Beschädigten Kanope}, dem {object: Giftgeronnenen Schmuckstück} und der {object: Singenden Muschel}, die auf der Insel zu finden sind, oder du kannst sie im Auktionshaus kaufen.}'
-L['curse_surge_note'] = 'Fluchwellen-Ereignisse wechseln alle 45 Minuten.\n\n{note:Wenn du es verpasst hast, gruppiere dich realmübergreifend — auf anderen Realms läuft das Ereignis möglicherweise noch.}'
+L['curse_surge_note'] = 'Fluchwellen-Ereignisse wechseln alle %d Minuten.\n\n{note:Wenn du es verpasst hast, gruppiere dich realmübergreifend — auf anderen Realms läuft das Ereignis möglicherweise noch.}'

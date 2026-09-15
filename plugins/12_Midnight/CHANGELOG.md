@@ -1,5 +1,8 @@
 # v156
 
+* Added Ensorcelled Cryptid node for the J'imothy pet in Silvermoon City.
+* Fixed Sleepy Mandrake node showing for characters that already collected the pet.
+* Curse Surge notes now show the live rotation interval from the event schedule instead of a hardcoded 45 minutes.
 * Localization updates
 
 # v155

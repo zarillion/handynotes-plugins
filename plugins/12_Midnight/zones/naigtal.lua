@@ -9,7 +9,6 @@ local Rare = ns.node.Rare
 local RareElite = ns.node.RareElite
 local Class = ns.Class
 local Collectible = ns.node.Collectible
-local Treasure = ns.node.Treasure
 local Achievement = ns.reward.Achievement
 local Pet = ns.reward.Pet
 local Transmog = ns.reward.Transmog
@@ -214,9 +213,10 @@ map.nodes[78406880] = SquirmingMollusk()
 ----------------------------- PET: SLEEPY MANDRAKE ----------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[68255161] = Treasure({
+map.nodes[68255161] = Collectible({
     label = '{npc:267910}',
     icon = 7467154,
+    scale = 1.3,
     location = L['in_cave'],
     quest = {97091, 97092, 97093, 97094, 97095},
     note = L['sleepy_mandrake_note'],
@@ -227,6 +227,7 @@ map.nodes[68255161] = Treasure({
         ns.requirement.Item(276368), -- Partially-Digested Redcap
         ns.requirement.Item(276369) -- Airy Redcap
     },
+    group = ns.groups.TREASURE,
     rewards = {
         Pet({item = 262768, id = 4965}) -- Sleepy Mandrake
     },

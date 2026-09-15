@@ -2,6 +2,7 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
+local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
 
@@ -205,11 +206,23 @@ map.nodes[52053229] = Rare({
 -------------------------------- CURSE SURGES --------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[26406480] = RareElite({
+-- The rotation interval is read from the event schedule while the tooltip is
+-- built, so the note follows Blizzard if the slots change. The surges hand
+-- over back to back, so one slot is how often the event moves on -- GetCycle
+-- would be a full lap of all five spots. Without schedule data there is no
+-- interval to quote and the note is dropped, like the timer line itself.
+local CurseSurge = Class('CurseSurge', RareElite, {})
+
+function CurseSurge.getters:note()
+    local slot = self.interval and self.interval:GetDuration()
+    if not slot then return nil end
+    return format(L['curse_surge_note'], floor(slot / 60 + 0.5))
+end
+
+map.nodes[26406480] = CurseSurge({
     id = 255088,
     quest = 93718,
     areaPOI = 8936,
-    note = L['curse_surge_note'],
     rewards = {
         Achievement({id = 63390, criteria = 115368}),
         Reputation({id = 2772, gain = 50, quest = 96966}),
@@ -220,11 +233,10 @@ map.nodes[26406480] = RareElite({
     }
 }) -- Looming Mutagenitor
 
-map.nodes[45202840] = RareElite({
+map.nodes[45202840] = CurseSurge({
     id = 257863,
     quest = 93676,
     areaPOI = 8938,
-    note = L['curse_surge_note'],
     rewards = {
         Achievement({id = 63390, criteria = 115369}),
         Reputation({id = 2772, gain = 50, quest = 96967}),
@@ -235,11 +247,10 @@ map.nodes[45202840] = RareElite({
     }
 }) -- Vassti, the Exalted Broodmother
 
-map.nodes[71203130] = RareElite({
+map.nodes[71203130] = CurseSurge({
     id = 258254,
     quest = 93715,
     areaPOI = 8939,
-    note = L['curse_surge_note'],
     rewards = {
         Achievement({id = 63390, criteria = 115370}),
         Reputation({id = 2772, gain = 50, quest = 96968}),
@@ -249,11 +260,10 @@ map.nodes[71203130] = RareElite({
     }
 }) -- Ss'akrithos
 
-map.nodes[67207740] = RareElite({
+map.nodes[67207740] = CurseSurge({
     id = 255927,
     quest = 93722,
     areaPOI = 8937,
-    note = L['curse_surge_note'],
     rewards = {
         Achievement({id = 63390, criteria = 115371}),
         Reputation({id = 2772, gain = 50, quest = 96969}),
@@ -264,11 +274,10 @@ map.nodes[67207740] = RareElite({
     }
 }) -- Venom Lancer Ori'kassi
 
-map.nodes[46906220] = RareElite({
+map.nodes[46906220] = CurseSurge({
     id = 255087,
     quest = 93673,
     areaPOI = 8940,
-    note = L['curse_surge_note'],
     rewards = {
         Achievement({id = 63390, criteria = 111353}),
         Reputation({id = 2772, gain = 50, quest = 96970}),
