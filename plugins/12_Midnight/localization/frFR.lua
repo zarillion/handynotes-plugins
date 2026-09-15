@@ -51,7 +51,7 @@ L['on_flying_platform'] = 'Sur une plate-forme volante.'
 L['gift_of_the_phoenix_note'] = 'Attrapez 5x Cendres de phénix tombant au sol après avoir interagi avec le {object:Réceptacle de Haut-Soleil}.'
 L['triple_locked_safebox_note'] = 'Requiert 3x clés de coffre-fort cachées. Prenez la {object:Torche ardente} à côté du coffre pour les faire apparaître.'
 L['incomplete_book_of_sonnets'] = 'Livret de sonnets incomplet'
-L['ensorcelled_cryptid_note'] = nil
+L['ensorcelled_cryptid_note'] = 'Cliquez sur le {npc:273760} et restez à proximité pendant que ses charges d\'{spell:1313802} diminuent, en esquivant les tourbillons arcaniques. Interagissez ensuite avec {npc:273775} pour recevoir le {item:282417}.\n\nIl réapparaît à l\'un des trois emplacements après environ 10 minutes.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR ----------------------------------
