@@ -50,7 +50,7 @@ L['on_flying_platform'] = 'En una plataforma voladora.'
 L['gift_of_the_phoenix_note'] = 'Atrapa 5 cenizas de los fénix que aparecen después de usar el Regalo del Fénix.'
 L['triple_locked_safebox_note'] = 'Requiere 3 llaves ocultas de caja fuerte. Coge la antorcha morada al lado del cofre para verlas.'
 L['incomplete_book_of_sonnets'] = 'Libro de sonetos incompleto.'
-L['ensorcelled_cryptid_note'] = nil
+L['ensorcelled_cryptid_note'] = 'Haz click en el {npc:273760} y quédate cerca hasta que las acumulaciones de {spell:1313802} se agoten, mientras vas esquivando los remolinos arcanos. Interactúa con {npc:273775} después de conseguir el {item:282417}.\n\nReaparece en uno de los tres puntos después de unos 10 minutos.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR ----------------------------------
