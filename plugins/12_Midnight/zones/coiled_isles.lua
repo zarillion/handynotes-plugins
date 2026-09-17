@@ -126,7 +126,7 @@ map.nodes[70174529] = Rare({
     id = 258916,
     quest = 94856,
     rewards = {
-        Achievement({id = 63358, criteria = 110172}),
+        Achievement({id = 63358, criteria = 118221}),
         Reputation({id = 2772, gain = 50, quest = 98350}),
         Transmog({item = 280714, type = L['plate']}), -- Hull Render Hauberk
         Transmog({item = 280710, type = L['mail']}), -- Garsecg's Barnacled Girdle
