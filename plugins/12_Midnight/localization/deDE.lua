@@ -31,7 +31,7 @@ L['options_icons_profession_treasures'] = 'Schätze für Berufe'
 L['options_icons_profession_treasures_desc'] = 'Zeigt die Positionen der Schätze, die für deinen Beruf Wissen gewähren.'
 
 L['options_icons_safari'] = '{achievement:61091}'
-L['options_icons_safari_desc'] = 'Zeigt die Positionen der Kampfhaustiere für den Erfolg {achievement:61091} an.'
+L['options_icons_safari_desc'] = 'Zeigt die Positionen der wilden Haustiere für den Erfolg {achievement:61091} an.'
 
 L['options_icons_renowned_beast'] = 'Renowned Beasts'
 L['options_icons_renowned_beast_desc'] = 'Display locations of summonable daily beasts for Skinning'
@@ -51,7 +51,7 @@ L['on_flying_platform'] = 'Auf einer fliegenden Plattform.'
 L['gift_of_the_phoenix_note'] = 'Klicke den Schatz an und fange 5 mal eine Glut, die der erschienene {npc:255241} fallen lässt.'
 L['triple_locked_safebox_note'] = 'Nehme die {object:Brennende Fackel} neben der Truhe, um die drei benötigten Truhenschlüssel sehen zu können. Sammle die Schlüssel ein, um die Truhe öffnen zu können.'
 L['incomplete_book_of_sonnets'] = 'Unvollständiges Buch der Sonnete'
-L['ensorcelled_cryptid_note'] = nil
+L['ensorcelled_cryptid_note'] = 'Klicke {npc:273760} an und bleibt in seiner Nähe, während seine {spell:1313802}-Stapel abgebaut werden, und weiche dabei den arkanen Wirbeln aus. Streichel anschließend {npc:273775}, um {item:282417} zu erhalten.\n\nEr erscheint nach etwa 10 Minuten an einer der drei Stellen erneut.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR ----------------------------------
@@ -112,7 +112,7 @@ L['abandoned_ritual_skull'] = 'Zurückgelassener Ritualschädel'
 
 L['options_icons_put_a_pin_in_it'] = '{achievement:62199}'
 L['options_icons_put_a_pin_in_it_desc'] = 'Zeigt die Positionen für den Erfolg {achievement:62199} an.'
-L['kalika_note'] = 'Sprich mit {npc:258884} und interagiere anschließend mit dem {object:Vergessenen Knopf} hinter der nahegelegenen {object:Jade-Statue}.'
+L['kalika_note'] = 'Sprich mit {npc:258884} und interagiere anschließend mit dem {object:Vergessenen Knopf} hinter der nahegelegenen {object:Jadestatue}.'
 L['songseeker_ikaja_note'] = 'Oben auf dem Tempel'
 
 -------------------------------------------------------------------------------
@@ -169,7 +169,7 @@ L['rustling_bush'] = 'Raschelndes Gebüsch'
 L['rustling_fern_note'] = 'Zu finden auf Stufe 3 oder höher. Klicke auf den {object:Raschelnden Farn} bis das Kätzchen erscheint (8-13 Klicks). Nur 1-2 pro Lauf verfügbar.\nDas Haustier darf noch nicht freigeschalten sein.'
 L['rustling_bush_note'] = 'Zu finden auf Stufe 3 oder höher. Klicke auf das {object:Raschelnde Gebüsch} bis das Kätzchen erscheint (8-13 Klicks). Nur 1-2 pro Lauf verfügbar.\nDas Haustier darf noch nicht freigeschalten sein.'
 
-L['soggy_nest'] = nil
+L['soggy_nest'] = 'Durchnässtes Nest'
 L['soggy_nest_note'] = 'Benötigt {item:272128} um {npc:263917} anzulocken.\n{item:272128} wird auch von Naga in der Zone fallen gelassen.'
 
 L['washed_up_kelp'] = 'Angespülter Seetang'
@@ -184,22 +184,22 @@ L['floating_egg_note'] = 'Das {npc:263805} treibt den Fluss hinunter. Schnapp es
 L['sturdy_chest'] = 'Robuste Truhe'
 L['sturdy_chest_suffix'] = 'robuste Truhen geöffnet'
 
-L['gulf_of_memory_chest_note'] = 'Steigen Sie die Wurzeln des Baumes hinauf, um den Schatz zu erreichen.'
+L['gulf_of_memory_chest_note'] = 'Steige die Wurzeln des Baumes hinauf, um den Schatz zu erreichen.'
 
 -------------------------------------------------------------------------------
 --------------------------------- COILED ISLES --------------------------------
 -------------------------------------------------------------------------------
 
-L['lost_spirit_note'] = 'Bringt {item:269935} zu {npc:261867} zurück.'
-L['sunken_divers_chest_note'] = 'Tötet den nahegelegenen {npc:263081} und plündert 3x {item:271424}, kombiniert sie dann zu {item:271423}, um den Schatz freizuschalten.'
-L['vulzahn_smuggled_treasure_note'] = '1. Holt {item:271791} von {dot:Blue}{npc:253837}\n\n2. Gebt {item:271791} an {dot:Red}{npc:262204}, um {item:271788} zu erhalten\n\n3. Gebt {item:271788} an {dot:Green}{npc:263265}, um {item:271792} zu erhalten und den Schatz freizuschalten'
-L['grave_of_someone_forgotten_note'] = '1. Sprecht mit {dot:Red}{npc:263242}.\n\n2. Sprecht mit {dot:Green}{npc:263243}.\n\n3. Sprecht mit {dot:Blue}{npc:263241}.\n\n4. Kehrt zum Grab zurueck und plundert es.'
-L['profane_ritual_spoils_note'] = 'Blickt zur Statue und klickt die {npc:263187} in dieser Reihenfolge an: oben rechts, oben links, unten rechts, unten links, um den Schatz zu öffnen.'
+L['lost_spirit_note'] = 'Bringe {item:269935} zu {npc:261867} zurück.'
+L['sunken_divers_chest_note'] = 'Töte die nahegelegenen {npc:263081} und plündere 3x {item:271424}, kombiniere diese zu {item:271423}, um den Schatz öffnen zu können.'
+L['vulzahn_smuggled_treasure_note'] = '1. Hole {item:271791} von {dot:Blue}{npc:253837}\n\n2. Gebe {item:271791} an {dot:Red}{npc:262204}, um {item:271788} zu erhalten\n\n3. Gebe {item:271788} an {dot:Green}{npc:263265}, um {item:271792} zu erhalten und den Schatz öffnen zu können.'
+L['grave_of_someone_forgotten_note'] = '1. Sprich mit {dot:Red}{npc:263242}.\n\n2. Sprich mit {dot:Green}{npc:263243}.\n\n3. Sprich mit {dot:Blue}{npc:263241}.\n\n4. Kehrt zum Grab zurück und plundert es.'
+L['profane_ritual_spoils_note'] = 'Schaue zur Statue und klick die {npc:263187} in dieser Reihenfolge an: oben rechts, oben links, unten rechts, unten links, um den Schatz öffnen zu können.'
 L['abandoned_amani_privateers_cache_note'] = '1. Fische im {dot:Blue}{object:Schauerlichen Dorschteich}, um einen {item:265525} zu erhalten und füttere ihn anschließend an {npc:258076} unter Wasser.\n\n2. Folge dem Delfin, um die {item:265610} aus der {dot:Red}{object:Durchnässten Kiste} und die {item:265603} aus der {dot:Green}{object:Zerbrochenen Urne} zu sammeln.\n\n3. Klicke mit der rechten Maustaste auf eine Hälfte, um sie zum {item:265602} zu kombinieren und den Schatz freizuschalten.\n\n{Hinweis: Bleibe die ganze Zeit unter Wasser. Wenn du auftauchst, schwimmt der Delfin davon.}'
 L['grisly_cod_pool'] = 'Schauerlicher Dorschteich'
 L['waterlogged_crate'] = 'Durchnässte Kiste'
 L['broken_urn'] = 'Zerbrochene Urne'
-L['brine_crusted_chest_note'] = '1. Öffne eine {dot:Blue}{object:Blubbernde Muschel}, um eine {item:271815} zu erhalten.\n\n2. Gehe zu {dot:Red}{npc:263347} und lege die Perle auf den Pfeil auf dem Boden. Sie wird sie nehmen und den {item:271881} fallen lassen.\n\n3. Hebe den Schlüssel auf und öffne den Schatz.\n\n{note:Wenn sich eine Muschel nicht öffnen lässt, hast du wahrscheinlich bereits eine Perle in deiner Tasche.}'
+L['brine_crusted_chest_note'] = '1. Sammle von einer {dot:Blue}{object:Blubbernde Muschel} die {item:271815}.\n\n2. Gehe zu {dot:Red}{npc:263347} und lege die Perle auf den Pfeil auf dem Boden. Sie wird sie nehmen und den {item:271881} fallen lassen.\n\n3. Hebe den Schlüssel auf und öffne den Schatz.\n\n{note:Wenn sich eine Muschel nicht öffnen lässt, hast du wahrscheinlich bereits eine Perle in deiner Tasche.}'
 L['bubbling_clam'] = 'Blubbernde Muschel'
 
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'

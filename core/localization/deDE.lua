@@ -85,9 +85,9 @@ L['in_water'] = 'Im Wasser.'
 L['in_building'] = 'Im Gebäude.'
 
 ------------------------------------- TIME ------------------------------------
-L['starts_in'] = nil
-L['time_remaining'] = nil
-L['next_time'] = nil
+L['starts_in'] = 'Startet in:'
+L['time_remaining'] = 'Verbleibende Zeit:'
+L['next_time'] = 'Nächste:'
 L['hourly'] = 'Stündlich'
 L['daily'] = 'Täglich'
 L['weekly'] = 'Wöchentlich'
