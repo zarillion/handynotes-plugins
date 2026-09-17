@@ -225,7 +225,7 @@ L['mislaid_oddity'] = 'Rareza extraviada'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:63720}.'
-L['thundering_hexmask'] = 'Thundering Hexmask' -- WIP
-L['fiery_hexmask'] = 'Fiery Hexmask' -- WIP
-L['frozen_hexmask'] = 'Frozen Hexmask' -- WIP
+L['thundering_hexmask'] = 'Máscara de maleficios atronadora'
+L['fiery_hexmask'] = 'Máscara de maleficios ígnea'
+L['frozen_hexmask'] = 'Máscara de maleficios helada'
 L['c_underneath_bridge'] = 'Debajo del puente.'
