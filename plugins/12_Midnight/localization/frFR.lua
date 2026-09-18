@@ -221,11 +221,11 @@ L['curse_surge_note'] = 'Les événements de Vague de malédiction alternent tou
 
 L['ancient_chest'] = 'Coffre ancien'
 L['ancient_chest_suffix'] = 'Coffre ancien trouvé'
-L['mislaid_oddity'] = 'Curiosité égarée'
+L['mislaid_oddity'] = 'Étrangeté fourvoyée'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
-L['options_icons_hexmask_desc'] = nil
-L['thundering_hexmask'] = nil
-L['fiery_hexmask'] = nil
-L['frozen_hexmask'] = nil
+L['options_icons_hexmask_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:63720}.'
+L['thundering_hexmask'] = 'Masque maléficieux foudroyant'
+L['fiery_hexmask'] = 'Masque maléficieux ardent'
+L['frozen_hexmask'] = 'Masque maléficieux gelé'
 L['c_underneath_bridge'] = 'Sous le pont.'
