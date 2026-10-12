@@ -415,7 +415,7 @@ map.nodes[53108211] = LoreObject({
     quest = 94627,
     rewards = {
         Achievement({id = 62104, criteria = 111772}),
-        Reputation({id = 2696, gain = 250, quest = 94633})
+        Reputation({id = 2696, gain = 250, quest = 94627})
     }
 }) -- Tablet of Akil'zon
 
