@@ -50,7 +50,7 @@ L['on_flying_platform'] = '在飛行平台上。'
 L['gift_of_the_phoenix_note'] = '在使用「鳳凰之賜」後，收集 5 個從重生鳳凰掉落的餘燼。'
 L['triple_locked_safebox_note'] = '需要 3 把隱藏的保險箱鑰匙。拿起寶箱旁邊的紫色火把來讓它們顯現。'
 L['incomplete_book_of_sonnets'] = '未完成的十四行詩集'
-L['ensorcelled_cryptid_note'] = nil
+L['ensorcelled_cryptid_note'] = '點擊 {npc:273760} 並待在附近，在它的 {spell:1313802} 層數被耗盡時閃避奧術漩渦。之後與 {npc:273775} 互動即可獲得 {item:282417}。\n\n它會在約 10 分鐘後於三個地點之一重生。'
 
 -------------------------------------------------------------------------------
 ----------------------------------- HARANDAR ----------------------------------
@@ -136,46 +136,46 @@ L['enchanted_hilt_note'] = '僅限英雄難度。\n\n點選 {object:附魔劍柄
 -------------------------------------------------------------------------------
 
 L['share_a_drink_note'] = '從亞肯提納的 {npc:250495} 購買 {item:251039} 並與所有種族分享。'
-L['highly_decorated_note'] = nil
+L['highly_decorated_note'] = '完成輪替的遺物任務，然後收集它們的裝飾並擺放在亞肯提納。'
 
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
 --------------------------------- RITUAL SITES --------------------------------
 -------------------------------------------------------------------------------
-L['options_icons_ritual_site'] = nil
-L['options_icons_ritual_site_desc'] = nil
+L['options_icons_ritual_site'] = '儀式地點'
+L['options_icons_ritual_site_desc'] = '在提示中顯示 {location:儀式地點} 的獎勵。'
 
-L['ritual_site_broken_throne'] = nil
-L['ritual_site_daggerspine_point'] = nil
+L['ritual_site_broken_throne'] = '儀式地點：破碎王座'
+L['ritual_site_daggerspine_point'] = '儀式地點：刺脊崗哨'
 
-L['broken_throne_entry_note'] = nil
-L['daggerspine_point_entry_note'] = nil
+L['broken_throne_entry_note'] = '破碎王座又名阿塔卡爾丹，是一座被暮光之刃佔領的阿曼尼遺跡。點擊 {npc:260103} 進入。\n\n與 {location:儀式地點：刺脊崗哨} 每週輪替開放。'
+L['daggerspine_point_entry_note'] = '刺脊崗哨是一座被刺脊納迦佔據的島嶼，舊名薩藍迪斯島。點擊 {npc:260103} 進入。\n\n與 {location:儀式地點：破碎王座} 每週輪替開放。'
 
-L['chewed_meat'] = nil
-L['chewed_meat_note'] = nil
+L['chewed_meat'] = '被咬過的肉'
+L['chewed_meat_note'] = '在 {object:被咬過的肉} 處召喚 {spell:1286634}。擊敗 {npc:263381}，待牠轉為友善後，餵牠 5x {item:242639}。'
 
-L['ritual_circle'] = nil
-L['ritual_circle_note'] = nil
+L['ritual_circle'] = '儀式法陣'
+L['ritual_circle_note'] = '放置 {item:271999} 並開始儀式以召喚 {npc:263527}。'
 
-L['updraft'] = nil
-L['void_tainted_nest'] = nil
-L['void_tainted_nest_note'] = nil
+L['updraft'] = '上升氣流'
+L['void_tainted_nest'] = '虛無污化鷹巢'
+L['void_tainted_nest_note'] = '必須騎乘 {spell:1286606} 才能看見上升氣流。走進氣流即可飛到鷹巢。'
 
-L['chubs_note'] = nil
+L['chubs_note'] = '以 1x {item:242639} 向 {npc:263355} 購買。'
 
-L['rustling_fern'] = nil
-L['rustling_bush'] = nil
-L['rustling_fern_note'] = nil
-L['rustling_bush_note'] = nil
+L['rustling_fern'] = '窸窣作響的蕨類'
+L['rustling_bush'] = '窸窣作響的灌木叢'
+L['rustling_fern_note'] = '出現在層級 3 或以上。點擊 {object:窸窣作響的蕨類} 直到小貓出現（8-13 次）。每次僅有 1-2 個可用。\n需要尚未學會此寵物。'
+L['rustling_bush_note'] = '出現在層級 3 或以上。點擊 {object:窸窣作響的灌木叢} 直到小貓出現（8-13 次）。每次僅有 1-2 個可用。\n需要尚未學會此寵物。'
 
-L['soggy_nest'] = nil
-L['soggy_nest_note'] = nil
+L['soggy_nest'] = '溼透的巢'
+L['soggy_nest_note'] = '需要 {item:272128} 來吸引 {npc:263917}。\n{item:272128} 也會從此區域的納迦身上掉落。'
 
-L['washed_up_kelp'] = nil
-L['washed_up_kelp_note'] = nil
+L['washed_up_kelp'] = '洗過的海藻'
+L['washed_up_kelp_note'] = '搜索 {object:洗過的海藻} 有機會吸引 {npc:263617}。區域內有多個地點。'
 
-L['floating_egg_note'] = nil
+L['floating_egg_note'] = '{npc:263805} 會順著河流漂下。沿著它的路徑抓住它。'
 ------------------------------------ DELVES -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -193,12 +193,12 @@ L['sunken_divers_chest_note'] = '擊殺附近的 {npc:263081} 並拾取 3 個 {i
 L['vulzahn_smuggled_treasure_note'] = '1. 從 {dot:Blue}{npc:253837} 取得 {item:271791}\n\n2. 將 {item:271791} 交給 {dot:Red}{npc:262204} 以獲得 {item:271788}\n\n3. 將 {item:271788} 交給 {dot:Green}{npc:263265} 以獲得 {item:271792} 並解鎖寶藏'
 L['grave_of_someone_forgotten_note'] = '1. 與 {dot:Red}{npc:263242} 對話。\n\n2. 與 {dot:Green}{npc:263243} 對話。\n\n3. 與 {dot:Blue}{npc:263241} 對話。\n\n4. 返回墳墓進行拾取。'
 L['profane_ritual_spoils_note'] = '面向雕像，依右上、左上、右下、左下的順序點擊 {npc:263187} 即可開啟寶藏。'
-L['abandoned_amani_privateers_cache_note'] = nil
-L['grisly_cod_pool'] = nil
-L['waterlogged_crate'] = nil
-L['broken_urn'] = nil
-L['brine_crusted_chest_note'] = nil
-L['bubbling_clam'] = nil
+L['abandoned_amani_privateers_cache_note'] = '1. 在 {dot:Blue}{object:恐怖的鱈魚池} 釣魚取得 {item:265525}，然後在水下餵給 {npc:258076}。\n\n2. 跟著海豚，從 {dot:Red}{object:浸水的木箱} 收集 {item:265610}，並從 {dot:Green}{object:破損的甕} 收集 {item:265603}。\n\n3. 右鍵點擊其中一半，將它們合成為 {item:265602} 並解鎖寶藏。\n\n{note:全程待在水下。如果浮出水面，海豚就會游走。}'
+L['grisly_cod_pool'] = '恐怖的鱈魚池'
+L['waterlogged_crate'] = '浸水的木箱'
+L['broken_urn'] = '破損的甕'
+L['brine_crusted_chest_note'] = '1. 打開 {dot:Blue}{object:冒泡的蚌殼} 拾取 {item:271815}。\n\n2. 前往 {dot:Red}{npc:263347}，將珍珠放在地上的箭頭處。她會拿走珍珠並掉落 {item:271881}。\n\n3. 撿起鑰匙並打開寶藏。\n\n{note:如果無法打開蚌殼，可能是你的背包裡已經有珍珠了。}'
+L['bubbling_clam'] = '冒泡的蚌殼'
 
 L['options_icons_coiled_isle_safari'] = '{achievement:62492}'
 L['options_icons_coiled_isle_safari_desc'] = '顯示成就 {achievement:62492} 所需的戰寵位置。'
@@ -213,6 +213,6 @@ L['options_icons_the_honored_dead'] = '{achievement:63610}'
 L['options_icons_the_honored_dead_desc'] = '顯示 {achievement:63610} 成就的位置。'
 
 L['options_icons_mysterious_mixing'] = '{achievement:63432}'
-L['options_icons_mysterious_mixing_desc'] = nil
-L['mysterious_mixing_note'] = nil
+L['options_icons_mysterious_mixing_desc'] = '顯示 {achievement:63432} 成就的位置。'
+L['mysterious_mixing_note'] = '為 {npc:263327} 完成 {quest:97016} 每日任務以調製供品：\n\n{note:材料可從島上各處的 {object:碎裂的臟器罈}、{object:凝結毒液飾物} 和 {object:歌唱甲殼} 取得，或在拍賣場購買。}'
 L['curse_surge_note'] = '詛咒狂潮事件每 %d 分鐘輪換一次。\n\n{note:如果未完成，可跨服組隊完成——其他伺服器的事件可能仍在進行中。}'
