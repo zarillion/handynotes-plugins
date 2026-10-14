@@ -76,7 +76,10 @@ L['quest_repeatable'] = nil
 L['achievement'] = nil
 L['decor_owned'] = nil
 
+-------------------------------------------------------------------------------
 ----------------------------------- LOCATION ----------------------------------
+-------------------------------------------------------------------------------
+
 L['in_cave'] = 'En una cueva.'
 L['in_small_cave'] = 'En una cueva pequeña.'
 L['in_water_cave'] = 'En una cueva submarina.'
@@ -84,7 +87,10 @@ L['in_waterfall_cave'] = nil
 L['in_water'] = 'Bajo el agua.'
 L['in_building'] = nil
 
+-------------------------------------------------------------------------------
 ------------------------------------- TIME ------------------------------------
+-------------------------------------------------------------------------------
+
 L['starts_in'] = nil
 L['time_remaining'] = nil
 L['next_time'] = nil
@@ -97,7 +103,10 @@ L['time_format_24hrs'] = '%H:%M - %d/%m'
 L['local_time'] = 'hora local'
 L['server_time'] = 'hora del servidor'
 
+-------------------------------------------------------------------------------
 ----------------------------------- REWARDS -----------------------------------
+-------------------------------------------------------------------------------
+
 L['decor'] = 'Decoraciones de viviendas'
 L['heirloom'] = nil
 L['item'] = nil
@@ -113,12 +122,18 @@ L['buff'] = nil
 L['transmog'] = nil
 L['hunter_pet'] = nil
 
+-------------------------------------------------------------------------------
 ---------------------------------- FOLLOWERS ----------------------------------
+-------------------------------------------------------------------------------
+
 L['follower_type_follower'] = nil
 L['follower_type_champion'] = nil
 L['follower_type_companion'] = nil
 
+-------------------------------------------------------------------------------
 ---------------------------------- REPUTATION ---------------------------------
+-------------------------------------------------------------------------------
+
 L['rep_honored'] = nil
 L['rep_revered'] = nil
 L['rep_exalted'] = nil
@@ -170,7 +185,9 @@ L['options_open_settings_panel'] = nil
 L['options_open_world_map'] = nil
 L['options_open_world_map_desc'] = nil
 
+-------------------------------------------------------------------------------
 ------------------------------------ ICONS ------------------------------------
+-------------------------------------------------------------------------------
 
 L['options_icon_settings'] = 'Configuración de Íconos'
 L['options_scale'] = 'Escala'
@@ -178,7 +195,9 @@ L['options_scale_desc'] = '1 = 100%'
 L['options_opacity'] = 'Opacidad'
 L['options_opacity_desc'] = '0 = transparencia, 1 = opaco'
 
+-------------------------------------------------------------------------------
 ---------------------------------- VISIBILITY ---------------------------------
+-------------------------------------------------------------------------------
 
 L['options_show_worldmap_button'] = nil
 L['options_show_worldmap_button_desc'] = nil
@@ -246,7 +265,9 @@ L['options_icons_treasures'] = 'Tesoros'
 L['options_icons_vendors_desc'] = nil
 L['options_icons_vendors'] = nil
 
+-------------------------------------------------------------------------------
 ------------------------------------ FOCUS ------------------------------------
+-------------------------------------------------------------------------------
 
 L['options_focus_settings'] = nil
 L['options_poi_color'] = nil
@@ -256,7 +277,9 @@ L['options_path_color_desc'] = nil
 L['options_reset_poi_colors'] = nil
 L['options_reset_poi_colors_desc'] = nil
 
+-------------------------------------------------------------------------------
 ----------------------------------- TOOLTIP -----------------------------------
+-------------------------------------------------------------------------------
 
 L['options_tooltip_settings'] = 'Tooltip'
 L['options_toggle_show_loot'] = 'Mostrar el botín'
@@ -266,7 +289,9 @@ L['options_toggle_show_notes_desc'] = 'Agregar las notas útiles al tooltip cuan
 L['options_toggle_show_npc_id'] = nil
 L['options_toggle_show_npc_id_desc'] = nil
 
+-------------------------------------------------------------------------------
 --------------------------------- DEVELOPMENT ---------------------------------
+-------------------------------------------------------------------------------
 
 L['options_dev_settings'] = 'Desarrollo'
 L['options_toggle_show_debug_currency'] = nil

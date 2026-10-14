@@ -140,10 +140,9 @@ L['share_a_drink_note'] = 'Achetez des {item:251039} auprès de {npc:250495} à 
 L['highly_decorated_note'] = 'Terminez les quêtes de reliques en rotation temporaire, puis récupérez leurs objets de décorations liés et placez-les à l’Arcantina.'
 
 -------------------------------------------------------------------------------
--------------------------------------------------------------------------------
--------------------------------------------------------------------------------
 --------------------------------- RITUAL SITES --------------------------------
 -------------------------------------------------------------------------------
+
 L['options_icons_ritual_site'] = 'Sites rituels'
 L['options_icons_ritual_site_desc'] = 'Afficher les récompenses des {location:Sites rituels} dans les infobulles.'
 
@@ -177,6 +176,8 @@ L['washed_up_kelp'] = 'Varech échoué'
 L['washed_up_kelp_note'] = 'Fouillez les {object:Varechs échoués} pour avoir une chance d\'attirer le {npc:263617}. Trouvables à plusieurs endroits dans la zone.'
 
 L['floating_egg_note'] = 'Un {npc:263805} qui descend la rivière à la dérive. Attrapez-le pendant son trajet.'
+
+-------------------------------------------------------------------------------
 ------------------------------------ DELVES -----------------------------------
 -------------------------------------------------------------------------------
 

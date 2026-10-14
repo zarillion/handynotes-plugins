@@ -76,7 +76,10 @@ L['quest_repeatable'] = 'Quête répétable'
 L['achievement'] = 'Haut-Fait'
 L['decor_owned'] = 'Possédé : %s'
 
+-------------------------------------------------------------------------------
 ----------------------------------- LOCATION ----------------------------------
+-------------------------------------------------------------------------------
+
 L['in_cave'] = 'Dans une grotte.'
 L['in_small_cave'] = 'Dans une petite grotte.'
 L['in_water_cave'] = 'Dans une grotte sous-marine.'
@@ -84,7 +87,10 @@ L['in_waterfall_cave'] = 'Dans une grotte derrière une cascade.'
 L['in_water'] = 'Dans l\'eau.'
 L['in_building'] = 'A l\'intérieur du bâtiment.'
 
+-------------------------------------------------------------------------------
 ------------------------------------- TIME ------------------------------------
+-------------------------------------------------------------------------------
+
 L['starts_in'] = 'Commence dans :'
 L['time_remaining'] = 'Temps restant :'
 L['next_time'] = 'Prochain :'
@@ -97,7 +103,10 @@ L['time_format_24hrs'] = '%H:%M - %d/%m'
 L['local_time'] = 'heure locale'
 L['server_time'] = 'heure du serveur'
 
+-------------------------------------------------------------------------------
 ----------------------------------- REWARDS -----------------------------------
+-------------------------------------------------------------------------------
+
 L['decor'] = 'Élément de décoration intérieure'
 L['heirloom'] = 'Héritage'
 L['item'] = 'Objet'
@@ -113,12 +122,18 @@ L['buff'] = 'Amélioration'
 L['transmog'] = 'Transmogrification'
 L['hunter_pet'] = 'Familier de chasseur'
 
+-------------------------------------------------------------------------------
 ---------------------------------- FOLLOWERS ----------------------------------
+-------------------------------------------------------------------------------
+
 L['follower_type_follower'] = 'Sujet'
 L['follower_type_champion'] = 'Champion'
 L['follower_type_companion'] = 'Compagnon'
 
+-------------------------------------------------------------------------------
 ---------------------------------- REPUTATION ---------------------------------
+-------------------------------------------------------------------------------
+
 L['rep_honored'] = 'Honoré'
 L['rep_revered'] = 'Révéré'
 L['rep_exalted'] = 'Exalté'
@@ -170,7 +185,9 @@ L['options_open_settings_panel'] = 'Ouvrir le panneau de configuration'
 L['options_open_world_map'] = 'Ouvrir la carte du monde'
 L['options_open_world_map_desc'] = 'Ouvrir cette zone dans la carte du monde' -- Need review
 
+-------------------------------------------------------------------------------
 ------------------------------------ ICONS ------------------------------------
+-------------------------------------------------------------------------------
 
 L['options_icon_settings'] = 'Paramètres des Icônes'
 L['options_scale'] = 'Échelle'
@@ -178,7 +195,9 @@ L['options_scale_desc'] = '1 = 100%'
 L['options_opacity'] = 'Opacité'
 L['options_opacity_desc'] = '0 = transparent, 1 = opaque'
 
+-------------------------------------------------------------------------------
 ---------------------------------- VISIBILITY ---------------------------------
+-------------------------------------------------------------------------------
 
 L['options_show_worldmap_button'] = 'Afficher le bouton de la carte du monde'
 L['options_show_worldmap_button_desc'] = 'Ajouter un menu déroulant dans le coin supérieur droit de la carte du monde.'
@@ -246,7 +265,9 @@ L['options_icons_treasures'] = 'Trésors'
 L['options_icons_vendors_desc'] = 'Afficher les emplacements des vendeurs.'
 L['options_icons_vendors'] = 'Vendeurs'
 
+-------------------------------------------------------------------------------
 ------------------------------------ FOCUS ------------------------------------
+-------------------------------------------------------------------------------
 
 L['options_focus_settings'] = 'Point d\'intéret'
 L['options_poi_color'] = 'Couleur du POI'
@@ -256,7 +277,9 @@ L['options_path_color_desc'] = 'Définit une couleur pour les chemins quand une 
 L['options_reset_poi_colors'] = 'Réinitialiser les couleurs'
 L['options_reset_poi_colors_desc'] = 'Réinitialiser les couleurs ci-dessus à leurs valeurs par défaut.'
 
+-------------------------------------------------------------------------------
 ----------------------------------- TOOLTIP -----------------------------------
+-------------------------------------------------------------------------------
 
 L['options_tooltip_settings'] = 'Infobulle'
 L['options_toggle_show_loot'] = 'Montrer le Butin'
@@ -266,7 +289,9 @@ L['options_toggle_show_notes_desc'] = 'Ajouter des notes utiles à l\'infobulle 
 L['options_toggle_show_npc_id'] = 'Afficher l\'ID du PNJ'
 L['options_toggle_show_npc_id_desc'] = 'Afficher L\'ID des PNJs afin d\'être utilisés par les addons de détection de rares.'
 
+-------------------------------------------------------------------------------
 --------------------------------- DEVELOPMENT ---------------------------------
+-------------------------------------------------------------------------------
 
 L['options_dev_settings'] = 'Développement'
 L['options_toggle_show_debug_currency'] = 'Debug les IDs de Monnaies'

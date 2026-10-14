@@ -2,6 +2,7 @@ local ADDON_NAME, ns = ...
 local L = ns.NewLocale('esES')
 if not L then return end
 -- Spanish Translation by Krovikan EU-Minahonda
+
 -------------------------------------------------------------------------------
 ------------------------------------- GEAR ------------------------------------
 -------------------------------------------------------------------------------
@@ -76,7 +77,10 @@ L['quest_repeatable'] = 'Misión repetible'
 L['achievement'] = 'Logro'
 L['decor_owned'] = 'Conseguido: %s'
 
+-------------------------------------------------------------------------------
 ----------------------------------- LOCATION ----------------------------------
+-------------------------------------------------------------------------------
+
 L['in_cave'] = 'En una cueva.'
 L['in_small_cave'] = 'En una cueva pequeña.'
 L['in_water_cave'] = 'En una cueva submarina.'
@@ -84,7 +88,10 @@ L['in_waterfall_cave'] = 'En una cueva detrás de una cascada.'
 L['in_water'] = 'Bajo el agua.'
 L['in_building'] = 'En el edificio.'
 
+-------------------------------------------------------------------------------
 ------------------------------------- TIME ------------------------------------
+-------------------------------------------------------------------------------
+
 L['starts_in'] = 'Comienza en:'
 L['time_remaining'] = 'Tiempo restante:'
 L['next_time'] = 'Siguiente:'
@@ -97,7 +104,10 @@ L['time_format_24hrs'] = '%H:%M - %d/%m'
 L['local_time'] = 'hora local'
 L['server_time'] = 'hora del servidor'
 
+-------------------------------------------------------------------------------
 ----------------------------------- REWARDS -----------------------------------
+-------------------------------------------------------------------------------
+
 L['decor'] = 'Adorno para los hogares'
 L['heirloom'] = 'Reliquia'
 L['item'] = 'Objeto'
@@ -113,12 +123,18 @@ L['buff'] = 'Buff'
 L['transmog'] = 'Transfiguración'
 L['hunter_pet'] = 'Cazador de mascotas'
 
+-------------------------------------------------------------------------------
 ---------------------------------- FOLLOWERS ----------------------------------
+-------------------------------------------------------------------------------
+
 L['follower_type_follower'] = 'Seguidor'
 L['follower_type_champion'] = 'Campeón'
 L['follower_type_companion'] = 'Compañero'
 
+-------------------------------------------------------------------------------
 ---------------------------------- REPUTATION ---------------------------------
+-------------------------------------------------------------------------------
+
 L['rep_honored'] = 'Honorable'
 L['rep_revered'] = 'Reverenciado'
 L['rep_exalted'] = 'Exaltado'
@@ -170,7 +186,9 @@ L['options_open_settings_panel'] = 'Abrir el panel de preferencias...'
 L['options_open_world_map'] = 'Abrir el mapa del mundo'
 L['options_open_world_map_desc'] = 'Abre esta zona en el mapa del mundo.'
 
+-------------------------------------------------------------------------------
 ------------------------------------ ICONS ------------------------------------
+-------------------------------------------------------------------------------
 
 L['options_icon_settings'] = 'Configuración de iconos'
 L['options_scale'] = 'Escalar'
@@ -178,7 +196,9 @@ L['options_scale_desc'] = '1 = 100%'
 L['options_opacity'] = 'Opacidad'
 L['options_opacity_desc'] = '0 = transparente, 1 = opaco'
 
+-------------------------------------------------------------------------------
 ---------------------------------- VISIBILITY ---------------------------------
+-------------------------------------------------------------------------------
 
 L['options_show_worldmap_button'] = 'Mostrar botón del mapa del mundo'
 L['options_show_worldmap_button_desc'] = 'Añade un menú desplegable para cambiar opciones rápidamente en la esquina superior derecha del mapa del mundo.'
@@ -246,7 +266,9 @@ L['options_icons_treasures'] = 'Tesoros'
 L['options_icons_vendors_desc'] = 'Muestra dónde están los vendedores.'
 L['options_icons_vendors'] = 'Vendedores'
 
+-------------------------------------------------------------------------------
 ------------------------------------ FOCUS ------------------------------------
+-------------------------------------------------------------------------------
 
 L['options_focus_settings'] = 'Lugares de interés'
 L['options_poi_color'] = 'Color de los lugares de interés'
@@ -256,7 +278,9 @@ L['options_path_color_desc'] = 'Establece el color para los caminos cuando un ic
 L['options_reset_poi_colors'] = 'Resetear colores'
 L['options_reset_poi_colors_desc'] = 'Establece los colores de encima a sus valores por defecto.'
 
+-------------------------------------------------------------------------------
 ----------------------------------- TOOLTIP -----------------------------------
+-------------------------------------------------------------------------------
 
 L['options_tooltip_settings'] = 'Descripción'
 L['options_toggle_show_loot'] = 'Mostrar el botín'
@@ -266,7 +290,9 @@ L['options_toggle_show_notes_desc'] = 'Agrega las notas útiles en la descripci�
 L['options_toggle_show_npc_id'] = 'Mostrar el ID del NPC'
 L['options_toggle_show_npc_id_desc'] = 'Muestra el ID de los NPC para usarlo en addons de búsqueda de raros.'
 
+-------------------------------------------------------------------------------
 --------------------------------- DEVELOPMENT ---------------------------------
+-------------------------------------------------------------------------------
 
 L['options_dev_settings'] = 'Desarrollo'
 L['options_toggle_show_debug_currency'] = 'Depurar las ID de las monedas'

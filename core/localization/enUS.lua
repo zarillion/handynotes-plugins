@@ -76,7 +76,10 @@ L['quest_repeatable'] = 'Repeatable Quest'
 L['achievement'] = 'Achievement'
 L['decor_owned'] = 'Owned: %s'
 
+-------------------------------------------------------------------------------
 ----------------------------------- LOCATION ----------------------------------
+-------------------------------------------------------------------------------
+
 L['in_cave'] = 'In a cave.'
 L['in_small_cave'] = 'In a small cave.'
 L['in_water_cave'] = 'In an underwater cave.'
@@ -84,7 +87,10 @@ L['in_waterfall_cave'] = 'In a cave behind a waterfall.'
 L['in_water'] = 'In the water.'
 L['in_building'] = 'In the building.'
 
+-------------------------------------------------------------------------------
 ------------------------------------- TIME ------------------------------------
+-------------------------------------------------------------------------------
+
 L['starts_in'] = 'Starts In:'
 L['time_remaining'] = 'Time Remaining:'
 L['next_time'] = 'Next:'
@@ -97,7 +103,10 @@ L['time_format_24hrs'] = '%B %d - %H:%M'
 L['local_time'] = 'local time'
 L['server_time'] = 'server time'
 
+-------------------------------------------------------------------------------
 ----------------------------------- REWARDS -----------------------------------
+-------------------------------------------------------------------------------
+
 L['decor'] = 'Housing Decor'
 L['heirloom'] = 'Heirloom'
 L['item'] = 'Item'
@@ -113,12 +122,18 @@ L['buff'] = 'Buff'
 L['transmog'] = 'Transmog'
 L['hunter_pet'] = 'Hunter Pet'
 
+-------------------------------------------------------------------------------
 ---------------------------------- FOLLOWERS ----------------------------------
+-------------------------------------------------------------------------------
+
 L['follower_type_follower'] = 'Follower'
 L['follower_type_champion'] = 'Champion'
 L['follower_type_companion'] = 'Companion'
 
+-------------------------------------------------------------------------------
 ---------------------------------- REPUTATION ---------------------------------
+-------------------------------------------------------------------------------
+
 L['rep_honored'] = 'Honored'
 L['rep_revered'] = 'Revered'
 L['rep_exalted'] = 'Exalted'
@@ -170,7 +185,9 @@ L['options_open_settings_panel'] = 'Open Settings Panel ...'
 L['options_open_world_map'] = 'Open World Map'
 L['options_open_world_map_desc'] = 'Open this zone in the world map.'
 
+-------------------------------------------------------------------------------
 ------------------------------------ ICONS ------------------------------------
+-------------------------------------------------------------------------------
 
 L['options_icon_settings'] = 'Icon Settings'
 L['options_scale'] = 'Scale'
@@ -178,7 +195,9 @@ L['options_scale_desc'] = '1 = 100%'
 L['options_opacity'] = 'Opacity'
 L['options_opacity_desc'] = '0 = transparent, 1 = opaque'
 
+-------------------------------------------------------------------------------
 ---------------------------------- VISIBILITY ---------------------------------
+-------------------------------------------------------------------------------
 
 L['options_show_worldmap_button'] = 'Show world map button'
 L['options_show_worldmap_button_desc'] = 'Add a quick-toggle dropdown menu to the top-right corner of the world map.'
@@ -246,7 +265,9 @@ L['options_icons_treasures'] = 'Treasures'
 L['options_icons_vendors_desc'] = 'Display locations for vendors.'
 L['options_icons_vendors'] = 'Vendors'
 
+-------------------------------------------------------------------------------
 ------------------------------------ FOCUS ------------------------------------
+-------------------------------------------------------------------------------
 
 L['options_focus_settings'] = 'Points of Interest'
 L['options_poi_color'] = 'POI color'
@@ -256,7 +277,9 @@ L['options_path_color_desc'] = 'Sets the color for the paths when an icon is in 
 L['options_reset_poi_colors'] = 'Reset colors'
 L['options_reset_poi_colors_desc'] = 'Reset the above colors to their defaults.'
 
+-------------------------------------------------------------------------------
 ----------------------------------- TOOLTIP -----------------------------------
+-------------------------------------------------------------------------------
 
 L['options_tooltip_settings'] = 'Tooltip'
 L['options_toggle_show_loot'] = 'Show Loot'
@@ -266,7 +289,9 @@ L['options_toggle_show_notes_desc'] = 'Add helpful notes to the tooltip where av
 L['options_toggle_show_npc_id'] = 'Show NPC ID'
 L['options_toggle_show_npc_id_desc'] = 'Show the NPC\'s ID for use in rare-scanning addons.'
 
+-------------------------------------------------------------------------------
 --------------------------------- DEVELOPMENT ---------------------------------
+-------------------------------------------------------------------------------
 
 L['options_dev_settings'] = 'Development'
 L['options_toggle_show_debug_currency'] = 'Debug Currency IDs'

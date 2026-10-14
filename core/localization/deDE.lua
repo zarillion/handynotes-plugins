@@ -2,6 +2,7 @@ local ADDON_NAME, ns = ...
 local L = ns.NewLocale('deDE')
 if not L then return end
 -- German Translation by Dathwada EU-Eredar and Ioney EU-Blackrock
+
 -------------------------------------------------------------------------------
 ------------------------------------- GEAR ------------------------------------
 -------------------------------------------------------------------------------
@@ -76,7 +77,10 @@ L['quest_repeatable'] = 'Wiederholbare Quest'
 L['achievement'] = 'Erfolg'
 L['decor_owned'] = 'Im Besitz: %s'
 
+-------------------------------------------------------------------------------
 ----------------------------------- LOCATION ----------------------------------
+-------------------------------------------------------------------------------
+
 L['in_cave'] = 'In einer Höhle.'
 L['in_small_cave'] = 'In einer kleinen Höhle.'
 L['in_water_cave'] = 'In einer Unterwasserhöhle.'
@@ -84,7 +88,10 @@ L['in_waterfall_cave'] = 'In einer Höhle hinter einem Wasserfall.'
 L['in_water'] = 'Im Wasser.'
 L['in_building'] = 'Im Gebäude.'
 
+-------------------------------------------------------------------------------
 ------------------------------------- TIME ------------------------------------
+-------------------------------------------------------------------------------
+
 L['starts_in'] = 'Startet in:'
 L['time_remaining'] = 'Verbleibende Zeit:'
 L['next_time'] = 'Nächste:'
@@ -97,7 +104,10 @@ L['time_format_24hrs'] = '%d.%m - %H:%M'
 L['local_time'] = 'Ortszeit'
 L['server_time'] = 'Serverzeit'
 
+-------------------------------------------------------------------------------
 ----------------------------------- REWARDS -----------------------------------
+-------------------------------------------------------------------------------
+
 L['decor'] = 'Behausungsdekoration'
 L['heirloom'] = 'Erbstück'
 L['item'] = 'Gegenstand'
@@ -113,12 +123,18 @@ L['buff'] = 'Stärkungszauber'
 L['transmog'] = 'Ausrüstungsvorlage'
 L['hunter_pet'] = 'Jäger Begleiter'
 
+-------------------------------------------------------------------------------
 ---------------------------------- FOLLOWERS ----------------------------------
+-------------------------------------------------------------------------------
+
 L['follower_type_follower'] = 'Anhänger'
 L['follower_type_champion'] = 'Champion'
 L['follower_type_companion'] = 'Abenteurer'
 
+-------------------------------------------------------------------------------
 ---------------------------------- REPUTATION ---------------------------------
+-------------------------------------------------------------------------------
+
 L['rep_honored'] = 'Wohlwollend'
 L['rep_revered'] = 'Respektvoll'
 L['rep_exalted'] = 'Erfürchtig'
@@ -170,7 +186,9 @@ L['options_open_settings_panel'] = 'Einstellungsmenü öffnen ...'
 L['options_open_world_map'] = 'Weltkarte öffnen'
 L['options_open_world_map_desc'] = 'Öffnet diese Zone auf der Weltkarte.'
 
+-------------------------------------------------------------------------------
 ------------------------------------ ICONS ------------------------------------
+-------------------------------------------------------------------------------
 
 L['options_icon_settings'] = 'Symboleinstellungen'
 L['options_scale'] = 'Größe'
@@ -178,7 +196,9 @@ L['options_scale_desc'] = '1 = 100%'
 L['options_opacity'] = 'Transparenz'
 L['options_opacity_desc'] = '0 = transparent, 1 = undurchsichtig'
 
+-------------------------------------------------------------------------------
 ---------------------------------- VISIBILITY ---------------------------------
+-------------------------------------------------------------------------------
 
 L['options_show_worldmap_button'] = 'Zeige den Weltkartenbutton'
 L['options_show_worldmap_button_desc'] = 'Fügt der Weltkarte in der rechten oberen Ecke einen Button hinzu, womit per Dropdownmenü schnell auf Einstellungen zugegriffen werden kann.'
@@ -246,7 +266,9 @@ L['options_icons_treasures'] = 'Schätze'
 L['options_icons_vendors_desc'] = 'Zeigt die Positionen von Händlern an.'
 L['options_icons_vendors'] = 'Händler'
 
+-------------------------------------------------------------------------------
 ------------------------------------ FOCUS ------------------------------------
+-------------------------------------------------------------------------------
 
 L['options_focus_settings'] = 'Orte von Interesse'
 L['options_poi_color'] = 'Punktfarbe'
@@ -256,7 +278,9 @@ L['options_path_color_desc'] = 'Legt die Farbe des Weges fest, wenn ein Symbol f
 L['options_reset_poi_colors'] = 'Farben zurücksetzen'
 L['options_reset_poi_colors_desc'] = 'Setzt die obigen Farben auf ihre Standardeinstellungen zurück.'
 
+-------------------------------------------------------------------------------
 ----------------------------------- TOOLTIP -----------------------------------
+-------------------------------------------------------------------------------
 
 L['options_tooltip_settings'] = 'Tooltip'
 L['options_toggle_show_loot'] = 'Zeige Beute'
@@ -266,7 +290,9 @@ L['options_toggle_show_notes_desc'] = 'Zeigt hilfreiche Notizen an sofern diese 
 L['options_toggle_show_npc_id'] = 'Zeige NPC ID'
 L['options_toggle_show_npc_id_desc'] = 'Zeigt die ID des NPCs im Tooltip an.'
 
+-------------------------------------------------------------------------------
 --------------------------------- DEVELOPMENT ---------------------------------
+-------------------------------------------------------------------------------
 
 L['options_dev_settings'] = 'Entwicklung'
 L['options_toggle_show_debug_currency'] = 'Debug Währungs IDs'
