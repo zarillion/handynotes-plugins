@@ -32,6 +32,15 @@ local AncientChest = Class('AncientChest', Treasure, {
     }
 }) -- Ancient Chest
 
+local MislaidOddity = Class('MislaidOddity', Treasure, {
+    icon = 7298691,
+    label = L['mislaid_oddity'],
+    rewards = {
+        Achievement({id = 63727, criteria = {id = 1, qty = true}}),
+        Achievement({id = 63728, criteria = {id = 1, qty = true}})
+    }
+}) -- Mislaid Oddity
+
 local map = Map({id = 2647, settings = false}) -- The Labyrinth of Kindo'Jan
 
 map.groups[#map.groups + 1] = ns.groups.DELVE_REWARDS
@@ -91,21 +100,21 @@ AddAncientChest(89707770, 00000, '#38', 'PH #38') -- TODO: replace with the ques
 -- purple - halazzi - 5
 
 -- Mislaid Oddities for Treasures Upon Treasures (63727): Random spawns
--- 22362295 - Mislaid Oddity
--- 62872956 - Mislaid Oddity
--- 64912570 - Mislaid Oddity
--- 58812572 - Mislaid Oddity
--- 31556581 - Mislaid Oddity
--- 31364538 - Mislaid Oddity
--- 41576995 - Mislaid Oddity
--- 37727541 - Mislaid Oddity
--- 58126731 - Mislaid Oddity
--- 25866169 - Mislaid Oddity
--- 37502166 - Mislaid Oddity
--- 39341333 - Mislaid Oddity
--- 57302124 - Mislaid Oddity
--- 59032004 - Mislaid Oddity
--- 59832070 - Mislaid Oddity
+map.nodes[22362295] = MislaidOddity()
+map.nodes[62872956] = MislaidOddity()
+map.nodes[64912570] = MislaidOddity()
+map.nodes[58812572] = MislaidOddity()
+map.nodes[31556581] = MislaidOddity()
+map.nodes[31364538] = MislaidOddity()
+map.nodes[41576995] = MislaidOddity()
+map.nodes[37727541] = MislaidOddity()
+map.nodes[58126731] = MislaidOddity()
+map.nodes[25866169] = MislaidOddity()
+map.nodes[37502166] = MislaidOddity()
+map.nodes[39341333] = MislaidOddity()
+map.nodes[57302124] = MislaidOddity()
+map.nodes[59032004] = MislaidOddity()
+map.nodes[59832070] = MislaidOddity()
 
 local function AddHexmask(coordinate, label)
     map.nodes[coordinate] = Hexmask({
