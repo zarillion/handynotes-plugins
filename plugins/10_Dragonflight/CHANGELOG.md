@@ -1,3 +1,7 @@
+# v157
+
+* Localization updates: deDE
+
 # v155
 
 * Localization updates: ruRU

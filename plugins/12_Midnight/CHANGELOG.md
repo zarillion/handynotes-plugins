@@ -1,5 +1,8 @@
 # v157
 
+* Added The Labyrinth of Kindo'Jan delve: Ancient Chests, Mislaid Oddities, and Hexmask achievement locations.
+* Fixed Garsecg's achievement criteria in The Coiled Isle.
+* Fixed the Tablet of Akil'zon node in Zul'Aman linking its reputation reward to the wrong quest.
 * Localization updates
 
 # v156

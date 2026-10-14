@@ -1,3 +1,7 @@
+# v157
+
+* Localization updates: deDE
+
 # v155
 
 * Fixed a crash with Decor rewards when housing data is not loaded.
