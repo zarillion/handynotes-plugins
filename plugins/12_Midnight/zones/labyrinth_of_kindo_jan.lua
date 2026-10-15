@@ -35,6 +35,7 @@ local AncientChest = Class('AncientChest', Treasure, {
 local MislaidOddity = Class('MislaidOddity', Treasure, {
     icon = 7298691,
     label = L['mislaid_oddity'],
+    note = L['multiple_spawns'],
     rewards = {
         Achievement({id = 63727, criteria = {id = 1, qty = true}}),
         Achievement({id = 63728, criteria = {id = 1, qty = true}})
@@ -86,13 +87,18 @@ AddAncientChest(69257109, 98638, '#28')
 AddAncientChest(40754541, 98648, '#29', L['c_underneath_bridge'])
 AddAncientChest(47674001, 98649, '#30')
 AddAncientChest(45954837, 98650, '#31')
-AddAncientChest(65624202, 00000, '#32', 'PH #32') -- TODO: replace with the quest ID
-AddAncientChest(63714301, 00000, '#33', 'PH #33') -- TODO: replace with the quest ID
-AddAncientChest(66005161, 00000, '#34', 'PH #34') -- TODO: replace with the quest ID
-AddAncientChest(67435174, 00000, '#35', 'PH #35') -- TODO: replace with the quest ID
-AddAncientChest(85706200, 00000, '#36', 'PH #36') -- TODO: replace with the quest ID
-AddAncientChest(88207640, 00000, '#37', 'PH #37') -- TODO: replace with the quest ID
-AddAncientChest(89707770, 00000, '#38', 'PH #38') -- TODO: replace with the quest ID
+AddAncientChest(65404260, 98630, '#32')
+AddAncientChest(64704310, 98632, '#33')
+AddAncientChest(67355175, 98641, '#34')
+AddAncientChest(66305180, 98639, '#35')
+AddAncientChest(86906330, 98634, '#36', L['in_water'])
+AddAncientChest(89007800, 98635, '#37')
+AddAncientChest(88507725, 98636, '#38')
+AddAncientChest(27308100, 98609, '#39')
+AddAncientChest(26808120, 98610, '#40')
+AddAncientChest(11705480, 98616, '#41')
+AddAncientChest(09305470, 98617, '#42')
+AddAncientChest(10505570, 98618, '#43')
 
 -- red --akilion -2
 --
@@ -100,21 +106,22 @@ AddAncientChest(89707770, 00000, '#38', 'PH #38') -- TODO: replace with the ques
 -- purple - halazzi - 5
 
 -- Mislaid Oddities for Treasures Upon Treasures (63727): Random spawns
-map.nodes[22362295] = MislaidOddity()
-map.nodes[62872956] = MislaidOddity()
-map.nodes[64912570] = MislaidOddity()
-map.nodes[58812572] = MislaidOddity()
-map.nodes[31556581] = MislaidOddity()
-map.nodes[31364538] = MislaidOddity()
-map.nodes[41576995] = MislaidOddity()
-map.nodes[37727541] = MislaidOddity()
-map.nodes[58126731] = MislaidOddity()
-map.nodes[25866169] = MislaidOddity()
-map.nodes[37502166] = MislaidOddity()
-map.nodes[39341333] = MislaidOddity()
-map.nodes[57302124] = MislaidOddity()
-map.nodes[59032004] = MislaidOddity()
-map.nodes[59832070] = MislaidOddity()
+-- 22362295 - Mislaid Oddity
+-- 62872956 - Mislaid Oddity
+-- 64912570 - Mislaid Oddity
+-- 58812572 - Mislaid Oddity
+-- 31556581 - Mislaid Oddity
+-- 31364538 - Mislaid Oddity
+-- 41576995 - Mislaid Oddity
+-- 37727541 - Mislaid Oddity
+-- 58126731 - Mislaid Oddity
+-- 25866169 - Mislaid Oddity
+-- 37502166 - Mislaid Oddity
+-- 39341333 - Mislaid Oddity
+-- 57302124 - Mislaid Oddity
+-- 59032004 - Mislaid Oddity
+-- 59832070 - Mislaid Oddity
+map.nodes[80002500] = MislaidOddity()
 
 local function AddHexmask(coordinate, label)
     map.nodes[coordinate] = Hexmask({
