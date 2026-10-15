@@ -108,7 +108,7 @@ map.nodes[43855086] = Rare({
     }
 }) -- Hisstara
 
-vault_map2.nodes[38401769] = Rare({
+vault_map2.nodes[39502740] = Rare({
     id = 263456,
     quest = 96030,
     rewards = {
