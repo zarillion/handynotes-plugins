@@ -221,9 +221,7 @@ L['curse_surge_note'] = '詛咒狂潮事件每 %d 分鐘輪換一次。\n\n{note
 ----------------------------- LABYRINTH OF KINDO'JAN --------------------------
 -------------------------------------------------------------------------------
 
-L['ancient_chest'] = '遠古寶箱'
-L['ancient_chest_suffix'] = '已發現遠古寶箱'
-L['mislaid_oddity'] = '遺失的奇物'
+L['mislaid_treasure'] = '遺失的奇物'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = nil

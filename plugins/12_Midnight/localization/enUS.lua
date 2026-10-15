@@ -221,9 +221,7 @@ L['curse_surge_note'] = 'Cursed Surge events rotate every %d minutes.\n\n{note:I
 ----------------------------- LABYRINTH OF KINDO'JAN --------------------------
 -------------------------------------------------------------------------------
 
-L['ancient_chest'] = 'Ancient Chest'
-L['ancient_chest_suffix'] = 'Ancient Chest found'
-L['mislaid_oddity'] = 'Mislaid Oddity'
+L['mislaid_treasure'] = 'Mislaid Treasure'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Display the locations for the {achievement:63720} achievement.'

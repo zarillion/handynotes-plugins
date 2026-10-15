@@ -222,9 +222,7 @@ L['curse_surge_note'] = 'Fluchwellen-Ereignisse wechseln alle %d Minuten.\n\n{no
 ----------------------------- LABYRINTH OF KINDO'JAN --------------------------
 -------------------------------------------------------------------------------
 
-L['ancient_chest'] = 'Alte Truhe'
-L['ancient_chest_suffix'] = 'Alte Truhe geöffnet'
-L['mislaid_oddity'] = 'Verlegte Kuriosität'
+L['mislaid_treasure'] = 'Verlegte Kuriosität'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = nil

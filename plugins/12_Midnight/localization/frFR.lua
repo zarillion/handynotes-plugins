@@ -222,9 +222,7 @@ L['curse_surge_note'] = 'Les événements de Vague de malédiction alternent tou
 ----------------------------- LABYRINTH OF KINDO'JAN --------------------------
 -------------------------------------------------------------------------------
 
-L['ancient_chest'] = 'Coffre ancien'
-L['ancient_chest_suffix'] = 'Coffre ancien trouvé'
-L['mislaid_oddity'] = 'Étrangeté fourvoyée'
+L['mislaid_treasure'] = 'Étrangeté fourvoyée'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:63720}.'

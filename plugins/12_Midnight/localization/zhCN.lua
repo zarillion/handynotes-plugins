@@ -221,13 +221,11 @@ L['curse_surge_note'] = '诅咒狂潮事件每%d分钟轮换一次。\n\n{note:�
 ----------------------------- LABYRINTH OF KINDO'JAN --------------------------
 -------------------------------------------------------------------------------
 
-L['ancient_chest'] = '远古宝箱'
-L['ancient_chest_suffix'] = '已找到远古宝箱'
-L['mislaid_oddity'] = '遗失的奇物'
+L['mislaid_treasure'] = '错放的宝藏'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = '显示 {achievement:63720} 成就的位置。'
 L['thundering_hexmask'] = '雷霆妖术面具'
 L['fiery_hexmask'] = '炽焰妖术面具'
-L['frozen_hexmask'] = '冰冻妖术面具'
+L['frozen_hexmask'] = '冰封妖术面具'
 L['c_underneath_bridge'] = '在桥下。'
