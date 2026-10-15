@@ -119,7 +119,7 @@ map.nodes[59832070] = MislaidOddity()
 local function AddHexmask(coordinate, label)
     map.nodes[coordinate] = Hexmask({
         label = label,
-        rewards = {Achievement({id = 63720, criteria = 1, oneline = true})}
+        rewards = {Achievement({id = 63720, oneline = true})}
     })
 end
 
