@@ -1,3 +1,11 @@
+# v158
+
+* Added the missing Ancient Chest quest IDs (#36-#38) in the Labyrinth of Kindo'Jan.
+* Changed the Mislaid Oddity node to a single marker since the spawns are random.
+* Fixed a duplicate quest ID on Ancient Chest #12.
+* Fixed an invalid achievement criteria on the Hexmask nodes.
+* Localization updates
+
 # v157
 
 * Added The Labyrinth of Kindo'Jan delve: Ancient Chests, Mislaid Oddities, and Hexmask achievement locations.
