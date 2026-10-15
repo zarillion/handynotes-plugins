@@ -66,7 +66,7 @@ AddAncientChest(13853511, 98611, '#8')
 AddAncientChest(26444032, 98612, '#9')
 AddAncientChest(27483301, 98613, '#10') -- 2
 AddAncientChest(61174348, 98614, '#11') -- Entrance: 56934409
-AddAncientChest(61534357, 98614, '#12') -- Entrance: 56934409
+AddAncientChest(61534357, 98640, '#12') -- Entrance: 56934409
 AddAncientChest(27943455, 98615, '#13') -- 2
 AddAncientChest(61514472, 98619, '#14') -- Entrance: 56934409
 AddAncientChest(28692312, 98620, '#15')
