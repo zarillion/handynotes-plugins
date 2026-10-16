@@ -148,7 +148,7 @@ L['options_icons_ritual_site_desc'] = 'Mostrar las recompensas de {location:Luga
 
 L['ritual_site_broken_throne'] = 'Lugares de ritual: Trono Destrozado'
 L['ritual_site_daggerspine_point'] = 'Lugares de ritual: Punto de Espinadaga'
-L['ritual_site_opens_in'] = nil
+L['ritual_site_opens_in'] = 'Se abre en %s.'
 
 L['chewed_meat'] = 'Carne mordisqueada'
 L['chewed_meat_note'] = 'Invoca a {spell:1286634} en la {object:Carne mordisqueada}. Derrota al {npc:263381}. Una vez que se vuelva amigable, aliméntalo con 5x {item:242639}.'
@@ -233,4 +233,4 @@ L['c_underneath_bridge'] = 'Debajo del puente.'
 --------------------------------- AQIR INVASION -------------------------------
 -------------------------------------------------------------------------------
 
-L['aqir_invasion_running'] = nil
+L['aqir_invasion_running'] = 'Invasión en curso'
