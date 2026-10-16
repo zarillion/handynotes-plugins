@@ -1,8 +1,12 @@
 # v160
 
+* Added a right click shortcut on delve entrance pins that opens the map of that delve.
+* Added the same shortcut to other map pins with a linked map (Ritual Sites, events), with a "Change map" hint in the top right of their tooltip.
+* Added the Aqir Invasion markers, which show when the next invasion starts and while one is running.
 * Added doors that switch between the two maps of the Labyrinth of Kindo'Jan.
 * Added Sturdy Chests #15-#18 and the Thundering Hexmask to the lower map of the Labyrinth of Kindo'Jan, shown on both maps.
 * Added the multiple spawn note to the Hexmask nodes in the Labyrinth of Kindo'Jan.
+* Ritual Site entry nodes now only appear while the site is closed, and tell you when it opens again.
 * Fixed the Mislaid Treasure marker staying on the map after "A Few More Can't Hurt" was earned.
 * Localization updates
 

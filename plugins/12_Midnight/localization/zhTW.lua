@@ -147,9 +147,7 @@ L['options_icons_ritual_site_desc'] = '在提示中顯示 {location:儀式地點
 
 L['ritual_site_broken_throne'] = '儀式地點：破碎王座'
 L['ritual_site_daggerspine_point'] = '儀式地點：刺脊崗哨'
-
-L['broken_throne_entry_note'] = '破碎王座又名阿塔卡爾丹，是一座被暮光之刃佔領的阿曼尼遺跡。點擊 {npc:260103} 進入。\n\n與 {location:儀式地點：刺脊崗哨} 每週輪替開放。'
-L['daggerspine_point_entry_note'] = '刺脊崗哨是一座被刺脊納迦佔據的島嶼，舊名薩藍迪斯島。點擊 {npc:260103} 進入。\n\n與 {location:儀式地點：破碎王座} 每週輪替開放。'
+L['ritual_site_opens_in'] = nil
 
 L['chewed_meat'] = '被咬過的肉'
 L['chewed_meat_note'] = '在 {object:被咬過的肉} 處召喚 {spell:1286634}。擊敗 {npc:263381}，待牠轉為友善後，餵牠 5x {item:242639}。'
@@ -229,3 +227,9 @@ L['thundering_hexmask'] = nil
 L['fiery_hexmask'] = nil
 L['frozen_hexmask'] = nil
 L['c_underneath_bridge'] = '在橋下。'
+
+-------------------------------------------------------------------------------
+--------------------------------- AQIR INVASION -------------------------------
+-------------------------------------------------------------------------------
+
+L['aqir_invasion_running'] = nil

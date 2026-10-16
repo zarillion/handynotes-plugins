@@ -147,9 +147,7 @@ L['options_icons_ritual_site_desc'] = 'Display {location:Ritual Site} rewards on
 
 L['ritual_site_broken_throne'] = 'Ritual Site: Broken Throne'
 L['ritual_site_daggerspine_point'] = 'Ritual Site: Daggerspine Point'
-
-L['broken_throne_entry_note'] = 'The Broken Throne also known as Atal\'Kaldan, is an Amani ruin taken over by the Twilight\'s Blade. Click {npc:260103} to enter.\n\nAlternates weekly with {location:Ritual Site: Daggerspine Point}.'
-L['daggerspine_point_entry_note'] = 'Daggerspine Point is an island claimed by the Daggerspine naga, formerly named Shalandis Isle. Click {npc:260103} to enter.\n\nAlternates weekly with {location:Ritual Site: Broken Throne}.'
+L['ritual_site_opens_in'] = 'Opens in %s.'
 
 L['chewed_meat'] = 'Chewed Meat'
 L['chewed_meat_note'] = 'Summon {spell:1286634} at {object:Chewed Meat}. Defeat {npc:263381}. Once it turns friendly, feed it 5x {item:242639}.'
@@ -229,3 +227,9 @@ L['thundering_hexmask'] = 'Thundering Hexmask'
 L['fiery_hexmask'] = 'Fiery Hexmask'
 L['frozen_hexmask'] = 'Frozen Hexmask'
 L['c_underneath_bridge'] = 'Underneath the bridge.'
+
+-------------------------------------------------------------------------------
+--------------------------------- AQIR INVASION -------------------------------
+-------------------------------------------------------------------------------
+
+L['aqir_invasion_running'] = 'Invasion in progress'

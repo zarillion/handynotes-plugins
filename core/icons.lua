@@ -91,6 +91,7 @@ ns.icons = { -- name => path
     envelope = {Icon('envelope'), Glow('envelope')},
     ferry = {Icon('ferry'), Glow('ferry')},
     left_mouse = {Icon('left_mouse'), nil},
+    right_mouse = {Icon('right_mouse'), nil},
     scroll = {Icon('scroll'), Glow('scroll')},
     world_quest = {Icon('world_quest'), Glow('world_quest')},
 

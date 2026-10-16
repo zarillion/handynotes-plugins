@@ -148,9 +148,7 @@ L['options_icons_ritual_site_desc'] = 'Mostrar las recompensas de {location:Luga
 
 L['ritual_site_broken_throne'] = 'Lugares de ritual: Trono Destrozado'
 L['ritual_site_daggerspine_point'] = 'Lugares de ritual: Punto de Espinadaga'
-
-L['broken_throne_entry_note'] = 'Trono Destrozado, también conocido como Atal\'Kaldan, es una ruina Amani tomada durante la Hoja Crepuscular. Haz click en el {npc:260103} para entrar.\n\nSe alterna semanalmente con {location:Lugares de ritual: Punto de Espinadaga}.'
-L['daggerspine_point_entry_note'] = 'Punto de Espinadaga es una isla tomada por las nagas Espinadaga, llamada formalmente Shalandis Isle. Haz click en el {npc:260103} para entrar.\n\nSe alterna semanalmente con {location:Lugares de ritual: Trono Destrozado}.'
+L['ritual_site_opens_in'] = nil
 
 L['chewed_meat'] = 'Carne mordisqueada'
 L['chewed_meat_note'] = 'Invoca a {spell:1286634} en la {object:Carne mordisqueada}. Derrota al {npc:263381}. Una vez que se vuelva amigable, aliméntalo con 5x {item:242639}.'
@@ -230,3 +228,9 @@ L['thundering_hexmask'] = 'Máscara de maleficios atronadora'
 L['fiery_hexmask'] = 'Máscara de maleficios ígnea'
 L['frozen_hexmask'] = 'Máscara de maleficios helada'
 L['c_underneath_bridge'] = 'Debajo del puente.'
+
+-------------------------------------------------------------------------------
+--------------------------------- AQIR INVASION -------------------------------
+-------------------------------------------------------------------------------
+
+L['aqir_invasion_running'] = nil
