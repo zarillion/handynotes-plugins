@@ -5,6 +5,7 @@ local ADDON_NAME, ns = ...
 local Class = ns.Class
 local L = ns.locale
 local Map = ns.Map
+local Collectible = ns.node.Collectible
 local Hexmask = ns.node.Hexmask
 local Treasure = ns.node.Treasure
 
@@ -32,10 +33,12 @@ local SturdyChest = Class('SturdyChest', Treasure, {
     }
 }) -- Sturdy Chest
 
-local MislaidTreasure = Class('MislaidTreasure', Treasure, {
+local MislaidTreasure = Class('MislaidTreasure', Collectible, {
     icon = 7298691,
     label = L['mislaid_treasure'],
     note = L['multiple_spawns'],
+    scale = 1.3,
+    group = ns.groups.TREASURE,
     rewards = {
         Achievement({id = 63727, criteria = {id = 1, qty = true}}),
         Achievement({id = 63728, criteria = {id = 1, qty = true}})
@@ -126,6 +129,7 @@ map.nodes[80002500] = MislaidTreasure()
 local function AddHexmask(coordinate, label)
     map.nodes[coordinate] = Hexmask({
         label = label,
+        note = L['multiple_spawns'],
         rewards = {Achievement({id = 63720, oneline = true})}
     })
 end

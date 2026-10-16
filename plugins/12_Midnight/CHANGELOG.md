@@ -1,3 +1,9 @@
+# v160
+
+* Added the multiple spawn note to the Hexmask nodes in the Labyrinth of Kindo'Jan.
+* Fixed the Mislaid Treasure marker staying on the map after "A Few More Can't Hurt" was earned.
+* Localization updates
+
 # v158
 
 * Added the missing Ancient Chest quest IDs (#36-#38) in the Labyrinth of Kindo'Jan.
