@@ -1,5 +1,7 @@
 # v160
 
+* Added doors that switch between the two maps of the Labyrinth of Kindo'Jan.
+* Added Sturdy Chests #15-#18 and the Thundering Hexmask to the lower map of the Labyrinth of Kindo'Jan, shown on both maps.
 * Added the multiple spawn note to the Hexmask nodes in the Labyrinth of Kindo'Jan.
 * Fixed the Mislaid Treasure marker staying on the map after "A Few More Can't Hurt" was earned.
 * Localization updates

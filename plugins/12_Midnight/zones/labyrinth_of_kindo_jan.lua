@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 local Collectible = ns.node.Collectible
 local Hexmask = ns.node.Hexmask
+local Node = ns.node.Node
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -46,12 +47,14 @@ local MislaidTreasure = Class('MislaidTreasure', Collectible, {
 }) -- Mislaid Treasure
 
 local map = Map({id = 2647, settings = false}) -- The Labyrinth of Kindo'Jan
+local map2 = Map({id = 2671, settings = false}) -- The Labyrinth of Kindo'Jan (lower)
 
 map.groups[#map.groups + 1] = ns.groups.DELVE_REWARDS
 map.groups[ns.groups.DELVE_REWARDS] = true
 
-local function AddSturdyChest(coordinate, quest, rlabel, note)
-    map.nodes[coordinate] = SturdyChest({
+local function AddSturdyChest(coordinate, quest, rlabel, note, m)
+    m = m or map
+    m.nodes[coordinate] = SturdyChest({
         achievementID = 63717,
         quest = quest,
         note = note,
@@ -73,10 +76,15 @@ AddSturdyChest(61174348, 98614, '#11') -- Entrance: 56934409
 AddSturdyChest(61534357, 98640, '#12') -- Entrance: 56934409
 AddSturdyChest(27943455, 98615, '#13') -- 2
 AddSturdyChest(61514472, 98619, '#14') -- Entrance: 56934409
-AddSturdyChest(28692312, 98620, '#15')
-AddSturdyChest(22142959, 98621, '#16')
-AddSturdyChest(22441204, 98622, '#17') -- 2
-AddSturdyChest(22991163, 98623, '#18') -- 2
+-- lower level (map 2671), shown on both maps
+AddSturdyChest(28692312, 98620, '#15', nil, map)
+AddSturdyChest(28692312, 98620, '#15', nil, map2)
+AddSturdyChest(22142959, 98621, '#16', nil, map)
+AddSturdyChest(22142959, 98621, '#16', nil, map2)
+AddSturdyChest(22441204, 98622, '#17', nil, map) -- 2
+AddSturdyChest(22441204, 98622, '#17', nil, map2) -- 2
+AddSturdyChest(22991163, 98623, '#18', nil, map) -- 2
+AddSturdyChest(22991163, 98623, '#18', nil, map2) -- 2
 AddSturdyChest(46091111, 98624, '#19')
 AddSturdyChest(40582027, 98625, '#20')
 AddSturdyChest(30561565, 98626, '#21') -- 2
@@ -126,18 +134,37 @@ AddSturdyChest(10505570, 98618, '#43')
 -- 59832070 - Mislaid Treasure
 map.nodes[80002500] = MislaidTreasure()
 
-local function AddHexmask(coordinate, label)
-    map.nodes[coordinate] = Hexmask({
+local function AddHexmask(coordinate, label, m)
+    m = m or map
+    m.nodes[coordinate] = Hexmask({
         label = label,
         note = L['multiple_spawns'],
         rewards = {Achievement({id = 63720, oneline = true})}
     })
 end
 
-AddHexmask(18401777, L['thundering_hexmask'])
+AddHexmask(18401777, L['thundering_hexmask'], map) -- lower level, shown on both maps
+AddHexmask(18401777, L['thundering_hexmask'], map2)
 AddHexmask(56791654, L['fiery_hexmask'])
 AddHexmask(58482171, L['frozen_hexmask'])
 -- 50348261 (frost + fire)
+
+-------------------------------------------------------------------------------
+------------------------------------ DOORS ------------------------------------
+-------------------------------------------------------------------------------
+
+local function AddDoor(m, target)
+    m.nodes[31003240] = Node({
+        label = C_Map.GetMapInfo(target.id).name,
+        icon = 'door_down',
+        scale = 2,
+        OnClick = function() WorldMapFrame:SetMapID(target.id) end,
+        clabel = L['change_map']
+    })
+end
+
+AddDoor(map, map2)
+AddDoor(map2, map)
 
 -------------------------------------------------------------------------------
 -------------------------------- DELVE REWARDS --------------------------------
