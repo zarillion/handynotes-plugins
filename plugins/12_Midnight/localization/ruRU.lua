@@ -222,11 +222,11 @@ L['curse_surge_note'] = 'События Проклятые натиски сме
 ----------------------------- LABYRINTH OF KINDO'JAN --------------------------
 -------------------------------------------------------------------------------
 
-L['mislaid_treasure'] = 'Затерянная диковинка'
+L['mislaid_treasure'] = 'Потерянное сокровище'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Отображать места для {achievement:63720}.'
-L['thundering_hexmask'] = nil
-L['fiery_hexmask'] = nil
-L['frozen_hexmask'] = nil
+L['thundering_hexmask'] = 'Громовая маска сглаза'
+L['fiery_hexmask'] = 'Огненная маска сглаза'
+L['frozen_hexmask'] = 'Ледяная маска сглаза'
 L['c_underneath_bridge'] = 'Под мостом.'
