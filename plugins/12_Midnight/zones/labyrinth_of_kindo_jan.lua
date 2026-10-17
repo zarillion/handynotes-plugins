@@ -77,39 +77,41 @@ AddSturdyChest(61534357, 98640, '#12') -- Entrance: 56934409
 AddSturdyChest(27943455, 98615, '#13') -- 2
 AddSturdyChest(61514472, 98619, '#14') -- Entrance: 56934409
 -- lower level (map 2671), shown on both maps
-AddSturdyChest(28692312, 98620, '#15', nil, map)
-AddSturdyChest(28692312, 98620, '#15', nil, map2)
-AddSturdyChest(22142959, 98621, '#16', nil, map)
-AddSturdyChest(22142959, 98621, '#16', nil, map2)
-AddSturdyChest(22441204, 98622, '#17', nil, map) -- 2
-AddSturdyChest(22441204, 98622, '#17', nil, map2) -- 2
-AddSturdyChest(22991163, 98623, '#18', nil, map) -- 2
-AddSturdyChest(22991163, 98623, '#18', nil, map2) -- 2
-AddSturdyChest(46091111, 98624, '#19')
-AddSturdyChest(40582027, 98625, '#20')
-AddSturdyChest(30561565, 98626, '#21') -- 2
-AddSturdyChest(30481502, 98627, '#22') -- 2
-AddSturdyChest(68243410, 98628, '#23')
-AddSturdyChest(67892768, 98629, '#24')
-AddSturdyChest(61164480, 98631, '#25') -- Entrance: 56934409
-AddSturdyChest(81315501, 98633, '#26')
-AddSturdyChest(72396593, 98637, '#27')
-AddSturdyChest(69257109, 98638, '#28')
-AddSturdyChest(40754541, 98648, '#29', L['c_underneath_bridge'])
-AddSturdyChest(47674001, 98649, '#30')
-AddSturdyChest(45954837, 98650, '#31')
-AddSturdyChest(65404260, 98630, '#32')
-AddSturdyChest(64704310, 98632, '#33')
-AddSturdyChest(67355175, 98641, '#34')
-AddSturdyChest(66305180, 98639, '#35')
-AddSturdyChest(86906330, 98634, '#36', L['in_water'])
-AddSturdyChest(89007800, 98635, '#37')
-AddSturdyChest(88507725, 98636, '#38')
-AddSturdyChest(27308100, 98609, '#39')
-AddSturdyChest(26808120, 98610, '#40')
-AddSturdyChest(11705480, 98616, '#41')
-AddSturdyChest(09305470, 98617, '#42')
-AddSturdyChest(10505570, 98618, '#43')
+AddSturdyChest(28692312, 98620, '#15', '{area:17030}', map)
+AddSturdyChest(28692312, 98620, '#15', '{area:17030}', map2)
+AddSturdyChest(22142959, 98621, '#16', '{area:17030}', map)
+AddSturdyChest(22142959, 98621, '#16', '{area:17030}', map2)
+AddSturdyChest(22441204, 98622, '#17', '{area:17030}', map)
+AddSturdyChest(22441204, 98622, '#17', '{area:17030}', map2)
+AddSturdyChest(22991163, 98623, '#18', '{area:17030}', map)
+AddSturdyChest(22991163, 98623, '#18', '{area:17030}', map2)
+AddSturdyChest(21403670, 98603, '#19', '{area:17030}', map)
+AddSturdyChest(21403670, 98603, '#19', '{area:17030}', map2)
+AddSturdyChest(46091111, 98624, '#20')
+AddSturdyChest(40582027, 98625, '#21')
+AddSturdyChest(30561565, 98626, '#22') -- 2
+AddSturdyChest(30481502, 98627, '#23') -- 2
+AddSturdyChest(68243410, 98628, '#24')
+AddSturdyChest(67892768, 98629, '#25')
+AddSturdyChest(61164480, 98631, '#26') -- Entrance: 56934409
+AddSturdyChest(81315501, 98633, '#27')
+AddSturdyChest(72396593, 98637, '#28')
+AddSturdyChest(69257109, 98638, '#29')
+AddSturdyChest(40754541, 98648, '#30', L['c_underneath_bridge'])
+AddSturdyChest(47674001, 98649, '#31')
+AddSturdyChest(45954837, 98650, '#32')
+AddSturdyChest(65404260, 98630, '#33')
+AddSturdyChest(64704310, 98632, '#34')
+AddSturdyChest(67355175, 98641, '#35')
+AddSturdyChest(66305180, 98639, '#36')
+AddSturdyChest(86906330, 98634, '#37', L['in_water'])
+AddSturdyChest(89007800, 98635, '#38')
+AddSturdyChest(88507725, 98636, '#39')
+AddSturdyChest(27308100, 98609, '#40')
+AddSturdyChest(26808120, 98610, '#41')
+AddSturdyChest(11705480, 98616, '#42')
+AddSturdyChest(09305470, 98617, '#43')
+AddSturdyChest(10505570, 98618, '#44')
 
 -- red --akilion -2
 --
@@ -155,7 +157,7 @@ AddHexmask(58482171, L['frozen_hexmask'])
 
 local function AddDoor(m, target)
     m.nodes[31003240] = Node({
-        label = C_Map.GetMapInfo(target.id).name,
+        label = '{area:17030}',
         icon = 'door_down',
         scale = 2,
         OnClick = function() WorldMapFrame:SetMapID(target.id) end,

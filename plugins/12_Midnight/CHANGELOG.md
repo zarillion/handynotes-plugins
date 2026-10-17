@@ -1,3 +1,8 @@
+# v161
+
+* Added the missing Sturdy Chest in the Labyrinth of Kindo'Jan.
+* Sturdy Chests in Jana'lai's Refuge and the Labyrinth of Kindo'Jan doors now show the area name.
+
 # v160
 
 * Added a right click shortcut on delve entrance pins that opens the map of that delve.
