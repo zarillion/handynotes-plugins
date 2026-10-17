@@ -1,3 +1,7 @@
+# v163
+
+* Fixed a Lua error from the More Than Just Their Roots note before achievement data was loaded.
+
 # v162
 
 * Added a door in Eversong Woods that opens the map of the Labyrinth of Kindo'Jan.

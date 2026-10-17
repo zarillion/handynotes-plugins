@@ -654,9 +654,9 @@ map.nodes[20002500] = Class('more_than_just_thier_roots', ns.node.Collectible, {
     },
     getters = {
         note = function()
-            local function Rootstatus(achievementID, criteriaNum)
-                if select(3, GetAchievementCriteriaInfo(achievementID,
-                    criteriaNum)) then
+            local function Rootstatus(achievementID, criteriaID)
+                if select(3, GetAchievementCriteriaInfoByID(achievementID,
+                    criteriaID)) then
                     return ns.status.Green(L['completed'])
                 else
                     return ns.status.Red(L['incomplete'])
@@ -664,15 +664,15 @@ map.nodes[20002500] = Class('more_than_just_thier_roots', ns.node.Collectible, {
             end
             local note = L['more_than_just_thier_roots_note']
             note = note .. '\n\n' .. '{npc:245103} - {map:198} ' ..
-                       Rootstatus(62188, 1)
+                       Rootstatus(62188, 111946)
             note = note .. '\n' .. '{npc:245107} - {map:2239} ' ..
-                       Rootstatus(62188, 2)
+                       Rootstatus(62188, 111947)
             note = note .. '\n' .. '{npc:251936} - {map:116} ' ..
-                       Rootstatus(62188, 3)
+                       Rootstatus(62188, 111948)
             note = note .. '\n' .. '{npc:245105} - {map:62} ' ..
-                       Rootstatus(62188, 4)
+                       Rootstatus(62188, 111949)
             note = note .. '\n' .. '{npc:245106} - {map:641} ' ..
-                       Rootstatus(62188, 5)
+                       Rootstatus(62188, 111950)
             return note
         end
     }
