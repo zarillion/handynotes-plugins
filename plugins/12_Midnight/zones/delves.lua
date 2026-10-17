@@ -29,7 +29,7 @@ local sks = Map({id = 2528, settings = false}) -- Sunkiller Sanctum (Upper)- or 
 local skl = Map({id = 2571, settings = false}) -- Sunkiller Sanctum (Lower)
 local sgp = Map({id = 2506, settings = false}) -- Shadowguard Point
 
-local tor = Map({id = 2507, settings = false}) -- Torment's Rise
+-- local tor = Map({id = 2507, settings = false}) -- Torment's Rise ?
 
 local rog = Map({id = 2633, settings = false}) -- The Ring of Glory
 local gni = Map({id = 2635, settings = false}) -- Gnarldor Isle
@@ -430,39 +430,39 @@ local DELVE_REWARDS = {
 
 local DELVE_AREA_POIS = {
     -- NORMAL DELVES ----------------------------------------------------------
-    [8433] = {map = gru.id, rewards = DELVE_REWARDS['the_grudge_pit']},
-    [8439] = {map = tdw.id, rewards = DELVE_REWARDS['the_darkway']},
-    [8425] = {map = cal.id, rewards = DELVE_REWARDS['collegiate_calamity']},
-    [8427] = {map = par.id, rewards = DELVE_REWARDS['parhelion_plaza']},
-    [8437] = {map = she.id, rewards = DELVE_REWARDS['the_shadow_enclave']},
-    [8441] = {map = tcr.id, rewards = DELVE_REWARDS['twilight_crypts']},
-    [8443] = {map = atn.id, rewards = DELVE_REWARDS['atalaman']},
-    [8431] = {map = sgp.id, rewards = DELVE_REWARDS['shadowguard_point']},
-    [8429] = {map = sks.id, rewards = DELVE_REWARDS['sunkiller_sanctum']},
-    [8435] = {map = gom.id, rewards = DELVE_REWARDS['the_gulf_of_memory']},
+    [8433] = DELVE_REWARDS['the_grudge_pit'],
+    [8439] = DELVE_REWARDS['the_darkway'],
+    [8425] = DELVE_REWARDS['collegiate_calamity'],
+    [8427] = DELVE_REWARDS['parhelion_plaza'],
+    [8437] = DELVE_REWARDS['the_shadow_enclave'],
+    [8441] = DELVE_REWARDS['twilight_crypts'],
+    [8443] = DELVE_REWARDS['atalaman'],
+    [8431] = DELVE_REWARDS['shadowguard_point'],
+    [8429] = DELVE_REWARDS['sunkiller_sanctum'],
+    [8435] = DELVE_REWARDS['the_gulf_of_memory'],
 
     -- BOUNTIFUL DELVES -------------------------------------------------------
-    [8434] = {map = gru.id, rewards = DELVE_REWARDS['the_grudge_pit']},
-    [8440] = {map = tdw.id, rewards = DELVE_REWARDS['the_darkway']},
-    [8426] = {map = cal.id, rewards = DELVE_REWARDS['collegiate_calamity']},
-    [8428] = {map = par.id, rewards = DELVE_REWARDS['parhelion_plaza']},
-    [8438] = {map = she.id, rewards = DELVE_REWARDS['the_shadow_enclave']},
-    [8442] = {map = tcr.id, rewards = DELVE_REWARDS['twilight_crypts']},
-    [8444] = {map = atn.id, rewards = DELVE_REWARDS['atalaman']},
-    [8432] = {map = sgp.id, rewards = DELVE_REWARDS['shadowguard_point']},
-    [8430] = {map = sks.id, rewards = DELVE_REWARDS['sunkiller_sanctum']},
-    [8436] = {map = gom.id, rewards = DELVE_REWARDS['the_gulf_of_memory']},
+    [8434] = DELVE_REWARDS['the_grudge_pit'],
+    [8440] = DELVE_REWARDS['the_darkway'],
+    [8426] = DELVE_REWARDS['collegiate_calamity'],
+    [8428] = DELVE_REWARDS['parhelion_plaza'],
+    [8438] = DELVE_REWARDS['the_shadow_enclave'],
+    [8442] = DELVE_REWARDS['twilight_crypts'],
+    [8444] = DELVE_REWARDS['atalaman'],
+    [8432] = DELVE_REWARDS['shadowguard_point'],
+    [8430] = DELVE_REWARDS['sunkiller_sanctum'],
+    [8436] = DELVE_REWARDS['the_gulf_of_memory'],
 
     -- NEMESIS DELVES -----------------------------------------------------------
-    [8445] = {map = tor.id, rewards = DELVE_REWARDS['torments_rise']},
+    [8445] = DELVE_REWARDS['torments_rise'],
 
     -- 12.1 DELVES -------------------------------------------------------------
-    [8761] = {map = gni.id, rewards = DELVE_REWARDS['gnarldor_isle']},
-    [8759] = {map = gni.id, rewards = DELVE_REWARDS['gnarldor_isle']},
-    [8760] = {map = gni.id, rewards = DELVE_REWARDS['gnarldor_isle']},
-    [8764] = {map = rog.id, rewards = DELVE_REWARDS['the_ring_of_glory']},
-    [8762] = {map = rog.id, rewards = DELVE_REWARDS['the_ring_of_glory']},
-    [8763] = {map = rog.id, rewards = DELVE_REWARDS['the_ring_of_glory']}
+    [8761] = DELVE_REWARDS['gnarldor_isle'],
+    [8759] = DELVE_REWARDS['gnarldor_isle'],
+    [8760] = DELVE_REWARDS['gnarldor_isle'],
+    [8764] = DELVE_REWARDS['the_ring_of_glory'],
+    [8762] = DELVE_REWARDS['the_ring_of_glory'],
+    [8763] = DELVE_REWARDS['the_ring_of_glory']
 
 }
 

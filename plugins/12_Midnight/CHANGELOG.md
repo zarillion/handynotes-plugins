@@ -1,3 +1,9 @@
+# v162
+
+* Added a door in Eversong Woods that opens the map of the Labyrinth of Kindo'Jan.
+* Removed the right click shortcut from map pins.
+* Restored the Ritual Site entry nodes, which are always visible again.
+
 # v161
 
 * Added the missing Sturdy Chest in the Labyrinth of Kindo'Jan.

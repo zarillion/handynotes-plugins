@@ -190,4 +190,4 @@ local DELVE_AREA_POIS = {
     [9037] = DELVE_REWARDS['labyrinth_of_kindo_jan']
 }
 
-ns.hooks.delve.Add(ns.groups.DELVE_REWARDS, DELVE_AREA_POIS, {map = map.id})
+ns.hooks.delve.Add(ns.groups.DELVE_REWARDS, DELVE_AREA_POIS)

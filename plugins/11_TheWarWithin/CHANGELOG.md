@@ -1,3 +1,7 @@
+# v162
+
+* Removed the right click shortcut from map pins.
+
 # v160
 
 * Added a right click shortcut on delve entrance pins that opens the map of that delve, with a "Change map" hint in the top right of their tooltip.

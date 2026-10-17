@@ -5,8 +5,8 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 local Map = ns.Map
 
+local Node = ns.node.Node
 local RitualCollectible = ns.node.RitualCollectible
-local RitualSiteEntry = ns.node.RitualSiteEntry
 local Rare = ns.node.Rare
 
 local Mount = ns.reward.Mount
@@ -91,25 +91,16 @@ map.nodes[41804970] = RitualCollectible({
     }
 }) -- Rustling Bush (Daggerspine Point)
 
--------------------------------------------------------------------------------
------------------------------ PARENT MAP ENTRY --------------------------------
+------------------------------- PARENT MAP ENTRY ------------------------------
 -------------------------------------------------------------------------------
 
--- visible only while the site is closed (Blizzard's pin takes over once it
--- opens); right clicking it switches to the site map
-eversong.nodes[21006600] = RitualSiteEntry({
+eversong.nodes[37206750] = Node({
     label = L['ritual_site_daggerspine_point'],
+    note = L['daggerspine_point_entry_note'],
+    icon = 'portal_pp',
+    scale = 2,
+    group = ns.groups.RITUAL_SITE,
     areaPOI = 8615, -- Ritual Site: Daggerspine Point
-    OnClick = function() WorldMapFrame:SetMapID(map.id) end,
+    OnClick = function() WorldMapFrame:SetMapID(2594) end,
     clabel = L['change_map']
 }) -- Curious Obelisk (always-visible entry)
-
--------------------------------------------------------------------------------
---------------------------------- MAP SHORTCUT --------------------------------
--------------------------------------------------------------------------------
-
--- Right clicking the Ritual Site pin on the world map opens this map, and the
--- tooltip shows when the site is up next
-ns.hooks.areapoi.Add(ns.groups.RITUAL_SITE, {
-    [8615] = {map = map.id, interval = true} -- Ritual Site: Daggerspine Point
-})

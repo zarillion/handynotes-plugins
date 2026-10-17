@@ -9,6 +9,7 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 local LoreObject = ns.node.LoreObject
+local Node = ns.node.Node
 local Painting = ns.node.EverPainting
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
@@ -637,3 +638,15 @@ map.nodes[42337962] = RenownedBeast({
     rewards = {ns.reward.Item({item = 238529}), ns.reward.Item({item = 238528})},
     requires = ns.requirement.Item(238652)
 })
+
+-------------------------------------------------------------------------------
+----------------------------- THE LABYRINTH DOOR ------------------------------
+-------------------------------------------------------------------------------
+
+map.nodes[62957000] = Node({
+    label = '{map:2647}',
+    icon = 'portal_bl',
+    scale = 2,
+    OnClick = function() WorldMapFrame:SetMapID(2647) end,
+    clabel = L['change_map']
+}) -- The Labyrinth of Kindo'Jan

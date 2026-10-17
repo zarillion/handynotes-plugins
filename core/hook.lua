@@ -3,7 +3,6 @@
 -------------------------------------------------------------------------------
 local _, ns = ...
 local Class = ns.Class
-local L = ns.locale
 
 -------------------------------------------------------------------------------
 ------------------------------------- HOOK ------------------------------------
@@ -48,11 +47,10 @@ for type, hookTable in pairs(ns.hooks) do
     hookTable.Add = function(group, pois, options)
         for id, poi in pairs(pois) do
             -- an entry is either a plain list of rewards or a table holding
-            -- `rewards`, `map` (the UiMap its pin links to) and/or `interval`
-            -- (show the time remaining for this scheduled area POI)
-            -- `interval` is either true (server scheduled event) or a
-            -- table with its own GetText(), e.g. for events whose cycle
-            -- is not part of the event scheduler
+            -- `rewards` and/or `interval` (show the time remaining for this
+            -- scheduled area POI). `interval` is either true (server scheduled
+            -- event) or a table with its own GetText(), e.g. for events whose
+            -- cycle is not part of the event scheduler.
             local interval = poi.interval
             if interval == true then
                 interval = ns.Intervals.LiveEvent({areaPoiID = id})
@@ -60,7 +58,6 @@ for type, hookTable in pairs(ns.hooks) do
 
             ns.hooks[type][id] = Hook({
                 rewards = poi.rewards or (poi[1] and poi),
-                map = poi.map or nil,
                 interval = interval,
                 label = poi.label or nil,
                 sublabel = poi.sublabel or nil,
@@ -163,118 +160,10 @@ local function renderTooltip(self, POI)
         end
     end
 
-    -- Hint that right clicking switches to the linked map
-    if POI.map then
-        local rtext = _G[GameTooltip:GetName() .. 'TextRight1']
-        rtext:SetTextColor(1, 1, 1)
-        rtext:SetText(ns.GetIconLink('right_mouse', 12) .. ' ' ..
-                          ns.status.Gray(L['change_map']))
-        rtext:Show()
-    end
-
     GameTooltip:Show()
-
-    -- Widen tooltips too short for both the first line and the hint, so that
-    -- the hint always keeps its distance from the text (see short tooltips
-    -- inside instances, where no rewards are displayed). The right region does
-    -- not follow the enlarged width, so anchor it behind the first line too.
-    if POI.map then
-        local ltext = _G[GameTooltip:GetName() .. 'TextLeft1']
-        local rtext = _G[GameTooltip:GetName() .. 'TextRight1']
-        local inset = ltext:GetLeft() and
-                          (ltext:GetLeft() - GameTooltip:GetLeft()) or 12
-        local needed = (inset * 2) + ltext:GetStringWidth() +
-                           rtext:GetStringWidth() + 24
-        if GameTooltip:GetWidth() < needed then
-            GameTooltip:SetWidth(needed)
-            rtext:ClearAllPoints()
-            rtext:SetPoint('LEFT', ltext, 'RIGHT', 24, 0)
-        end
-
-        -- padding differs per tooltip and is not measurable before it is laid
-        -- out, so correct whatever still sticks out
-        local overflow = rtext:GetRight() and
-                             (rtext:GetRight() - GameTooltip:GetRight())
-        if overflow and overflow > 0 then
-            GameTooltip:SetWidth(GameTooltip:GetWidth() + overflow + 12)
-        end
-    end
 end
 
 local function HookAllPOIS()
-    ------------------------------ MAP SHORTCUTS ------------------------------
-
-    -- A pin whose hook carries a `map` attribute is right clickable and will
-    -- switch the world map to that map (see the Add calls in the plugins).
-    local function shortcutMap(poiInfo)
-        if not (poiInfo and poiInfo.areaPoiID) then return end
-        for _, poiType in ipairs({'delve', 'areapoi', 'areapoievent'}) do
-            local poi = ns.hooks[poiType][poiInfo.areaPoiID]
-            if poi then
-                -- delves without an explicit map fall back to the map their
-                -- entrance POI links to
-                if poiType == 'delve' then
-                    return poi.map or poiInfo.linkedUiMapID
-                end
-                return poi.map
-            end
-        end
-    end
-
-    local function addMapShortcut(self, poiInfo)
-        local mapID = shortcutMap(poiInfo)
-        if not mapID then return end
-
-        -- Pins are shared by every HandyNotes plugin and each of them installs
-        -- its own lookups, so track who already hooked this pin. The hooks
-        -- themselves are stateless: pins are pooled and reused for other POIs,
-        -- so the map is looked up again on every use instead of being captured
-        -- here (see Blizzard's CheckMouseButtonPassthrough call, which happens
-        -- after OnAcquired for exactly this reason).
-        local addons = self.mapShortcutAddons
-        if not addons then
-            addons = {}
-            self.mapShortcutAddons = addons
-        end
-        if addons[ns] then return end
-        addons[ns] = true
-
-        -- Map pins ignore right clicks by default, this one opts back in.
-        local passthrough = self.ShouldMouseButtonBePassthrough
-        local function shouldPass(pin, button)
-            if button == 'RightButton' and shortcutMap(pin.poiInfo) then
-                return false
-            end
-            return passthrough(pin, button)
-        end
-        self.ShouldMouseButtonBePassthrough = shouldPass
-
-        local click = self.OnMouseClickAction
-        local function onRightClick(pin, button, ...)
-            local map = (button == 'RightButton') and shortcutMap(pin.poiInfo)
-            if map then
-                WorldMapFrame:SetMapID(map)
-                return true
-            end
-            return click and click(pin, button, ...)
-        end
-        self.OnMouseClickAction = onRightClick
-    end
-
-    local function hookMapShortcut(mixin)
-        hooksecurefunc(mixin, 'OnAcquired', function(self, poiInfo)
-            addMapShortcut(self, poiInfo)
-        end)
-
-        hooksecurefunc(mixin, 'OnMouseLeave', function(self)
-            _G[GameTooltip:GetName() .. 'TextRight1']:Hide()
-        end)
-    end
-
-    hookMapShortcut(AreaPOIPinMixin)
-    hookMapShortcut(AreaPOIEventPinMixin)
-    hookMapShortcut(DelveEntrancePinMixin)
-
     --------------------------------- AREA POI --------------------------------
 
     hooksecurefunc(AreaPOIPinMixin, 'OnMouseEnter', function(self)
@@ -287,7 +176,6 @@ local function HookAllPOIS()
             rewardsSpaceAfter = false,
             rewards = poi.rewards,
             group = poi.group,
-            map = shortcutMap(self.poiInfo),
             interval = poi.interval
         })
 
@@ -305,7 +193,6 @@ local function HookAllPOIS()
             rewardsSpaceAfter = true,
             rewards = poi.rewards,
             group = poi.group,
-            map = shortcutMap(self.poiInfo),
             interval = poi.interval
         })
 
@@ -326,7 +213,6 @@ local function HookAllPOIS()
                 rewardsSpaceAfter = false,
                 rewards = poi.rewards,
                 group = poi.group,
-                map = shortcutMap(self.poiInfo),
                 interval = poi.interval
             })
         else
@@ -335,7 +221,6 @@ local function HookAllPOIS()
                 rewardsSpaceAfter = true,
                 rewards = poi.rewards,
                 group = poi.group,
-                map = shortcutMap(self.poiInfo),
                 interval = poi.interval
             })
         end
