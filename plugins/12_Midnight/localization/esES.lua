@@ -120,7 +120,7 @@ L['songseeker_ikaja_note'] = 'Encima del templo.'
 -------------------------------------------------------------------------------
 
 L['sleepy_mandrake_note'] = 'Encuentra y alimenta 5 setas rojas únicas al {npc:267910} en la Gruta del Durmiente. Cada seta tiene un origen diferente en la zona.'
-L['partially_digested_redcap_note'] = 'Loot de {npc:264340}, {npc:264315}, y raros similares en la zona.'
+L['partially_digested_redcap_note'] = 'Se despoja de {npc:264340}, {npc:264315}, y raros similares en la zona.'
 L['ancient_crypt_reliquary'] = 'Relicario de la cripta antigua'
 L['squirming_mollusk'] = 'Molusco retorcido'
 L['spiked_shell'] = 'Caparazón con púas'
@@ -222,9 +222,9 @@ L['curse_surge_note'] = 'Los eventos de Oleada Maldita rotan cada %d minutos.\n\
 -------------------------------------------------------------------------------
 
 L['mislaid_treasure'] = 'Rareza extraviada'
-L['locked_door_note'] = nil
-L['flooded_chamber'] = nil
-L['flooded_chamber_note'] = nil
+L['locked_door_note'] = 'No tiene requisito de dificultad. Derrota a {npc:273788} y usa la {item:282402} para abrirla.\n\n{note:O ábrela directamente con un pícaro o con la {item:260232}.}'
+L['flooded_chamber'] = 'Entrada submarina'
+L['flooded_chamber_note'] = 'Dentro está el {npc:270937}, que se puede romper con la {npc:271605} o con hechizos de fuego.'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:63720}.'
