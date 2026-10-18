@@ -189,7 +189,7 @@ function Addon:OnInitialize()
         self:UnregisterEvent('PLAYER_ENTERING_WORLD')
         ns.NameResolver:ResetPrepared()
         self:ScheduleTimer('RegisterWithHandyNotes', 1)
-        C_Timer.After(1, ns.PreloadSecretNPCs)
+        C_Timer.After(1, function() ns.PreloadSecretNPCs(true) end)
 
         -- Query localized expansion title
         if not ns.expansion then

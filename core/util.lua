@@ -24,18 +24,20 @@ function NameResolver:IsLink(link)
     return strsub(link, 1, 5) == 'unit:'
 end
 
-function NameResolver:Prepare(link)
+function NameResolver:Prepare(link, refresh)
     if self:IsLink(link) and not self.prepared[link] then
         -- Resolve loads the name from a separate tooltip (not the main one,
         -- which can become unresponsive) and caches it when possible; inside
         -- restricted content it is a secret value and stays unresolved until
         -- the next zone change
         self.prepared[link] = true
-        if not self.cache[link] then self:Resolve(link) end
+        if refresh or not self.cache[link] then
+            self:Resolve(link, refresh)
+        end
     end
 end
 
-function NameResolver:Resolve(link)
+function NameResolver:Resolve(link, refresh)
     -- may be passed a raw name or a hyperlink to be resolved
     if not self:IsLink(link) then return link or UNKNOWN end
 
@@ -44,7 +46,10 @@ function NameResolver:Resolve(link)
         ns.Debug('ERROR: npc link not prepared:', link)
     end
 
-    local name = self.cache[link]
+    -- refresh ignores the cached name so renames get picked up; on failure
+    -- the old cached name is left untouched
+    local name
+    if not refresh then name = self.cache[link] end
     if name == nil then
         name = UNKNOWN
         local secret = false
@@ -244,7 +249,7 @@ local nodeTextKeys = {'label', 'sublabel', 'note', 'rlabel', 'location'}
 -- Resolve npc references in maps marked secret up front while the player is
 -- outside, since unit names inside restricted content are secret values and
 -- cannot be resolved on demand. Keep only these names in the cache.
-local function PreloadSecretNPCs()
+local function PreloadSecretNPCs(refresh)
     if not ns.maps then return end
     -- names cannot be resolved inside restricted content, so only prime the
     -- cache while outside; the saved names cover the rest of the session
@@ -260,7 +265,7 @@ local function PreloadSecretNPCs()
                             local link = ('unit:Creature-0-0-0-0-%s'):format(id)
                             keep[link] = true
                             if not inInstance then
-                                NameResolver:Prepare(link)
+                                NameResolver:Prepare(link, refresh)
                             end
                         end
                     end

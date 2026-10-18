@@ -1,5 +1,6 @@
 # v165
 
+* Cached NPC names are now refreshed at login, so renamed NPCs show their current names.
 * Localization updates
 
 # v164
