@@ -2,6 +2,7 @@
 
 * Added a Locked Door marker with its possible spawn points as POIs in Kindo'jan's Labyrinth for Lock and Key and Lock and Key Master.
 * Added the Renown 3/5/7/9 requirements to the Sturdy Chests behind the Loa-sealed doors.
+* Added an underwater entrance marker to the flooded chamber in Kindo'jan's Labyrinth.
 * Added a marker for the My Labyrinth achievement in Kindo'jan's Labyrinth.
 * NPC names in instances and delves are now preloaded and cached, so they stay visible while inside.
 
