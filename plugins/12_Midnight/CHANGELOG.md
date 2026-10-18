@@ -1,3 +1,7 @@
+# v165
+
+* Localization updates
+
 # v164
 
 * Added a Locked Door marker with its possible spawn points as POIs in Kindo'jan's Labyrinth for Lock and Key and Lock and Key Master.
