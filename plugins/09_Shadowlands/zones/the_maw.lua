@@ -76,7 +76,9 @@ map.nodes[85502900] = ns.node.Node({
     icon = 'peg_yw',
     scale = 2,
     label = C_Map.GetMapInfo(1911).name,
-    OnClick = function() WorldMapFrame:SetMapID(1911) end
+    OnClick = function()
+        if not InCombatLockdown() then C_Map.OpenWorldMap(1911) end
+    end
 }) -- Torghast map
 
 -------------------------------------------------------------------------------

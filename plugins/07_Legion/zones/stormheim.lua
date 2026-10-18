@@ -902,7 +902,9 @@ helheim.nodes[66254763] = ns.node.Node({
     label = L['to_stormheim'],
     scale = 2,
     icon = 'portal_bl',
-    OnClick = function() WorldMapFrame:SetMapID(map.id) end,
+    OnClick = function()
+        if not InCombatLockdown() then C_Map.OpenWorldMap(map.id) end
+    end,
     clabel = L['change_map']
 })
 
@@ -910,7 +912,9 @@ map.nodes[73543951] = ns.node.Node({
     label = L['to_helheim'],
     scale = 2,
     icon = 'portal_bl',
-    OnClick = function() WorldMapFrame:SetMapID(helheim.id) end,
+    OnClick = function()
+        if not InCombatLockdown() then C_Map.OpenWorldMap(helheim.id) end
+    end,
     rewards = {
         Achievement({id = 11263, criteria = 33298}), -- Adventurer of Stormheim
         Achievement({

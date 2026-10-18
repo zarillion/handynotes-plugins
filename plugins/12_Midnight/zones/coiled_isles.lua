@@ -834,6 +834,8 @@ vault_map.nodes[47301120] = Node({
     note = L['poi_entrance_label'],
     icon = 'peg_yw',
     scale = 2,
-    OnClick = function() WorldMapFrame:SetMapID(vault_map2.id) end,
+    OnClick = function()
+        if not InCombatLockdown() then C_Map.OpenWorldMap(vault_map2.id) end
+    end,
     clabel = L['change_map']
 }) -- entrance to the Underbelly

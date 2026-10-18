@@ -87,7 +87,9 @@ map.nodes[45992076] = Collectible({
     scale = 2,
     label = C_Map.GetMapInfo(tfv.id).name,
     note = L['within_the_forgotten_vault'],
-    OnClick = function() WorldMapFrame:SetMapID(tfv.id) end,
+    OnClick = function()
+        if not InCombatLockdown() then C_Map.OpenWorldMap(tfv.id) end
+    end,
     rewards = {
         Achievement({
             id = 41046,

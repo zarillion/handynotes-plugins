@@ -1,3 +1,7 @@
+# v163
+
+* Fixed the Karazhan Catacombs and Siren Isle map nodes tainting the world map, which could block Blizzard's map pins with ADDON_ACTION_BLOCKED.
+
 # v162
 
 * Removed the right click shortcut from map pins.

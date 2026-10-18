@@ -513,7 +513,9 @@ map.nodes[27495634] = ns.node.Node({
         Achievement(
             {id = 5874, criteria = {17857, 17859, 17861, 17858, 17860, 17862}})
     },
-    OnClick = function() WorldMapFrame:SetMapID(mf.id) end,
+    OnClick = function()
+        if not InCombatLockdown() then C_Map.OpenWorldMap(mf.id) end
+    end,
     clabel = L['change_map']
 }) -- Portal to the Molten Front
 
@@ -521,7 +523,9 @@ mf.nodes[54308550] = ns.node.Node({
     label = L['portal_mount_hyjal'],
     scale = 2,
     icon = 'portal_rd',
-    OnClick = function() WorldMapFrame:SetMapID(map.id) end,
+    OnClick = function()
+        if not InCombatLockdown() then C_Map.OpenWorldMap(map.id) end
+    end,
     clabel = L['change_map']
 })
 

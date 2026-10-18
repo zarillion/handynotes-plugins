@@ -1,3 +1,7 @@
+# v163
+
+* Fixed the Mount Hyjal and Molten Front portal nodes tainting the world map, which could block Blizzard's map pins with ADDON_ACTION_BLOCKED.
+
 # v148
 
 * Bump toc to 120100

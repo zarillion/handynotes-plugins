@@ -647,6 +647,8 @@ map.nodes[62957000] = Node({
     label = '{map:2647}',
     icon = 'portal_bl',
     scale = 2,
-    OnClick = function() WorldMapFrame:SetMapID(2647) end,
+    OnClick = function()
+        if not InCombatLockdown() then C_Map.OpenWorldMap(2647) end
+    end,
     clabel = L['change_map']
 }) -- The Labyrinth of Kindo'Jan

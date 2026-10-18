@@ -1,6 +1,7 @@
 # v163
 
 * Fixed a Lua error from the More Than Just Their Roots note before achievement data was loaded.
+* Fixed map entry nodes and the options map button tainting the world map, which could block Blizzard's map pins with ADDON_ACTION_BLOCKED.
 
 # v162
 

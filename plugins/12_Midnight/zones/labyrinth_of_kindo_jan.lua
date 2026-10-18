@@ -160,7 +160,11 @@ local function AddDoor(m, target)
         label = '{area:17030}',
         icon = 'door_down',
         scale = 2,
-        OnClick = function() WorldMapFrame:SetMapID(target.id) end,
+        OnClick = function()
+            if not InCombatLockdown() then
+                C_Map.OpenWorldMap(target.id)
+            end
+        end,
         clabel = L['change_map']
     })
 end

@@ -97,6 +97,8 @@ zulaman.nodes[29567930] = Node({
     scale = 2,
     group = ns.groups.RITUAL_SITE,
     areaPOI = 8614, -- Ritual Site: Broken Throne
-    OnClick = function() WorldMapFrame:SetMapID(2585) end,
+    OnClick = function()
+        if not InCombatLockdown() then C_Map.OpenWorldMap(2585) end
+    end,
     clabel = L['change_map']
 }) -- Curious Obelisk (always-visible entry)
