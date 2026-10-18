@@ -24,7 +24,7 @@ local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
-local map = Map({id = 337, settings = false}) -- Zul'Gurub
+local map = Map({id = 337, settings = false, secret = true}) -- Zul'Gurub
 
 local dazaralor = Map({id = 1165, settings = false}) -- Dazar'alor
 local zandalar = Map({id = 875, settings = false}) -- Zandalar

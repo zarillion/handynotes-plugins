@@ -1335,7 +1335,7 @@ end
 
 map.nodes[29703103] = PrismaticWhiskerfish()
 
-local wel = ns.maps[2232] or Map({id = 2232, settings = false}) -- Wellspring Atrium
+local wel = ns.maps[2232] or Map({id = 2232, settings = false, secret = true}) -- Wellspring Atrium
 
 wel.nodes[50706200] = PrismaticWhiskerfish({
     pois = {
@@ -1345,7 +1345,7 @@ wel.nodes[50706200] = PrismaticWhiskerfish({
     }
 })
 
-local tsh = ns.maps[2244] or Map({id = 2244, settings = false}) -- The Scorched Hall
+local tsh = ns.maps[2244] or Map({id = 2244, settings = false, secret = true}) -- The Scorched Hall
 
 tsh.nodes[55006800] = PrismaticWhiskerfish({
     pois = {

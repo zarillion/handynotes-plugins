@@ -17,29 +17,29 @@ local Path = ns.poi.Path
 
 -------------------------------------------------------------------------------
 
-local kvr = Map({id = 2250, settings = false}) -- Kriegval's Rest
-local tuk = Map({id = 2299, settings = false}) -- The Underkeep
-local ecm = Map({id = 2269, settings = false}) -- Earthcrawl Mines
-local mmc = Map({id = 2312, settings = false}) -- Mycomancer Cavern
-local tdp = Map({id = 2302, settings = false}) -- The Dread Pit
-local tww = Map({id = 2251, settings = false}) -- The Waterworks
-local tsw = Map({id = 2347, settings = false}) -- The Spiral Weave
-local tsh = Map({id = 2301, settings = false}) -- The Sinkhole
-local fol = Map({id = 2249, settings = false}) -- Fungal Folly
-local ski = Map({id = 2310, settings = false}) -- Skittering Breach
-local nfs = Map({id = 2277, settings = false}) -- Nightfall Sanctum
-local tra = Map({id = 2259, settings = false}) -- Tak-Rethan Abyss
+local kvr = Map({id = 2250, settings = false, secret = true}) -- Kriegval's Rest
+local tuk = Map({id = 2299, settings = false, secret = true}) -- The Underkeep
+local ecm = Map({id = 2269, settings = false, secret = true}) -- Earthcrawl Mines
+local mmc = Map({id = 2312, settings = false, secret = true}) -- Mycomancer Cavern
+local tdp = Map({id = 2302, settings = false, secret = true}) -- The Dread Pit
+local tww = Map({id = 2251, settings = false, secret = true}) -- The Waterworks
+local tsw = Map({id = 2347, settings = false, secret = true}) -- The Spiral Weave
+local tsh = Map({id = 2301, settings = false, secret = true}) -- The Sinkhole
+local fol = Map({id = 2249, settings = false, secret = true}) -- Fungal Folly
+local ski = Map({id = 2310, settings = false, secret = true}) -- Skittering Breach
+local nfs = Map({id = 2277, settings = false, secret = true}) -- Nightfall Sanctum
+local tra = Map({id = 2259, settings = false, secret = true}) -- Tak-Rethan Abyss
 
-local esn = Map({id = 2396, settings = false}) -- Excavation Site 9
+local esn = Map({id = 2396, settings = false, secret = true}) -- Excavation Site 9
 
-local pit = Map({id = 2420, settings = false}) -- Sidestreet Sluice - The Pits
-local thd = Map({id = 2422, settings = false}) -- Sidestreet Sluice - The High Decks
+local pit = Map({id = 2420, settings = false, secret = true}) -- Sidestreet Sluice - The Pits
+local thd = Map({id = 2422, settings = false, secret = true}) -- Sidestreet Sluice - The High Decks
 
 -- local upc = Map({id = 2452, settings = false}) -- Archival Assault -- Upper Chamber
-local arc = Map({id = 2452, settings = false}) -- Archival Assault -- The Arcane Conservatory
+local arc = Map({id = 2452, settings = false, secret = true}) -- Archival Assault -- The Arcane Conservatory
 -- local mol = Map({id = 2455, settings = false}) -- Archival Assault -- Mausoleum of Legends
-local low = Map({id = 2455, settings = false}) -- Archival Assault -- Lower Chamber
-local cch = Map({id = 2476, settings = false}) -- Archival Assault -- Crystal Chambers
+local low = Map({id = 2455, settings = false, secret = true}) -- Archival Assault -- Lower Chamber
+local cch = Map({id = 2476, settings = false, secret = true}) -- Archival Assault -- Crystal Chambers
 
 -------------------------------------------------------------------------------
 

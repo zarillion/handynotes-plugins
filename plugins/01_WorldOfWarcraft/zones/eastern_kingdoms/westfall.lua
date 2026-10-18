@@ -17,7 +17,7 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 52, settings = true})
-local deadmines = ns.Map({id = 55, settings = true})
+local deadmines = ns.Map({id = 55, settings = true, secret = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------

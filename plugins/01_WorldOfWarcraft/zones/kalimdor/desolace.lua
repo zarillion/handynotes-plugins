@@ -13,8 +13,8 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 66, settings = true})
-local wickedgrotto = ns.Map({id = 67, settings = true})
-local foulspore = ns.Map({id = 68, settings = true})
+local wickedgrotto = ns.Map({id = 67, settings = true, secret = true})
+local foulspore = ns.Map({id = 68, settings = true, secret = true})
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

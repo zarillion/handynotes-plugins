@@ -41,7 +41,8 @@ local hallowfall = ns.maps[2215] or Map({id = 2215, settings = false})
 
 -- KARAZHAN CATACOMBS
 local deadwindPass = ns.maps[42] or Map({id = 42, settings = false})
-local karazhanCatacombs = ns.maps[46] or Map({id = 46, settings = false})
+local karazhanCatacombs = ns.maps[46] or
+                              Map({id = 46, settings = false, secret = true})
 
 -- 1 O'CLOCK ORB
 local northernBarrens = ns.maps[10] or Map({id = 10, settings = false})
@@ -67,8 +68,10 @@ local capeOfStranglethorn = ns.maps[210] or Map({id = 210, settings = false})
 local northernStranglethorn = ns.maps[50] or Map({id = 50, settings = false})
 
 -- 7 O'CLOCK ORB
-local theWardensCourt = ns.maps[710] or Map({id = 710, settings = false})
-local vaultOfTheWardens = ns.maps[711] or Map({id = 711, settings = false})
+local theWardensCourt = ns.maps[710] or
+                            Map({id = 710, settings = false, secret = true})
+local vaultOfTheWardens = ns.maps[711] or
+                              Map({id = 711, settings = false, secret = true})
 
 -------------------------------------------------------------------------------
 

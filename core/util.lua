@@ -6,18 +6,32 @@ local ADDON_NAME, ns = ...
 
 local NameResolver = {cache = {}, prepared = {}}
 
+function NameResolver:Load(db)
+    if not (db and db.global) then return end
+    db.global.npcNames = db.global.npcNames or {}
+    -- names are localized: drop the cache when the client language changes
+    if db.global.npcNameLocale ~= GetLocale() then
+        wipe(db.global.npcNames)
+        db.global.npcNameLocale = GetLocale()
+    end
+    self.cache = db.global.npcNames
+end
+
+function NameResolver:ResetPrepared() wipe(self.prepared) end
+
 function NameResolver:IsLink(link)
     if link == nil then return link end
     return strsub(link, 1, 5) == 'unit:'
 end
 
 function NameResolver:Prepare(link)
-    if self:IsLink(link) and not (self.cache[link] or self.prepared[link]) then
-        -- use a separate tooltip to spam load NPC names, doing this with the
-        -- main tooltip can sometimes cause it to become unresponsive and never
-        -- update its text until a reload
-        C_TooltipInfo.GetHyperlink(link)
+    if self:IsLink(link) and not self.prepared[link] then
+        -- Resolve loads the name from a separate tooltip (not the main one,
+        -- which can become unresponsive) and caches it when possible; inside
+        -- restricted content it is a secret value and stays unresolved until
+        -- the next zone change
         self.prepared[link] = true
+        if not self.cache[link] then self:Resolve(link) end
     end
 end
 
@@ -33,6 +47,7 @@ function NameResolver:Resolve(link)
     local name = self.cache[link]
     if name == nil then
         name = UNKNOWN
+        local secret = false
         local tooltipData = C_TooltipInfo.GetHyperlink(link)
         if tooltipData then
             local line = tooltipData.lines and tooltipData.lines[1]
@@ -40,11 +55,17 @@ function NameResolver:Resolve(link)
                 name = line.leftText or UNKNOWN
                 -- 11.x+: NPC names from tooltips can be secret values;
                 -- these can't be compared or cached, fall back to UNKNOWN
-                if issecretvalue(name) then name = UNKNOWN end
+                if issecretvalue(name) then
+                    secret = true
+                    name = UNKNOWN
+                end
             end
         end
         if name == UNKNOWN then
-            ns.Debug('NameResolver returned UNKNOWN')
+            -- secret values are expected inside restricted content
+            if not secret then
+                ns.Debug('NameResolver returned UNKNOWN:', link)
+            end
         else
             self.cache[link] = name
         end
@@ -218,6 +239,41 @@ local function RenderLinks(str, nameOnly)
     return links
 end
 
+local nodeTextKeys = {'label', 'sublabel', 'note', 'rlabel', 'location'}
+
+-- Resolve npc references in maps marked secret up front while the player is
+-- outside, since unit names inside restricted content are secret values and
+-- cannot be resolved on demand. Keep only these names in the cache.
+local function PreloadSecretNPCs()
+    if not ns.maps then return end
+    -- names cannot be resolved inside restricted content, so only prime the
+    -- cache while outside; the saved names cover the rest of the session
+    local inInstance = IsInInstance()
+    local keep = {}
+    for _, map in pairs(ns.maps) do
+        if map.secret then
+            for _, node in pairs(map.nodes or {}) do
+                for _, key in ipairs(nodeTextKeys) do
+                    local text = node[key]
+                    if type(text) == 'string' then
+                        for id in text:gmatch('{npc:(%d+)}') do
+                            local link = ('unit:Creature-0-0-0-0-%s'):format(id)
+                            keep[link] = true
+                            if not inInstance then
+                                NameResolver:Prepare(link)
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+    -- drop cached names that no secret map references
+    for link in pairs(NameResolver.cache) do
+        if not keep[link] then NameResolver.cache[link] = nil end
+    end
+end
+
 -------------------------------------------------------------------------------
 ------------------------------- PLAYER FUNCTIONS ------------------------------
 -------------------------------------------------------------------------------
@@ -328,6 +384,7 @@ ns.NewLocale = NewLocale
 ns.PlayerHasItem = PlayerHasItem
 ns.PlayerHasProfession = PlayerHasProfession
 ns.PrepareLinks = PrepareLinks
+ns.PreloadSecretNPCs = PreloadSecretNPCs
 ns.RenderLinks = RenderLinks
 ns.UpdateActiveCalendarEvents = UpdateActiveCalendarEvents
 ns.FormatReputation = FormatReputation

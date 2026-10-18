@@ -22,7 +22,7 @@ local NIGHTFAE = ns.covenants.FAE
 
 -------------------------------------------------------------------------------
 
-local map = Map({id = 1911, settings = true})
+local map = Map({id = 1911, settings = true, secret = true})
 
 -------------------------------------------------------------------------------
 ---------------------- TORGHAST, THE TOWER OF THE DAMNED ----------------------

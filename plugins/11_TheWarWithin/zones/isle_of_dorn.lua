@@ -855,9 +855,12 @@ dor.nodes[60960531] = ns.node.Node({
 
 ------------------------ ARADAN: STORMROOK SPIRIT BEAST -----------------------
 
-local rookeryLanding = ns.maps[2315] or Map({id = 2315, settings = false})
-local stormsRoost = ns.maps[2316] or Map({id = 2316, settings = false})
-local stormriderBarracks = ns.maps[2318] or Map({id = 2318, settings = false})
+local rookeryLanding = ns.maps[2315] or
+                           Map({id = 2315, settings = false, secret = true})
+local stormsRoost = ns.maps[2316] or
+                        Map({id = 2316, settings = false, secret = true})
+local stormriderBarracks = ns.maps[2318] or
+                               Map({id = 2318, settings = false, secret = true})
 
 local Aradan = Class('Aradan', ns.node.Node, {
     label = '{item:220770}',

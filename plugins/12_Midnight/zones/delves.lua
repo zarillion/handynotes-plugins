@@ -17,22 +17,22 @@ local Achievement = ns.reward.Achievement
 
 -------------------------------------------------------------------------------
 
-local atn = Map({id = 2535, settings = false}) -- Atal'aman
-local she = Map({id = 2502, settings = false}) -- The Shadow Enclave
-local par = Map({id = 2545, settings = false}) -- Parhelion Plaza
-local cal = Map({id = 2547, settings = false}) -- Collegiate Calamity
-local tdw = Map({id = 2525, settings = false}) -- The Darkway
-local tcr = Map({id = 2504, settings = false}) -- Twilight Crypts
-local gru = Map({id = 2510, settings = false}) -- The Grudge Pit
-local gom = Map({id = 2505, settings = false}) -- The Gulf of Memory - (Upper Rootway)
-local sks = Map({id = 2528, settings = false}) -- Sunkiller Sanctum (Upper)- or 2540
-local skl = Map({id = 2571, settings = false}) -- Sunkiller Sanctum (Lower)
-local sgp = Map({id = 2506, settings = false}) -- Shadowguard Point
+local atn = Map({id = 2535, settings = false, secret = true}) -- Atal'aman
+local she = Map({id = 2502, settings = false, secret = true}) -- The Shadow Enclave
+local par = Map({id = 2545, settings = false, secret = true}) -- Parhelion Plaza
+local cal = Map({id = 2547, settings = false, secret = true}) -- Collegiate Calamity
+local tdw = Map({id = 2525, settings = false, secret = true}) -- The Darkway
+local tcr = Map({id = 2504, settings = false, secret = true}) -- Twilight Crypts
+local gru = Map({id = 2510, settings = false, secret = true}) -- The Grudge Pit
+local gom = Map({id = 2505, settings = false, secret = true}) -- The Gulf of Memory - (Upper Rootway)
+local sks = Map({id = 2528, settings = false, secret = true}) -- Sunkiller Sanctum (Upper)- or 2540
+local skl = Map({id = 2571, settings = false, secret = true}) -- Sunkiller Sanctum (Lower)
+local sgp = Map({id = 2506, settings = false, secret = true}) -- Shadowguard Point
 
 -- local tor = Map({id = 2507, settings = false}) -- Torment's Rise ?
 
-local rog = Map({id = 2633, settings = false}) -- The Ring of Glory
-local gni = Map({id = 2635, settings = false}) -- Gnarldor Isle
+local rog = Map({id = 2633, settings = false, secret = true}) -- The Ring of Glory
+local gni = Map({id = 2635, settings = false, secret = true}) -- Gnarldor Isle
 
 -------------------------------------------------------------------------------
 

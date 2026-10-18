@@ -33,8 +33,8 @@ local NIGHTFAE = ns.covenants.FAE
 
 local map = Map({id = 1565, settings = true})
 local tqc = Map({id = 1662}) -- The Queen's Conservatory
-local hft = Map({id = 1701}) -- Heart of the Forest - The Trunk
-local hfr = Map({id = 1702}) -- Heart of the Forest - The Roots
+local hft = Map({id = 1701, secret = true}) -- Heart of the Forest - The Trunk
+local hfr = Map({id = 1702, secret = true}) -- Heart of the Forest - The Roots
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------

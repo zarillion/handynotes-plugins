@@ -35,8 +35,8 @@ local microd = Map({id = 2030}) -- Nexus of Actualization
 local cata = Map({id = 2066}) -- Catalyst Wards
 
 -- Sepulcher of the First Ones
-local immo = Map({id = 2047}) -- Immortal Hearth
-local ephe = Map({id = 2061}) -- Ephemeral Plains
+local immo = Map({id = 2047, secret = true}) -- Immortal Hearth
+local ephe = Map({id = 2061, secret = true}) -- Ephemeral Plains
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------

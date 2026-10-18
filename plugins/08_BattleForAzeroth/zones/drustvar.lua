@@ -751,7 +751,7 @@ local raal = Collectible({
 }) -- Raal the Gluttonous
 
 map.nodes[34581008] = raal
-Map({id = 1015}).nodes[67434813] = raal
+Map({id = 1015, secret = true}).nodes[67434813] = raal
 
 -------------------------------------------------------------------------------
 --------------------------- THREE SHEETS TO THE WIND --------------------------

@@ -92,6 +92,7 @@ read_globals = {
     'GetTime',
     'GetTitleName',
     'InCombatLockdown',
+    'IsInInstance',
     'IsLeftAltKeyDown',
     'IsLeftControlKeyDown',
     'IsSpellKnown',

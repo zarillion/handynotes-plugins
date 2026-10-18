@@ -582,7 +582,7 @@ map.nodes[71544942] = Collectible({
     rewards = {Achievement({id = 13020, criteria = 41501})}
 }) -- Pa'ku
 
-Map({id = 935}).nodes[37185259] = Collectible({
+Map({id = 935, secret = true}).nodes[37185259] = Collectible({
     id = 124948,
     icon = 1850548,
     sublabel = L['bow_to_your_masters_note'],

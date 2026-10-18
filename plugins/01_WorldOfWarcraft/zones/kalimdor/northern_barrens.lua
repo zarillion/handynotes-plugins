@@ -18,7 +18,7 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = ns.Map({id = 10, settings = true})
-local wc = ns.Map({id = 11, settings = true}) -- Wailing Caverns
+local wc = ns.Map({id = 11, settings = true, secret = true}) -- Wailing Caverns
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------

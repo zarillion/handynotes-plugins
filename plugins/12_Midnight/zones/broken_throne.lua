@@ -14,7 +14,7 @@ local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
-local map = Map({id = 2585, settings = true})
+local map = Map({id = 2585, settings = true, secret = true})
 local zulaman = ns.maps[2437]
 
 -------------------------------------------------------------------------------

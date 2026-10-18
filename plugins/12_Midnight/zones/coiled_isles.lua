@@ -34,8 +34,14 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2512, settings = true})
-local vault_map = Map({id = 2509, settings = true, parent = 2512})
-local vault_map2 = Map({id = 2613, settings = true, parent = 2509})
+local vault_map =
+    Map({id = 2509, settings = true, parent = 2512, secret = true})
+local vault_map2 = Map({
+    id = 2613,
+    settings = true,
+    parent = 2509,
+    secret = true
+})
 local lost_priest = Map({id = 2642, settings = true, parent = 2512}) -- Tomb of the Lost Priest
 
 -------------------------------------------------------------------------------

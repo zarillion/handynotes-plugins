@@ -58,7 +58,7 @@ local DC = ns.DRAGON_CUSTOMIZATIONS
 
 local map = Map({id = 2025, settings = true})
 local val = Map({id = 2112, settings = false}) -- Valdrakken
-local tpf = Map({id = 2085, settings = false}) -- The Primalist Future
+local tpf = Map({id = 2085, settings = false, secret = true}) -- The Primalist Future
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------

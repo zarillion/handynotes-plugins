@@ -691,7 +691,7 @@ map.nodes[32005700] = Kitten({
     rewards = {Achievement({id = 14634, criteria = 49426})}
 }) -- Snots
 
-Map({id = 1697}).nodes[45203680] = Kitten({
+Map({id = 1697, secret = true}).nodes[45203680] = Kitten({
     id = 174195,
     parent = map.id,
     rewards = {Achievement({id = 14634, criteria = 49425})},

@@ -816,9 +816,9 @@ map.nodes[24371821] = AnimaShard({quest = 61295, note = L['anima_shard_61295']})
 
 -------------------------------------------------------------------------------
 
-local gardens = Map({id = 1693})
-local font = Map({id = 1694})
-local wake = Map({id = 1666})
+local gardens = Map({id = 1693, secret = true})
+local font = Map({id = 1694, secret = true})
+local wake = Map({id = 1666, secret = true})
 
 wake.nodes[52508860] = AnimaShard({
     quest = 61296,

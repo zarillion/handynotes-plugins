@@ -17,8 +17,10 @@ local Achievement = ns.reward.Achievement
 ------------------------------------- MAPS ------------------------------------
 -------------------------------------------------------------------------------
 
-local map = Map({id = 2647, settings = false}) -- The Labyrinth of Kindo'Jan
-local map2 = Map({id = 2671, settings = false}) -- The Labyrinth of Kindo'Jan (lower)
+-- The Labyrinth of Kindo'Jan
+local map = Map({id = 2647, settings = false, secret = true})
+-- The Labyrinth of Kindo'Jan (lower)
+local map2 = Map({id = 2671, settings = false, secret = true})
 
 map.groups[#map.groups + 1] = ns.groups.DELVE_REWARDS
 map.groups[ns.groups.DELVE_REWARDS] = true

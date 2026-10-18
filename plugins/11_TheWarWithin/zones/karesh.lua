@@ -35,9 +35,9 @@ local QuestStatus = ns.tooltip.QuestStatus
 local taz = Map({id = 2472, settings = true})
 local map = Map({id = 2371, settings = true})
 
-local tfc = Map({id = 2460, settings = false}) -- Manaforge Omega: The Forge Core
-local wok = Map({id = 2465, settings = false}) -- Manaforge Omega: Wastes of Karesh
-local tmt = Map({id = 2463, settings = false}) -- Manaforge Omega: Technomancers' Terrance
+local tfc = Map({id = 2460, settings = false, secret = true}) -- Manaforge Omega: The Forge Core
+local wok = Map({id = 2465, settings = false, secret = true}) -- Manaforge Omega: Wastes of Karesh
+local tmt = Map({id = 2463, settings = false, secret = true}) -- Manaforge Omega: Technomancers' Terrance
 
 -------------------------------------------------------------------------------
 --------------------------------- Reshii Wraps --------------------------------

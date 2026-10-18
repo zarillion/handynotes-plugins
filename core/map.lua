@@ -20,6 +20,9 @@ Base class for all maps.
     patch (integer): Only add map/nodes if current patch is new enough (default: Classic)
     phased (boolean): If false, hide all nodes except the intro node.
     settings (boolean): Create a settings panel for this map (default: false).
+    secret (boolean): Mark this map as restricted content whose unit names are
+        secret values, so npc references in its node text are preloaded
+        (default: false).
 
 --]]
 
@@ -28,7 +31,8 @@ local Map = Class('Map', nil, {
     intro = nil,
     patch = 100000,
     phased = true,
-    settings = false
+    settings = false,
+    secret = false
 })
 
 function Map:Initialize(attrs)

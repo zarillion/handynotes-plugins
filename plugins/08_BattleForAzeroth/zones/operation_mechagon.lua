@@ -14,7 +14,7 @@ ns.groups.MECH_BUFF = Group('mech_buffs')
 
 -------------------------------------------------------------------------------
 
-local map = Map({id = 1490, settings = true})
+local map = Map({id = 1490, settings = true, secret = true})
 local nodes = map.nodes
 
 -------------------------------------------------------------------------------

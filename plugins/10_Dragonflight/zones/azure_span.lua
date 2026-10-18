@@ -59,8 +59,8 @@ local DC = ns.DRAGON_CUSTOMIZATIONS
 
 local map = Map({id = 2024, settings = true})
 local tra = Map({id = 2262, settings = false}) -- Traitor's Rest
-local bhh = Map({id = 2096, settings = false}) -- Brackenhide Hollow
-local bhd = Map({id = 2106, settings = false}) -- Brackenhide Hollow - Den of Decay
+local bhh = Map({id = 2096, settings = false, secret = true}) -- Brackenhide Hollow
+local bhd = Map({id = 2106, settings = false, secret = true}) -- Brackenhide Hollow - Den of Decay
 
 -------------------------------------------------------------------------------
 ------------------------------------ RARES ------------------------------------

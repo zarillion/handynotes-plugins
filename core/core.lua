@@ -178,10 +178,18 @@ function Addon:OnInitialize()
     ns.faction = UnitFactionGroup('player')
     self.db = LibStub('AceDB-3.0'):New(ADDON_NAME .. 'DB', ns.optionDefaults,
         'Default')
+    ns.NameResolver:Load(self.db)
+
+    self:RegisterEvent('ZONE_CHANGED_NEW_AREA', function()
+        ns.NameResolver:ResetPrepared()
+        ns.PreloadSecretNPCs()
+    end)
 
     self:RegisterEvent('PLAYER_ENTERING_WORLD', function()
         self:UnregisterEvent('PLAYER_ENTERING_WORLD')
+        ns.NameResolver:ResetPrepared()
         self:ScheduleTimer('RegisterWithHandyNotes', 1)
+        C_Timer.After(1, ns.PreloadSecretNPCs)
 
         -- Query localized expansion title
         if not ns.expansion then

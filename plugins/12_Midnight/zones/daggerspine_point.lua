@@ -15,7 +15,7 @@ local POI = ns.poi.POI
 
 -------------------------------------------------------------------------------
 
-local map = Map({id = 2594, settings = true})
+local map = Map({id = 2594, settings = true, secret = true})
 local eversong = ns.maps[2395]
 
 -------------------------------------------------------------------------------

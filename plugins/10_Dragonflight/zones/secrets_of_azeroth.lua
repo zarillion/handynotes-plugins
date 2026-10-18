@@ -25,7 +25,7 @@ local QuestStatus = ns.tooltip.QuestStatus
 
 -- Achievement: Whodunnit?
 local bor = ns.maps[114] or Map({id = 114, settings = true}) -- Borean Tundra
-local kar = ns.maps[358] or Map({id = 358, settings = true}) -- Karazhan - The Menagerie
+local kar = ns.maps[358] or Map({id = 358, settings = true, secret = true}) -- Karazhan - The Menagerie
 local tws = ns.maps[2022] or Map({id = 2022, settings = true}) -- The Waking Shores
 local ohn = ns.maps[2023] or Map({id = 2023, settings = true}) -- Ohn'ahran Plains
 local tas = ns.maps[2024] or Map({id = 2024, settings = true}) -- The Azure Span
