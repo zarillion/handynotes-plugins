@@ -222,6 +222,9 @@ L['curse_surge_note'] = 'Los eventos de Oleada Maldita rotan cada %d minutos.\n\
 -------------------------------------------------------------------------------
 
 L['mislaid_treasure'] = 'Rareza extraviada'
+L['locked_door_note'] = nil
+L['flooded_chamber'] = nil
+L['flooded_chamber_note'] = nil
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:63720}.'

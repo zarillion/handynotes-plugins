@@ -221,6 +221,9 @@ L['curse_surge_note'] = 'Cursed Surge events rotate every %d minutes.\n\n{note:I
 -------------------------------------------------------------------------------
 
 L['mislaid_treasure'] = 'Mislaid Treasure'
+L['locked_door_note'] = 'No difficulty requirement. Defeat {npc:273788} and use {item:282402} to open it.\n\n{note:Or open it directly as a rogue or with {item:260232}.}'
+L['flooded_chamber'] = 'Underwater Entrance'
+L['flooded_chamber_note'] = 'Inside is {npc:270937}, which can be broken with the {npc:271605} or fire spells.'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Display the locations for the {achievement:63720} achievement.'

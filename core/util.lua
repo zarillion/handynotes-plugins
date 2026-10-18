@@ -136,6 +136,11 @@ local function RenderLinks(str, nameOnly)
             end
         elseif type == 'faction' then
             local name = ns.api.GetFactionInfoByID(id)
+            if not name and C_MajorFactions then
+                local data = C_MajorFactions.GetMajorFactionData(id)
+                name = data and data.name
+            end
+            if not name then return type .. '+' .. id end
             if nameOnly then return name end
             return ns.color.NPC(name) -- TODO: colorize based on standing?
         elseif type == 'item' then

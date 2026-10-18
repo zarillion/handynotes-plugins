@@ -221,6 +221,9 @@ L['curse_surge_note'] = '诅咒狂潮事件每%d分钟轮换一次。\n\n{note:�
 -------------------------------------------------------------------------------
 
 L['mislaid_treasure'] = '错放的宝藏'
+L['locked_door_note'] = '无难度要求。击败 {npc:273788}，拿到 {item:282402} 后才能开启。\n\n{note:或使用潜行者职业、使用 {item:260232} 直接开门。}'
+L['flooded_chamber'] = '水下入口'
+L['flooded_chamber_note'] = '进去后有 {npc:270937}，可用 {npc:271605} 或火焰系法术打破。'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = '显示 {achievement:63720} 成就的位置。'

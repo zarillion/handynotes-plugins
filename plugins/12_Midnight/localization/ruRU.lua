@@ -222,6 +222,9 @@ L['curse_surge_note'] = 'События Проклятые натиски сме
 -------------------------------------------------------------------------------
 
 L['mislaid_treasure'] = 'Потерянное сокровище'
+L['locked_door_note'] = nil
+L['flooded_chamber'] = nil
+L['flooded_chamber_note'] = nil
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Отображать места для {achievement:63720}.'

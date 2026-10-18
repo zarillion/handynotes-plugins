@@ -222,6 +222,9 @@ L['curse_surge_note'] = 'Les événements de Vague de malédiction alternent tou
 -------------------------------------------------------------------------------
 
 L['mislaid_treasure'] = 'Étrangeté fourvoyée'
+L['locked_door_note'] = nil
+L['flooded_chamber'] = nil
+L['flooded_chamber_note'] = nil
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:63720}.'

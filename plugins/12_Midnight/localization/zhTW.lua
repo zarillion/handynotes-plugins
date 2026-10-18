@@ -221,6 +221,9 @@ L['curse_surge_note'] = '詛咒狂潮事件每 %d 分鐘輪換一次。\n\n{note
 -------------------------------------------------------------------------------
 
 L['mislaid_treasure'] = '遺失的奇物'
+L['locked_door_note'] = nil
+L['flooded_chamber'] = nil
+L['flooded_chamber_note'] = nil
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = '顯示 {achievement:63720} 成就的位置。'

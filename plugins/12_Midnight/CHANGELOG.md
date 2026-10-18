@@ -1,3 +1,9 @@
+# v164
+
+* Added a Locked Door marker with its possible spawn points as POIs in Kindo'jan's Labyrinth for Lock and Key and Lock and Key Master.
+* Added the Renown 3/5/7/9 requirements to the Sturdy Chests behind the Loa-sealed doors.
+* Added a marker for the My Labyrinth achievement in Kindo'jan's Labyrinth.
+
 # v163
 
 * Fixed a Lua error from the More Than Just Their Roots note before achievement data was loaded.

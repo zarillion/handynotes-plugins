@@ -194,14 +194,20 @@ function Reputation:GetText()
     else
         level = GetText('FACTION_STANDING_LABEL' .. level)
     end
-    return ('%s (%s)'):format(ns.api.GetFactionInfoByID(self.id), level)
+    local name = ns.api.GetFactionInfoByID(self.id)
+    if not name and C_MajorFactions then
+        local data = C_MajorFactions.GetMajorFactionData(self.id)
+        name = data and data.name
+    end
+    return ('%s (%s)'):format(name or UNKNOWN, level)
 end
 
 function Reputation:IsMet()
     if self.isAmount then
         return select(6, ns.api.GetFactionInfoByID(self.id)) >= self.level
     elseif self.isRenown then
-        return C_MajorFactions.GetCurrentRenownLevel(self.id) >= self.level
+        return (C_MajorFactions.GetCurrentRenownLevel(self.id) or 0) >=
+                   self.level
     else
         return select(3, ns.api.GetFactionInfoByID(self.id)) >= self.level
     end
