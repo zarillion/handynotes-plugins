@@ -222,9 +222,9 @@ L['curse_surge_note'] = 'События Проклятые натиски сме
 -------------------------------------------------------------------------------
 
 L['mislaid_treasure'] = 'Потерянное сокровище'
-L['locked_door_note'] = nil
-L['flooded_chamber'] = nil
-L['flooded_chamber_note'] = nil
+L['locked_door_note'] = 'Нет требований к сложности. Победите {npc:273788} и используйте {item:282402}, чтобы открыть её.\n\n{note:Или откройте её напрямую, играя за разбойника или с помощью {item:260232}.}'
+L['flooded_chamber'] = 'Подводный вход'
+L['flooded_chamber_note'] = 'Внутри находится {npc:270937}, который можно разбить с помощью {npc:271605} или заклинаний огня.'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Отображать места для {achievement:63720}.'
