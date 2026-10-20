@@ -4,7 +4,7 @@ local ADDON_NAME, ns = ...
 ------------------------------- DATAMINE TOOLTIP ------------------------------
 -------------------------------------------------------------------------------
 
-local NameResolver = {cache = {}, prepared = {}}
+local NameResolver = {cache = {}, persisted = {}, prepared = {}}
 
 function NameResolver:Load(db)
     if not (db and db.global) then return end
@@ -14,7 +14,7 @@ function NameResolver:Load(db)
         wipe(db.global.npcNames)
         db.global.npcNameLocale = GetLocale()
     end
-    self.cache = db.global.npcNames
+    self.persisted = db.global.npcNames
 end
 
 function NameResolver:ResetPrepared() wipe(self.prepared) end
@@ -31,7 +31,7 @@ function NameResolver:Prepare(link, refresh)
         -- restricted content it is a secret value and stays unresolved until
         -- the next zone change
         self.prepared[link] = true
-        if refresh or not self.cache[link] then
+        if refresh or not (self.cache[link] or self.persisted[link]) then
             self:Resolve(link, refresh)
         end
     end
@@ -49,7 +49,7 @@ function NameResolver:Resolve(link, refresh)
     -- refresh ignores the cached name so renames get picked up; on failure
     -- the old cached name is left untouched
     local name
-    if not refresh then name = self.cache[link] end
+    if not refresh then name = self.cache[link] or self.persisted[link] end
     if name == nil then
         name = UNKNOWN
         local secret = false
@@ -248,34 +248,46 @@ local nodeTextKeys = {'label', 'sublabel', 'note', 'rlabel', 'location'}
 
 -- Resolve npc references in maps marked secret up front while the player is
 -- outside, since unit names inside restricted content are secret values and
--- cannot be resolved on demand. Keep only these names in the cache.
+-- cannot be resolved on demand. Only these names are saved; everything else
+-- resolved during play stays in the session cache and is dropped on reload.
 local function PreloadSecretNPCs(refresh)
     if not ns.maps then return end
     -- names cannot be resolved inside restricted content, so only prime the
     -- cache while outside; the saved names cover the rest of the session
     local inInstance = IsInInstance()
     local keep = {}
+    local function preload(text)
+        if type(text) ~= 'string' then return end
+        for id in text:gmatch('{npc:(%d+)}') do
+            local link = ('unit:Creature-0-0-0-0-%s'):format(id)
+            keep[link] = true
+            if not inInstance then
+                NameResolver:Prepare(link, refresh)
+                local name = NameResolver.cache[link]
+                name = name or NameResolver.persisted[link]
+                if name then NameResolver.persisted[link] = name end
+            end
+        end
+    end
     for _, map in pairs(ns.maps) do
         if map.secret then
             for _, node in pairs(map.nodes or {}) do
                 for _, key in ipairs(nodeTextKeys) do
-                    local text = node[key]
-                    if type(text) == 'string' then
-                        for id in text:gmatch('{npc:(%d+)}') do
-                            local link = ('unit:Creature-0-0-0-0-%s'):format(id)
-                            keep[link] = true
-                            if not inInstance then
-                                NameResolver:Prepare(link, refresh)
-                            end
-                        end
-                    end
+                    preload(node[key])
+                end
+                for _, poi in ipairs(node.pois or {}) do
+                    preload(poi.label)
+                    preload(poi.sublabel)
+                    preload(poi.note)
                 end
             end
         end
     end
-    -- drop cached names that no secret map references
-    for link in pairs(NameResolver.cache) do
-        if not keep[link] then NameResolver.cache[link] = nil end
+    -- saved names are limited to what the secret maps reference
+    if not inInstance then
+        for link in pairs(NameResolver.persisted) do
+            if not keep[link] then NameResolver.persisted[link] = nil end
+        end
     end
 end
 

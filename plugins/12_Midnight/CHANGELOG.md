@@ -1,3 +1,8 @@
+# v166
+
+* Cached NPC names are no longer dropped when entering an instance, so names seen outside stay visible inside.
+* Localization updates
+
 # v165
 
 * Cached NPC names are now refreshed at login, so renamed NPCs show their current names.
