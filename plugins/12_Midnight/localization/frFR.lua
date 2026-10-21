@@ -222,9 +222,9 @@ L['curse_surge_note'] = 'Les événements de Vague de malédiction alternent tou
 -------------------------------------------------------------------------------
 
 L['mislaid_treasure'] = 'Étrangeté fourvoyée'
-L['locked_door_note'] = nil
-L['flooded_chamber'] = nil
-L['flooded_chamber_note'] = nil
+L['locked_door_note'] = 'Pas de niveau de difficulté spécifique requis. Battez le {npc:273788} et utilisez la {item:282402} pour l\'ouvrir.\n\n{note:Vous pouvez également l\'ouvrir directement si vous jouez un voleur ou à l\'aide d\'un {item:260232}.}'
+L['flooded_chamber'] = 'Entrée sous-marine'
+L['flooded_chamber_note'] = 'À l\'intérieur se trouve un {npc:270937}, qui peut être détruit à l\'aide du {npc:271605} ou de sorts de feu.'
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:63720}.'
@@ -237,4 +237,4 @@ L['c_underneath_bridge'] = 'Sous le pont.'
 --------------------------------- AQIR INVASION -------------------------------
 -------------------------------------------------------------------------------
 
-L['aqir_invasion_running'] = nil
+L['aqir_invasion_running'] = 'Invasion en cours'
