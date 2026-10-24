@@ -29,15 +29,18 @@ function NameResolver:Prepare(link, refresh)
         -- Resolve loads the name from a separate tooltip (not the main one,
         -- which can become unresponsive) and caches it when possible; inside
         -- restricted content it is a secret value and stays unresolved until
-        -- the next zone change
+        -- the next zone change.
+        -- Preparing is speculative: a name may not be loaded yet when a map is
+        -- prepared, so failures are not reported here (the render path still
+        -- reports them).
         self.prepared[link] = true
         if refresh or not (self.cache[link] or self.persisted[link]) then
-            self:Resolve(link, refresh)
+            self:Resolve(link, refresh, true)
         end
     end
 end
 
-function NameResolver:Resolve(link, refresh)
+function NameResolver:Resolve(link, refresh, quiet)
     -- may be passed a raw name or a hyperlink to be resolved
     if not self:IsLink(link) then return link or UNKNOWN end
 
@@ -68,7 +71,7 @@ function NameResolver:Resolve(link, refresh)
         end
         if name == UNKNOWN then
             -- secret values are expected inside restricted content
-            if not secret then
+            if not secret and not quiet then
                 ns.Debug('NameResolver returned UNKNOWN:', link)
             end
         else
