@@ -228,9 +228,6 @@ L['flooded_chamber_note'] = 'À l\'intérieur se trouve un {npc:270937}, qui peu
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Afficher les emplacements pour le haut-fait {achievement:63720}.'
-L['thundering_hexmask'] = 'Masque maléficieux foudroyant'
-L['fiery_hexmask'] = 'Masque maléficieux ardent'
-L['frozen_hexmask'] = 'Masque maléficieux gelé'
 L['c_underneath_bridge'] = 'Sous le pont.'
 
 -------------------------------------------------------------------------------

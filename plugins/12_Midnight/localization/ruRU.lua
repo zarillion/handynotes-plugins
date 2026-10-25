@@ -228,9 +228,6 @@ L['flooded_chamber_note'] = 'Внутри находится {npc:270937}, ко�
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Отображать места для {achievement:63720}.'
-L['thundering_hexmask'] = 'Громовая маска сглаза'
-L['fiery_hexmask'] = 'Огненная маска сглаза'
-L['frozen_hexmask'] = 'Ледяная маска сглаза'
 L['c_underneath_bridge'] = 'Под мостом.'
 
 -------------------------------------------------------------------------------

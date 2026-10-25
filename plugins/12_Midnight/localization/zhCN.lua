@@ -227,9 +227,6 @@ L['flooded_chamber_note'] = '进去后有 {npc:270937}，可用 {npc:271605} 或
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = '显示 {achievement:63720} 成就的位置。'
-L['thundering_hexmask'] = '雷霆妖术面具'
-L['fiery_hexmask'] = '炽焰妖术面具'
-L['frozen_hexmask'] = '冰封妖术面具'
 L['c_underneath_bridge'] = '在桥下。'
 
 -------------------------------------------------------------------------------

@@ -227,9 +227,6 @@ L['flooded_chamber_note'] = 'Inside is {npc:270937}, which can be broken with th
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Display the locations for the {achievement:63720} achievement.'
-L['thundering_hexmask'] = 'Thundering Hexmask'
-L['fiery_hexmask'] = 'Fiery Hexmask'
-L['frozen_hexmask'] = 'Frozen Hexmask'
 L['c_underneath_bridge'] = 'Underneath the bridge.'
 
 -------------------------------------------------------------------------------

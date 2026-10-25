@@ -228,9 +228,6 @@ L['flooded_chamber_note'] = 'Dentro está el {npc:270937}, que se puede romper c
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = 'Muestra todas las ubicaciones para el logro {achievement:63720}.'
-L['thundering_hexmask'] = 'Máscara de maleficios atronadora'
-L['fiery_hexmask'] = 'Máscara de maleficios ígnea'
-L['frozen_hexmask'] = 'Máscara de maleficios helada'
 L['c_underneath_bridge'] = 'Debajo del puente.'
 
 -------------------------------------------------------------------------------

@@ -228,9 +228,6 @@ L['flooded_chamber_note'] = nil
 
 L['options_icons_hexmask'] = '{achievement:63720}'
 L['options_icons_hexmask_desc'] = nil
-L['thundering_hexmask'] = nil
-L['fiery_hexmask'] = nil
-L['frozen_hexmask'] = nil
 L['c_underneath_bridge'] = 'Unter der Brücke.'
 
 -------------------------------------------------------------------------------

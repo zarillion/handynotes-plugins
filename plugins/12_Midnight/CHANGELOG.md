@@ -1,3 +1,10 @@
+# v167
+
+* Replaced the Hexmask markers in Kindo'jan's Labyrinth with a single random-spawn marker.
+* Shifted the Ritual Site marker on the Eversong Woods map to the right.
+* NPC names that are still loading are no longer reported as errors while preparing a map.
+* Localization updates
+
 # v166
 
 * Cached NPC names are no longer dropped when entering an instance, so names seen outside stay visible inside.

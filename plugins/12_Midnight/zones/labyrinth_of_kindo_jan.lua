@@ -132,6 +132,9 @@ AddSturdyChest(21403670, 98603, '#44', '{area:17030}', map2)
 --------------------------------- LOCKED DOOR ---------------------------------
 -------------------------------------------------------------------------------
 
+-- 18801820 is on the lower map
+local LOWER_LEVEL_POIS = {POI({points = {18801820}, color = 'Yellow'})}
+
 local LockedDoor = Class('LockedDoor', Collectible, {
     icon = 134241,
     label = '{achievement:63718}',
@@ -152,6 +155,7 @@ local LockedDoor = Class('LockedDoor', Collectible, {
 }) -- Locked Door
 
 map.nodes[84002500] = LockedDoor()
+map2.nodes[84002500] = LockedDoor({pois = LOWER_LEVEL_POIS})
 
 -------------------------------------------------------------------------------
 ------------------------------ MISLAID TREASURES ------------------------------
@@ -187,19 +191,24 @@ map.nodes[88002500] = Collectible({
 ----------------------------------- HEXMASKS ----------------------------------
 -------------------------------------------------------------------------------
 
-local function AddHexmask(coordinate, label, m)
-    m = m or map
-    m.nodes[coordinate] = Hexmask({
-        label = label,
+local function AddHexmask(m, pois)
+    m.nodes[84003100] = Hexmask({
+        label = '{achievement:63720}',
         note = L['multiple_spawns'],
-        rewards = {Achievement({id = 63720, oneline = true})}
+        scale = 1.5,
+        rewards = {Achievement({id = 63720, oneline = true})},
+        pois = pois
     })
 end
 
-AddHexmask(18401777, L['thundering_hexmask'], map) -- lower level, shown on both maps
-AddHexmask(18401777, L['thundering_hexmask'], map2)
-AddHexmask(56791654, L['fiery_hexmask'])
-AddHexmask(58482171, L['frozen_hexmask'])
+AddHexmask(map, {
+    POI({
+        points = {18801820, 50308260, 56801780, 58502170, 88505150},
+        color = 'Yellow'
+    })
+})
+
+AddHexmask(map2, LOWER_LEVEL_POIS)
 
 -------------------------------------------------------------------------------
 ------------------------------- FLOODED CHAMBER -------------------------------

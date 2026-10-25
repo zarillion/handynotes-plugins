@@ -94,7 +94,7 @@ map.nodes[41804970] = RitualCollectible({
 ------------------------------- PARENT MAP ENTRY ------------------------------
 -------------------------------------------------------------------------------
 
-eversong.nodes[37206750] = Node({
+eversong.nodes[37586750] = Node({
     label = L['ritual_site_daggerspine_point'],
     note = L['daggerspine_point_entry_note'],
     icon = 'portal_pp',
