@@ -815,7 +815,7 @@ end
 
 function Decor:GetText()
     if self.item then return Item.GetText(self) end
-    return Icon(self.itemIcon) .. self.itemLink .. ' (' .. self.type .. ')'
+    return Icon(self.itemIcon) .. (self.itemLink or L['retrieving']) .. ' (' .. self.type .. ')'
 end
 
 -- function Decor:GetStatus()
