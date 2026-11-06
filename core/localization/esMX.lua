@@ -71,6 +71,7 @@ L['unlearnable'] = 'No se puede aprender'
 L['defeated'] = nil
 L['undefeated'] = nil
 L['elite'] = nil
+L['boss'] = nil
 L['quest'] = nil
 L['quest_repeatable'] = nil
 L['achievement'] = nil

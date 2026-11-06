@@ -281,6 +281,12 @@ function Node:Render(tooltip, focusable)
     local color, text
     local rlabel = self.rlabel or ''
 
+    -- keep the class suffix (elite/boss) visible when a node overrides `rlabel`
+    if self.rlabelSuffix and rawget(self, 'rlabel') ~= nil then
+        rlabel = (#rlabel > 0) and (rlabel .. ' ' .. self.rlabelSuffix) or
+                     self.rlabelSuffix
+    end
+
     if self.questCount and self.quest and #self.quest then
         -- set rlabel to a (completed / total) display for quest ids
         local count = 0
@@ -659,6 +665,7 @@ end
 
 local RareElite = Class('RareElite', Rare, {
     rlabel = '(' .. ns.color.Gray(L['elite']) .. ')',
+    rlabelSuffix = '(' .. ns.color.Gray(L['elite']) .. ')',
     scale = 1.8
 })
 
@@ -672,17 +679,24 @@ function RareElite.getters:icon()
     end
 end
 
-function RareElite.getters:label()
-    local label = NPC.getters.label(self)
-    if ns:GetOpt('show_npc_id') then
-        label = label .. ' (' .. ns.color.White(self.id) .. ')'
-    end
-    return label
-end
+-------------------------------------------------------------------------------
+------------------------------------- BOSS ------------------------------------
+-------------------------------------------------------------------------------
 
-function RareElite:IsEnabled()
-    if ns:GetOpt('hide_done_rares') and self:IsCollected() then return false end
-    return NPC.IsEnabled(self)
+local Boss = Class('Boss', Rare, {
+    rlabel = '(' .. ns.color.Gray(L['boss']) .. ')',
+    rlabelSuffix = '(' .. ns.color.Gray(L['boss']) .. ')',
+    scale = 2.5
+})
+
+function Boss.getters:icon()
+    if self:IsCollected() then
+        return 'star_skull_w'
+    elseif not self:IsCollected(ns.reward.Reputation) then
+        return 'star_skull_p'
+    else
+        return 'star_skull_g'
+    end
 end
 
 -------------------------------------------------------------------------------
@@ -1368,6 +1382,7 @@ ns.node = {
     Quest = Quest,
     Rare = Rare,
     RareElite = RareElite,
+    Boss = Boss,
     Treasure = Treasure,
     Vendor = Vendor
 }

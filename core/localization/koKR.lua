@@ -71,6 +71,7 @@ L['unlearnable'] = '습득불가'
 L['defeated'] = '처치함'
 L['undefeated'] = '처치하지 않음'
 L['elite'] = '정예'
+L['boss'] = '우두머리'
 L['quest'] = nil
 L['quest_repeatable'] = nil
 L['achievement'] = nil
