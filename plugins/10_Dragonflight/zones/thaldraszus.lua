@@ -81,7 +81,7 @@ map.nodes[59075874] = RareElite({
     pois = {POI({60755543, 60736211, 59225648, 59266104})} -- Titanic Reactors
 }) -- Ancient Protector
 
-map.nodes[61636958] = Rare({
+map.nodes[61636958] = RareElite({
     id = 193220,
     vignette = 5193,
     quest = 73987,
@@ -135,7 +135,7 @@ map.nodes[59807060] = Rare({
     }
 }) -- Zal'kir the Chosen
 
-map.nodes[44886910] = Rare({
+map.nodes[44886910] = RareElite({
     id = 193658,
     vignette = 5235,
     quest = 74060,
@@ -155,7 +155,7 @@ map.nodes[44886910] = Rare({
     pois = {POI({44616780})} -- Entrance
 }) -- Corrupted Proto-Dragon
 
-map.nodes[45458518] = Rare({
+map.nodes[45458518] = RareElite({
     id = 193663,
     vignette = 5237,
     quest = 74061,
@@ -170,7 +170,7 @@ map.nodes[45458518] = Rare({
     }
 }) -- Craggravated Elemental
 
-map.nodes[47675115] = Rare({
+map.nodes[47675115] = RareElite({
     id = 193234,
     vignette = 5198,
     quest = 73990,
@@ -255,7 +255,7 @@ map.nodes[62298177] = Rare({
     pois = {POI({61708120})} -- Entrance
 }) -- Lord Epochbrgl
 
-map.nodes[52895903] = Rare({
+map.nodes[52895903] = RareElite({
     id = 193246,
     vignette = 5204,
     quest = 74013,
@@ -274,7 +274,7 @@ map.nodes[52895903] = Rare({
     }
 }) -- Matriarch Remalla
 
-map.nodes[59806100] = Rare({
+map.nodes[59806100] = RareElite({
     id = 193688,
     vignette = 5248,
     quest = 74020,
@@ -293,7 +293,7 @@ map.nodes[59806100] = Rare({
     }
 }) -- Phenran
 
-map.nodes[57218420] = Rare({
+map.nodes[57218420] = RareElite({
     id = 193210,
     vignette = 5192,
     quest = 74021,
@@ -353,7 +353,7 @@ map.nodes[50404840] = Rare({
     }
 }) -- Razk'vex the Untamed
 
-map.nodes[40087014] = Rare({
+map.nodes[40087014] = RareElite({
     id = 193240,
     vignette = 5201,
     quest = 74024,
@@ -374,7 +374,7 @@ map.nodes[40087014] = Rare({
     }
 }) -- Riverwalker Tamopo
 
-map.nodes[50005180] = Rare({
+map.nodes[50005180] = RareElite({
     id = 193666,
     vignette = 5238,
     quest = 74025,
@@ -393,7 +393,7 @@ map.nodes[50005180] = Rare({
     }
 }) -- Rokmur
 
-map.nodes[37607780] = Rare({
+map.nodes[37607780] = RareElite({
     id = 193176,
     vignette = 5185,
     quest = 74029,
@@ -413,7 +413,7 @@ map.nodes[37607780] = Rare({
     pois = {POI({38507640})} -- Cave entrance
 }) -- Sandana the Tempest
 
-map.nodes[47207895] = Rare({
+map.nodes[47207895] = RareElite({
     id = 193258,
     vignette = 5207,
     quest = 74035,
@@ -474,7 +474,7 @@ map.nodes[46267317] = Rare({
     pois = {POI({47547180})} -- Cave entrance
 }) -- The Weeping Vilomah
 
-map.nodes[35027001] = Rare({
+map.nodes[35027001] = RareElite({
     id = 193146,
     vignette = 5431,
     quest = 74036,
@@ -506,7 +506,7 @@ map.nodes[47884976] = Rare({
     }
 }) -- Woolfang
 
-map.nodes[57366540] = Rare({
+map.nodes[57366540] = RareElite({
     id = 197411,
     vignette = nil,
     quest = 74057,
@@ -582,7 +582,7 @@ map.nodes[36798556] = Rare({
 
 -- Rares in The Primalist Future (10.0.5)
 
-tpf.nodes[48421722] = Rare({
+tpf.nodes[48421722] = RareElite({
     id = 201562,
     vignette = 5567,
     quest = 74556,
@@ -594,7 +594,7 @@ tpf.nodes[48421722] = Rare({
     }
 }) -- Shardwing
 
-tpf.nodes[61813142] = Rare({
+tpf.nodes[61813142] = RareElite({
     id = 201542,
     vignette = 5565,
     quest = 74558,
@@ -604,7 +604,7 @@ tpf.nodes[61813142] = Rare({
     }
 }) -- Tikarr Frostclaw
 
-tpf.nodes[53536521] = Rare({
+tpf.nodes[53536521] = RareElite({
     id = 201543,
     vignette = 5566,
     quest = 74554,
@@ -618,7 +618,7 @@ tpf.nodes[53536521] = Rare({
     }
 }) -- Avalantus
 
-tpf.nodes[46884248] = Rare({
+tpf.nodes[46884248] = RareElite({
     id = 201545,
     vignette = 5568,
     quest = 74553,
@@ -633,7 +633,7 @@ tpf.nodes[46884248] = Rare({
 }) -- Shapemaster Za'lani
 
 -- Tyrhold (10.0.5)
-map.nodes[59766226] = Rare({
+map.nodes[59766226] = RareElite({
     id = 201550,
     vignette = {5563, 5880},
     quest = 74565,
@@ -644,7 +644,7 @@ map.nodes[59766226] = Rare({
     }
 }) -- Overloading Defense Matrix
 
-map.nodes[59525659] = Rare({
+map.nodes[59525659] = RareElite({
     id = 201552,
     vignette = {5562, 5881},
     quest = 74566,
@@ -656,7 +656,7 @@ map.nodes[59525659] = Rare({
     }
 }) -- Overseer Stonetongue
 
-map.nodes[61736079] = Rare({
+map.nodes[61736079] = RareElite({
     id = 201549,
     vignette = {5564, 5879},
     quest = 74561,

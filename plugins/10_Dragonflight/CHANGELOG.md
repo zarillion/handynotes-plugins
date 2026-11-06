@@ -1,3 +1,17 @@
+# v168
+
+* Added Maruud's Undertow to Reefbreaker Moruud's drops.
+* Sorted the Emerald Dream rare drops by armor type: cloth, leather, mail, plate, then weapons.
+* Added Aurostor's armor drops and included Aurostor in the Druid Glyph kill checklist.
+* Added Greatbelt of the Stronk to Brullo the Strong's drops and sorted the Zaralek Cavern rare drops by armor type.
+* Grouped the remaining shared rare drops (Cauldronbearer Blakor, several Forbidden Reach rares) into their tooltip sections.
+* Attached Bisquius' rewards and the Community Feast data to the official feast map pins.
+* Elite rares now use the rare elite icon and label.
+* Elite rares with a custom label now keep the (elite) tag.
+* Added Aurostor as a boss node and attached its loot to the Hibernation Heroes world quest pin, with and without WorldQuestTracker.
+* Hid the Raszageth's Last Breath and Amalgamation of Dreams nodes until their drops are confirmed.
+* Removed Deathrip's ring from its loot.
+
 # v157
 
 * Localization updates: deDE

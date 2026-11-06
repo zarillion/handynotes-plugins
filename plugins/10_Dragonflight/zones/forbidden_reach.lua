@@ -29,9 +29,6 @@ map.nodes[32914104] = Rare({
     vignette = 5129,
     location = L['in_small_cave'],
     quest = 66966,
-    rewards = {
-        Item({item = 197725, note = L['ring']}) -- Deathrip's Curied Claw
-    },
     pois = {POI({33724344})} -- Entrance
 }) -- Deathrip
 

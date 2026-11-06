@@ -11,6 +11,7 @@ local Node = ns.node.Node
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local AncientStone = ns.node.AncientStone
@@ -119,7 +120,7 @@ map.nodes[56718128] = Rare({
     }
 }) -- Enraged Sapphire
 
-map.nodes[75184651] = Rare({
+map.nodes[75184651] = RareElite({
     id = 193170,
     vignette = 5182,
     quest = 73994,
@@ -152,7 +153,7 @@ map.nodes[80544222] = Rare({
     rewards = {Achievement({id = 16677, criteria = 56083})}
 }) -- Hunter of Deep
 
-map.nodes[80513869] = Rare({
+map.nodes[80513869] = RareElite({
     id = 188124,
     vignette = 5078,
     quest = 73967,
@@ -183,7 +184,7 @@ map.nodes[87556151] = Rare({
     }
 }) -- Liskheszaera
 
-map.nodes[32823817] = Rare({
+map.nodes[32823817] = RareElite({
     id = 195409,
     vignette = 5365,
     quest = 73968,
@@ -191,7 +192,7 @@ map.nodes[32823817] = Rare({
     rewards = {Achievement({id = 16677, criteria = 56094})}
 }) -- Makhra the Ashtouched
 
-map.nodes[71694585] = Rare({
+map.nodes[71694585] = RareElite({
     id = 193212,
     vignette = 5195,
     quest = 74011,
@@ -212,7 +213,7 @@ map.nodes[71694585] = Rare({
     }
 }) -- Malsegan
 
-map.nodes[63017996] = Rare({
+map.nodes[63017996] = RareElite({
     id = 193173,
     vignette = 5183,
     quest = 74015,
@@ -244,7 +245,7 @@ map.nodes[58604940] = Rare({
     }
 }) -- Defend Clan Aylaag
 
-map.nodes[61212950] = Rare({
+map.nodes[61212950] = RareElite({
     id = 193235,
     vignette = 5199,
     quest = 74018,
@@ -297,7 +298,7 @@ end
 
 map.nodes[68207920] = Quackers() -- Quackers the Terrible
 
-map.nodes[37005380] = Rare({
+map.nodes[37005380] = RareElite({
     id = 196010,
     vignette = 5378,
     quest = 74023,
@@ -313,7 +314,7 @@ map.nodes[37005380] = Rare({
     }
 }) -- Researcher Sneakwing
 
-map.nodes[43405560] = Rare({
+map.nodes[43405560] = RareElite({
     id = 193227,
     vignette = 5205,
     quest = 74026,
@@ -416,7 +417,7 @@ map.nodes[21603960] = Rare({
     }
 }) -- Sparkspitter Vrak
 
-map.nodes[53627281] = Rare({
+map.nodes[53627281] = RareElite({
     id = 193123,
     vignette = 5168,
     quest = 74034,
@@ -520,7 +521,7 @@ map.nodes[31456387] = Rare({
     }
 }) -- Zenet Avis
 
-map.nodes[72232306] = Rare({
+map.nodes[72232306] = RareElite({
     id = 188451,
     vignette = 5087,
     quest = 73980,
@@ -546,7 +547,7 @@ map.nodes[90434005] = Rare({
     }
 }) -- Blightpaw the Depraved
 
-map.nodes[80817770] = Rare({
+map.nodes[80817770] = RareElite({
     id = 197411,
     vignette = nil,
     quest = 74057,
@@ -705,7 +706,7 @@ map.nodes[43105078] = Rare({
     pois = {POI({43724823})}
 }) -- Web-Queen Ashkaz
 
-map.nodes[34823454] = Rare({
+map.nodes[34823454] = RareElite({
     id = 201540,
     vignette = {5570, 5898},
     quest = 74546,
@@ -716,7 +717,7 @@ map.nodes[34823454] = Rare({
     pois = {Path({33793438, 34303449, 34823454, 35333464, 35833478, 36323500})}
 }) -- Lurgan
 
-map.nodes[36803800] = Rare({
+map.nodes[36803800] = RareElite({
     id = 201535,
     vignette = {5573, 5895},
     quest = 74552,
@@ -730,7 +731,7 @@ map.nodes[36803800] = Rare({
     }
 }) -- Bloodbeak the Ravenous
 
-map.nodes[35804040] = Rare({
+map.nodes[35804040] = RareElite({
     id = 201537,
     vignette = {5569, 5896},
     quest = 74463,
@@ -741,7 +742,7 @@ map.nodes[35804040] = Rare({
     }
 }) -- Groffnar
 
-map.nodes[32614184] = Rare({
+map.nodes[32614184] = RareElite({
     id = 201539,
     vignette = {5571, 5899},
     quest = 74547,
@@ -754,7 +755,7 @@ map.nodes[32614184] = Rare({
     pois = {Path({32614184, 33014157, 33404161})}
 }) -- Stormcaller Narkena
 
-map.nodes[33843872] = Rare({
+map.nodes[33843872] = RareElite({
     id = 201538,
     vignette = {5572, 5897},
     quest = 74548,

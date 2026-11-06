@@ -11,6 +11,7 @@ local Node = ns.node.Node
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Vendor = ns.node.Vendor
 
 local Dragonglyph = ns.node.Dragonglyph
@@ -53,7 +54,7 @@ local warCreche = Map({id = 2102, settings = false}) -- The War Creche
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[58174826] = Rare({
+map.nodes[58174826] = RareElite({
     id = 200584,
     vignette = 5490,
     quest = 73111,
@@ -61,15 +62,15 @@ map.nodes[58174826] = Rare({
     rewards = {
         Achievement({id = 17525, criteria = 58458}), -- Champion of the Forbidden Reach
         Pet({item = 193364, id = 3291}), -- Scruffles
-        Item({item = 204276}), -- Untapped Forbidden Knowledge
-        Spacer(), Section(L['shared_drops']), Mount({item = 192772, id = 1619}), -- Ancient Salamanther
+        Spacer(), Section(L['shared_drops']), Item({item = 204276}), -- Untapped Forbidden Knowledge
+        Mount({item = 192772, id = 1619}), -- Ancient Salamanther
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     },
     pois = {POI({58934944})} -- Entrance
 }) -- Vraken the Hunter
 
-map.nodes[28303794] = Rare({
+map.nodes[28303794] = RareElite({
     id = 200537,
     vignette = 5488,
     quest = 73095,
@@ -82,7 +83,7 @@ map.nodes[28303794] = Rare({
     pois = {POI({27184089})} -- Entrance
 }) -- Gahz'raxes
 
-map.nodes[41021436] = Rare({
+map.nodes[41021436] = RareElite({
     id = 200579,
     vignette = 5489,
     quest = 73100,
@@ -93,7 +94,7 @@ map.nodes[41021436] = Rare({
     }
 }) -- Ishyra
 
-map.nodes[47722071] = Rare({
+map.nodes[47722071] = RareElite({
     id = 200600,
     vignette = 5491,
     quest = 73117,
@@ -106,7 +107,7 @@ map.nodes[47722071] = Rare({
     pois = {POI({46961955})} -- Entrance
 }) -- Reisa the Drowned
 
-supportCreche.nodes[35254374] = Rare({
+supportCreche.nodes[35254374] = RareElite({
     id = 200610,
     vignette = 5492,
     quest = 73118,
@@ -115,12 +116,12 @@ supportCreche.nodes[35254374] = Rare({
     parent = {id = map.id, pois = {POI({36673239})}},
     rewards = {
         Achievement({id = 17525, criteria = 58462}), -- Champion of the Forbidden Reach
-        Item({item = 202196}), -- Zskera Vault Key
+        Spacer(), Section(L['shared_drops']), Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
 }) -- Duzalgor
 
-map.nodes[43736121] = Rare({
+map.nodes[43736121] = RareElite({
     id = 200681,
     vignette = 5497,
     quest = 73150,
@@ -136,7 +137,7 @@ map.nodes[43736121] = Rare({
     }
 }) -- Bonesifter Marwak
 
-map.nodes[44727943] = Rare({
+map.nodes[44727943] = RareElite({
     id = 200717,
     vignette = 5498,
     quest = 73152,
@@ -147,7 +148,7 @@ map.nodes[44727943] = Rare({
     }
 }) -- Galakhad
 
-map.nodes[43949052] = Rare({
+map.nodes[43949052] = RareElite({
     id = 200721,
     vignette = 5500,
     quest = 73154,
@@ -158,7 +159,7 @@ map.nodes[43949052] = Rare({
     }
 }) -- Grugoth the Hullcrusher
 
-map.nodes[59695883] = Rare({
+map.nodes[59695883] = RareElite({
     id = 200885,
     vignette = 5514,
     quest = 73222,
@@ -173,7 +174,7 @@ map.nodes[59695883] = Rare({
     pois = {POI({60845827})} -- Entrance
 }) -- Lady Shaz'ra
 
-map.nodes[72986738] = Rare({
+map.nodes[72986738] = RareElite({
     id = 200904,
     vignette = 5517,
     quest = 73229,
@@ -186,7 +187,7 @@ map.nodes[72986738] = Rare({
     pois = {POI({70776649, 72086535, 71006875, 71906968})} -- Entrances
 }) -- Veltrax
 
-map.nodes[67924531] = Rare({
+map.nodes[67924531] = RareElite({
     id = 201181,
     vignette = 5544,
     quest = 74283,
@@ -200,7 +201,7 @@ map.nodes[67924531] = Rare({
     pois = {POI({69024597})} -- Entrance
 }) -- Mad-Eye Carrey
 
-map.nodes[61723400] = Rare({
+map.nodes[61723400] = RareElite({
     id = 201013,
     vignette = 5526,
     quest = 73409,
@@ -213,7 +214,7 @@ map.nodes[61723400] = Rare({
     }
 }) -- Wyrmslayer Angvardi
 
-warCreche.nodes[42958468] = Rare({
+warCreche.nodes[42958468] = RareElite({
     id = 200960,
     vignette = 5520,
     quest = 73367,
@@ -222,12 +223,12 @@ warCreche.nodes[42958468] = Rare({
     rewards = {
         Achievement({id = 17525, criteria = 58470}), -- Champion of the Forbidden Reach
         Pet({item = 191930, id = 3261}), -- Wakyn
-        Item({item = 202196}), -- Zskera Vault Key
+        Spacer(), Section(L['shared_drops']), Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
 }) -- Warden Entrix
 
-map.nodes[36731223] = Rare({
+map.nodes[36731223] = RareElite({
     id = 200956,
     vignette = 5519,
     quest = 73366,
@@ -239,7 +240,7 @@ map.nodes[36731223] = Rare({
     }
 }) -- "Captain" Ookbeard
 
-warCreche.nodes[67355579] = Rare({
+warCreche.nodes[67355579] = RareElite({
     id = 200978,
     vignette = 5521,
     quest = 73385,
@@ -247,12 +248,12 @@ warCreche.nodes[67355579] = Rare({
     parent = {id = map.id, pois = {POI({51895982})}},
     rewards = {
         Achievement({id = 17525, criteria = 58472}), -- Champion of the Forbidden Reach
-        Item({item = 202196}), -- Zskera Vault Key
+        Spacer(), Section(L['shared_drops']), Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
 }) -- Pyrachniss
 
-siegeCreche.nodes[58993931] = Rare({
+siegeCreche.nodes[58993931] = RareElite({
     id = 200911,
     vignette = 5515,
     quest = 73225,
@@ -260,7 +261,8 @@ siegeCreche.nodes[58993931] = Rare({
     parent = {id = map.id, pois = {POI({74425466})}},
     rewards = {
         Achievement({id = 17525, criteria = 58473}), -- Champion of the Forbidden Reach
-        DC.WindborneVelocidrake.HeavyScales, Item({item = 202196}), -- Zskera Vault Key
+        DC.WindborneVelocidrake.HeavyScales, Spacer(),
+        Section(L['shared_drops']), Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }
 }) -- Volcanakk
@@ -275,7 +277,8 @@ local LootSpecialist = Class('LootSpecialist', Rare, {
     fgroup = 'loot_specialist',
     rewards = {
         Achievement({id = 17525, criteria = 58830}), -- Champion of the Forbidden Reach
-        DC.CliffsideWylderdrake.CoiledHorns, Item({item = 204276}), -- Untapped Forbidden Knowledge
+        DC.CliffsideWylderdrake.CoiledHorns, Spacer(),
+        Section(L['shared_drops']), Item({item = 204276}), -- Untapped Forbidden Knowledge
         Item({item = 202196}), -- Zskera Vault Key
         Currency({id = 2118}) -- Elemental Overflow
     }

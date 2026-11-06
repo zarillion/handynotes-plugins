@@ -66,7 +66,7 @@ local bhd = Map({id = 2106, settings = false, secret = true}) -- Brackenhide Hol
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[53013563] = Rare({
+map.nodes[53013563] = RareElite({
     id = 194270,
     vignette = 5267,
     quest = 73866,
@@ -75,7 +75,7 @@ map.nodes[53013563] = Rare({
     }
 }) -- Arcane Devourer
 
-map.nodes[55823132] = Rare({
+map.nodes[55823132] = RareElite({
     id = 194210,
     vignette = nil,
     quest = 73867,
@@ -103,7 +103,7 @@ map.nodes[73032680] = Rare({
     }
 }) -- Beogoka
 
-map.nodes[13584855] = Rare({
+map.nodes[13584855] = RareElite({
     id = 197557,
     vignette = nil,
     quest = 74097,
@@ -142,7 +142,7 @@ map.nodes[13432270] = Rare({
     }
 }) -- Blightfur
 
-map.nodes[14053096] = Rare({
+map.nodes[14053096] = RareElite({
     id = 197353,
     vignette = {5414, 5891},
     quest = 73985,
@@ -276,7 +276,7 @@ map.nodes[58264391] = Rare({
     pois = {POI({58664339})}
 }) -- Frostpaw
 
-map.nodes[14083747] = Rare({
+map.nodes[14083747] = RareElite({
     id = 197354,
     vignette = {5415, 5892},
     quest = 73996,
@@ -291,7 +291,7 @@ map.nodes[14083747] = Rare({
     }
 }) -- Gnarls
 
-map.nodes[32682911] = Rare({
+map.nodes[32682911] = RareElite({
     id = 193251,
     vignette = 5206,
     quest = 74001,
@@ -311,7 +311,7 @@ map.nodes[32682911] = Rare({
     }
 }) -- Gruffy
 
-map.nodes[19234362] = Rare({
+map.nodes[19234362] = RareElite({
     id = 193269,
     vignette = 5210,
     quest = 74002,
@@ -331,7 +331,7 @@ map.nodes[19234362] = Rare({
     }
 }) -- Grumbletrunk
 
-map.nodes[16213364] = Rare({
+map.nodes[16213364] = RareElite({
     id = 197356,
     vignette = {5416, 5893},
     quest = 74004,
@@ -350,7 +350,7 @@ map.nodes[16213364] = Rare({
     }
 }) -- High Shaman Rotknuckle
 
-map.nodes[36243573] = Rare({
+map.nodes[36243573] = RareElite({
     id = 190244,
     vignette = nil,
     quest = 73883,
@@ -412,7 +412,7 @@ map.nodes[20584943] = Rare({
     pois = {POI({34023076, 34933000})} -- Entrance
 }) -- Notfar the Unbearable
 
-map.nodes[58813260] = Rare({
+map.nodes[58813260] = RareElite({
     id = 197371,
     vignette = nil,
     quest = {73891, 74080},
@@ -456,7 +456,7 @@ map.nodes[58813260] = Rare({
 --     }
 -- }) -- Rusthide
 
-map.nodes[26494939] = Rare({
+map.nodes[26494939] = RareElite({
     id = 193149,
     vignette = 5440,
     quest = 74030,
@@ -475,7 +475,7 @@ map.nodes[26494939] = Rare({
     }
 }) -- Skag the Thrower
 
-map.nodes[10863229] = Rare({
+map.nodes[10863229] = RareElite({
     id = 197344,
     vignette = {5413, 5894},
     quest = 74032,
@@ -556,7 +556,7 @@ map.nodes[59405520] = Rare({
 
 -- These rares/elites are not part of the adventurer achievement for the zone
 
-map.nodes[28564743] = Rare({
+map.nodes[28564743] = RareElite({
     id = 195353,
     vignette = nil,
     quest = nil,
@@ -641,7 +641,7 @@ map.nodes[36723247] = Rare({
     }
 }) -- Sharpfang
 
-map.nodes[76602460] = Rare({
+map.nodes[76602460] = RareElite({
     id = 197183,
     vignette = nil,
     quest = {69338, 69342}, -- hide node on unlocking manuscripts for alts
@@ -682,7 +682,7 @@ map.nodes[56407080] = Rare({
     }
 }) -- Gethdazr
 
-map.nodes[60196818] = Rare({
+map.nodes[60196818] = RareElite({
     id = 201559,
     vignette = {5557, 5889},
     quest = 74533,
@@ -693,7 +693,7 @@ map.nodes[60196818] = Rare({
     }
 }) -- Shiobhan Waterborn
 
-map.nodes[57916842] = Rare({
+map.nodes[57916842] = RareElite({
     id = 201557,
     vignette = {5554, 5887},
     quest = 74532,
@@ -709,7 +709,7 @@ map.nodes[57916842] = Rare({
     }
 }) -- Graniteclaw
 
-map.nodes[56016760] = Rare({
+map.nodes[56016760] = RareElite({
     id = 201558,
     vignette = {5556, 5888},
     quest = 74531,
@@ -722,7 +722,7 @@ map.nodes[56016760] = Rare({
     }
 }) -- Malgain Rockknell
 
-map.nodes[57256464] = Rare({
+map.nodes[57256464] = RareElite({
     id = 201556,
     vignette = {5555, 5890},
     quest = 74535,
@@ -736,7 +736,7 @@ map.nodes[57256464] = Rare({
     }
 }) -- Waterpots
 
-map.nodes[43903096] = Rare({
+map.nodes[43903096] = RareElite({
     id = 201561,
     vignette = {5559, 5884},
     quest = 74544,
@@ -747,7 +747,7 @@ map.nodes[43903096] = Rare({
     }
 }) -- Motivator Krathos
 
-map.nodes[47102582] = Rare({
+map.nodes[47102582] = RareElite({
     id = 201554,
     vignette = {5558, 5886},
     quest = 74536,
@@ -760,7 +760,7 @@ map.nodes[47102582] = Rare({
     }
 }) -- Unstable Arcanogolem
 
-map.nodes[47982349] = Rare({
+map.nodes[47982349] = RareElite({
     id = 201553,
     vignette = {5560, 5883},
     quest = 74545,
@@ -771,7 +771,7 @@ map.nodes[47982349] = Rare({
     }
 }) -- Grand Artificer Zeerak
 
-map.nodes[46932204] = Rare({
+map.nodes[46932204] = RareElite({
     id = 201555,
     vignette = {5561, 5885},
     quest = 74543,
@@ -1792,10 +1792,30 @@ local COMMUNITY_FEAST_REWARDS = {
     Item({item = 200071}) -- Sacred Tuskarr Totem
 }
 
+-- Bisquius only spawns during the feast, so his info is attached to the
+-- official feast POIs as well. Leftovers' Revenge and the spare ladle are
+-- already listed above, so only the remaining rewards are added here.
+local BISQUIUS_HOOK_REWARDS = {
+    Spacer(), Section('{npc:197557}'), -- Bisquius
+    Achievement({id = 16678, criteria = 55381}), -- Adventurer of The Azure Span
+    DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.ImpalerHorns, Spacer(),
+    Section(L['shared_drops']), Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
+    Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
+    Transmog({item = 200252, slot = L['gun']}) -- Molten Flak Cannon
+}
+
+local COMMUNITY_FEAST_HOOK_REWARDS = {}
+for _, reward in ipairs(COMMUNITY_FEAST_REWARDS) do
+    table.insert(COMMUNITY_FEAST_HOOK_REWARDS, reward)
+end
+for _, reward in ipairs(BISQUIUS_HOOK_REWARDS) do
+    table.insert(COMMUNITY_FEAST_HOOK_REWARDS, reward)
+end
+
 local COMMUNITY_FEAST_AREA_POIS = {
-    [7218] = COMMUNITY_FEAST_REWARDS, -- Before Feast
-    [7219] = COMMUNITY_FEAST_REWARDS, -- During Feast
-    [7220] = COMMUNITY_FEAST_REWARDS -- After Feast
+    [7218] = COMMUNITY_FEAST_HOOK_REWARDS, -- Before Feast
+    [7219] = COMMUNITY_FEAST_HOOK_REWARDS, -- During Feast
+    [7220] = COMMUNITY_FEAST_HOOK_REWARDS -- After Feast
 }
 
 map.nodes[13524860] = Collectible({
@@ -1820,6 +1840,7 @@ map.nodes[13524860] = Collectible({
     end
 }) -- Community Feast
 
+ns.hooks.areapoi.Add(ns.groups.COMMUNITY_FEAST, COMMUNITY_FEAST_AREA_POIS)
 ns.hooks.areapoievent.Add(ns.groups.COMMUNITY_FEAST, COMMUNITY_FEAST_AREA_POIS)
 
 -------------------------------------------------------------------------------

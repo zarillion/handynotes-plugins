@@ -8,7 +8,7 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
-local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 local Vendor = ns.node.Vendor
 
@@ -71,7 +71,7 @@ local deepflayerNest = Map({id = 2184, settings = false}) -- Deepflayer Nest
 --     return text
 -- end
 
-map.nodes[56247389] = Rare({
+map.nodes[56247389] = RareElite({
     id = 203515,
     vignette = 5643,
     quest = 75284,
@@ -80,15 +80,15 @@ map.nodes[56247389] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59188}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59491}), -- Cavern Clawbbering
-        Transmog({item = 205318, slot = L['plate']}), -- Guardian Golems Legplates
         Transmog({item = 205309, slot = L['mail']}), -- Loyal Attendant's Gaze
+        Transmog({item = 205318, slot = L['plate']}), -- Guardian Golems Legplates
         DC.WindingSlitherdrake.PlatedBrow, --
         Spacer(), Section(L['shared_drops']), Item({item = 200071}) -- Sacred Tuskarr Totem
     },
     pois = {POI({56937305})} -- Entrance
 }) -- Alcanon
 
-map.nodes[48367509] = Rare({
+map.nodes[48367509] = RareElite({
     id = 203468,
     vignette = 5640,
     quest = 75270,
@@ -96,14 +96,14 @@ map.nodes[48367509] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59185}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59492}), -- Cavern Clawbbering
-        Transmog({item = 205306, slot = L['mail']}), -- Aquiferous Raiment
         Transmog({item = 205295, slot = L['cloth']}), -- Sediment Sifters
+        Transmog({item = 205306, slot = L['mail']}), -- Aquiferous Raiment
         Pet({item = 205154, id = 3548}), -- Aquapo
         Spacer(), Section(L['shared_drops']), Item({item = 192055}) -- Dragon Isle Artifact
     }
 }) -- Aquifon
 
-map.nodes[41518613] = Rare({
+map.nodes[41518613] = RareElite({
     id = 203621,
     vignette = 5652,
     quest = 75325,
@@ -113,12 +113,13 @@ map.nodes[41518613] = Rare({
         Achievement({id = 17783, criteria = 59202}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59493}), -- Cavern Clawbbering
         Transmog({item = 205313, slot = L['mail']}), -- Brullo's Wristbraces
+        Transmog({item = 205320, slot = L['plate']}), -- Greatbelt of the Stronk
         Pet({item = 205114, id = 3533}), -- Brul
         Recipe({item = 204847, profession = 185}) -- Recipe: Rocks on the Rocks
     }
 }) -- Brulsef the Stronk
 
-map.nodes[48372384] = Rare({
+map.nodes[48372384] = RareElite({
     id = 204093,
     vignette = 5674,
     quest = 75475,
@@ -133,7 +134,7 @@ map.nodes[48372384] = Rare({
     }
 }) -- Colossian
 
-map.nodes[31805061] = Rare({
+map.nodes[31805061] = RareElite({
     id = 203664,
     vignette = 5663,
     quest = 75361,
@@ -146,7 +147,7 @@ map.nodes[31805061] = Rare({
     }
 }) -- Emberdusk
 
-map.nodes[36324481] = Rare({
+map.nodes[36324481] = RareElite({
     id = 203660,
     vignette = 5661,
     quest = 75357,
@@ -161,7 +162,7 @@ map.nodes[36324481] = Rare({
     pois = {POI({35924400})} -- Entrance
 }) -- Flowfy
 
-map.nodes[41921857] = Rare({
+map.nodes[41921857] = RareElite({
     id = 203592,
     vignette = 5645,
     quest = 75295,
@@ -178,7 +179,7 @@ map.nodes[41921857] = Rare({
     pois = {POI({42491885})} -- Entrance
 }) -- General Zskorro
 
-map.nodes[68734593] = Rare({
+map.nodes[68734593] = RareElite({
     id = 203477,
     vignette = 5641,
     quest = 75273,
@@ -186,13 +187,13 @@ map.nodes[68734593] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59186}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59498}), -- Cavern Clawbbering
-        Transmog({item = 205317, slot = L['plate']}), -- Crystalpod Gauntlets
         Transmog({item = 205296, slot = L['cloth']}), -- Goopal's Visage
+        Transmog({item = 205317, slot = L['plate']}), -- Crystalpod Gauntlets
         DC.WindingSlitherdrake.LongChinHorn
     }
 }) -- Goopal
 
-map.nodes[45673327] = Rare({
+map.nodes[45673327] = RareElite({
     id = 203627,
     vignette = 5654,
     quest = 75335,
@@ -206,7 +207,7 @@ map.nodes[45673327] = Rare({
     }
 }) -- Invoq
 
-map.nodes[28515115] = Rare({
+map.nodes[28515115] = RareElite({
     id = 203646,
     vignette = 5660,
     quest = 75352,
@@ -214,15 +215,15 @@ map.nodes[28515115] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59206}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59500}), -- Cavern Clawbbering
-        Transmog({item = 205304, slot = L['leather']}), -- Snareguard Sash
         Transmog({item = 205299, slot = L['cloth']}), -- Rudiment Cuffs
+        Transmog({item = 205304, slot = L['leather']}), -- Snareguard Sash
         Toy({item = 205419}), -- Jrumm's Drum
         DC.WindingSlitherdrake.Ears --
         -- Currency({id = 2245}) -- Flightstones
     }
 }) -- Jrumm
 
-map.nodes[42226524] = Rare({
+map.nodes[42226524] = RareElite({
     id = 203625,
     vignette = 5653,
     quest = 75333,
@@ -239,7 +240,7 @@ map.nodes[42226524] = Rare({
     }
 }) -- Karokta
 
-map.nodes[59593949] = Rare({
+map.nodes[59593949] = RareElite({
     id = 203466,
     vignette = 5639,
     quest = 75268,
@@ -247,14 +248,14 @@ map.nodes[59593949] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59184}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59502}), -- Cavern Clawbbering
-        Transmog({item = 205319, slot = L['plate']}), -- Deepflayer Shoulderguards
         Transmog({item = 205310, slot = L['mail']}), -- Legguards of Kaprachu
+        Transmog({item = 205319, slot = L['plate']}), -- Deepflayer Shoulderguards
         DC.WindingSlitherdrake.HeavyScales, --
         Spacer(), Section(L['shared_drops']), Item({item = 192055}) -- Dragon Isle Artifact
     }
 }) -- Kaprachu
 
-map.nodes[54074162] = Rare({
+map.nodes[54074162] = RareElite({
     id = 203618,
     vignette = 5651,
     quest = 75321,
@@ -267,7 +268,7 @@ map.nodes[54074162] = Rare({
     }
 }) -- Klakatak
 
-map.nodes[65435587] = Rare({
+map.nodes[65435587] = RareElite({
     id = 203462,
     vignette = 5638,
     quest = 75266,
@@ -276,8 +277,8 @@ map.nodes[65435587] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59183}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59504}), -- Cavern Clawbbering
-        Transmog({item = 205307, slot = L['mail']}), -- Kob'rok's Scale Sabatons
         Transmog({item = 205323, slot = L['leather']}), -- Rock-Lined Pauldrons
+        Transmog({item = 205307, slot = L['mail']}), -- Kob'rok's Scale Sabatons
         Pet({item = 205152, id = 3546}), -- Skaarn
         DC.CliffsideWylderdrake.SpikedClubTail, --
         Item({item = 206021, note = '{item:205151}'}) -- Kob'rok's Luminescent Scale (for Salverun Pet)
@@ -285,7 +286,7 @@ map.nodes[65435587] = Rare({
     pois = {POI({64785550})} -- Entrance
 }) -- Kob'rok
 
-map.nodes[40753817] = Rare({
+map.nodes[40753817] = RareElite({
     id = 200111,
     vignette = 5656,
     quest = 75339,
@@ -293,15 +294,15 @@ map.nodes[40753817] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59203}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59505}), -- Cavern Clawbbering
-        Transmog({item = 205311, slot = L['mail']}), -- Magmascale Pauldrons
         Transmog({item = 205300, slot = L['leather']}), -- Magma Waders
+        Transmog({item = 205311, slot = L['mail']}), -- Magmascale Pauldrons
         DC.WindingSlitherdrake.ImpalerHorns, --
         -- Currency({id = 2245}) -- Flightstones
         Spacer(), Section(L['shared_drops']), Item({item = 192055}) -- Dragon Isle Artifact
     }
 }) -- Magmanesha
 
-map.nodes[55841899] = Rare({
+map.nodes[55841899] = RareElite({
     id = 203521,
     vignette = 5644,
     quest = 75291,
@@ -317,7 +318,7 @@ map.nodes[55841899] = Rare({
     pois = {POI({52921886})} -- Entrance
 }) -- Professor Gastrinax
 
-map.nodes[36205300] = Rare({
+map.nodes[36205300] = RareElite({
     id = 203643,
     vignette = 5659,
     quest = 75348,
@@ -325,14 +326,14 @@ map.nodes[36205300] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59205}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59507}), -- Cavern Clawbbering
-        Transmog({item = 205301, slot = L['leather']}), -- Hardened Lava Handwraps
         Transmog({item = 205294, slot = L['cloth']}), -- Sandals of Molten Scorn
+        Transmog({item = 205301, slot = L['leather']}), -- Hardened Lava Handwraps
         DC.WindingSlitherdrake.CurledCheekHorn --
         -- Currency({id = 2245}) -- Flightstones
     }
 }) -- Skornak
 
-map.nodes[53106421] = Rare({
+map.nodes[53106421] = RareElite({
     id = 203480,
     vignette = 5642,
     quest = 75275,
@@ -350,7 +351,7 @@ map.nodes[53106421] = Rare({
     pois = {POI({54556605})} -- Entrance
 }) -- Spinmarrow
 
-map.nodes[38424650] = Rare({
+map.nodes[38424650] = RareElite({
     id = 203662,
     vignette = 5662,
     quest = 75359,
@@ -358,15 +359,15 @@ map.nodes[38424650] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59208}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59509}), -- Cavern Clawbbering
-        Transmog({item = 205314, slot = L['plate']}), -- Greathelm of the Emissary
         Transmog({item = 205312, slot = L['mail']}), -- Subterrax's Stout Waistguard
+        Transmog({item = 205314, slot = L['plate']}), -- Greathelm of the Emissary
         Transmog({item = 205328, slot = L['2h_sword']}), -- Earthen Emissasry's Edge
         DC.WindingSlitherdrake.AntlerHorns, --
         Item({item = 199906}) -- Titan Relic
     }
 }) -- Subterrax
 
-map.nodes[57766910] = Rare({
+map.nodes[57766910] = RareElite({
     id = 203593,
     vignette = 5646,
     quest = 75297,
@@ -374,14 +375,14 @@ map.nodes[57766910] = Rare({
     rewards = {
         Achievement({id = 17783, criteria = 59191}), -- Adventurer of Zaralek Cavern
         Achievement({id = 18100, criteria = 59510}), -- Cavern Clawbbering
-        Transmog({item = 205325, slot = L['shield']}), -- Crystal Wing Shield
-        Transmog({item = 205302, slot = L['leather']}), -- Underlight Headwrap
         Transmog({item = 205324, slot = L['cloth']}), -- Moth Queen Mantle
+        Transmog({item = 205302, slot = L['leather']}), -- Underlight Headwrap
+        Transmog({item = 205325, slot = L['shield']}), -- Crystal Wing Shield
         Pet({item = 205159, id = 3551}) -- Teardrop Moth
     }
 }) -- Underlight Queen
 
-map.nodes[38867151] = Rare({
+map.nodes[38867151] = RareElite({
     id = 201029,
     vignette = 5664,
     quest = 75365,

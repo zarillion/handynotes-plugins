@@ -61,7 +61,7 @@ local nel = Map({id = 2080, settings = true, secret = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[63695509] = Rare({
+map.nodes[63695509] = RareElite({
     id = 193132,
     vignette = 5171,
     quest = 73981,
@@ -89,7 +89,7 @@ map.nodes[58634021] = Rare({
     }
 }) -- Anhydros the Tidetaker
 
-map.nodes[54517174] = Rare({
+map.nodes[54517174] = RareElite({
     id = 193135,
     vignette = 5172,
     quest = 73984,
@@ -169,10 +169,11 @@ local CauldronbearerBlakor = Class('cauldronbearerblakor', RareElite, {
     fgroup = 'cauldronbearerblakor',
     rewards = {
         Achievement({id = 16676, criteria = 56056}),
-        Transmog({item = 200169, slot = L['1h_mace']}), -- Protector's Molten Cudgel
-        Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
         DC.CliffsideWylderdrake.BluntSpikedTail,
-        DC.CliffsideWylderdrake.HornedNose
+        DC.CliffsideWylderdrake.HornedNose, Spacer(),
+        Section(L['shared_drops']),
+        Transmog({item = 200757, slot = L['plate']}), -- Qalashi War-Helm
+        Transmog({item = 200169, slot = L['1h_mace']}) -- Protector's Molten Cudgel
     },
     pois = {
         Path({
@@ -344,7 +345,7 @@ map.nodes[34618275] = Rare({
     }
 }) -- Lepidoralia the Resplendent
 
-map.nodes[39596353] = Rare({
+map.nodes[39596353] = RareElite({
     id = 186827,
     vignette = 5116,
     quest = 74010,
@@ -412,7 +413,7 @@ map.nodes[56004592] = Rare({
     }
 }) -- Nulltheria the Void Gazer
 
-map.nodes[81485082] = Rare({
+map.nodes[81485082] = RareElite({
     id = 193118,
     vignette = 5167,
     quest = 74017,
@@ -436,7 +437,7 @@ map.nodes[81485082] = Rare({
     }
 }) -- O'nank Shorescour
 
-map.nodes[64676939] = Rare({
+map.nodes[64676939] = RareElite({
     id = 192362,
     vignette = nil,
     quest = 70864,
@@ -482,7 +483,7 @@ map.nodes[30736110] = RareElite({
     }
 }) -- Rohzor Forgesmash
 
-map.nodes[46997332] = Rare({
+map.nodes[46997332] = RareElite({
     id = 193271,
     vignette = 5381,
     quest = 74076,
@@ -553,7 +554,7 @@ map.nodes[42892832] = Rare({
     }
 }) -- Skewersnout
 
-map.nodes[34578950] = Rare({
+map.nodes[34578950] = RareElite({
     id = 193175,
     vignette = 5384,
     quest = 74079,
@@ -569,7 +570,7 @@ map.nodes[34578950] = Rare({
     pois = {POI({36028984})} -- Entrance
 }) -- Slurpo, the Incredible Snail
 
-map.nodes[69486653] = Rare({
+map.nodes[69486653] = RareElite({
     id = 193120,
     vignette = 5169,
     quest = 74031,
@@ -659,7 +660,7 @@ map.nodes[30025534] = RareElite({
 
 -- Fishing rares that are part of the Azure Span adventurer achievement
 
-map.nodes[33886446] = Rare({
+map.nodes[33886446] = RareElite({
     id = 193708,
     vignette = nil,
     quest = 74078,
@@ -675,7 +676,7 @@ map.nodes[33886446] = Rare({
     }
 }) -- Skald the Impaler
 
-map.nodes[65617410] = Rare({
+map.nodes[65617410] = RareElite({
     id = 193735,
     vignette = nil,
     label = L['large_lunker_sighting'],
@@ -788,7 +789,7 @@ map.nodes[54728225] = Rare({
     }
 }) -- Klozicc the Ascended
 
-map.nodes[24135392] = Rare({
+map.nodes[24135392] = RareElite({
     id = 189289,
     vignette = 5107,
     quest = 74019,
@@ -843,7 +844,7 @@ map.nodes[60598285] = Rare({
     }
 }) -- Terillod the Devout
 
-map.nodes[42203960] = Rare({
+map.nodes[42203960] = RareElite({
     id = 186200,
     vignette = 5044,
     quest = 74000,
@@ -860,7 +861,7 @@ map.nodes[42203960] = Rare({
 
 -- map.nodes[46795728] = Rare({id = 190718}) -- Monsoo, The Boiling Rage
 
-map.nodes[68085669] = Rare({
+map.nodes[68085669] = RareElite({
     id = 187745,
     vignette = nil,
     quest = 74092,

@@ -13,6 +13,8 @@ local Node = ns.node.Node
 local NPC = ns.node.NPC
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
+local Boss = ns.node.Boss
 local Treasure = ns.node.Treasure
 local Vendor = ns.node.Vendor
 
@@ -107,13 +109,13 @@ map.nodes[51253128] = Rare({
     quest = 77942,
     rewards = {
         Achievement({id = 19316, criteria = 62945}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208376, slot = L['bow']}), -- Great Ray's Longbow
+        Transmog({item = 208326, slot = L['leather']}), -- Vest of the Flametide
         Transmog({item = 208347, slot = L['plate']}), -- Stone Wolf's Cuffs
-        Transmog({item = 208326, slot = L['leather']}) -- Vest of the Flametide
+        Transmog({item = 208376, slot = L['bow']}) -- Great Ray's Longbow
     }
 }) -- Bloodstripe Great Ray
 
-map.nodes[64178399] = Rare({
+map.nodes[64178399] = RareElite({
     id = 209898,
     quest = 77867,
     vignette = {5806, 5814},
@@ -121,8 +123,9 @@ map.nodes[64178399] = Rare({
     rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
         Achievement({id = 19316, criteria = 62931}), -- Adventurer of the Emerald Dream
+        Transmog({item = 208327, slot = L['leather']}), -- Maruud's Piercing Hands
         Transmog({item = 208334, slot = L['plate']}), -- Legplates of the Krakken
-        Transmog({item = 208327, slot = L['leather']}) -- Maruud's Piercing Hands
+        Transmog({item = 209882, slot = L['2h_sword']}) -- Maruud's Undertow
     }
 }) -- Reefbreaker Moruud
 
@@ -131,13 +134,13 @@ map.nodes[66036318] = Rare({
     quest = 77862,
     rewards = {
         Achievement({id = 19316, criteria = 62937}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208364, slot = L['1h_sword']}), -- Falling Leaf Saber
+        Transmog({item = 208333, slot = L['leather']}), -- Fallen Flame's Crown
         Transmog({item = 208341, slot = L['mail']}), -- Fire-Runed Spaulders
-        Transmog({item = 208333, slot = L['leather']}) -- Fallen Flame's Crown
+        Transmog({item = 208364, slot = L['1h_sword']}) -- Falling Leaf Saber
     }
 }) -- Crabtankerous
 
-map.nodes[34716316] = Rare({
+map.nodes[34716316] = RareElite({
     id = 209929,
     quest = 77878,
     vignette = 5816,
@@ -145,24 +148,24 @@ map.nodes[34716316] = Rare({
     rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
         Achievement({id = 19316, criteria = 62933}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208365, slot = L['polearm']}), -- Winter's Stand
-        Transmog({item = 208332, slot = L['mail']}), -- Horns of the Envoy
+        Transmog({item = 208340, slot = L['cloth']}), -- Stag's Flourishing Mantle
         Transmog({item = 208337, slot = L['leather']}), -- Leaf Steward's Leggings
-        Transmog({item = 208340, slot = L['cloth']}) -- Stag's Flourishing Mantle
+        Transmog({item = 208332, slot = L['mail']}), -- Horns of the Envoy
+        Transmog({item = 208365, slot = L['polearm']}) -- Winter's Stand
     }
 }) -- Envoy of Winter
 
-map.nodes[29862077] = Rare({
+map.nodes[29862077] = RareElite({
     id = 209893,
     quest = 78015,
     vignette = 5835,
     rlabel = ns.status.LightBlue('+50 ' .. L['rep']),
     rewards = {
         Achievement({id = 19316, criteria = 62930}), -- Adventurer of the Emerald Dream
-        Transmog({item = 209881, slot = L['dagger']}), -- Fystia's Fiery Kris
-        Transmog({item = 208328, slot = L['plate']}), -- Fystia's Deft Hands
+        Transmog({item = 208331, slot = L['cloth']}), -- Cowl of the Flame
         Transmog({item = 208371, slot = L['mail']}), -- Fire Assassin's Boots
-        Transmog({item = 208331, slot = L['cloth']}) -- Cowl of the Flame
+        Transmog({item = 208328, slot = L['plate']}), -- Fystia's Deft Hands
+        Transmog({item = 209881, slot = L['dagger']}) -- Fystia's Fiery Kris
     }
 }) -- Firebrand Fystia
 
@@ -177,9 +180,9 @@ bor.nodes[54153685] = Rare({
     },
     rewards = {
         Achievement({id = 19316, criteria = 62938}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208388, slot = L['wand']}), -- Leafster's Magic Wand
+        Transmog({item = 208372, slot = L['leather']}), -- Trickster's Tip Toers
         Transmog({item = 208344, slot = L['mail']}), -- Sash of the Fruit Thief
-        Transmog({item = 208372, slot = L['leather']}) -- Trickster's Tip Toers
+        Transmog({item = 208388, slot = L['wand']}) -- Leafster's Magic Wand
     },
     pois = {
         POI({66641549}), -- Entrance
@@ -189,7 +192,7 @@ bor.nodes[54153685] = Rare({
     }
 }) -- Fruitface
 
-map.nodes[54034142] = Rare({
+map.nodes[54034142] = RareElite({
     id = 209936,
     quest = 77982,
     vignette = {5817, 5969},
@@ -215,9 +218,9 @@ map.nodes[58775119] = Rare({
     quest = 77864,
     rewards = {
         Achievement({id = 19316, criteria = 62936}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208383, slot = L['1h_mace']}), -- Pommel of Fire
+        Transmog({item = 208338, slot = L['leather']}), -- Furious Flame's Shoulders
         Transmog({item = 208325, slot = L['mail']}), -- Ignit's Fiery Heart
-        Transmog({item = 208338, slot = L['leather']}) -- Furious Flame's Shoulders
+        Transmog({item = 208383, slot = L['1h_mace']}) -- Pommel of Fire
     }
 }) -- Ignit the Firebranded
 
@@ -227,9 +230,9 @@ map.nodes[37433171] = Rare({
     location = L['in_small_cave'],
     rewards = {
         Achievement({id = 19316, criteria = 62940}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208385, slot = L['2h_sword']}), -- Flame Endowed Blade
+        Transmog({item = 208345, slot = L['leather']}), -- Forgebreaker's Belt
         Transmog({item = 208348, slot = L['mail']}), -- Binds of the Shatterer
-        Transmog({item = 208345, slot = L['leather']}) -- Forgebreaker's Belt
+        Transmog({item = 208385, slot = L['2h_sword']}) -- Flame Endowed Blade
     },
     pois = {POI({38113211})} -- Entrance
 }) -- Isaqa
@@ -239,8 +242,8 @@ map.nodes[40685084] = Rare({
     quest = 78211,
     rewards = {
         Achievement({id = 19316, criteria = 62943}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208342, slot = L['plate']}), -- Girdle of Nature's Fury
         Transmog({item = 208336, slot = L['mail']}), -- Legguards of the Dreamsaber
+        Transmog({item = 208342, slot = L['plate']}), -- Girdle of Nature's Fury
         Transmog({item = 208363, slot = L['warglaive']}), -- Twinfang of the  Clan
         DG.Feral.KeenEyedDreamsaber -- Mark of the Keen-Eyed Dreamsaber
     },
@@ -259,8 +262,8 @@ map.nodes[41107328] = Rare({
     location = L['in_small_cave'],
     rewards = {
         -- Achievement({id = 19316, criteria = 62946}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208339, slot = L['plate']}), -- Saber's Stone Pauldrons
         Transmog({item = 208343, slot = L['cloth']}), -- Matriarch's Flowery Band
+        Transmog({item = 208339, slot = L['plate']}), -- Saber's Stone Pauldrons
         Transmog({item = 208379, slot = L['1h_axe']}), -- Keevah's Extended Claw
         DG.Travel.DreamtalonMatriarch -- Mark of the Dreamtalon Matriarch
     }
@@ -280,9 +283,9 @@ map.nodes[63793624] = Rare({
     quest = 77943,
     rewards = {
         Achievement({id = 19316, criteria = 62948}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208358, slot = L['shield']}), -- Sunset's Bulwark
+        Transmog({item = 208323, slot = L['cloth']}), -- Nature's Firebathed Robes
         Transmog({item = 208349, slot = L['leather']}), -- Burning Leather Cuffs
-        Transmog({item = 208323, slot = L['cloth']}) -- Nature's Firebathed Robes
+        Transmog({item = 208358, slot = L['shield']}) -- Sunset's Bulwark
     }
 }) -- Molten Leadspike
 
@@ -310,7 +313,7 @@ map.nodes[54953674] = Rare({
     }
 }) -- Mosa Umbramane
 
-map.nodes[61747187] = Rare({
+map.nodes[61747187] = RareElite({
     id = 209113,
     quest = 77570,
     note = L['nuoberon_note'],
@@ -358,8 +361,8 @@ map.nodes[61755220] = Rare({
     note = L['splinterlimb_note'],
     rewards = {
         Achievement({id = 19316, criteria = 62935}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208361, slot = L['staff']}), -- Splinterlimb's Branch
-        Transmog({item = 208346, slot = L['cloth']}) -- Singed Barkbands
+        Transmog({item = 208346, slot = L['cloth']}), -- Singed Barkbands
+        Transmog({item = 208361, slot = L['staff']}) -- Splinterlimb's Branch
     }
 }) -- Splinterlimb
 
@@ -370,9 +373,9 @@ local SurgingLasher = Class('SurgingLasher', Rare, {
     fgroup = 'SurgingLasher',
     rewards = {
         Achievement({id = 19316, criteria = 62941}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208367, slot = L['dagger']}), -- Lasher's Red Thorn
+        Transmog({item = 208335, slot = L['cloth']}), -- Vibrant Fall Leggings
         Transmog({item = 208330, slot = L['mail']}), -- Piercing Touch of the Vine
-        Transmog({item = 208335, slot = L['cloth']}) -- Vibrant Fall Leggings
+        Transmog({item = 208367, slot = L['dagger']}) -- Lasher's Red Thorn
     }
 }) -- Surging Lasher
 
@@ -388,8 +391,8 @@ local Talthonei = Class('Talthonei', Rare, {
     fgroup = 'talthonei',
     rewards = {
         Achievement({id = 19316, criteria = 62934}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208374, slot = L['staff']}), -- Talthornei's Wrath
         Transmog({item = 208369, slot = L['plate']}), -- Druid's Vengeful Gaze
+        Transmog({item = 208374, slot = L['staff']}), -- Talthornei's Wrath
         DG.Travel.SmolderingDreamstag -- Mark of the Smoldering Dreamstag
     }
 }) -- Talthonei Ashwisper
@@ -412,9 +415,9 @@ map.nodes[26022656] = Rare({
     quest = 77990,
     rewards = {
         Achievement({id = 19316, criteria = 62939}), -- Adventurer of the Emerald Dream
-        Transmog({item = 208389, slot = L['polearm']}), -- Spear of the Wilds
+        Transmog({item = 208370, slot = L['cloth']}), -- The Apostle's Steps
         Transmog({item = 208324, slot = L['plate']}), -- Scorching Dryad's Chestpiece
-        Transmog({item = 208370, slot = L['cloth']}) -- The Apostle's Steps
+        Transmog({item = 208389, slot = L['polearm']}) -- Spear of the Wilds
     }
 }) -- The Apostle
 
@@ -428,8 +431,6 @@ map.nodes[38436213] = Rare({
     pois = {POI({38176157})} -- Entrance
 }) -- Voracious Mikanji
 
--------------------------------------------------------------------------------
-
 map.nodes[22743226] = Rare({
     id = 210559,
     quest = 78039,
@@ -439,7 +440,10 @@ map.nodes[22743226] = Rare({
     }
 }) -- Balboan
 
-local Raszageth = Class('Raszageth', Rare, {
+-- Raszageth's Last Breath and Amalgamation of Dreams have no loot of their
+-- own, so the nodes are hidden until their drop data is confirmed.
+--[[
+local Raszageth = Class('Raszageth', RareElite, {
     id = 209912,
     quest = 77859,
     fgroup = 'raszageth'
@@ -458,7 +462,7 @@ map.nodes[63593476] = Raszageth()
 map.nodes[65604320] = Raszageth() -- wowhead coords
 map.nodes[67606620] = Raszageth() -- wowhead coords
 
-local Amalgamation = Class('Amalgamation', Rare, {
+local Amalgamation = Class('Amalgamation', RareElite, {
     id = 209915,
     quest = 77856,
     fgroup = 'amalgamation'
@@ -476,18 +480,35 @@ map.nodes[58806700] = Amalgamation()
 map.nodes[59005860] = Amalgamation() -- wowhead coords
 map.nodes[62805200] = Amalgamation() -- wowhead coords
 map.nodes[63806380] = Amalgamation() -- wowhead coords
+]]
 
 ---------------------------------- WORLD BOSS ---------------------------------
 
-map.nodes[39465371] = Rare({
+-- Aurostor is a world boss: keep the map pin and also attach the rewards to
+-- the game's own world quest pin so the loot shows wherever it is hovered.
+local AUROSTOR_REWARDS = {
+    Transmog({item = 208440, slot = L['cloth']}), -- Aurostor's Sleeping Knickers
+    Transmog({item = 208441, slot = L['cloth']}), -- Restful Dozer's Shoes
+    Transmog({item = 208438, slot = L['leather']}), -- Grasps of Awakened Fury
+    Transmog({item = 208439, slot = L['leather']}), -- Rousing Earth Striders
+    Transmog({item = 208429, slot = L['mail']}), -- Mossen Rage Waistguard
+    Transmog({item = 208437, slot = L['mail']}), -- Crown of Freya's Chosen
+    Transmog({item = 208435, slot = L['plate']}), -- Forgotten Jalgar's Girdle
+    Transmog({item = 208436, slot = L['plate']}), -- Flame-Etched Breastplate
+    Transmog({item = 210433}), -- Visage of Aurostor
+    DG.Guardian.HibernatingRunebear, --
+    DC.FlourishingWhimsydrake.SunriseScales
+}
+
+map.nodes[39465371] = Boss({
     id = 209574,
     quest = 76367,
-    rewards = {
-        Transmog({item = 210433}), -- Visage of Aurostor
-        DG.Guardian.HibernatingRunebear, --
-        DC.FlourishingWhimsydrake.SunriseScales
-    }
+    rewards = AUROSTOR_REWARDS
 }) -- Aurostor
+
+ns.hooks.worldquest.Add(ns.groups.RARE, {
+    [76367] = {rewards = AUROSTOR_REWARDS, npcID = 209574}
+}) -- Hibernation Heroes
 
 ---------------------------------- ZONE DROPS ---------------------------------
 
@@ -1271,7 +1292,8 @@ map.nodes[70003000] = DruidGlyph({
         RareKill({id = 210070, nQuest = 78481, kQuest = 77940}), -- Mosa Umbramane
         RareKill({id = 210161, nQuest = 78511, kQuest = 77890}), -- Ristar, the Rabid
         RareKill({id = 209902, nQuest = 78524, kQuest = 77994}), -- Talthonei Ashwisper
-        RareKill({id = 210045, nQuest = 78517, kQuest = 78210}) -- Moragh the Slothful
+        RareKill({id = 210045, nQuest = 78517, kQuest = 78210}), -- Moragh the Slothful
+        RareKill({id = 209574, nQuest = 78528, kQuest = 76367}) -- Aurostor
     }
 }) -- Druid Glyph Checklsit
 
