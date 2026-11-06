@@ -11,6 +11,7 @@ local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Quest = ns.node.Quest
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Treasure = ns.node.Treasure
 
@@ -45,7 +46,7 @@ end
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[52894092] = Rare({
+map.nodes[52894092] = RareElite({
     id = 151934,
     quest = 55512,
     future = 2,
@@ -55,7 +56,7 @@ map.nodes[52894092] = Rare({
     }
 }) -- Arachnoid Harvester
 
-map.nodes[55622571] = Rare({
+map.nodes[55622571] = RareElite({
     id = 151308,
     quest = 55539,
     rewards = {
@@ -145,7 +146,7 @@ map.nodes[55075684] = Rare({
     }
 }) -- Enforcer KX-T57
 
-map.nodes[65515167] = Rare({
+map.nodes[65515167] = RareElite({
     id = 151202,
     quest = 55513,
     note = L['foul_manifest_note'],
@@ -212,7 +213,7 @@ map.nodes[44824637] = Rare({
     }
 }) -- Killsaw
 
-map.nodes[60654217] = Rare({
+map.nodes[60654217] = RareElite({
     id = 151933,
     quest = 55544,
     note = L['beastbot_note'],
@@ -226,7 +227,7 @@ map.nodes[60654217] = Rare({
     }
 }) -- Malfunctioning Beastbot (55926 56506)
 
-map.nodes[57165258] = Rare({
+map.nodes[57165258] = RareElite({
     id = 151124,
     quest = 55207,
     note = L['nullifier_note'],
@@ -270,7 +271,7 @@ map.nodes[56243595] = Rare({
     }
 }) -- Ol' Big Tusk
 
-map.nodes[57063944] = Rare({
+map.nodes[57063944] = RareElite({
     id = 151296,
     quest = 55515,
     note = L['avenger_note'],
@@ -406,7 +407,7 @@ map.nodes[57062218] = Rare({
     rewards = {Achievement({id = 13470, criteria = 45132})}
 }) -- Uncle T'Rogg
 
-map.nodes[53824933] = Rare({
+map.nodes[53824933] = RareElite({
     id = 150394,
     quest = 55546,
     future = 2,

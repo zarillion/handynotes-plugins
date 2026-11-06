@@ -11,7 +11,7 @@ local Map = ns.Map
 local Collectible = ns.node.Collectible
 local Node = ns.node.Node
 local NPC = ns.node.NPC
-local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 
 local Mount = ns.reward.Mount
 local Toy = ns.reward.Toy
@@ -334,7 +334,7 @@ stormwind.nodes[58905290] = Collectible({
     }
 })
 
-stormwind.nodes[59106390] = Rare({
+stormwind.nodes[59106390] = RareElite({
     id = 158284,
     group = ns.groups.VISIONS_MISC,
     note = L['craggle'],

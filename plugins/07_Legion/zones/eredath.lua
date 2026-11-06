@@ -7,7 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Treasure = ns.node.Treasure
-local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
@@ -28,13 +28,13 @@ local map = Map({id = 882, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[27203000] = Rare({
+map.nodes[27203000] = RareElite({
     id = 126869,
     quest = 48707,
     rewards = {Achievement({id = 12078, criteria = 37631})}
 }) -- Captain Faruq
 
-map.nodes[30104020] = Rare({
+map.nodes[30104020] = RareElite({
     id = 126887,
     quest = 48709,
     rewards = {
@@ -44,7 +44,7 @@ map.nodes[30104020] = Rare({
     }
 }) -- Ataxon
 
-map.nodes[33704780] = Rare({
+map.nodes[33704780] = RareElite({
     id = 126867,
     quest = 48705,
     rewards = {
@@ -53,19 +53,19 @@ map.nodes[33704780] = Rare({
     }
 }) -- Venomtail Skyfin
 
-map.nodes[35003710] = Rare({
+map.nodes[35003710] = RareElite({
     id = 126885,
     quest = 48708,
     rewards = {Achievement({id = 12078, criteria = 37630})}
 }) -- Umbraliss
 
-map.nodes[36005900] = Rare({
+map.nodes[36005900] = RareElite({
     id = 126896,
     quest = 48711,
     rewards = {Achievement({id = 12078, criteria = 37627})}
 }) -- Herald of Chaos
 
-map.nodes[36702390] = Rare({
+map.nodes[36702390] = RareElite({
     id = 126865,
     quest = 48703,
     rewards = {
@@ -74,7 +74,7 @@ map.nodes[36702390] = Rare({
     }
 }) -- Vigilant Thanos
 
-map.nodes[38705570] = Rare({
+map.nodes[38705570] = RareElite({
     id = 126860,
     quest = 48697,
     note = L['kaara_the_pale_note'],
@@ -82,7 +82,7 @@ map.nodes[38705570] = Rare({
     pois = {POI({38615559})}
 }) -- Kaara the Pale
 
-map.nodes[39106660] = Rare({
+map.nodes[39106660] = RareElite({
     id = 126868,
     quest = 48706,
     note = L['turek_the_lucid_note'],
@@ -93,13 +93,13 @@ map.nodes[39106660] = Rare({
     pois = {POI({39106665})}
 }) -- Turek the Lucid
 
-map.nodes[41101150] = Rare({
+map.nodes[41101150] = RareElite({
     id = 126864,
     quest = 48702,
     rewards = {Achievement({id = 12078, criteria = 37636})}
 }) -- Feasel the Muffin Thief
 
-map.nodes[43004810] = Rare({
+map.nodes[43004810] = RareElite({
     id = 126898,
     quest = 48712,
     note = L['drops_fel_spotted_egg'],
@@ -115,7 +115,7 @@ map.nodes[43004810] = Rare({
     }
 }) -- Sabuul
 
-map.nodes[43806040] = Rare({
+map.nodes[43806040] = RareElite({
     id = 126862,
     quest = 48700,
     rewards = {
@@ -123,7 +123,7 @@ map.nodes[43806040] = Rare({
     }
 }) -- Baruut the Bloodthirsty
 
-map.nodes[44507170] = Rare({
+map.nodes[44507170] = RareElite({
     id = 122838,
     quest = 48692,
     rewards = {
@@ -132,7 +132,7 @@ map.nodes[44507170] = Rare({
     }
 }) -- Shadowcaster Voruun
 
-map.nodes[48104060] = Rare({
+map.nodes[48104060] = RareElite({
     id = 126899,
     quest = 48713,
     rewards = {
@@ -141,7 +141,7 @@ map.nodes[48104060] = Rare({
     }
 }) -- Jed'hin Champion Vorusk
 
-map.nodes[48805200] = Rare({
+map.nodes[48805200] = RareElite({
     id = 126913,
     quest = 48935,
     rewards = {
@@ -149,7 +149,7 @@ map.nodes[48805200] = Rare({
     }
 }) -- Slithon the Last
 
-map.nodes[49800930] = Rare({
+map.nodes[49800930] = RareElite({
     id = 126912,
     quest = 48721,
     rewards = {
@@ -158,13 +158,13 @@ map.nodes[49800930] = Rare({
     }
 }) -- Skreeg the Devourer
 
-map.nodes[52906760] = Rare({
+map.nodes[52906760] = RareElite({
     id = 126815,
     quest = 48693,
     rewards = {Achievement({id = 12078, criteria = 37640})}
 }) -- Soultwisted Monstrosity
 
-map.nodes[63806460] = Rare({
+map.nodes[63806460] = RareElite({
     id = 126866,
     quest = 48704,
     rewards = {
@@ -173,7 +173,7 @@ map.nodes[63806460] = Rare({
     }
 }) -- Vigilant Kuro
 
-map.nodes[55506010] = Rare({
+map.nodes[55506010] = RareElite({
     id = 126852,
     quest = 48695,
     rewards = {
@@ -183,13 +183,13 @@ map.nodes[55506010] = Rare({
     }
 }) -- Wrangler Kravos
 
-map.nodes[56901460] = Rare({
+map.nodes[56901460] = RareElite({
     id = 126910,
     quest = 48720,
     rewards = {Achievement({id = 12078, criteria = 37619})}
 }) -- Commander Xethgar
 
-map.nodes[57002780] = Rare({
+map.nodes[57002780] = RareElite({
     id = 125497,
     quest = 48716,
     rewards = {
@@ -198,7 +198,7 @@ map.nodes[57002780] = Rare({
     }
 }) -- Overseer Y'Sorna
 
-map.nodes[58903760] = Rare({
+map.nodes[58903760] = RareElite({
     id = 124440,
     quest = 48714,
     rewards = {
@@ -207,7 +207,7 @@ map.nodes[58903760] = Rare({
     }
 }) -- Overseer Y'Beda
 
-map.nodes[61002980] = Rare({
+map.nodes[61002980] = RareElite({
     id = 125498,
     quest = 48717,
     rewards = {
@@ -216,7 +216,7 @@ map.nodes[61002980] = Rare({
     }
 }) -- Overseer Y'Morna
 
-map.nodes[61405040] = Rare({
+map.nodes[61405040] = RareElite({
     id = 126900,
     quest = 48718,
     rewards = {
@@ -227,14 +227,14 @@ map.nodes[61405040] = Rare({
     }
 }) -- Instructor Tarahna
 
-map.nodes[66812841] = Rare({
+map.nodes[66812841] = RareElite({
     id = 126908,
     quest = 48719,
     rewards = {Achievement({id = 12078, criteria = 37620})},
     pois = {POI({63912958})}
 }) -- Zul'tan the Numerous
 
-map.nodes[70204600] = Rare({
+map.nodes[70204600] = RareElite({
     id = 126889,
     quest = 48710,
     rewards = {

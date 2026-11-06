@@ -7,7 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Treasure = ns.node.Treasure
-local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 
 local Achievement = ns.reward.Achievement
 local Item = ns.reward.Item
@@ -27,13 +27,13 @@ local map = Map({id = 830, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[33307620] = Rare({
+map.nodes[33307620] = RareElite({
     id = 122912,
     quest = 48562,
     rewards = {Achievement({id = 12078, criteria = 37644})}
 }) -- Commander Sathrenael
 
-map.nodes[38305980] = Rare({
+map.nodes[38305980] = RareElite({
     id = 122911,
     quest = 48563,
     rewards = {
@@ -50,7 +50,7 @@ map.nodes[38305980] = Rare({
     }
 }) -- Commander Vecaya
 
-map.nodes[44000700] = Rare({
+map.nodes[44000700] = RareElite({
     id = 125824,
     quest = 48561,
     rewards = {
@@ -68,13 +68,13 @@ map.nodes[44000700] = Rare({
     pois = {POI({50201710})}
 }) -- Khazaduum
 
-map.nodes[42406990] = Rare({
+map.nodes[42406990] = RareElite({
     id = 125820,
     quest = 48666,
     rewards = {Achievement({id = 12078, criteria = 37650})}
 }) -- Imp Mother Laglath
 
-map.nodes[45305890] = Rare({
+map.nodes[45305890] = RareElite({
     id = 124775,
     quest = 48564,
     rewards = {
@@ -91,7 +91,7 @@ map.nodes[45305890] = Rare({
     }
 }) -- Commander Endaxis
 
-map.nodes[52803110] = Rare({
+map.nodes[52803110] = RareElite({
     id = 123464,
     quest = 48565,
     rewards = {
@@ -99,7 +99,7 @@ map.nodes[52803110] = Rare({
     }
 }) -- Sister Subversia
 
-map.nodes[54708120] = Rare({
+map.nodes[54708120] = RareElite({
     id = 123689,
     quest = 48628,
     rewards = {
@@ -116,13 +116,13 @@ map.nodes[54708120] = Rare({
     }
 }) -- Talestra the Vile
 
-map.nodes[58407610] = Rare({
+map.nodes[58407610] = RareElite({
     id = 120393,
     quest = 48627,
     rewards = {Achievement({id = 12078, criteria = 37659})}
 }) -- Siegemaster Voraan
 
-map.nodes[60901960] = Rare({
+map.nodes[60901960] = RareElite({
     id = 125388,
     quest = 48629,
     rewards = {
@@ -130,7 +130,7 @@ map.nodes[60901960] = Rare({
     }
 }) -- Vagath the Betrayed
 
-map.nodes[69405740] = Rare({
+map.nodes[69405740] = RareElite({
     id = 124804,
     quest = 48664,
     rewards = {
@@ -148,13 +148,13 @@ map.nodes[69405740] = Rare({
     pois = {POI({69305940})}
 }) -- Tereck the Selector
 
-map.nodes[70108140] = Rare({
+map.nodes[70108140] = RareElite({
     id = 125479,
     quest = 48665,
     rewards = {Achievement({id = 12078, criteria = 37651})}
 }) -- Tar Spitter
 
-map.nodes[70503370] = Rare({
+map.nodes[70503370] = RareElite({
     id = 126419,
     quest = 48667,
     note = L['drops_fel_spotted_egg'],

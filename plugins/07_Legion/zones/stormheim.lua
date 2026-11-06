@@ -7,6 +7,7 @@ local Map = ns.Map
 
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -239,7 +240,7 @@ map.nodes[54792939] = Rare({
     }
 }) -- Starbuck
 
-map.nodes[60572649] = Rare({
+map.nodes[60572649] = RareElite({
     id = 109994,
     note = L['stormtalon_note'],
     rewards = {

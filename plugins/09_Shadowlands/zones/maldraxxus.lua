@@ -9,6 +9,7 @@ local Map = ns.Map
 local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Soulshape = ns.node.Soulshape
 local Squirrel = ns.node.Squirrel
@@ -37,7 +38,7 @@ local vos = Map({id = 1652}) -- Vault of Souls
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[52663542] = Rare({
+map.nodes[52663542] = RareElite({
     id = 162727,
     quest = 58870,
     rewards = {
@@ -62,7 +63,7 @@ map.nodes[49012351] = Rare({
     }
 }) -- Collector Kash
 
-map.nodes[26392633] = Rare({
+map.nodes[26392633] = RareElite({
     id = 157058,
     quest = 58335,
     rewards = {
@@ -189,7 +190,7 @@ map.nodes[53841877] = Rare({
     }
 }) -- Ravenomous
 
-map.nodes[51744439] = Rare({
+map.nodes[51744439] = RareElite({
     id = 168147,
     quest = 58784,
     covenant = NECROLORD,
@@ -202,7 +203,7 @@ map.nodes[51744439] = Rare({
     }
 }) -- Sabriel the Bonecleaver
 
-map.nodes[62107580] = Rare({
+map.nodes[62107580] = RareElite({
     id = 158406,
     quest = 58006,
     rewards = {
@@ -213,7 +214,7 @@ map.nodes[62107580] = Rare({
     }
 }) -- Scunner
 
-map.nodes[55502361] = Rare({
+map.nodes[55502361] = RareElite({
     id = 159886,
     quest = 58003,
     note = L['chelicerae_note'],
@@ -269,7 +270,7 @@ map.nodes[24184297] = Rare({
     }
 }) -- Thread Mistress Leeda
 
-map.nodes[33718016] = Rare({
+map.nodes[33718016] = RareElite({
     id = 162819,
     quest = 58889,
     rewards = {
@@ -358,7 +359,7 @@ map.nodes[57007421] = Rare({
 
 ------------------------------- THEATER OF PAIN -------------------------------
 
-map.nodes[50354728] = Rare({
+map.nodes[50354728] = RareElite({
     id = 162853,
     quest = 62786,
     label = C_Map.GetMapInfo(1683).name,

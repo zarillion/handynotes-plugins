@@ -1,3 +1,8 @@
+# v168
+
+* Elite rares now use the rare elite icon and label.
+* Removed the ring from Chief Bitterbrine's loot.
+
 # v163
 
 * Fixed the Stormheim and Helheim portal nodes tainting the world map, which could block Blizzard's map pins with ADDON_ACTION_BLOCKED.

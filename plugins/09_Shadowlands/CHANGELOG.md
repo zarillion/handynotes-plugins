@@ -1,3 +1,7 @@
+# v168
+
+* Elite rares now use the rare elite icon and label.
+
 # v163
 
 * Fixed the Torghast map node tainting the world map, which could block Blizzard's map pins with ADDON_ACTION_BLOCKED.

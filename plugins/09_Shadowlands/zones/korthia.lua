@@ -9,6 +9,7 @@ local Map = ns.RiftMap
 local Collectible = ns.node.Collectible
 local NPC = ns.node.NPC
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -59,7 +60,7 @@ map.nodes[58211773] = Rare({
     }
 }) -- Carriage Crusher
 
-map.nodes[51164167] = Rare({
+map.nodes[51164167] = RareElite({
     id = 179768,
     quest = 64243,
     sublabel = L['sl_limited_rare'],
@@ -111,7 +112,7 @@ map.nodes[59934371] = Rare({
     }
 }) -- Fleshwing <Lord of the Heap>
 
-map.nodes[59203580] = Rare({
+map.nodes[59203580] = RareElite({
     id = 179108,
     quest = 64428,
     sublabel = L['sl_limited_rare'],
@@ -211,7 +212,7 @@ map.nodes[56873237] = Rare({
     }
 }) -- Wild Worldcracker
 
-map.nodes[44983552] = Rare({
+map.nodes[44983552] = RareElite({
     id = 179859,
     quest = 64278,
     requires = ns.requirement.Item(186718),
@@ -226,7 +227,7 @@ map.nodes[44983552] = Rare({
     }
 }) -- Xyraxz the Unknowable (Chamber of Wisdom)
 
-map.nodes[39405240] = Rare({
+map.nodes[39405240] = RareElite({
     id = 179802,
     quest = 64257,
     requires = ns.requirement.Item(186718),
@@ -260,7 +261,7 @@ map.nodes[27755885] = Rare({
 
 -------------------------------------------------------------------------------
 
-map.nodes[13007500] = Rare({
+map.nodes[13007500] = RareElite({
     id = 179472,
     quest = 64246, -- 64280?
     scale = 1.5,
@@ -276,7 +277,7 @@ map.nodes[13007500] = Rare({
     }
 }) -- Konthrogz the Obliterator
 
-map.nodes[16007500] = Rare({
+map.nodes[16007500] = RareElite({
     id = 179760,
     quest = 64245,
     scale = 1.5,
@@ -323,7 +324,7 @@ map.nodes[59335221] = Rare({
     }
 }) -- Deadsoul Hatcher
 
-map.nodes[50307590] = Rare({
+map.nodes[50307590] = RareElite({
     id = 179914,
     quest = 64440,
     rlabel = ns.status.LightBlue(L['plus_research']) ..

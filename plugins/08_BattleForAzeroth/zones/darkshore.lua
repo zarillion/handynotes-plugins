@@ -7,6 +7,7 @@ local Map = ns.WarfrontMap
 
 local Collectible = ns.node.Collectible
 local Rare = ns.Class('WFRare', ns.node.Rare, {questAny = true})
+local RareElite = ns.Class('WFRareElite', ns.node.RareElite, {questAny = true})
 
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
@@ -29,17 +30,17 @@ end
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[56533078] = Rare({
+map.nodes[56533078] = RareElite({
     id = 148787,
     quest = {54695, 54696},
     rewards = {Mount({item = 166432, id = 1200})}
 }) -- Alash'anir
 
-map.nodes[37688489] = Rare({id = 147966, quest = {54405, 54406}}) -- Aman
+map.nodes[37688489] = RareElite({id = 147966, quest = {54405, 54406}}) -- Aman
 
 map.nodes[57381568] = Rare({id = 147744, quest = {54285, 54286}}) -- Amberclaw
 
-map.nodes[58472424] = Rare({
+map.nodes[58472424] = RareElite({
     id = 147708,
     quest = {54278, 54279},
     rewards = {Toy({item = 166784})}
@@ -51,13 +52,13 @@ map.nodes[38037584] = Rare({
     rewards = {Toy({item = 166787})}
 }) -- Commander Ral'esh
 
-map.nodes[39326213] = Rare({
+map.nodes[39326213] = RareElite({
     id = 147260,
     quest = {54232, 54233},
     rewards = {Pet({item = 166451, id = 2546})}
 }) -- Conflagros
 
-map.nodes[43765348] = Rare({
+map.nodes[43765348] = RareElite({
     id = 147241,
     quest = {54229, 54230},
     rewards = {Pet({item = 166448, id = 2545})}
@@ -65,7 +66,7 @@ map.nodes[43765348] = Rare({
 
 map.nodes[43531963] = Rare({id = 149654, quest = {54884, 54885}}) -- Glimmerspine
 
-map.nodes[48255561] = Rare({id = 147261, quest = {54234, 54235}}) -- Granokk
+map.nodes[48255561] = RareElite({id = 147261, quest = {54234, 54235}}) -- Granokk
 
 map.nodes[40925645] = Rare({
     id = 148031,
@@ -73,7 +74,7 @@ map.nodes[40925645] = Rare({
     rewards = {Toy({item = 166785})}
 }) -- Gren Tornfur
 
-map.nodes[52423217] = Rare({
+map.nodes[52423217] = RareElite({
     id = 147240,
     quest = {54227, 54228},
     rewards = {Pet({item = 166452, id = 2547})}
@@ -85,9 +86,9 @@ map.nodes[35898173] = Rare({id = 147970, quest = {54408, 54409}}) -- Mrggr'marr
 
 map.nodes[47274411] = Rare({id = 149665, quest = {54893, 54894}}) -- Scalefiend
 
-map.nodes[43502943] = Rare({id = 147751, quest = {54289, 54290}}) -- Shattershard
+map.nodes[43502943] = RareElite({id = 147751, quest = {54289, 54290}}) -- Shattershard
 
-map.nodes[40548527] = Rare({
+map.nodes[40548527] = RareElite({
     id = 147897,
     quest = {54320, 54321},
     rewards = {Pet({item = 166454, id = 2549})}
@@ -112,7 +113,7 @@ map.nodes[41607640] = Rare({
     }
 }) -- Athil Dewfire
 
-map.nodes[49682495] = Rare({
+map.nodes[49682495] = RareElite({
     id = 149651,
     quest = 54890,
     faction = 'Horde',
@@ -120,7 +121,7 @@ map.nodes[49682495] = Rare({
     rewards = {Mount({item = 166428, id = 1199})}
 }) -- Blackpaw
 
-map.nodes[50703231] = Rare({
+map.nodes[50703231] = RareElite({
     id = 149656,
     quest = 54891,
     faction = 'Horde',
@@ -128,7 +129,7 @@ map.nodes[50703231] = Rare({
     rewards = {Pet({item = 166528, id = 2563})}
 }) -- Grimhorn
 
-map.nodes[45187494] = Rare({
+map.nodes[45187494] = RareElite({
     id = 147758,
     quest = 54291,
     faction = 'Horde',
@@ -142,7 +143,7 @@ map.nodes[32768407] = Rare({
     rewards = {Toy({item = 166788})}
 }) -- Sapper Odette
 
-map.nodes[39763269] = Rare({
+map.nodes[39763269] = RareElite({
     id = 149658,
     quest = 54892,
     faction = 'Horde',
@@ -204,7 +205,7 @@ map.nodes[39663344] = Rare({
     rewards = {Pet({item = 166528, id = 2563})}
 }) -- Orwell Stevenson
 
-map.nodes[62390986] = Rare({
+map.nodes[62390986] = RareElite({
     id = 147664,
     quest = 54274,
     faction = 'Alliance',

@@ -6,6 +6,8 @@ local L = ns.locale
 local Map = ns.WarfrontMap
 
 local Rare = ns.Class('WFRare', ns.node.Rare, {questAny = true})
+local RareElite = ns.Class('WFRareElite', ns.node.RareElite, {questAny = true})
+local Boss = ns.Class('WFBoss', ns.node.Boss, {questAny = true})
 
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
@@ -35,7 +37,7 @@ map.nodes[65347116] = Rare({
     rewards = {Mount({item = 163644, id = 1180})}
 }) -- Beastrider Kama
 
-map.nodes[21752217] = Rare({
+map.nodes[21752217] = RareElite({
     id = 142508,
     quest = {53013, 53505},
     rewards = {Pet({item = 163650, id = 2433})}
@@ -65,7 +67,7 @@ map.nodes[22305106] = Rare({
     }
 }) -- Foulbelly
 
-map.nodes[59812809] = Rare({
+map.nodes[59812809] = RareElite({
     id = 142433,
     quest = {53019, 53510},
     rewards = {Pet({item = 163711, id = 2440})}
@@ -122,7 +124,7 @@ map.nodes[52197487] = Rare({
     pois = {Path({52297686, 51807585, 52197487, 51957382, 52187259})}
 }) -- Man-Hunter Rog
 
-map.nodes[47657800] = Rare({
+map.nodes[47657800] = RareElite({
     id = 141942,
     quest = {53057, 53516},
     rewards = {Toy({item = 163775})}
@@ -134,7 +136,7 @@ map.nodes[67486058] = Rare({
     rewards = {Mount({item = 163706, id = 1185})}
 }) -- Nimar the Slayer
 
-map.nodes[32923847] = Rare({
+map.nodes[32923847] = RareElite({
     id = 142423,
     quest = {53014, 53518},
     controllingFaction = 'Alliance',
@@ -144,7 +146,7 @@ map.nodes[32923847] = Rare({
     }
 }) -- Overseer Krix
 
-map.nodes[27255710] = Rare({
+map.nodes[27255710] = RareElite({
     id = 142423,
     quest = {53014, 53518},
     controllingFaction = 'Horde',
@@ -154,20 +156,20 @@ map.nodes[27255710] = Rare({
     }
 }) -- Overseer Krix
 
-map.nodes[35606435] = Rare({
+map.nodes[35606435] = RareElite({
     id = 142435,
     quest = {53020, 53519},
     rewards = {Pet({item = 163690, id = 2438})}
 }) -- Plaguefeather
 
-map.nodes[18412794] = Rare({
+map.nodes[18412794] = RareElite({
     id = 142436,
     quest = {53016, 53522},
     controllingFaction = 'Alliance',
     rewards = {Pet({item = 163689, id = 2437})}
 }) -- Ragebeak
 
-map.nodes[11905220] = Rare({
+map.nodes[11905220] = RareElite({
     id = 142436,
     quest = {53016, 53522},
     controllingFaction = 'Horde',
@@ -194,19 +196,19 @@ map.nodes[50705748] = Rare({
     rewards = {Toy({item = 163738})}
 }) -- Singer
 
-map.nodes[57154575] = Rare({
+map.nodes[57154575] = RareElite({
     id = 142437,
     quest = {53022, 53526},
     rewards = {Mount({item = 163645, id = 1183})}
 }) -- Skullripper
 
-map.nodes[56945330] = Rare({
+map.nodes[56945330] = RareElite({
     id = 142438,
     quest = {53024, 53528},
     rewards = {Pet({item = 163648, id = 2432})}
 }) -- Venomarus
 
-map.nodes[13273534] = Rare({
+map.nodes[13273534] = RareElite({
     id = 142440,
     quest = {53015, 53529},
     rewards = {Pet({item = 163684, id = 2436})}
@@ -232,7 +234,7 @@ map.nodes[48913996] = Rare({
     rewards = {Mount({item = 163578, id = 1173})}
 }) -- Knight-Captain Aldrin
 
-map.nodes[39093921] = Rare({
+map.nodes[39093921] = Boss({
     id = 137374,
     quest = 53001,
     faction = 'Horde',
@@ -240,7 +242,7 @@ map.nodes[39093921] = Rare({
     rewards = {Toy({item = 163829})}
 }) -- The Lion's Roar
 
-map.nodes[37093921] = Rare({
+map.nodes[37093921] = Boss({
     id = 138122,
     quest = 53002,
     faction = 'Alliance',
@@ -258,7 +260,7 @@ map.nodes[53565764] = Rare({
 
 ------------------------------- ECHO OF MYZRAEL -------------------------------
 
-map.nodes[30604475] = Rare({
+map.nodes[30604475] = RareElite({
     id = 141615,
     quest = {53017, 53506},
     note = L['burning_goliath_note'],
@@ -267,7 +269,7 @@ map.nodes[30604475] = Rare({
     }
 }) -- Burning Goliath
 
-map.nodes[62513084] = Rare({
+map.nodes[62513084] = RareElite({
     id = 141618,
     quest = {53018, 53531},
     note = L['cresting_goliath_note'],
@@ -276,7 +278,7 @@ map.nodes[62513084] = Rare({
     }
 }) -- Cresting Goliath
 
-map.nodes[29405834] = Rare({
+map.nodes[29405834] = RareElite({
     id = 141620,
     quest = {53021, 53523},
     note = L['rumbling_goliath_note'],
@@ -285,7 +287,7 @@ map.nodes[29405834] = Rare({
     }
 }) -- Rumbling Goliath
 
-map.nodes[46245222] = Rare({
+map.nodes[46245222] = RareElite({
     id = 141616,
     quest = {53023, 53527},
     note = L['thundering_goliath_note'],
@@ -294,7 +296,7 @@ map.nodes[46245222] = Rare({
     }
 }) -- Thundering Goliath
 
-map.nodes[57073472] = Rare({
+map.nodes[57073472] = RareElite({
     id = 141668,
     quest = {53059, 53508},
     note = L['echo_of_myzrael_note'],

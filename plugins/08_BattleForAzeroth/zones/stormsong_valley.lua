@@ -10,6 +10,7 @@ local Collectible = ns.node.Collectible
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Supply = ns.node.Supply
 local Treasure = ns.node.Treasure
@@ -141,7 +142,7 @@ map.nodes[35207780] = Rare({
     }
 }) -- Haegol the Hammer
 
-map.nodes[60651775] = Rare({
+map.nodes[60651775] = RareElite({
     id = 154154,
     quest = 57674, -- 57726
     rewards = {

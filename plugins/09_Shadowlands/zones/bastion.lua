@@ -10,6 +10,7 @@ local Collectible = ns.node.Collectible
 local Node = ns.node.Node
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Soulshape = ns.node.Soulshape
 local Squirrel = ns.node.Squirrel
@@ -265,7 +266,7 @@ map.nodes[42908265] = Rare({
     }
 }) -- Herculon
 
-map.nodes[51456859] = Rare({
+map.nodes[51456859] = RareElite({
     id = 160882,
     quest = 58319,
     note = L['repair_note'],
@@ -275,14 +276,14 @@ map.nodes[51456859] = Rare({
     }
 }) -- Nikara Blackheart
 
-map.nodes[30365517] = Rare({
+map.nodes[30365517] = RareElite({
     id = 171327,
     quest = 61108,
     note = L['reekmonger_note'],
     rewards = {Achievement({id = 14307, criteria = 50616})}
 }) -- Reekmonger
 
-map.nodes[61295090] = Rare({
+map.nodes[61295090] = RareElite({
     id = 160985,
     quest = 58320,
     note = L['repair_note'],
@@ -292,7 +293,7 @@ map.nodes[61295090] = Rare({
     }
 }) -- Selena the Reborn
 
-map.nodes[22432285] = Rare({
+map.nodes[22432285] = RareElite({
     id = 156339,
     label = GetAchievementCriteriaInfoByID(14307, 50618) or UNKNOWN,
     quest = 61634,
@@ -306,7 +307,7 @@ map.nodes[22432285] = Rare({
     }
 }) -- Orstus and Sotiros
 
-map.nodes[61409050] = Rare({
+map.nodes[61409050] = RareElite({
     id = 170548,
     quest = 60862,
     note = L['sundancer_note'],

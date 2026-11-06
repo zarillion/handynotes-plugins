@@ -9,6 +9,7 @@ local Map = ns.Map
 local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Supply = ns.node.Supply
 local Treasure = ns.node.Treasure
@@ -250,7 +251,7 @@ map.nodes[22934948] = Rare({
     }
 }) -- Hyo'gi
 
-map.nodes[64928327] = Rare({
+map.nodes[64928327] = RareElite({
     id = 131735,
     quest = 52061,
     note = L['idej_note'],

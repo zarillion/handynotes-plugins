@@ -7,6 +7,7 @@ local Map = ns.Map
 
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -53,7 +54,7 @@ map.nodes[54866415] = Rare({
     }
 }) -- Ambassador D'vwinn
 
-map.nodes[54425612] = Rare({
+map.nodes[54425612] = RareElite({
     id = 111651,
     quest = 43792,
     rewards = {
@@ -114,7 +115,7 @@ map.nodes[68185861] = Rare({
     pois = {POI({69945701})}
 }) -- Cora'kar
 
-map.nodes[22165179] = Rare({
+map.nodes[22165179] = RareElite({
     id = 99792,
     quest = 41319,
     rewards = {
@@ -209,7 +210,7 @@ map.nodes[36183384] = Rare({
     }
 }) -- Matron Hagatha
 
-map.nodes[62496367] = Rare({
+map.nodes[62496367] = RareElite({
     id = 111653,
     quest = 43793,
     rewards = {

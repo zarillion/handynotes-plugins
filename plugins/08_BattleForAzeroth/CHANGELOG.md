@@ -1,3 +1,8 @@
+# v168
+
+* Elite rares now use the rare elite icon and label.
+* The Lion's Roar and Doom's Howl now use the boss icon and label.
+
 # v148
 
 * Bump toc to 120100

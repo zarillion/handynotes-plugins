@@ -9,6 +9,7 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Soulshape = ns.node.Soulshape
 local Treasure = ns.node.Treasure
 
@@ -42,7 +43,7 @@ local ephe = Map({id = 2061, secret = true}) -- Ephemeral Plains
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[64743369] = Rare({
+map.nodes[64743369] = RareElite({
     id = 179006,
     quest = 65552,
     vignette = 4747,
@@ -56,7 +57,7 @@ map.nodes[64743369] = Rare({
     }
 }) -- Akkaris
 
-map.nodes[49566751] = Rare({
+map.nodes[49566751] = RareElite({
     id = 183596,
     quest = 65553,
     vignette = 4948,
@@ -70,7 +71,7 @@ map.nodes[49566751] = Rare({
     }
 }) -- Chitali the Eldest
 
-map.nodes[47486228] = Rare({
+map.nodes[47486228] = RareElite({
     id = 183953,
     quest = 65273,
     vignette = 4989,
@@ -99,7 +100,7 @@ map.nodes[53634435] = Rare({
     }
 }) -- Destabilized Core
 
-map.nodes[47474516] = Rare({
+map.nodes[47474516] = RareElite({
     id = 184409,
     quest = 65555,
     vignette = 4961,
@@ -151,7 +152,7 @@ map.nodes[64585865] = Rare({
     }
 }) -- Furidian
 
-map.nodes[69073662] = Rare({
+map.nodes[69073662] = RareElite({
     id = 180924,
     quest = 64719,
     vignette = 4982,
@@ -172,7 +173,7 @@ map.nodes[69073662] = Rare({
     }
 }) -- Garudeon
 
-map.nodes[59862111] = Rare({
+map.nodes[59862111] = RareElite({
     id = 182318,
     quest = 65583,
     vignette = 4909,
@@ -202,7 +203,7 @@ map.nodes[53089305] = Rare({
     pois = {POI({53219302, 54019118, 52019377, 52389280, 53469081})} -- Bulging Root
 }) -- Gluttonous Overgrowth
 
-map.nodes[80384706] = Rare({
+map.nodes[80384706] = RareElite({
     id = 178963,
     quest = 63988,
     vignette = 4746,
@@ -217,7 +218,7 @@ map.nodes[80384706] = Rare({
     pois = {Path({80324594, 80384706, 80844886}), POI({76004540, 75605960})}
 }) -- Gorkek
 
-map.nodes[52612503] = Rare({
+map.nodes[52612503] = RareElite({
     id = 178563,
     quest = 65581,
     vignette = 4738,
@@ -249,7 +250,7 @@ map.nodes[58186837] = Rare({
 
 -- Craft/loot Aurelid Lure quest=65039
 -- Extra quest for person with lura when Hirukon dies? quest=65785
-map.nodes[52287541] = Rare({
+map.nodes[52287541] = RareElite({
     id = 180978,
     quest = 65548,
     vignette = 4984,
@@ -265,7 +266,7 @@ map.nodes[52287541] = Rare({
     }
 }) -- Hirukon
 
-map.nodes[58654039] = Rare({
+map.nodes[58654039] = RareElite({
     id = 183814,
     quest = 65257,
     vignette = 4941,
@@ -280,7 +281,7 @@ map.nodes[58654039] = Rare({
     pois = {POI({58723789})} -- Cave entrance
 }) -- Otaris the Provoked
 
-map.nodes[54083493] = Rare({
+map.nodes[54083493] = RareElite({
     id = 178508,
     quest = 65547,
     vignette = 4739,
@@ -329,7 +330,7 @@ map.nodes[43308762] = Rare({
     }
 }) -- Otiosen
 
-map.nodes[38872762] = Rare({
+map.nodes[38872762] = RareElite({
     id = 180746,
     quest = 64668,
     vignette = 4988,
@@ -371,7 +372,7 @@ map.nodes[42302099] = Rare({
     }
 }) -- Shifting Stargorger
 
-map.nodes[35877121] = Rare({
+map.nodes[35877121] = RareElite({
     id = 183722,
     quest = 65240,
     vignette = 4937,
@@ -386,7 +387,7 @@ map.nodes[35877121] = Rare({
     }
 }) -- Sorranos
 
-map.nodes[49783914] = Rare({
+map.nodes[49783914] = RareElite({
     id = 183925,
     quest = 65272,
     vignette = 4943,
@@ -401,7 +402,7 @@ map.nodes[49783914] = Rare({
     }
 }) -- Tahkwitz
 
-map.nodes[54507344] = Rare({
+map.nodes[54507344] = RareElite({
     id = 181249,
     quest = 65550,
     vignette = 4903,
@@ -431,7 +432,7 @@ map.nodes[43947530] = Rare({
     }
 }) -- The Engulfer
 
-map.nodes[39555737] = Rare({
+map.nodes[39555737] = RareElite({
     id = 181360,
     quest = 65239,
     vignette = 4936,
@@ -446,7 +447,7 @@ map.nodes[39555737] = Rare({
     }
 }) -- Vexis
 
-map.nodes[47044698] = Rare({
+map.nodes[47044698] = RareElite({
     id = 183747,
     quest = 65584,
     vignette = 4967,
@@ -460,7 +461,7 @@ map.nodes[47044698] = Rare({
     }
 }) -- Vitiane
 
-map.nodes[64054975] = Rare({
+map.nodes[64054975] = RareElite({
     id = 183737,
     quest = 65241,
     vignette = 4938,
@@ -477,7 +478,7 @@ map.nodes[64054975] = Rare({
     }
 }) -- Xy'rath the Covetous
 
-map.nodes[43513294] = Rare({
+map.nodes[43513294] = RareElite({
     id = 183764,
     quest = 65251,
     vignette = 4990,
@@ -499,7 +500,7 @@ local ISKA = '{npc:182114}'
 local DAMARIS = '{npc:182155}'
 local MARZAN = '{npc:182158}'
 
-map.nodes[63202603] = Rare({
+map.nodes[63202603] = RareElite({
     id = 182114,
     label = '{achievement:15392}',
     quest = {65585, 65586, 65587},

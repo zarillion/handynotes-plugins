@@ -10,6 +10,7 @@ local Clone = ns.Clone
 local Coffer = ns.node.Coffer
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local TimedEvent = ns.node.TimedEvent
 local Treasure = ns.node.Treasure
 
@@ -96,14 +97,14 @@ map.nodes[20007460] = Rare({
     rewards = MANTID_WEAPONS
 }) -- Amber-Shaper Esh'ri
 
-map.nodes[06487204] = Rare({
+map.nodes[06487204] = RareElite({
     id = 160878,
     quest = 58307,
     assault = MAN,
     rewards = MANTID_WEAPONS
 }) -- Buh'gzaki the Blasphemous
 
-map.nodes[06406433] = Rare({
+map.nodes[06406433] = RareElite({
     id = 160893,
     quest = 58308,
     assault = MAN,
@@ -115,7 +116,7 @@ map.nodes[06406433] = Rare({
     }
 }) -- Captain Vor'lek
 
-map.nodes[26506657] = Rare({
+map.nodes[26506657] = RareElite({
     id = 160872,
     quest = 58304,
     assault = MAN,
@@ -164,14 +165,14 @@ map.nodes[19976576] = Rare({
     rewards = MANTID_WEAPONS
 }) -- Infused Amber Ooze
 
-map.nodes[17850918] = Rare({
+map.nodes[17850918] = RareElite({
     id = 160920,
     quest = 58310,
     assault = MAN,
     rewards = MANTID_WEAPONS
 }) -- Kal'tik the Blight
 
-map.nodes[25673816] = Rare({
+map.nodes[25673816] = RareElite({
     id = 160867,
     quest = 58302,
     assault = MAN,
@@ -185,7 +186,7 @@ map.nodes[14813374] = Rare({
     rewards = MANTID_WEAPONS
 }) -- Needler Zhesalla
 
-map.nodes[25074411] = Rare({
+map.nodes[25074411] = RareElite({
     id = 160906,
     quest = 58309,
     assault = MAN,
@@ -224,7 +225,7 @@ map.nodes[18806841] = Rare({
     }
 }) -- Coagulated Anima
 
-map.nodes[41505721] = Rare({
+map.nodes[41505721] = RareElite({
     id = 157287,
     quest = 57349,
     assault = MOG,
@@ -232,7 +233,7 @@ map.nodes[41505721] = Rare({
     pois = {Path({41745982, 40446144, 38995953, 39805740, 41505721, 45405297})}
 }) -- Dokani Obliterator
 
-map.nodes[29513800] = Rare({
+map.nodes[29513800] = RareElite({
     id = 157153,
     quest = 57344,
     assault = MOG,
@@ -259,7 +260,7 @@ map.nodes[12183091] = Rare({
     pois = {Path({13132578, 11833049, 08953570})}
 }) -- Houndlord Ren
 
-map.nodes[17201162] = Rare({
+map.nodes[17201162] = RareElite({
     id = 160968,
     quest = 58295,
     assault = MOG,
@@ -267,7 +268,7 @@ map.nodes[17201162] = Rare({
     note = L['guolai_left']
 }) -- Jade Colossus
 
-map.nodes[26691061] = Rare({
+map.nodes[26691061] = RareElite({
     id = 157290,
     quest = 57350,
     assault = MOG,
@@ -275,7 +276,7 @@ map.nodes[26691061] = Rare({
     note = L['in_small_cave']
 }) -- Jade Watcher
 
-map.nodes[21901232] = Rare({
+map.nodes[21901232] = RareElite({
     id = 157162,
     quest = 57346,
     assault = MOG,
@@ -302,7 +303,7 @@ map.nodes[17873752] = Rare({
     rewards = MoguWeapons()
 }) -- Spymaster Hul'ach
 
-map.nodes[26057505] = Rare({
+map.nodes[26057505] = RareElite({
     id = 157279,
     quest = 57348,
     assault = MOG,
@@ -310,7 +311,7 @@ map.nodes[26057505] = Rare({
     pois = {Path({23467717, 25247587, 26837367, 27117143})}
 }) -- Stormhowl
 
-map.nodes[29132207] = Rare({
+map.nodes[29132207] = RareElite({
     id = 155958,
     quest = 58507,
     assault = MOG,
@@ -346,7 +347,7 @@ map.nodes[57084098] = Rare({id = 154447, quest = 56237, assault = EMP}) -- Broth
 
 map.nodes[81226450] = Rare({id = 154467, quest = 56255, assault = EMP}) -- Chief Mek-mek
 
-map.nodes[66556794] = Rare({
+map.nodes[66556794] = RareElite({
     id = 154559,
     quest = 56323,
     assault = EMP,
@@ -388,14 +389,14 @@ map.nodes[52024173] = Rare({
 
 map.nodes[86664165] = Rare({id = 154394, quest = 56213, assault = EMP}) -- Veskan the Fallen
 
-map.nodes[66732812] = Rare({
+map.nodes[66732812] = RareElite({
     id = 154332,
     quest = 56183,
     assault = EMP,
     note = L['pools_of_power']
 }) -- Voidtender Malketh
 
-map.nodes[52956225] = Rare({
+map.nodes[52956225] = RareElite({
     id = 154495,
     quest = 56303,
     assault = EMP,
@@ -407,7 +408,7 @@ map.nodes[52956225] = Rare({
     }
 }) -- Will of N'Zoth
 
-map.nodes[70954053] = Rare({id = 154087, quest = 56084, assault = EMP}) -- Zror'um the Infinite
+map.nodes[70954053] = RareElite({id = 154087, quest = 56084, assault = EMP}) -- Zror'um the Infinite
 
 -------------------------------------------------------------------------------
 ---------------------------------- TREASURES ----------------------------------

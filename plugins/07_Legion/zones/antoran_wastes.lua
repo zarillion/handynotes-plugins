@@ -7,7 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Collectible = ns.node.Collectible
-local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -29,7 +29,7 @@ local map = Map({id = 885, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[50905540] = Rare({
+map.nodes[50905540] = RareElite({
     id = 127118,
     quest = 48820,
     rewards = {
@@ -46,13 +46,13 @@ map.nodes[50905540] = Rare({
     }
 }) -- Worldsplitter Skuul
 
-map.nodes[53002930] = Rare({
+map.nodes[53002930] = RareElite({
     id = 127291,
     quest = 48822,
     rewards = {Achievement({id = 12078, criteria = 37613})}
 }) -- Watcher Aival
 
-map.nodes[53003600] = Rare({
+map.nodes[53003600] = RareElite({
     id = 126199,
     quest = 48810,
     rewards = {
@@ -61,7 +61,7 @@ map.nodes[53003600] = Rare({
     }
 }) -- Vrax'thul
 
-map.nodes[55302160] = Rare({
+map.nodes[55302160] = RareElite({
     id = 127300,
     quest = 48824,
     rewards = {
@@ -78,13 +78,13 @@ map.nodes[55302160] = Rare({
     }
 }) -- Void Warden Valsuran
 
-map.nodes[55804610] = Rare({
+map.nodes[55804610] = RareElite({
     id = 122999,
     quest = 49241,
     rewards = {Achievement({id = 12078, criteria = 37656})}
 }) -- Gar'zoth
 
-map.nodes[57403350] = Rare({
+map.nodes[57403350] = RareElite({
     id = 122947,
     quest = 49240,
     rewards = {
@@ -101,7 +101,7 @@ map.nodes[57403350] = Rare({
     }
 }) -- Mistress Il'thendra
 
-map.nodes[58501180] = Rare({
+map.nodes[58501180] = RareElite({
     id = 127703,
     quest = 48968,
     note = L['doomcaster_suprax_note'],
@@ -110,7 +110,7 @@ map.nodes[58501180] = Rare({
     }
 }) -- Doomcaster Suprax
 
-map.nodes[60704800] = Rare({
+map.nodes[60704800] = RareElite({
     id = 126946,
     quest = 48815,
     rewards = {
@@ -118,13 +118,13 @@ map.nodes[60704800] = Rare({
     }
 }) -- Inquisitor Vethroz
 
-map.nodes[61302130] = Rare({
+map.nodes[61302130] = RareElite({
     id = 127376,
     quest = 48865,
     rewards = {Achievement({id = 12078, criteria = 37606})}
 }) -- Chief Alchemist Munculus
 
-map.nodes[61306520] = Rare({
+map.nodes[61306520] = RareElite({
     id = 126338,
     quest = 48814,
     rewards = {
@@ -132,7 +132,7 @@ map.nodes[61306520] = Rare({
     }
 }) -- Wrath-Lord Yarez
 
-map.nodes[61803690] = Rare({
+map.nodes[61803690] = RareElite({
     id = 122958,
     quest = 49183,
     rewards = {
@@ -141,13 +141,13 @@ map.nodes[61803690] = Rare({
     }
 }) -- Blistermaw
 
-map.nodes[62205350] = Rare({
+map.nodes[62205350] = RareElite({
     id = 126254,
     quest = 48813,
     rewards = {Achievement({id = 12078, criteria = 37612})}
 }) -- Lieutenant Xakaar
 
-map.nodes[63952175] = Rare({
+map.nodes[63952175] = RareElite({
     id = 127288,
     quest = 48821,
     rewards = {
@@ -157,7 +157,7 @@ map.nodes[63952175] = Rare({
     pois = {POI({62902500})}
 }) -- Houndmaster Kerrax
 
-map.nodes[64102090] = Rare({
+map.nodes[64102090] = RareElite({
     id = 126040,
     quest = 48809,
     rewards = {
@@ -167,7 +167,7 @@ map.nodes[64102090] = Rare({
     pois = {POI({65602640})}
 }) -- Puscilla
 
-map.nodes[64935150] = Rare({
+map.nodes[64935150] = RareElite({
     id = 126208,
     quest = 48812,
     note = L['drops_fel_spotted_egg'],
@@ -184,7 +184,7 @@ map.nodes[64935150] = Rare({
     pois = {POI({64244811})}
 }) -- Varga
 
-map.nodes[65005300] = Rare({
+map.nodes[65005300] = RareElite({
     id = 126115,
     quest = 48811,
     note = L['ven_orn_note'],
@@ -192,7 +192,7 @@ map.nodes[65005300] = Rare({
     pois = {POI({65005600})}
 }) -- Ven'orn
 
-map.nodes[65008240] = Rare({
+map.nodes[65008240] = RareElite({
     id = 127706,
     quest = 48971,
     note = L['reziera_the_seer_note'],
@@ -202,7 +202,7 @@ map.nodes[65008240] = Rare({
     pois = {POI({59494489}), Path({59494489, 65008240})}
 }) -- Reziera the Seer
 
-map.nodes[66701800] = Rare({
+map.nodes[66701800] = RareElite({
     id = 127705,
     quest = 48970,
     note = L['mother_rosula_note'],
@@ -213,7 +213,7 @@ map.nodes[66701800] = Rare({
     pois = {POI({65602640})}
 }) -- Mother Rosula
 
-map.nodes[73607200] = Rare({
+map.nodes[73607200] = RareElite({
     id = 127090,
     quest = 48817,
     rewards = {
@@ -230,13 +230,13 @@ map.nodes[73607200] = Rare({
     }
 }) -- Admiral Rel'var
 
-map.nodes[76405590] = Rare({
+map.nodes[76405590] = RareElite({
     id = 127096,
     quest = 48818,
     rewards = {Achievement({id = 12078, criteria = 37609})}
 }) -- All-Seer Xanarian
 
-map.nodes[84358112] = Rare({
+map.nodes[84358112] = RareElite({
     id = 127700,
     quest = 48967,
     requires = ns.requirement.Quest(49007), -- Commander On Deck!
@@ -249,7 +249,7 @@ map.nodes[84358112] = Rare({
     }
 }) -- Squadron Commander Vishax
 
-map.nodes[82676554] = Rare({
+map.nodes[82676554] = RareElite({
     id = 127084,
     quest = 48816,
     note = L['commander_texlaz_note'],
@@ -263,7 +263,7 @@ map.nodes[82676554] = Rare({
 --------------------------- THE MANY-FACED DEVOURER ---------------------------
 -------------------------------------------------------------------------------
 
-local TheManyFacedDevourer = Class('TheManyFacedDevourer', Rare, {
+local TheManyFacedDevourer = Class('TheManyFacedDevourer', RareElite, {
     id = 127581,
     quest = 48966,
     requiredItems = {152786, 152991, 152992, 152993},

@@ -9,6 +9,7 @@ local Map = ns.Map
 local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -125,10 +126,7 @@ map.nodes[65645690] = Rare({
     id = 106990,
     quest = 42221,
     note = L['chief_bitterbrine_note'],
-    rewards = {
-        Achievement({id = 11261, criteria = 33269}),
-        Item({item = 129073, note = L['ring']}) -- Bitterbrine's Signet Ring
-    }
+    rewards = {Achievement({id = 11261, criteria = 33269})}
 }) -- Chief Bitterbrine
 
 Map({id = 633}).nodes[62783072] = Rare({ -- remove??
@@ -177,7 +175,7 @@ map.nodes[43532458] = Rare({
     }
 }) -- Felwing
 
-map.nodes[45205783] = Rare({
+map.nodes[45205783] = RareElite({
     id = 89884,
     quest = 37824,
     rewards = {

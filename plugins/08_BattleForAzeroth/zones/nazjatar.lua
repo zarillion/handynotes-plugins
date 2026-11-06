@@ -11,6 +11,7 @@ local Node = ns.node.Node
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Supply = ns.node.Supply
 local Treasure = ns.node.Treasure
@@ -119,7 +120,7 @@ map.nodes[65603880] = Rare({
     pois = {POI({65603880, 66204060, 67803700, 69604060, 71003460})}
 }) -- Allseer Oma'kill
 
-map.nodes[58605329] = Rare({
+map.nodes[58605329] = RareElite({
     id = 152566,
     quest = 56281,
     note = L['anemonar_note'],
@@ -172,7 +173,7 @@ map.nodes[54664179] = Rare({
     }
 }) -- Carnivorous Lasher
 
-map.nodes[40790735] = Rare({
+map.nodes[40790735] = RareElite({
     id = 152464,
     quest = 56283,
     note = L['cave_spawn'],
@@ -208,7 +209,7 @@ map.nodes[57074363] = Rare({
     }
 }) -- Deepglider
 
-map.nodes[64543531] = Rare({
+map.nodes[64543531] = RareElite({
     id = 152414,
     quest = 56284,
     note = L['elderunu_note'],
@@ -217,7 +218,7 @@ map.nodes[64543531] = Rare({
     }
 }) -- Elder Unu
 
-map.nodes[51757487] = Rare({
+map.nodes[51757487] = RareElite({
     id = 152555,
     quest = 56285,
     rewards = {
@@ -254,7 +255,7 @@ map.nodes[43355507] = Rare({
     }
 }) -- Iridescent Glimmershell
 
-map.nodes[50056991] = Rare({
+map.nodes[50056991] = RareElite({
     id = 152567,
     quest = 56287,
     note = L['kelpwillow_note'],
@@ -293,7 +294,7 @@ map.nodes[48601760] = Rare({
     }
 }) -- Needlespine
 
-map.nodes[78132501] = Rare({
+map.nodes[78132501] = RareElite({
     id = 152397,
     quest = 56288,
     note = L['oronu_note'],
@@ -304,7 +305,7 @@ map.nodes[78132501] = Rare({
     }
 }) -- Oronu
 
-map.nodes[42728740] = Rare({
+map.nodes[42728740] = RareElite({
     id = 152681,
     quest = 56289,
     rewards = {
@@ -322,7 +323,7 @@ map.nodes[42997551] = Rare({
     }
 }) -- Prince Vortran
 
-map.nodes[35554141] = Rare({
+map.nodes[35554141] = RareElite({
     id = 152548,
     quest = 56292,
     note = L['matriarch_note'],
@@ -333,7 +334,7 @@ map.nodes[35554141] = Rare({
     }
 }) -- Scale Matriarch Gratinax
 
-map.nodes[27193708] = Rare({
+map.nodes[27193708] = RareElite({
     id = 152545,
     quest = 56293,
     note = L['matriarch_note'],
@@ -344,7 +345,7 @@ map.nodes[27193708] = Rare({
     }
 }) -- Scale Matriarch Vynara
 
-map.nodes[28604664] = Rare({
+map.nodes[28604664] = RareElite({
     id = 152542,
     quest = 56294,
     note = L['matriarch_note'],
@@ -368,7 +369,7 @@ map.nodes[62740809] = Rare({
     }
 }) -- Shassera
 
-map.nodes[39601700] = Rare({
+map.nodes[39601700] = RareElite({
     id = 153658,
     quest = 56296,
     note = L['area_spawn'],
@@ -441,7 +442,7 @@ map.nodes[66964817] = Rare({
     }
 }) -- Toxigore the Alpha
 
-map.nodes[31282935] = Rare({
+map.nodes[31282935] = RareElite({
     id = 152568,
     quest = 56299,
     note = L['urduu_note'],
@@ -452,7 +453,7 @@ map.nodes[31282935] = Rare({
     }
 }) -- Urduu
 
-map.nodes[67243458] = Rare({
+map.nodes[67243458] = RareElite({
     id = 151719,
     quest = 56300,
     note = L['voice_deeps_notes'],

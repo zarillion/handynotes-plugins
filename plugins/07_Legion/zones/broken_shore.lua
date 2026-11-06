@@ -7,7 +7,7 @@ local Class = ns.Class
 local L = ns.locale
 
 local Collectible = ns.node.Collectible
-local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 
 local Achievement = ns.reward.Achievement
 
@@ -36,7 +36,7 @@ local SentinaxArea = {
     Path({ns.poi.Circle({origin = 37382506, radius = 1.5, segments = 12})})
 }
 
-map.nodes[05505400] = Rare({
+map.nodes[05505400] = RareElite({
     id = 120675,
     quest = nil,
     note = format(L['sentinax_rare_note'], 120675, 146907, 146913, 146919,
@@ -50,7 +50,7 @@ map.nodes[05505400] = Rare({
     pois = SentinaxArea
 }) -- An'thyna
 
-map.nodes[07505400] = Rare({
+map.nodes[07505400] = RareElite({
     id = 120681,
     quest = nil,
     note = format(L['sentinax_rare_note'], 120681, 146908, 146914, 146920,
@@ -64,7 +64,7 @@ map.nodes[07505400] = Rare({
     pois = SentinaxArea
 }) -- Fel Obliterator
 
-map.nodes[09505400] = Rare({
+map.nodes[09505400] = RareElite({
     id = 120665,
     quest = nil,
     note = format(L['sentinax_rare_note'], 120665, 146906, 146912, 146918,
@@ -78,7 +78,7 @@ map.nodes[09505400] = Rare({
     pois = SentinaxArea
 }) -- Force-Commander Xillious
 
-map.nodes[11505400] = Rare({
+map.nodes[11505400] = RareElite({
     id = 120686,
     quest = nil,
     note = format(L['sentinax_rare_note'], 120686, 146909, 146915, 146921,
@@ -92,7 +92,7 @@ map.nodes[11505400] = Rare({
     pois = SentinaxArea
 }) -- Illisthyndria
 
-map.nodes[13505400] = Rare({
+map.nodes[13505400] = RareElite({
     id = 120641,
     quest = nil,
     note = format(L['sentinax_rare_note'], 120641, 146905, 146911, 146917,
@@ -106,7 +106,7 @@ map.nodes[13505400] = Rare({
     pois = SentinaxArea
 }) -- Skulguloth
 
-map.nodes[15505400] = Rare({
+map.nodes[15505400] = RareElite({
     id = 120583,
     quest = nil,
     note = format(L['sentinax_rare_note'], 120583, 146903, 146910, 146916,
@@ -135,7 +135,7 @@ map.nodes[15505400] = Rare({
 
 --------------------------------- WORLD BOSSES --------------------------------
 
-map.nodes[60006200] = Rare({
+map.nodes[60006200] = RareElite({
     id = 121124,
     quest = 47084,
     note = L['broken_shore_worldboss_note'],
@@ -145,7 +145,7 @@ map.nodes[60006200] = Rare({
     areaPOI = nil
 }) -- Apocron -- World Boss
 
-map.nodes[59002800] = Rare({
+map.nodes[59002800] = RareElite({
     id = 117239,
     quest = 47085,
     note = L['broken_shore_worldboss_note'],
@@ -155,7 +155,7 @@ map.nodes[59002800] = Rare({
     areaPOI = nil
 }) -- Brutallus -- World Boss
 
-map.nodes[60002700] = Rare({
+map.nodes[60002700] = RareElite({
     id = 117303,
     quest = 47086,
     note = L['broken_shore_worldboss_note'],
@@ -165,7 +165,7 @@ map.nodes[60002700] = Rare({
     areaPOI = nil
 }) -- Malificus -- World Boss
 
-map.nodes[89603360] = Rare({
+map.nodes[89603360] = RareElite({
     id = 117470,
     quest = 47090,
     note = L['broken_shore_worldboss_note'],
@@ -177,14 +177,14 @@ map.nodes[89603360] = Rare({
 
 -------------------------------------------------------------------------------
 
-map.nodes[53977893] = Rare({
+map.nodes[53977893] = RareElite({
     id = 121016,
     quest = 46953,
     rewards = {},
     areaPOI = 5301
 }) -- Aqueux
 
-map.nodes[39343390] = Rare({
+map.nodes[39343390] = RareElite({
     id = 121029,
     quest = 46965,
     note = L['in_small_cave'],
@@ -193,28 +193,28 @@ map.nodes[39343390] = Rare({
     areaPOI = 5302
 }) -- Brood Mother Nix
 
-map.nodes[78613939] = Rare({
+map.nodes[78613939] = RareElite({
     id = 121046,
     quest = 47001,
     rewards = {},
     areaPOI = 5308
 }) -- Brother Badatin
 
-map.nodes[60975338] = Rare({
+map.nodes[60975338] = RareElite({
     id = 116953,
     quest = 46101,
     rewards = {},
     areaPOI = 5295
 }) -- Corrupted Bonebreaker
 
-map.nodes[49783835] = Rare({
+map.nodes[49783835] = RareElite({
     id = 117136,
     quest = 46097,
     rewards = {},
     areaPOI = 5291
 }) -- Doombringer Zar'thoz
 
-map.nodes[58033184] = Rare({
+map.nodes[58033184] = RareElite({
     id = 117095,
     quest = 46098,
     rewards = {},
@@ -222,7 +222,7 @@ map.nodes[58033184] = Rare({
     pois = {Path({58563253, 58033184, 57583103, 57283032})}
 }) -- Dreadblade Annihilator
 
-map.nodes[37237993] = Rare({
+map.nodes[37237993] = RareElite({
     id = 118993,
     quest = 46202,
     rewards = {},
@@ -241,21 +241,21 @@ map.nodes[37237993] = Rare({
     }
 }) -- Dreadeye
 
-map.nodes[78162785] = Rare({
+map.nodes[78162785] = RareElite({
     id = 121134,
     quest = 47036,
     rewards = {},
     areaPOI = 5306
 }) -- Duke Sithizi
 
-map.nodes[52064391] = Rare({
+map.nodes[52064391] = RareElite({
     id = 117086,
     quest = 46093,
     rewards = {},
     areaPOI = 5287
 }) -- Emberfire
 
-map.nodes[64513030] = Rare({
+map.nodes[64513030] = RareElite({
     id = 116166,
     quest = 47068,
     note = L['in_small_cave'],
@@ -264,7 +264,7 @@ map.nodes[64513030] = Rare({
     pois = {POI({66733459})}
 }) -- Eye of Gurgh
 
-map.nodes[58934572] = Rare({
+map.nodes[58934572] = RareElite({
     id = 117093,
     quest = 46099,
     rewards = {},
@@ -278,21 +278,21 @@ map.nodes[58934572] = Rare({
     }
 }) -- Felbringer Xar'thok
 
-map.nodes[89553085] = Rare({
+map.nodes[89553085] = RareElite({
     id = 117103,
     quest = 46102,
     rewards = {},
     areaPOI = 5296
 }) -- Felcaller Zelthae
 
-map.nodes[39194209] = Rare({
+map.nodes[39194209] = RareElite({
     id = 117091,
     quest = 46095,
     rewards = {},
     areaPOI = 5289
 }) -- Felmaw Emberfiend
 
-map.nodes[40415969] = Rare({
+map.nodes[40415969] = RareElite({
     id = 120998,
     quest = 46951,
     note = L['in_small_cave'],
@@ -301,28 +301,28 @@ map.nodes[40415969] = Rare({
     pois = {POI({39206019})}
 }) -- Flllurlokkr
 
-map.nodes[77782364] = Rare({
+map.nodes[77782364] = RareElite({
     id = 121037,
     quest = 46995,
     rewards = {},
     areaPOI = 5303
 }) -- Grossir
 
-map.nodes[60434503] = Rare({
+map.nodes[60434503] = RareElite({
     id = 119718,
     quest = 46313,
     rewards = {},
     areaPOI = 5299
 }) -- Imp Mother Bruva
 
-map.nodes[62163821] = Rare({
+map.nodes[62163821] = RareElite({
     id = 117089,
     quest = 46096,
     rewards = {},
     areaPOI = 5290
 }) -- Inquisitor Chillbane
 
-map.nodes[41801667] = Rare({
+map.nodes[41801667] = RareElite({
     id = 121107,
     quest = 47026,
     rewards = {},
@@ -330,14 +330,14 @@ map.nodes[41801667] = Rare({
     areaPOI = 5304
 }) -- Lady Eldrathe
 
-map.nodes[44645318] = Rare({
+map.nodes[44645318] = RareElite({
     id = 119629,
     quest = 46304,
     rewards = {ns.reward.Mount({item = 142233, id = 931})},
     areaPOI = 5298
 }) -- Lord Hel'Nurath
 
-map.nodes[59752731] = Rare({
+map.nodes[59752731] = RareElite({
     id = 117141,
     quest = 46090,
     note = L['in_small_cave'],
@@ -346,21 +346,21 @@ map.nodes[59752731] = Rare({
     areaPOI = 5284
 }) -- Malgrazoth
 
-map.nodes[42324284] = Rare({
+map.nodes[42324284] = RareElite({
     id = 117094,
     quest = 46092,
     rewards = {},
     areaPOI = 5286
 }) -- Malorus the Soulkeeper
 
-map.nodes[56985648] = Rare({
+map.nodes[56985648] = RareElite({
     id = 117096,
     quest = 46094,
     rewards = {},
     areaPOI = 5288
 }) -- Potionmaster Gloop
 
-map.nodes[67482957] = Rare({
+map.nodes[67482957] = RareElite({
     id = 117140,
     quest = 46091,
     rewards = {},
@@ -373,7 +373,7 @@ map.nodes[67482957] = Rare({
     }
 }) -- Salethan the Broodwalker
 
-map.nodes[32006000] = Rare({
+map.nodes[32006000] = RareElite({
     id = 121112,
     quest = 47028,
     rewards = {},
@@ -390,7 +390,7 @@ map.nodes[32006000] = Rare({
     areaPOI = 5305
 }) -- Somber Dawn
 
-map.nodes[49134792] = Rare({
+map.nodes[49134792] = RareElite({
     id = 117090,
     quest = 46100,
     rewards = {},

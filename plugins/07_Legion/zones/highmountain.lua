@@ -7,6 +7,7 @@ local Map = ns.Map
 
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -125,7 +126,7 @@ map.nodes[54414115] = Rare({
 --     }
 -- }) -- Drugon the Frostblood (world boss)
 
-map.nodes[43807560] = Rare({
+map.nodes[43807560] = RareElite({
     id = 96072,
     quest = 45508,
     rewards = {
@@ -235,7 +236,7 @@ map.nodes[54544063] = Rare({
     }
 }) -- Mynta Talonscreech
 
-map.nodes[47607380] = Rare({
+map.nodes[47607380] = RareElite({
     id = 95204,
     quest = 39435,
     rewards = {

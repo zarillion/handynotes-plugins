@@ -9,6 +9,7 @@ local Map = ns.RiftMap
 local Collectible = ns.node.Collectible
 local NPC = ns.node.NPC
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -120,7 +121,7 @@ map.nodes[25923116] = Rare({
     }
 }) -- Adjutant Dekaris
 
-map.nodes[19324172] = Rare({
+map.nodes[19324172] = RareElite({
     id = 170301,
     quest = 60788,
     noassault = NIGHTFAE,
@@ -131,7 +132,7 @@ map.nodes[19324172] = Rare({
     }
 }) -- Apholeias, Herald of Loss
 
-map.nodes[39014119] = Rare({
+map.nodes[39014119] = RareElite({
     id = 157833,
     quest = 57469,
     noassault = KYRIAN,
@@ -156,7 +157,7 @@ map.nodes[27731305] = Rare({
     }
 }) -- Conjured Death
 
-map.nodes[60964805] = Rare({
+map.nodes[60964805] = RareElite({
     id = 160770,
     quest = 62281,
     note = L['in_cave'],
@@ -178,7 +179,7 @@ map.nodes[49128175] = Rare({
     }
 }) -- Darklord Taraxis
 
-map.nodes[61334129] = Rare({
+map.nodes[61334129] = RareElite({
     id = 179779,
     quest = 64251,
     note = L['deomen_note'],
@@ -192,7 +193,7 @@ map.nodes[61334129] = Rare({
     }
 }) -- Deomen the Vortex
 
-map.nodes[28086058] = Rare({
+map.nodes[28086058] = RareElite({
     id = 170711,
     quest = 60909,
     noassault = NECROLORD,
@@ -203,7 +204,7 @@ map.nodes[28086058] = Rare({
     }
 }) -- Dolos <Death's Knife>
 
-map.nodes[23765341] = Rare({
+map.nodes[23765341] = RareElite({
     id = 170774,
     quest = 60915,
     noassault = NIGHTFAE,
@@ -214,7 +215,7 @@ map.nodes[23765341] = Rare({
     }
 }) -- Eketra <The Impaler>
 
-map.nodes[42342108] = Rare({
+map.nodes[42342108] = RareElite({
     id = 169827,
     quest = 60666,
     note = L['ekphoras_note'],
@@ -236,7 +237,7 @@ map.nodes[19194608] = Rare({ -- was 27584966
     }
 }) -- Eternas the Tormentor
 
-map.nodes[20586935] = Rare({
+map.nodes[20586935] = RareElite({
     id = 170303,
     quest = 62260,
     note = L['exos_note'],
@@ -251,7 +252,7 @@ map.nodes[20586935] = Rare({
     }
 }) -- Exos, Herald of Domination
 
-map.nodes[17714953] = Rare({
+map.nodes[17714953] = RareElite({
     id = 179460,
     quest = 64164,
     note = L['fallen_charger_note'],
@@ -278,7 +279,7 @@ map.nodes[17714953] = Rare({
     }
 }) -- Fallen Charger
 
-map.nodes[30775000] = Rare({
+map.nodes[30775000] = RareElite({
     id = 175012,
     quest = 62788,
     note = L['ikras_note'],
@@ -289,7 +290,7 @@ map.nodes[30775000] = Rare({
     }
 }) -- Ikras the Devourer
 
-map.nodes[16945102] = Rare({
+map.nodes[16945102] = RareElite({
     id = 162849,
     quest = 60987,
     rlabel = ns.status.LightBlue('+100 ' .. L['rep']),
@@ -339,7 +340,7 @@ map.nodes[23692139] = Rare({
     }
 }) -- Orophea
 
-map.nodes[32946646] = Rare({
+map.nodes[32946646] = RareElite({
     id = 170634,
     quest = 60884,
     rlabel = ns.status.LightBlue('+100 ' .. L['rep']),
@@ -364,7 +365,7 @@ map.nodes[35974156] = Rare({
     }
 }) -- Soulforger Rhovus
 
-map.nodes[28701204] = Rare({
+map.nodes[28701204] = RareElite({
     id = 170302,
     quest = 60789, -- 62722?
     note = L['talaporas_note'],
@@ -377,7 +378,7 @@ map.nodes[28701204] = Rare({
     }
 }) -- Talaporas, Herald of Pain
 
-map.nodes[27397152] = Rare({
+map.nodes[27397152] = RareElite({
     id = 170731,
     quest = 60914,
     noassault = NECROLORD,
@@ -388,7 +389,7 @@ map.nodes[27397152] = Rare({
     }
 }) -- Thanassos <Death's Voice>
 
-map.nodes[69044897] = Rare({
+map.nodes[69044897] = RareElite({
     id = 179805,
     quest = 64258, -- 64439?
     rewards = {
@@ -416,7 +417,7 @@ map.nodes[37446212] = Rare({
     }
 }) -- Yero the Skittish
 
-map.nodes[66404400] = Rare({
+map.nodes[66404400] = RareElite({
     id = 177444,
     quest = 64152,
     rewards = {

@@ -11,6 +11,7 @@ local Coffer = ns.node.Coffer
 local Collectible = ns.node.Node
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local TimedEvent = ns.node.TimedEvent
 local Treasure = ns.node.Treasure
 
@@ -155,7 +156,7 @@ map.nodes[38214521] = Rare({
     }
 }) -- Aqir Warcaster
 
-map.nodes[45605777] = Rare({
+map.nodes[45605777] = RareElite({
     id = 162171,
     quest = 58699,
     assault = AQR,
@@ -172,7 +173,7 @@ map.nodes[30854971] = Rare({
     })
 }) -- Corpse Eater
 
-map.nodes[42485873] = Rare({
+map.nodes[42485873] = RareElite({
     id = 162163,
     quest = 58701,
     assault = AQR,
@@ -202,7 +203,7 @@ map.nodes[19755847] = Rare({
     }
 }) -- Infested Wastewander Captain
 
-map.nodes[34681890] = Rare({
+map.nodes[34681890] = RareElite({
     id = 154604,
     quest = 56340,
     assault = AQR,
@@ -212,7 +213,7 @@ map.nodes[34681890] = Rare({
     })
 }) -- Lord Aj'qirai
 
-map.nodes[30476602] = Rare({
+map.nodes[30476602] = RareElite({
     id = 156078,
     quest = 56952,
     assault = AQR,
@@ -259,7 +260,7 @@ map.nodes[21236105] = Rare({
     }
 }) -- Skikx'traz
 
-map.nodes[33592569] = Rare({
+map.nodes[33592569] = RareElite({
     id = 162170,
     quest = 58702,
     assault = AQR,
@@ -302,20 +303,20 @@ map.nodes[55475169] = Rare({
     }
 }) -- Gaze of N'Zoth
 
-map.nodes[54694317] = Rare({id = 158597, quest = 57675, assault = EMP}) -- High Executor Yothrim
+map.nodes[54694317] = RareElite({id = 158597, quest = 57675, assault = EMP}) -- High Executor Yothrim
 
 map.nodes[47507718] = Rare({id = 158528, quest = 57664, assault = EMP}) -- High Guard Reshef
 
-map.nodes[60033950] = Rare({
+map.nodes[60033950] = RareElite({
     id = 160623,
     quest = 58206,
     assault = EMP,
     note = L['hmiasma']
 }) -- Hungering Miasma
 
-map.nodes[71237375] = Rare({id = 156655, quest = 57433, assault = EMP}) -- Korzaran the Slaughterer
+map.nodes[71237375] = RareElite({id = 156655, quest = 57433, assault = EMP}) -- Korzaran the Slaughterer
 
-map.nodes[58175712] = Rare({
+map.nodes[58175712] = RareElite({
     id = 156299,
     quest = 57430,
     assault = {AQR, EMP},
@@ -333,11 +334,15 @@ map.nodes[57003794] = Rare({
     pois = {POI({57003794, 52174326})}
 }) -- Shadowmaw
 
-map.nodes[58558282] = Rare({id = 156654, quest = 57432, assault = EMP}) -- Shol'thoss the Doomspeaker
+map.nodes[58558282] = RareElite({id = 156654, quest = 57432, assault = EMP}) -- Shol'thoss the Doomspeaker
 
-map.nodes[61297484] = Rare({id = 160532, quest = 58169, assault = {AQR, EMP}}) -- Shoth the Darkened
+map.nodes[61297484] = RareElite({
+    id = 160532,
+    quest = 58169,
+    assault = {AQR, EMP}
+}) -- Shoth the Darkened
 
-map.nodes[49328235] = Rare({
+map.nodes[49328235] = RareElite({
     id = 158636,
     quest = 57688,
     assault = EMP,
@@ -360,7 +365,7 @@ map.nodes[64572623] = Rare({
 
 map.nodes[73805180] = Rare({id = 151883, quest = 55468, assault = AMA}) -- Anaua
 
-map.nodes[65035129] = Rare({
+map.nodes[65035129] = RareElite({
     id = 152757,
     quest = 55710,
     assault = AMA,
@@ -386,9 +391,9 @@ map.nodes[77005000] = Rare({
     requires = ns.requirement.Item(168160)
 }) -- Kaneb-ti
 
-map.nodes[66842035] = Rare({id = 157157, quest = 57277, assault = AMA}) -- Muminah the Incandescent
+map.nodes[66842035] = RareElite({id = 157157, quest = 57277, assault = AMA}) -- Muminah the Incandescent
 
-map.nodes[62012454] = Rare({id = 152677, quest = 55684, assault = AMA}) -- Nebet the Ascended
+map.nodes[62012454] = RareElite({id = 152677, quest = 55684, assault = AMA}) -- Nebet the Ascended
 
 map.nodes[68593204] = Rare({
     id = 157146,
@@ -403,11 +408,11 @@ map.nodes[69714215] = Rare({id = 152040, quest = 55518, assault = AMA}) -- Scout
 
 map.nodes[73536459] = Rare({id = 151948, quest = 55496, assault = AMA}) -- Senbu the Pridefather
 
-map.nodes[78986389] = Rare({id = 151878, quest = 58613, assault = AMA}) -- Sun King Nahkotep
+map.nodes[78986389] = RareElite({id = 151878, quest = 58613, assault = AMA}) -- Sun King Nahkotep
 
 map.nodes[84785704] = Rare({id = 151897, quest = 55479, assault = AMA}) -- Sun Priestess Nubitt
 
-map.nodes[73347447] = Rare({id = 151609, quest = 55353, assault = AMA}) -- Sun Prophet Epaphos
+map.nodes[73347447] = RareElite({id = 151609, quest = 55353, assault = AMA}) -- Sun Prophet Epaphos
 
 map.nodes[65903522] = Rare({
     id = 152657,
@@ -420,14 +425,14 @@ map.nodes[65903522] = Rare({
     }
 }) -- Tat the Bonechewer
 
-map.nodes[84324729] = Rare({
+map.nodes[84324729] = RareElite({
     id = 157188,
     quest = 57285,
     assault = AMA,
     note = L['tomb_widow']
 }) -- The Tomb Widow
 
-map.nodes[67486382] = Rare({
+map.nodes[67486382] = RareElite({
     id = 152788,
     quest = 55716,
     assault = AMA,
@@ -438,7 +443,7 @@ map.nodes[67486382] = Rare({
     }
 }) -- Uat-ka the Sun's Wrath
 
-map.nodes[79505217] = Rare({
+map.nodes[79505217] = RareElite({
     id = 151852,
     quest = 55461,
     assault = AMA,
@@ -468,7 +473,7 @@ map.nodes[49944011] = Rare({
     }
 }) -- Spirit of Dark Ritualist Zakahn
 
-map.nodes[73908353] = Rare({
+map.nodes[73908353] = RareElite({
     id = 157134,
     quest = 57259,
     rewards = {

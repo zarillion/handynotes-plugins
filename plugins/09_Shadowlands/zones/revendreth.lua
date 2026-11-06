@@ -11,6 +11,7 @@ local Node = ns.node.Node
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Soulshape = ns.node.Soulshape
 local Squirrel = ns.node.Squirrel
@@ -39,7 +40,7 @@ local map = Map({id = 1525, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[53247300] = Rare({
+map.nodes[53247300] = RareElite({
     id = 166393,
     quest = 59854,
     -- TODO: maybe doesn't need WQ anymore? check back later
@@ -132,7 +133,7 @@ map.nodes[43055183] = Rare({
     }
 }) -- Executioner Adrastia
 
-map.nodes[62484716] = Rare({
+map.nodes[62484716] = RareElite({
     id = 166521,
     quest = 59869,
     note = L['famu_note'],
@@ -143,7 +144,7 @@ map.nodes[62484716] = Rare({
     }
 }) -- Famu the Infinite
 
-map.nodes[32641545] = Rare({
+map.nodes[32641545] = RareElite({
     id = 159496,
     quest = 61618,
     covenant = VENTHYR,
@@ -183,7 +184,7 @@ map.nodes[45847919] = Rare({
     }
 }) -- Harika the Horrid
 
-map.nodes[51985179] = Rare({
+map.nodes[51985179] = RareElite({
     id = 166679,
     quest = 59900,
     rewards = {
@@ -224,7 +225,7 @@ map.nodes[67978179] = Rare({
     }
 }) -- Leeched Soul
 
-map.nodes[75976161] = Rare({
+map.nodes[75976161] = RareElite({
     id = 161891,
     quest = 58633,
     note = L['lord_mortegore_note'],
@@ -280,7 +281,7 @@ map.nodes[78934975] = Rare({
     rewards = {Achievement({id = 14310, criteria = 48799})}
 }) -- Soulstalker Doina
 
-map.nodes[31312324] = Rare({
+map.nodes[31312324] = RareElite({
     id = 159503,
     quest = 62220,
     rewards = {
@@ -309,7 +310,7 @@ map.nodes[43007910] = Rare({
     }
 }) -- Tomb Burster
 
-map.nodes[38607200] = Rare({
+map.nodes[38607200] = RareElite({
     id = 160821,
     quest = 58259,
     requires = ns.requirement.Item(173939),

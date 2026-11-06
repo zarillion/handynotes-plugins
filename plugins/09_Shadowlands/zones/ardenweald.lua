@@ -10,6 +10,7 @@ local Collectible = ns.node.Collectible
 local Node = ns.node.Node
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Soulshape = ns.node.Soulshape
 local Squirrel = ns.node.Squirrel
@@ -40,7 +41,7 @@ local hfr = Map({id = 1702, secret = true}) -- Heart of the Forest - The Roots
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[34606800] = Rare({
+map.nodes[34606800] = RareElite({
     id = 164477,
     quest = 59226,
     rewards = {
@@ -115,7 +116,7 @@ map.nodes[27885248] = Rare({
     }
 }) -- Gormtamer Tizo
 
-map.nodes[32423026] = Rare({
+map.nodes[32423026] = RareElite({
     id = 164112,
     quest = 59157,
     requires = ns.requirement.Item(175247),
@@ -189,7 +190,7 @@ function RainbowGlow:Draw(pin, xy)
     return ns.poi.Glow.Draw(self, pin, xy)
 end
 
-map.nodes[65702809] = Rare({
+map.nodes[65702809] = RareElite({
     id = 164547,
     quest = 59235,
     note = L['rainbowhorn_note'],
@@ -229,7 +230,7 @@ map.nodes[65702809] = Rare({
     }
 }) -- Mystic Rainbowhorn
 
-map.nodes[57874983] = Rare({
+map.nodes[57874983] = RareElite({
     id = 168135,
     quest = 60306,
     requires = ns.requirement.Item(178675),
@@ -284,7 +285,7 @@ map.nodes[72425175] = Rare({
     }
 }) -- Soultwister Cero
 
-map.nodes[37675917] = Rare({
+map.nodes[37675917] = RareElite({
     id = 164415,
     quest = 59220,
     covenant = NIGHTFAE,
@@ -306,7 +307,7 @@ map.nodes[59304660] = Rare({
     }
 }) -- The Slumbering Emperor
 
-map.nodes[30115536] = Rare({
+map.nodes[30115536] = RareElite({
     id = 168647,
     quest = 61632,
     covenant = NIGHTFAE,
