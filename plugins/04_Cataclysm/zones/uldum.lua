@@ -6,6 +6,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 
 local Achievement = ns.reward.Achievement
@@ -23,7 +24,7 @@ local map = Map({id = 249, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[38206028] = Rare({
+map.nodes[38206028] = RareElite({
     id = 50063,
     rewards = {
         Transmog({item = 69877, slot = L['leather']}),

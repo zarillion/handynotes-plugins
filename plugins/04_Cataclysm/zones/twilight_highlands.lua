@@ -7,6 +7,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 
 local Achievement = ns.reward.Achievement
@@ -25,7 +26,7 @@ local map = Map({id = 241, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[53230777] = Rare({
+map.nodes[53230777] = RareElite({
     id = 50089,
     rewards = {
         Transmog({item = 69844, slot = L['dagger']}),
@@ -62,8 +63,9 @@ map.nodes[50798236] = Rare({
 }) -- Tarvus the Vile
 
 local DragonmawDuty = Class('DragonmawDuty', Rare, {faction = 'Horde'})
+local DragonmawElite = Class('DragonmawElite', RareElite, {faction = 'Horde'})
 
-map.nodes[45803310] = DragonmawDuty({
+map.nodes[45803310] = DragonmawElite({
     id = 46885,
     rewards = {Achievement({id = 5482, criteria = 15952})}
 }) -- High Shaman MacKilligan
@@ -94,8 +96,10 @@ map.nodes[52502810] = DragonmawDuty({
 }) -- Korthalon
 
 local WildhammerDuty = Class('WildhammerDuty', Rare, {faction = 'Alliance'})
+local WildhammerElite = Class('WildhammerElite', RareElite,
+    {faction = 'Alliance'})
 
-map.nodes[49073720] = WildhammerDuty({
+map.nodes[49073720] = WildhammerElite({
     id = 46493,
     rewards = {Achievement({id = 5481, criteria = 15948})}
 }) -- Warlord Halthar

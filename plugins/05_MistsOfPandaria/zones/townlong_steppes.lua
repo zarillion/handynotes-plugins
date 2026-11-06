@@ -6,6 +6,7 @@ local Map = ns.Map
 local L = ns.locale
 
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 local Squirrel = ns.node.Squirrel
 local Lorewalker = ns.node.Lorewalker
@@ -29,7 +30,7 @@ local niuzao_catacombs = Map({id = 389, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[36608560] = Rare({
+map.nodes[36608560] = RareElite({
     id = 69842,
     note = L['zandalari_warbringer_note'],
     rewards = {
@@ -109,7 +110,7 @@ map.nodes[32006180] = Rare({
     }
 }) -- Yul Wildpaw
 
-map.nodes[37205760] = Rare({
+map.nodes[37205760] = RareElite({
     id = 66900,
     note = L['in_cave'],
     rewards = {
@@ -118,14 +119,14 @@ map.nodes[37205760] = Rare({
     pois = {POI({32806120})}
 }) -- Huggalon the Heart Watcher
 
-niuzao_catacombs.nodes[64052206] = Rare({
+niuzao_catacombs.nodes[64052206] = RareElite({
     id = 66900,
     rewards = {
         Toy({item = 90067}) -- B. F. F. Necklace
     }
 }) -- Huggalon the Heart Watcher
 
-map.nodes[20400740] = Rare({
+map.nodes[20400740] = RareElite({
     id = 66467,
     rewards = {
         Pet({item = 94595, id = 1201}) -- Spawn of G'nathus

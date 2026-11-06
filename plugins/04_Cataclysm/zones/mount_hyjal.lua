@@ -10,6 +10,7 @@ local Map = ns.Map
 local Collectible = ns.node.Collectible
 local NPC = ns.node.NPC
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 
 local Achievement = ns.reward.Achievement
@@ -214,7 +215,7 @@ map.nodes[50453327] = Rare({
     }
 }) -- Thartuk the Exile
 
-map.nodes[37107233] = Rare({
+map.nodes[37107233] = RareElite({
     id = 50056,
     rewards = {
         Transmog({item = 69842, slot = L['plate']}),

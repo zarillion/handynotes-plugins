@@ -7,6 +7,7 @@ local L = ns.locale
 local Class = ns.Class
 
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 local Squirrel = ns.node.Squirrel
 local Lorewalker = ns.node.Lorewalker
@@ -27,7 +28,7 @@ local map = Map({id = 371, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[52601900] = Rare({
+map.nodes[52601900] = RareElite({
     id = 69842,
     note = L['zandalari_warbringer_note'],
     rewards = {

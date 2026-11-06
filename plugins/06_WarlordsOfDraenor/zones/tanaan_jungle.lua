@@ -7,6 +7,7 @@ local Map = ns.Map
 
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -207,7 +208,7 @@ map.nodes[25604620] = Rare({
     }
 }) -- Drivnul
 
-map.nodes[57002300] = Rare({
+map.nodes[57002300] = RareElite({
     id = 91009,
     quest = 38457,
     rewards = {Achievement({id = 10070, criteria = 28727})}
@@ -222,7 +223,7 @@ map.nodes[48402860] = Rare({
     }
 }) -- Zeter'el
 
-map.nodes[40706980] = Rare({
+map.nodes[40706980] = RareElite({
     id = 91093,
     quest = 38209,
     rewards = {
@@ -231,7 +232,7 @@ map.nodes[40706980] = Rare({
     }
 }) -- Bramblefell
 
-map.nodes[52592656] = Rare({
+map.nodes[52592656] = RareElite({
     id = 91098,
     quest = 38211,
     rewards = {
@@ -240,7 +241,7 @@ map.nodes[52592656] = Rare({
     }
 }) -- Felspark
 
-map.nodes[15005420] = Rare({
+map.nodes[15005420] = RareElite({
     id = 91232,
     quest = 38746,
     note = L['commander_kraggoth_note'],
@@ -250,7 +251,7 @@ map.nodes[15005420] = Rare({
     }
 }) -- Commander Krag'goth
 
-map.nodes[13405680] = Rare({
+map.nodes[13405680] = RareElite({
     id = 91243,
     quest = 38747,
     rewards = {
@@ -295,7 +296,7 @@ map.nodes[49803620] = Rare({
     }
 }) -- Executor Riloth
 
-map.nodes[52604020] = Rare({
+map.nodes[52604020] = RareElite({
     id = 91871,
     quest = 38430,
     rewards = {
@@ -313,7 +314,7 @@ map.nodes[26205440] = Rare({
     }
 }) -- Relgor
 
-map.nodes[53602140] = Rare({
+map.nodes[53602140] = RareElite({
     id = 92274,
     quest = 38557,
     rewards = {
@@ -323,7 +324,7 @@ map.nodes[53602140] = Rare({
 }) -- Painmistress Selora
 
 -- Xanzith the Everlasting
-map.nodes[60002100] = Rare({
+map.nodes[60002100] = RareElite({
     id = 92408,
     quest = 38579,
     rewards = {
@@ -333,7 +334,7 @@ map.nodes[60002100] = Rare({
     }
 })
 
-map.nodes[52401920] = Rare({
+map.nodes[52401920] = RareElite({
     id = 92411,
     quest = 38580,
     note = L['overlord_magruth_note'],
@@ -351,13 +352,13 @@ map.nodes[57846733] = Rare({
     }
 }) -- Broodlord Ixkor
 
-map.nodes[27683276] = Rare({
+map.nodes[27683276] = RareElite({
     id = 92451,
     quest = 37937,
     rewards = {Achievement({id = 10070, criteria = 28340})}
 }) -- Varyx the Damned
 
-map.nodes[48807300] = Rare({
+map.nodes[48807300] = RareElite({
     id = 92465,
     quest = 38597,
     note = L['in_cave'],
@@ -368,7 +369,7 @@ map.nodes[48807300] = Rare({
     pois = {POI({49907440})}
 }) -- The Blackfang
 
-map.nodes[62697204] = Rare({
+map.nodes[62697204] = RareElite({
     id = 92495,
     quest = 38600,
     rewards = {
@@ -378,7 +379,7 @@ map.nodes[62697204] = Rare({
     }
 }) -- Soulslicer
 
-map.nodes[63208000] = Rare({
+map.nodes[63208000] = RareElite({
     id = 92508,
     quest = 38604,
     note = L['in_cave'],
@@ -389,7 +390,7 @@ map.nodes[63208000] = Rare({
     pois = {POI({62207910})}
 }) -- Gloomtalon
 
-map.nodes[52038394] = Rare({
+map.nodes[52038394] = RareElite({
     id = 92517,
     quest = 38605,
     rewards = {
@@ -436,7 +437,7 @@ map.nodes[41807590] = Rare({
     rewards = {Achievement({id = 10070, criteria = 28365})}
 }) -- Rendrak
 
-map.nodes[39407590] = Rare({
+map.nodes[39407590] = RareElite({
     id = 92636,
     quest = 38632,
     note = L['the_night_haunter_note'],
@@ -460,7 +461,7 @@ map.nodes[45804700] = Rare({
     }
 })
 
-map.nodes[50917423] = Rare({
+map.nodes[50917423] = RareElite({
     id = 92657,
     quest = 38696,
     note = L['in_cave'],
@@ -479,7 +480,7 @@ map.nodes[34357246] = Rare({
     pois = {POI({36307220})}
 }) -- The Goreclaw
 
-map.nodes[53908080] = Rare({
+map.nodes[53908080] = RareElite({
     id = 92766,
     quest = 39399,
     requires = ns.requirement.Item(124093),
@@ -490,7 +491,7 @@ map.nodes[53908080] = Rare({
     }
 }) -- Akrrilo
 
-map.nodes[54408130] = Rare({
+map.nodes[54408130] = RareElite({
     id = 92817,
     quest = 39400,
     requires = ns.requirement.Item(124094),
@@ -501,7 +502,7 @@ map.nodes[54408130] = Rare({
     }
 }) -- Rendarr
 
-map.nodes[54408040] = Rare({
+map.nodes[54408040] = RareElite({
     id = 92819,
     quest = 39379,
     requires = ns.requirement.Item(124095),
@@ -537,7 +538,7 @@ map.nodes[12605690] = Rare({
     }
 }) -- The Iron Houndmaster
 
-map.nodes[15705750] = Rare({
+map.nodes[15705750] = RareElite({
     id = 93001,
     quest = 38752,
     note = L['szirek_the_twisted_note'],
@@ -567,7 +568,7 @@ map.nodes[19895385] = Rare({
     }
 }) -- Driss Vile
 
-map.nodes[16125902] = Rare({
+map.nodes[16125902] = RareElite({
     id = 93057,
     quest = 38750,
     note = L['grannok_note'],
@@ -602,7 +603,7 @@ map.nodes[34517794] = Rare({
     pois = {POI({37507600})}
 }) -- Glub'glok
 
-map.nodes[28615077] = Rare({
+map.nodes[28615077] = RareElite({
     id = 93168,
     quest = 38775,
     note = L['in_cave'],
@@ -639,7 +640,7 @@ map.nodes[39606820] = Rare({
     pois = {POI({42306880})}
 }) -- Kris'kar the Unredeemed
 
-map.nodes[13405960] = Rare({
+map.nodes[13405960] = RareElite({
     id = 95044,
     quest = 39288,
     note = L['terrorfist_note'],
@@ -658,7 +659,7 @@ map.nodes[13405960] = Rare({
     }
 }) -- Terrorfist
 
-map.nodes[23004020] = Rare({
+map.nodes[23004020] = RareElite({
     id = 95053,
     quest = 39287,
     note = L['deathtalon_note'],
@@ -672,7 +673,7 @@ map.nodes[23004020] = Rare({
     }
 }) -- Deathtalon
 
-map.nodes[32607400] = Rare({
+map.nodes[32607400] = RareElite({
     id = 95054,
     quest = 39290,
     note = L['vengeance_note'],
@@ -686,7 +687,7 @@ map.nodes[32607400] = Rare({
     }
 }) -- Vengeance
 
-map.nodes[47005260] = Rare({
+map.nodes[47005260] = RareElite({
     id = 95056,
     quest = 39289,
     note = L['doomroller_note'],
@@ -700,7 +701,7 @@ map.nodes[47005260] = Rare({
     }
 }) -- Doomroller
 
-map.nodes[69603820] = Rare({
+map.nodes[69603820] = RareElite({
     id = 96235,
     requires = {
         ns.requirement.Achievement(10070), -- Jungle Stalker
@@ -717,7 +718,7 @@ map.nodes[69603820] = Rare({
     }
 }) -- Xemirkol
 
-map.nodes[83604360] = Rare({
+map.nodes[83604360] = RareElite({
     id = 98283,
     quest = 40105,
     note = L['iron_armada_note'],
@@ -727,7 +728,7 @@ map.nodes[83604360] = Rare({
     }
 }) -- Drakum
 
-map.nodes[80605640] = Rare({
+map.nodes[80605640] = RareElite({
     id = 98284,
     quest = 40106,
     note = L['iron_armada_note'],
@@ -737,7 +738,7 @@ map.nodes[80605640] = Rare({
     }
 }) -- Gondar
 
-map.nodes[88005580] = Rare({
+map.nodes[88005580] = RareElite({
     id = 98285,
     quest = 40104,
     note = L['iron_armada_note'],

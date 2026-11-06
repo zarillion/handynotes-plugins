@@ -1,3 +1,7 @@
+# v168
+
+* Elite rares now use the rare elite icon and label.
+
 # v148
 
 * Bump toc to 120100

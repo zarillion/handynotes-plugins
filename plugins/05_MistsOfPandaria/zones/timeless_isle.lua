@@ -22,6 +22,7 @@ local POI = ns.poi.POI
 -------------------------------------------------------------------------------
 
 local Rare = Class('TimelessRare', ns.node.Rare)
+local RareElite = ns.node.RareElite
 
 function Rare:Render(tooltip)
     ns.node.Rare.Render(self, tooltip)
@@ -46,7 +47,7 @@ local lostspirits = Map({id = 555}) -- Cavern of Lost Spirits
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[34403250] = Rare({
+map.nodes[34403250] = RareElite({
     id = 73666,
     quest = {33288, 33312},
     note = L['archiereus_note'],
@@ -54,7 +55,7 @@ map.nodes[34403250] = Rare({
     pois = {POI({42805480})} -- Mistweaver Ku
 }) -- Archiereus of Flame
 
-map.nodes[62097715] = Rare({
+map.nodes[62097715] = RareElite({
     id = 72775,
     quest = {33276, 33301},
     rewards = {
@@ -76,7 +77,7 @@ map.nodes[25063598] = Rare({
     }
 }) -- Chelon
 
-map.nodes[62384384] = Rare({
+map.nodes[62384384] = RareElite({
     id = 73171,
     quest = {33274, 33299},
     rewards = {
@@ -93,7 +94,7 @@ map.nodes[62384384] = Rare({
     }
 }) -- Champion of the Black Flame
 
-map.nodes[54165289] = Rare({
+map.nodes[54165289] = RareElite({
     id = 73175,
     quest = {33286, 33310},
     rewards = {
@@ -116,7 +117,7 @@ map.nodes[43896989] = Rare({
     pois = {POI({45238400})} -- Fishgorged Cranes
 }) -- Cranegnasher
 
-map.nodes[26082283] = Rare({
+map.nodes[26082283] = RareElite({
     id = 73281,
     quest = {33290, 33314},
     requires = ns.requirement.Item(104115),
@@ -144,7 +145,7 @@ map.nodes[30535067] = Rare({
     }
 }) -- Emerald Gander
 
-map.nodes[14215240] = Rare({
+map.nodes[14215240] = RareElite({
     id = 73279,
     quest = {33289, 33313},
     note = L['evermaw_note'],
@@ -172,7 +173,7 @@ map.nodes[14215240] = Rare({
     }
 }) -- Evermaw
 
-map.nodes[44003400] = Rare({
+map.nodes[44003400] = RareElite({
     id = 73172,
     quest = {33285, 33309},
     rewards = {
@@ -182,7 +183,7 @@ map.nodes[44003400] = Rare({
     }
 }) -- Flintlord Gairan
 
-map.nodes[64002700] = Rare({
+map.nodes[64002700] = RareElite({
     id = 73282,
     note = L['garnia_note'] .. '\n\n' .. L['albatros_note'],
     quest = {33275, 33300},
@@ -194,7 +195,7 @@ map.nodes[64002700] = Rare({
     pois = {POI({34305520})} -- Highwind Albatross
 }) -- Garnia
 
-map.nodes[62086372] = Rare({
+map.nodes[62086372] = RareElite({
     id = 72970,
     quest = {33291, 33315},
     rewards = {
@@ -243,7 +244,7 @@ map.nodes[42387523] = Rare({
     }
 }) -- Gu'chi the Swarmbringer
 
-map.nodes[65875660] = Rare({
+map.nodes[65875660] = RareElite({
     id = 73167,
     quest = {33287, 33311},
     rewards = {
@@ -261,7 +262,7 @@ map.nodes[65875660] = Rare({
     }
 }) -- Huolon
 
-map.nodes[28764361] = Rare({
+map.nodes[28764361] = RareElite({
     id = 73163,
     quest = {33278, 33303},
     note = L['imperial_python_note'],
@@ -293,7 +294,7 @@ map.nodes[34046916] = Rare({
     }
 }) -- Ironfur Steelhorn
 
-map.nodes[53298314] = Rare({
+map.nodes[53298314] = RareElite({
     id = 73169,
     quest = {33281, 33306},
     rewards = {
@@ -324,7 +325,7 @@ map.nodes[67254421] = Rare({
     }
 }) -- Leafmender
 
-map.nodes[18036202] = Rare({
+map.nodes[18036202] = RareElite({
     id = 73166,
     quest = {33277, 33302},
     note = L['monstrous_spineclaw_note'],
@@ -357,7 +358,7 @@ map.nodes[60768795] = Rare({
     }
 }) -- Rattleskew
 
-lostspirits.nodes[42153233] = Rare({
+lostspirits.nodes[42153233] = RareElite({
     id = 73157,
     quest = {33283, 33307},
     note = L['cavern_of_lost_spirits'],
@@ -405,13 +406,13 @@ lostspirits.nodes[48116069] = Rare({
     }
 }) -- Spirit of Jadefire
 
-map.nodes[71348293] = Rare({
+map.nodes[71348293] = RareElite({
     id = 73704,
     quest = {33280, 33305},
     rewards = {Achievement({id = 8714, criteria = 24144})}
 }) -- Stinkbraid
 
-map.nodes[54094240] = Rare({
+map.nodes[54094240] = RareElite({
     id = 72808,
     quest = {33279, 33304},
     note = L['in_small_cave'],
@@ -422,7 +423,7 @@ map.nodes[54094240] = Rare({
     }
 }) -- Tsavo'ka
 
-map.nodes[43002500] = Rare({
+map.nodes[43002500] = RareElite({
     id = 73173,
     quest = {33284, 33308},
     rewards = {
@@ -432,7 +433,7 @@ map.nodes[43002500] = Rare({
     }
 }) -- Urdur the Cauterizer
 
-map.nodes[57617660] = Rare({
+map.nodes[57617660] = RareElite({
     id = 73170,
     quest = {33321, 33322}, -- 44696
     rewards = {

@@ -7,6 +7,7 @@ local L = ns.locale
 local Class = ns.Class
 
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Node = ns.node.Node
 local Collectible = ns.node.Collectible
 local Lorewalker = ns.node.Lorewalker
@@ -42,7 +43,7 @@ map.nodes[62853236] = Node({
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[49098962] = Rare({
+map.nodes[49098962] = RareElite({
     id = 50358,
     rewards = {
         Achievement({id = 8103, criteria = 22820}), -- Champions of Lei Shen
@@ -51,7 +52,7 @@ map.nodes[49098962] = Rare({
     pois = {Path({48548747, 49098962, 50159104})}
 }) -- Haywire Sunreaver Construct
 
-map.nodes[35116222] = Rare({
+map.nodes[35116222] = RareElite({
     id = 69664,
     rewards = {
         Achievement({id = 8103, criteria = 22821}), -- Champions of Lei Shen
@@ -59,7 +60,7 @@ map.nodes[35116222] = Rare({
     }
 }) -- Mumta
 
-map.nodes[34608160] = Rare({
+map.nodes[34608160] = RareElite({
     id = 69996,
     rewards = {
         Achievement({id = 8103, criteria = 22822}), -- Champions of Lei Shen
@@ -68,7 +69,7 @@ map.nodes[34608160] = Rare({
     pois = {Path({33408160, 34608160, 36008180, 37608260})}
 }) -- Ku'lai the Skyclaw
 
-map.nodes[51317128] = Rare({
+map.nodes[51317128] = RareElite({
     id = 69997,
     rewards = {
         Achievement({id = 8103, criteria = 22823}), -- Champions of Lei Shen
@@ -76,7 +77,7 @@ map.nodes[51317128] = Rare({
     }
 }) -- Progenitus
 
-map.nodes[35815321] = Rare({
+map.nodes[35815321] = RareElite({
     id = 69998,
     quest = 32610, -- 32626
     rewards = {
@@ -85,7 +86,7 @@ map.nodes[35815321] = Rare({
     }
 }) -- Goda
 
-map.nodes[61504960] = Rare({
+map.nodes[61504960] = RareElite({
     id = 69999,
     rewards = {
         Achievement({id = 8103, criteria = 22825}), -- Champions of Lei Shen
@@ -93,7 +94,7 @@ map.nodes[61504960] = Rare({
     }
 }) -- God-Hulk Ramuk
 
-map.nodes[44742981] = Rare({
+map.nodes[44742981] = RareElite({
     id = 70000,
     rewards = {
         Achievement({id = 8103, criteria = 22826}), -- Champions of Lei Shen
@@ -101,7 +102,7 @@ map.nodes[44742981] = Rare({
     }
 }) -- Al'tabim the All-Seeing
 
-map.nodes[48582555] = Rare({
+map.nodes[48582555] = RareElite({
     id = 70001,
     rewards = {
         Achievement({id = 8103, criteria = 22827}), -- Champions of Lei Shen
@@ -109,7 +110,7 @@ map.nodes[48582555] = Rare({
     }
 }) -- Backbreaker Uru
 
-map.nodes[54343551] = Rare({
+map.nodes[54343551] = RareElite({
     id = 70002,
     rewards = {
         Achievement({id = 8103, criteria = 22828}), -- Champions of Lei Shen
@@ -117,7 +118,7 @@ map.nodes[54343551] = Rare({
     }
 }) -- Lu-Ban
 
-map.nodes[58543407] = Rare({
+map.nodes[58543407] = RareElite({
     id = 70003,
     rewards = {
         Achievement({id = 8103, criteria = 22829}), -- Champions of Lei Shen
@@ -132,7 +133,7 @@ map.nodes[39488149] = Rare({
     pois = {POI({40618017})}
 }) -- Ra'sha
 
-map.nodes[68913928] = Rare({
+map.nodes[68913928] = RareElite({
     id = 70080,
     note = L['ritualstone_needed'],
     rewards = {
@@ -141,7 +142,7 @@ map.nodes[68913928] = Rare({
     }
 }) -- Windweaver Akil'amon
 
-map.nodes[48002597] = Rare({
+map.nodes[48002597] = RareElite({
     id = 69749,
     note = L['ritualstone_needed'],
     rewards = {
@@ -150,7 +151,7 @@ map.nodes[48002597] = Rare({
     }
 }) -- Qi'nor <Mogu Slave Master>
 
-map.nodes[55188772] = Rare({
+map.nodes[55188772] = RareElite({
     id = 69341,
     note = L['ritualstone_needed'],
     rewards = {
@@ -159,7 +160,7 @@ map.nodes[55188772] = Rare({
     }
 }) -- Echo of Kros
 
-map.nodes[57857922] = Rare({
+map.nodes[57857922] = RareElite({
     id = 69396,
     note = L['ritualstone_needed'],
     rewards = {
@@ -169,7 +170,7 @@ map.nodes[57857922] = Rare({
     pois = {POI({58967964})}
 }) -- Cera
 
-map.nodes[35676386] = Rare({
+map.nodes[35676386] = RareElite({
     id = 69471,
     note = L['ritualstone_needed'],
     rewards = {
@@ -179,7 +180,7 @@ map.nodes[35676386] = Rare({
     pois = {POI({33436305})}
 }) -- Spirit of Warlord Teng
 
-map.nodes[30705857] = Rare({
+map.nodes[30705857] = RareElite({
     id = 69633,
     note = L['ritualstone_needed'],
     rewards = {
@@ -188,7 +189,7 @@ map.nodes[30705857] = Rare({
     }
 }) -- Kor'dok
 
-map.nodes[53114705] = Rare({
+map.nodes[53114705] = RareElite({
     id = 69767,
     note = L['ritualstone_needed'],
     rewards = {
@@ -197,7 +198,7 @@ map.nodes[53114705] = Rare({
     }
 }) -- Ancient Mogu Guardian
 
-map.nodes[44476103] = Rare({
+map.nodes[44476103] = RareElite({
     id = 69339,
     note = L['ritualstone_needed'],
     rewards = {
@@ -206,7 +207,7 @@ map.nodes[44476103] = Rare({
     }
 }) -- Electromancer Ju'le
 
-map.nodes[49942065] = Rare({
+map.nodes[49942065] = RareElite({
     id = 69347,
     note = L['ritualstone_needed'],
     rewards = {

@@ -9,6 +9,7 @@ local Map = ns.Map
 local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -184,9 +185,9 @@ map.nodes[68854890] = Rare({
     }
 }) -- Sangrikrass
 
-map.nodes[69005400] = Rare({id = 80372, quest = 37406}) -- Echidna
+map.nodes[69005400] = RareElite({id = 80372, quest = 37406}) -- Echidna
 
-map.nodes[70402380] = Rare({
+map.nodes[70402380] = RareElite({
     id = 85037,
     quest = 37361,
     rewards = {Transmog({item = 119354, slot = L['cloth']})}

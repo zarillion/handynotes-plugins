@@ -8,6 +8,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 local Collectible = ns.node.Collectible
 
@@ -98,7 +99,7 @@ map.nodes[55202440] = Rare({
     rewards = {Transmog({item = 67238, slot = L['plate']})}
 }) -- Terborus
 
-map.nodes[43106080] = Rare({
+map.nodes[43106080] = RareElite({
     id = 50061,
     rewards = {Transmog({item = 69876, slot = L['mail']})},
     pois = {Path({ns.poi.Circle({origin = 50005250, radius = 9})})}

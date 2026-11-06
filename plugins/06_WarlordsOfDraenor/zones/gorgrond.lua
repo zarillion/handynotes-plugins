@@ -10,6 +10,7 @@ local Collectible = ns.node.Collectible
 local NPC = ns.node.NPC
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -69,7 +70,7 @@ end
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[62905520] = Rare({
+map.nodes[62905520] = RareElite({
     id = 75207,
     note = L['trophy_of_glory_note'],
     requires = ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
@@ -84,7 +85,7 @@ map.nodes[62905520] = Rare({
     }
 }) -- Biolante
 
-map.nodes[43806060] = Rare({
+map.nodes[43806060] = RareElite({
     id = 81528,
     note = L['trophy_of_glory_note'],
     requires = ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
@@ -94,7 +95,7 @@ map.nodes[43806060] = Rare({
     }
 }) -- Crater Lord Igneous
 
-map.nodes[45205160] = Rare({
+map.nodes[45205160] = RareElite({
     id = 81548,
     note = L['trophy_of_glory_note'],
     requires = ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
@@ -105,7 +106,7 @@ map.nodes[45205160] = Rare({
     pois = {Path({45404900, 46004680, 47804640})}
 }) -- Charl Doomwing
 
-map.nodes[53206880] = Rare({
+map.nodes[53206880] = RareElite({
     id = 81537,
     note = L['trophy_of_glory_note'],
     requires = ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
@@ -121,7 +122,7 @@ map.nodes[53206880] = Rare({
     }
 }) -- Khargax the Devourer
 
-map.nodes[50806760] = Rare({
+map.nodes[50806760] = RareElite({
     id = 77093,
     requires = ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
     note = L['roardan_sky_terror_note'] .. '\n\n' .. L['trophy_of_glory_note'],
@@ -132,7 +133,7 @@ map.nodes[50806760] = Rare({
     pois = {POI({61606200}), POI({53106300})}
 }) -- Roardan the Sky Terror
 
-map.nodes[38805120] = Rare({
+map.nodes[38805120] = RareElite({
     id = 81529,
     note = L['trophy_of_glory_note'],
     requires = ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
@@ -142,7 +143,7 @@ map.nodes[38805120] = Rare({
     }
 }) -- Dessicus of the Dead Pools
 
-map.nodes[51804160] = Rare({
+map.nodes[51804160] = RareElite({
     id = 81540,
     note = L['trophy_of_glory_note'],
     requires = ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
@@ -152,7 +153,7 @@ map.nodes[51804160] = Rare({
     }
 }) -- Erosian the Violent
 
-map.nodes[58006360] = Rare({
+map.nodes[58006360] = RareElite({
     id = 80785,
     note = L['trophy_of_glory_note'],
     requires = ns.requirement.Quest(TrophyOfGloryQuests['outpost']),
@@ -162,13 +163,13 @@ map.nodes[58006360] = Rare({
     }
 }) -- Fungal Praetorian
 
-map.nodes[49003300] = Rare({
+map.nodes[49003300] = RareElite({
     id = 86562,
     quest = 37363,
     rewards = {Achievement({id = 9655, criteria = 26542})}
 }) -- Maniacal Madgard
 
-map.nodes[48202100] = Rare({
+map.nodes[48202100] = RareElite({
     id = 86566,
     quest = 37362,
     rewards = {
@@ -177,7 +178,7 @@ map.nodes[48202100] = Rare({
     }
 }) -- Defector Dazgo
 
-map.nodes[49802380] = Rare({
+map.nodes[49802380] = RareElite({
     id = 86571,
     quest = 37366,
     rewards = {
@@ -186,7 +187,7 @@ map.nodes[49802380] = Rare({
     }
 }) -- Durp the Hated
 
-map.nodes[47603080] = Rare({
+map.nodes[47603080] = RareElite({
     id = 86574,
     quest = 37367,
     rewards = {
@@ -195,7 +196,7 @@ map.nodes[47603080] = Rare({
     }
 }) -- Inventor Blammo
 
-map.nodes[45802660] = Rare({
+map.nodes[45802660] = RareElite({
     id = 86577,
     quest = 37365,
     rewards = {
@@ -204,7 +205,7 @@ map.nodes[45802660] = Rare({
     }
 }) -- Horgg
 
-map.nodes[45803300] = Rare({
+map.nodes[45803300] = RareElite({
     id = 86579,
     quest = 37368,
     rewards = {
@@ -213,7 +214,7 @@ map.nodes[45803300] = Rare({
     }
 }) -- Blademaster Ro'gor
 
-map.nodes[46602300] = Rare({
+map.nodes[46602300] = RareElite({
     id = 86582,
     quest = 37364,
     rewards = {

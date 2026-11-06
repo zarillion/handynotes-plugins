@@ -1,3 +1,8 @@
+# v168
+
+* Elite rares now use the rare elite icon and label.
+* Fixed the Goliaths of Gorgrond criteria ids for Drov the Ruiner and Tarlna the Ageless.
+
 # v148
 
 * Bump toc to 120100

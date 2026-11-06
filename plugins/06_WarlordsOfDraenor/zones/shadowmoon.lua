@@ -9,6 +9,7 @@ local Class = ns.Class
 local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -253,7 +254,7 @@ map.nodes[67906392] = Rare({
     rewards = {Currency({id = 824})}
 }) -- Enavra
 
-map.nodes[67318465] = Rare({
+map.nodes[67318465] = RareElite({
     id = 85568,
     note = L['in_cave'],
     quest = 37410,
@@ -291,7 +292,7 @@ map.nodes[48822268] = Rare({
     rewards = {Toy({item = 113542}), Currency({id = 824})}
 }) -- Rai'vosh
 
-map.nodes[48306553] = Rare({
+map.nodes[48306553] = RareElite({
     id = 75435,
     quest = 33389,
     rewards = {Toy({item = 113570}), Currency({id = 824})}
@@ -316,7 +317,7 @@ map.nodes[60625807] = Rare({
     }
 }) -- Shinri
 
-map.nodes[46027164] = Rare({
+map.nodes[46027164] = RareElite({
     id = 84911,
     rewards = {Achievement({id = 9437}), Pet({item = 119431, id = 1601})}
 }) -- Demidos

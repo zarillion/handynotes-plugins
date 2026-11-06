@@ -9,6 +9,7 @@ local Map = ns.Map
 local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -77,7 +78,7 @@ map.nodes[28206620] = Rare({
     rewards = {Item({item = 111666})}
 }) -- Pale Fishmonger
 
-map.nodes[33872295] = Rare({
+map.nodes[33872295] = RareElite({
     id = 71721,
     quest = 32941,
     rewards = {Item({item = 101436})}
@@ -109,7 +110,7 @@ map.nodes[40562758] = Rare({
     rewards = {Transmog({item = 111477, slot = L['leather']})}
 }) -- Yaga the Scarred
 
-map.nodes[40664708] = Rare({
+map.nodes[40664708] = RareElite({
     id = 72294,
     quest = 33014,
     rewards = {Transmog({item = 111490, slot = L['dagger']})}
@@ -206,13 +207,13 @@ map.nodes[70962760] = Rare({
     rewards = {Transmog({item = 111545, slot = L['fist']})}
 }) -- Gorg'ak the Lava Guzzler
 
-map.nodes[70623916] = Rare({
+map.nodes[70623916] = RareElite({
     id = 87356,
     quest = 37379,
     rewards = {Item({item = 119416})}
 }) -- Vrok the Ancient
 
-map.nodes[71014735] = Rare({
+map.nodes[71014735] = RareElite({
     id = 74971,
     quest = 33504,
     rewards = {Transmog({item = 107661, slot = L['offhand']})}
@@ -234,7 +235,7 @@ map.nodes[66562556] = Rare({
     pois = {POI({66982507})}
 }) -- Gibblette the Cowardly
 
-map.nodes[70732940] = Rare({
+map.nodes[70732940] = RareElite({
     id = 87357,
     quest = 37378,
     rewards = {Item({item = 119416})},
@@ -281,14 +282,14 @@ map.nodes[88605740] = Rare({
     rewards = {Transmog({item = 119365, slot = L['leather']})}
 }) -- Ak'ox the Slaughterer
 
-map.nodes[13205060] = Rare({
+map.nodes[13205060] = RareElite({
     id = 81001,
     rewards = {
         Mount({item = 116794, id = 657}) -- Garn Nighthowl
     }
 }) -- Nok-Karosh
 
-map.nodes[62604220] = Rare({
+map.nodes[62604220] = RareElite({
     id = 72156,
     note = L['borrok_the_devourer_note'],
     rewards = {

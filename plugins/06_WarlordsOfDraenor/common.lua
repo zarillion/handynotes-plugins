@@ -270,11 +270,11 @@ ns.node.Squirrel = Class('Squirrel', Collectible, {
 
 local WORLD_BOSS_ENCOUNTER_IDS = {
     [1291] = {
-        Achievement({id = 9423, criteria = 24768}), -- Goliaths of Gorgrond
+        Achievement({id = 9423, criteria = 25768}), -- Goliaths of Gorgrond
         Achievement({id = 9838, criteria = 27652}) -- What A Strange, Interdimensional Trip It's Been
     }, -- Drov the Ruiner
     [1211] = {
-        Achievement({id = 9423, criteria = 24767}), -- Goliaths of Gorgrond
+        Achievement({id = 9423, criteria = 25767}), -- Goliaths of Gorgrond
         Achievement({id = 9838, criteria = 27651}) -- What A Strange, Interdimensional Trip It's Been
     }, -- Tarlna the Ageless
     [1452] = {}, -- Supreme Lord Kazzak

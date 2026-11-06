@@ -6,6 +6,7 @@ local L = ns.locale
 local Map = ns.Map
 
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 
 local Mount = ns.reward.Mount
 local Toy = ns.reward.Toy
@@ -69,7 +70,7 @@ expanse.nodes[57208080] = Poseidus
 
 expanse.nodes[57006960] = Rare({id = 50052, rewards = {Toy({item = 134022})}}) -- Burgy Blackheart
 
-depths.nodes[63123162] = Rare({
+depths.nodes[63123162] = RareElite({
     id = 50009,
     rewards = {
         Transmog({item = 69843, slot = L['polearm']}),
@@ -99,7 +100,7 @@ depths.nodes[46202980] = Rare({
     pois = {POI({41803280, 48203440, 51003220, 48402640, 48002760})}
 }) -- Shok'sharak
 
-expanse.nodes[56804220] = Rare({
+expanse.nodes[56804220] = RareElite({
     id = 40728,
     rewards = {ns.reward.Achievement({id = 4975})}, -- From Hell's Heart I Stab at Thee
     group = {ns.groups.RARE, ns.groups.WHALE_SHARK},

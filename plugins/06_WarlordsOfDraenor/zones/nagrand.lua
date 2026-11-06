@@ -9,6 +9,7 @@ local Map = ns.Map
 local Collectible = ns.node.Collectible
 local PetBattle = ns.node.PetBattle
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local Achievement = ns.reward.Achievement
@@ -35,19 +36,19 @@ local map = Map({id = 550, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[23783861] = Rare({
+map.nodes[23783861] = RareElite({
     id = 98200,
     quest = 40074,
     rewards = {Pet({item = 129218, id = 1765})} -- Glittering Arcane Crystal
 }) -- Guk
 
-map.nodes[25973472] = Rare({
+map.nodes[25973472] = RareElite({
     id = 98198,
     quest = 40075,
     rewards = {Pet({item = 129216, id = 1764})} -- Vibrating Arcane Crystal
 }) -- Rukdug
 
-map.nodes[28162964] = Rare({
+map.nodes[28162964] = RareElite({
     id = 98199,
     quest = 40073,
     rewards = {Pet({item = 129217, id = 1766})} -- Warm Arcane Crystal
@@ -86,7 +87,7 @@ map.nodes[47587036] = Rare({
     rewards = {Pet({item = 116815, id = 1524}), Currency({id = 824})}
 }) -- Netherspawn
 
-map.nodes[52009000] = Rare({id = 80370, quest = 37408}) -- Lernaea
+map.nodes[52009000] = RareElite({id = 80370, quest = 37408}) -- Lernaea
 
 map.nodes[52205580] = Rare({
     id = 82764,
@@ -1038,7 +1039,7 @@ map.nodes[50304130] = Collectible({
     pois = {Path({50304130, 31823445}), highmaulPath}
 }) -- Sallee Silverclamp
 
-local SteamwheedleRare = Class('SteamwheedleRare', Rare,
+local SteamwheedleRare = Class('SteamwheedleRare', RareElite,
     {group = ns.groups.STEAMWHEEDLE})
 
 map.nodes[62601680] = SteamwheedleRare({
