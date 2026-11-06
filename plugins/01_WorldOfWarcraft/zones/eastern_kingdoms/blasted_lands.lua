@@ -123,7 +123,7 @@ map.nodes[51364878] = BLRare({
     }
 }) -- Teremus the Devourer
 
-map.nodes[33604960] = ns.node.AnniversaryRare({
+map.nodes[33604960] = ns.node.AnniversaryBoss({
     id = 121818,
     quest = 47461,
     rewards = {

@@ -10,6 +10,7 @@ local Group = ns.Group
 local Collectible = ns.node.Collectible
 local NPC = ns.node.NPC
 local Rare = ns.node.Rare
+local Boss = ns.node.Boss
 
 local Achievement = ns.reward.Achievement
 local Pet = ns.reward.Pet
@@ -72,7 +73,7 @@ local function IsAnniversaryEvent()
     end
 end
 
-ns.node.AnniversaryRare = Class('AnniversaryRare', Rare, {
+ns.node.AnniversaryBoss = Class('AnniversaryBoss', Boss, {
     sublabel = L['anniversary_note'],
     IsEnabled = function(self)
         if not IsAnniversaryEvent() then return false end

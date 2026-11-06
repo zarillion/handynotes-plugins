@@ -5,6 +5,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 
 local Transmog = ns.reward.Transmog
@@ -30,7 +31,7 @@ map.nodes[67802560] = Rare({
     }
 }) -- Scale Belly
 
-map.nodes[36406720] = Rare({
+map.nodes[36406720] = RareElite({
     id = 108715,
     location = L['in_water'],
     rewards = {Toy({item = 138415})} -- Slightly-Chewed Insult Book

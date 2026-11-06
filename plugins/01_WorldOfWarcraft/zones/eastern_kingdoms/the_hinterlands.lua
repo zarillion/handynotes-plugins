@@ -30,7 +30,7 @@ map.nodes[64808160] = Rare({
     }
 }) -- Mith'rethis the Enchanter
 
-map.nodes[63602800] = ns.node.AnniversaryRare({
+map.nodes[63602800] = ns.node.AnniversaryBoss({
     id = 121821,
     quest = 47463,
     rewards = {

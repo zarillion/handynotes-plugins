@@ -46,8 +46,7 @@ map.nodes[63168567] = Rare({
     faction = 'Horde',
     note = L['lower_floor'],
     rewards = {
-        Transmog({item = 3053, type = L['mail']}), -- Humbert's Chestpiece
-        Transmog({item = 3693, type = L['unknown']}) -- Humbert's Sword
+        Transmog({item = 3053, type = L['mail']}) -- Humbert's Chestpiece
     }
 }) -- Tamra Stormpike
 

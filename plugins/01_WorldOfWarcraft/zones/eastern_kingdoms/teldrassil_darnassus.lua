@@ -46,7 +46,6 @@ map.nodes[65405160] = Rare({
 map.nodes[38803420] = Rare({
     id = 14431,
     rewards = {
-        Transmog({item = 5204, type = L['unknown']}), -- Bloodfeather Belt
         Transmog({item = 18612, type = L['mail']}) -- Bloody Chain Boots
     },
     pois = {POI({37003040, 38803420, 39603740})}

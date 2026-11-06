@@ -5,7 +5,7 @@ local ADDON_NAME, ns = ...
 local Class = ns.Class
 local L = ns.locale
 
-local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 
 local Transmog = ns.reward.Transmog
@@ -23,7 +23,7 @@ local uldaman = ns.Map({id = 16, settings = true, secret = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-local Shovelphlange = Class('shovelphlange', Rare, {
+local Shovelphlange = Class('shovelphlange', RareElite, {
     id = 7057,
     location = L['shovelphlange_location'],
     rewards = {

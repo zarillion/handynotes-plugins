@@ -5,6 +5,7 @@ local ADDON_NAME, ns = ...
 local L = ns.locale
 
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Safari = ns.node.Safari
 
 local Transmog = ns.reward.Transmog
@@ -21,7 +22,7 @@ local map = ns.Map({id = 32, settings = true})
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[57802440] = Rare({
+map.nodes[57802440] = RareElite({
     id = 50846,
     rewards = {
         Transmog({item = 9924, type = L['leather']}), -- Tracker's Tunic

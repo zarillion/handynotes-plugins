@@ -1,3 +1,9 @@
+# v168
+
+* Anniversary world bosses now use the boss icon and label.
+* Elite rares now use the rare elite icon and label.
+* Removed the Prismstone Ring and quest-only items from rare loot.
+
 # v148
 
 * Bump toc to 120100

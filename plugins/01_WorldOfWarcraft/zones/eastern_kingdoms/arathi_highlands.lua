@@ -64,7 +64,6 @@ map.nodes[79602960] = Rare({
     id = 2609,
     location = L['in_cave'],
     rewards = {
-        Transmog({item = 5743, type = L['unknown']}), -- Prismstone Ring
         Transmog({item = 5742, type = L['dagger']}) -- Gemstone Dagger
     },
     pois = {POI({78263678})}

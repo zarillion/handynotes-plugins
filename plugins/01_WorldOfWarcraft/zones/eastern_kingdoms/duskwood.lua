@@ -101,7 +101,7 @@ map.nodes[74207800] = Rare({
     }
 }) -- Nefaru <The Den Mother>
 
-map.nodes[46304000] = ns.node.AnniversaryRare({
+map.nodes[46304000] = ns.node.AnniversaryBoss({
     id = 121913,
     quest = 47463,
     rewards = {

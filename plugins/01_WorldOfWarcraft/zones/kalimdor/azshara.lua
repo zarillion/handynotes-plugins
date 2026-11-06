@@ -39,7 +39,7 @@ map.nodes[62607840] = Rare({
 
 -------------------------------------------------------------------------------
 
-map.nodes[48768382] = ns.node.AnniversaryRare({
+map.nodes[48768382] = ns.node.AnniversaryBoss({
     id = 121820,
     quest = 47462,
     rewards = {
