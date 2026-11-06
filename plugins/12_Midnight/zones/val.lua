@@ -148,7 +148,7 @@ map.nodes[23204140] = Rare({
     pois = {Entrance({29303880})}
 }) -- Nelgothar <The Forgotten>
 
-map.nodes[35905980] = Rare({
+map.nodes[35905980] = RareElite({
     id = 265269,
     quest = 96465,
     location = L['multiple_spawns'],

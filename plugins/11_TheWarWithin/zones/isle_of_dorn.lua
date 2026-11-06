@@ -10,6 +10,7 @@ local Collectible = ns.node.Collectible
 local DisturbedEarth = ns.node.DisturbedEarth
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local FlightMaster = ns.node.FlightMaster
@@ -146,7 +147,7 @@ map.nodes[48212701] = Rare({
     }
 }) -- Kronolith, Might of the Mountain
 
-map.nodes[73004009] = Rare({
+map.nodes[73004009] = RareElite({
     id = 220890,
     quest = 81921, -- 84039
     rewards = {
@@ -231,7 +232,7 @@ map.nodes[58776068] = Rare({
     }
 }) -- Springbubble
 
-map.nodes[69853850] = Rare({
+map.nodes[69853850] = RareElite({
     id = 220883,
     quest = 81922, -- 84038
     rewards = {
@@ -255,7 +256,7 @@ map.nodes[56891601] = Rare({
     pois = {Path({56891601, 57401625, 57761653})}
 }) -- Tempest Lord Incarnus
 
-map.nodes[72913794] = Rare({
+map.nodes[72913794] = RareElite({
     id = 221126,
     quest = 81923, -- 84037
     rewards = {

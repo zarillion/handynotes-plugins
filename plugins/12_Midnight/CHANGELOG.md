@@ -1,3 +1,8 @@
+# v168
+
+* Grouped the shared Forgotten Fel Shard Talon drop into the shared drops section on Naigtal rares.
+* Elite rares now use the rare elite icon and label.
+
 # v167
 
 * Replaced the Hexmask markers in Kindo'jan's Labyrinth with a single random-spawn marker.

@@ -10,6 +10,7 @@ local Collectible = ns.node.Collectible
 local DisturbedEarth = ns.node.DisturbedEarth
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local FlightMaster = ns.node.FlightMaster
@@ -56,7 +57,7 @@ function BeledarInterval:Next()
     return now + timeLeft, timeLeft
 end
 
-local BeledarsSpawn = Class('BeledarsSpawn', Rare, {
+local BeledarsSpawn = Class('BeledarsSpawn', RareElite, {
     id = 207802,
     quest = 81763, -- 85164
     interval = BeledarInterval(),
@@ -83,7 +84,7 @@ map.nodes[25004500] = BeledarsSpawn()
 --     rewards = {Achievement({id = 40851, criteria = 69718})}
 -- }) -- Brineslash
 
-map.nodes[65052965] = Rare({
+map.nodes[65052965] = RareElite({
     id = 206514,
     quest = 82558, -- 84052
     note = L['spreading_the_light_rares_note'],
@@ -97,7 +98,7 @@ map.nodes[65052965] = Rare({
     }
 }) -- Crazed Cabbage Smacker
 
-map.nodes[67552316] = Rare({
+map.nodes[67552316] = RareElite({
     id = 214757,
     quest = 82560, -- 84054
     note = L['croakit_note'],
@@ -113,7 +114,7 @@ map.nodes[67552316] = Rare({
     pois = {POI({65802355})}
 }) -- Croakit
 
-map.nodes[63643205] = Rare({
+map.nodes[63643205] = RareElite({
     id = 206184,
     quest = 82559, -- 84053
     note = L['spreading_the_light_rares_note'],
@@ -168,7 +169,7 @@ map.nodes[72116435] = Rare({
     }
 }) -- Deepfiend Azellix
 
-map.nodes[63931977] = Rare({
+map.nodes[63931977] = RareElite({
     id = 221179,
     quest = 82562, -- 84056
     note = L['spreading_the_light_rares_note'],
@@ -182,7 +183,7 @@ map.nodes[63931977] = Rare({
     }
 }) -- Duskshadow
 
-map.nodes[62011683] = Rare({
+map.nodes[62011683] = RareElite({
     id = 207780,
     quest = 82564, -- 84059
     note = L['spreading_the_light_rares_note'],
@@ -282,7 +283,7 @@ map.nodes[23005922] = Rare({
     }
 }) -- Lytfang the Lost
 
-map.nodes[63452854] = Rare({
+map.nodes[63452854] = RareElite({
     id = 206203,
     quest = 82557, -- 84051
     note = L['spreading_the_light_rares_note'],
@@ -310,7 +311,7 @@ map.nodes[52132681] = Rare({
     }
 }) -- Murkshade
 
-map.nodes[61981331] = Rare({ -- patrols
+map.nodes[61981331] = RareElite({ -- patrols
     id = 220771,
     quest = 82565, -- 84060
     note = L['spreading_the_light_rares_note'],
@@ -324,7 +325,7 @@ map.nodes[61981331] = Rare({ -- patrols
     }
 }) -- Murkspike
 
-map.nodes[61613277] = Rare({
+map.nodes[61613277] = RareElite({
     id = 206977,
     quest = 82563,
     note = L['parasidious_note'],
@@ -354,7 +355,7 @@ map.nodes[57304857] = Rare({
     }
 }) -- Pride of Beledar
 
-map.nodes[61943197] = Rare({
+map.nodes[61943197] = RareElite({
     id = 207826,
     quest = 82566, --- 84058
     note = L['spreading_the_light_rares_note'],
@@ -434,7 +435,7 @@ map.nodes[56486899] = Rare({
     }
 }) -- The Taskmaker
 
-map.nodes[66432411] = Rare({
+map.nodes[66432411] = RareElite({
     id = 207803,
     quest = 82561, -- 84055
     note = L['spreading_the_light_rares_note'],

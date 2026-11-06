@@ -1,3 +1,8 @@
+# v168
+
+* Grouped the Translocated Gorger rares' weekly item and mount under their shared drops section.
+* Elite rares now use the rare elite icon and label.
+
 # v163
 
 * Fixed the Karazhan Catacombs and Siren Isle map nodes tainting the world map, which could block Blizzard's map pins with ADDON_ACTION_BLOCKED.

@@ -11,6 +11,8 @@ local Class = ns.Class
 local Collectible = ns.node.Collectible
 local Achievement = ns.reward.Achievement
 local Pet = ns.reward.Pet
+local Section = ns.reward.Section
+local Spacer = ns.reward.Spacer
 local Transmog = ns.reward.Transmog
 
 local POI = ns.poi.POI
@@ -65,6 +67,7 @@ map.nodes[54604230] = RareElite({
         Transmog({item = 275156, type = L['mail']}), -- Gear-Linked Leggings
         Transmog({item = 275148, type = L['leather']}), -- Reaver's Padded Trousers
         Transmog({item = 275140, type = L['cloth']}), -- Leggings of Tainted Stuffing
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 276298, type = L['dagger']}) -- Forgotten Fel Shard Talon
     }
 }) -- Indomitable Mk XII <Blazing Reaver>
@@ -133,6 +136,7 @@ map.nodes[29701920] = Rare({
         Transmog({item = 275149, type = L['leather']}), -- Fungal Draped Epaulets
         Transmog({item = 275141, type = L['cloth']}), -- Spore-Speckled Shoulderpads
         Transmog({item = 274864, type = L['1h_mace']}), -- Sporebloom Gavel
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 276298, type = L['dagger']}) -- Forgotten Fel Shard Talon
     }
 }) -- Warbringer Thal'kuur <The Mutinied>
@@ -149,7 +153,7 @@ map.nodes[70307640] = Rare({
     }
 }) -- Warp Agent Xi'grivr <Ky'veza's Second>
 
-map.nodes[48804740] = Rare({
+map.nodes[48804740] = RareElite({
     id = 265698,
     quest = 96566,
     rewards = {

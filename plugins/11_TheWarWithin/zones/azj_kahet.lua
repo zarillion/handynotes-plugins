@@ -10,6 +10,7 @@ local Collectible = ns.node.Collectible
 local DisturbedEarth = ns.node.DisturbedEarth
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 
 local FlightMaster = ns.node.FlightMaster
@@ -98,7 +99,7 @@ cot.nodes[30755599] = Rare({
     parent = map.id
 }) -- The Groundskeeper (Chitin Hulk)
 
-map.nodes[64560668] = Rare({
+map.nodes[64560668] = RareElite({
     id = 222624,
     quest = 82077, -- 84081
     rewards = {
@@ -143,7 +144,7 @@ map.nodes[61232730] = Rare({
     }
 }) -- Webspeaker Grik'ik
 
-akl.nodes[65198283] = Rare({
+akl.nodes[65198283] = RareElite({
     id = 216050,
     quest = 82036, -- 84079
     rewards = {
@@ -166,7 +167,7 @@ akl.nodes[65198283] = Rare({
     parent = map.id
 }) -- Harvester Qixt
 
-akl.nodes[67438318] = Rare({
+akl.nodes[67438318] = RareElite({
     id = 216048,
     quest = 82034, -- 84077
     rewards = {
@@ -183,7 +184,7 @@ akl.nodes[67438318] = Rare({
     parent = map.id
 }) -- Jix'ak the Crazed
 
-map.nodes[62400703] = Rare({ -- renamed by Blizzard?
+map.nodes[62400703] = RareElite({ -- renamed by Blizzard?
     id = 216052,
     quest = 82078, -- 84082
     rewards = {
@@ -284,7 +285,7 @@ map.nodes[43863678] = Rare({
     }
 }) -- Rhak'ik & Khak'ik
 
-akl.nodes[61918962] = Rare({
+akl.nodes[61918962] = RareElite({
     id = 216049,
     quest = 82035, -- 84078
     location = L['in_small_cave'],
@@ -313,7 +314,7 @@ map.nodes[76585780] = Rare({
     pois = {Entrance({77485899})} -- Entrance
 }) -- The XT-Minecrusher 8700
 
-map.nodes[64590352] = Rare({
+map.nodes[64590352] = RareElite({
     id = 216051,
     quest = 82037, -- 84080
     rewards = {
@@ -392,7 +393,7 @@ function BloodVial:GetStatus()
                ns.status.Red(L['missing'])
 end
 
-map.nodes[62816618] = Rare({
+map.nodes[62816618] = RareElite({
     id = 216046,
     quest = 82289, -- 85166
     note = L['tkaktath_note'],

@@ -10,6 +10,7 @@ local Collectible = ns.node.Collectible
 local DisturbedEarth = ns.node.DisturbedEarth
 local PT = ns.node.ProfessionTreasures
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 local Vendor = ns.node.Vendor
 
@@ -123,7 +124,7 @@ map.nodes[62476887] = Rare({
     }
 }) -- Deathbound Husk
 
-map.nodes[62885265] = Rare({
+map.nodes[62885265] = RareElite({
     id = 218393,
     quest = 80003, -- 84050
     note = L['disturbed_earthgorger_note'],
@@ -157,7 +158,7 @@ map.nodes[48840880] = Rare({
     }
 }) -- Deepflayer Broodmother
 
-map.nodes[61194950] = Rare({
+map.nodes[61194950] = RareElite({
     id = 221199,
     quest = 81648, -- 84048
     rewards = {
@@ -196,7 +197,7 @@ map.nodes[38613508] = Rare({
     }
 }) -- King Splash
 
-map.nodes[56727668] = Rare({
+map.nodes[56727668] = RareElite({
     id = 220285,
     quest = 81633, -- 85163
     note = L['lurker_note'],
@@ -230,7 +231,7 @@ map.nodes[52855473] = Rare({
     }
 }) -- Rampaging Blight
 
-map.nodes[62054622] = Rare({
+map.nodes[62054622] = RareElite({
     id = 221217,
     quest = 81652, -- 84049
     rewards = {

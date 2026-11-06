@@ -8,6 +8,7 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 local SkyridingGlyph = ns.node.SkyridingGlyph
 local Node = ns.node.Node
@@ -112,7 +113,7 @@ map.nodes[75233098] = Rare({
     ]]
 }) -- Heka'tamos <the Elemental Disjunction> collect 4 element from around the eco dome then interact with brazer
 
-map.nodes[63824363] = Rare({
+map.nodes[63824363] = RareElite({
     id = 232128,
     quest = 90596,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
@@ -148,7 +149,7 @@ map.nodes[54055884] = Rare({
     }
 }) -- Malek'ta <The Jaws of Oblivion> (inspect nearby Juvenile Dustback corspe then head NE and jump on spawn point)
 
-map.nodes[54455445] = Rare({
+map.nodes[54455445] = RareElite({
     id = 231981,
     quest = 90594,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
@@ -173,7 +174,7 @@ map.nodes[56205058] = Rare({
     }
 }) -- Morgil the Netherspawn - patrols
 
-map.nodes[52782081] = Rare({
+map.nodes[52782081] = RareElite({
     id = 232127,
     quest = 90595,
     requires = ns.requirement.Spell(1214374), -- Phase Diving
@@ -252,7 +253,7 @@ map.nodes[76754219] = Rare({
     }
 }) -- Stalker of the Wastes
 
-map.nodes[74043254] = Rare({
+map.nodes[74043254] = RareElite({
     id = 234845,
     note = L['sthaarbs_note'],
     pois = {POI({75813291})},
@@ -313,14 +314,12 @@ map.nodes[65144998] = Rare({
 -------------------------- MOUNT: TRANSLOCATED GORGER -------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[71402760] = Rare({
+map.nodes[71402760] = RareElite({
     id = 231229,
     note = L['translocated_gorger_note'],
     quest = 84993,
     rewards = {
-        Item({item = 246240, weekly = 91309}), -- Devoured Energy-Pod
-        Mount({item = 246159, id = 2602}), -- Translocated Gorger
-        Spacer(), Section(L['shared_drops']),
+        Section(L['shared_drops']),
         Transmog({item = 240121, slot = L['shield']}), -- Reshii Brute's Barrier
         Transmog({item = 240111, slot = L['1h_axe']}), -- Reshii Skirmisher's Axe
         Transmog({item = 240112, slot = L['dagger']}), -- Reshii Scout's Blade
@@ -331,18 +330,18 @@ map.nodes[71402760] = Rare({
         Transmog({item = 240117, slot = L['wand']}), -- Reshii Magi's Wand
         Transmog({item = 240118, slot = L['polearm']}), -- Reshii Brute's Spear
         Transmog({item = 240119, slot = L['staff']}), -- Reshii Skirmisher's Staff
-        Transmog({item = 240120, slot = L['offhand']}) -- Reshii Magi's Lantern
+        Transmog({item = 240120, slot = L['offhand']}), -- Reshii Magi's Lantern
+        Spacer(), Item({item = 246240, weekly = 91309}), -- Devoured Energy-Pod
+        Mount({item = 246159, id = 2602}) -- Translocated Gorger
     }
 }) -- Korgoth the Hungerer
 
-map.nodes[50605410] = Rare({
+map.nodes[50605410] = RareElite({
     id = 234970,
     note = L['translocated_gorger_note'],
     quest = 86447,
     rewards = {
-        Item({item = 246240, weekly = 91310}), -- Devoured Energy-Pod
-        Mount({item = 246159, id = 2602}), -- Translocated Gorger
-        Spacer(), Section(L['shared_drops']),
+        Section(L['shared_drops']),
         Transmog({item = 240121, slot = L['shield']}), -- Reshii Brute's Barrier
         Transmog({item = 240111, slot = L['1h_axe']}), -- Reshii Skirmisher's Axe
         Transmog({item = 240112, slot = L['dagger']}), -- Reshii Scout's Blade
@@ -353,18 +352,18 @@ map.nodes[50605410] = Rare({
         Transmog({item = 240117, slot = L['wand']}), -- Reshii Magi's Wand
         Transmog({item = 240118, slot = L['polearm']}), -- Reshii Brute's Spear
         Transmog({item = 240119, slot = L['staff']}), -- Reshii Skirmisher's Staff
-        Transmog({item = 240120, slot = L['offhand']}) -- Reshii Magi's Lantern
+        Transmog({item = 240120, slot = L['offhand']}), -- Reshii Magi's Lantern
+        Spacer(), Item({item = 246240, weekly = 91310}), -- Devoured Energy-Pod
+        Mount({item = 246159, id = 2602}) -- Translocated Gorger
     }
 }) -- Miasmawrath
 
-map.nodes[49506420] = Rare({
+map.nodes[49506420] = RareElite({
     id = 235087,
     note = L['translocated_gorger_note'],
     quest = 86464,
     rewards = {
-        Item({item = 246240, weekly = 91311}), -- Devoured Energy-Pod
-        Mount({item = 246159, id = 2602}), -- Translocated Gorger
-        Spacer(), Section(L['shared_drops']),
+        Section(L['shared_drops']),
         Transmog({item = 240121, slot = L['shield']}), -- Reshii Brute's Barrier
         Transmog({item = 240111, slot = L['1h_axe']}), -- Reshii Skirmisher's Axe
         Transmog({item = 240112, slot = L['dagger']}), -- Reshii Scout's Blade
@@ -375,19 +374,19 @@ map.nodes[49506420] = Rare({
         Transmog({item = 240117, slot = L['wand']}), -- Reshii Magi's Wand
         Transmog({item = 240118, slot = L['polearm']}), -- Reshii Brute's Spear
         Transmog({item = 240119, slot = L['staff']}), -- Reshii Skirmisher's Staff
-        Transmog({item = 240120, slot = L['offhand']}) -- Reshii Magi's Lantern
+        Transmog({item = 240120, slot = L['offhand']}), -- Reshii Magi's Lantern
+        Spacer(), Item({item = 246240, weekly = 91311}), -- Devoured Energy-Pod
+        Mount({item = 246159, id = 2602}) -- Translocated Gorger
     }
 }) -- The Harvester
 
-taz.nodes[27507230] = Rare({
+taz.nodes[27507230] = RareElite({
     id = 235104,
     note = L['translocated_gorger_note'],
     parent = map.id,
     quest = 86465,
     rewards = {
-        Item({item = 246240, weekly = 91312}), -- Devoured Energy-Pod
-        Mount({item = 246159, id = 2602}), -- Translocated Gorger
-        Spacer(), Section(L['shared_drops']),
+        Section(L['shared_drops']),
         Transmog({item = 240121, slot = L['shield']}), -- Reshii Brute's Barrier
         Transmog({item = 240111, slot = L['1h_axe']}), -- Reshii Skirmisher's Axe
         Transmog({item = 240112, slot = L['dagger']}), -- Reshii Scout's Blade
@@ -398,7 +397,9 @@ taz.nodes[27507230] = Rare({
         Transmog({item = 240117, slot = L['wand']}), -- Reshii Magi's Wand
         Transmog({item = 240118, slot = L['polearm']}), -- Reshii Brute's Spear
         Transmog({item = 240119, slot = L['staff']}), -- Reshii Skirmisher's Staff
-        Transmog({item = 240120, slot = L['offhand']}) -- Reshii Magi's Lantern
+        Transmog({item = 240120, slot = L['offhand']}), -- Reshii Magi's Lantern
+        Spacer(), Item({item = 246240, weekly = 91312}), -- Devoured Energy-Pod
+        Mount({item = 246159, id = 2602}) -- Translocated Gorger
     }
 }) -- The Wallbreaker
 
@@ -406,7 +407,7 @@ taz.nodes[27507230] = Rare({
 -------------------------------- WARRANT RARES --------------------------------
 -------------------------------------------------------------------------------
 
-taz.nodes[71135712] = Rare({
+taz.nodes[71135712] = RareElite({
     id = 238540,
     parent = map.id,
     quest = 90698,
@@ -424,7 +425,7 @@ taz.nodes[71135712] = Rare({
     }
 }) -- Grubber
 
-map.nodes[49152824] = Rare({
+map.nodes[49152824] = RareElite({
     id = 238144,
     quest = 90687,
     requires = ns.requirement.Item(236353), -- [Shatterpulse Cell Key] from warrants
@@ -435,7 +436,7 @@ map.nodes[49152824] = Rare({
     }
 }) -- Shatterpulse
 
-taz.nodes[35053647] = Rare({
+taz.nodes[35053647] = RareElite({
     id = 241956,
     parent = map.id,
     quest = 90696,
@@ -447,7 +448,7 @@ taz.nodes[35053647] = Rare({
     }
 }) -- Arcana-Monger So'zer
 
-map.nodes[48441696] = Rare({
+map.nodes[48441696] = RareElite({
     id = 238536,
     quest = 90689,
     requires = ns.requirement.Item(236957), -- [Hollowbane Portal Key] from warrants
@@ -458,7 +459,7 @@ map.nodes[48441696] = Rare({
     }
 }) -- Hollowbane
 
-map.nodes[42505755] = Rare({
+map.nodes[42505755] = RareElite({
     id = 241920,
     quest = 90692,
     requires = ns.requirement.Item(239276), -- [Purple Peat Cell Key] from warrants
@@ -475,7 +476,7 @@ map.nodes[42505755] = Rare({
     }
 }) -- Purple Peat
 
-taz.nodes[31155818] = Rare({
+taz.nodes[31155818] = RareElite({
     id = 238384,
     parent = map.id,
     quest = 90694,

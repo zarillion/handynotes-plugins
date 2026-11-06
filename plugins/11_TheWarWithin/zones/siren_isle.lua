@@ -8,6 +8,7 @@ local Map = ns.Map
 
 local Collectible = ns.node.Collectible
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 local Vendor = ns.node.Vendor
 
@@ -109,7 +110,7 @@ map.nodes[45992076] = Collectible({
 
 ---------------------------------- EXCAVATION ---------------------------------
 
-map.nodes[26206546] = Rare({
+map.nodes[26206546] = RareElite({
     id = 229982,
     location = L['in_cave'],
     note = L['the_drowned_lair_note'],
@@ -119,7 +120,7 @@ map.nodes[26206546] = Rare({
     vignette = 6754
 }) -- Nerathor
 
-map.nodes[57726612] = Rare({
+map.nodes[57726612] = RareElite({
     id = 228201,
     location = L['in_cave'],
     note = L['the_drain_note'],
@@ -129,7 +130,7 @@ map.nodes[57726612] = Rare({
     vignette = 6517
 }) -- Gravesludge
 
-map.nodes[37115497] = Rare({
+map.nodes[37115497] = RareElite({
     id = 229992,
     location = L['in_cave'],
     note = L['shuddering_hollow_note'],
@@ -149,14 +150,14 @@ ns.hooks.areapoievent.Add(ns.groups.RARE, EXCAVATION_POIS)
 
 ------------------------------- VYKRUL AND NAGA -------------------------------
 
-map.nodes[53283383] = Rare({
+map.nodes[53283383] = RareElite({
     id = 228601,
     quest = 84801, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70796})},
     vignette = 6531
 }) -- Ghostmaker
 
-map.nodes[34151392] = Rare({
+map.nodes[34151392] = RareElite({
     id = 228155,
     pois = {
         Path({
@@ -171,7 +172,7 @@ map.nodes[34151392] = Rare({
     vignette = 6529
 }) -- Grimgull
 
-map.nodes[67391919] = Rare({
+map.nodes[67391919] = RareElite({
     id = 231090,
     pois = {
         Path({
@@ -187,14 +188,14 @@ map.nodes[67391919] = Rare({
     vignette = 6607
 }) -- Snacker
 
-map.nodes[46787812] = Rare({
+map.nodes[46787812] = RareElite({
     id = 228151,
     quest = 84794, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70800})},
     vignette = 6526
 }) -- Wreckwater
 
-tfv.nodes[66465635] = Rare({
+tfv.nodes[66465635] = RareElite({
     id = 228159,
     quest = 84797, -- hidden, also 85956 (on kill)
     rewards = {
@@ -216,7 +217,7 @@ tfv.nodes[28072475] = Rare({
 
 ------------------------------------ VYKRUL -----------------------------------
 
-map.nodes[32457405] = Rare({
+map.nodes[32457405] = RareElite({
     id = 227545,
     quest = 84792, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70805})},
@@ -224,7 +225,7 @@ map.nodes[32457405] = Rare({
     vignette = 6525
 }) -- Ikir the Flotsurge
 
-map.nodes[63948729] = Rare({
+map.nodes[63948729] = RareElite({
     id = 230137,
     quest = 84805, -- hidden, also 84840 (on kill)
     rewards = {Achievement({id = 41046, criteria = 70806})},
@@ -234,7 +235,7 @@ map.nodes[63948729] = Rare({
 
 ------------------------------------- NAGA ------------------------------------
 
-map.nodes[36147261] = Rare({
+map.nodes[36147261] = RareElite({
     id = 228154,
     quest = 84795, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70794})},
@@ -242,7 +243,7 @@ map.nodes[36147261] = Rare({
     vignette = 6530
 }) -- Bloodbrine
 
-map.nodes[61758953] = Rare({
+map.nodes[61758953] = RareElite({
     id = 229852,
     quest = 84802, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70801})},
@@ -250,7 +251,7 @@ map.nodes[61758953] = Rare({
     vignette = 6581
 }) -- Coralweaver Calliso
 
-map.nodes[56068410] = Rare({
+map.nodes[56068410] = RareElite({
     id = 229853,
     quest = 84803, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70802})},
@@ -260,7 +261,7 @@ map.nodes[56068410] = Rare({
 
 ----------------------------------- PIRATES -----------------------------------
 
-map.nodes[66128495] = Rare({
+map.nodes[66128495] = RareElite({
     id = 228583,
     quest = 84800, -- hidden
     rewards = {Achievement({id = 41046, criteria = 70803})},
@@ -268,7 +269,7 @@ map.nodes[66128495] = Rare({
     vignette = 6580
 }) -- Chef Chum Platter
 
-map.nodes[60698921] = Rare({
+map.nodes[60698921] = RareElite({
     id = 228580,
     pois = {
         Path({
@@ -292,7 +293,7 @@ map.nodes[55968404] = Rare({
     vignette = 6616
 }) -- Brinebough
 
-map.nodes[33027359] = Rare({
+map.nodes[33027359] = RareElite({
     id = 231357,
     quest = 85405, -- hidden, also 85113 (on kill)
     rewards = {Item({item = 232569})}, -- Cyclonic Runekey

@@ -7,7 +7,7 @@ local Map = ns.Map
 
 local Node = ns.node.Node
 local RitualCollectible = ns.node.RitualCollectible
-local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 
 local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
@@ -22,7 +22,7 @@ local eversong = ns.maps[2395]
 ------------------------------------ RARES ------------------------------------
 -------------------------------------------------------------------------------
 
-map.nodes[55103870] = Rare({
+map.nodes[55103870] = RareElite({
     id = 259971,
     requires = ns.requirement.Reputation(2792, 8, true), -- Ritual Sites Renown 8
     rewards = {

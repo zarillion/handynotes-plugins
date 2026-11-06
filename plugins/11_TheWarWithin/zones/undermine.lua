@@ -9,6 +9,7 @@ local Map = ns.Map
 local Collectible = ns.node.Collectible
 local Node = ns.node.Node
 local Rare = ns.node.Rare
+local RareElite = ns.node.RareElite
 local Treasure = ns.node.Treasure
 local Vendor = ns.node.Vendor
 
@@ -185,7 +186,7 @@ map.nodes[41354357] = Rare({
     }
 }) -- Swigs Farsight
 
-map.nodes[26516830] = Rare({
+map.nodes[26516830] = RareElite({
     id = 230746,
     quest = 84877,
     vignette = 6593,
@@ -198,7 +199,7 @@ map.nodes[26516830] = Rare({
     }
 }) -- Ephemeral Agent Lathyd
 
-map.nodes[63354975] = Rare({
+map.nodes[63354975] = RareElite({
     id = 230793,
     quest = 84884,
     vignette = 6594,
@@ -216,7 +217,7 @@ map.nodes[63354975] = Rare({
     pois = {Path({63574989, 64085016, 64005291})}
 }) -- The Junk-Wall
 
-map.nodes[52354107] = Rare({
+map.nodes[52354107] = RareElite({
     id = 230800,
     quest = 84895,
     vignette = 6595,
@@ -232,7 +233,7 @@ map.nodes[52354107] = Rare({
     }
 }) -- Slugger the Smart
 
-map.nodes[58488643] = Rare({
+map.nodes[58488643] = RareElite({
     id = 230828,
     quest = 84907,
     vignette = 6596,
@@ -249,7 +250,7 @@ map.nodes[58488643] = Rare({
     }
 }) -- Chief Foreman Gutso
 
-map.nodes[60580989] = Rare({
+map.nodes[60580989] = RareElite({
     id = 230840,
     quest = 84911,
     rewards = {
@@ -266,7 +267,7 @@ map.nodes[60580989] = Rare({
     vignette = 6597
 }) -- Flyboy Snooty
 
-map.nodes[40002232] = Rare({
+map.nodes[40002232] = RareElite({
     id = 234480,
     note = format(L['complete_event'], 234819), -- Ragzy Cashgrab
     quest = 90488, -- 86298
@@ -288,7 +289,7 @@ map.nodes[40002232] = Rare({
     sublabel = format(L['requires_ally'], 2673) -- Bilgewater Cartel
 }) -- M.A.G.N.O.
 
-map.nodes[32027652] = Rare({
+map.nodes[32027652] = RareElite({
     id = 234499,
     note = format(L['complete_event'], 234751), -- Noggenfogger Recall Technician
     quest = 90489, -- 86307
@@ -310,7 +311,7 @@ map.nodes[32027652] = Rare({
     sublabel = format(L['requires_ally'], 2677) -- Steamwheedle Cartel
 }) -- Giovante
 
-map.nodes[57207860] = Rare({
+map.nodes[57207860] = RareElite({
     id = 233471,
     note = format(L['complete_event'], 236035), -- Scrapminer Krazzik
     quest = 90491, -- 85778
@@ -328,7 +329,7 @@ map.nodes[57207860] = Rare({
     sublabel = format(L['requires_ally'], 2671) -- Venture Company
 }) -- Scrapchewer
 
-map.nodes[64162556] = Rare({
+map.nodes[64162556] = RareElite({
     id = 233472,
     note = format(L['complete_event'], 234834), -- Boatwright Frankle
     quest = 90490, -- 85777
@@ -346,7 +347,7 @@ map.nodes[64162556] = Rare({
     sublabel = format(L['requires_ally'], 2675) -- Blackwater Cartel
 }) -- Volstrike the Charged
 
-map.nodes[40209190] = Rare({
+map.nodes[40209190] = RareElite({
     id = 231310,
     note = format(L['complete_event'], 231329), -- De-Pollution Station X1119
     quest = 90492, -- 85010
