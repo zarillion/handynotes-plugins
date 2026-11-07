@@ -19,7 +19,7 @@ L['options_icons_squirrels'] = '{achievement:14731}'
 L['options_icons_squirrels_desc'] = 'Места появления зверьков для {achievement:14731}'
 
 L['options_icons_safari'] = '{achievement:14867}'
-L['options_icons_safari_desc'] = nil
+L['options_icons_safari_desc'] = 'Показывать места обитания питомцев для достижения {achievement:14867}.'
 
 -------------------------------------------------------------------------------
 ---------------------------------- ARDENWEALD ---------------------------------
@@ -688,10 +688,10 @@ L['nexus_cave_anguish_upper'] = 'В Яме Страданий (верхний у
 L['nexus_cave_desmotaeron'] = 'В маленькой пещере за пределами Дезмотерона'
 L['nexus_cave_echoing_outside'] = 'За пределами Гулких пещер'
 L['nexus_cave_forlorn'] = 'Внутри пещеры Тоскливый Приют.'
-L['nexus_cave_howl_outside'] = 'На земле за пределами пещеры Вой Смерти.'
+L['nexus_cave_howl_outside'] = 'На земле за пределами пещеры Рев Смерти.'
 L['nexus_cave_howl'] = 'Внутри пещеры Вой Смерти'
 L['nexus_cave_roar'] = 'Внутри пещеры Рев Смерти'
-L['nexus_cave_roar_outside'] = nil
+L['nexus_cave_roar_outside'] = 'Снаружи пещеры {location:Рев Смерти}'
 L['nexus_cave_ledge'] = 'В маленькой пещере под уступом'
 L['nexus_cave_prodigum'] = 'В маленькой пещере в Продигум'
 L['nexus_cave_soulstained'] = 'В маленькой пещере в Полях Оскверненных Душ'
@@ -701,7 +701,7 @@ L['nexus_npc_akros'] = 'Наверху лестницы рядом с {npc:17078
 L['nexus_npc_dekaris'] = 'На вершине пика, где находится {npc:157964}'
 L['nexus_npc_dolos'] = 'На земле позади {npc:170711}'
 L['nexus_npc_ekphoras'] = 'Рядом с платформой {npc:169827}'
-L['nexus_npc_eternas'] = nil
+L['nexus_npc_eternas'] = 'На земле позади {npc:154330}'
 L['nexus_npc_incinerator'] = 'На небольшом выступе под {npc:156203}'
 L['nexus_npc_orophea'] = 'На земле рядом с {npc:172577}'
 L['nexus_npc_orrholyn'] = 'Найдено ниже платформы {npc:162845}'
@@ -1092,5 +1092,9 @@ L['options_icons_mawsworn_supply_cache_desc'] = 'Показать возможн
 L['options_icons_coreless_automa'] = '{achievement:15542}'
 L['options_icons_coreless_automa_desc'] = 'Расположение пустых автоматов для достижения {achievement:15542}.'
 
-L['ponderers_portal_label'] = nil
-L['ponderers_portal_note'] = nil
+L['ponderers_portal_label'] = 'Портал Мыслителя'
+L['ponderers_portal_note'] = [[{item:190196} можно найти с помощью {item:190177}, который содержится в {item:187780} - сундуке идеала за репутацию с фракцией {faction:Просветленные}.
+
+{note:Портал может обыскать любой игрок после появления эмоции на всю зону, а не только те, кто его открыл.}
+
+Чтобы открыть портал, шести игрокам нужно сесть на вершины шестиугольных колонн вокруг водоема под {location:Кузней Посмертия} в центре {location:Зерет Мортис} и использовать {item:190177}. На каждой колонне должно находиться по одному игроку.]]
