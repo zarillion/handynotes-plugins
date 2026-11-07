@@ -192,7 +192,10 @@ local hozen_warrior_spear = Treasure({
     note = L['in_cave'],
     quest = 31413,
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Transmog({item = 86394, slot = L['polearm']}) -- Hozen Warrior Spear
     }
 }) -- Hozen Warrior Spear
@@ -204,7 +207,10 @@ map.nodes[35177631] = Treasure({
     note = L['in_cave'],
     quest = 31304,
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Item({item = 86125}) -- Kafa Press
     },
     pois = {POI({37367782})}
@@ -215,7 +221,10 @@ local sprites_cloth_chest = Treasure({
     note = L['in_cave'],
     quest = 31412,
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Transmog({item = 86221, slot = L['cloak']}), -- Wise Sprite Cloak
         Transmog({item = 86222, slot = L['cloak']}), -- Precise Sprite Cloak
         Transmog({item = 86223, slot = L['cloak']}), -- Agile Sprite Cloak
@@ -230,7 +239,10 @@ map.nodes[71146258] = Treasure({
     label = L['sturdy_yaungol_spear'],
     quest = 31421,
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Transmog({item = 88723, slot = L['polearm']}) -- Sturdy Yaungol Spear
     }
 }) -- Sturdy Yaungol Spear
@@ -239,7 +251,10 @@ map.nodes[44695234] = Treasure({
     label = '{item:86393}',
     quest = 31417,
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Item({item = 86393}) -- Tablet of Ren Yun
     }
 }) -- Tablet of Ren Yun
@@ -249,7 +264,10 @@ map.nodes[47907347] = Treasure({
     note = L['momos_treasure_chest_note'],
     quest = 31868,
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}) -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }) -- Is Another Man's Treasure
     },
     pois = {POI({48127304})}
 }) -- Mo-Mo's Treasure Chest
@@ -259,7 +277,10 @@ map.nodes[64214512] = Treasure({
     note = L['in_cave'],
     quest = 31420,
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Riches of Pandaria
         Item({item = 86471}) -- Ancient Mogu Tablet
     },
     pois = {POI({63944969, 63234195})}
@@ -270,7 +291,10 @@ local hozen_treasure_cache = Treasure({
     note = L['in_cave'] .. '\n' .. L['hozen_treasure_cache_note'],
     quest = 31414,
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}) -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }) -- Riches of Pandaria
     }
 }) -- Hozen Treasure Cache
 
@@ -282,7 +306,10 @@ map.nodes[36747983] = Treasure({
     quest = 31418,
     note = L['lost_adventurers_belongings_note'],
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}) -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }) -- Riches of Pandaria
     }
 }) -- Lost Adventurer's Belongings
 
@@ -290,7 +317,10 @@ map.nodes[52575154] = Treasure({
     label = L['rikktiks_tick_remover'],
     quest = 31419,
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Riches of Pandaria
         Item({item = 86430}) -- Rikktik's Tick Remover
     }
 }) -- Rikktik's Tick Remover
@@ -299,7 +329,10 @@ map.nodes[72003390] = Treasure({
     label = '{item:86422}',
     quest = 31416,
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Riches of Pandaria
         Item({item = 86422}) -- Statue of Xuen
     }
 }) -- Statue of Xuen
@@ -309,7 +342,10 @@ local stolen_sprite_treasure = Treasure({
     note = L['stolen_sprite_treasure_note'],
     quest = 31415,
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}) -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }) -- Riches of Pandaria
     }
 }) -- Stolen Sprite Treasure
 
@@ -320,7 +356,10 @@ map.nodes[59207300] = Treasure({
     label = '{item:86427}',
     quest = 31422,
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Riches of Pandaria
         Item({item = 86427}) -- Terracotta Head
     },
     pois = {POI({58407350, 59207450, 57007550, 57807630})}

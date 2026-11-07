@@ -1,3 +1,7 @@
+# v169
+
+* Treasure achievement counters now show a localized label.
+
 # v168
 
 * Elite rares now use the rare elite icon and label.

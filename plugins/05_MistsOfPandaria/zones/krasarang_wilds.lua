@@ -237,7 +237,10 @@ map.nodes[52308870] = Treasure({
     quest = 31411,
     label = '{item:86432}',
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Item({item = 87266})
     }
 }) -- Recipe: Banana Infused Rum
@@ -246,7 +249,10 @@ map.nodes[50804930] = Treasure({
     quest = 31409,
     label = '{item:86124}',
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Transmog({item = 86124, slot = L['polearm']}) -- Pandaren Fishing Spear
     }
 }) -- Pandaren Fishing Spear
@@ -255,7 +261,10 @@ map.nodes[42309200] = Treasure({
     quest = 31410,
     label = L['equipment_locker'],
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Transmog({item = 86115, slot = L['leather']}), -- Swashbuckling Boots
         Transmog({item = 86122, slot = L['plate']}), -- Plankwalking Greaves
         Transmog({item = 86117, slot = L['cloth']}), -- Seafarer's Treads of Precision
@@ -273,7 +282,10 @@ map.nodes[68800700] = Treasure({
     label = '{item:86220}',
     icon = 'chest_yw',
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Riches of Pandaria
         Item({item = 86220})
     },
     pois = {POI({70500951})}

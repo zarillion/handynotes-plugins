@@ -141,7 +141,10 @@ map.nodes[66204470] = Treasure({
     quest = 31425,
     label = '{item:86518}',
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Transmog({item = 86518, slot = L['1h_mace']})
     }
 }) -- Yaungol Fire Carrier
@@ -151,7 +154,10 @@ map.nodes[62823405] = Treasure({
     note = L['abandoned_crate_of_goods_note'],
     quest = 31427,
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}) -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }) -- Riches of Pandaria
     }
 }) -- Abandoned Crate of Goods
 
@@ -159,7 +165,10 @@ map.nodes[65808610] = Treasure({
     label = '{item:86472}',
     quest = 31426,
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Riches of Pandaria
         Item({item = 86472})
     }
 }) -- Amber Encased Moth
@@ -169,7 +178,10 @@ map.nodes[53905840] = Treasure({
     note = L['multiple_spawns'],
     quest = 31424,
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Riches of Pandaria
         Item({item = 86517})
     },
     pois = {
@@ -185,7 +197,10 @@ local fragment_of_dread = Treasure({
     note = L['in_cave'] .. '\n' .. L['multiple_spawns'],
     quest = 31426,
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Riches of Pandaria
         Item({item = 86516})
     }
 }) -- Fragment of Dread

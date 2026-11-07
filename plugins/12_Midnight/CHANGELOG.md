@@ -1,3 +1,7 @@
+# v169
+
+* World boss drops now show on the official area POI and world quest pins.
+
 # v168
 
 * Grouped the shared Forgotten Fel Shard Talon drop into the shared drops section on Naigtal rares.

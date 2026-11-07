@@ -656,3 +656,108 @@ ns.node.Safari = {
         }
     })
 }
+
+-------------------------------------------------------------------------------
+-------------------------------- WORLD BOSSES ---------------------------------
+-------------------------------------------------------------------------------
+
+ns.hooks.worldquest.Add(ns.groups.RARE, {
+    [61813] = { -- Valinor, the Light of Eons
+        Transmog({item = 184170, slot = L['cloth']}), -- Doubtweaver's Handwraps
+        Transmog({item = 184136, slot = L['leather']}), -- Anima-Charged Wristbanding
+        Transmog({item = 184125, slot = L['mail']}), -- Servo-Chain Waistguard
+        Transmog({item = 184139, slot = L['plate']}), -- Valinor's Ground Pounders
+        Transmog({item = 184132, slot = L['plate']}), -- Oversized Centurion Helm
+        Transmog({item = 184141, slot = L['cloak']}) -- Shroud of the Penitent
+    },
+    [66614] = { -- Valinor, the Light of Eons
+        Transmog({item = 184170, slot = L['cloth']}), -- Doubtweaver's Handwraps
+        Transmog({item = 184136, slot = L['leather']}), -- Anima-Charged Wristbanding
+        Transmog({item = 184125, slot = L['mail']}), -- Servo-Chain Waistguard
+        Transmog({item = 184139, slot = L['plate']}), -- Valinor's Ground Pounders
+        Transmog({item = 184132, slot = L['plate']}), -- Oversized Centurion Helm
+        Transmog({item = 184141, slot = L['cloak']}) -- Shroud of the Penitent
+    },
+    [61816] = { -- Mortanis
+        Transmog({item = 184133, slot = L['cloth']}), -- Spine Crawler Waistcord
+        Transmog({item = 184140, slot = L['leather']}), -- Bone-Cleated Footpads
+        Transmog({item = 184128, slot = L['mail']}), -- Mortanis's Ribcage
+        Transmog({item = 184173, slot = L['mail']}), -- Bone Crushing Vicegrips
+        Transmog({item = 184135, slot = L['plate']}) -- Shoulderblade Vambraces
+    },
+    [66617] = { -- Mortanis
+        Transmog({item = 184133, slot = L['cloth']}), -- Spine Crawler Waistcord
+        Transmog({item = 184140, slot = L['leather']}), -- Bone-Cleated Footpads
+        Transmog({item = 184128, slot = L['mail']}), -- Mortanis's Ribcage
+        Transmog({item = 184173, slot = L['mail']}), -- Bone Crushing Vicegrips
+        Transmog({item = 184135, slot = L['plate']}) -- Shoulderblade Vambraces
+    },
+    [61815] = { -- Oranomonos the Everbranching
+        Transmog({item = 184127, slot = L['cloth']}), -- Slippers of the Leafy Undergrowth
+        Transmog({item = 184172, slot = L['leather']}), -- Seed-Tender's Handwraps
+        Transmog({item = 184129, slot = L['leather']}), -- Oranomonos's Diaphanous Leggings
+        Transmog({item = 184126, slot = L['mail']}), -- Ironroot Bindings
+        Transmog({item = 184138, slot = L['plate']}) -- Stonebark Girdle
+    },
+    [66616] = { -- Oranomonos the Everbranching
+        Transmog({item = 184127, slot = L['cloth']}), -- Slippers of the Leafy Undergrowth
+        Transmog({item = 184172, slot = L['leather']}), -- Seed-Tender's Handwraps
+        Transmog({item = 184129, slot = L['leather']}), -- Oranomonos's Diaphanous Leggings
+        Transmog({item = 184126, slot = L['mail']}), -- Ironroot Bindings
+        Transmog({item = 184138, slot = L['plate']}) -- Stonebark Girdle
+    },
+    [61814] = { -- Nurgash Muckformed
+        Transmog({item = 184131, slot = L['cloth']}), -- Comfortable Slumberwraps
+        Transmog({item = 184137, slot = L['cloth']}), -- Sinstone Shoulderpadding
+        Transmog({item = 184130, slot = L['leather']}), -- Nurgash's Belt of Many Sinstones
+        Transmog({item = 184134, slot = L['mail']}), -- Jingling Stone Stompers
+        Transmog({item = 184171, slot = L['plate']}) -- Hardened Castle Crushers
+    },
+    [66615] = { -- Nurgash Muckformed
+        Transmog({item = 184131, slot = L['cloth']}), -- Comfortable Slumberwraps
+        Transmog({item = 184137, slot = L['cloth']}), -- Sinstone Shoulderpadding
+        Transmog({item = 184130, slot = L['leather']}), -- Nurgash's Belt of Many Sinstones
+        Transmog({item = 184134, slot = L['mail']}), -- Jingling Stone Stompers
+        Transmog({item = 184171, slot = L['plate']}) -- Hardened Castle Crushers
+    },
+    [64531] = { -- Mor'geth
+        Transmog({item = 186357, slot = L['cloth']}), -- Sorrowful Trousers
+        Transmog({item = 186355, slot = L['cloth']}), -- Wristwraps of Anguish
+        Transmog({item = 186360, slot = L['leather']}), -- Tormented Soul Harness
+        Transmog({item = 186361, slot = L['leather']}), -- Grips of Unleashed Suffering
+        Transmog({item = 186368, slot = L['mail']}), -- Mor'geth's Gauntlets of Damnation
+        Transmog({item = 186366, slot = L['mail']}), -- Stygian Chain Greaves
+        Transmog({item = 186372, slot = L['plate']}), -- Tormentor's Greatbelt
+        Transmog({item = 186370, slot = L['plate']}) -- Caged Legplates
+    },
+    [66618] = { -- Mor'geth
+        Transmog({item = 186357, slot = L['cloth']}), -- Sorrowful Trousers
+        Transmog({item = 186355, slot = L['cloth']}), -- Wristwraps of Anguish
+        Transmog({item = 186360, slot = L['leather']}), -- Tormented Soul Harness
+        Transmog({item = 186361, slot = L['leather']}), -- Grips of Unleashed Suffering
+        Transmog({item = 186368, slot = L['mail']}), -- Mor'geth's Gauntlets of Damnation
+        Transmog({item = 186366, slot = L['mail']}), -- Stygian Chain Greaves
+        Transmog({item = 186372, slot = L['plate']}), -- Tormentor's Greatbelt
+        Transmog({item = 186370, slot = L['plate']}) -- Caged Legplates
+    },
+    [65143] = { -- Antros
+        Transmog({item = 190621, slot = L['cloth']}), -- Dealic Deterrent Stockings
+        Transmog({item = 190620, slot = L['cloth']}), -- Sav'thul's Calamitous Tantour
+        Transmog({item = 190619, slot = L['leather']}), -- Antecedent's Aliform Joggers
+        Transmog({item = 190618, slot = L['leather']}), -- Lattice of the Distant Keeper
+        Transmog({item = 190617, slot = L['mail']}), -- Destruction-Core Handlers
+        Transmog({item = 190616, slot = L['mail']}), -- Controlled Sequence Clasp
+        Transmog({item = 190614, slot = L['plate']}), -- Antros' Entrusted Bascinet
+        Transmog({item = 190615, slot = L['plate']}) -- Cosmic Guardian's Casing
+    },
+    [66619] = { -- Antros
+        Transmog({item = 190621, slot = L['cloth']}), -- Dealic Deterrent Stockings
+        Transmog({item = 190620, slot = L['cloth']}), -- Sav'thul's Calamitous Tantour
+        Transmog({item = 190619, slot = L['leather']}), -- Antecedent's Aliform Joggers
+        Transmog({item = 190618, slot = L['leather']}), -- Lattice of the Distant Keeper
+        Transmog({item = 190617, slot = L['mail']}), -- Destruction-Core Handlers
+        Transmog({item = 190616, slot = L['mail']}), -- Controlled Sequence Clasp
+        Transmog({item = 190614, slot = L['plate']}), -- Antros' Entrusted Bascinet
+        Transmog({item = 190615, slot = L['plate']}) -- Cosmic Guardian's Casing
+    }
+})

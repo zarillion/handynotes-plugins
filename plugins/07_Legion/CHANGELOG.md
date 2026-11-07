@@ -1,3 +1,7 @@
+# v169
+
+* World boss drops now show on the official world quest pins.
+
 # v168
 
 * Elite rares now use the rare elite icon and label.

@@ -14,6 +14,7 @@ local Quest = ns.node.Quest
 
 local Achievement = ns.reward.Achievement
 local Pet = ns.reward.Pet
+local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
 
@@ -690,3 +691,135 @@ ns.node.Safari = {
             }
         })
 }
+
+-------------------------------------------------------------------------------
+-------------------------------- WORLD BOSSES ---------------------------------
+-------------------------------------------------------------------------------
+
+ns.hooks.worldquest.Add(ns.groups.RARE, {
+    [52169] = { -- Ji'arak
+        Transmog({item = 161388, slot = L['cloth']}), -- Gloves of Enveloping Winds
+        Transmog({item = 161401, slot = L['cloth']}), -- Matriarch's Shadowveil
+        Transmog({item = 161390, slot = L['leather']}), -- Savage Terrorwing Leggings
+        Transmog({item = 161403, slot = L['leather']}), -- Avian Clutch Belt
+        Transmog({item = 161394, slot = L['mail']}), -- Hurricane Cinch
+        Transmog({item = 161407, slot = L['mail']}), -- Windshear Leggings
+        Transmog({item = 161371, slot = L['plate']}), -- Galebreaker's Sabatons
+        Transmog({item = 161409, slot = L['plate']}), -- Stormcrash Chestguard
+        Transmog({item = 164384, slot = L['cloak']}) -- Windswept Dinorider's Cape
+    },
+    [52181] = { -- T'zane
+        Transmog({item = 161389, slot = L['cloth']}), -- Cinch of All-Consuming Death
+        Transmog({item = 161387, slot = L['cloth']}), -- Wailing Terror Leggings
+        Transmog({item = 161392, slot = L['leather']}), -- Bindings of Eternal Fears
+        Transmog({item = 161391, slot = L['leather']}), -- Deathshambler's Shoulderpads
+        Transmog({item = 161393, slot = L['mail']}), -- Legguards of the Barkbound Dead
+        Transmog({item = 161395, slot = L['mail']}), -- Swampwalker's Soul-Treads
+        Transmog({item = 161396, slot = L['plate']}), -- Petrified Mask of the Afterlife
+        Transmog({item = 161397, slot = L['plate']}), -- Soulplank Vambraces
+        Transmog({item = 164383, slot = L['plate']}) -- Death Devouring Girdle
+    },
+    [52157] = { -- Hailstone Construct
+        Transmog({item = 161361, slot = L['cloth']}), -- Ice-Rimed Slippers
+        Transmog({item = 161362, slot = L['cloth']}), -- Frostbreath Leggings
+        Transmog({item = 161366, slot = L['leather']}), -- Ice Stalker Boots
+        Transmog({item = 161364, slot = L['leather']}), -- Chill's End Wristguards
+        Transmog({item = 161367, slot = L['mail']}), -- Hailstone Hauberk
+        Transmog({item = 161368, slot = L['mail']}), -- Freezing Tempest Waistguard
+        Transmog({item = 161370, slot = L['plate']}), -- Glacial Spike Gauntlets
+        Transmog({item = 161372, slot = L['plate']}), -- Ice-Carved Shoulderplates
+        Transmog({item = 164386, slot = L['plate']}) -- Girdle of Biting Winds
+    },
+    [52166] = { -- Warbringer Yenajz
+        Transmog({item = 161351, slot = L['cloth']}), -- Wristwraps of Warped Reality
+        Transmog({item = 161349, slot = L['cloth']}), -- Amice of the Rending Abyss
+        Transmog({item = 161354, slot = L['leather']}), -- Leggings of the Endless Void
+        Transmog({item = 161353, slot = L['leather']}), -- Shadow-Wreathed Gloves
+        Transmog({item = 161355, slot = L['mail']}), -- Yenajz's Chitinous Stompers
+        Transmog({item = 161357, slot = L['mail']}), -- Spaulders of the Enveloping Maw
+        Transmog({item = 161358, slot = L['plate']}) -- Existence-Shattering Gauntlets
+    },
+    [52163] = { -- Azurethos
+        Transmog({item = 161350, slot = L['cloth']}), -- Windcaller's Down Handwraps
+        Transmog({item = 161363, slot = L['cloth']}), -- Sandals of Rustling Rage
+        Transmog({item = 161365, slot = L['leather']}), -- Footpads of the Encircling Storm
+        Transmog({item = 161352, slot = L['leather']}), -- Chestguard of Dire Winds
+        Transmog({item = 161369, slot = L['mail']}), -- Bindings of the Winged Typhoon
+        Transmog({item = 161356, slot = L['mail']}), -- Feathered Galeforce Crest
+        Transmog({item = 161360, slot = L['plate']}), -- Roost-Defender's Legguards
+        Transmog({item = 161398, slot = L['plate']}) -- Talonscored Azure Vambraces
+    },
+    [52196] = { -- Dunegorger Kraulok
+        Transmog({item = 161400, slot = L['cloth']}), -- Raider's Shrouding Thobe
+        Transmog({item = 161399, slot = L['cloth']}), -- Cord of Flowing Sands
+        Transmog({item = 161402, slot = L['leather']}), -- Gloves of the Desert Assassin
+        Transmog({item = 161404, slot = L['leather']}), -- Hood of the Sinuous Devilsaur
+        Transmog({item = 161406, slot = L['mail']}), -- Shrouded Sandscale Bracers
+        Transmog({item = 161405, slot = L['mail']}), -- Dunegorger's Grips
+        Transmog({item = 161408, slot = L['plate']}), -- Sandswept Legionnaire's Legplates
+        Transmog({item = 164385, slot = L['cloak']}) -- Desert Nomad's Wrap
+    },
+    [52848] = { -- The Lion's Roar
+        Transmog({item = 161454, slot = L['cloth']}), -- Warcaster's Doom Mantle
+        Transmog({item = 161455, slot = L['cloth']}), -- Battlemage's Collar
+        Transmog({item = 161456, slot = L['leather']}), -- Doom's Howl Vest
+        Transmog({item = 161457, slot = L['leather']}), -- Dire-Tooth Spaulders
+        Transmog({item = 161453, slot = L['mail']}), -- Warscout's Horned Helm
+        Transmog({item = 161458, slot = L['mail']}), -- Scalemail Battle Harness
+        Transmog({item = 161460, slot = L['plate']}), -- Spiked Dreadshield Pauldrons
+        Transmog({item = 161459, slot = L['plate']}) -- Molded War Machine Grill
+    },
+    [52847] = { -- Doom's Howl
+        Transmog({item = 161465, slot = L['cloth']}), -- Warcaster's Arcane Mantle
+        Transmog({item = 161466, slot = L['cloth']}), -- Battlemage's Collar
+        Transmog({item = 161468, slot = L['leather']}), -- Gilded-Wing Shoulderguards
+        Transmog({item = 161467, slot = L['leather']}), -- Vest of the Veiled Gryphon
+        Transmog({item = 161464, slot = L['mail']}), -- Alliance Bowman's Coif
+        Transmog({item = 161469, slot = L['mail']}), -- Sharpshooter's Chainmail Hauberk
+        Transmog({item = 161470, slot = L['plate']}), -- Polished Shieldbearer's Breastplate
+        Transmog({item = 161471, slot = L['plate']}) -- Lion's Roar Pauldrons
+    },
+    [54896] = { -- Ivus the Forest Lord
+        Transmog({item = 166685, slot = L['cloth']}), -- Ivus' Tanglemoss Waistcord
+        Transmog({item = 166684, slot = L['cloth']}), -- Garments of the Forest Lord
+        Transmog({item = 166689, slot = L['leather']}), -- Protector's Tangleroot Belt
+        Transmog({item = 166688, slot = L['leather']}), -- Warring Ancient's Crown
+        Transmog({item = 166692, slot = L['mail']}), -- Forest Protector's Shoulderguards
+        Transmog({item = 166693, slot = L['mail']}), -- Gnarled Bough Gauntlets
+        Transmog({item = 166697, slot = L['plate']}), -- Stoneroot Stompers
+        Transmog({item = 166696, slot = L['plate']}) -- Petrified Ironbark Crown
+    },
+    [54895] = { -- Ivus the Decayed
+        Transmog({item = 166686, slot = L['cloth']}), -- Ivus' Tanglemoss Waistcord
+        Transmog({item = 166683, slot = L['cloth']}), -- Garments of the Forest Lord
+        Transmog({item = 166690, slot = L['leather']}), -- Protector's Tangleroot Belt
+        Transmog({item = 166687, slot = L['leather']}), -- Warring Ancient's Mask
+        Transmog({item = 166694, slot = L['mail']}), -- Gnarled Bough Gauntlets
+        Transmog({item = 166691, slot = L['mail']}), -- Forest Protector's Shoulderguards
+        Transmog({item = 166695, slot = L['plate']}), -- Petrified Ironbark Crown
+        Transmog({item = 166698, slot = L['plate']}) -- Stoneroot Stompers
+    },
+    [56057] = { -- Ulmath the Soulbinder
+        Transmog({item = 168603, slot = L['cloak']}), -- Cloak of Restless Spirits
+        Transmog({item = 170093, slot = L['2h_sword']}), -- Tyr'mar's Greatsword
+        Transmog({item = 170095, slot = L['1h_mace']}), -- Moon Priestess' Baton
+        Transmog({item = 170090, slot = L['fist']}), -- Merciless Pincher
+        Transmog({item = 170089, slot = L['staff']}), -- Liara's Spire
+        Transmog({item = 170091, slot = L['polearm']}), -- Willbinder's Halberd
+        Transmog({item = 170092, slot = L['dagger']}), -- Netherdancer's Knife
+        Transmog({item = 170094, slot = L['1h_sword']}), -- Temple Guardian's Saber
+        Transmog({item = 170088, slot = L['bow']}) -- Ulmath's Soulseeker
+    },
+    [58705] = { -- Grand Empress Shek'zara
+        Transmog({item = 174234, slot = L['cloth']}), -- Maniacal Speaker's Cover
+        Transmog({item = 174243, slot = L['leather']}), -- Guise of the Voracious Prowler
+        Transmog({item = 174255, slot = L['mail']}), -- Greaves of Shattered Thoughts
+        Transmog({item = 174264, slot = L['plate']}) -- Chitinous Conqueror's Legplates
+    },
+    [55466] = { -- Vuk'laz the Earthbreaker
+        Transmog({item = 174237, slot = L['cloth']}), -- Breeches of Faithful Execution
+        Transmog({item = 174247, slot = L['leather']}), -- Grotesque Mutilator's Leggings
+        Transmog({item = 174250, slot = L['mail']}), -- Psyche Tormentor's Visage
+        Transmog({item = 174258, slot = L['plate']}) -- Greathelm of Indiscriminate Brutality
+    }
+})

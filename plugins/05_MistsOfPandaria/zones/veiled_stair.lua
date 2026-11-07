@@ -22,7 +22,10 @@ map.nodes[74947652] = Treasure({
     label = '{item:86473}',
     quest = 31428,
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Riches of Pandaria
         Item({item = 86473})
     }
 }) -- The Hammer of Folly

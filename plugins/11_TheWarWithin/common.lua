@@ -10,6 +10,7 @@ local Group = ns.Group
 local Collectible = ns.node.Collectible
 
 local Achievement = ns.reward.Achievement
+local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
 
@@ -608,3 +609,70 @@ ns.node.Riddle = Riddle
 --     rewards = {Achievement({id = 40194, criteria = 68269}), Pet({id = 4574})}
 --     -- pois = {POI({0000})}
 -- }) -- Snuffling
+
+-------------------------------------------------------------------------------
+-------------------------------- WORLD BOSSES ---------------------------------
+-------------------------------------------------------------------------------
+
+ns.hooks.worldquest.Add(ns.groups.RARE, {
+    [81630] = { -- Kordac, the Dormant Protector
+        Transmog({item = 225730, slot = L['cloth']}), -- Stone Gaze Ceinture
+        Transmog({item = 225731, slot = L['cloth']}), -- Lightseeker's Robes
+        Transmog({item = 225732, slot = L['leather']}), -- Deep Dweller's Tabi
+        Transmog({item = 225733, slot = L['leather']}), -- Abyssal Tendril Tights
+        Transmog({item = 225734, slot = L['mail']}), -- Sturdy Chitinous Striders
+        Transmog({item = 225735, slot = L['mail']}), -- Dornish Warden's Coat
+        Transmog({item = 225745, slot = L['plate']}), -- Crystal Star Cuisses
+        Transmog({item = 225746, slot = L['plate']}) -- Girdle of the Gleaming Dawn
+    },
+    [85088] = { -- The Gobfather
+        Transmog({item = 232725, slot = L['cloth']}), -- Pilot's Oiled Trousers
+        Transmog({item = 232726, slot = L['cloth']}), -- Well-Trodden Mechanic's Shoes
+        Transmog({item = 232727, slot = L['leather']}), -- Cavern Stalker's Trophy Girdle
+        Transmog({item = 232728, slot = L['leather']}), -- Darkfuse Dinner Jacket
+        Transmog({item = 232729, slot = L['mail']}), -- Horn-Adorned Chausses
+        Transmog({item = 232730, slot = L['mail']}), -- Cauldron Master Cleats
+        Transmog({item = 232731, slot = L['plate']}), -- Steadfast Contender's Breastplate
+        Transmog({item = 232732, slot = L['plate']}) -- Champion's Gilded Stompers
+    },
+    [81624] = { -- Orta, the Broken Mountain
+        Transmog({item = 225731, slot = L['cloth']}), -- Lightseeker's Robes
+        Transmog({item = 225730, slot = L['cloth']}), -- Stone Gaze Ceinture
+        Transmog({item = 225733, slot = L['leather']}), -- Abyssal Tendril Tights
+        Transmog({item = 225732, slot = L['leather']}), -- Deep Dweller's Tabi
+        Transmog({item = 225734, slot = L['mail']}), -- Sturdy Chitinous Striders
+        Transmog({item = 225735, slot = L['mail']}), -- Dornish Warden's Coat
+        Transmog({item = 225745, slot = L['plate']}), -- Crystal Star Cuisses
+        Transmog({item = 225746, slot = L['plate']}) -- Girdle of the Gleaming Dawn
+    },
+    [82653] = { -- Aggregation of Horrors
+        Transmog({item = 225731, slot = L['cloth']}), -- Lightseeker's Robes
+        Transmog({item = 225730, slot = L['cloth']}), -- Stone Gaze Ceinture
+        Transmog({item = 225733, slot = L['leather']}), -- Abyssal Tendril Tights
+        Transmog({item = 225732, slot = L['leather']}), -- Deep Dweller's Tabi
+        Transmog({item = 225734, slot = L['mail']}), -- Sturdy Chitinous Striders
+        Transmog({item = 225735, slot = L['mail']}), -- Dornish Warden's Coat
+        Transmog({item = 225745, slot = L['plate']}), -- Crystal Star Cuisses
+        Transmog({item = 225746, slot = L['plate']}) -- Girdle of the Gleaming Dawn
+    },
+    [81653] = { -- Shurrai, Atrocity of the Undersea
+        Transmog({item = 225731, slot = L['cloth']}), -- Lightseeker's Robes
+        Transmog({item = 225730, slot = L['cloth']}), -- Stone Gaze Ceinture
+        Transmog({item = 225733, slot = L['leather']}), -- Abyssal Tendril Tights
+        Transmog({item = 225732, slot = L['leather']}), -- Deep Dweller's Tabi
+        Transmog({item = 225734, slot = L['mail']}), -- Sturdy Chitinous Striders
+        Transmog({item = 225735, slot = L['mail']}), -- Dornish Warden's Coat
+        Transmog({item = 225745, slot = L['plate']}), -- Crystal Star Cuisses
+        Transmog({item = 225746, slot = L['plate']}) -- Girdle of the Gleaming Dawn
+    },
+    [87354] = { -- Reshanor, The Untethered
+        Transmog({item = 243038, slot = L['cloth']}), -- Gaze of the Untethered Doom
+        Transmog({item = 243039, slot = L['cloth']}), -- Devoured Magi's Cinch
+        Transmog({item = 243041, slot = L['leather']}), -- Umbral Stalker's Footpads
+        Transmog({item = 243040, slot = L['leather']}), -- Crystalblight Legguards
+        Transmog({item = 243042, slot = L['mail']}), -- Void-Bound Hauberk
+        Transmog({item = 243043, slot = L['mail']}), -- Shadowguard's Rift Wrap
+        Transmog({item = 243044, slot = L['plate']}), -- Feasting Fiend's Barbute
+        Transmog({item = 243045, slot = L['plate']}) -- Bygone Wastelander's Girdle
+    }
+})

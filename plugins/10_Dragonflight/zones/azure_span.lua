@@ -47,6 +47,7 @@ local Recipe = ns.reward.Recipe
 local Toy = ns.reward.Toy
 local Transmog = ns.reward.Transmog
 
+local Line = ns.poi.Line
 local Path = ns.poi.Path
 local POI = ns.poi.POI
 
@@ -102,22 +103,6 @@ map.nodes[73032680] = Rare({
         Transmog({item = 200253, slot = L['dagger']}) -- Snowspring Incanter's Knife
     }
 }) -- Beogoka
-
-map.nodes[13584855] = RareElite({
-    id = 197557,
-    vignette = nil,
-    quest = 74097,
-    interval = ns.Intervals.FeastInterval({id = 0}),
-    rewards = {
-        Achievement({id = 16678, criteria = 55381}), -- Adventurer of The Azure Span
-        Achievement({id = 16444}), -- Leftovers' Revenge
-        DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.ImpalerHorns,
-        Spacer(), Section(L['shared_drops']),
-        Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
-        Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
-        Transmog({item = 200252, slot = L['gun']}) -- Molten Flak Cannon
-    }
-}) -- Bisquius
 
 map.nodes[13432270] = Rare({
     id = 193178,
@@ -1789,55 +1774,34 @@ local COMMUNITY_FEAST_REWARDS = {
     Transmog({item = 200882, slot = L['staff']}), -- Big Kinook's Spare Ladle
     ns.reward.Spacer(), Item({item = 200652}), -- Alchemical Flavor Pocket
     Item({item = 192055}), -- Dragon Isles Artifact
-    Item({item = 200071}) -- Sacred Tuskarr Totem
-}
-
--- Bisquius only spawns during the feast, so his info is attached to the
--- official feast POIs as well. Leftovers' Revenge and the spare ladle are
--- already listed above, so only the remaining rewards are added here.
-local BISQUIUS_HOOK_REWARDS = {
+    Item({item = 200071}), -- Sacred Tuskarr Totem
+    -- Bisquius only spawns during the feast, so his rewards are part of the
+    -- feast node and its official pin hook.
     Spacer(), Section('{npc:197557}'), -- Bisquius
-    Achievement({id = 16678, criteria = 55381}), -- Adventurer of The Azure Span
+    Achievement({id = 16678, criteria = {id = 55381, quest = 74097}}), -- Adventurer of The Azure Span
     DC.HighlandDrake.ToothyMouth, DC.RenewedProtoDrake.ImpalerHorns, Spacer(),
     Section(L['shared_drops']), Transmog({item = 200133, slot = L['fist']}), -- Volcanic Chakram
     Transmog({item = 200247, slot = L['1h_mace']}), -- Inextinguishable Gavel
     Transmog({item = 200252, slot = L['gun']}) -- Molten Flak Cannon
 }
 
-local COMMUNITY_FEAST_HOOK_REWARDS = {}
-for _, reward in ipairs(COMMUNITY_FEAST_REWARDS) do
-    table.insert(COMMUNITY_FEAST_HOOK_REWARDS, reward)
-end
-for _, reward in ipairs(BISQUIUS_HOOK_REWARDS) do
-    table.insert(COMMUNITY_FEAST_HOOK_REWARDS, reward)
-end
-
 local COMMUNITY_FEAST_AREA_POIS = {
-    [7218] = COMMUNITY_FEAST_HOOK_REWARDS, -- Before Feast
-    [7219] = COMMUNITY_FEAST_HOOK_REWARDS, -- During Feast
-    [7220] = COMMUNITY_FEAST_HOOK_REWARDS -- After Feast
+    [7218] = COMMUNITY_FEAST_REWARDS, -- Before Feast
+    [7219] = COMMUNITY_FEAST_REWARDS, -- During Feast
+    [7220] = COMMUNITY_FEAST_REWARDS -- After Feast
 }
 
-map.nodes[13524860] = Collectible({
+-- Mirrors the official feast area POIs; offset straight down so the pins
+-- stay hoverable when they are visible.
+map.nodes[13525160] = Collectible({
     label = L['community_feast_label'],
     icon = 629056,
-    areaPOIs = {7218, 7219, 7220},
+    interval = ns.Intervals.FeastInterval({id = 0}),
     mapID = map.id,
     group = ns.groups.COMMUNITY_FEAST,
     requires = ns.requirement.Reputation(2511, 3, true), -- Iskaara Tuskarr
     rewards = COMMUNITY_FEAST_REWARDS,
-    IsEnabled = function(self)
-        local activePOIs = C_AreaPoiInfo.GetAreaPOIForMap(self.mapID)
-        local possiblePOIs = self.areaPOIs
-        for a = 1, #activePOIs do
-            for p = 1, #possiblePOIs do
-                if activePOIs[a] == possiblePOIs[p] then
-                    return false
-                end
-            end
-        end
-        return true
-    end
+    pois = {Line({13525160, 13524860})}
 }) -- Community Feast
 
 ns.hooks.areapoi.Add(ns.groups.COMMUNITY_FEAST, COMMUNITY_FEAST_AREA_POIS)

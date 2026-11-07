@@ -214,7 +214,10 @@ map.nodes[39400730] = Treasure({
     label = '{item:85776}',
     quest = 31397,
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Transmog({item = 85776, slot = L['dagger']}) -- Wodin's Mantid Shanker
     }
 }) -- Wodin's Mantid Shaker
@@ -223,7 +226,10 @@ map.nodes[43021161] = Treasure({
     label = '{item:86198}',
     quest = 31403,
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Transmog({item = 86198, slot = L['2h_mace']}) -- Hammer of Ten Thunders
     },
     pois = {POI({40171367, 41191375, 41761763})}
@@ -234,7 +240,10 @@ local AncientPick = Class('AncientPick', Treasure, {
     label = '{item:85777}',
     quest = 31399,
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Transmog({item = 85777, slot = L['1h_axe']}) -- Ancient Pandaren Mining Pick
     }
 }) -- Ancient Pandaren Mining Pick
@@ -251,7 +260,10 @@ map.nodes[47106740] = Treasure({
     label = '{item:86196}',
     quest = 31402,
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Transmog({item = 86196, slot = L['staff']}) -- Ancient Jinyu Staff
     },
     pois = {POI({46207120, 44906460})}
@@ -261,7 +273,10 @@ map.nodes[39254665] = Treasure({
     label = '{item:86199}',
     quest = 31307,
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Transmog({item = 86199, slot = L['1h_sword']}) -- Jade Infused Blade
     }
 }) -- Jade Infused Blade
@@ -273,7 +288,10 @@ map.nodes[26203240] = Treasure({
     icon = 'chest_yw',
     quest = 31400,
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Riches of Pandaria
         Item({item = 85780})
     }
 }) -- Ancient Pandaren Tea Pot
@@ -283,7 +301,10 @@ map.nodes[31902780] = Treasure({
     icon = 'chest_yw',
     quest = 31401,
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Riches of Pandaria
         Item({item = 85781})
     }
 }) -- Lucky Pandaren Coin
@@ -293,7 +314,10 @@ map.nodes[23503500] = Treasure({
     icon = 'chest_yw',
     quest = 31404,
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Riches of Pandaria
         Item({item = 86216}) -- Pandaren Ritual Stone
     }
 }) -- Pandaren Ritual Stone
@@ -304,7 +328,10 @@ map.nodes[51009999] = Treasure({
     note = L['ships_locker_note'],
     icon = 'chest_yw',
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}) -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }) -- Riches of Pandaria
     }
 }) -- Ship's Locker
 

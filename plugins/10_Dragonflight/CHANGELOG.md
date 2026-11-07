@@ -1,3 +1,8 @@
+# v169
+
+* World boss drops now show on the official world quest pins.
+* Bisquius' loot is now part of the Community Feast node.
+
 # v168
 
 * Added Maruud's Undertow to Reefbreaker Moruud's drops.

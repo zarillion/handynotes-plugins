@@ -183,7 +183,10 @@ map.nodes[46802460] = Treasure({
     quest = 31284,
     label = '{item:85973}',
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Toy({item = 85973, id = 485}) -- Ancient Pandaren Fishing Charm
     }
 }) -- Ancient Pandaren Fishing Charm
@@ -192,7 +195,10 @@ map.nodes[45403820] = Treasure({
     quest = 31292,
     label = '{item:86079}',
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Item({item = 86079}) -- Ancient Pandaren Woodcutter
     }
 }) -- Ancient Pandaren Woodcutter
@@ -201,7 +207,10 @@ map.nodes[19103790] = Treasure({
     quest = 31407,
     label = '{item:86218}',
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}), -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Is Another Man's Treasure
         Transmog({item = 86218, slot = L['staff']}) -- Staff of the Hidden Master
     },
     pois = {POI({15402910, 17503570, 15003370, 19004250})}
@@ -211,7 +220,10 @@ map.nodes[43603750] = Treasure({
     quest = 31406,
     label = L['cache_of_pilfered_goods'],
     rewards = {
-        Achievement({id = 7284, criteria = {id = 1, qty = true}}) -- Is Another Man's Treasure
+        Achievement({
+            id = 7284,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }) -- Is Another Man's Treasure
     }
 }) -- Cache of Pilfered Goods
 
@@ -221,7 +233,10 @@ map.nodes[23802840] = Treasure({
     note = L['in_cave'],
     icon = 'chest_yw',
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}) -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }) -- Riches of Pandaria
     },
     pois = {POI({23213069})}
 }) -- Virmen Treasure Cache
@@ -231,7 +246,10 @@ map.nodes[75005520] = Treasure({
     label = '{item:86220}',
     icon = 'chest_yw',
     rewards = {
-        Achievement({id = 7997, criteria = {id = 1, qty = true}}), -- Riches of Pandaria
+        Achievement({
+            id = 7997,
+            criteria = {id = 1, qty = true, suffix = L['completed']}
+        }), -- Riches of Pandaria
         Item({item = 86220})
     },
     pois = {POI({77235743})}

@@ -271,13 +271,45 @@ ns.node.Squirrel = Class('Squirrel', Collectible, {
 local WORLD_BOSS_ENCOUNTER_IDS = {
     [1291] = {
         Achievement({id = 9423, criteria = 25768}), -- Goliaths of Gorgrond
-        Achievement({id = 9838, criteria = 27652}) -- What A Strange, Interdimensional Trip It's Been
+        Achievement({id = 9838, criteria = 27652}), -- What A Strange, Interdimensional Trip It's Been
+        ns.reward.Spacer(), --
+        Transmog({item = 115425, slot = L['cloth']}), -- Quadripedal Grips
+        Transmog({item = 115429, slot = L['cloth']}), -- Belt of Singing Hooves
+        Transmog({item = 115426, slot = L['leather']}), -- Grips of Natural Fury
+        Transmog({item = 115430, slot = L['leather']}), -- Cord of Ruination
+        Transmog({item = 115427, slot = L['mail']}), -- Chainhoof Grips
+        Transmog({item = 115431, slot = L['mail']}), -- Chain of Natural Fury
+        Transmog({item = 115428, slot = L['plate']}), -- Gauntlets of Impenetrability
+        Transmog({item = 115432, slot = L['plate']}) -- Waistplate of Bladed Force
     }, -- Drov the Ruiner
     [1211] = {
         Achievement({id = 9423, criteria = 25767}), -- Goliaths of Gorgrond
-        Achievement({id = 9838, criteria = 27651}) -- What A Strange, Interdimensional Trip It's Been
+        Achievement({id = 9838, criteria = 27651}), -- What A Strange, Interdimensional Trip It's Been
+        ns.reward.Spacer(), --
+        Transmog({item = 115425, slot = L['cloth']}), -- Quadripedal Grips
+        Transmog({item = 115429, slot = L['cloth']}), -- Belt of Singing Hooves
+        Transmog({item = 120091, slot = L['cloth']}), -- Robes of the Ageless
+        Transmog({item = 115426, slot = L['leather']}), -- Grips of Natural Fury
+        Transmog({item = 115430, slot = L['leather']}), -- Cord of Ruination
+        Transmog({item = 120088, slot = L['leather']}), -- Witherleaf Chestguard
+        Transmog({item = 115427, slot = L['mail']}), -- Chainhoof Grips
+        Transmog({item = 115431, slot = L['mail']}), -- Chain of Natural Fury
+        Transmog({item = 120089, slot = L['mail']}), -- Chestguard of Rejuvenation
+        Transmog({item = 115428, slot = L['plate']}), -- Gauntlets of Impenetrability
+        Transmog({item = 115432, slot = L['plate']}), -- Waistplate of Bladed Force
+        Transmog({item = 120090, slot = L['plate']}) -- Falling Leaf Breastplate
     }, -- Tarlna the Ageless
-    [1452] = {}, -- Supreme Lord Kazzak
+    [1452] = { -- Supreme Lord Kazzak
+        Transmog({item = 127981, slot = L['cloth']}), -- Bracers of Perfect Discomfort
+        Transmog({item = 127982, slot = L['leather']}), -- Terrorweave Wristwraps
+        Transmog({item = 127983, slot = L['mail']}), -- Supreme Felchain Bracers
+        Transmog({item = 127984, slot = L['plate']}), -- Wristclasps of Righteous Reckoning
+        Transmog({item = 127971, slot = L['cloak']}), -- Gossamer Felscorched Scarf
+        Transmog({item = 127972, slot = L['cloak']}), -- Spellcloak of Suramar
+        Transmog({item = 127973, slot = L['cloak']}), -- Nether-Touched Cloak
+        Transmog({item = 127974, slot = L['cloak']}), -- Drape of the Doomguard
+        Transmog({item = 127975, slot = L['cloak']}) -- Marked Cloak of Command
+    }, -- Supreme Lord Kazzak
     [1262] = {
         Achievement({id = 9425}), -- So Grossly Incandescent
         Achievement({id = 9838, criteria = 27650}), -- What A Strange, Interdimensional Trip It's Been

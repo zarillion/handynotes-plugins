@@ -1973,3 +1973,45 @@ local JustOneMoreThing = Class('JustOneMoreThing', Collectible, {
 }) -- Just One More Thing
 
 ns.node.JustOneMoreThing = JustOneMoreThing
+
+-------------------------------------------------------------------------------
+-------------------------------- WORLD BOSSES ---------------------------------
+-------------------------------------------------------------------------------
+
+ns.hooks.worldquest.Add(ns.groups.RARE, {
+    [69930] = { -- Basrikron
+        Transmog({item = 200736, slot = L['cloth']}), -- Belt of Living Earth
+        Transmog({item = 200739, slot = L['leather']}), -- Stony Cragwalkers
+        Transmog({item = 200740, slot = L['mail']}), -- Petrified Bracelets
+        Transmog({item = 200742, slot = L['plate']}) -- Hardened Shale Breastplate
+    },
+    [69929] = { -- Strunraan
+        Transmog({item = 200687, slot = L['cloth']}), -- Stormshale Cuffs
+        Transmog({item = 200688, slot = L['leather']}), -- Tights of Twisting Winds
+        Transmog({item = 200733, slot = L['mail']}), -- Storm Chaser's Waistguard
+        Transmog({item = 200734, slot = L['plate']}) -- Striders of the Sky's Misery
+    },
+    [69927] = { -- Bazual
+        Transmog({item = 200654, slot = L['cloth']}), -- Magmatic Vestments
+        Transmog({item = 200660, slot = L['leather']}), -- Cinderfang Wrap
+        Transmog({item = 200661, slot = L['mail']}), -- Basalt Brood Stompers
+        Transmog({item = 200663, slot = L['plate']}) -- Shackles of the Dreaded Flame
+    },
+    [69928] = { -- Liskanoth
+        Transmog({item = 200743, slot = L['cloth']}), -- Frozen Footwraps
+        Transmog({item = 200744, slot = L['leather']}), -- Glacial Bindings
+        Transmog({item = 200745, slot = L['mail']}), -- Horns of the Futurebane
+        Transmog({item = 200746, slot = L['plate']}), -- Icebound Girdle
+        Transmog({item = 200763, slot = L['cloak']}) -- Frosted Scale Drape
+    },
+    [74892] = { -- The Zaqali Elders
+        Transmog({item = 204409, slot = L['cloth']}), -- Heatbinder's Burning Slippers
+        Transmog({item = 204408, slot = L['cloth']}), -- Gholna's Lavaborne Legwraps
+        Transmog({item = 204418, slot = L['leather']}), -- Ashen Zaralek Cuirass
+        Transmog({item = 204419, slot = L['leather']}), -- Cavernous Foliage Wristbands
+        Transmog({item = 204426, slot = L['mail']}), -- Blazestalker's Smelted Cleats
+        Transmog({item = 204425, slot = L['mail']}), -- Crown of the Twin Elders
+        Transmog({item = 204431, slot = L['plate']}), -- Epaulets of Draconic Conquest
+        Transmog({item = 204432, slot = L['plate']}) -- Vakan's Shale Greatbelt
+    }
+})

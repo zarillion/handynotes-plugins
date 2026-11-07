@@ -1,3 +1,7 @@
+# v169
+
+* World boss drops now show on the official world quest pins.
+
 # v168
 
 * Grouped the Translocated Gorger rares' weekly item and mount under their shared drops section.

@@ -12,6 +12,7 @@ local Collectible = ns.node.Collectible
 local Achievement = ns.reward.Achievement
 local Reputation = ns.reward.Reputation
 local Pet = ns.reward.Pet
+local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
 
@@ -656,3 +657,58 @@ ns.node.RitualCollectible = RitualCollectible
 -- pin while the site is open. This entry marks the closed one instead, so the
 -- location is always visible and the tooltip can say when it opens again.
 -- While the site is open the pin takes over and this node hides itself.
+
+-------------------------------------------------------------------------------
+-------------------------------- WORLD BOSSES ---------------------------------
+-------------------------------------------------------------------------------
+
+local Cragpine = {
+    Transmog({item = 250456, slot = L['cloth']}), -- Wretched Scholar's Gilded Robe
+    Transmog({item = 250457, slot = L['leather']}), -- Devouring Outrider's Chausses
+    Transmog({item = 250459, slot = L['mail']}), -- Bramblestalker's Feathered Cowl
+    Transmog({item = 250458, slot = L['plate']}), -- Host Commander's Casque
+    Transmog({item = 250446, slot = L['shield']}), -- Cragtender Bulwark
+    Transmog({item = 250450, slot = L['bow']}) -- Forest Sentinel's Savage Longbow
+}
+
+local Luashal = {
+    Transmog({item = 250456, slot = L['cloth']}), -- Wretched Scholar's Gilded Robe
+    Transmog({item = 250457, slot = L['leather']}), -- Devouring Outrider's Chausses
+    Transmog({item = 250459, slot = L['mail']}), -- Bramblestalker's Feathered Cowl
+    Transmog({item = 250458, slot = L['plate']}), -- Host Commander's Casque
+    Transmog({item = 250451, slot = L['1h_axe']}), -- Dawncrazed Beast Cleaver
+    Transmog({item = 250453, slot = L['1h_mace']}) -- Scepter of the Unbound Light
+}
+
+local Predaxas = {
+    Transmog({item = 250456, slot = L['cloth']}), -- Wretched Scholar's Gilded Robe
+    Transmog({item = 250457, slot = L['leather']}), -- Devouring Outrider's Chausses
+    Transmog({item = 250459, slot = L['mail']}), -- Bramblestalker's Feathered Cowl
+    Transmog({item = 250458, slot = L['plate']}), -- Host Commander's Casque
+    Transmog({item = 250454, slot = L['2h_axe']}), -- Devouring Vanguard's Soulcleaver
+    Transmog({item = 250448, slot = L['staff']}) -- Voidbender's Spire
+}
+
+local Thormbelan = {
+    Transmog({item = 250456, slot = L['cloth']}), -- Wretched Scholar's Gilded Robe
+    Transmog({item = 250457, slot = L['leather']}), -- Devouring Outrider's Chausses
+    Transmog({item = 250459, slot = L['mail']}), -- Bramblestalker's Feathered Cowl
+    Transmog({item = 250458, slot = L['plate']}), -- Host Commander's Casque
+    Transmog({item = 250449, slot = L['dagger']}), -- Skulking Nettledirk
+    Transmog({item = 250452, slot = L['1h_sword']}), -- Blooming Thornblade
+    Transmog({item = 250455, slot = L['polearm']}) -- Beastly Blossombarb
+}
+
+ns.hooks.worldquest.Add(ns.groups.RARE, {
+    [92123] = Cragpine, -- Cragpine
+    [92560] = Luashal, -- Lu'ashal
+    [92636] = Predaxas, -- Predaxas
+    [92034] = Thormbelan -- Thorm'belan
+})
+
+ns.hooks.areapoi.Add(ns.groups.RARE, {
+    [8683] = Cragpine, -- Cragpine
+    [8682] = Luashal, -- Lu'ashal
+    [8681] = Predaxas, -- Predaxas
+    [8680] = Thormbelan -- Thorm'belan
+})

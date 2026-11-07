@@ -4,11 +4,13 @@
 local ADDON_NAME, ns = ...
 local Group = ns.Group
 local Class = ns.Class
+local L = ns.locale
 
 local Collectible = ns.node.Collectible
 
 local Achievement = ns.reward.Achievement
 local Pet = ns.reward.Pet
+local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
 
@@ -319,3 +321,149 @@ function ns.node.AnomalousAnimal:Initialize(id, i)
         Achievement({id = 12099, criteria = i, oneline = true}) -- Undead
     }
 end
+
+-------------------------------------------------------------------------------
+-------------------------------- WORLD BOSSES ---------------------------------
+-------------------------------------------------------------------------------
+
+ns.hooks.worldquest.Add(ns.groups.RARE, {
+    [42270] = { -- Nithogg
+        Transmog({item = 141414, slot = L['cloth']}), -- Hood of Scorned Brood
+        Transmog({item = 141418, slot = L['leather']}), -- Helm of the Mountain Recluse
+        Transmog({item = 141420, slot = L['mail']}), -- Coif of Unstable Discharge
+        Transmog({item = 141424, slot = L['plate']}), -- Stormbattered Casque
+        Transmog({item = 141541, slot = L['cloak']}) -- Windwhipped Greatcloak
+    },
+    [42269] = { -- The Soultakers
+        Transmog({item = 141434, slot = L['cloth']}), -- Cord of Kept Souls
+        Transmog({item = 141444, slot = L['leather']}), -- Hel-Cursed Belt
+        Transmog({item = 141436, slot = L['mail']}), -- Helchain Waistguard
+        Transmog({item = 141442, slot = L['plate']}) -- Sea-Reaver's Girdle
+    },
+    [42779] = { -- Shar'thos
+        Transmog({item = 141495, slot = L['cloth']}), -- Robe of Fever Dreams
+        Transmog({item = 141487, slot = L['leather']}), -- Raiments of Waking Nightmares
+        Transmog({item = 141491, slot = L['mail']}), -- Hauberk of the Snarled Vale
+        Transmog({item = 141481, slot = L['plate']}), -- Chestplate of Blackened Emeralds
+        Transmog({item = 141542, slot = L['cloak']}) -- Despoiled Dreamthread Cloak
+    },
+    [43192] = { -- Levantus
+        Transmog({item = 141435, slot = L['cloth']}), -- Whirlpool Gloves
+        Transmog({item = 141440, slot = L['leather']}), -- Seaweed "Leather" Mitts
+        Transmog({item = 141431, slot = L['mail']}), -- Hook-Fingered Gauntlets
+        Transmog({item = 141441, slot = L['plate']}) -- Chum-Chopper Gauntlets
+    },
+    [42819] = { -- Humongris
+        Transmog({item = 141416, slot = L['cloth']}), -- Padawsen's Squished Pauldrons
+        Transmog({item = 141445, slot = L['leather']}), -- Mantle of the Aspiring Spellgiant
+        Transmog({item = 141422, slot = L['mail']}), -- Shoulderguards of Unimaginative Magic
+        Transmog({item = 141426, slot = L['plate']}), -- Shoulderplates of Oversized Sorcery
+        Transmog({item = 141540, slot = L['cloak']}) -- Coerced Wizard's Cloak
+    },
+    [43193] = { -- Calamir
+        Transmog({item = 141443, slot = L['cloth']}), -- Sandals of Frozen Ash
+        Transmog({item = 141430, slot = L['leather']}), -- Mana-Tanned Sandals
+        Transmog({item = 141432, slot = L['mail']}), -- Frostburned Sabatons
+        Transmog({item = 141437, slot = L['plate']}) -- Warboots of Smoldering Fury
+    },
+    [43513] = { -- Na'zak the Fiend
+        Transmog({item = 141415, slot = L['cloth']}), -- Na'zak's Dusty Pantaloons
+        Transmog({item = 141417, slot = L['leather']}), -- Desiccated Leather Pants
+        Transmog({item = 141421, slot = L['mail']}), -- Venomscarred Chain Leggings
+        Transmog({item = 141425, slot = L['plate']}) -- Avalanche Resistant Legplates
+    },
+    [43448] = { -- Drugon the Frostblood
+        Transmog({item = 141428, slot = L['cloth']}), -- Snowdrift Bracers
+        Transmog({item = 141429, slot = L['leather']}), -- Wax-Sealed Leather Bracers
+        Transmog({item = 141433, slot = L['mail']}), -- Assorted Dragonscale Bracers
+        Transmog({item = 141439, slot = L['plate']}), -- Ettinbone Bracers
+        Transmog({item = 141538, slot = L['cloak']}) -- Giant's Handkerchief
+    },
+    [43512] = { -- Ana-Mouz
+        Transmog({item = 141427, slot = L['cloth']}), -- Sheer Felthreaded Robe
+        Transmog({item = 141419, slot = L['leather']}), -- Skimpy Demonleather Tunic
+        Transmog({item = 141423, slot = L['mail']}), -- Crop Top Chain Hauberk
+        Transmog({item = 141413, slot = L['plate']}), -- Low-Cut Chestplate
+        Transmog({item = 141448, slot = L['cloak']}) -- Imp Mother's Loincloth
+    },
+    [43985] = { -- Flotsam
+        Transmog({item = 141470, slot = L['cloth']}), -- Faded Bloodsail Handwraps
+        Transmog({item = 141475, slot = L['leather']}), -- Salt-Stained Tuskarr Gloves
+        Transmog({item = 141466, slot = L['mail']}), -- Blackwater Raider Handguards
+        Transmog({item = 141476, slot = L['plate']}), -- Kezan Pirate's Mitts
+        Transmog({item = 141539, slot = L['cloak']}) -- Ragged Azsharan Sail Fragment
+    },
+    [44287] = { -- Withered J'im
+        Transmog({item = 141449, slot = L['cloth']}), -- Mana Scavenger's Mask
+        Transmog({item = 141453, slot = L['leather']}), -- Magic-Warped Hood
+        Transmog({item = 141455, slot = L['mail']}), -- Cave Skulker's Helm
+        Transmog({item = 141459, slot = L['plate']}), -- Manacrystal-Adorned Helmet
+        Transmog({item = 141543, slot = L['cloak']}) -- Drape of the Mana-Starved
+    },
+    [46947] = { -- Brutallus
+        Transmog({item = 147732, slot = L['cloth']}), -- Leggings of Echoing Calamity
+        Transmog({item = 147739, slot = L['leather']}), -- Rigid Meteorguard Gauntlets
+        Transmog({item = 147742, slot = L['leather']}), -- Violent Zealot's Shoulderpads
+        Transmog({item = 147747, slot = L['mail']}), -- Armbands of Crude Strategy
+        Transmog({item = 147748, slot = L['plate']}), -- Gauntlets of Dreadful Tenacity
+        Transmog({item = 147749, slot = L['plate']}) -- Polished Felfury Helmet
+    },
+    [91790] = { -- Brutallus
+        Transmog({item = 147732, slot = L['cloth']}), -- Leggings of Echoing Calamity
+        Transmog({item = 147739, slot = L['leather']}), -- Rigid Meteorguard Gauntlets
+        Transmog({item = 147742, slot = L['leather']}), -- Violent Zealot's Shoulderpads
+        Transmog({item = 147747, slot = L['mail']}), -- Armbands of Crude Strategy
+        Transmog({item = 147748, slot = L['plate']}), -- Gauntlets of Dreadful Tenacity
+        Transmog({item = 147749, slot = L['plate']}) -- Polished Felfury Helmet
+    },
+    [46948] = { -- Malificus
+        Transmog({item = 147735, slot = L['cloth']}), -- Cuffs of Fearful Service
+        Transmog({item = 147733, slot = L['cloth']}), -- Doomsayer's Ritualistic Vestment
+        Transmog({item = 147740, slot = L['leather']}), -- Plague-Resistant Headcover
+        Transmog({item = 147741, slot = L['leather']}), -- Legguards of Unholy Disdain
+        Transmog({item = 147745, slot = L['mail']}), -- Taloned Brain-Scrapers
+        Transmog({item = 147744, slot = L['mail']}), -- Treads of Disorderly Retreat
+        Transmog({item = 147750, slot = L['plate']}), -- Malicious Zealot's Legplates
+        Transmog({item = 147764, slot = L['cloak']}) -- Cloak of Growing Mistrust
+    },
+    [91791] = { -- Malificus
+        Transmog({item = 147735, slot = L['cloth']}), -- Cuffs of Fearful Service
+        Transmog({item = 147733, slot = L['cloth']}), -- Doomsayer's Ritualistic Vestment
+        Transmog({item = 147740, slot = L['leather']}), -- Plague-Resistant Headcover
+        Transmog({item = 147741, slot = L['leather']}), -- Legguards of Unholy Disdain
+        Transmog({item = 147745, slot = L['mail']}), -- Taloned Brain-Scrapers
+        Transmog({item = 147744, slot = L['mail']}), -- Treads of Disorderly Retreat
+        Transmog({item = 147750, slot = L['plate']}), -- Malicious Zealot's Legplates
+        Transmog({item = 147764, slot = L['cloak']}) -- Cloak of Growing Mistrust
+    },
+    [46945] = { -- Si'vash
+        Transmog({item = 147731, slot = L['cloth']}), -- Cowl of Plumbed Depths
+        Transmog({item = 147736, slot = L['cloth']}), -- Dockthrasher Cinch
+        Transmog({item = 147737, slot = L['leather']}), -- Shorebreaker Robes
+        Transmog({item = 147746, slot = L['mail']}), -- Glistening Seaspray Legguards
+        Transmog({item = 147751, slot = L['plate']}), -- Si'vashi Guard's Breastplate
+        Transmog({item = 147752, slot = L['plate']}) -- Pauldrons of the Engulfing Tide
+    },
+    [91792] = { -- Si'vash
+        Transmog({item = 147731, slot = L['cloth']}), -- Cowl of Plumbed Depths
+        Transmog({item = 147736, slot = L['cloth']}), -- Dockthrasher Cinch
+        Transmog({item = 147737, slot = L['leather']}), -- Shorebreaker Robes
+        Transmog({item = 147746, slot = L['mail']}), -- Glistening Seaspray Legguards
+        Transmog({item = 147751, slot = L['plate']}), -- Si'vashi Guard's Breastplate
+        Transmog({item = 147752, slot = L['plate']}) -- Pauldrons of the Engulfing Tide
+    },
+    [47061] = { -- Apocron
+        Transmog({item = 147730, slot = L['cloth']}), -- Ashen Worldscorcher Gloves
+        Transmog({item = 147734, slot = L['cloth']}), -- Spaulders of Forgotten Worlds
+        Transmog({item = 147738, slot = L['leather']}), -- Doom-Herald's Footpads
+        Transmog({item = 147743, slot = L['mail']}), -- Harness of Devouring Flame
+        Transmog({item = 147753, slot = L['plate']}) -- Reaver's Rattling Girdle
+    },
+    [91789] = { -- Apocron
+        Transmog({item = 147730, slot = L['cloth']}), -- Ashen Worldscorcher Gloves
+        Transmog({item = 147734, slot = L['cloth']}), -- Spaulders of Forgotten Worlds
+        Transmog({item = 147738, slot = L['leather']}), -- Doom-Herald's Footpads
+        Transmog({item = 147743, slot = L['mail']}), -- Harness of Devouring Flame
+        Transmog({item = 147753, slot = L['plate']}) -- Reaver's Rattling Girdle
+    }
+})
