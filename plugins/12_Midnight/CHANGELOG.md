@@ -1,3 +1,7 @@
+# v171
+
+* Localization updates
+
 # v170
 
 * Moved the neighborhood (player housing) module in from HandyNotes: The War Within.
