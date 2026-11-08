@@ -38,18 +38,18 @@ L['options_icons_renowned_beast_desc'] = 'Afficher les emplacements des bêtes i
 L['silverscale_note'] = 'Invoqué sous le pont.'
 L['last_architect_note'] = 'Résolvez des énigmes quotidiennes pour obtenir des éléments de décoration.'
 L['neighborhood_riddle'] = 'Emplacement du trésor'
-L['options_icons_souvenirs'] = nil
-L['options_icons_souvenirs_desc'] = nil
-L['souvenir_activity_note'] = nil
-L['souvenir_balloon_note'] = nil
-L['souvenir_beach_note'] = nil
-L['souvenir_cart_note'] = nil
-L['souvenir_guide_note'] = nil
-L['souvenir_kite_note'] = nil
-L['souvenir_scroll_note'] = nil
-L['souvenir_soil_note'] = nil
-L['souvenir_turtle_note'] = nil
-L['souvenir_waterfall_note'] = nil
+L['options_icons_souvenirs'] = '{achievement:63606}'
+L['options_icons_souvenirs_desc'] = 'Afficher les emplacements des souvenirs secrets pour le haut-fait {achievement:63606}.'
+L['souvenir_activity_note'] = 'Requiert une Initiative Tortollane.'
+L['souvenir_balloon_note'] = 'Attaquez le {npc:270647} situé à l\'intérieur de la boutique.'
+L['souvenir_beach_note'] = 'Peut apparaître dans toute la zone. Il ne suffit pas de rester assis seul sur une chaise longue pendant 10 minutes, la progression cachée dépend des activités réalisées sur la plage : s\'asseoir sur des chaises ou des serviettes, se baigner, monter sur l\'{npc:267313} et frapper le {npc:266931}. Lorsque la jauge de progression est presque pleine, le {npc:266895} réagit en disant : « Ça, c\'est une fête digne de ce nom ! ». Terminez une autre mission « Pause bronzette » et le souvenir apparaîtra.'
+L['souvenir_cart_note'] = 'Ce souvenir se trouve à l\'arrière d\'une charrette qui sillonne le quartier.'
+L['souvenir_guide_note'] = 'Lisez {object:Le Bon Échelon : guide d’initiation de montée à l’échelle} à l\'intérieur pour apprendre %s avant de pouvoir monter l\'échelle.'
+L['souvenir_kite_note'] = 'Ce souvenir survole le quartier accroché à un cerf-volant. percutez-le avec votre monture volante pour le forcer à atterrir au sol.'
+L['souvenir_scroll_note'] = 'Achetez un %s auprès de {npc:268110}. Utilisez-le ici, le souvenir apparaîtra à l\'intérieur d\'une bulle.'
+L['souvenir_soil_note'] = 'Pour obtenir ce souvenir, vous devez lancer un sort de zone à base d\'eau sur le {npc:272966}, tel que {spell:145205}, {spell:444995} ou {spell:190356}.\n\nVous pouvez également attendre qu\'il pleuve.'
+L['souvenir_turtle_note'] = 'Sur une tortue qui risque de se dandiner.'
+L['souvenir_waterfall_note'] = 'Ce souvenir apparaît à la source de la cascade et dérive en aval au gré du courant. Il disparaît dès qu\'il s\'échoue sur la plage et qu\'un enfant Tortollan le ramasse.'
 
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS -------------------------------
