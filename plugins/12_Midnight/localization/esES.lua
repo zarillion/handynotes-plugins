@@ -38,18 +38,18 @@ L['options_icons_renowned_beast_desc'] = 'Muestra dónde están las misiones dia
 L['silverscale_note'] = 'Invocado debajo del puente.'
 L['last_architect_note'] = 'Completa los enigmas diarios para conseguir decoraciones.'
 L['neighborhood_riddle'] = 'Ubicación del tesoro'
-L['options_icons_souvenirs'] = nil
-L['options_icons_souvenirs_desc'] = nil
-L['souvenir_activity_note'] = nil
-L['souvenir_balloon_note'] = nil
-L['souvenir_beach_note'] = nil
-L['souvenir_cart_note'] = nil
-L['souvenir_guide_note'] = nil
-L['souvenir_kite_note'] = nil
-L['souvenir_scroll_note'] = nil
-L['souvenir_soil_note'] = nil
-L['souvenir_turtle_note'] = nil
-L['souvenir_waterfall_note'] = nil
+L['options_icons_souvenirs'] = '{achievement:63606}'
+L['options_icons_souvenirs_desc'] = 'Muestra las ubicaciones de buscador de recuerdos para el logro {achievement:63606}.'
+L['souvenir_activity_note'] = 'Requiere Iniciativa tortoliana.'
+L['souvenir_balloon_note'] = 'Ataca al {npc:270647} dentro de la tienda.'
+L['souvenir_beach_note'] = 'Aparece en toda la zona. Sentarse en una silla de playa durante 10 minutos a solas no es suficiente. El progreso oculto proviene de las actividades en la playa: sentarse en sillas o toallas, estando en el agua, montarse en el {npc:267313}, y golpeando la {npc:266931}. Cuando el progreso esté casi lleno, {npc:266895} responde con "¡Esto sí que es una fiesta digna de ese nombre!". Completa una tarea más de "Descanso para tomar el sol" y el recuerdo aparecerá.'
+L['souvenir_cart_note'] = 'Este recuerdo se encuentra en la parte trasera de un carrito que recorre el barrio.'
+L['souvenir_guide_note'] = 'Lee {object:El paso correcto: una guía para principiantes para subir la escalera} en el interior para aprender %s antes de poder subir la escalera.'
+L['souvenir_kite_note'] = 'Este recuerdo vuela por el vecindario en una cometa. Choca contra él con tu montura voladora para obligarlo a aterrizar en el suelo.'
+L['souvenir_scroll_note'] = 'Compra %s a {npc:268110}. Úsalo aquí, el recuerdo aparecerá dentro de una burbuja.'
+L['souvenir_soil_note'] = 'Para conseguir este recuerdo, debes lanzar un hechizo de área de efecto basado en agua sobre el {npc:272966}, como {spell:145205}, {spell:444995} o {spell:190356}.\n\nComo alternativa, puedes esperar a que llueva.'
+L['souvenir_turtle_note'] = 'En una tortuga que puede caminar como un pato.'
+L['souvenir_waterfall_note'] = 'Este recuerdo aparece en el nacimiento de la cascada y es arrastrado río abajo por la corriente. Desaparece una vez que llega a la orilla y un niño tortoliano lo recoge.'
 
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS -------------------------------
