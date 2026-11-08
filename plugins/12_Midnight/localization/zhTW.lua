@@ -35,6 +35,20 @@ L['options_icons_safari_desc'] = '顯示成就 {achievement:61091} 所需的戰�
 L['options_icons_renowned_beast'] = '知名野獸'
 L['options_icons_renowned_beast_desc'] = '顯示可召喚的日常剝皮野獸位置。'
 L['silverscale_note'] = '在橋下召喚。'
+L['last_architect_note'] = nil
+L['neighborhood_riddle'] = '寶藏位置'
+L['options_icons_souvenirs'] = nil
+L['options_icons_souvenirs_desc'] = nil
+L['souvenir_activity_note'] = nil
+L['souvenir_balloon_note'] = nil
+L['souvenir_beach_note'] = nil
+L['souvenir_cart_note'] = nil
+L['souvenir_guide_note'] = nil
+L['souvenir_kite_note'] = nil
+L['souvenir_scroll_note'] = nil
+L['souvenir_soil_note'] = nil
+L['souvenir_turtle_note'] = nil
+L['souvenir_waterfall_note'] = nil
 
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS -------------------------------

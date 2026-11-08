@@ -36,6 +36,20 @@ L['options_icons_safari_desc'] = 'Zeigt die Positionen der wilden Haustiere für
 L['options_icons_renowned_beast'] = 'Renowned Beasts'
 L['options_icons_renowned_beast_desc'] = 'Display locations of summonable daily beasts for Skinning'
 L['silverscale_note'] = 'Summoned below the bridge.'
+L['last_architect_note'] = 'Schließe tägliche Rätsel ab, um Dekorationen zu erhalten.'
+L['neighborhood_riddle'] = 'Schatzfundort'
+L['options_icons_souvenirs'] = nil
+L['options_icons_souvenirs_desc'] = nil
+L['souvenir_activity_note'] = nil
+L['souvenir_balloon_note'] = nil
+L['souvenir_beach_note'] = nil
+L['souvenir_cart_note'] = nil
+L['souvenir_guide_note'] = nil
+L['souvenir_kite_note'] = nil
+L['souvenir_scroll_note'] = nil
+L['souvenir_soil_note'] = nil
+L['souvenir_turtle_note'] = nil
+L['souvenir_waterfall_note'] = nil
 
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS -------------------------------

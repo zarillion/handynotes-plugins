@@ -35,6 +35,20 @@ L['options_icons_safari_desc'] = 'Display battle pet locations for the {achievem
 L['options_icons_renowned_beast'] = 'Renowned Beasts'
 L['options_icons_renowned_beast_desc'] = 'Display locations of summonable daily beasts for Skinning'
 L['silverscale_note'] = 'Summoned below the bridge.'
+L['last_architect_note'] = 'Complete daily riddles to earn decorations.'
+L['neighborhood_riddle'] = 'Treasure Location'
+L['options_icons_souvenirs'] = '{achievement:63606}'
+L['options_icons_souvenirs_desc'] = 'Display the locations of the secret souvenirs for {achievement:63606}.'
+L['souvenir_activity_note'] = 'Requires the Tortollan Endeavor.'
+L['souvenir_balloon_note'] = 'Attack the {npc:270647} inside the shop.'
+L['souvenir_beach_note'] = 'Area-wide spawn. Sitting on a beach chair for 10 minutes alone is not enough; hidden progress comes from beach activities: sitting on chairs or towels, being in the water, riding the {npc:267313}, and hitting the {npc:266931}. When the progress is near full, {npc:266895} responds with "Now THIS is a party."; complete one more "Stay a While and Glisten" task and the souvenir spawns.'
+L['souvenir_cart_note'] = 'This souvenir is in the back of a cart that roams the neighborhood.'
+L['souvenir_guide_note'] = 'Read the {object:No Wrong Rung: A Quick Start Guide to Laddering} inside to learn %s before you can climb the ladder.'
+L['souvenir_kite_note'] = 'This souvenir flies around the neighborhood on a kite. Crash into it with your flying mount to force it to land on the ground.'
+L['souvenir_scroll_note'] = 'Buy %s from {npc:268110}. Use it here; the souvenir appears inside a bubble.'
+L['souvenir_soil_note'] = 'This souvenir requires a water-based AoE spell on the {npc:272966}, such as {spell:145205}, {spell:444995} or {spell:190356}.\n\nAlternatively, you can wait for it to rain.'
+L['souvenir_turtle_note'] = 'On a turtle that may waddle around.'
+L['souvenir_waterfall_note'] = 'This souvenir appears at the source of the waterfall and drifts downstream with the water. It despawns once it washes ashore on the beach and a Tortollan kid takes it.'
 
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS -------------------------------

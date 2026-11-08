@@ -182,6 +182,12 @@ ns.groups.MYSTERIOUS_MIXING = Group('mysterious_mixing', 133778, {
     achievement = 63432
 })
 
+ns.groups.SOUVENIRS = Group('souvenirs', 8033179, {
+    defaults = ns.GROUP_HIDDEN,
+    type = ns.group_types.ACHIEVEMENT,
+    achievement = 63606
+})
+
 -------------------------------------------------------------------------------
 
 -------------------------------------------------------------------------------
@@ -698,6 +704,39 @@ local Thormbelan = {
     Transmog({item = 250452, slot = L['1h_sword']}), -- Blooming Thornblade
     Transmog({item = 250455, slot = L['polearm']}) -- Beastly Blossombarb
 }
+
+-------------------------------------------------------------------------------
+----------------------------- NEIGHBORHOOD RIDDLES ----------------------------
+-------------------------------------------------------------------------------
+
+local Riddle = Class('Riddle', ns.node.Node, {
+    label = L['neighborhood_riddle'],
+    icon = 'peg_gn',
+    scale = 2
+})
+
+function Riddle:IsEnabled()
+    return self.quest and C_QuestLog.IsOnQuest(self.quest[1]) or false
+end
+
+function Riddle.getters:rewards()
+    return self.item and {ns.reward.Decor({item = self.item})} or
+               {ns.reward.Decor({id = self.decor})}
+end
+
+ns.node.Riddle = Riddle
+
+-------------------------------------------------------------------------------
+--------------------------- NEIGHBORHOOD SOUVENIRS ----------------------------
+-------------------------------------------------------------------------------
+
+local Souvenir = Class('Souvenir', Collectible, {
+    icon = 8033179,
+    group = ns.groups.SOUVENIRS,
+    sublabel = L['souvenir_activity_note']
+})
+
+ns.node.Souvenir = Souvenir
 
 ns.hooks.worldquest.Add(ns.groups.RARE, {
     [92123] = Cragpine, -- Cragpine

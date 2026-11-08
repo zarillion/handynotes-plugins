@@ -36,6 +36,20 @@ L['options_icons_safari_desc'] = 'Отображение местоположе�
 L['options_icons_renowned_beast'] = 'Знаменитые звери'
 L['options_icons_renowned_beast_desc'] = 'Отображать места появления призываемых ежедневных зверей для Снятия шкур'
 L['silverscale_note'] = 'Призывается под мостом.'
+L['last_architect_note'] = 'Выполняйте ежедневные загадки, чтобы получить декор.'
+L['neighborhood_riddle'] = 'Местонахождение сокровища'
+L['options_icons_souvenirs'] = nil
+L['options_icons_souvenirs_desc'] = nil
+L['souvenir_activity_note'] = nil
+L['souvenir_balloon_note'] = nil
+L['souvenir_beach_note'] = nil
+L['souvenir_cart_note'] = nil
+L['souvenir_guide_note'] = nil
+L['souvenir_kite_note'] = nil
+L['souvenir_scroll_note'] = nil
+L['souvenir_soil_note'] = nil
+L['souvenir_turtle_note'] = nil
+L['souvenir_waterfall_note'] = nil
 
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS -------------------------------

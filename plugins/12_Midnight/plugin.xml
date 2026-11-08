@@ -17,4 +17,6 @@
   <Script file="zones\labyrinth_of_kindo_jan.lua"/>
   <Script file="zones\aqir_invasion.lua"/>
   <!-- -->
+  <Script file="zones\neighborhood_alliance.lua"/>
+  <Script file="zones\neighborhood_horde.lua"/>
 </Ui>

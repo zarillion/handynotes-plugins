@@ -36,6 +36,20 @@ L['options_icons_safari_desc'] = 'Afficher les emplacements des mascottes pour l
 L['options_icons_renowned_beast'] = 'Bêtes de renom'
 L['options_icons_renowned_beast_desc'] = 'Afficher les emplacements des bêtes invoquables quotidiennement liées au Dépeçage'
 L['silverscale_note'] = 'Invoqué sous le pont.'
+L['last_architect_note'] = 'Résolvez des énigmes quotidiennes pour obtenir des éléments de décoration.'
+L['neighborhood_riddle'] = 'Emplacement du trésor'
+L['options_icons_souvenirs'] = nil
+L['options_icons_souvenirs_desc'] = nil
+L['souvenir_activity_note'] = nil
+L['souvenir_balloon_note'] = nil
+L['souvenir_beach_note'] = nil
+L['souvenir_cart_note'] = nil
+L['souvenir_guide_note'] = nil
+L['souvenir_kite_note'] = nil
+L['souvenir_scroll_note'] = nil
+L['souvenir_soil_note'] = nil
+L['souvenir_turtle_note'] = nil
+L['souvenir_waterfall_note'] = nil
 
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS -------------------------------

@@ -1,3 +1,7 @@
+# v170
+
+* Moved the neighborhood (player housing) module to HandyNotes: Midnight.
+
 # v169
 
 * World boss drops now show on the official world quest pins.

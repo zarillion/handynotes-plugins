@@ -36,6 +36,20 @@ L['options_icons_safari_desc'] = 'Muestra dónde están las mascotas de combate 
 L['options_icons_renowned_beast'] = 'Bestias de renombre'
 L['options_icons_renowned_beast_desc'] = 'Muestra dónde están las misiones diarias de invocación de mascotas para desollamiento.'
 L['silverscale_note'] = 'Invocado debajo del puente.'
+L['last_architect_note'] = 'Completa los enigmas diarios para conseguir decoraciones.'
+L['neighborhood_riddle'] = 'Ubicación del tesoro'
+L['options_icons_souvenirs'] = nil
+L['options_icons_souvenirs_desc'] = nil
+L['souvenir_activity_note'] = nil
+L['souvenir_balloon_note'] = nil
+L['souvenir_beach_note'] = nil
+L['souvenir_cart_note'] = nil
+L['souvenir_guide_note'] = nil
+L['souvenir_kite_note'] = nil
+L['souvenir_scroll_note'] = nil
+L['souvenir_soil_note'] = nil
+L['souvenir_turtle_note'] = nil
+L['souvenir_waterfall_note'] = nil
 
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS -------------------------------

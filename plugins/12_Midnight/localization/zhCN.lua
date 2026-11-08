@@ -35,6 +35,20 @@ L['options_icons_safari_desc'] = '显示 {achievement:61091} 成就中战斗宠�
 L['options_icons_renowned_beast'] = '知名野兽'
 L['options_icons_renowned_beast_desc'] = '显示可召唤的日常剥皮野兽的位置。'
 L['silverscale_note'] = '在桥下召唤。'
+L['last_architect_note'] = '完成每日谜题以获得装饰。'
+L['neighborhood_riddle'] = '宝藏位置'
+L['options_icons_souvenirs'] = '{achievement:63606}'
+L['options_icons_souvenirs_desc'] = '显示 {achievement:63606} 成就中秘密纪念品的位置。'
+L['souvenir_activity_note'] = '需要始祖龟文化节。'
+L['souvenir_balloon_note'] = '需要攻击店内的 {npc:270647}。'
+L['souvenir_beach_note'] = '区域随机刷新。光坐沙滩椅等10分钟并不保证出现，需要靠沙滩活动累积隐藏进度：坐沙滩椅或沙滩巾、待在水里、骑乘 {npc:267313}、拍打 {npc:266931}。进度接近满时，向 {npc:266895} 询问海滩情况会得到“现在这才是派对”的回应；之后再完成一次“驻足闪耀”，纪念品就会刷新。'
+L['souvenir_cart_note'] = '这个纪念品在一辆巡游住宅区的马车后部。'
+L['souvenir_guide_note'] = '需要阅读屋内的 {object:不踩空：梯子使用快速入门指南}，学会 %s 后才能爬梯子。'
+L['souvenir_kite_note'] = '这个纪念品会乘着风筝在住宅区上空飞行。骑乘飞行坐骑撞击风筝，迫使它降落在地上。'
+L['souvenir_scroll_note'] = '需要从 {npc:268110} 购买 %s。使用后会出现泡泡，纪念品在泡泡里。'
+L['souvenir_soil_note'] = '这个纪念品需要对着 {npc:272966} 使用水系范围法术，例如德鲁伊的 {spell:145205}、萨满祭司的 {spell:444995} 或法师的 {spell:190356}。\n\n当然，也可以等天空下雨。'
+L['souvenir_turtle_note'] = '在一只四处游荡的乌龟身上。'
+L['souvenir_waterfall_note'] = '这个纪念品从瀑布源头出现，顺着水流一路漂向下游。一旦被冲上海岸沙滩、被始祖龟小孩捡走，就会消失。'
 
 -------------------------------------------------------------------------------
 -------------------------------- EVERSONG WOODS -------------------------------

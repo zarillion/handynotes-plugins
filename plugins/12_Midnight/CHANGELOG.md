@@ -1,3 +1,8 @@
+# v170
+
+* Moved the neighborhood (player housing) module in from HandyNotes: The War Within.
+* Added secret souvenir locations for the Souvenir Seeker achievements, including the roaming cart and kite.
+
 # v169
 
 * World boss drops now show on the official area POI and world quest pins.
