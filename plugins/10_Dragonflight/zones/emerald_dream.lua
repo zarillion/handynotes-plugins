@@ -512,7 +512,7 @@ ns.hooks.worldquest.Add(ns.groups.RARE, {
 
 ---------------------------------- ZONE DROPS ---------------------------------
 
-map.nodes[72002700] = Node({
+map.nodes[74002700] = Node({
     icon = 5390645,
     label = L['zone_drops_label'],
     scale = 1.5,
@@ -1220,9 +1220,10 @@ local DruidGlyph = Class('DruidGlyph', Collectible, {
     class = 'DRUID'
 }) -- Druid Glyph
 
-map.nodes[70002700] = DruidGlyph({
+map.nodes[68002700] = DruidGlyph({
     label = L['druid_glyphs_label'],
     sublabel = L['druid_glyphs_sublabel'],
+    scale = 1.5,
     note = L['druid_glyphs_note'],
     rewards = {
         -- LuaFormatter off
@@ -1321,13 +1322,15 @@ map.nodes[50054897] = DruidGlyph({
     pois = {
         Path({Circle({origin = 50054897, radius = 4})}),
         Path({Circle({origin = 42886656, radius = 3})}),
-        Path({Circle({origin = 38007100, radius = 2})})
+        Path({Circle({origin = 38007100, radius = 2})}),
+        Path({Circle({origin = 55603820, radius = 2})})
     }
 })
 
 map.nodes[63743916] = DruidGlyph({
     label = '{item:210727}',
     note = L['pollenfused_bristlebruin_fur_sample_note'],
+    requires = ns.requirement.Quest(78046), -- Overseer Oversight
     rewards = {DG.Guardian.AshenBristlebruin} -- Pollenfused Bristlebruin Fur Sample
 }) -- Pollenfused Bristlebruin Fur Sample
 

@@ -1,3 +1,9 @@
+# v171
+
+* Added the Overseer Oversight quest requirement to the Pollenfused Bristlebruin Fur Sample node.
+* Added the missing Verdant Dreamsaber spawn circle to Lushdream Crags.
+* Moved the Emerald Dream zone drops and Druid Glyphs nodes apart and matched their icon sizes.
+
 # v169
 
 * World boss drops now show on the official world quest pins.
