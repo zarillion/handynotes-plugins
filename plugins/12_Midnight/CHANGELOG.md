@@ -1,3 +1,7 @@
+# v172
+
+* Transmog rewards now show the specs of your class which can loot the item.
+
 # v171
 
 * Localization updates

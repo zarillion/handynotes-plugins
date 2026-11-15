@@ -652,6 +652,50 @@ local Transmog = Class('Transmog', Item,
 
 local CTC = C_TransmogCollection
 
+-- Icons for the player's own specs which can loot the item, so a reward row
+-- answers "can my class use this?" at a glance.
+local CSI = C_SpecializationInfo
+local GetNumSpecializations = CSI.GetNumSpecializations or
+                                  _G.GetNumSpecializations
+local GetSpecializationInfo = CSI.GetSpecializationInfo or
+                                  _G.GetSpecializationInfo
+
+local IndexNeckType = Enum.InventoryType.IndexNeckType
+local IndexFingerType = Enum.InventoryType.IndexFingerType
+
+-- Returns the icons of the player's specs which can loot the item.
+local function GetSpecIcons(itemID)
+    if not itemID then return end
+
+    local lootSpecs = C_Item.GetItemSpecInfo(itemID)
+    local allowed
+    if lootSpecs and #lootSpecs > 0 then
+        allowed = {}
+        for i, specID in ipairs(lootSpecs) do allowed[specID] = true end
+    else
+        -- Legion and later items give no spec data when every spec can loot
+        -- them. Necks and fingers cannot be told apart from role-restricted
+        -- trinkets, so accessories fall back to all of the player's specs.
+        local _, _, _, _, _, _, _, _, equipLoc, _, _, classID, _, _, expacID =
+            C_Item.GetItemInfo(itemID)
+        local isAccessory = equipLoc == 'INVTYPE_NECK' or equipLoc ==
+                                'INVTYPE_FINGER' or equipLoc == IndexNeckType or
+                                equipLoc == IndexFingerType
+        if classID ~= 4 or (expacID or 0) < 6 or not isAccessory then
+            return
+        end
+    end
+
+    local icons = {}
+    for i = 1, GetNumSpecializations() do
+        local specID, _, _, icon = GetSpecializationInfo(i)
+        if specID and icon and (not allowed or allowed[specID]) then
+            icons[#icons + 1] = '|T' .. icon .. ':0|t'
+        end
+    end
+    if #icons > 0 then return table.concat(icons, ' ') end
+end
+
 function Transmog:Initialize(attrs)
     Item.Initialize(self, attrs)
     if self.slot then
@@ -741,6 +785,11 @@ function Transmog:GetStatus()
         -- elseif not self:IsObtainable() then
         --     status = Orange(L['unobtainable'])
         -- end
+
+        -- show which of the player's specs can loot the item, so long as the
+        -- appearance is still missing
+        local icons = GetSpecIcons(self.item)
+        if icons then status = icons .. ' ' .. status end
     end
 
     return status
