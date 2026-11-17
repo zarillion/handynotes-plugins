@@ -85,7 +85,7 @@ L['signal_transmitter_note'] = '{note:Requiere 10 puntos en Mente mecánica\nReq
 L['options_icons_signal_transmitter'] = 'Transmisores de generador de agujeros de vermis'
 L['options_icons_signal_transmitter_desc'] = 'Muestra dónde están los {object:Transmisor desactivado} para los {item:198156}.'
 
-L['rare_14h'] = 'Este raro está en una rotación de 14 horas junto con otros raros. Hay una aparición rara cada 30 minutos.\n\n%s'
+L['rare_14h'] = 'Este raro está en una rotación de 14 horas junto con otros raros. Hay una aparición rara cada 30 minutos. (Después: %s - %s)\n\n%s'
 L['spawns_at_night'] = '{note:Sólo aparece por la noche. (Después de las 18:30 hora del servidor)}'
 
 L['elemental_storm'] = 'Tormenta elemental'

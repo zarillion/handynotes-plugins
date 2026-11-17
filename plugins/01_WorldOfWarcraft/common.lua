@@ -13,7 +13,12 @@ local Rare = ns.node.Rare
 local Boss = ns.node.Boss
 
 local Achievement = ns.reward.Achievement
+local Mount = ns.reward.Mount
 local Pet = ns.reward.Pet
+local Section = ns.reward.Section
+local Spacer = ns.reward.Spacer
+local Toy = ns.reward.Toy
+local Transmog = ns.reward.Transmog
 
 -------------------------------------------------------------------------------
 
@@ -87,6 +92,114 @@ ns.node.AnniversaryNPC = Class('AnniversaryNPC', NPC, {
         if not IsAnniversaryEvent() then return false end
         return Rare.IsEnabled(self)
     end
+})
+
+-------------------------------------------------------------------------------
+------------------------- ANNIVERSARY BOSS DROPS ------------------------------
+-------------------------------------------------------------------------------
+-- Adds the special anniversary world boss drops to the official pins.
+
+local AnniversaryDoomwalkerDrops = {
+    Mount({item = 186469, id = 293}), -- Illidari Doomhawk
+    Mount({item = 208572, id = 1798}), -- Azure Worldchiller
+    Mount({item = 43959, id = 286, faction = 'Alliance'}), -- Grand Black War Mammoth (A)
+    Mount({item = 44083, id = 287, faction = 'Horde'}), -- Grand Black War Mammoth (H)
+    Toy({item = 186501}) -- Doomwalker Trophy Stand
+}
+
+ns.hook.Vignette({vignetteID = 6518, rewards = { -- Archavon the Stone Watcher
+    Mount({item = 43959, id = 286, faction = 'Alliance'}), -- Grand Black War Mammoth (A)
+    Mount({item = 44083, id = 287, faction = 'Horde'}) -- Grand Black War Mammoth (H)
+}})
+
+ns.hook.Vignette({vignetteID = 6519, rewards = { -- Sha of Anger
+    Mount({item = 87771, id = 473}) -- Reins of the Heavenly Onyx Cloud Serpent
+}})
+
+ns.hook.Vignette({vignetteID = 6520, rewards = AnniversaryDoomwalkerDrops}) -- Doomwalker
+
+local NightmareSharedDrops = {
+    Transmog({item = 150429, slot = L['dagger']}), -- Emerald Dragonfang
+    Transmog({item = 150412, slot = L['1h_mace']}), -- Hammer of Bestial Fury
+    Transmog({item = 150393, slot = L['1h_sword']}), -- Nightmare Blade
+    Transmog({item = 150403, slot = L['crossbow']}), -- Polished Ironwood Crossbow
+    Transmog({item = 150408, slot = L['staff']}), -- Staff of Rampant Growth
+    Transmog({item = 150411, slot = L['cloak']}), -- Green Dragonskin Cloak
+    Transmog({item = 150383, slot = L['staff']}) -- Amberseal Keeper
+}
+
+local function NightmareDrops(drops)
+    local rewards = {}
+    for _, reward in ipairs(drops) do rewards[#rewards + 1] = reward end
+    rewards[#rewards + 1] = Spacer()
+    rewards[#rewards + 1] = Section(L['shared_drops'])
+    for _, reward in ipairs(NightmareSharedDrops) do rewards[#rewards + 1] = reward end
+    return rewards
+end
+
+ns.hooks.areapoi.Add(ns.groups.MISC, {
+    [8164] = { -- Azuregos
+        Transmog({item = 150419, slot = L['cloth']}), -- Crystal Adorned Crown
+        Transmog({item = 150425, slot = L['cloth']}), -- Snowblind Shoes
+        Transmog({item = 150543, slot = L['leather']}), -- Sapphire-Encrusted Tunic
+        Transmog({item = 150544, slot = L['mail']}), -- Mana-Frosted Pauldrons
+        Transmog({item = 150422, slot = L['plate']}), -- Unmelting Ice Girdle
+        Transmog({item = 150417, slot = L['cloak']}), -- Drape of Benediction
+        Transmog({item = 150424, slot = L['wand']}), -- Cold Snap
+        Transmog({item = 150428, slot = L['fist']}), -- Eskhandar's Left Claw
+        Transmog({item = 150423, slot = L['dagger']}), -- Fang of the Mystics
+        Transmog({item = 150421, slot = L['2h_sword']}) -- Typhoon
+    },
+    [8165] = { -- Lord Kazzak
+        Transmog({item = 150380, slot = L['cloak']}), -- Eskhandar's Pelt
+        Transmog({item = 150385, slot = L['cloth']}), -- Fel Infused Leggings
+        Transmog({item = 150386, slot = L['cloth']}), -- Blacklight Bracer
+        Transmog({item = 150381, slot = L['leather']}), -- Flayed Doomguard Belt
+        Transmog({item = 150382, slot = L['leather']}), -- Doomhide Gauntlets
+        Transmog({item = 150379, slot = L['mail']}), -- Infernal Headcage
+        Transmog({item = 150427, slot = L['1h_mace']}), -- Empyrean Demolisher
+        Transmog({item = 150383, slot = L['staff']}), -- Amberseal Keeper
+        Spacer(), --
+        Pet({item = 230011, id = 4679}) -- Lil'Kaz
+    },
+    [8166] = NightmareDrops({ -- Lethon
+        Transmog({item = 150401, slot = L['leather']}), -- Deviate Growth Cap
+        Transmog({item = 150399, slot = L['cloth']}), -- Black Bark Wristbands
+        Transmog({item = 150402, slot = L['plate']}), -- Gauntlets of the Shining Light
+        Transmog({item = 150398, slot = L['leather']}), -- Dark Heart Pants
+        Transmog({item = 150400, slot = L['mail']}) -- Malignant Footguards
+    }),
+    [8167] = NightmareDrops({ -- Emeriss
+        Transmog({item = 150405, slot = L['leather']}), -- Circlet of Restless Dreams
+        Transmog({item = 150415, slot = L['leather']}), -- Dragonspur Wraps
+        Transmog({item = 150416, slot = L['cloth']}), -- Gloves of Delusional Power
+        Transmog({item = 150410, slot = L['plate']}), -- Acid Inscribed Greaves
+        Transmog({item = 150406, slot = L['mail']}) -- Boots of the Endless Moor
+    }),
+    [8168] = NightmareDrops({ -- Taerar
+        Transmog({item = 150395, slot = L['leather']}), -- Unnatural Leather Spaulders
+        Transmog({item = 150413, slot = L['plate']}), -- Dragonbone Wristguards
+        Transmog({item = 150414, slot = L['mail']}), -- Ancient Corroded Leggings
+        Transmog({item = 150390, slot = L['plate']}), -- Strangely Glyphed Legplates
+        Transmog({item = 150394, slot = L['cloth']}) -- Mendicant's Slippers
+    }),
+    [8169] = NightmareDrops({ -- Ysondre
+        Transmog({item = 150409, slot = L['offhand']}), -- Trance Stone
+        Transmog({item = 150387, slot = L['plate']}), -- Acid Inscribed Pauldrons
+        Transmog({item = 150391, slot = L['cloth']}), -- Jade Inlaid Vestments
+        Transmog({item = 150397, slot = L['cloth']}), -- Belt of the Dark Bog
+        Transmog({item = 150389, slot = L['mail']}), -- Leggings of the Demented Mind
+        Transmog({item = 150396, slot = L['leather']}) -- Boots of Fright
+    }),
+    [8170] = { -- The Gatecrashers
+        Mount({item = 186469, id = 293}), -- Illidari Doomhawk
+        Mount({item = 208572, id = 1798}), -- Azure Worldchiller
+        Mount({item = 43959, id = 286, faction = 'Alliance'}), -- Grand Black War Mammoth (A)
+        Mount({item = 44083, id = 287, faction = 'Horde'}), -- Grand Black War Mammoth (H)
+        Spacer(), --
+        Mount({item = 87771, id = 473}), -- Reins of the Heavenly Onyx Cloud Serpent
+        Toy({item = 186501}) -- Doomwalker Trophy Stand
+    }
 })
 
 -------------------------------------------------------------------------------

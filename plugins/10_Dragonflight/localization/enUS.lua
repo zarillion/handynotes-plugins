@@ -84,7 +84,7 @@ L['signal_transmitter_note'] = '{note:Requires 10 points in Mechanical Mind\nReq
 L['options_icons_signal_transmitter'] = 'Wyrmhole Generator Signal Transmitters'
 L['options_icons_signal_transmitter_desc'] = 'Display {object:Deactivated Signal Transmitters} locations for the {item:198156}.'
 
-L['rare_14h'] = 'This rare is on a 14 hour rotation with other rares with one rare spawning every 30 minutes.\n\n%s'
+L['rare_14h'] = 'This rare is on a 14 hour rotation with other rares with one rare spawning every 30 minutes. (After this: %s - %s)\n\n%s'
 L['spawns_at_night'] = '{note:Spawns only at night. (After 18:30 server time)}'
 
 L['elemental_storm'] = 'Elemental Storm'

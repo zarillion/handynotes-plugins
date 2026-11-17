@@ -1,3 +1,11 @@
+# v172
+
+* Added Sha of Anger and Archavon the Stone Watcher anniversary nodes to Tanaris.
+* Hooked the anniversary world boss special drops to the official pins.
+* Hooked Azuregos, Lord Kazzak, and the Nightmare Dragons' loot to their official pins.
+* Updated Doomwalker's anniversary location and special drops.
+* Removed the extra blank line after the shared drops section.
+
 # v168
 
 * Anniversary world bosses now use the boss icon and label.

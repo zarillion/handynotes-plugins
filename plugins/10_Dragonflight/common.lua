@@ -1314,6 +1314,133 @@ ns.Intervals.Interval14h = Class('Interval14h', ns.Interval, {
     text = L['rare_14h']
 })
 
+-- Rare order of the 14h rotation, keyed by the interval id used on each node.
+ns.Intervals.Interval14hRares = {
+    [0] = {npc = 193210, map = 2025}, -- Phleep
+    [1] = {npc = 186827, map = 2022}, -- Magmaton
+    [2] = {npc = 193251, map = 2024}, -- Gruffy
+    [3] = {npc = 193227, map = 2023}, -- Ronsak the Decimator
+    [4] = {npc = 193240, map = 2025}, -- Riverwalker Tamopo
+    [5] = {npc = 193132, map = 2022}, -- Amethyzar the Glittering
+    [6] = {npc = 193234, map = 2025}, -- Eldoren the Reborn
+    [7] = {npc = 193688, map = 2025, placeholder = true}, -- Phenran (not in rotation)
+    [8] = {npc = 193149, map = 2024}, -- Skag the Thrower
+    [9] = {npc = 193173, map = 2023}, -- Mikrin of the Raging Winds
+    [10] = {npc = 193666, map = 2025}, -- Rokmur
+    [11] = {npc = 193120, map = 2022}, -- Smogswog the Firebreather
+    [12] = {npc = 193246, map = 2025}, -- Matriarch Remalla
+    [13] = {npc = 193118, map = 2022}, -- O'nank Shorescour
+    [14] = {npc = 196010, map = 2023}, -- Researcher Sneakwing
+    [15] = {npc = 193146, map = 2025}, -- Treasure-Mad Trambladd
+    [16] = {npc = 186200, map = 2022}, -- Harkyn Grymstone
+    [17] = {npc = 193170, map = 2023}, -- Fulgurb
+    [18] = {npc = 193176, map = 2025}, -- Sandana the Tempest
+    [19] = {npc = 193228, map = 2022}, -- Snappy
+    [20] = {npc = 193123, map = 2023}, -- Steamgill
+    [21] = {npc = 193258, map = 2025}, -- Tempestrian
+    [22] = {npc = 193152, map = 2022}, -- Massive Magmashell
+    [23] = {npc = 193269, map = 2024}, -- Grumbletrunk
+    [24] = {npc = 193235, map = 2023}, -- Oshigol
+    [25] = {npc = 193220, map = 2025}, -- Broodweaver Araznae
+    [26] = {npc = 193135, map = 2022}, -- Azra's Prized Peony
+    [27] = {npc = 193212, map = 2023} -- Malsegan
+}
+
+-- The rare that follows this one in the rotation.
+function ns.Intervals.Interval14h:NextRare()
+    if not self.id then return nil end
+    local id = (self.id + 1) % 28
+    for _ = 1, 28 do
+        local rare = ns.Intervals.Interval14hRares[id]
+        if rare and not rare.placeholder then return rare end
+        id = (id + 1) % 28
+    end
+    return nil
+end
+
+local function FormatIntervalText(self)
+    local text = ns.Interval.GetText(self)
+    if not text then return nil end
+
+    -- Base text is: description, blank line, countdown, clock.
+    local lines = {}
+    for line in (text .. '\n'):gmatch('(.-)\n') do
+        if line ~= '' then lines[#lines + 1] = line end
+    end
+
+    local result = {}
+    if lines[1] then result[#result + 1] = lines[1] end
+
+    local label = L['next_time'] or 'Next:'
+    if lines[2] then
+        result[#result + 1] = ''
+        local countdown = lines[2]
+        if countdown:sub(1, #label) == label then
+            countdown = countdown:sub(#label + 1):gsub('^%s+', '')
+        end
+        result[#result + 1] = label .. ' ' .. countdown
+
+        local NextSpawn = self:Next()
+        if NextSpawn then
+            local timeFormat = GetCVarBool('timeMgrUseMilitaryTime') and
+                                   self.format_24hrs or self.format_12hrs
+            local clockText
+            if GetCVarBool('timeMgrUseLocalTime') then
+                clockText = date(timeFormat, NextSpawn) .. ' ' ..
+                                (L['local_time'] or 'Local Time')
+            else
+                clockText = date(timeFormat, ns.ServerClockEpoch(NextSpawn)) ..
+                                ' ' .. (L['server_time'] or 'Server Time')
+            end
+            result[#result + 1] = ns.color.Orange(clockText)
+        end
+    end
+
+    text = table.concat(result, '\n')
+    ns.PrepareLinks(text)
+    return text
+end
+
+function ns.Intervals.Interval14h:GetText()
+    local NextSpawn, TimeLeft = self:Next()
+    if not NextSpawn then return nil end
+
+    local label = L['next_time'] or 'Next:'
+    local countdown = ns.FormatCountdown(TimeLeft)
+    local color = ns.color.Orange
+    if TimeLeft < self:Threshold('yellow', self.interval) then
+        color = ns.color.Yellow
+    end
+    if TimeLeft < self:Threshold('green', self.interval) then
+        color = ns.color.Green
+    end
+    countdown = color(countdown)
+
+    local timeFormat = GetCVarBool('timeMgrUseMilitaryTime') and
+                           self.format_24hrs or self.format_12hrs
+    local clockText
+    if GetCVarBool('timeMgrUseLocalTime') then
+        clockText = date(timeFormat, NextSpawn) .. ' ' ..
+                        (L['local_time'] or 'Local Time')
+    else
+        clockText = date(timeFormat, ns.ServerClockEpoch(NextSpawn)) ..
+                        ' ' .. (L['server_time'] or 'Server Time')
+    end
+
+    local timeBlock = label .. ' ' .. countdown .. '\n' ..
+                          ns.color.Orange(clockText)
+
+    local nextRare = self:NextRare()
+    local template = L['rare_14h']
+    if not template or not nextRare then return timeBlock end
+
+    local mapInfo = C_Map.GetMapInfo(nextRare.map)
+    local zone = mapInfo and mapInfo.name or ''
+    local text = format(template, '{npc:' .. nextRare.npc .. '}', zone, timeBlock)
+    ns.PrepareLinks(text)
+    return text
+end
+
 ns.Intervals.BrackenhideInterval = Class('BrackenhideInterval', ns.Interval, {
     initial = {
         us = 1672531800,
@@ -1325,6 +1452,8 @@ ns.Intervals.BrackenhideInterval = Class('BrackenhideInterval', ns.Interval, {
     interval = 2400,
     text = L['brackenhide_rare_note']
 })
+
+function ns.Intervals.BrackenhideInterval:GetText() return FormatIntervalText(self) end
 
 ns.Intervals.FeastInterval = Class('FeastInterval', ns.Interval, {
     initial = {
@@ -1339,6 +1468,8 @@ ns.Intervals.FeastInterval = Class('FeastInterval', ns.Interval, {
     text = L['bisquis_note']
 })
 
+function ns.Intervals.FeastInterval:GetText() return FormatIntervalText(self) end
+
 ns.Intervals.AylaagCampInterval = Class('AylaagCampInterval', ns.Interval, {
     initial = {
         us = 1677456000,
@@ -1351,6 +1482,8 @@ ns.Intervals.AylaagCampInterval = Class('AylaagCampInterval', ns.Interval, {
     id = 0,
     text = L['aylaag_camp_note']
 })
+
+function ns.Intervals.AylaagCampInterval:GetText() return FormatIntervalText(self) end
 
 -------------------------------------------------------------------------------
 ------------------------------- ELEMENTAL STORMS ------------------------------

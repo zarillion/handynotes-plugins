@@ -39,7 +39,7 @@ map.nodes[63602800] = ns.node.AnniversaryBoss({
         Transmog({item = 150398, type = L['leather']}), -- Dark Heart Pants
         Transmog({item = 150400, type = L['mail']}), -- Malignant Footguards
         Transmog({item = 150402, type = L['plate']}), -- Gauntlets of the Shining Light
-        Spacer(), Section(L['shared_drops']), Spacer(),
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 150429, type = L['dagger']}), -- Emerald Dragonfang
         Transmog({item = 150412, type = L['1h_mace']}), -- Hammer of Bestial Fury
         Transmog({item = 150393, type = L['1h_sword']}), -- Nightmare Blade

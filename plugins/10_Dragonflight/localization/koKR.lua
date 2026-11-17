@@ -84,7 +84,7 @@ L['signal_transmitter_note'] = nil
 L['options_icons_signal_transmitter'] = '지룡 구멍 생성기 신호 송신기'
 L['options_icons_signal_transmitter_desc'] = '{item:198156}를 이용하기 위한 {object:비활성화된 신호 송신기} 위치를 표시합니다.'
 
-L['rare_14h'] = nil
+L['rare_14h'] = '이 희귀 몬스터는 다른 희귀 몬스터들과 14시간 순환에 속하며, 30분마다 한 마리가 나타납니다. (이후: %s - %s)\n\n%s'
 L['spawns_at_night'] = '저녁에만 출몰합니다. (서버 시각 기준 18:30)'
 
 L['elemental_storm'] = nil

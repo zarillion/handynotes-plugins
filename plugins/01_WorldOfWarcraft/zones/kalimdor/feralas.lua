@@ -60,7 +60,7 @@ map.nodes[51601080] = ns.node.AnniversaryBoss({
         Transmog({item = 150389, slot = L['mail']}), -- Leggings of the Demented Mind
         Transmog({item = 150387, slot = L['plate']}), -- Acid Inscribed Pauldrons
         Transmog({item = 150409, slot = L['offhand']}), -- Trance Stone
-        Spacer(), Section(L['shared_drops']), Spacer(),
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 150429, slot = L['dagger']}), -- Emerald Dragonfang
         Transmog({item = 150412, slot = L['1h_mace']}), -- Hammer of Bestial Fury
         Transmog({item = 150393, slot = L['1h_sword']}), -- Nightmare Blade

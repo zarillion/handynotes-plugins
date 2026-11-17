@@ -110,7 +110,7 @@ map.nodes[46304000] = ns.node.AnniversaryBoss({
         Transmog({item = 150415, type = L['leather']}), -- Dragonspur Wraps
         Transmog({item = 150406, type = L['mail']}), -- Boots of the Endless Moor
         Transmog({item = 150410, type = L['plate']}), -- Acid Inscribed Greaves
-        Spacer(), Section(L['shared_drops']), Spacer(),
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 150429, type = L['dagger']}), -- Emerald Dragonfang
         Transmog({item = 150412, type = L['1h_mace']}), -- Hammer of Bestial Fury
         Transmog({item = 150393, type = L['1h_sword']}), -- Nightmare Blade

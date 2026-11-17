@@ -102,7 +102,7 @@ map.nodes[93604000] = ns.node.AnniversaryBoss({
         Transmog({item = 150414, slot = L['mail']}), -- Ancient Corroded Leggings
         Transmog({item = 150390, slot = L['plate']}), -- Strangely Glyphed Legplates
         Transmog({item = 150413, slot = L['plate']}), -- Dragonbone Wristguards
-        Spacer(), Section(L['shared_drops']), Spacer(),
+        Spacer(), Section(L['shared_drops']),
         Transmog({item = 150429, slot = L['dagger']}), -- Emerald Dragonfang
         Transmog({item = 150412, slot = L['1h_mace']}), -- Hammer of Bestial Fury
         Transmog({item = 150393, slot = L['1h_sword']}), -- Nightmare Blade

@@ -54,7 +54,7 @@ map.nodes[40802920] = Rare({
 
 -------------------------------------------------------------------------------
 
-map.nodes[64405070] = ns.node.AnniversaryBoss({
+map.nodes[62105840] = ns.node.AnniversaryBoss({
     id = 167749,
     quest = 60214,
     rewards = {
@@ -71,10 +71,31 @@ map.nodes[64405070] = ns.node.AnniversaryBoss({
         Transmog({item = 186467, slot = L['gun']}), -- Barrel-Blade Longrifle
         Transmog({item = 186466, slot = L['2h_axe']}), -- Ethereum Nexus-Reaver
         Transmog({item = 186468, slot = L['dagger']}), -- Talon of the Tempest
-        Spacer(), Mount({item = 186469, id = 293}), -- Illidari Doomhawk
+        Spacer(),
+        Mount({item = 186469, id = 293}), -- Illidari Doomhawk
+        Mount({item = 208572, id = 1798}), -- Azure Worldchiller
+        Mount({item = 43959, id = 286, faction = 'Alliance'}), -- Grand Black War Mammoth (A)
+        Mount({item = 44083, id = 287, faction = 'Horde'}), -- Grand Black War Mammoth (H)
         Toy({item = 186501}) -- Doomwalker Trophy Stand
     }
 }) -- Doomwalker
+
+map.nodes[33705560] = ns.node.AnniversaryBoss({
+    id = 226646,
+    quest = 84282,
+    rewards = {
+        Mount({item = 87771, id = 473}) -- Reins of the Heavenly Onyx Cloud Serpent
+    }
+}) -- Sha of Anger
+
+map.nodes[46002890] = ns.node.AnniversaryBoss({
+    id = 227257,
+    quest = 84256,
+    rewards = {
+        Mount({item = 43959, id = 286, faction = 'Alliance'}), -- Grand Black War Mammoth (A)
+        Mount({item = 44083, id = 287, faction = 'Horde'}) -- Grand Black War Mammoth (H)
+    }
+}) -- Archavon the Stone Watcher
 
 -------------------------------------------------------------------------------
 ------------------------------------ SAFARI -----------------------------------

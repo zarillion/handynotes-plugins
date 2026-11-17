@@ -1897,14 +1897,14 @@ map.nodes[46914169] = NPC({
     note = L['venari_note'],
     rewards = {
         Achievement({id = 14895, oneline = true}), -- 'Ghast Five
-        Section(C_Map.GetMapInfo(1543).name), Spacer(),
+        Section(C_Map.GetMapInfo(1543).name),
         Item({item = 184613, quest = 63177, note = L['Apprehensive']}), -- Encased Riftwalker Essence
         Item({item = 184653, quest = 63217, note = L['Tentative']}), -- Animated Levitating Chain
         Item({item = 180949, quest = 61600, note = L['Tentative']}), -- Animaflow Stabilizer
         Item({item = 184605, quest = 63092, note = L['Tentative']}), -- Sigil of the Unseen
         Item({item = 184588, quest = 63091, note = L['Ambivalent']}), -- Soul-Stabilizing Talisman
         Item({item = 184870, note = L['Appreciative']}), -- Stygia Dowser
-        Spacer(), Section(L['torghast']), Spacer(),
+        Spacer(), Section(L['torghast']),
         Item({item = 184620, quest_account = 63202, note = L['Apprehensive']}), -- Vessel of Unforunate Spirits
         Item({item = 184615, quest_account = 63183, note = L['Apprehensive']}), -- Extradimensional Pockets
         Item({item = 184901, quest_account = 63523, note = L['Apprehensive']}), -- Broker Traversal Enhancer

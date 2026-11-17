@@ -2097,6 +2097,7 @@ map.nodes[57473193] = Ohnahra()
 
 map.nodes[71473180] = Collectible({
     icon = 237385,
+    scale = 1.5,
     requires = ns.requirement.Reputation(2503, 4, true), -- Maruuk Centaur
     interval = ns.Intervals.AylaagCampInterval({id = 0}),
     rewards = {
@@ -2107,6 +2108,7 @@ map.nodes[71473180] = Collectible({
 
 map.nodes[70666300] = Collectible({
     icon = 237385,
+    scale = 1.5,
     requires = ns.requirement.Reputation(2503, 4, true), -- Maruuk Centaur
     interval = ns.Intervals.AylaagCampInterval({id = 1}),
     rewards = {
@@ -2117,6 +2119,7 @@ map.nodes[70666300] = Collectible({
 
 map.nodes[55375224] = Collectible({
     icon = 237385,
+    scale = 1.5,
     requires = ns.requirement.Reputation(2503, 4, true), -- Maruuk Centaur
     interval = ns.Intervals.AylaagCampInterval({id = 2}),
     rewards = {
@@ -2124,6 +2127,26 @@ map.nodes[55375224] = Collectible({
     },
     pois = {POI({71473180})}
 }) -- Eaglewatch Outpost to Aylaag Outpost
+
+-------------------------------------------------------------------------------
+------------------------------- AYLAAG CAMP POIS ------------------------------
+-------------------------------------------------------------------------------
+
+-- 7101/7102/7103 follow world state 0x2775 values 1/0/2 (camp rotation 1/0/2).
+ns.hooks.areapoi.Add(ns.groups.MISC, {
+    [7101] = { -- River Camp
+        interval = ns.Intervals.AylaagCampInterval({id = 1}),
+        rewards = {Achievement({id = 16462, criteria = 55481})}
+    },
+    [7102] = { -- Aylaag Outpost
+        interval = ns.Intervals.AylaagCampInterval({id = 0}),
+        rewards = {Achievement({id = 16462, criteria = 55480})}
+    },
+    [7103] = { -- Eaglewatch Outpost
+        interval = ns.Intervals.AylaagCampInterval({id = 2}),
+        rewards = {Achievement({id = 16462, criteria = 55482})}
+    }
+})
 
 ---------------------------- PET: MOTE OF NASZ'URO ----------------------------
 

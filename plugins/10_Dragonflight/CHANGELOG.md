@@ -1,3 +1,9 @@
+# v172
+
+* The 14-hour rare tooltip now shows the next rare in the rotation and its zone.
+* Interval tooltips now use one "next" label and a single clock line.
+* Hooked the Aylaag camp pins to show the camp timer and achievement.
+
 # v171
 
 * Added the Overseer Oversight quest requirement to the Pollenfused Bristlebruin Fur Sample node.
