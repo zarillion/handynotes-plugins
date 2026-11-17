@@ -107,14 +107,20 @@ local AnniversaryDoomwalkerDrops = {
     Toy({item = 186501}) -- Doomwalker Trophy Stand
 }
 
-ns.hook.Vignette({vignetteID = 6518, rewards = { -- Archavon the Stone Watcher
-    Mount({item = 43959, id = 286, faction = 'Alliance'}), -- Grand Black War Mammoth (A)
-    Mount({item = 44083, id = 287, faction = 'Horde'}) -- Grand Black War Mammoth (H)
-}})
+ns.hook.Vignette({
+    vignetteID = 6518,
+    rewards = { -- Archavon the Stone Watcher
+        Mount({item = 43959, id = 286, faction = 'Alliance'}), -- Grand Black War Mammoth (A)
+        Mount({item = 44083, id = 287, faction = 'Horde'}) -- Grand Black War Mammoth (H)
+    }
+})
 
-ns.hook.Vignette({vignetteID = 6519, rewards = { -- Sha of Anger
-    Mount({item = 87771, id = 473}) -- Reins of the Heavenly Onyx Cloud Serpent
-}})
+ns.hook.Vignette({
+    vignetteID = 6519,
+    rewards = { -- Sha of Anger
+        Mount({item = 87771, id = 473}) -- Reins of the Heavenly Onyx Cloud Serpent
+    }
+})
 
 ns.hook.Vignette({vignetteID = 6520, rewards = AnniversaryDoomwalkerDrops}) -- Doomwalker
 
@@ -133,7 +139,9 @@ local function NightmareDrops(drops)
     for _, reward in ipairs(drops) do rewards[#rewards + 1] = reward end
     rewards[#rewards + 1] = Spacer()
     rewards[#rewards + 1] = Section(L['shared_drops'])
-    for _, reward in ipairs(NightmareSharedDrops) do rewards[#rewards + 1] = reward end
+    for _, reward in ipairs(NightmareSharedDrops) do
+        rewards[#rewards + 1] = reward
+    end
     return rewards
 end
 

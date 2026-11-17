@@ -1423,8 +1423,8 @@ function ns.Intervals.Interval14h:GetText()
         clockText = date(timeFormat, NextSpawn) .. ' ' ..
                         (L['local_time'] or 'Local Time')
     else
-        clockText = date(timeFormat, ns.ServerClockEpoch(NextSpawn)) ..
-                        ' ' .. (L['server_time'] or 'Server Time')
+        clockText = date(timeFormat, ns.ServerClockEpoch(NextSpawn)) .. ' ' ..
+                        (L['server_time'] or 'Server Time')
     end
 
     local timeBlock = label .. ' ' .. countdown .. '\n' ..
@@ -1436,7 +1436,8 @@ function ns.Intervals.Interval14h:GetText()
 
     local mapInfo = C_Map.GetMapInfo(nextRare.map)
     local zone = mapInfo and mapInfo.name or ''
-    local text = format(template, '{npc:' .. nextRare.npc .. '}', zone, timeBlock)
+    local text = format(template, '{npc:' .. nextRare.npc .. '}', zone,
+        timeBlock)
     ns.PrepareLinks(text)
     return text
 end
@@ -1453,7 +1454,9 @@ ns.Intervals.BrackenhideInterval = Class('BrackenhideInterval', ns.Interval, {
     text = L['brackenhide_rare_note']
 })
 
-function ns.Intervals.BrackenhideInterval:GetText() return FormatIntervalText(self) end
+function ns.Intervals.BrackenhideInterval:GetText()
+    return FormatIntervalText(self)
+end
 
 ns.Intervals.FeastInterval = Class('FeastInterval', ns.Interval, {
     initial = {
@@ -1483,7 +1486,9 @@ ns.Intervals.AylaagCampInterval = Class('AylaagCampInterval', ns.Interval, {
     text = L['aylaag_camp_note']
 })
 
-function ns.Intervals.AylaagCampInterval:GetText() return FormatIntervalText(self) end
+function ns.Intervals.AylaagCampInterval:GetText()
+    return FormatIntervalText(self)
+end
 
 -------------------------------------------------------------------------------
 ------------------------------- ELEMENTAL STORMS ------------------------------

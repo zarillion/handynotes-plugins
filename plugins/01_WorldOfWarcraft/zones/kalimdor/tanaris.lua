@@ -71,8 +71,7 @@ map.nodes[62105840] = ns.node.AnniversaryBoss({
         Transmog({item = 186467, slot = L['gun']}), -- Barrel-Blade Longrifle
         Transmog({item = 186466, slot = L['2h_axe']}), -- Ethereum Nexus-Reaver
         Transmog({item = 186468, slot = L['dagger']}), -- Talon of the Tempest
-        Spacer(),
-        Mount({item = 186469, id = 293}), -- Illidari Doomhawk
+        Spacer(), Mount({item = 186469, id = 293}), -- Illidari Doomhawk
         Mount({item = 208572, id = 1798}), -- Azure Worldchiller
         Mount({item = 43959, id = 286, faction = 'Alliance'}), -- Grand Black War Mammoth (A)
         Mount({item = 44083, id = 287, faction = 'Horde'}), -- Grand Black War Mammoth (H)
