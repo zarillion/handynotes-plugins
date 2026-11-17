@@ -229,10 +229,10 @@ local function HookAllPOIS()
         end
 
         local data = tooltip.GetTooltipData and tooltip:GetTooltipData()
-        if data and data.id and not isSecret(data.id) and
-            (data.type == Enum.TooltipDataType.Quest or
-                (Enum.TooltipDataType.WorldQuest and data.type ==
-                    Enum.TooltipDataType.WorldQuest)) then
+        local dataType = data and data.type
+        if data and data.id and not isSecret(data.id) and not isSecret(dataType) and
+            (dataType == Enum.TooltipDataType.Quest or dataType ==
+                Enum.TooltipDataType.WorldQuest) then
             return data.id, owner
         end
 
@@ -244,9 +244,8 @@ local function HookAllPOIS()
             for id in pairs(ns.hooks.worldquest) do
                 if type(id) == 'number' then
                     local questTitle = C_TaskQuest.GetQuestInfoByQuestID(id)
-                    if questTitle and questTitle == title then
-                        return id, owner
-                    end
+                    if questTitle and not isSecret(questTitle) and questTitle ==
+                        title then return id, owner end
                 end
             end
         end

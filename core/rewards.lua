@@ -253,6 +253,10 @@ function Buff:GetStatus()
     local aura = C_UnitAuras.GetPlayerAuraBySpellID(self.id)
     if aura then
         local applications = aura.applications
+        -- 12.x: aura fields are secret in restricted content
+        if not applications or (issecretvalue and issecretvalue(applications)) then
+            return nil
+        end
         local status = applications .. '/' .. stacks
         return (applications >= stacks) and Green(status) or Red(status)
     end
@@ -542,10 +546,15 @@ end
 function Recipe:IsObtained()
     local info = C_TooltipInfo.GetItemByID(self.item)
     if info then
+        local KnownLineType = Enum.TooltipDataLineType.RestrictedSpellKnown
         for _, line in ipairs(info.lines) do
-            if line.leftText and line.leftText == _G.ITEM_SPELL_KNOWN then
-                return true
-            end
+            -- 12.x: tooltip text can be secret; prefer the line type
+            local lineType = line.type
+            if lineType and not (issecretvalue and issecretvalue(lineType)) and
+                lineType == KnownLineType then return true end
+            local leftText = line.leftText
+            if leftText and not (issecretvalue and issecretvalue(leftText)) and
+                leftText == _G.ITEM_SPELL_KNOWN then return true end
         end
     end
     return false
@@ -589,6 +598,9 @@ function Title:GetText()
     local title = strtrim(titleName)
     text = string.gsub(text, '{title}', title)
     local player = UnitName('player')
+    if not player or (issecretvalue and issecretvalue(player)) then
+        player = UNKNOWN
+    end
     text = string.gsub(text, '{player}', player)
     text = White(text)
     if self.type then text = text .. ' (' .. self.type .. ')' end
@@ -634,7 +646,10 @@ function Appearance:IsObtained()
     local info = C_TooltipInfo.GetItemByID(self.item)
     if info then
         for _, line in ipairs(info.lines) do
-            if line.type == KnownLineType then return true end
+            -- 12.x: tooltip fields can be secret values
+            local lineType = line.type
+            if lineType and not (issecretvalue and issecretvalue(lineType)) and
+                lineType == KnownLineType then return true end
         end
     end
     return false

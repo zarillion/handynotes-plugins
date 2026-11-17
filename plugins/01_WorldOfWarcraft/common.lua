@@ -39,43 +39,87 @@ ns.groups.CRAZYFORCATS = Group('crazyforcats', 656579,
 
 --[[
 
-There is a calendar event for the anniversary that remains static every year:
+The anniversary calendar event keeps its title pattern but changes its event id
+and localized title every year, and the 590 "WoW's Anniversary" placeholder never
+shows up in the C_Calendar API. Its calendar icon, however, is unique to the
+event and stable across years, so match on that instead of localized titles.
 
-    event=590,title=WoW's Anniversary
+The holiday ships three icon file ids per art set (start/ongoing/end), and
+GetDayEvent().iconTexture returns the one matching the day, so accept all three:
 
-However, this event does not actually show up in the C_Calendar API, so we cannot use
-it to check if the event is active. The actual event id, title and dates change:
+    1084434/1084433/1084432 - WoW's 10th-19th Anniversary
+    6238552/6238551/6238550 - WoW's 20th Anniversary and later
 
-    event=1225,title=WoW's 17th Anniversary,dates=11/15-12/6
-    event=1262,title=WoW's 18th Anniversary,dates=11/6-11/27
-
-So as far as I can tell, we cannot look for a single event id or a static date range.
-We have two options, we can update this code each year to include the new event id, or
-we can pattern match the title for each language we support. I'm going to go with the
-latter so no new releases are necessary each year.
-
-If someone knows a better way, let me know!
+If Blizzard ever gives the event new art, add the new ids here.
 
 --]]
 
-local function IsAnniversaryEvent()
+local anniversaryIcons = {
+    [1084434] = true, -- WoW's 10th-19th Anniversary
+    [1084433] = true,
+    [1084432] = true,
+    [6238552] = true, -- WoW's 20th Anniversary and later
+    [6238551] = true,
+    [6238550] = true
+}
+
+local anniversaryEventActive = false
+
+-- The calendar lists the holiday on its first and last days, but it is only
+-- active between the start/end times, so check the clock on those days.
+local function IsEventActive(event)
+    local sequenceType = event.sequenceType
+    if issecretvalue and issecretvalue(sequenceType) then return true end
+    if sequenceType == 'ONGOING' then return true end
+
+    local calendarTime = sequenceType == 'END' and event.endTime or
+                             event.startTime
+    local hour = calendarTime and calendarTime.hour
+    local minute = calendarTime and calendarTime.minute
+    if not hour or not minute or
+        (issecretvalue and (issecretvalue(hour) or issecretvalue(minute))) then
+        return true -- fall back to showing the event all day
+    end
+
+    local now = C_DateAndTime.GetCurrentCalendarTime()
+    local nowMinutes = now.hour * 60 + now.minute
+    local eventMinutes = hour * 60 + minute
+
+    if sequenceType == 'END' then return nowMinutes < eventMinutes end
+    return nowMinutes >= eventMinutes
+end
+
+local function ScanAnniversaryEvent()
     local day = C_DateAndTime.GetCurrentCalendarTime().monthDay
     C_Calendar.SetMonth(0) -- set calendar to current month
 
     for i = 1, C_Calendar.GetNumDayEvents(0, day) do
         local event = C_Calendar.GetDayEvent(0, day, i)
+        local calendarType = event and event.calendarType
+        local iconTexture = event and event.iconTexture
+        -- 12.x: calendar fields can be secret values in restricted content
+        local secret = (issecretvalue and issecretvalue(calendarType)) or
+                           (issecretvalue and issecretvalue(iconTexture))
 
-        -- LuaFormatter off
-        if event.calendarType == 'HOLIDAY' and (
-            event.title:match('WoW\'s %d%d%l%l Anniversary') or -- enUS
-            event.title:match('%d%d. Geburtstag von WoW') or -- deDE
-            event.title:match('%d%de anniversaire de Wo') or -- frFR
-            event.title:match('%d%d-я годовщина Wo') or -- ruRU
-            event.title:match('魔兽世界.*周年') -- zhCN
-            -- additional language help needed!
-        ) then return true end
-        -- LuaFormatter on
+        if not secret and calendarType == 'HOLIDAY' and
+            anniversaryIcons[iconTexture] and IsEventActive(event) then
+            return true
+        end
     end
+    return false
+end
+
+local function IsAnniversaryEvent()
+    -- Calendar values are secret while chat messaging is locked down
+    -- (instances, battlegrounds); reuse the last known result instead.
+    if C_ChatInfo and C_ChatInfo.InChatMessagingLockdown and
+        C_ChatInfo.InChatMessagingLockdown() then
+        return anniversaryEventActive
+    end
+
+    local ok, active = pcall(ScanAnniversaryEvent)
+    if ok then anniversaryEventActive = active end
+    return anniversaryEventActive
 end
 
 ns.node.AnniversaryBoss = Class('AnniversaryBoss', Boss, {

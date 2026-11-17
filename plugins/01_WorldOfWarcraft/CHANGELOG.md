@@ -1,3 +1,8 @@
+# v173
+
+* Fixed a calendar secret-value error during the anniversary event check.
+* Match the anniversary event by its calendar icon instead of localized titles, and respect its start/end times.
+
 # v172
 
 * Added Sha of Anger and Archavon the Stone Watcher anniversary nodes to Tanaris.

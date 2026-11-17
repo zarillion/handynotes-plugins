@@ -63,7 +63,7 @@ function NameResolver:Resolve(link, refresh, quiet)
                 name = line.leftText or UNKNOWN
                 -- 11.x+: NPC names from tooltips can be secret values;
                 -- these can't be compared or cached, fall back to UNKNOWN
-                if issecretvalue(name) then
+                if issecretvalue and issecretvalue(name) then
                     secret = true
                     name = UNKNOWN
                 end

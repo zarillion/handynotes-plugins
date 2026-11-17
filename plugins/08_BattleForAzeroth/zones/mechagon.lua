@@ -32,7 +32,7 @@ local map = Map({id = 1462, settings = true})
 
 function map:Prepare()
     Map.Prepare(self)
-    self.future = AuraUtil.FindAuraByName(ns.api.GetSpellInfo(296644), 'player')
+    self.future = C_UnitAuras.GetPlayerAuraBySpellID(296644) ~= nil
 end
 
 function map:CanDisplay(node, coord, minimap)

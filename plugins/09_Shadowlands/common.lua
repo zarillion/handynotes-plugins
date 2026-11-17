@@ -442,7 +442,7 @@ function RiftMap:Prepare()
 
     self.rifted = false
     for i, spellID in ipairs {352795, 354870} do
-        if AuraUtil.FindAuraByName(ns.api.GetSpellInfo(spellID), 'player') then
+        if C_UnitAuras.GetPlayerAuraBySpellID(spellID) ~= nil then
             self.rifted = true
         end
     end

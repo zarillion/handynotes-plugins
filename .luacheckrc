@@ -26,6 +26,7 @@ read_globals = {
     'C_AddOns',
     'C_AreaPoiInfo',
     'C_Calendar',
+    'C_ChatInfo',
     'C_ContributionCollector',
     'C_Covenants',
     'C_CurrencyInfo',
