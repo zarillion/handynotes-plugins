@@ -1,27 +1,27 @@
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('ruRU')
 if not L then return end
-
+-- Russian translation by ZamestoTV
 -------------------------------------------------------------------------------
 ------------------------------ SHADOWMOON VALLEY ------------------------------
 -------------------------------------------------------------------------------
 
 L['netherwing_egg'] = '{item:32506}'
-L['mordenai_note'] = nil
-L['not_so_friendly_skies_note'] = nil
-L['netherwing_egg_note'] = nil
+L['mordenai_note'] = '{npc:22113} начинает цепочку заданий, позволяющую улучшить репутацию с фракцией {faction:1015} с Ненависти до Равнодушия, чтобы открыть повторяемые задания на острове на юге.'
+L['not_so_friendly_skies_note'] = 'Это хорошее место для добычи предмета {item:32509}. {npc:23188} регулярно появляется к северу над зданием и пролетает прямо над вами, где его можно убить атакой дальнего боя.'
+L['netherwing_egg_note'] = 'Отнесите это {npc:23141}, чтобы получить 250 ед. репутации.'
 L['options_icons_netherwing_eggs'] = '{achievement:898}'
-L['options_icons_netherwing_eggs_desc'] = nil
+L['options_icons_netherwing_eggs_desc'] = 'Показывать местоположение {item:32506} для достижения {achievement:898}.'
 
 L['options_icons_safari'] = '{achievement:6587}'
-L['options_icons_safari_desc'] = nil
+L['options_icons_safari_desc'] = 'Показывать местоположение боевых питомцев для достижения {achievement:6587}.'
 
 L['options_icons_crazyforcats'] = '{achievement:8397}'
-L['options_icons_crazyforcats_desc'] = nil
+L['options_icons_crazyforcats_desc'] = 'Показывать местоположение боевых питомцев для достижения {achievement:8397}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- NETHERSTORM ---------------------------------
 -------------------------------------------------------------------------------
 
-L['lorhtander_note_manaforge'] = nil
-L['lorhtander_note_cave'] = nil
+L['lorhtander_note_manaforge'] = 'Может ходить внутри Манагорна и вокруг него.'
+L['lorhtander_note_cave'] = 'Может ходить внутри пещеры под Манагорном.'
