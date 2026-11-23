@@ -1,63 +1,102 @@
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('ruRU')
 if not L then return end
-
+-- Russian translation by ZamestoTV
 -------------------------------------------------------------------------------
 ------------------------------------ COMMON -----------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_safari'] = nil
-L['options_icons_safari_desc'] = nil
+L['options_icons_safari'] = 'Сафари по Калимдору и Восточным королевствам'
+L['options_icons_safari_desc'] = 'Показывать местоположение боевых питомцев для достижений {achievement:6585} и {achievement:6586}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- MOUNT HYJAL ---------------------------------
 -------------------------------------------------------------------------------
 
-L['hyjal_phase0'] = nil
-L['hyjal_phase1'] = nil
-L['hyjal_phase2'] = nil
-L['hyjal_phase3'] = nil
-L['hyjal_phase4a'] = nil
-L['hyjal_phase4b'] = nil
-L['hyjal_phase5'] = nil
+L['hyjal_phase0'] = 'Фаза 0 - До вторжения'
+L['hyjal_phase1'] = 'Фаза 1 - Вторжение'
+L['hyjal_phase2'] = 'Фаза 2 - Святилище Малорна'
+L['hyjal_phase3'] = 'Фаза 3 - Огненная передовая'
+L['hyjal_phase4a'] = 'Фаза 4a - Зона Друидов-воронов'
+L['hyjal_phase4b'] = 'Фаза 4b - Зона Темных стражниц'
+L['hyjal_phase5'] = 'Фаза 5 - Восстановление'
 
-L['hyjal_phase1_note'] = nil
-L['hyjal_phase2_note'] = nil
-L['hyjal_phase3_note'] = nil
-L['hyjal_phase4_note'] = nil
-L['hyjal_phase5_note'] = nil
+L['hyjal_phase1_note'] = 'Выполняйте задания в локации {location:Хиджал}, пока не получите задание {quest:29389}. Эта цепочка заданий начнет фазу вторжения.'
+L['hyjal_phase2_note'] = 'Чтобы перейти ко 2-й фазе, вам потребуется 10 {currency:416} для задания {quest:29198}.\n\nВы можете заработать {currency:416}, выполняя ежедневные задания.'
+L['hyjal_phase3_note'] = 'Чтобы перейти к 3-й фазе, вам потребуется 15 {currency:416} для задания {quest:29201}.\n\nВы можете заработать {currency:416}, выполняя ежедневные задания.'
+L['hyjal_phase4_note'] = [[
+Фаза 4 разделена на 2 части.
 
-L['portal_molten_front'] = nil
-L['portal_mount_hyjal'] = nil
+Чтобы перейти к фазе 4a, вам потребуется 150 {currency:416} для задания {quest:29181}.
+Чтобы перейти к фазе 4b, вам потребуется 150 {currency:416} для задания {quest:29214}.
 
-L['spider_hill_note'] = nil
+Вы можете заработать {currency:416}, выполняя ежедневные задания.
+]]
+L['hyjal_phase5_note'] = 'Чтобы перейти к фазе 5, вам нужно выполнить задания {quest:29215} и {quest:29182}.' -- review
 
-L['fiery_lords_note'] = nil
-L['have_we_met_note'] = nil
-L['ludicrous_speed_note'] = nil
-L['angry_little_squirrel_note'] = nil
-L['hyjal_bear_cub_note'] = nil
-L['child_of_tortolla_note'] = nil
-L['ready_for_raiding_2_note'] = nil
-L['flawless_victory_note'] = nil
-L['gang_war_note'] = nil
-L['death_from_above_note'] = nil
-L['flamewaker_sentinel_note'] = nil
-L['flamewaker_shaman_note'] = nil
+L['portal_molten_front'] = 'Портал на Огненную передовую'
+L['portal_mount_hyjal'] = 'Портал в Хиджал'
 
-L['options_icons_spider_hill_desc'] = nil
-L['options_icons_fiery_lords_desc'] = nil
-L['options_icons_have_we_met_desc'] = nil
-L['options_icons_unbeatable_pterodactyl_desc'] = nil
-L['options_icons_ludicrous_speed_desc'] = nil
-L['options_icons_critter_revenge_desc'] = nil
-L['options_icons_r4r_2_desc'] = nil
-L['options_icons_flawless_victory_desc'] = nil
-L['options_icons_gang_war_desc'] = nil
-L['options_icons_death_from_above_desc'] = nil
-L['options_icons_infernal_ambassadors_desc'] = nil
-L['options_icons_fireside_chat_desc'] = nil
-L['options_icons_molten_flow_master_desc'] = nil
+L['spider_hill_note'] = [[
+Доберитесь до самой высокой точки в локации {location:Кладка Вдовы}.
+
+Чтобы попасть на вершину, вам нужно спровоцировать {npc:52981}, не убивая их. Они применят способность {spell:97959} и подтянут вас наверх.
+Рекомендуемые способы для персонажей максимального уровня:
+
+{item:46725}
+Охотник на демонов: {spell:185245}
+Друид: {spell:2908}
+Охотник: {spell:1513}
+Маг: {spell:241178}
+Паладин: {spell:62124}
+Жрец: {spell:528}
+Разбойник: {spell:36554}
+Шаман: {spell:52870}
+Воин: {spell:355}
+]]
+
+L['fiery_lords_note'] = 'Одновременно активен только один {title:Лорд}; после его убийства сразу же появляется следующий.'
+L['have_we_met_note'] = [[
+Элитный отряд бойцов поможет вам в выполнении ежедневного задания, как только вы прибудете в локацию {location:Гнездо Сетрии}.
+
+Используйте эмоцию {emote:/помахать}, чтобы помахать нужному НПС.
+]]
+
+L['ludicrous_speed_note'] = [[
+Во время выполнения задания {daily:29147} накопите 65 эффектов {spell:100957}.
+
+{npc:52594} дает 15 эффектов
+{npc:52596} дает 5 эффектов
+{npc:52595} дает 1 эффект
+]]
+
+L['angry_little_squirrel_note'] = 'Подведите врага к дереву, и {npc:52195} стукнет его по голове.'
+L['hyjal_bear_cub_note'] = 'Во время выполнения задания {daily:29161} бросьте {npc:52688} в {npc:52795}.' -- review
+L['child_of_tortolla_note'] = 'Во время выполнения задания {daily:29101} вместо того, чтобы пнуть черепашку в воду, пните ее в {npc:52219}.' -- review
+L['ready_for_raiding_2_note'] = 'Убейте следующих {title:Воинов пламени} в локации {location:Владения Рагнароса}, не попав под их особые атаки.'
+L['flawless_victory_note'] = 'В одиночку убейте {npc:52552}, не получив урона от способностей {spell:97243} или {spell:96688}.'
+L['gang_war_note'] = 'Выиграйте дуэль в локации {location:Гнездо Сетрии} во время выполнения задания {daily:29128}.'
+L['death_from_above_note'] = [[
+Сбросьте бомбы на цель {title:<Повелитель огня>} во время выполнения задания {daily:29290}.
+
+{note:Одновременно активны только 3 {title:Повелителя огня}. Чтобы выполнить достижение быстрее, не сдавайте задание и вернитесь завтра.}
+]]
+L['flamewaker_sentinel_note'] = 'Используйте {item:137663}, чтобы снизить его запас здоровья и заставить применить способность {spell:98369}. Уклонитесь от всех выстрелов, а затем убейте его.'
+L['flamewaker_shaman_note'] = 'Используйте {item:137663}, чтобы снизить его запас здоровья до минимума. Подождите, пока он не убьет сам себя.'
+
+L['options_icons_spider_hill_desc'] = 'Показывать местоположение для достижения {achievement:5872}.'
+L['options_icons_fiery_lords_desc'] = 'Показывать местоположение элементалей для достижения {achievement:5861}.'
+L['options_icons_have_we_met_desc'] = 'Показывать место выполнения задания для достижения {achievement:5865}.'
+L['options_icons_unbeatable_pterodactyl_desc'] = 'Показывать место выполнения задания для достижения {achievement:5860}.'
+L['options_icons_ludicrous_speed_desc'] = 'Показывать местоположение для достижения {achievement:5862}.'
+L['options_icons_critter_revenge_desc'] = 'Показывать местоположение существ для достижения {achievement:5868}.'
+L['options_icons_r4r_2_desc'] = 'Показывать местоположение для достижения {achievement:5873}.'
+L['options_icons_flawless_victory_desc'] = 'Показывать местоположение для достижения {achievement:5873}.'
+L['options_icons_gang_war_desc'] = 'Показывать местоположение для достижения {achievement:5864}.'
+L['options_icons_death_from_above_desc'] = 'Показывать местоположение для достижения {achievement:5874}.'
+L['options_icons_infernal_ambassadors_desc'] = 'Показывать местоположение для достижения {achievement:5869}.'
+L['options_icons_fireside_chat_desc'] = 'Показывать местоположение НПС для достижения {achievement:5870}.'
+L['options_icons_molten_flow_master_desc'] = 'Показывать местоположение для достижения {achievement:5871}.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- DEEPHOLM ----------------------------------
@@ -66,20 +105,41 @@ L['options_icons_molten_flow_master_desc'] = nil
 L['portal_to_therazane'] = 'Портал к трону Теразан'
 L['portal_to_earth_temple'] = 'Портал в Храм Земли'
 
-L['fungal_frenzy_note'] = nil
-L['rock_lover_note'] = nil
+L['fungal_frenzy_note'] = [[
+Испытайте одновременно действие эффектов {spell:83803}, {spell:83805}, {spell:83747} и {spell:83804}.
 
-L['options_icons_broodmother_desc'] = nil
-L['options_icons_fungal_frenzy_desc'] = nil
-L['options_icons_fungalophobia_desc'] = nil
-L['options_icons_glop_family_desc'] = nil
-L['options_icons_rock_lover_desc'] = nil
+{dot:Bronze} {spell:83747}
+Красновато-коричневый гриб с белой окантовкой.
+Уменьшает ваш размер.
+
+{dot:Red} {spell:83803}
+Большой красный гриб у воды.
+Окружает вас красным туманом, увеличивает наносимый урон.
+
+{dot:Blue} {spell:83805}
+Синий гриб с белой окантовкой.
+Увеличивает скорость передвижения.
+
+{dot:LightBlue} {spell:83804}
+Фиолетовый гриб с розовыми точками.
+Соберите этот гриб последним - он просто подбросит вас в воздух и не наложит никакого положительного эффекта.
+
+{note:Грибы можно найти только во время выполнения задания {daily:27050}.
+Все грибы отображаются под названием {object:Багровый гриб}.}
+]]
+L['rock_lover_note'] = 'Держитесь подальше от {npc:44258}.'
+
+L['options_icons_broodmother_desc'] = 'Показывать место выполнения задания для достижения {achievement:5447}.'
+L['options_icons_fungal_frenzy_desc'] = 'Показывать местоположение грибов для достижения {achievement:5450}.'
+L['options_icons_fungalophobia_desc'] = 'Показывать место выполнения задания для достижения {achievement:5445}.'
+L['options_icons_glop_family_desc'] = 'Показывать место выполнения задания для достижения {achievement:5446}.'
+L['options_icons_rock_lover_desc'] = 'Показывать местоположение и путь к {npc:49956} для достижения {achievement:5449}.'
 
 -------------------------------------------------------------------------------
 ----------------------------------- VASHJIR -----------------------------------
 -------------------------------------------------------------------------------
 
-L['options_icons_whale_shark_desc'] = nil
+L['options_icons_whale_shark_desc'] = 'Показывать местоположение {npc:40728} для достижения {achievement:4975}.'
 
 -------------------------------------------------------------------------------
 ------------------------------ TWILIGHT HIGHLANDS -----------------------------
