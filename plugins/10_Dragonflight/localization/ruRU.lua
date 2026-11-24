@@ -862,7 +862,7 @@ L['naszuro_ruby_lifeshrine'] = 'Под когтем статуи дракона.
 L['naszuro_dragonheart_outpost'] = 'В ветвях дерева.'
 
 L['box_of_rocks_label'] = 'Ящик с камнями'
-L['box_of_rocks_note'] = '{object:Ящики с камнями} можно найти в локациях {location:Берега Пробуждения} или {location:Зкерское Хранилище} или купить на аукционе.'
+L['box_of_rocks_note'] = '{object:Ящики с камнями} можно найти на {location:Берегах Пробуждения} или {location:Зкерское Хранилище} или купить на аукционе.'
 L['options_icons_many_boxes'] = '{achievement:18559}'
 L['options_icons_many_boxes_desc'] = 'Показать возможные местоположения {object:Ящиков с камнями} для {achievement:18559}.'
 
@@ -1144,7 +1144,7 @@ L['soa_01_golden_chalice_note'] = 'Поместите {item:208056} в {location
 L['soa_02_rlabel'] = '(Загадка 2)'
 L['soa_02_kathos_note'] = 'Поговорите с {npc:206864}, чтобы получить {item:207105}.\n\nОтнесите {item:207105} к {npc:186448} в {location:Искару} в {location:Лазурный Простор}.'
 L['soa_02_shomko_note_a'] = 'Поговорите с {npc:186448}, чтобы получить {item:207580}.'
-L['soa_02_shomko_note_b'] = 'Поместите {item:207580} на {object:Ритуальное копье} в {location:Терзающем Биче} в локации {location:Борейская тундра} в {location:Нордсколе}.'
+L['soa_02_shomko_note_b'] = 'Поместите {item:207580} на {object:Ритуальное копье} в {location:Терзающем Биче} в {location:Борейской тундре}, что в {location:Нордсколе}.'
 L['soa_02_shomko_note_c'] = '{note:Обязательно останьтесь и убейте {npc:208182}, чтобы получить {item:207594}.}'
 
 -- Secrets of Azeroth: Clue 3
