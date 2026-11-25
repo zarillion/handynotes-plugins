@@ -38,10 +38,10 @@ L['dilbert_mcclint_note'] = 'Эй там, меня зовут {npc:140461}, эк
 L['fizzie_spark_note'] = 'Вы думаете, что у ваших питомцев есть шанс против моей команды, наполненной Азеритом? Вы хотите!'
 L['michael_skarn_note'] = 'Просто помни, когда мы начнем эту битву, ты сам напросился на это.'
 
-L['cursed_hunter_label'] = nil
-L['cursed_hunter_note'] = nil
-L['options_icons_cursed_hunter_desc'] = nil
-L['options_icons_cursed_hunter'] = nil
+L['cursed_hunter_label'] = 'Проклятая дичь'
+L['cursed_hunter_note'] = 'Убейте по одному проклятому животному каждого вида, чтобы получить достижение.'
+L['options_icons_cursed_hunter_desc'] = 'Показывать местоположение животных для достижения {achievement:13094}.'
+L['options_icons_cursed_hunter'] = '{achievement:13094}'
 
 L['drust_facts_note'] = 'Прочтите все стелы, чтобы получить достижение.'
 L['stele_forest_note'] = 'Внутри берлоги Ульфара.'
@@ -108,9 +108,9 @@ L['options_icons_locked_chest_desc'] = 'Отображение местопол�
 L['options_icons_recrig'] = 'Очистительная установка'
 L['options_icons_recrig_desc'] = 'Показать местоположение Очистительной установки и ее награды.'
 
-L['mechagon_snooter_note'] = nil
-L['battlepet_secondary_only_note'] = nil
-L['mechagon_explode_note'] = nil
+L['mechagon_snooter_note'] = '{npc:154769} (довольно редкий) и {npc:154767} делят одни и те же точки появления.'
+L['battlepet_secondary_only_note'] = 'Встречается только как дополнительный питомец в бою.'
+L['mechagon_explode_note'] = '{note:Осторожно: он может применить {spell:90096}, что убьет его, и вы не сможете его поймать.}'
 
 -------------------------------------------------------------------------------
 ----------------------------------- NAZJATAR ----------------------------------
@@ -201,7 +201,7 @@ L['cat_figurine_09'] = 'В подводной пещере. Статуэтка �
 L['cat_figurine_10'] = 'В пещере чуть ниже дороги. Статуэтка между тремя бочками.'
 L['figurines_found'] = 'Найдены статуэтки кошек'
 
-L['fabious_desc'] = nil
+L['fabious_desc'] = 'Сделайте "селфи" с {npc:65090}, используя игрушку {item:122637} или {item:122674}. Появляется редко в случайных местах и остается на короткое время.'
 
 L['mardivas_lab'] = 'Лаборатория Мардиваса'
 L['no_reagent'] = 'Без реагентов'
@@ -233,7 +233,7 @@ L['options_icons_cats_nazj_desc'] = 'Отображение мест распо�
 L['options_icons_misc_nazj'] = 'Разное'
 L['options_icons_misc_nazj_desc'] = 'Показать местоположение пещеры {npc:152593} и Лаборатории Мардиваса.'
 L['options_icons_fabious'] = '{npc:65090}'
-L['options_icons_fabious_desc'] = nil
+L['options_icons_fabious_desc'] = 'Показывать возможные места появления {npc:65090} для получения средства передвижения {item:169201}.'
 
 -------------------------------------------------------------------------------
 ------------------------------------ NAZMIR -----------------------------------
@@ -745,8 +745,8 @@ L['options_icons_squirrels'] = '{achievement:14730}'
 L['options_icons_squirrels_desc'] = 'Места появления зверьков для {achievement:14730}'
 
 L['options_icons_battle_safari'] = '{achievement:12930}'
-L['options_icons_battle_safari_desc'] = nil
+L['options_icons_battle_safari_desc'] = 'Показывать местоположение боевых питомцев для достижения {achievement:12930}.'
 L['options_icons_mecha_safari'] = '{achievement:13693}'
-L['options_icons_mecha_safari_desc'] = nil
+L['options_icons_mecha_safari_desc'] = 'Показывать местоположение боевых питомцев для достижения {achievement:13693}.'
 L['options_icons_nazja_safari'] = '{achievement:13694}'
-L['options_icons_nazja_safari_desc'] = nil
+L['options_icons_nazja_safari_desc'] = 'Показывать местоположение боевых питомцев для достижения {achievement:13694}.'
