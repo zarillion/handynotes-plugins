@@ -62,51 +62,51 @@ L['options_icons_lorewalker_desc'] = nil
 --------------------------------- Jade Forest ---------------------------------
 -------------------------------------------------------------------------------
 
-L['ancient_pick'] = nil
-L['ships_locker'] = nil
-L['ships_locker_note'] = nil
-L['chest_of_supplies'] = nil
-L['chest_of_supplies_note'] = nil
-L['offering_of_rememberance'] = nil
-L['offering_of_rememberance_note'] = nil
-L['stash_of_gems'] = nil
-L['stash_of_gems_note'] = nil
+L['ancient_pick'] = '{item:85777} находится внутри {location:Каменоломни Зеленой Скалы} на нижнем уровне.'
+L['ships_locker'] = 'Корабельный сейф'
+L['ships_locker_note'] = 'На затонувшем корабле. Содержит около 96 золотых.'
+L['chest_of_supplies'] = 'Ящик с припасами'
+L['chest_of_supplies_note'] = 'Содержит около 10 золотых.'
+L['offering_of_rememberance'] = 'Памятный дар'
+L['offering_of_rememberance_note'] = 'Содержит около 30 золотых.'
+L['stash_of_gems'] = 'Сундук с драгоценностями'
+L['stash_of_gems_note'] = 'Содержит около 7 золотых и самоцветы.'
 
 -------------------------------------------------------------------------------
 ------------------------------- Krasarang Wilds -------------------------------
 -------------------------------------------------------------------------------
 
-L['equipment_locker'] = nil
+L['equipment_locker'] = 'Сундук с экипировкой'
 
 -------------------------------------------------------------------------------
 ------------------------------- The Veiled Stair ------------------------------
 -------------------------------------------------------------------------------
 
-L['forgotten_lockbox'] = nil
-L['forgotten_lockbox_note'] = nil
+L['forgotten_lockbox'] = 'Позабытый ларец'
+L['forgotten_lockbox_note'] = 'В таверне на втором этаже.\nСодержит около 10 золотых.'
 
 -------------------------------------------------------------------------------
 --------------------------- Vale of Eternal Blossoms --------------------------
 -------------------------------------------------------------------------------
 
-L['guolai_halls'] = nil
-L['guolai_cache'] = nil
+L['guolai_halls'] = 'В {location:Залах Го-Лай}'
+L['guolai_cache'] = 'Найдите {item:87779} и откройте {object:Древний тайник Го-Лай}.'
 
 -------------------------------------------------------------------------------
 -------------------------------- Kun Lai Summit -------------------------------
 -------------------------------------------------------------------------------
 
-L['lost_adventurers_belongings'] = nil -- wowhead.com/object=213774
-L['lost_adventurers_belongings_note'] = nil
-L['momos_treasure_chest'] = nil -- wowhead.com/object=214407
-L['momos_treasure_chest_note'] = nil
-L['hozen_treasure_cache'] = nil -- wowhead.com/object=213769
-L['hozen_treasure_cache_note'] = nil
-L['rikktiks_tick_remover'] = nil -- wowhead.com/object=213793
-L['stolen_sprite_treasure'] = nil -- wowhead.com/object=213770
-L['stolen_sprite_treasure_note'] = nil
-L['sturdy_yaungol_spear'] = nil -- wowhead.com/object=213842
-L['sprites_cloth_chest'] = nil -- wowhead.com/object=213751
+L['lost_adventurers_belongings'] = 'Потерянные вещи путешественника' -- wowhead.com/object=213774
+L['lost_adventurers_belongings_note'] = 'Содержит около 97 золотых.'
+L['momos_treasure_chest'] = 'Сундук сокровищ Мо-Мо' -- wowhead.com/object=214407
+L['momos_treasure_chest_note'] = 'Содержит около 10 золотых.'
+L['hozen_treasure_cache'] = 'Тайник хозенов' -- wowhead.com/object=213769
+L['hozen_treasure_cache_note'] = 'Содержит около 99 золотых.'
+L['rikktiks_tick_remover'] = 'Сундучок Рикктика' -- wowhead.com/object=213793
+L['stolen_sprite_treasure'] = 'Украденные сокровища духов' -- wowhead.com/object=213770
+L['stolen_sprite_treasure_note'] = 'Содержит около 104 золотых.'
+L['sturdy_yaungol_spear'] = 'Тайник с оружием яунголов' -- wowhead.com/object=213842
+L['sprites_cloth_chest'] = 'Сундучок с тканями духов' -- wowhead.com/object=213751
 
 -------------------------------------------------------------------------------
 ------------------------------- Townlong Steppes ------------------------------
