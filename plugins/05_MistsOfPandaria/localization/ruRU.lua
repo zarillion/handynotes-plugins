@@ -48,15 +48,19 @@ L['sunken_treasure_note'] = nil
 --------------------------------- ACROSS ZONES --------------------------------
 -------------------------------------------------------------------------------
 
-L['zandalari_warbringer_note'] = nil
-L['zandalari_warbringer_killed'] = nil
+L['zandalari_warbringer_note'] = [[
+Добычу можно собирать несколько раз в день.
 
-L['squirrels_note'] = nil
+Цвет средства передвижения у {npc:69842} определяет цвет выпадающего средства передвижения.
+]]
+L['zandalari_warbringer_killed'] = 'Зандаларский завоеватель убит.'
+
+L['squirrels_note'] = 'Необходимо использовать эмоцию {emote:/любовь} на зверьках, а не на боевых питомцах.'
 L['options_icons_squirrels'] = '{achievement:6350}'
-L['options_icons_squirrels_desc'] = nil
+L['options_icons_squirrels_desc'] = 'Показывать местоположение зверьков для достижения {achievement:6350}.'
 
-L['options_icons_lorewalker'] = nil
-L['options_icons_lorewalker_desc'] = nil
+L['options_icons_lorewalker'] = '{achievement:6548}'
+L['options_icons_lorewalker_desc'] = 'Показывать местоположение объектов для достижения {achievement:6548}.'
 
 -------------------------------------------------------------------------------
 --------------------------------- Jade Forest ---------------------------------
@@ -112,15 +116,15 @@ L['sprites_cloth_chest'] = 'Сундучок с тканями духов' -- wo
 ------------------------------- Townlong Steppes ------------------------------
 -------------------------------------------------------------------------------
 
-L['abandoned_crate_of_goods'] = nil -- wowhead.com/object=213961
-L['abandoned_crate_of_goods_note'] = nil
+L['abandoned_crate_of_goods'] = 'Брошенный ящик с товарами' -- wowhead.com/object=213961
+L['abandoned_crate_of_goods_note'] = 'Содержит около 103 золотых.'
 
 -------------------------------------------------------------------------------
 ----------------------------- Valley of Four Winds ----------------------------
 -------------------------------------------------------------------------------
 
-L['cache_of_pilfered_goods'] = nil
-L['virmen_treasure_cache'] = nil
+L['cache_of_pilfered_goods'] = 'Груда украденных товаров'
+L['virmen_treasure_cache'] = 'Сундук с сокровищами гну-синей'
 L['mysterious_fruit_pile'] = 'Груда таинственных фруктов'
 
 -------------------------------------------------------------------------------
@@ -128,10 +132,10 @@ L['mysterious_fruit_pile'] = 'Груда таинственных фруктов
 -------------------------------------------------------------------------------
 
 L['options_icons_kroshik'] = '{achievement:8108}'
-L['options_icons_kroshik_desc'] = nil
+L['options_icons_kroshik_desc'] = 'Показывать местоположение для достижения {achievement:8108}.'
 
-L['iot_portal'] = nil
-L['ritualstone_needed'] = nil
-L['kroshik_bow'] = nil
-L['kroshik_adult'] = nil
-L['kroshik_baby'] = nil
+L['iot_portal'] = 'Портал'
+L['ritualstone_needed'] = 'Для призыва редкого монстра требуется 3 {item:94221}.'
+L['kroshik_bow'] = '{emote:/поклон}'
+L['kroshik_adult'] = 'Бегает вокруг озера.\n{emote:/поклон}'
+L['kroshik_baby'] = 'Бегает по этой области.\n{emote:/поклон}'
