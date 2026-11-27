@@ -1,48 +1,61 @@
 local ADDON_NAME, ns = ...
 local L = ns.NewLocale('ruRU')
 if not L then return end
-
+-- Russian translation by ZamestoTV
 -------------------------------------------------------------------------------
 -------------------------------- TIMELESS ISLE --------------------------------
 -------------------------------------------------------------------------------
 
-L['cavern_of_lost_spirits'] = nil
-L['looted_twice'] = nil
-L['neverending_spritewood'] = nil
-L['neverending_spritewood_note'] = nil
-L['zarhym_note'] = nil
+L['cavern_of_lost_spirits'] = 'Внутри {location:Пещеры Заблудших Духов}.'
+L['looted_twice'] = 'Вы еще не убивали этого редкого монстра этим персонажем. Добычу с него можно получить дважды за сегодня.'
+L['neverending_spritewood'] = 'Бесконечное дерево духов'
+L['neverending_spritewood_note'] = 'Разбив {object:Бесконечное дерево духов}, убейте как можно больше {npc:71824}, пока на вас действует отрицательный эффект {spell:144052}!'
+L['zarhym_note'] = 'Раз в день вы можете поговорить с {npc:71876}, чтобы войти в {spell:144145} и попытаться вернуть его тело.'
 
-L['archiereus_note'] = nil
-L['chelon_note'] = nil
-L['cranegnasher_note'] = nil
-L['dread_ship_note'] = nil
-L['emerald_gander_note'] = nil
-L['evermaw_note'] = nil
-L['great_turtle_furyshell_note'] = nil
-L['imperial_python_note'] = nil
-L['ironfur_steelhorn_note'] = nil
-L['karkanos_note'] = nil
-L['monstrous_spineclaw_note'] = nil
-L['rattleskew_note'] = nil
-L['spelurk_cave'] = nil
-L['spelurk_note'] = nil
-L['zhugon_note'] = nil
-L['garnia_note'] = nil
+L['archiereus_note'] = 'Купите {item:103684} у {npc:73306}, чтобы призвать этого редкого монстра.'
+L['chelon_note'] = 'Нажмите на {object:Подозрительно пустой панцирь}, чтобы призвать редкого монстра.'
+L['cranegnasher_note'] = 'Приманите {npc:72095} с юга к туше журавля.'
+L['dread_ship_note'] = 'Добудьте {item:104115} с {npc:73279} и используйте его у {object:Проклятого надгробного каменя}, чтобы призвать редкого монстра.'
+L['emerald_gander_note'] = 'Убивайте {npc:72762} вокруг {location:Турнирной площадки Небожителей}, пока не появится {npc:73158}.'
+L['evermaw_note'] = 'Плавает по часовой стрелке вокруг всего острова.'
+L['great_turtle_furyshell_note'] = 'Убивайте {npc:72764} или {npc:72763}, пока не появится {npc:73161}.'
+L['imperial_python_note'] = 'Убивайте {npc:72841} вокруг {location:Турнирной площадки Небожителей}, пока не появится {npc:73163}.'
+L['ironfur_steelhorn_note'] = 'Убивайте {npc:72844} вокруг {location:Турнирной площадки Небожителей}, пока не появится {npc:73160}.'
+L['karkanos_note'] = 'Поговорите с {npc:72151}, чтобы вытянуть редкого монстра из воды. Вот это улов!'
+L['monstrous_spineclaw_note'] = 'Убивайте {npc:72766} по всему острову, пока не появится {npc:73166}.'
+L['rattleskew_note'] = 'Убивайте волны {npc:72033}, пока не появится редкий монстр.'
+L['spelurk_cave'] = 'Внутри пещеры {npc:71864}.'
+L['spelurk_note'] = [[
+Чтобы проникнуть в пещеру {npc:71864}, найдите один из затерянных артефактов, разбросанных по острову, и примените его способность на камни, преграждающие вход:
 
-L['blazing_chest'] = nil
-L['moss_covered_chest'] = nil
-L['skull_covered_chest'] = nil
-L['smoldering_chest'] = nil
-L['sturdy_chest'] = nil
-L['albatros_note'] = nil
-L['timeless_chest'] = nil
-L['timeless_chest_note'] = nil
+• {spell:147278}
+• {spell:149333}
+• {spell:149345}
+• {spell:149350}
 
-L['gleaming_treasure_satchel_note'] = nil
-L['gleaming_treasure_chest_note'] = nil
-L['mist_covered_treasure_chest_note'] = nil
-L['ropebound_treasure_chest_note'] = nil
-L['sunken_treasure_note'] = nil
+Если вы не можете найти артефакт, используйте {item:70161} (или другие игрушки для сидения) прямо перед камнями. Сядьте, затем встаньте и пройдите внутрь.
+]]
+L['zhugon_note'] = 'Во время события с пивоварением убивайте {npc:71908} и разбивайте бочки, пока не появится редкий монстр.'
+L['garnia_note'] = 'Используйте {npc:73531}, чтобы долететь до вершины горы и убить {npc:73282}.'
+
+L['blazing_chest'] = 'Пылающий сундук'
+L['moss_covered_chest'] = 'Покрытый мхом сундук'
+L['skull_covered_chest'] = 'Покрытый черепами сундук'
+L['smoldering_chest'] = 'Тлеющий сундук'
+L['sturdy_chest'] = 'Прочный сундук'
+L['albatros_note'] = 'Ударьте {npc:73531}, чтобы он перенес вас сюда.\n\n{note:Спровоцировать {npc:73531}, не убивая его, можно с помощью игрушки {item:119083} или аналогичных.}'
+L['timeless_chest'] = 'Вневременный сундук'
+L['timeless_chest_note'] = 'Вы можете купить ключ у {npc:72007} за 500x {currency:777}.'
+
+L['gleaming_treasure_satchel_note'] = 'Пройдите по канатам корабля, затем запрыгните на шест, на котором висит сумка.'
+L['gleaming_treasure_chest_note'] = 'Прыгайте по столбам, чтобы добраться до сокровища.'
+L['mist_covered_treasure_chest_note'] = [[
+Сначала необходимо открыть {object:Блестящий сундук с сокровищами} и {object:Перевязанный канатами ящик с сокровищами}.
+
+Нажмите на {object:Блестящую статую журавля}, чтобы взлететь к сокровищу.
+]]
+L['ropebound_treasure_chest_note'] = 'Пройдите по канатам к сокровищу.'
+L['sunken_treasure_note'] = 'Убивайте элитных противников на затонувшем корабле, чтобы получить ключ.'
 
 -------------------------------------------------------------------------------
 --------------------------------- ACROSS ZONES --------------------------------
